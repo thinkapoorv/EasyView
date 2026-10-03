@@ -6,7 +6,7 @@
   <h3><i>See the web your way.</i></h3>
   <br>
 
-  [![Version: 1.1.1.4](https://img.shields.io/badge/Version-1.1.1.4-000000?style=for-the-badge&logo=vercel)](#)
+  [![Version: 1.1.1.6](https://img.shields.io/badge/Version-1.1.1.6-000000?style=for-the-badge&logo=vercel)](#)
   [![Platform](https://img.shields.io/badge/Platform-15%2B%20Browsers-0055FF?style=for-the-badge)](https://easyview.in/)
   [![Website](https://img.shields.io/badge/Website-EasyView.in-0055FF?style=for-the-badge)](https://easyview.in/)
 
@@ -27,11 +27,11 @@
 
 <br>
 <div align="center">
-  <img height="360" src="https://github.com/user-attachments/assets/58570613-c38b-4e95-9fa9-fc1ecae753eb" style="border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.2);" alt="EasyView Mobile UI Light" />
+  <img height="360" src="https://raw.githubusercontent.com/thinkapoorv/EasyView-Public-Assets/main/easyviewlight.jpeg" style="border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.2);" alt="EasyView Mobile UI Light" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img height="360" src="https://github.com/user-attachments/assets/8112a0f2-f569-4d79-a84f-7998ce50c96f" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);" alt="Taare Zameen Par" />
+  <img height="360" src="https://raw.githubusercontent.com/thinkapoorv/EasyView-Public-Assets/main/taare.png" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);" alt="Taare Zameen Par" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img height="360" src="https://github.com/user-attachments/assets/8054d9b8-aa31-41d4-bd40-9318885f6921" style="border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.2);" alt="EasyView Dark Theme Mobile" />
+  <img height="360" src="https://raw.githubusercontent.com/thinkapoorv/EasyView-Public-Assets/main/easyviewdark.jpeg" style="border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.2);" alt="EasyView Dark Theme Mobile" />
 </div>
 <br>
 
@@ -68,7 +68,7 @@ The web visits hundreds of millions of minds every day. Yet, it strictly follows
 
 <br>
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/abb169c8-1e6e-416b-9155-3fcda3a2dd1f" style="max-width: 100%; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);" alt="Dyslexia Reading Mode" />
+  <img src="https://raw.githubusercontent.com/thinkapoorv/EasyView-Public-Assets/main/dyslexiamode.png" style="max-width: 100%; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);" alt="Dyslexia Reading Mode" />
 </div>
 <br>
 
@@ -100,7 +100,7 @@ We fundamentally believe top-tier cognitive tools should be accessible. The Easy
 
 <div align="center">
 
-https://github.com/user-attachments/assets/1dc45b4e-3393-4c00-85e1-e849f7352c0b
+https://github.com/user-attachments/assets/475af861-ebd4-41f7-9cad-38b310dfb59a
 
 </div>
 

@@ -11,10 +11,11 @@
       }
     }
   },
-  "name": "EasyView — Clarity for Every Brain",
-  "short_name": "EasyView",
-  "version": "1.1.1.5",
-  "description": "Transform any website instantly with AI prompts or single clicks. See the web your way.",
+  "default_locale": "en",
+  "name": "__MSG_appName__",
+  "short_name": "__MSG_appShortName__",
+  "version": "1.1.1.6",
+  "description": "__MSG_appDesc__",
   "permissions": [
     "activeTab",
     "storage",
@@ -42,13 +43,7 @@
         "dom-utils.js",
         "content.js",
         "js/features/selection-tooltip.js",
-        "js/features/text-simplification.js",
-        "js/features/jargon-decoder.js",
-        "js/features/sensory-shield.js",
-        "js/features/dyslexia-mode.js",
-        "js/features/text-to-speech.js",
         "js/features/content-privacy-shield.js",
-        "js/features/morph-engine.js",
         "js/features/sticky-notes.js",
         "inject/index.js",
         "inject/payment-bridge.js"
@@ -75,6 +70,20 @@
         "mac": "Command+Shift+S"
       },
       "description": "Pin Sticky Note"
+    },
+    "toggle-privacy": {
+      "suggested_key": {
+        "default": "Alt+X",
+        "mac": "Command+Shift+P"
+      },
+      "description": "Toggle Privacy Shield"
+    },
+    "toggle-highlighter": {
+      "suggested_key": {
+        "default": "Alt+L",
+        "mac": "Command+Shift+H"
+      },
+      "description": "Toggle Highlighter Mode"
     }
   },
   "icons": {

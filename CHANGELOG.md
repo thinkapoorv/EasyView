@@ -4,7 +4,50 @@ All notable changes to EasyView will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-## [1.1.1.5] - 2026-09-06
+## [1.1.1.6] - 2026-10-03
+
+### Features
+- **Website Highlighter**: Introduced a lightweight, native website highlighter. Users can now select and highlight text with custom colors using the floating glass toolbar or the 'Alt+H' keyboard shortcut, with all highlights persisting reliably across page reloads.
+- **Jargon Visibility Toggle**: Added a native "Eye" toggle button directly inside the Jargon Glossary panel. Users can instantly strip all backgrounds, dotted borders, and styles from highlighted terminology on the page without deleting their caches—restoring the document fully to its native visual flow without permanently losing memory data.
+- **Global UI Internationalization (i18n)**: Fully globalized the extension's interface infrastructure across 54 browser-supported languages. Engineered a custom Babel AST parser to securely map dynamic Javascript strings and utilized a fast native DOM-injection script for zero-layout-shift UI localization.
+- **Emotional Uninstall Portal**: Launched an ultra-premium, interactive `easyview.in/goodbye` web portal to collect auto-routed uninstallation feedback. Features a stateful emotive mascot (Evie), cinematic animations, a 3D reason selector, and an optional safe-space elaboration modal.
+- **Security Paused UI**: Hardened the global security pipeline for suspended/banned accounts with a sleek, glassmorphic "Access Paused" UI sync that instantly traverses the web dashboard and all active extension instances to halt feature access without ugly errors.
+
+- **Auto-Protect Screen Share Shielding**: Engineered a completely dual-path idempotently guarded WebRTC interceptor capable of universally forcing privacy blurs across all active tabs the millisecond a Google Meet, Discord, or native external Projector/Monitor screen share session initiates, neutralizing accidental data leaks instantly.
+- **Notes Workspace Hub**: Engineered a dedicated, full-screen **Interactive Workspace** dashboard featuring a breathtaking Stripe-inspired glassmorphic masonry grid to manage all Global and Site-Specific notes seamlessly in one place.
+- **Dyslexia Component Hub**: Embedded a native typography control dropdown directly inside the Dyslexia reading panel under the popup UI, eliminating the need to navigate to separate tabs to switch specialized reading fonts.
+- **Dyslexia Intensity Engine**: Implemented rapid-configuration presets (Low, Medium, High) into the Dyslexia Reading mode, allowing users to instantly scale spatial parameters (letter spacing, line height, word gaps) with a single click.
+- **Inline Synthetic Previews**: Completely scrapped the old static preview placeholders, engineering an authentic macOS windowed "Mini Browser" UI embedded directly inside your settings. Dyslexia mappings now render live inside a scalable Wikipedia mockup, Visual modifications dynamically invert CSS themes, and Focus Shield securely blurs a high-fidelity Material Design 3 Gmail interface in real-time explicitly from the popup.
+- **Hardware Picture-in-Picture Engine**: Instead of locking sticky notes strictly inside active browser tabs, the new Workspace intelligently hooks into the physical `Document Picture-in-Picture` API. This allows your dashboard to literally decouple from Chrome and float perpetually above your entire OS.
+- **Cloud-Encrypted Note Export**: Premium users can gracefully route and compile their entire spatial note configuration into a local JSON archive natively leveraging strict, cryptographically hardened backend pipelines.
+- **Frictionless Offline Import Mapping**: Added a robust JSON-parse ingestion engine providing O(1) duplicate collision immunity while instantly hydrating missing backup notes directly into your active Global database.
+- **Popup Quick Stats Telemetry**: Radically expanded popup utility by injecting a live telemetry widget that polls background memory arrays dynamically, giving instantaneous counts for Global and Local active notes.
+- **Infinite Color Palette Architecture**: Replaced static color swatches with a high-performance conic-gradient custom hex picker, automatically passing custom colors through an onboard YIQ luminance algorithm to guarantee 100% accessible text contrasts on any theme.
+- **Hardware-Accelerated UI Scaling**: Extracted and stabilized CSS `resize: both` logic directly to the outer glass container boundary, enabling responsive native corner dragging without disrupting embedded UI controls, menus, or watermark aesthetics.
+
+### Fixed
+- **Jargon Cache Overwrites**: Hardened the internal memory architecture to mathematically merge preexisting partial tooltip highlighting with new full-page decoding tasks, guaranteeing manual vocabulary selections are never deleted or overridden by newer large page scans.
+- **Persistent Glossary Sync**: Repaired a visual sync delay where tooltip decodes did not instantly populate the actively opened glossary panel until the page was manually reloaded. Now, word queries are physically intercepted and instantly injected into the glossary list natively.
+- **Infinite Loader Loops**: Remediated a bug where recalling previously cached partial jargon tooltips mathematically prompted the Jargon Engine to configure itself "GLOBAL ON" behind the scenes, causing subsequent unrelated web pages to immediately aggressively lock standard loading routines and deploy unwarranted full-page AI scans upon hydration.
+- **Legacy Authentication Verification**: Resolved a silent failure state affecting legacy users migrated from `accesstoken` architectures. The extension popup, webpage tooltips, and data export endpoints now explicitly verify cryptographic session token integrity and proactively prompt users with a Nudge Modal to re-authenticate at easyview.in rather than failing silently on backend APIs.
+- **Loader Artificial Reality Lock**: Fixed a visual bug where the global AI loader overlay would violently flicker and disappear before animation visibility keyframes could execute during ultra-fast/cached API responses. The loader is now mathematically locked to a 1.5s heartbeat.
+- **Preview Scaling Overflow**: Eliminated fixed height boundaries and resolved horizontal grid squashing constraints inside the popup configuration drawers, ensuring aggressive typography scaling configurations natively expand without truncating the mini-browser previews.
+- **Intelligent Button Themes (Custom Engine)**: Engineered a lightweight JavaScript saturation-observer to dynamically evaluate button colors. Native vibrant buttons (like Blue/Red calls-to-action) now retain their original colors in Dark Mode, while grayscale/white buttons properly invert to sleek dark variants.
+- **Mammoth Code Eradication**: Sliced over 8,700 lines of severely bloated, dead bundle code from the active visual injection scripts. This yields massive execution and memory overhead savings without terminating any active extension behaviors.
+- **Visuals Dark Mode Exclusions**: Prevented images, videos, and picture elements from incorrectly inverting their colors when the visual Dark Mode is enabled, ensuring media retains its original colors.
+- **Asynchronous Boot Vacuum**: Engineered an intelligent "Soft-Merge" interceptor during database loads that explicitly protects and preserves any new notes a user creates rapidly before background initialization finishes, permanently stopping ghost deletion race conditions.
+- **Native SPA Routing Hydration**: Hardened Single Page Application compatibility. Sticky notes now actively monkeypatch the browser's native `history.pushState` API to instantly detect internal React/Next.js routing, explicitly purging old spatial geometries from memory and rehydrating fresh layout context immediately without relying on delayed background worker callbacks.
+- **Transient Session Hydration**: Overhauled the 'Hide until Reload' state engine, actively scrubbing and flushing transient session flags across all database pulls so hidden stickies flawlessly reappear on the screen across page restarts.
+- **Dynamic Modal Engine Integration**: Sticky notes now dynamically evaluate physical bounding locks on constrained overlay components (e.g. Modals), decoupling themselves utilizing mathematically precise fixed viewport anchor points to natively bypass CSS overflow constraints.
+- **Micro-Sync Animation Hooks**: Stripped legacy layout timers in favor of binding directly to the browser's hardware `requestAnimationFrame` loop, delivering 60FPS fluid masking syncs against all inbound UI transitions.
+- **Robust DOM ID Sandbox Guard**: Upgraded the structural path engine to natively trace DOM paths against deeply duplicated template IDs commonly looped inside SPAs, guaranteeing strictly validated coordinate logic.
+- **Z-Index True-Ray Occlusion**: The core UI crawler actively computes deep center coordinates, casting real-time element-interception rays to resolve hierarchy-agnostic physical occlusion masks.
+
+### Security
+- **PostMessage Origin Hardening**: Replaced substring-based origin matching (`includes()`) in the payment bridge with a strict exact-match allowlist, closing a spoofing vector where crafted domains (e.g. `attacker-easyview.in`) could have passed the old check.
+- **Sandbox Isolation Guard**: Restricted the Morph Engine sandbox iframe to only accept commands from its direct parent frame. External websites can no longer embed the sandbox and issue arbitrary execution requests to it.
+
+## [1.1.1.5] - 2026-09-08
 
 ### Features
 * **Tour Enhancements**: Added the new Sticky Notes feature directly into the interactive onboarding tour.

@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll("[data-i18n]").forEach(e=>{const t=e.getAttribute("data-i18n"),a=chrome.i18n.getMessage(t);a&&(e.innerHTML=a)}),document.querySelectorAll("[data-i18n-placeholder]").forEach(e=>{const t=e.getAttribute("data-i18n-placeholder"),a=chrome.i18n.getMessage(t);a&&e.setAttribute("placeholder",a)})});

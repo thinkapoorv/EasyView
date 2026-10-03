@@ -1,0 +1,920 @@
+{
+  "appName": {
+    "message": "EasyView — Clarity for Every Brain"
+  },
+  "appShortName": {
+    "message": "EasyView"
+  },
+  "appDesc": {
+    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+  },
+  "t_df13eb31": {
+    "message": "EasyView"
+  },
+  "t_a6eebfd5": {
+    "message": "System Alert"
+  },
+  "t_63346187": {
+    "message": "System notification"
+  },
+  "t_9899bf33": {
+    "message": "✕"
+  },
+  "t_95c002de": {
+    "message": "EasyView\r\n                        Engine"
+  },
+  "t_ed017578": {
+    "message": "Local features remain\r\n                        active"
+  },
+  "t_900eba0c": {
+    "message": "✓"
+  },
+  "t_9033e0e3": {
+    "message": "!"
+  },
+  "t_308ec022": {
+    "message": "EasyView\r\n                        experience"
+  },
+  "t_05120c13": {
+    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+  },
+  "t_cc9a80ff": {
+    "message": "Remind me in 12 hours"
+  },
+  "t_9914a0ce": {
+    "message": "Light"
+  },
+  "t_7fc56270": {
+    "message": "A"
+  },
+  "t_194f5394": {
+    "message": "Font"
+  },
+  "t_5dbc98dc": {
+    "message": "S"
+  },
+  "t_69691c7b": {
+    "message": "M"
+  },
+  "t_d20caec3": {
+    "message": "L"
+  },
+  "t_98f770b0": {
+    "message": "Features"
+  },
+  "t_ee24c7ad": {
+    "message": "Visuals"
+  },
+  "t_60ad5b1d": {
+    "message": "Converter"
+  },
+  "t_3a4f8d88": {
+    "message": "Notebook"
+  },
+  "t_36b84f8e": {
+    "message": "BETA"
+  },
+  "t_2f200cdc": {
+    "message": "Jargon Decoder"
+  },
+  "t_df1f4852": {
+    "message": "Simplify complex legal terms"
+  },
+  "t_ed196831": {
+    "message": "wikipedia.org/wiki/Neurodivergence"
+  },
+  "t_61e9c06e": {
+    "message": "W"
+  },
+  "t_e653da7d": {
+    "message": "Neurodivergence"
+  },
+  "t_d621fb54": {
+    "message": "a\r\n                                                lot easier"
+  },
+  "t_1f5b14d4": {
+    "message": "Focus & Privacy Shield"
+  },
+  "t_e86f8066": {
+    "message": "Blur private and sensitive content"
+  },
+  "t_7f766191": {
+    "message": "mail.google.com/mail/u/0/"
+  },
+  "t_dfcf28d0": {
+    "message": "G"
+  },
+  "t_54b6024d": {
+    "message": "Google Accounts"
+  },
+  "t_9ef62aa4": {
+    "message": "Security alert"
+  },
+  "t_cf4a1269": {
+    "message": "- Password reset requested..."
+  },
+  "t_8d9c307c": {
+    "message": "N"
+  },
+  "t_170b1d36": {
+    "message": "Netflix"
+  },
+  "t_89ba7acb": {
+    "message": "New this week"
+  },
+  "t_146e57ff": {
+    "message": "- Check out our latest\r\n                                                    releases..."
+  },
+  "t_2086b5c9": {
+    "message": "Protection Techniques"
+  },
+  "t_6033ea98": {
+    "message": "Private Content Blurring"
+  },
+  "t_51a3f9b4": {
+    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+  },
+  "t_f99d1c8a": {
+    "message": "Auto-Protect on Screen Share"
+  },
+  "t_582d75ec": {
+    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+  },
+  "t_d844c502": {
+    "message": "Using\r\n                                                    a Physical Projector?"
+  },
+  "t_4e17ea37": {
+    "message": "Duplicate Mode"
+  },
+  "t_ad359770": {
+    "message": "Reading Flashlight"
+  },
+  "t_5280b1bd": {
+    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+  },
+  "t_c7d3f7ca": {
+    "message": "1.\r\n                                                            Beam Shape"
+  },
+  "t_929ef908": {
+    "message": "Spotlight\r\n                                                            or Ruler"
+  },
+  "t_c3a91d7c": {
+    "message": "2.\r\n                                                                Beam Size / Height"
+  },
+  "t_d708cdc5": {
+    "message": "Thickness\r\n                                                                of view area"
+  },
+  "t_f0cad41b": {
+    "message": "35px"
+  },
+  "t_f9e97460": {
+    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+  },
+  "t_04819a28": {
+    "message": "Gently\r\n                                                            stains the reading gap"
+  },
+  "t_efe8653a": {
+    "message": "4.\r\n                                                            Ambient Background Shadow"
+  },
+  "t_509328bf": {
+    "message": "Dimness\r\n                                                            surrounding your lens"
+  },
+  "t_c43c6db7": {
+    "message": "Sensory Shield"
+  },
+  "t_0377e28b": {
+    "message": "Freeze distracting animations"
+  },
+  "t_5412a44f": {
+    "message": "newsdaily.com/breaking"
+  },
+  "t_2b7ce080": {
+    "message": "BREAKING NEWS"
+  },
+  "t_c7f62848": {
+    "message": "Reading an article on the daily news..."
+  },
+  "t_4a9c84b7": {
+    "message": "WIN!"
+  },
+  "t_eb5918a5": {
+    "message": "Shield Mode"
+  },
+  "t_6f8d1b93": {
+    "message": "(default)"
+  },
+  "t_9e3360ac": {
+    "message": "PRO"
+  },
+  "t_3a861248": {
+    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+  },
+  "t_a434fd22": {
+    "message": "Dyslexia Reading Mode"
+  },
+  "t_d89c73b9": {
+    "message": "Optimized fonts & spacing"
+  },
+  "t_8ba9894e": {
+    "message": "Intensity Profile"
+  },
+  "t_28d0edd0": {
+    "message": "Low"
+  },
+  "t_87f8a6ab": {
+    "message": "Medium"
+  },
+  "t_655d20c1": {
+    "message": "High"
+  },
+  "t_e648e266": {
+    "message": "wikipedia.org/wiki/Reading"
+  },
+  "t_26fccddf": {
+    "message": "Reading"
+  },
+  "t_8715d5a2": {
+    "message": "Here is a preview of your reading settings."
+  },
+  "t_9dfc5d57": {
+    "message": "Advanced Options"
+  },
+  "t_3f428d1e": {
+    "message": "Font Style"
+  },
+  "t_b55d53a8": {
+    "message": "Default (No Change)"
+  },
+  "t_5d2967ef": {
+    "message": "OpenDyslexic"
+  },
+  "t_1042daad": {
+    "message": "Lexend (ADHD Pro) 🔒"
+  },
+  "t_bcec044a": {
+    "message": "Atkinson Hyperlegible 🔒"
+  },
+  "t_7758a1c0": {
+    "message": "Fast Sans"
+  },
+  "t_c920a645": {
+    "message": "Fast Serif"
+  },
+  "t_93075043": {
+    "message": "Comic Neue"
+  },
+  "t_c5461fe9": {
+    "message": "Comic Sans"
+  },
+  "t_81cb1a74": {
+    "message": "Letter Spacing"
+  },
+  "t_960b44c5": {
+    "message": "Normal"
+  },
+  "t_1ef0054f": {
+    "message": "Line Height"
+  },
+  "t_60086472": {
+    "message": "1.5"
+  },
+  "t_a11b6ae4": {
+    "message": "Word Spacing"
+  },
+  "t_45f0d4fa": {
+    "message": "Font Size"
+  },
+  "t_30bd7ce7": {
+    "message": "100%"
+  },
+  "t_3711e805": {
+    "message": "Overlay Color"
+  },
+  "t_6adf97f8": {
+    "message": "None"
+  },
+  "t_2bd8c63b": {
+    "message": "Beige"
+  },
+  "t_01eb0ca4": {
+    "message": "Light Blue"
+  },
+  "t_1381943e": {
+    "message": "Light Green"
+  },
+  "t_3b6a0a37": {
+    "message": "Light Yellow"
+  },
+  "t_376c1f17": {
+    "message": "Bionic Reading"
+  },
+  "t_7dd3aef2": {
+    "message": "Text-to-Speech"
+  },
+  "t_83e101fc": {
+    "message": "Read aloud with highlighting"
+  },
+  "t_de3c731b": {
+    "message": "Play"
+  },
+  "t_105b296a": {
+    "message": "Pause"
+  },
+  "t_11a755d5": {
+    "message": "Stop"
+  },
+  "t_7f7991b3": {
+    "message": "Voice Selection"
+  },
+  "t_c622cd42": {
+    "message": "Auto (Best Quality)"
+  },
+  "t_65f4fd8d": {
+    "message": "Reading Speed"
+  },
+  "t_43fe8bf4": {
+    "message": "Very Slow"
+  },
+  "t_efa53979": {
+    "message": "Slow"
+  },
+  "t_e16b5b7f": {
+    "message": "Fast"
+  },
+  "t_f02401d8": {
+    "message": "Very Fast"
+  },
+  "t_bd7a9717": {
+    "message": "Volume"
+  },
+  "t_f1943132": {
+    "message": "70%"
+  },
+  "t_ec03a296": {
+    "message": "Pause on Punctuation"
+  },
+  "t_beb83d5b": {
+    "message": "Word Highlighting"
+  },
+  "t_2faec1f9": {
+    "message": "Enable"
+  },
+  "t_650be618": {
+    "message": "Mode"
+  },
+  "t_a18366b2": {
+    "message": "Dark"
+  },
+  "t_c0d285d9": {
+    "message": "wikipedia.org/wiki/Light"
+  },
+  "t_0bea2c29": {
+    "message": "Perfect visuals for eye comfort. Light can be intense."
+  },
+  "t_b25323f9": {
+    "message": "Brightness"
+  },
+  "t_c63ecd19": {
+    "message": "Contrast"
+  },
+  "t_b84a9a38": {
+    "message": "Sepia"
+  },
+  "t_9f1ef078": {
+    "message": "0%"
+  },
+  "t_d3f69752": {
+    "message": "Grayscale"
+  },
+  "t_7a1920d6": {
+    "message": "Default"
+  },
+  "t_b1166920": {
+    "message": "Lexend 🔒"
+  },
+  "t_e72cd05d": {
+    "message": "Text Stroke"
+  },
+  "t_cfcd2084": {
+    "message": "0"
+  },
+  "t_b5107247": {
+    "message": "Smart Converter & Reader"
+  },
+  "t_9308d95a": {
+    "message": "Current File"
+  },
+  "t_a94a5da0": {
+    "message": "Click or drag file to upload"
+  },
+  "t_7e9dfd1e": {
+    "message": "• Ready"
+  },
+  "t_4c4ad5fc": {
+    "message": "HTML"
+  },
+  "t_5c31b30e": {
+    "message": "EPUB"
+  },
+  "t_7cfd9a9f": {
+    "message": "DOCX"
+  },
+  "t_af97e960": {
+    "message": "📌"
+  },
+  "t_4cc6684d": {
+    "message": "Global"
+  },
+  "t_f95e488f": {
+    "message": "Site/Page"
+  },
+  "t_76ea793e": {
+    "message": "My Notebook"
+  },
+  "t_c510248f": {
+    "message": "🔒"
+  },
+  "t_e77fef01": {
+    "message": "Clear All"
+  },
+  "t_ea478870": {
+    "message": "Cancel"
+  },
+  "t_622883dd": {
+    "message": "Save Word"
+  },
+  "t_42b5a1f7": {
+    "message": "No saved words yet."
+  },
+  "t_eb17e766": {
+    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+  },
+  "t_4137f19c": {
+    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+  },
+  "t_39ca297e": {
+    "message": "Morph\r\n                                Applied"
+  },
+  "t_53eb74cf": {
+    "message": "Custom AI layout\r\n                                is active on this site."
+  },
+  "t_e8a57cd1": {
+    "message": "0 /\r\n                                500"
+  },
+  "t_133f32f7": {
+    "message": "Reset Page"
+  },
+  "t_bdc8021f": {
+    "message": "Morph Layout"
+  },
+  "t_dc806c8d": {
+    "message": "Default Presets"
+  },
+  "t_573828f5": {
+    "message": "🎪"
+  },
+  "t_0655b141": {
+    "message": "Horror Carnival"
+  },
+  "t_5a09d456": {
+    "message": "Creepy carnival vibes & animated horror text"
+  },
+  "t_d0c6e45c": {
+    "message": "💻"
+  },
+  "t_62c775a0": {
+    "message": "Matrix Console"
+  },
+  "t_fbc3a18e": {
+    "message": "Cyberpunk terminal theme"
+  },
+  "t_a7e78fbe": {
+    "message": "🧠"
+  },
+  "t_824f6040": {
+    "message": "Neuro Focus"
+  },
+  "t_0b7fa569": {
+    "message": "Dyslexia-friendly fonts & calming colors"
+  },
+  "t_1a393cc2": {
+    "message": "📖"
+  },
+  "t_b701f757": {
+    "message": "Reader Mode"
+  },
+  "t_42e1cc9d": {
+    "message": "Minimalist layout optimized for focus"
+  },
+  "t_575728e8": {
+    "message": "Recent Prompts"
+  },
+  "t_d1457b72": {
+    "message": "?"
+  },
+  "t_56afe21d": {
+    "message": "Guest User"
+  },
+  "t_931aeaed": {
+    "message": "Free Account"
+  },
+  "t_0d79352b": {
+    "message": "Login / Manage"
+  },
+  "t_0323de4f": {
+    "message": "Logout"
+  },
+  "t_cec2ab5f": {
+    "message": "API Settings"
+  },
+  "t_766cc4dd": {
+    "message": "Gemini"
+  },
+  "t_c410594b": {
+    "message": "AI Provider"
+  },
+  "t_222cf5ed": {
+    "message": "Google Gemini"
+  },
+  "t_a0607683": {
+    "message": "OpenRouter"
+  },
+  "t_2ada11af": {
+    "message": "Gemini API Key"
+  },
+  "t_cd34891c": {
+    "message": "Google AI Studio"
+  },
+  "t_5112b8f2": {
+    "message": "OpenRouter API Key"
+  },
+  "t_e85c3883": {
+    "message": "Save API Key"
+  },
+  "t_45fe862a": {
+    "message": "EasyView\r\n                                    AI Priority"
+  },
+  "t_1661f9c4": {
+    "message": "⚡ My API Key"
+  },
+  "t_dae6d18d": {
+    "message": "🌐 EasyView Servers"
+  },
+  "t_846c4b78": {
+    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+  },
+  "t_4d2da252": {
+    "message": "Privacy\r\n                                    & Priority"
+  },
+  "t_2f3b4c89": {
+    "message": "Priority 1:"
+  },
+  "t_f2369239": {
+    "message": "Priority 2:"
+  },
+  "t_c3c9e24c": {
+    "message": "Morph\r\n                                            Engine Note:"
+  },
+  "t_c7561db7": {
+    "message": "never"
+  },
+  "t_f68f76a0": {
+    "message": "Help & Feedback"
+  },
+  "t_5a5166fa": {
+    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+  },
+  "t_7687f6e4": {
+    "message": "Report a Bug / Give Feedback"
+  },
+  "t_8b86136c": {
+    "message": "Ready to simplify"
+  },
+  "t_789e4f06": {
+    "message": "&times;"
+  },
+  "t_240a0b2e": {
+    "message": "Export Settings"
+  },
+  "t_9d5ed678": {
+    "message": "B"
+  },
+  "t_dd753679": {
+    "message": "I"
+  },
+  "t_20a1d47c": {
+    "message": "✎"
+  },
+  "t_4c614360": {
+    "message": "U"
+  },
+  "t_2f43b42f": {
+    "message": "..."
+  },
+  "t_23f30f77": {
+    "message": "_ _ _"
+  },
+  "t_5a455a61": {
+    "message": "Strength"
+  },
+  "t_bad6a5dd": {
+    "message": "Opacity"
+  },
+  "t_8c489d09": {
+    "message": "Weight"
+  },
+  "t_18d80423": {
+    "message": "400"
+  },
+  "t_2c3a34f5": {
+    "message": "Line\r\n                                Height"
+  },
+  "t_f522dede": {
+    "message": "1.7x"
+  },
+  "t_72ef2b9b": {
+    "message": "Skip"
+  },
+  "t_336d5ebc": {
+    "message": "-"
+  },
+  "t_26b17225": {
+    "message": "+"
+  },
+  "t_0b90582f": {
+    "message": "Highlight"
+  },
+  "t_25f26d63": {
+    "message": "INK"
+  },
+  "t_2445ee3d": {
+    "message": "FADE"
+  },
+  "t_e8bfe352": {
+    "message": "Lexend 👑"
+  },
+  "t_0cd4623c": {
+    "message": "Atkinson Hyperlegible 👑"
+  },
+  "t_6fbda3a3": {
+    "message": "Arial"
+  },
+  "t_9b846c60": {
+    "message": "Helvetica"
+  },
+  "t_207c3219": {
+    "message": "Verdana"
+  },
+  "t_2bd141ae": {
+    "message": "Tahoma"
+  },
+  "t_720661ec": {
+    "message": "Trebuchet MS"
+  },
+  "t_c7a490e7": {
+    "message": "System Sans"
+  },
+  "t_8900726a": {
+    "message": "Times New Roman"
+  },
+  "t_eada8196": {
+    "message": "Georgia"
+  },
+  "t_96a78725": {
+    "message": "Garamond"
+  },
+  "t_1fda0880": {
+    "message": "System Serif"
+  },
+  "t_9495d215": {
+    "message": "Comic Sans MS"
+  },
+  "t_f800def4": {
+    "message": "Courier New"
+  },
+  "t_a3fd27e2": {
+    "message": "Monospace"
+  },
+  "t_2637b671": {
+    "message": "Font\r\n                            Size"
+  },
+  "t_f4f9f2f4": {
+    "message": "14px"
+  },
+  "t_cf3c032c": {
+    "message": "16px"
+  },
+  "t_d69f92af": {
+    "message": "18px"
+  },
+  "t_865b4c0b": {
+    "message": "20px"
+  },
+  "t_14cdf596": {
+    "message": "22px"
+  },
+  "t_33f60d47": {
+    "message": "24px"
+  },
+  "t_c7c6a7b0": {
+    "message": "28px"
+  },
+  "t_4d3604fc": {
+    "message": "32px"
+  },
+  "t_f92965e2": {
+    "message": "Done"
+  },
+  "t_63922286": {
+    "message": "×"
+  },
+  "t_a017e247": {
+    "message": "📦"
+  },
+  "t_5bea9af4": {
+    "message": "Export Theme Library"
+  },
+  "t_9127fdfe": {
+    "message": "Save your AI-generated masterpieces\r\n                locally."
+  },
+  "t_567311d7": {
+    "message": "Export Entire Library"
+  },
+  "t_cc8f0c0e": {
+    "message": ".json"
+  },
+  "t_ccca2ddf": {
+    "message": "EasyView Reader"
+  },
+  "t_8524de96": {
+    "message": "Loading..."
+  },
+  "t_25e8f2fd": {
+    "message": "Please wait..."
+  },
+  "t_ec9d785d": {
+    "message": "1.5x"
+  },
+  "t_dafd5f8f": {
+    "message": "Lexend"
+  },
+  "t_16d90a0b": {
+    "message": "Atkinson Hyperlegible"
+  },
+  "t_5c7db066": {
+    "message": "Segoe UI (Windows Default)"
+  },
+  "t_f7cee5ea": {
+    "message": "Calibri"
+  },
+  "t_ccc0239e": {
+    "message": "Candara"
+  },
+  "t_2963521b": {
+    "message": "Corbel"
+  },
+  "t_37f1cc58": {
+    "message": "Cambria"
+  },
+  "t_c3d9d4bf": {
+    "message": "Constantia"
+  },
+  "t_5d1a5b35": {
+    "message": "Palatino Linotype"
+  },
+  "t_4dc386b6": {
+    "message": "Book Antiqua"
+  },
+  "t_03c461f6": {
+    "message": "Franklin Gothic"
+  },
+  "t_7b1ee3b6": {
+    "message": "Century Gothic"
+  },
+  "t_a3293302": {
+    "message": "Gill Sans"
+  },
+  "t_eb726908": {
+    "message": "Sitka Text"
+  },
+  "t_b5bdee2c": {
+    "message": "Sylfaen"
+  },
+  "t_1ec05249": {
+    "message": "Microsoft Sans Serif"
+  },
+  "t_ad4a300c": {
+    "message": "Segoe UI Semibold"
+  },
+  "t_16507cdd": {
+    "message": "Consolas"
+  },
+  "t_391c5954": {
+    "message": "Lucida Console"
+  },
+  "t_9879efdf": {
+    "message": "Lucida Sans Typewriter"
+  },
+  "t_21f59b54": {
+    "message": "Impact"
+  },
+  "t_94a7bb97": {
+    "message": "Arial Black"
+  },
+  "t_6e87c2cb": {
+    "message": "Copperplate Gothic"
+  },
+  "t_40885309": {
+    "message": "Berlin Sans FB"
+  },
+  "t_6d5566ba": {
+    "message": "Gabriola"
+  },
+  "t_edb42482": {
+    "message": "Ink Free"
+  },
+  "t_fa233799": {
+    "message": "Segoe Script"
+  },
+  "t_2f7bc407": {
+    "message": "Segoe Print"
+  },
+  "t_0095a9fa": {
+    "message": "Export"
+  },
+  "t_520d0db3": {
+    "message": "Format"
+  },
+  "t_5956a437": {
+    "message": "TXT"
+  },
+  "t_1351017a": {
+    "message": "Filename"
+  },
+  "t_6af8212e": {
+    "message": "EasyView Notes Board"
+  },
+  "t_d16da0f5": {
+    "message": "🌎"
+  },
+  "t_6df173ff": {
+    "message": "📍"
+  },
+  "js_99537132": {
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
+  },
+  "js_24833610": {
+    "message": "Saved"
+  },
+  "js_57b20c49": {
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+  },
+  "js_7f34dbea": {
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+  },
+  "js_138703dd": {
+    "message": "No Theme on Page"
+  },
+  "js_cf3190a0": {
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+  },
+  "js_ac5b17d0": {
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+  },
+  "js_e541190e": {
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
+  },
+  "js_d2e8056c": {
+    "message": "<path d=\"M9.88 9.88a3 3 0 1 0 4.24 4.24\"/><path d=\"M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68\"/><path d=\"M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61\"/><line x1=\"2\" x2=\"22\" y1=\"2\" y2=\"22\"/>"
+  },
+  "js_e2cb885d": {
+    "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
+  },
+  "js_8b86136c": {
+    "message": "Ready to simplify"
+  },
+  "js_a18366b2": {
+    "message": "Dark"
+  },
+  "js_9914a0ce": {
+    "message": "Light"
+  },
+  "js_872cc3ae": {
+    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+  },
+  "js_94fe16a8": {
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+  },
+  "js_be7141cc": {
+    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+  },
+  "js_5d0ff3d0": {
+    "message": "This feels less unambiguous to comprehend."
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  }
+}

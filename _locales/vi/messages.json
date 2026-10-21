@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "EasyView — Sự rõ ràng cho mọi trí não"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "Dễ nhìn"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "Thay đổi bất kỳ trang web nào ngay lập tức bằng các gợi ý AI hoặc chỉ với một cú nhấp chuột. Xem web theo cách của bạn."
+  },
+  "t_68ba0232": {
+    "message": "Đã kích hoạt chế độ hỗ trợ người khó đọc"
+  },
+  "t_85f47a25": {
+    "message": "Đã tắt chế độ hỗ trợ người khó đọc"
+  },
+  "t_1cc1b64d": {
+    "message": "Không đủ nội dung để phân tích"
+  },
+  "t_cebe6412": {
+    "message": "Không tìm thấy thuật ngữ phức tạp"
+  },
+  "t_b964aa0f": {
+    "message": "Lỗi phân tích nội dung trang"
+  },
+  "t_956c104e": {
+    "message": "Đã xóa bộ nhớ trang"
+  },
+  "t_1f4b0f3e": {
+    "message": "Đã xóa bảng thuật ngữ"
+  },
+  "t_4bfeec37": {
+    "message": "Không tìm thấy thuật ngữ phức tạp nào trong lựa chọn"
+  },
+  "t_1b5e8531": {
+    "message": "Không tìm thấy thuật ngữ phức tạp nào trong lựa chọn"
+  },
+  "t_a1f781ec": {
+    "message": "Lỗi giải mã lựa chọn"
+  },
+  "t_7aae8122": {
+    "message": "Đã xóa các phần làm nổi bật"
+  },
+  "t_58762fd6": {
+    "message": "Vui lòng chọn một từ đơn hoặc cụm từ ngắn để định nghĩa."
+  },
+  "t_6838b119": {
+    "message": "Lỗi mạng khi tra cứu định nghĩa."
+  },
+  "t_ea3ca1b5": {
+    "message": "Đã giải mã $1 thuật ngữ (từ bộ nhớ đệm)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "Đã giải mã $1 thuật ngữ (đã lưu bộ nhớ đệm)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "Bạn đã sử dụng hết số lượt Trình giải mã thuật ngữ miễn phí trong tháng này. Nâng cấp lên Pro để truy cập không giới hạn."
+  },
+  "t_cb3c5d3a": {
+    "message": "Đã giải mã $1 thuật ngữ qua $2 danh mục",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "Đã tự động làm nổi bật $1 trường hợp thuật ngữ từ vựng đã giải mã của bạn",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "Đã khôi phục $1 định nghĩa thuật ngữ đã lưu$2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "Bạn đã sử dụng hết số lượt Trình giải mã thuật ngữ miễn phí trong tháng này. Nâng cấp lên Pro để truy cập không giới hạn."
+  },
+  "t_0b841c82": {
+    "message": "Đã có trong Sổ ghi chú!"
+  },
+  "t_8901f3ab": {
+    "message": "Đã lưu vào sổ ghi chú!"
+  },
+  "t_eb8f5242": {
+    "message": "Lỗi lưu vào Sổ ghi chú"
+  },
+  "t_bd15702b": {
+    "message": "Đã kích hoạt Lá chắn cảm giác"
+  },
+  "t_c28f3265": {
+    "message": "Đã tắt Lá chắn cảm giác"
+  },
+  "t_3f8910d9": {
+    "message": "DỄ NHÌN"
+  },
+  "t_8aafa613": {
+    "message": "Không thể đơn giản hóa văn bản này"
+  },
+  "t_79d2dc85": {
+    "message": "Không thể đơn giản hóa văn bản này"
+  },
+  "t_99684ba5": {
+    "message": "Lỗi đơn giản hóa văn bản"
+  },
+  "t_f4362bde": {
+    "message": "Đã sao chép vào bộ nhớ tạm!"
+  },
+  "t_af07ef4b": {
+    "message": "Không thể sao chép"
+  },
+  "t_94e4d537": {
+    "message": "Văn bản đã được thay thế trên trang"
+  },
+  "t_14a04b67": {
+    "message": "Bộ nhớ đơn giản hóa đã bị xóa"
+  },
+  "t_c444ff21": {
+    "message": "Văn bản gốc đã được khôi phục tạm thời"
+  },
+  "t_55f1db14": {
+    "message": "Bạn đã sử dụng hết số lượt miễn phí trong tháng này. Nâng cấp lên Pro để truy cập không giới hạn."
+  },
+  "t_fde4e3f0": {
+    "message": "Đã khôi phục $1 nội dung đơn giản hóa đã lưu trên trang này",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "Đã tự động khôi phục nội dung đơn giản hóa được tải động!"
+  },
+  "t_dfa22e52": {
+    "message": "Chuyển văn bản thành giọng nói đã kích hoạt"
+  },
+  "t_ca153ad0": {
+    "message": "Chuyển văn bản thành giọng nói đã tắt"
+  },
+  "t_dadbff09": {
+    "message": "Vui lòng bật Chuyển văn bản thành giọng nói trước"
+  },
+  "t_47071c61": {
+    "message": "Đang tiếp tục..."
+  },
+  "t_5516c48d": {
+    "message": "Không tìm thấy nội dung có thể đọc được trên trang này"
+  },
+  "t_c57f25c9": {
+    "message": "Không tìm thấy nội dung có thể đọc được"
+  },
+  "t_2516997e": {
+    "message": "Đọc xong"
+  },
+  "t_d3069aea": {
+    "message": "Chuyển văn bản thành giọng nói không được hỗ trợ trong trình duyệt này"
+  },
+  "t_53e6b8c6": {
+    "message": "Vui lòng chọn một đoạn văn bản trước"
+  },
+  "t_e932d0f7": {
+    "message": "Đang đọc lựa chọn..."
+  },
+  "t_1c50528d": {
+    "message": "Đọc xong"
+  },
+  "t_594778a2": {
+    "message": "Đã tạm dừng"
+  },
+  "t_4ded5f77": {
+    "message": "Đã dừng đọc"
+  },
+  "t_0a74758c": {
+    "message": "✨ Được cung cấp bởi Khóa cá nhân"
+  },
+  "t_2fceddad": {
+    "message": "✨ Không giới hạn"
+  },
+  "t_97627d80": {
+    "message": "✨ Được cung cấp bởi Khóa cá nhân"
+  },
+  "t_fd7d5888": {
+    "message": "Quản lý đăng ký"
+  },
+  "t_df4657a5": {
+    "message": "Thành viên miễn phí"
+  },
+  "t_22dfb2ec": {
+    "message": "Người dùng khách"
+  },
+  "t_bd9f2460": {
+    "message": "Tài khoản miễn phí"
+  },
+  "t_f5adda31": {
+    "message": "Đăng nhập / Đăng ký"
+  },
+  "t_d2439201": {
+    "message": "✨ Không giới hạn"
+  },
+  "t_164442b7": {
+    "message": "Đang khởi động Công cụ chuyển đổi..."
+  },
+  "t_1e7c3002": {
+    "message": "Sẵn sàng phân tích tệp."
+  },
+  "t_d30f78df": {
+    "message": "Chế độ tối"
+  },
+  "t_6c68d8ce": {
+    "message": "Chế độ sáng"
+  },
+  "t_fcb68c2b": {
+    "message": "Không tìm thấy ghi chú dán nào. Không có gì để xuất!"
+  },
+  "t_2b75b2d9": {
+    "message": "Mã phiên của bạn bị thiếu. Vui lòng đăng nhập lại vào easyview.in để khôi phục quyền truy cập."
+  },
+  "t_291a4e34": {
+    "message": "Định tuyến máy chủ bảo mật thất bại. Kiểm tra kết nối của bạn."
+  },
+  "t_2dcf62b3": {
+    "message": "Không phát hiện ghi chú nào bị thiếu. Không gian làm việc đã được cập nhật."
+  },
+  "t_951bf3ae": {
+    "message": "Giải mã thất bại: Tệp không tuân thủ các giới hạn của EasyView."
+  },
+  "t_817a4ba0": {
+    "message": "API PiP không được hỗ trợ. Vui lòng cập nhật Chrome."
+  },
+  "t_e8aa6e9a": {
+    "message": "Không thể khởi tạo công cụ PiP: "
+  },
+  "t_9feed9d5": {
+    "message": "Đã giải mã và chèn thành công $1 ghi chú mới.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "BẢN THỬ NGHIỆM"
+  },
+  "t_c289adbe": {
+    "message": "Ủng hộ chúng tôi"
+  },
+  "t_60d5b12a": {
+    "message": "Đánh giá chúng tôi"
+  },
+  "js_eb82de4c": {
+    "message": "Màu tùy chỉnh"
+  },
+  "js_8caef32b": {
+    "message": "Đặt lại/Xóa (Chọn văn bản & nhấp, hoặc nhấp đúp vào phần làm nổi bật theo cách thủ công)"
+  },
+  "t_823aeb91": {
+    "message": "Không gian làm việc EasyView"
+  },
+  "t_fc42ed23": {
+    "message": "Không có ghi chú toàn cầu nào trôi nổi trong không gian làm việc của bạn."
+  },
+  "t_12d7c58a": {
+    "message": "Nhấn Phím cách khi con trỏ Ghi chú Dán đang hoạt động để tạo một ghi chú."
+  },
+  "t_ab983c11": {
+    "message": "Không tìm thấy ghi chú cụ thể nào cho trang web này."
+  },
+  "t_e22709e9": {
+    "message": "Nhấp vào một phần tử vật lý trên bất kỳ trang web nào để ghim một ghi chú mục tiêu."
+  },
+  "t_34bdba45": {
+    "message": "Bước"
+  },
+  "t_9b2d88a1": {
+    "message": "của"
+  },
+  "t_8f44d852": {
+    "message": "Bắt đầu ngay!"
+  },
+  "t_b45c2f91": {
+    "message": "Mở khóa xuất không gian làm việc"
+  },
+  "t_88f91dc1": {
+    "message": "Việc kết xuất và xuất an toàn toàn bộ ghi chú Không gian làm việc Toàn cầu của bạn yêu cầu giấy phép Pro đã xác minh. Nâng cấp để mở khóa tính năng này vĩnh viễn."
+  },
+  "t_134dff88": {
+    "message": "Để sau"
+  },
+  "t_5b8c9d11": {
+    "message": "Nâng cấp lên Chuyên nghiệp"
+  },
+  "t_792bd8c9": {
+    "message": "Không gian làm việc nổi!"
+  },
+  "t_e39f7dc2": {
+    "message": "Các ghi chú dán của bạn hiện đang nổi trên màn hình nền hệ điều hành."
+  },
+  "t_c83d6ec9": {
+    "message": "Gắn lại không gian làm việc"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "Đã dừng tạo"
+  },
+  "t_removed_from_notebook": {
+    "message": "Đã gỡ bỏ khỏi Sổ ghi chú"
+  },
+  "t_d1c58470": {
+    "message": "Nhấp đúp để gỡ bỏ phần làm nổi bật"
+  },
+  "t_d4fdfb03": {
+    "message": "Đăng nhập vào EasyView để nhận $1 lượt miễn phí/tháng, hoặc thêm khóa API của riêng bạn trong Cài đặt.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "Đang tải kết quả đã lưu..."
+  },
+  "t_3a99733d": {
+    "message": "Đang khởi tạo Bộ giải mã thuật ngữ..."
+  },
+  "t_b6dc9fc9": {
+    "message": "Tạo tài khoản EasyView miễn phí để nhận $1 lượt giải mã AI miễn phí mỗi tháng và theo dõi hạn mức của bạn.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "Tạo tài khoản EasyView miễn phí để nhận $1 lượt định nghĩa AI miễn phí mỗi tháng và theo dõi hạn mức của bạn.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "Đang trích xuất nội dung chính..."
+  },
+  "t_0eeae2bf": {
+    "message": "Đang phát hiện ngữ cảnh trang..."
+  },
+  "t_87f125d0": {
+    "message": "Đang phân tích thuật ngữ..."
+  },
+  "t_9ef6e70f": {
+    "message": "Đang sử dụng kết quả đã lưu trong bộ nhớ đệm..."
+  },
+  "t_9afdc5e8": {
+    "message": "Đang phân tích với AI..."
+  },
+  "t_7ecc3abe": {
+    "message": "Giải mã AI thất bại"
+  },
+  "t_9220c8de": {
+    "message": "Đang áp dụng các đơn giản hóa..."
+  },
+  "t_57f406b1": {
+    "message": "Đang giải mã lựa chọn..."
+  },
+  "t_c50f2b72": {
+    "message": "Xem bảng thuật ngữ"
+  },
+  "t_49de9b11": {
+    "message": "Ẩn các phần nổi bật trên trang"
+  },
+  "t_3158774e": {
+    "message": "Khôi phục các phần nổi bật trên trang"
+  },
+  "t_fc3ad42d": {
+    "message": "Lưu vào từ vựng"
+  },
+  "t_87e933b8": {
+    "message": "Đang tra cứu định nghĩa..."
+  },
+  "t_56b79836": {
+    "message": "Định nghĩa từ đã được tải."
+  },
+  "t_969b24ea": {
+    "message": "🔊 Nhấp vào bất kỳ đâu để kích hoạt âm thanh của chủ đề"
+  },
+  "t_49337275": {
+    "message": "Làm nổi bật thủ công"
+  },
+  "t_93324bd5": {
+    "message": "Đã lưu trực tiếp từ trang web."
+  },
+  "t_82e413f3": {
+    "message": "Đang đơn giản hóa văn bản..."
+  },
+  "t_86c4f6e5": {
+    "message": "Đang đơn giản hóa với AI..."
+  },
+  "t_c3e18edb": {
+    "message": "Đơn giản hóa thất bại"
+  },
+  "t_6398ab2c": {
+    "message": "Cấp độ đọc: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "Nhấp để khôi phục tạm thời văn bản gốc"
+  },
+  "t_9beea3e8": {
+    "message": "Xóa vĩnh viễn khỏi bộ nhớ"
+  },
+  "t_453bb8f7": {
+    "message": "Tạo tài khoản EasyView miễn phí để nhận $1 lượt đơn giản hóa AI miễn phí mỗi tháng và theo dõi hạn mức của bạn.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "Nghe"
+  },
+  "t_24833610": {
+    "message": "Đã lưu"
+  },
+  "t_30a008cb": {
+    "message": "Đọc thêm &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "Đã lưu vào Sổ tay từ vựng!"
+  },
+  "t_2728e87f": {
+    "message": "Đã gỡ bỏ khỏi Sổ tay từ vựng"
+  },
+  "t_6b8c66ce": {
+    "message": "Bảng thuật ngữ ($1 thuật ngữ)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "Gỡ bỏ bộ nhớ cho trang này"
+  },
+  "t_8a49fe1a": {
+    "message": "Gỡ bỏ thuật ngữ"
+  },
+  "t_1534891c": {
+    "message": "Đã giải mã $1 thuật ngữ",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "Lưu vào sổ ghi chú"
+  },
+  "t_150a2843": {
+    "message": "Xóa làm nổi bật"
+  },
+  "t_21ef939c": {
+    "message": "Đã lưu vào sổ ghi chú!"
+  },
+  "t_8054da35": {
+    "message": "Từ điển nhanh",
+    "description": "Tiêu đề cửa sổ bật lên của Từ điển nhanh"
+  },
+  "t_4aeb2167": {
+    "message": "Không tìm thấy từ",
+    "description": "Tiêu đề dự phòng của từ điển"
+  },
+  "t_272d0070": {
+    "message": "Chúng tôi không thể tìm thấy \"$1\" trong từ điển cơ bản. Đó có thể là tiếng lóng hiện đại, từ viết tắt, hoặc thuật ngữ chuyên môn cao.",
+    "description": "Mô tả dự phòng của từ điển với trình giữ chỗ từ",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "Giải mã với Evie AI",
+    "description": "Nút dự phòng để giải mã bằng AI"
+  },
+  "t_14f1f972": {
+    "message": "qua",
+    "description": "Tiền tố nguồn của từ điển"
+  },
+  "t_f2faf2f1": {
+    "message": "Danh từ",
+    "description": "Danh từ"
+  },
+  "t_b512ddf1": {
+    "message": "Động từ",
+    "description": "Động từ"
+  },
+  "t_d807ae6a": {
+    "message": "Tính từ",
+    "description": "Tính từ"
+  },
+  "t_1a607278": {
+    "message": "Trạng từ",
+    "description": "Trạng từ"
+  },
+  "t_02de720d": {
+    "message": "Đại từ",
+    "description": "Đại từ"
+  },
+  "t_4b7be2c3": {
+    "message": "Giới từ",
+    "description": "Giới từ"
+  },
+  "t_a3c1d30b": {
+    "message": "Liên từ",
+    "description": "Liên từ"
+  },
+  "t_e189f001": {
+    "message": "Thán từ",
+    "description": "Thán từ"
+  },
+  "t_96de90f8": {
+    "message": "Sao chép văn bản đã đơn giản hóa",
+    "description": "Chú giải công cụ để sao chép văn bản đã đơn giản hóa"
+  },
+  "t_44a6e288": {
+    "message": "Đọc trang",
+    "description": "Chú giải công cụ để đọc toàn bộ trang qua TTS"
+  },
+  "t_7d70d73b": {
+    "message": "Đọc phần đã chọn",
+    "description": "Chú giải công cụ để đọc lựa chọn qua TTS"
+  },
+  "t_11936123": {
+    "message": "Xóa ghi chú vĩnh viễn",
+    "description": "Chú giải công cụ để xóa vĩnh viễn ghi chú dán"
+  },
+  "t_d27532d9": {
+    "message": "Thu nhỏ"
+  },
+  "t_2bd339d8": {
+    "message": "Khôi phục"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "Dễ nhìn"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "Cảnh báo hệ thống"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "Thông báo hệ thống"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "Công cụ\r\n                        EasyView"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "Các tính năng cục bộ vẫn\r\n                        hoạt động"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,571 +599,562 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "Trải nghiệm\r\n                        EasyView"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "Bạn đã sử dụng EasyView được 12 giờ. Tạo tài khoản miễn phí để\r\n                    lưu\r\n                    cài đặt, giữ hạn mức, và mở khóa thêm nhiều tính năng."
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "Nhắc tôi sau 12 giờ"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "Sáng"
   },
   "t_7fc56270": {
     "message": "A"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "Phông chữ"
   },
   "t_5dbc98dc": {
-    "message": "S"
+    "message": "N"
   },
   "t_69691c7b": {
-    "message": "M"
+    "message": "V"
   },
   "t_d20caec3": {
     "message": "L"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "Tính năng"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "Hình ảnh"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "Bộ chuyển đổi"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "Sổ tay"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "Giải mã thuật ngữ"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "Đơn giản hóa các thuật ngữ pháp lý phức tạp"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "wikipedia.org/wiki/Sự_đa_dạng_thần_kinh"
   },
   "t_61e9c06e": {
-    "message": "W"
+    "message": "R"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "Sự đa dạng thần kinh"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "dễ dàng\r\n                                                hơn nhiều"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "Lá chắn tập trung & quyền riêng tư"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "Làm mờ nội dung riêng tư và nhạy cảm"
   },
   "t_7f766191": {
-    "message": "mail.google.com/mail/u/0/"
+    "message": "meo.gu-gồ.com/meo/u/0/"
   },
   "t_dfcf28d0": {
     "message": "G"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "Tài khoản Google"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "Cảnh báo bảo mật"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- Đã yêu cầu đặt lại mật khẩu..."
   },
   "t_8d9c307c": {
-    "message": "N"
+    "message": "B"
   },
   "t_170b1d36": {
-    "message": "Netflix"
+    "message": "Nét-phlích"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "Mới trong tuần này"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- Xem các bản phát hành\r\n                                                    mới nhất của chúng tôi..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "Kỹ thuật bảo vệ"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "Làm mờ nội dung riêng tư"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "Làm mờ thông minh WhatsApp, Gmail và các ô nhập mật khẩu để bảo mật hình ảnh tức thì."
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "Tự động bảo vệ khi chia sẻ màn hình"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "Che màn hình ngay lập tức khi chia sẻ trực tuyến."
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
-  },
-  "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "Đang sử dụng máy chiếu vật lý?"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "Đèn pin đọc sách"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "Theo dõi chuột của bạn bằng đèn tiêu điểm sáng để loại bỏ hoàn toàn sự lộn xộn hình ảnh xung quanh."
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "1.\r\n                                                            Hình dạng chùm sáng"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "Đèn tiêu điểm\r\n                                                            hoặc Thước"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "2.\r\n                                                                Kích thước / Chiều cao chùm sáng"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "Độ dày\r\n                                                                của vùng xem"
   },
   "t_f0cad41b": {
     "message": "35px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "3.\r\n                                                            Tông màu thấu kính chùm tập trung"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "Làm mờ nhẹ\r\n                                                            khoảng cách đọc"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "4.\r\n                                                            Bóng nền xung quanh"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "Độ tối\r\n                                                            xung quanh thấu kính của bạn"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "Lá chắn giác quan"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "Đóng băng các hoạt ảnh gây xao nhãng"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "tin-tức-hàng-ngày.com/tin-nóng"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "TIN TỨC NÓNG"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "Đang đọc một bài báo về tin tức hàng ngày..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "THẮNG!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "Chế độ lá chắn"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(mặc định)"
   },
   "t_9e3360ac": {
-    "message": "PRO"
+    "message": "CHUYÊN NGHIỆP"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "Dừng tự động phát + làm mờ êm dịu\r\n                                                khi điều hướng thủ công"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "Chế độ đọc cho người khó đọc"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "Phông chữ & khoảng cách được tối ưu hóa"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "Hồ sơ cường độ"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "Thấp"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "Trung bình"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "Cao"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "vi-ki-pê-đi-a.org/vi-ki/Đọc"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "Đọc"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "Đây là bản xem trước các cài đặt đọc của bạn."
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "Tùy chọn nâng cao"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "Kiểu phông chữ"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "Mặc định (Không thay đổi)"
   },
   "t_5d2967ef": {
-    "message": "OpenDyslexic"
+    "message": "Ô-pân-đít-lếch-xích"
   },
   "t_1042daad": {
-    "message": "Lexend (ADHD Pro) 🔒"
+    "message": "Lexend (ADHD Chuyên nghiệp) 🔒"
   },
   "t_bcec044a": {
-    "message": "Atkinson Hyperlegible 🔒"
+    "message": "Át-kin-sơn Hai-pơ-lê-gi-bồ 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "Phông Sans nhanh"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "Phông Serif nhanh"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "Co-mích Nôi"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "Co-mích San"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "Khoảng cách chữ cái"
   },
   "t_960b44c5": {
-    "message": "Normal"
+    "message": "Bình thường"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "Chiều cao dòng"
   },
   "t_60086472": {
     "message": "1.5"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "Khoảng cách từ"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "Kích thước phông chữ"
   },
   "t_30bd7ce7": {
     "message": "100%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "Màu lớp phủ"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "Không"
   },
   "t_2bd8c63b": {
-    "message": "Beige"
+    "message": "Màu be"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "Xanh dương nhạt"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "Xanh lá nhạt"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "Vàng nhạt"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "Chuyển văn bản thành giọng nói"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "Đọc to kèm làm nổi bật"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "Phát"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "Tạm dừng"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "Dừng"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "Chọn giọng nói"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "Tự động (Chất lượng tốt nhất)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "Tốc độ đọc"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "Rất chậm"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "Chậm"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "Nhanh"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "Rất nhanh"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "Âm lượng"
   },
   "t_f1943132": {
     "message": "70%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "Tạm dừng tại dấu câu"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "Làm nổi bật từ"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "Bật"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "Chế độ"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "Tối"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "vi-ki-pê-đi-a.org/vi-ki/Ánh-sáng"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "Hình ảnh hoàn hảo giúp mắt thoải mái. Ánh sáng có thể rất gay gắt."
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "Độ sáng"
   },
   "t_c63ecd19": {
-    "message": "Contrast"
+    "message": "Độ tương phản"
   },
   "t_b84a9a38": {
-    "message": "Sepia"
+    "message": "Màu nâu đỏ"
   },
   "t_9f1ef078": {
     "message": "0%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "Thang độ xám"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "Mặc định"
   },
   "t_b1166920": {
-    "message": "Lexend 🔒"
+    "message": "Lếch-xen 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "Nét văn bản"
   },
   "t_cfcd2084": {
     "message": "0"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "Trình chuyển đổi & đọc thông minh"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "Tệp hiện tại"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "Nhấp hoặc kéo tệp để tải lên"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• Sẵn sàng"
   },
   "t_4c4ad5fc": {
-    "message": "HTML"
+    "message": "Ngôn ngữ đánh dấu siêu văn bản"
   },
   "t_5c31b30e": {
-    "message": "EPUB"
+    "message": "Ấn phẩm điện tử"
   },
   "t_7cfd9a9f": {
-    "message": "DOCX"
+    "message": "Tài liệu văn bản"
   },
   "t_af97e960": {
     "message": "📌"
   },
   "t_4cc6684d": {
-    "message": "Global"
+    "message": "Toàn cầu"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "Trang web/Trang"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "Sổ tay của tôi"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "Xóa tất cả"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "Hủy"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "Lưu từ"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "Chưa có từ nào được lưu."
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "Di chuột qua thuật ngữ trên bất kỳ trang nào và nhấp vào cờ đánh dấu để lưu chúng tại đây!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "Tái hình dung giao diện của bất kỳ trang web nào. Mô tả những gì bạn muốn hoặc chọn một\r\n                            cài đặt sẵn."
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "Đã áp dụng\r\n                                biến đổi"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "Bố cục AI tùy chỉnh\r\n                                đang hoạt động trên trang web này."
   },
   "t_e8a57cd1": {
     "message": "0 /\r\n                                500"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "Đặt lại trang"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "Bố cục biến đổi"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "Cài đặt sẵn mặc định"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "Lễ hội kinh dị"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "Rung cảm lễ hội rùng rợn & văn bản kinh dị hoạt hình"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "Bảng điều khiển ma trận"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "Chủ đề thiết bị đầu cuối Cyberpunk"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "Tập trung thần kinh"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "Phông chữ thân thiện với người khó đọc & màu sắc êm dịu"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "Chế độ đọc"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "Bố cục tối giản được tối ưu hóa để tập trung"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "Gợi ý gần đây"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "Người dùng khách"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "Tài khoản miễn phí"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "Đăng nhập / Quản lý"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "Đăng xuất"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "Cài đặt API"
   },
   "t_766cc4dd": {
-    "message": "Gemini"
+    "message": "Gê-mi-ni"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "Nhà cung cấp AI"
   },
   "t_222cf5ed": {
-    "message": "Google Gemini"
+    "message": "Gúc-gồ Gi-mi-ni"
   },
   "t_a0607683": {
-    "message": "OpenRouter"
+    "message": "Ô-pân-rau-tơ"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "Khóa API Gemini"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "Gu-gồ Ai-ai S-tu-đi-ô"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "Khóa API OpenRouter"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "Lưu khóa API"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "EasyView\r\n                                    Ưu tiên AI"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ Khóa API của tôi"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 Máy chủ EasyView"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "Chọn\r\n                                cái nào được sử dụng trước cho tất cả các tính năng AI. Nếu khóa của bạn hết hạn, máy chủ EasyView sẽ\r\n                                luôn được sử dụng làm phương án dự phòng."
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "Quyền riêng tư\r\n                                    & Ưu tiên"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "Ưu tiên 1:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "Ưu tiên 2:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "Ghi chú Công cụ\r\n                                            Biến đổi:"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "không bao giờ"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "Trợ giúp & Phản hồi"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "Bạn có câu hỏi, tìm thấy lỗi, hoặc muốn đề xuất tính năng? Chúng tôi rất muốn nghe ý kiến từ bạn!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "Báo cáo lỗi / Gửi phản hồi"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Sẵn sàng để đơn giản hóa"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "Xuất cài đặt"
   },
   "t_9d5ed678": {
-    "message": "B"
+    "message": "Đ"
   },
   "t_dd753679": {
     "message": "I"
@@ -615,25 +1172,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "Cường độ"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "Độ mờ"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "Độ đậm"
   },
   "t_18d80423": {
     "message": "400"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "Chiều cao\r\n                                dòng"
   },
   "t_f522dede": {
     "message": "1.7x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "Bỏ qua"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,61 +1199,61 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "Làm nổi bật"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "MỰC"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "MỜ DẦN"
   },
   "t_e8bfe352": {
-    "message": "Lexend 👑"
+    "message": "Lếch-xen 👑"
   },
   "t_0cd4623c": {
-    "message": "Atkinson Hyperlegible 👑"
+    "message": "Át-kin-sơn Hai-pơ-lê-gi-bồ 👑"
   },
   "t_6fbda3a3": {
-    "message": "Arial"
+    "message": "A-ri-an"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "He-vê-ti-ca"
   },
   "t_207c3219": {
-    "message": "Verdana"
+    "message": "Véc-đa-na"
   },
   "t_2bd141ae": {
-    "message": "Tahoma"
+    "message": "Ta-hô-ma"
   },
   "t_720661ec": {
-    "message": "Trebuchet MS"
+    "message": "Trê-bu-chét M-S"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "Phông Sans hệ thống"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "Tai-mơ Niu Rô-man"
   },
   "t_eada8196": {
-    "message": "Georgia"
+    "message": "Gê-o-gia"
   },
   "t_96a78725": {
-    "message": "Garamond"
+    "message": "Ga-ra-mông"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "Phông Serif hệ thống"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "Co-mích San M-S"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "Cu-ri-ơ Niu"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "Phông đơn cách (Monospace)"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "Kích thước\r\n                            phông chữ"
   },
   "t_f4f9f2f4": {
     "message": "14px"
@@ -723,7 +1280,7 @@
     "message": "32px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "Xong"
   },
   "t_63922286": {
     "message": "×"
@@ -732,154 +1289,34 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "Xuất thư viện chủ đề"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "Lưu các kiệt tác do AI tạo ra của bạn\r\n                cục bộ."
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "Xuất toàn bộ thư viện"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
-  },
-  "t_ccca2ddf": {
-    "message": "EasyView Reader"
-  },
-  "t_8524de96": {
-    "message": "Loading..."
-  },
-  "t_25e8f2fd": {
-    "message": "Please wait..."
-  },
-  "t_ec9d785d": {
-    "message": "1.5x"
-  },
-  "t_dafd5f8f": {
-    "message": "Lexend"
-  },
-  "t_16d90a0b": {
-    "message": "Atkinson Hyperlegible"
-  },
-  "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
-  },
-  "t_f7cee5ea": {
-    "message": "Calibri"
-  },
-  "t_ccc0239e": {
-    "message": "Candara"
-  },
-  "t_2963521b": {
-    "message": "Corbel"
-  },
-  "t_37f1cc58": {
-    "message": "Cambria"
-  },
-  "t_c3d9d4bf": {
-    "message": "Constantia"
-  },
-  "t_5d1a5b35": {
-    "message": "Palatino Linotype"
-  },
-  "t_4dc386b6": {
-    "message": "Book Antiqua"
-  },
-  "t_03c461f6": {
-    "message": "Franklin Gothic"
-  },
-  "t_7b1ee3b6": {
-    "message": "Century Gothic"
-  },
-  "t_a3293302": {
-    "message": "Gill Sans"
-  },
-  "t_eb726908": {
-    "message": "Sitka Text"
-  },
-  "t_b5bdee2c": {
-    "message": "Sylfaen"
-  },
-  "t_1ec05249": {
-    "message": "Microsoft Sans Serif"
-  },
-  "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
-  },
-  "t_16507cdd": {
-    "message": "Consolas"
-  },
-  "t_391c5954": {
-    "message": "Lucida Console"
-  },
-  "t_9879efdf": {
-    "message": "Lucida Sans Typewriter"
-  },
-  "t_21f59b54": {
-    "message": "Impact"
-  },
-  "t_94a7bb97": {
-    "message": "Arial Black"
-  },
-  "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
-  },
-  "t_40885309": {
-    "message": "Berlin Sans FB"
-  },
-  "t_6d5566ba": {
-    "message": "Gabriola"
-  },
-  "t_edb42482": {
-    "message": "Ink Free"
-  },
-  "t_fa233799": {
-    "message": "Segoe Script"
-  },
-  "t_2f7bc407": {
-    "message": "Segoe Print"
-  },
-  "t_0095a9fa": {
-    "message": "Export"
-  },
-  "t_520d0db3": {
-    "message": "Format"
-  },
-  "t_5956a437": {
-    "message": "TXT"
-  },
-  "t_1351017a": {
-    "message": "Filename"
-  },
-  "t_6af8212e": {
-    "message": "EasyView Notes Board"
-  },
-  "t_d16da0f5": {
-    "message": "🌎"
-  },
-  "t_6df173ff": {
-    "message": "📍"
+    "message": ".json (Tệp JSON)"
   },
   "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
-  },
-  "js_24833610": {
-    "message": "Saved"
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Cần hành động</div>\n            <h2 class=\"ev-si-title\">Tài khoản<br><span class=\"ev-si-gradient-text\">Đã bị đình chỉ</span></h2>\n            <p class=\"ev-si-sub\">Quyền truy cập EasyView của bạn đã bị hạn chế do vi phạm điều khoản dịch vụ của chúng tôi.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Liên hệ hỗ trợ\n            </a>\n          </div>\n        </div>\n      "
   },
   "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Vui lòng mô tả biến đổi của bạn trước.</span>\n          </div>"
   },
   "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Đang biến đổi...</span>\n      "
   },
   "js_138703dd": {
-    "message": "No Theme on Page"
+    "message": "Không có chủ đề trên trang"
   },
   "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>Xuất trang hiện tại"
   },
   "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Đang biên dịch..."
   },
   "js_e541190e": {
     "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
@@ -891,30 +1328,1322 @@
     "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
   },
   "js_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Sẵn sàng để đơn giản hóa"
   },
   "js_a18366b2": {
-    "message": "Dark"
+    "message": "Tối"
   },
   "js_9914a0ce": {
-    "message": "Light"
+    "message": "Sáng"
   },
   "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+    "message": "<option value=\"auto\">Tự động (Chất lượng tốt nhất)</option>"
   },
   "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Đang giải mã..."
   },
   "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+    "message": "Điều này cảm thấy <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">dễ dàng hơn nhiều</span> để hiểu."
   },
   "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+    "message": "Điều này cảm thấy ít mơ hồ hơn khi hiểu."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_f05df71b": {
+    "message": "Đang nâng cấp"
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_78db2ae3": {
+    "message": "Các máy chủ AI của chúng tôi đang được nâng cấp."
+  },
+  "t_bb2129c8": {
+    "message": "Mở khóa toàn bộ"
+  },
+  "t_aefee7cd": {
+    "message": "Độ rõ nét cho mọi bộ não"
+  },
+  "t_c38beca1": {
+    "message": "Firefox hạn chế các API phát hiện màn hình vật lý. "
+  },
+  "t_f2fe1e79": {
+    "message": "Các giá trị\r\n                                    dưới 1.0 có thể nén văn bản và làm hỏng bố cục."
+  },
+  "t_ca677d53": {
+    "message": "Điều chỉnh trực quan"
+  },
+  "t_230b4522": {
+    "message": "Bảng ghi chú"
+  },
+  "t_596b54bf": {
+    "message": "Tác nhân AI Morph"
+  },
+  "t_47e79a17": {
+    "message": "Nhận khóa miễn phí của bạn tại"
+  },
+  "t_42372184": {
+    "message": "Các chủ đề được xuất dưới dạng"
+  },
+  "t_74fdc8a2": {
+    "message": "Vui lòng mô tả biến đổi Morph của bạn trước."
+  },
+  "t_245fd3b9": {
+    "message": "Đã xóa bố cục đã biến đổi."
+  },
+  "t_172bd753": {
+    "message": "Chủ đề đã xuất thành công!"
+  },
+  "t_4c34daff": {
+    "message": "Kết nối hết thời gian chờ. Không thể truy cập máy chủ."
+  },
+  "t_0dd56117": {
+    "message": "Không tìm thấy chủ đề hoạt động nào trên trang này."
+  },
+  "t_cb5c0766": {
+    "message": "Thư viện đã xuất thành công!"
+  },
+  "t_8adb392e": {
+    "message": "Kết nối hết thời gian chờ. Không thể truy cập máy chủ."
+  },
+  "t_ae94e0e4": {
+    "message": "Thư viện chủ đề của bạn trống."
+  },
+  "t_10a0c40b": {
+    "message": "Chủ đề tùy chỉnh đã tải thành công!"
+  },
+  "t_9b6007a8": {
+    "message": "Không thể đọc tệp chủ đề."
+  },
+  "t_d4fa051d": {
+    "message": "Thất bại: $1. Vui lòng tải lại tab.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "Đã áp dụng: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "Đã khôi phục $1 chủ đề từ thư viện!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "Tùy chọn ngôn ngữ"
+  },
+  "t_lang_updated_reload": {
+    "message": "Ngôn ngữ đã cập nhật. Đang tải lại..."
+  },
+  "t_transformation_failed": {
+    "message": "Biến đổi thất bại."
+  },
+  "t_c8a59e71": {
+    "message": "Bỏ qua"
+  },
+  "t_7764306b": {
+    "message": "Dịch vụ đám mây đang bảo trì"
+  },
+  "t_248228de": {
+    "message": "Bật/Tắt phông chữ cho người mắc chứng khó đọc trong cửa sổ bật lên"
+  },
+  "t_79a59320": {
+    "message": "Bắt đầu hướng dẫn ứng dụng"
+  },
+  "t_533bff5b": {
+    "message": "Ghim ghi chú vào trang (Alt+N)"
+  },
+  "t_f4f70727": {
+    "message": "Cài đặt"
+  },
+  "t_4fd11104": {
+    "message": "Đèn chiếu hình tròn"
+  },
+  "t_0d063af1": {
+    "message": "Thước kẻ ngang 🔒"
+  },
+  "t_60d71580": {
+    "message": "Sáng rõ"
+  },
+  "t_efe48742": {
+    "message": "Tập trung màu hổ phách"
+  },
+  "t_610a09ca": {
+    "message": "Xanh lơ mát"
+  },
+  "t_886f6b9e": {
+    "message": "Xanh lá thư giãn"
+  },
+  "t_65e8194e": {
+    "message": "Đen tuyền"
+  },
+  "t_7243ed99": {
+    "message": "Đá phiến nửa đêm"
+  },
+  "t_ec6d8325": {
+    "message": "Rừng sâu"
+  },
+  "t_4af435e0": {
+    "message": "Rượu vang ma cà rồng"
+  },
+  "t_2a7dbdf8": {
+    "message": "Tính năng chuyên nghiệp"
+  },
+  "t_fc4aec61": {
+    "message": "Mở trong trình đọc"
+  },
+  "t_801ab246": {
+    "message": "Tải xuống"
+  },
+  "t_aa3880dc": {
+    "message": "Tải xuống dưới dạng HTML"
+  },
+  "t_e0781e81": {
+    "message": "Tải xuống dưới dạng EPUB"
+  },
+  "t_442ff212": {
+    "message": "Tải xuống dưới dạng DOCX"
+  },
+  "t_6244ee7c": {
+    "message": "Thêm thuật ngữ tùy chỉnh thủ công"
+  },
+  "t_6e7d015f": {
+    "message": "Nhập tệp CSV"
+  },
+  "t_edbc5415": {
+    "message": "Xuất cho Anki / Quizlet"
+  },
+  "t_46c29f7a": {
+    "message": "Tải chủ đề"
+  },
+  "t_2bd65c5d": {
+    "message": "Xuất chủ đề"
+  },
+  "t_c1c433ac": {
+    "message": "Nhà cung cấp AI đang hoạt động"
+  },
+  "t_90c09393": {
+    "message": "Chấm"
+  },
+  "t_eb656e41": {
+    "message": "Gạch"
+  },
+  "t_0c99ddee": {
+    "message": "Màu làm nổi bật"
+  },
+  "t_eaf63759": {
+    "message": "Màu mực"
+  },
+  "t_a183c9f0": {
+    "message": "Màu mờ dần"
+  },
+  "t_75e7422f": {
+    "message": "Màu nền"
+  },
+  "t_42f9ceea": {
+    "message": "Tìm kiếm từ vựng đã lưu..."
+  },
+  "t_0e84a8cf": {
+    "message": "Nhập từ hoặc từ viết tắt..."
+  },
+  "t_eea6890c": {
+    "message": "Ý nghĩa / Bản dịch..."
+  },
+  "t_4480cf46": {
+    "message": "Mẹo ghi nhớ hoặc ghi chú học tập (tùy chọn)..."
+  },
+  "t_d8634fbf": {
+    "message": "ví dụ: Chuyển thành chủ đề phong cách anime màu hồng với các thẻ bo tròn, hoặc biến thành bảng điều khiển thiết bị đầu cuối màu xanh lá cây tối cổ điển..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "Ghi chú dán"
+  },
+  "t_b097d277": {
+    "message": "Thêm từ"
+  },
+  "t_1eeb67ee": {
+    "message": "Xuất trang hiện tại"
+  },
+  "t_b62ded9a": {
+    "message": "Dịch vụ đám mây ngoại tuyến"
+  },
+  "t_263e00eb": {
+    "message": "Đăng nhập / Tạo tài khoản"
+  },
+  "t_7748eb3b": {
+    "message": "ĐANG NÂNG CẤP"
+  },
+  "t_81a5d20b": {
+    "message": "Đóng băng tất cả"
+  },
+  "t_e61146d9": {
+    "message": "Mờ dần êm dịu"
+  },
+  "t_57323916": {
+    "message": "Dừng tự động phát"
+  },
+  "t_f50319ea": {
+    "message": "Bảo vệ toàn diện"
+  },
+  "t_8e13f26d": {
+    "message": "Câu hỏi nhanh"
+  },
+  "t_134b26da": {
+    "message": "Bạn có đang tận hưởng<br><span class=\"ev-si-gradient-text\">EasyView?</span>"
+  },
+  "t_b75bdd9e": {
+    "message": "Phản hồi của bạn giúp chúng tôi cải thiện.<br>Bạn có đang tận hưởng trải nghiệm này không?"
+  },
+  "t_396d1ff8": {
+    "message": "Vâng, tôi thích!"
+  },
+  "t_7d0cacf3": {
+    "message": "Cần cải thiện"
+  },
+  "t_815142c9": {
+    "message": "Ủng hộ chúng tôi"
+  },
+  "t_abd9fa39": {
+    "message": "Bạn có phiền<br><span class=\"ev-si-gradient-text\">để lại đánh giá không?</span>"
+  },
+  "t_02991e61": {
+    "message": "Đánh giá từ những người dùng như bạn là cách tốt nhất để giúp EasyView phát triển. Chỉ mất một phút thôi!"
+  },
+  "t_db49c1f2": {
+    "message": "Đánh giá ngay"
+  },
+  "t_7a4f0d12": {
+    "message": "Nhắc tôi sau"
+  },
+  "t_fee6c0e9": {
+    "message": "Phản hồi riêng tư"
+  },
+  "t_74393dde": {
+    "message": "Chúng ta có thể <span class=\"ev-si-gradient-text\">làm gì tốt hơn?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "Hãy cho chúng tôi biết điều gì đã xảy ra..."
+  },
+  "t_6f97affc": {
+    "message": "Gửi phản hồi"
+  },
+  "t_b20871b3": {
+    "message": "Vui lòng nhập phản hồi của bạn"
+  },
+  "t_7b0fee4d": {
+    "message": "Đang gửi..."
+  },
+  "t_fb631633": {
+    "message": "Cảm ơn phản hồi của bạn."
+  },
+  "t_08727add": {
+    "message": "Xem web theo cách của bạn."
+  },
+  "t_15bbb9d0": {
+    "message": "Trang web"
+  },
+  "t_c5f29bb3": {
+    "message": "Quyền riêng tư"
+  },
+  "t_ad5b1a22": {
+    "message": "Người sáng lập"
+  },
+  "t_db496e03": {
+    "message": "Các khóa cá nhân tạo ra kết nối trực tiếp, bảo mật 100% với AI. Văn bản của bạn không bao giờ chạm đến máy chủ EasyView."
+  },
+  "t_387c35b3": {
+    "message": "Máy chủ được quản lý của chúng tôi (Premium) đóng vai trò là bản sao lưu đáng tin cậy nếu không có khóa hoặc nếu khóa của bạn bị lỗi."
+  },
+  "t_98bc5a17": {
+    "message": "Để bảo vệ các thuật toán độc quyền, khóa của bạn được định tuyến ngắn gọn qua máy chủ bảo mật của chúng tôi để xác thực với Google. Nó"
+  },
+  "t_de47f1be": {
+    "message": "không được lưu trữ hoặc ghi lại."
+  },
+  "t_25e02e7f": {
+    "message": "Đang hoạt động: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ Thành viên cao cấp"
+  },
+  "t_df56cfae": {
+    "message": "⭐ Thành viên trọn đời"
+  },
+  "t_41cbc704": {
+    "message": " ngày còn lại"
+  },
+  "t_b194bd82": {
+    "message": "Không bao giờ hết hạn"
+  },
+  "t_9f830444": {
+    "message": "⭐ Chuyên nghiệp:"
+  },
+  "t_61b82be6": {
+    "message": " lượt biến đổi còn lại"
+  },
+  "t_c20e7ceb": {
+    "message": " lượt biến đổi miễn phí còn lại"
+  },
+  "t_d7087930": {
+    "message": " lượt dùng miễn phí còn lại"
+  },
+  "t_4bbf11bd": {
+    "message": "Các trường Thuật ngữ và Ý nghĩa không được để trống!"
+  },
+  "t_08f09d38": {
+    "message": "Chi tiết từ đã cập nhật thành công!"
+  },
+  "t_32001b52": {
+    "message": "Vui lòng nhập cả từ và ý nghĩa của nó."
+  },
+  "t_b8115861": {
+    "message": "Sổ tay Học tập của bạn đang trống. Hãy đánh dấu một số từ trên các trang web trước!"
+  },
+  "t_7114113b": {
+    "message": "Vui lòng đăng nhập vào tài khoản EasyView của bạn trước để xác minh các tính năng Pro!"
+  },
+  "t_093f9fa0": {
+    "message": "Mã phiên của bạn bị thiếu. Vui lòng đăng nhập lại vào easyview.in để khôi phục quyền truy cập."
+  },
+  "t_0e065596": {
+    "message": "Đây là tính năng đã xác minh chỉ dành cho Premium. Nâng cấp lên Pro để mở khóa!"
+  },
+  "t_c792a645": {
+    "message": "Không thể kết nối với máy chủ xuất dữ liệu bảo mật. Hãy thử lại sau."
+  },
+  "t_8d1a2675": {
+    "message": "Không thể xác định bất kỳ mục từ vựng hợp lệ nào trong tệp CSV đó."
+  },
+  "t_a613ed90": {
+    "message": "Lỗi ghi bộ nhớ trình duyệt! Tệp có thể quá lớn so với bộ nhớ đệm cục bộ."
+  },
+  "t_8efe87ab": {
+    "message": "Trình duyệt không thể đọc tệp cục bộ của bạn."
+  },
+  "t_50bf63aa": {
+    "message": "Bạn có chắc chắn muốn xóa tất cả các từ đã lưu khỏi sổ tay của mình không?"
+  },
+  "t_ff252710": {
+    "message": "Đã nhập xong: Tất cả $1 mục nhập đã tồn tại trong Sổ tay của bạn.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "Không thể phân tích CSV: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "\"$1\" đã có trong sổ tay của bạn. Bạn có muốn thêm một định nghĩa khác cho nó không?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "Đã đăng xuất thành công"
+  },
+  "t_dbd35100": {
+    "message": "Công cụ biến đổi đang hoạt động..."
+  },
+  "t_2de4e55d": {
+    "message": "Bố cục đã biến đổi đã được xóa"
+  },
+  "t_1bb9196d": {
+    "message": "Đã biến đổi: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "Biến đổi thất bại: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "Đã kích hoạt: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 mục đã được sắp xếp",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "Thao tác này sẽ xóa vĩnh viễn ghi chú này trên tất cả các thiết bị đã đồng bộ hóa. Tiếp tục?"
+  },
+  "t_25abf697": {
+    "message": "Xuất EPUB yêu cầu JSZip."
+  },
+  "t_71609188": {
+    "message": "Xuất DOCX yêu cầu html-docx-js."
+  },
+  "t_e1499766": {
+    "message": "Chưa tải tệp."
+  },
+  "t_023b3355": {
+    "message": "Lá chắn quyền riêng tư đã kích hoạt"
+  },
+  "t_9483a5da": {
+    "message": "Lá chắn quyền riêng tư đã tắt"
+  },
+  "t_a04202db": {
+    "message": "Các phần làm nổi bật đã ẩn tạm thời"
+  },
+  "t_b3d6b264": {
+    "message": "Đã khôi phục các phần nổi bật"
+  },
+  "t_7485c55e": {
+    "message": "Chào mừng đến với EasyView! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "Cầu nối nhận thức hỗ trợ bởi AI của bạn để đọc web dễ dàng hơn. Hãy cùng tham quan nhanh các tính năng."
+  },
+  "t_3a1fe637": {
+    "message": "Giải mã thuật ngữ 📖"
+  },
+  "t_89cec86e": {
+    "message": "Đơn giản hóa thuật ngữ phức tạp trên bất kỳ trang web nào."
+  },
+  "t_f8aefae7": {
+    "message": "Lá chắn bảo mật 🔐"
+  },
+  "t_aa860f86": {
+    "message": "Làm mờ dữ liệu nhạy cảm và bao gồm Thước tập trung để đọc không bị xao nhãng."
+  },
+  "t_0681a3b6": {
+    "message": "Lá chắn giác quan 🛡️"
+  },
+  "t_6118b864": {
+    "message": "Đóng băng các ảnh GIF và hoạt ảnh gây xao nhãng."
+  },
+  "t_12ec6fc6": {
+    "message": "Chế độ đọc cho người mắc chứng khó đọc 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "Phông chữ và khoảng cách được tối ưu hóa để đọc dễ dàng hơn."
+  },
+  "t_18d9ce63": {
+    "message": "Chuyển văn bản thành giọng nói 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "Nghe bất kỳ trang web nào với tính năng làm nổi bật từ."
+  },
+  "t_0019a700": {
+    "message": "Công cụ Biến đổi ✨"
+  },
+  "t_47c2535a": {
+    "message": "Sử dụng AI để thiết kế lại bất kỳ trang web nào thành chủ đề hoặc bố cục tùy chỉnh."
+  },
+  "t_2ed2f639": {
+    "message": "Ghi chú dán 📝"
+  },
+  "t_75025b5f": {
+    "message": "Ghim ghi chú nổi vào bất kỳ trang web nào để lưu thông tin quan trọng (Alt+N)."
+  },
+  "t_3ff2d7cc": {
+    "message": "Cấu hình API ⚙️"
+  },
+  "t_0754e836": {
+    "message": "Đăng nhập để đồng bộ hóa hạn mức của bạn, hoặc thiết lập khóa API Gemini miễn phí của riêng bạn tại đây."
+  },
+  "t_7b6a2059": {
+    "message": "Bước $1 trên $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "Bắt đầu ngay!"
+  },
+  "t_10ac3d04": {
+    "message": "Tiếp theo"
+  },
+  "t_5c7a52b8": {
+    "message": "Nhấn "
+  },
+  "t_a1b2c3d4": {
+    "message": " bất cứ lúc nào để kích hoạt thủ công lá chắn Tự động Bảo vệ."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ Lá chắn quyền riêng tư đã bật"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 Lá chắn quyền riêng tư đã tắt"
+  },
+  "js_9b3e1a": {
+    "message": "EasyView đang phân tích bố cục và biến đổi..."
+  },
+  "js_4c8d2f": {
+    "message": "Định nghĩa"
+  },
+  "js_7a1e9b": {
+    "message": "Giải mã"
+  },
+  "js_2d5f8c": {
+    "message": "Đơn giản hóa"
+  },
+  "js_6e3a4d": {
+    "message": "Dấu trang"
+  },
+  "js_1f9b7c": {
+    "message": "Làm nổi bật"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "Đang phân tích cây DOM..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "Bố cục lộn xộn..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "Đang làm phẳng cấu trúc..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[QUÁ TẢI TIẾNG ỒN]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "Đang loại bỏ các yếu tố gây xao nhãng..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "Nút phức tạp"
+  },
+  "js_ldr_m4_cl": {
+    "message": "Đang áp dụng các quy tắc cho người mắc chứng khó đọc..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "Đang hiển thị giao diện EasyView..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "Đang quét khối văn bản..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "Quá nhiều từ..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "Đang trích xuất ý nghĩa cốt lõi..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "Tải nhận thức"
+  },
+  "js_ldr_s3_cl": {
+    "message": "Đang soạn thảo tiếng Anh đơn giản hơn..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "Trí tuệ nhân tạo chi tiết..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "Đang áp dụng khả năng đọc..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "Đang làm mượt kết quả..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "Đang dịch thuật ngữ chuyên ngành..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "Lỗi: Nhầm lẫn"
+  },
+  "js_ldr_j2_cl": {
+    "message": "Đang tìm định nghĩa..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[QUÁ TẢI TIẾNG ỒN]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "Đang đơn giản hóa ngữ cảnh..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "Thuật ngữ chưa biết"
+  },
+  "js_ldr_j4_cl": {
+    "message": "Đang áp dụng độ rõ nét..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "Đang định dạng kết quả..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "Phân tích sâu..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "Đang hoàn thiện logic AI..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "Đang chạy AI..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "Sắp hoàn thành..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "Lưu lượng truy cập cao..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "Mất thêm một chút thời gian..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "Vẫn đang xử lý..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "Vui lòng chờ..."
+  },
+  "t_b7012ab9": {
+    "message": "Biến đổi"
+  },
+  "t_c5e8b1d9": {
+    "message": "Phông chữ chuyên nghiệp"
+  },
+  "t_c8f2ba19": {
+    "message": "Đã bật làm mờ nội dung riêng tư"
+  },
+  "t_e2dae61a": {
+    "message": "Đã tắt làm mờ nội dung riêng tư"
+  },
+  "t_c74de318": {
+    "message": "Đã bật Tự động bảo vệ khi chia sẻ màn hình"
+  },
+  "t_a5fd56f4": {
+    "message": "Đã tắt Tự động bảo vệ khi chia sẻ màn hình"
+  },
+  "t_ab8d1f2a": {
+    "message": "Chế độ đèn pin đã bật"
+  },
+  "t_2bf5cc98": {
+    "message": "Chế độ đèn pin đã tắt"
+  },
+  "t_513bb93f": {
+    "message": "Đọc sinh học"
+  },
+  "t_5a8b2c1d": {
+    "message": "Đây là bản xem trước các cài đặt đọc của bạn."
+  },
+  "t_ac1d4e5f": {
+    "message": "Không"
+  },
+  "t_b2e3f4a1": {
+    "message": "Rộng"
+  },
+  "t_c3f4a5b2": {
+    "message": "Rộng hơn"
+  },
+  "t_d1a3c901": {
+    "message": "Nhấp"
+  },
+  "t_b4f2e891": {
+    "message": "Ghim vào phần tử"
+  },
+  "t_c9a1b302": {
+    "message": "Khoảng cách"
+  },
+  "t_f6d4e203": {
+    "message": "Ghi chú toàn cầu"
+  },
+  "t_e2b3f104": {
+    "message": "Thoát"
+  },
+  "t_a7c0d905": {
+    "message": "Hủy"
+  },
+  "t_e1b2c301": {
+    "message": "Chỉ trang này"
+  },
+  "t_f7a3b402": {
+    "message": "Trang web này"
+  },
+  "t_a8c4d503": {
+    "message": "Tất cả trang web (Toàn cầu)"
+  },
+  "t_b9d5e604": {
+    "message": "Ẩn cho đến khi tải lại"
+  },
+  "t_c0e6f705": {
+    "message": "Ghim ghi chú vào phần tử"
+  },
+  "t_d1f7a806": {
+    "message": "Thay đổi màu ghi chú"
+  },
+  "t_e2a8b907": {
+    "message": "Thu gọn/mở rộng ghi chú"
+  },
+  "t_f3b9c008": {
+    "message": "Sao chép nội dung ghi chú"
+  },
+  "t_a4c0d109": {
+    "message": "Thêm hành động"
+  },
+  "t_b5d1e200": {
+    "message": "Xóa ghi chú này"
+  },
+  "t_e87033a2": {
+    "message": "Alt + X"
+  },
+  "t_4120201a": {
+    "message": "Đang dùng thử miễn phí"
+  },
+  "t_6ed40ffb": {
+    "message": "Đồng bộ cài đặt trên các thiết bị"
+  },
+  "t_f8b8a5fd": {
+    "message": "Hạn mức sử dụng miễn phí cao hơn"
+  },
+  "t_440b106d": {
+    "message": "Truy cập vào các tính năng Chuyên nghiệp trong tương lai"
+  },
+  "t_3a99076c": {
+    "message": "Giới hạn cao cấp"
+  },
+  "t_545f6c2f": {
+    "message": "Không giới hạn"
+  },
+  "t_ad23f4a0": {
+    "message": "Ghi chú không gian"
+  },
+  "t_04f2f045": {
+    "message": "Bạn đã triển khai thành công tất cả 15 ghi chú Gói miễn phí trên web. Nâng cấp lên EasyView Premium để mở khóa bộ nhớ không gian vô hạn và màu sắc tùy chỉnh."
+  },
+  "t_cf874b99": {
+    "message": "Mở khóa cao cấp"
+  },
+  "t_a6d36e2f": {
+    "message": "Tất cả các điều khiển hỗ trợ tiếp cận cục bộ (Đang hoạt động)"
+  },
+  "t_b0b69bc3": {
+    "message": "Công cụ chuyển văn bản thành giọng nói (Đang hoạt động)"
+  },
+  "t_cc96c21a": {
+    "message": "Tính năng AI đám mây (Ngoại tuyến)"
+  },
+  "t_7af6f6e5": {
+    "message": "Tôi hiểu"
+  },
+  "t_9bc7102e": {
+    "message": "Tạo tài khoản EasyView miễn phí để theo dõi hạn mức và mở khóa Trình giải mã thuật ngữ."
+  },
+  "t_ab7512fd": {
+    "message": "Mã phiên của bạn bị thiếu. Vui lòng đăng nhập lại vào easyview.in để khôi phục quyền truy cập."
+  },
+  "t_1cd7820a": {
+    "message": "CHỈ DÀNH CHO TÀI KHOẢN PRO"
+  },
+  "t_8eb14032": {
+    "message": "Trình giải mã thuật ngữ<br><span class=\"ev-si-gradient-text\">Đã đạt hạn mức</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "HẾT HẠN MỨC"
+  },
+  "t_5ae983dc": {
+    "message": "Bạn đã sử dụng hết <strong>5 lượt giải mã miễn phí</strong> trong tháng này. Mở khóa quyền truy cập không giới hạn trong vài giây."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> Lên Pro — Giải mã không giới hạn</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> Sử dụng khóa API của riêng bạn</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 Thêm khóa API trong Cài đặt</button>"
+  },
+  "t_9be4129a": {
+    "message": "Trình xuất bộ thẻ học tập<br><span class=\"ev-si-gradient-text\">Tự động hóa Pro</span>"
+  },
+  "t_fac34185": {
+    "message": "Xuất ngay lập tức toàn bộ Sổ tay Học tập tùy chỉnh của bạn trực tiếp sang <strong>Anki</strong> và <strong>Quizlet</strong>."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Bỏ nhập liệu thủ công</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Trình biên dịch thẻ ghi nhớ RFC-4180</div>"
+  },
+  "t_da12c30b": {
+    "message": "Quyền truy cập Pro"
+  },
+  "t_4a9b2c01": {
+    "message": "Tính năng này"
+  },
+  "t_3be78c01": {
+    "message": "Phông chữ đọc cho người khó đọc này"
+  },
+  "t_0ad4b971": {
+    "message": "Phông chữ trực quan này"
+  },
+  "t_9af42be8": {
+    "message": "Phông chữ xuất cao cấp này"
+  },
+  "t_cbae8349": {
+    "message": "Nâng cấp để mở khóa tất cả các tính năng hỗ trợ tiếp cận và công cụ mạnh mẽ."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Hỗ trợ tiếp cận nâng cao</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Tất cả các bản cập nhật trong tương lai</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ Nâng cấp lên Pro"
+  },
+  "t_5ef4c1a2": {
+    "message": "Để sau"
+  },
+  "t_3b7a5e82": {
+    "message": ", nhưng các tính năng AI có thể tạm thời không khả dụng."
+  },
+  "t_c91d8e12": {
+    "message": "Chung"
+  },
+  "t_b42f3a9d": {
+    "message": "Định nghĩa"
+  },
+  "t_f1d4a8e6": {
+    "message": "Từ điển"
+  },
+  "t_e398c71f": {
+    "message": "Tùy chỉnh"
+  },
+  "t_a72df9e5": {
+    "message": "Y tế"
+  },
+  "t_d8f2c61a": {
+    "message": "Pháp lý"
+  },
+  "t_b3e1f5d2": {
+    "message": "Tài chính"
+  },
+  "t_c25d81f9": {
+    "message": "Công nghệ"
+  },
+  "t_e1b3a4f6": {
+    "message": "Học thuật"
+  },
+  "t_d5f9b4c1": {
+    "message": "Thuật ngữ"
+  },
+  "t_f7a2e8ea": {
+    "message": "Danh mục"
+  },
+  "t_e3b1c6d9": {
+    "message": "Ý nghĩa đơn giản hóa"
+  },
+  "t_a9d4e5f2": {
+    "message": "Ghi chú học tập / Ngữ cảnh"
+  },
+  "t_b4c5d6e7": {
+    "message": "Hủy"
+  },
+  "t_c8f2a1b4": {
+    "message": "Lưu thay đổi"
+  },
+  "t_8c17b5e6": {
+    "message": "Mã phiên của bạn bị thiếu. Vui lòng đăng nhập lại vào easyview.in để khôi phục quyền truy cập."
+  },
+  "t_a43dc219": {
+    "message": "Tạo tài khoản EasyView miễn phí để theo dõi hạn mức sử dụng và mở khóa Công cụ Biến đổi AI."
+  },
+  "t_54c523fe": {
+    "message": "🎉 Hoàn hảo! Đã nhập thành công $1 thẻ học tập mới."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 Hoàn hảo! Đã nhập $1 thẻ mới. ($2 bản sao đã bị bỏ qua.)"
+  },
+  "t_14894d12": {
+    "message": "Xuất chủ đề"
+  },
+  "t_f27a2629": {
+    "message": "Sao lưu thư viện chủ đề"
+  },
+  "t_9ad85e17": {
+    "message": "Chế độ thước đọc"
+  },
+  "t_b9d4e7a5": {
+    "message": "Các chế độ Lá chắn cảm giác nâng cao"
+  },
+  "t_94f4f7e4": {
+    "message": "Đang phân tích DOCX...",
+    "description": "Trạng thái khi phân tích DOCX trong trình đọc"
+  },
+  "t_120adfc1": {
+    "message": "Đang phân tích EPUB...",
+    "description": "Trạng thái khi phân tích EPUB trong trình đọc"
+  },
+  "t_5d2a45b8": {
+    "message": "Chế độ Thước đọc chỉ dành riêng cho đăng ký Chuyên nghiệp.",
+    "description": "Cảnh báo khi người dùng không phải chuyên nghiệp truy cập thước đọc"
+  },
+  "t_c1f29623": {
+    "message": "Chỉnh sửa toàn bộ thẻ",
+    "description": "Chú giải công cụ để chỉnh sửa toàn bộ thẻ trong sổ tay"
+  },
+  "t_1063e38c": {
+    "message": "Gỡ bỏ",
+    "description": "Chú giải công cụ để gỡ bỏ thẻ khỏi sổ tay"
+  },
+  "t_ccca2ddf": {
+    "message": "Trình đọc EasyView"
+  },
+  "t_8524de96": {
+    "message": "Đang tải..."
+  },
+  "t_25e8f2fd": {
+    "message": "Vui lòng đợi..."
+  },
+  "t_ec9d785d": {
+    "message": "1.5x"
+  },
+  "t_dafd5f8f": {
+    "message": "Lếch-xen"
+  },
+  "t_16d90a0b": {
+    "message": "Át-kin-sơn Hai-pơ-lê-gi-bồ"
+  },
+  "t_5c7db066": {
+    "message": "Segoe UI (Mặc định của Windows)"
+  },
+  "t_f7cee5ea": {
+    "message": "Ca-li-bri"
+  },
+  "t_ccc0239e": {
+    "message": "Can-đa-ra"
+  },
+  "t_2963521b": {
+    "message": "Co-ben"
+  },
+  "t_37f1cc58": {
+    "message": "Cam-bri-a"
+  },
+  "t_c3d9d4bf": {
+    "message": "Con-stan-ti-a"
+  },
+  "t_5d1a5b35": {
+    "message": "Pa-la-ti-nô Lai-nô-tai-pơ"
+  },
+  "t_4dc386b6": {
+    "message": "Búc An-ti-qua"
+  },
+  "t_03c461f6": {
+    "message": "Phrăng-lin Gô-thích"
+  },
+  "t_7b1ee3b6": {
+    "message": "Xen-chu-ri Gô-thích"
+  },
+  "t_a3293302": {
+    "message": "Giu-li San"
+  },
+  "t_eb726908": {
+    "message": "Sít-ka Tếch"
+  },
+  "t_b5bdee2c": {
+    "message": "Sin-phai-en"
+  },
+  "t_1ec05249": {
+    "message": "Mai-crô-sốp San Sê-ríp"
+  },
+  "t_ad4a300c": {
+    "message": "Xi-gô Du-ai Xem-i-bôn"
+  },
+  "t_16507cdd": {
+    "message": "Con-sô-lát"
+  },
+  "t_391c5954": {
+    "message": "Lu-xi-đa Côn-sôn"
+  },
+  "t_9879efdf": {
+    "message": "Lu-xi-đa San Tai-rai-tơ"
+  },
+  "t_21f59b54": {
+    "message": "Im-pắc"
+  },
+  "t_94a7bb97": {
+    "message": "A-ri-an Đen"
+  },
+  "t_6e87c2cb": {
+    "message": "Cóp-pơ-plết Gô-thích"
+  },
+  "t_40885309": {
+    "message": "Bơ-lin Xan Phông Bê"
+  },
+  "t_6d5566ba": {
+    "message": "Ga-bri-ô-la"
+  },
+  "t_edb42482": {
+    "message": "Mực tự do"
+  },
+  "t_fa233799": {
+    "message": "Sê-gô Sờ-ríp"
+  },
+  "t_2f7bc407": {
+    "message": "Sê-gô In"
+  },
+  "t_0095a9fa": {
+    "message": "Xuất"
+  },
+  "t_520d0db3": {
+    "message": "Định dạng"
+  },
+  "t_5956a437": {
+    "message": "VĂN BẢN"
+  },
+  "t_1351017a": {
+    "message": "Tên tệp"
+  },
+  "t_d4c3c15b": {
+    "message": "Chưa tải tệp"
+  },
+  "t_0ca5a078": {
+    "message": "Vui lòng sử dụng tab Bộ chuyển đổi để tải tệp lên."
+  },
+  "t_c9857e16": {
+    "message": "Loại tệp không được hỗ trợ."
+  },
+  "t_6b447b91": {
+    "message": "Lỗi phân tích cú pháp tệp: "
+  },
+  "t_7f4588be": {
+    "message": "Ấn phẩm điện tử"
+  },
+  "t_12dc65c2": {
+    "message": "Chuyển đổi chế độ Sáng/Tối"
+  },
+  "t_d3d2e617": {
+    "message": "Đóng"
+  },
+  "t_6e8cfcb7": {
+    "message": "Xuất bảo mật lên máy chủ (Cao cấp)"
+  },
+  "t_2f9df658": {
+    "message": "Tách và làm nổi Không gian làm việc trên các cửa sổ khác"
+  },
+  "t_72d6d7a1": {
+    "message": "Nhập"
+  },
+  "t_de93d5fd": {
+    "message": "Xuất ghi chú"
+  },
+  "t_a1aacca9": {
+    "message": "Làm nổi hệ điều hành"
+  },
+  "t_ac0b844f": {
+    "message": "Ghi chú toàn cầu"
+  },
+  "t_15866f1d": {
+    "message": "Ghi chú theo trang web"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
+  },
+  "t_6af8212e": {
+    "message": "Bảng ghi chú EasyView"
+  },
+  "t_d16da0f5": {
+    "message": "🌎"
+  },
+  "t_6df173ff": {
+    "message": "📍"
+  },
+  "t_22f58a00": {
+    "message": "🌎 Ghi chú toàn cầu"
+  },
+  "t_5be8bbeb": {
+    "message": "🌐 Ghi chú trang web"
+  },
+  "t_59a56663": {
+    "message": "📍 Ghi chú trang"
+  },
+  "t_c1843696": {
+    "message": "Đang xác minh mã thông báo tính toàn vẹn..."
+  },
+  "t_58038ee4": {
+    "message": "Ngay bây giờ"
+  },
+  "t_e254e1a1": {
+    "message": "$1 phút trước",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_121d4d02": {
+    "message": "$1 giờ trước",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_19d2b280": {
+    "message": "$1 ngày trước",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_d3d4311c": {
+    "message": "Kéo ghi chú"
+  },
+  "t_7b32ea16": {
+    "message": "Chuyển sang $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_11916b28": {
+    "message": "Phạm vi áp dụng"
+  },
+  "t_5463fe67": {
+    "message": "Bảng màu"
+  },
+  "t_d116d454": {
+    "message": "Thu gọn ghi chú"
+  },
+  "t_be9ba0e5": {
+    "message": "Sao chép văn bản"
+  },
+  "t_28471624": {
+    "message": "Thêm hành động"
+  },
+  "t_90e467df": {
+    "message": "Đóng ghi chú"
+  },
+  "t_34494920": {
+    "message": "Nhập ghi chú của bạn tại đây..."
+  },
+  "t_bdda0b60": {
+    "message": "Bạn đang nghĩ gì vậy..."
+  },
+  "t_8689de27": {
+    "message": "Có sẵn ở mọi nơi"
+  },
+  "t_c0cf9810": {
+    "message": "Quay lại trang gốc"
+  },
+  "t_24a23176": {
+    "message": "Ngữ cảnh gốc"
+  },
+  "t_4c1c1e76": {
+    "message": "Nhập sổ tay"
+  },
+  "t_2736f644": {
+    "message": "Hợp nhất liền mạch các bộ thẻ học tập và danh sách từ vựng bên ngoài vào hệ sinh thái EasyView của bạn."
+  },
+  "t_ca4f038f": {
+    "message": "Các cột bắt buộc"
+  },
+  "t_7277de5f": {
+    "message": "Ý nghĩa"
+  },
+  "t_ce591bfa": {
+    "message": "Các cột tùy chọn"
+  },
+  "t_f4c6f851": {
+    "message": "Ghi chú"
+  },
+  "t_c1fd81a6": {
+    "message": "Chọn hoặc kéo tệp CSV"
+  },
+  "t_5c426600": {
+    "message": "Các từ trùng lặp và từ hiện có được lọc tự động"
+  },
+  "t_76e7183d": {
+    "message": "Nhập thành công!"
+  },
+  "t_3e17e02d": {
+    "message": "Từ vựng của bạn đã được cập nhật."
+  },
+  "t_3148d309": {
+    "message": "Đóng tab"
+  },
+  "t_0e412fa1": {
+    "message": "Hiệu ứng chúc mừng sẽ kích hoạt khi bạn quay lại cửa sổ bật lên"
+  },
+  "t_d29f6e6b": {
+    "message": "Nhập thất bại"
+  },
+  "t_e04efbcb": {
+    "message": "Trạng thái sổ tay"
+  },
+  "t_ed732761": {
+    "message": "Nhập chủ đề Morph"
+  },
+  "t_e44db711": {
+    "message": "Nhập an toàn thư viện công cụ Morph tùy chỉnh của bạn trực tiếp vào EasyView."
+  },
+  "t_c0bb7d43": {
+    "message": "Chọn hoặc kéo tệp JSON"
+  },
+  "t_36e9583e": {
+    "message": "Nhập các bố cục chủ đề bạn đã xuất trước đó."
+  },
+  "t_21630184": {
+    "message": "Đã khôi phục chủ đề!"
+  },
+  "t_d0c1ec75": {
+    "message": "Các mẫu morph của bạn đã được cài đặt thành công."
+  },
+  "t_cd27a5c0": {
+    "message": "EasyView — Trình đọc nội dung"
+  },
+  "t_b171ab1f": {
+    "message": "Chào mừng đến với Trình đọc"
+  },
+  "t_4e07c284": {
+    "message": "Tải tài liệu của bạn lên đây để đọc với kiểu chữ tùy chỉnh và các công cụ hỗ trợ tiếp cận nâng cao."
+  },
+  "t_004621c0": {
+    "message": "Hỗ trợ .docx, .epub và .txt"
+  },
+  "t_23bb27a0": {
+    "message": "Đang khởi tạo trình phân tích tài liệu..."
+  },
+  "t_e1d5f16c": {
+    "message": "Đang tối ưu hóa tệp DOCX để dễ đọc hơn..."
+  },
+  "t_0e55c5d0": {
+    "message": "Đang phân tích cấu trúc tệp EPUB..."
   }
 }

@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "ईज़ीव्यू — हर मस्तिष्क के लिए स्पष्टता"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "ईज़ीव्यू"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "एआई प्रॉम्प्ट या सिंगल क्लिक के साथ किसी भी वेबसाइट को तुरंत बदलें। वेब को अपने तरीके से देखें।"
+  },
+  "t_68ba0232": {
+    "message": "डिस्लेक्सिया मोड सक्रिय"
+  },
+  "t_85f47a25": {
+    "message": "डिस्लेक्सिया मोड निष्क्रिय"
+  },
+  "t_1cc1b64d": {
+    "message": "विश्लेषण करने के लिए पर्याप्त सामग्री नहीं है"
+  },
+  "t_cebe6412": {
+    "message": "कोई जटिल शब्द नहीं मिले"
+  },
+  "t_b964aa0f": {
+    "message": "पृष्ठ सामग्री का विश्लेषण करने में त्रुटि"
+  },
+  "t_956c104e": {
+    "message": "पृष्ठ मेमोरी साफ़ की गई"
+  },
+  "t_1f4b0f3e": {
+    "message": "शब्दावली साफ़ की गई"
+  },
+  "t_4bfeec37": {
+    "message": "चयन में कोई जटिल शब्द नहीं मिले"
+  },
+  "t_1b5e8531": {
+    "message": "चयन में कोई जटिल शब्द नहीं मिले"
+  },
+  "t_a1f781ec": {
+    "message": "चयन डिकोड करने में त्रुटि"
+  },
+  "t_7aae8122": {
+    "message": "चयन हाइलाइट्स हटा दिए गए"
+  },
+  "t_58762fd6": {
+    "message": "कृपया परिभाषित करने के लिए एक शब्द या छोटा वाक्यांश चुनें।"
+  },
+  "t_6838b119": {
+    "message": "परिभाषा खोजने में नेटवर्क त्रुटि।"
+  },
+  "t_ea3ca1b5": {
+    "message": "$1 शब्दों को डिकोड किया गया (कैश से)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "$1 शब्द डिकोड किए गए (कैश्ड)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "आपने इस महीने के सभी मुफ्त जार्गन डिकोडर उपयोग कर लिए हैं। असीमित एक्सेस के लिए प्रो में अपग्रेड करें।"
+  },
+  "t_cb3c5d3a": {
+    "message": "$2 श्रेणियों में $1 शब्दों को डिकोड किया गया",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "आपके डिकोड किए गए शब्दावली शब्द के $1 उदाहरण ऑटो-हाइलाइट किए गए",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "$1 सहेजी गई जार्गन परिभाषा$2 पुनर्स्थापित की गईं",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "आपने इस महीने के सभी मुफ्त जार्गन डिकोडर उपयोग कर लिए हैं। असीमित एक्सेस के लिए प्रो में अपग्रेड करें।"
+  },
+  "t_0b841c82": {
+    "message": "पहले से ही नोटबुक में है!"
+  },
+  "t_8901f3ab": {
+    "message": "नोटबुक में सहेजा गया!"
+  },
+  "t_eb8f5242": {
+    "message": "नोटबुक में सहेजने में त्रुटि"
+  },
+  "t_bd15702b": {
+    "message": "सेंसरी शील्ड सक्रिय"
+  },
+  "t_c28f3265": {
+    "message": "सेंसरी शील्ड निष्क्रिय"
+  },
+  "t_3f8910d9": {
+    "message": "ईज़ीव्यू"
+  },
+  "t_8aafa613": {
+    "message": "इस टेक्स्ट को सरल नहीं बनाया जा सका"
+  },
+  "t_79d2dc85": {
+    "message": "इस टेक्स्ट को सरल नहीं बनाया जा सका"
+  },
+  "t_99684ba5": {
+    "message": "टेक्स्ट को सरल बनाने में त्रुटि"
+  },
+  "t_f4362bde": {
+    "message": "क्लिपबोर्ड पर कॉपी किया गया!"
+  },
+  "t_af07ef4b": {
+    "message": "कॉपी करने में विफल"
+  },
+  "t_94e4d537": {
+    "message": "पृष्ठ पर टेक्स्ट बदल दिया गया"
+  },
+  "t_14a04b67": {
+    "message": "सरलीकरण मेमोरी हटा दी गई"
+  },
+  "t_c444ff21": {
+    "message": "मूल टेक्स्ट अस्थायी रूप से पुनर्स्थापित"
+  },
+  "t_55f1db14": {
+    "message": "आपने इस महीने के सभी मुफ्त उपयोग कर लिए हैं। असीमित एक्सेस के लिए प्रो में अपग्रेड करें।"
+  },
+  "t_fde4e3f0": {
+    "message": "इस पृष्ठ पर $1 सहेजे गए सरलीकरण पुनर्स्थापित किए गए",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "गतिशील रूप से लोड किए गए सरलीकरण को ऑटो-पुनर्स्थापित किया गया!"
+  },
+  "t_dfa22e52": {
+    "message": "टेक्स्ट-टू-स्पीच सक्रिय"
+  },
+  "t_ca153ad0": {
+    "message": "टेक्स्ट-टू-स्पीच अक्षम"
+  },
+  "t_dadbff09": {
+    "message": "कृपया पहले टेक्स्ट-टू-स्पीच सक्षम करें"
+  },
+  "t_47071c61": {
+    "message": "फिर से शुरू हो रहा है..."
+  },
+  "t_5516c48d": {
+    "message": "इस पृष्ठ पर कोई पठनीय सामग्री नहीं मिली"
+  },
+  "t_c57f25c9": {
+    "message": "कोई पठनीय सामग्री नहीं मिली"
+  },
+  "t_2516997e": {
+    "message": "पढ़ना पूर्ण"
+  },
+  "t_d3069aea": {
+    "message": "टेक्स्ट-टू-स्पीच इस ब्राउज़र में समर्थित नहीं है"
+  },
+  "t_53e6b8c6": {
+    "message": "कृपया पहले कुछ टेक्स्ट चुनें"
+  },
+  "t_e932d0f7": {
+    "message": "चयन पढ़ा जा रहा है..."
+  },
+  "t_1c50528d": {
+    "message": "पढ़ना पूर्ण"
+  },
+  "t_594778a2": {
+    "message": "रोका गया"
+  },
+  "t_4ded5f77": {
+    "message": "स्पीच रुक गई"
+  },
+  "t_0a74758c": {
+    "message": "✨ व्यक्तिगत कुंजी द्वारा संचालित"
+  },
+  "t_2fceddad": {
+    "message": "✨ असीमित"
+  },
+  "t_97627d80": {
+    "message": "✨ व्यक्तिगत कुंजी द्वारा संचालित"
+  },
+  "t_fd7d5888": {
+    "message": "सदस्यता प्रबंधित करें"
+  },
+  "t_df4657a5": {
+    "message": "मुफ़्त सदस्य"
+  },
+  "t_22dfb2ec": {
+    "message": "अतिथि उपयोगकर्ता"
+  },
+  "t_bd9f2460": {
+    "message": "मुफ़्त खाता"
+  },
+  "t_f5adda31": {
+    "message": "लॉगिन / साइन अप"
+  },
+  "t_d2439201": {
+    "message": "✨ असीमित"
+  },
+  "t_164442b7": {
+    "message": "कनवर्टर इंजन तैयार किया जा रहा है..."
+  },
+  "t_1e7c3002": {
+    "message": "फ़ाइलें पार्स करने के लिए तैयार।"
+  },
+  "t_d30f78df": {
+    "message": "डार्क मोड"
+  },
+  "t_6c68d8ce": {
+    "message": "लाइट मोड"
+  },
+  "t_fcb68c2b": {
+    "message": "कोई स्टिकी नोट्स नहीं मिले। एक्सपोर्ट करने के लिए कुछ भी नहीं है!"
+  },
+  "t_2b75b2d9": {
+    "message": "आपका सत्र टोकन गायब है। एक्सेस बहाल करने के लिए कृपया easyview.in पर फिर से साइन इन करें।"
+  },
+  "t_291a4e34": {
+    "message": "सुरक्षित सर्वर रूटिंग विफल। अपना कनेक्शन जांचें।"
+  },
+  "t_2dcf62b3": {
+    "message": "कोई छूटे हुए नोट्स नहीं मिले। वर्कस्पेस अपडेट है।"
+  },
+  "t_951bf3ae": {
+    "message": "डिक्रिप्शन विफल: फ़ाइल ईज़ीव्यू सीमाओं के अनुरूप नहीं है।"
+  },
+  "t_817a4ba0": {
+    "message": "पीआईपी एपीआई समर्थित नहीं है। कृपया क्रोम अपडेट करें।"
+  },
+  "t_e8aa6e9a": {
+    "message": "पीआईपी इंजन शुरू करने में विफल: "
+  },
+  "t_9feed9d5": {
+    "message": "सफलतापूर्वक डिक्रिप्ट और $1 नए नोट्स इंजेक्ट किए गए।",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "बीटा"
+  },
+  "t_c289adbe": {
+    "message": "हमारा समर्थन करें"
+  },
+  "t_60d5b12a": {
+    "message": "हमें रिव्यू करें"
+  },
+  "js_eb82de4c": {
+    "message": "कस्टम रंग"
+  },
+  "js_8caef32b": {
+    "message": "रीसेट/साफ़ करें (टेक्स्ट चुनें और क्लिक करें, या मैन्युअल रूप से हाइलाइट पर डबल-क्लिक करें)"
+  },
+  "t_823aeb91": {
+    "message": "ईज़ीव्यू वर्कस्पेस"
+  },
+  "t_fc42ed23": {
+    "message": "आपके कार्यक्षेत्र में कोई वैश्विक नोट्स नहीं हैं।"
+  },
+  "t_12d7c58a": {
+    "message": "एक उत्पन्न करने के लिए स्टिकी नोट्स कर्सर सक्रिय होने पर स्पेस दबाएं।"
+  },
+  "t_ab983c11": {
+    "message": "यहाँ कोई साइट-विशिष्ट नोट्स नहीं मिले।"
+  },
+  "t_e22709e9": {
+    "message": "लक्षित नोट को एंकर करने के लिए किसी भी वेबसाइट पर एक भौतिक तत्व पर क्लिक करें।"
+  },
+  "t_34bdba45": {
+    "message": "चरण"
+  },
+  "t_9b2d88a1": {
+    "message": "का"
+  },
+  "t_8f44d852": {
+    "message": "शुरू करें!"
+  },
+  "t_b45c2f91": {
+    "message": "वर्कस्पेस निर्यात अनलॉक करें"
+  },
+  "t_88f91dc1": {
+    "message": "अपने पूरे वैश्विक वर्कस्पेस नोट्स को सुरक्षित रूप से रेंडर और एक्सपोर्ट करने के लिए एक सत्यापित प्रो लाइसेंस की आवश्यकता होती है। इस सुविधा को स्थायी रूप से अनलॉक करने के लिए अपग्रेड करें।"
+  },
+  "t_134dff88": {
+    "message": "शायद बाद में"
+  },
+  "t_5b8c9d11": {
+    "message": "प्रो में अपग्रेड करें"
+  },
+  "t_792bd8c9": {
+    "message": "वर्कस्पेस फ्लोटिंग मोड चालू!"
+  },
+  "t_e39f7dc2": {
+    "message": "आपके स्टिकी नोट्स अब आपके ओएस डेस्कटॉप के ऊपर तैर रहे हैं।"
+  },
+  "t_c83d6ec9": {
+    "message": "वर्कस्पेस को फिर से डॉक करें"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">ईज़ीव्यू एआई</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">शोर फ़िल्टर किया जा रहा है...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"बैकग्राउंड में चलाएं\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>मिनिमाइज़ करें</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>इंजन रोकें</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "जनरेशन रोक दी गई"
+  },
+  "t_removed_from_notebook": {
+    "message": "नोटबुक से हटाया गया"
+  },
+  "t_d1c58470": {
+    "message": "हाइलाइट हटाने के लिए डबल-क्लिक करें"
+  },
+  "t_d4fdfb03": {
+    "message": "ईज़ीव्यू में साइन इन करें $1 मुफ्त उपयोग/माह पाने के लिए, या सेटिंग्स में अपनी खुद की एपीआई कुंजी जोड़ें।",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "सहेजे गए परिणाम लोड किए जा रहे हैं..."
+  },
+  "t_3a99733d": {
+    "message": "जार्गन डिकोडर शुरू किया जा रहा है..."
+  },
+  "t_b6dc9fc9": {
+    "message": "प्रति माह $1 मुफ्त एआई डिकोड पाने और अपना कोटा ट्रैक करने के लिए एक मुफ्त ईज़ीव्यू खाता बनाएं।",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "प्रति माह $1 मुफ्त एआई परिभाषाएं पाने और अपना कोटा ट्रैक करने के लिए एक मुफ्त ईज़ीव्यू खाता बनाएं।",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "मुख्य सामग्री निकाली जा रही है..."
+  },
+  "t_0eeae2bf": {
+    "message": "पृष्ठ संदर्भ का पता लगाया जा रहा है..."
+  },
+  "t_87f125d0": {
+    "message": "शब्दावली का विश्लेषण किया जा रहा है..."
+  },
+  "t_9ef6e70f": {
+    "message": "कैश्ड परिणामों का उपयोग किया जा रहा है..."
+  },
+  "t_9afdc5e8": {
+    "message": "एआई के साथ विश्लेषण किया जा रहा है..."
+  },
+  "t_7ecc3abe": {
+    "message": "एआई डिकोडिंग विफल"
+  },
+  "t_9220c8de": {
+    "message": "सरलीकरण लागू किया जा रहा है..."
+  },
+  "t_57f406b1": {
+    "message": "चयन डिकोड किया जा रहा है..."
+  },
+  "t_c50f2b72": {
+    "message": "शब्दावली देखें"
+  },
+  "t_49de9b11": {
+    "message": "पृष्ठ पर हाइलाइट्स छिपाएं"
+  },
+  "t_3158774e": {
+    "message": "पृष्ठ पर हाइलाइट्स पुनर्स्थापित करें"
+  },
+  "t_fc3ad42d": {
+    "message": "शब्दावली में सहेजें"
+  },
+  "t_87e933b8": {
+    "message": "परिभाषा देखी जा रही है..."
+  },
+  "t_56b79836": {
+    "message": "शब्द परिभाषा लोड की गई।"
+  },
+  "t_969b24ea": {
+    "message": "🔊 थीम ऑडियो सक्रिय करने के लिए कहीं भी क्लिक करें"
+  },
+  "t_49337275": {
+    "message": "मैनुअल हाइलाइट"
+  },
+  "t_93324bd5": {
+    "message": "सीधे वेब पेज से सहेजा गया।"
+  },
+  "t_82e413f3": {
+    "message": "टेक्स्ट को सरल बनाया जा रहा है..."
+  },
+  "t_86c4f6e5": {
+    "message": "एआई के साथ सरल बनाया जा रहा है..."
+  },
+  "t_c3e18edb": {
+    "message": "सरलीकरण विफल"
+  },
+  "t_6398ab2c": {
+    "message": "पढ़ने का स्तर: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "मूल टेक्स्ट को अस्थायी रूप से पुनर्स्थापित करने के लिए क्लिक करें"
+  },
+  "t_9beea3e8": {
+    "message": "मेमोरी से स्थायी रूप से हटाएं"
+  },
+  "t_453bb8f7": {
+    "message": "प्रति माह $1 मुफ्त एआई सरलीकरण पाने और अपना कोटा ट्रैक करने के लिए एक मुफ्त ईज़ीव्यू खाता बनाएं।",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "सुनें"
+  },
+  "t_24833610": {
+    "message": "सहेजा गया"
+  },
+  "t_30a008cb": {
+    "message": "और पढ़ें &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "शब्दावली नोटबुक में सहेजा गया!"
+  },
+  "t_2728e87f": {
+    "message": "शब्दावली नोटबुक से हटाया गया"
+  },
+  "t_6b8c66ce": {
+    "message": "शब्दावली ($1 शब्द)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "इस पृष्ठ के लिए मेमोरी हटाएं"
+  },
+  "t_8a49fe1a": {
+    "message": "शब्द हटाएं"
+  },
+  "t_1534891c": {
+    "message": "$1 शब्दों को डिकोड किया गया",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "नोटबुक में सहेजें"
+  },
+  "t_150a2843": {
+    "message": "हाइलाइट साफ़ करें"
+  },
+  "t_21ef939c": {
+    "message": "नोटबुक में सहेजा गया!"
+  },
+  "t_8054da35": {
+    "message": "त्वरित शब्दकोश",
+    "description": "त्वरित शब्दकोश पॉपअप हेडर"
+  },
+  "t_4aeb2167": {
+    "message": "शब्द नहीं मिला",
+    "description": "शब्दकोश फ़ॉलबैक शीर्षक"
+  },
+  "t_272d0070": {
+    "message": "हमें बुनियादी शब्दकोश में \"$1\" नहीं मिला। यह आधुनिक स्लैंग, संक्षिप्त नाम, या अत्यधिक तकनीकी जार्गन हो सकता है।",
+    "description": "शब्द प्लेसहोल्डर के साथ शब्दकोश फॉलबैक विवरण",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "ईवी एआई के साथ डिकोड करें",
+    "description": "एआई के साथ डिकोड करने के लिए फॉलबैक बटन"
+  },
+  "t_14f1f972": {
+    "message": "के माध्यम से",
+    "description": "शब्दकोश स्रोत उपसर्ग"
+  },
+  "t_f2faf2f1": {
+    "message": "संज्ञा",
+    "description": "संज्ञा (वाक् का भाग)"
+  },
+  "t_b512ddf1": {
+    "message": "क्रिया",
+    "description": "क्रिया (वाक् का भाग)"
+  },
+  "t_d807ae6a": {
+    "message": "विशेषण",
+    "description": "विशेषण (वाक् का भाग)"
+  },
+  "t_1a607278": {
+    "message": "क्रिया विशेषण",
+    "description": "क्रिया विशेषण (वाक् का भाग)"
+  },
+  "t_02de720d": {
+    "message": "सर्वनाम",
+    "description": "वाक् का भाग: सर्वनाम"
+  },
+  "t_4b7be2c3": {
+    "message": "पूर्वसर्ग",
+    "description": "वाक् का भाग: पूर्वसर्ग"
+  },
+  "t_a3c1d30b": {
+    "message": "समुच्चयबोधक",
+    "description": "वाक् का भाग: समुच्चयबोधक"
+  },
+  "t_e189f001": {
+    "message": "विस्मयादिबोधक",
+    "description": "वाक् का भाग: विस्मयादिबोधक"
+  },
+  "t_96de90f8": {
+    "message": "सरलीकृत टेक्स्ट कॉपी करें",
+    "description": "सरलीकृत टेक्स्ट कॉपी करने के लिए टूलटिप"
+  },
+  "t_44a6e288": {
+    "message": "पेज पढ़ें",
+    "description": "टीटीएस (TTS) के माध्यम से पूरा पृष्ठ पढ़ने के लिए टूलटिप"
+  },
+  "t_7d70d73b": {
+    "message": "चयनित टेक्स्ट पढ़ें",
+    "description": "टीटीएस (TTS) के माध्यम से चयनित टेक्स्ट पढ़ने के लिए टूलटिप"
+  },
+  "t_11936123": {
+    "message": "नोट को स्थायी रूप से हटाएं",
+    "description": "स्टिकी नोट को स्थायी रूप से हटाने के लिए टूलटिप"
+  },
+  "t_d27532d9": {
+    "message": "छोटा करें"
+  },
+  "t_2bd339d8": {
+    "message": "रिस्टोर करें"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "ईज़ीव्यू"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "सिस्टम अलर्ट"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "सिस्टम सूचना"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "ईज़ीव्यू\nइंजन"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "स्थानीय सुविधाएँ\nसक्रिय रहती हैं"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,580 +599,571 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "ईज़ीव्यू\nअनुभव"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "आप १२ घंटों से ईज़ीव्यू का उपयोग कर रहे हैं। अपनी सेटिंग्स सहेजने, अपना कोटा बनाए रखने और अधिक सुविधाओं को अनलॉक करने के लिए एक मुफ्त खाता बनाएं।"
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "मुझे १२ घंटे में याद दिलाएं"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "लाइट"
   },
   "t_7fc56270": {
-    "message": "A"
+    "message": "अ"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "फ़ॉन्ट"
   },
   "t_5dbc98dc": {
-    "message": "S"
+    "message": "स"
   },
   "t_69691c7b": {
-    "message": "M"
+    "message": "म"
   },
   "t_d20caec3": {
-    "message": "L"
+    "message": "ल"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "विशेषताएं"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "विजुअल्स"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "कन्वर्टर"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "नोटबुक"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "जार्गन डिकोडर"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "जटिल कानूनी शब्दों को सरल बनाएं"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "विकिपीडिया.ऑर्ग/विकि/न्यूरोडाइवर्जेंस"
   },
   "t_61e9c06e": {
-    "message": "W"
+    "message": "व"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "न्यूरोडायवर्जेंस"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "काफी\nआसान"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "फ़ोकस और गोपनीयता शील्ड"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "निजी और संवेदनशील सामग्री को धुंधला करें"
   },
   "t_7f766191": {
-    "message": "mail.google.com/mail/u/0/"
+    "message": "मेल.गूगल.कॉम/मेल/यू/०/"
   },
   "t_dfcf28d0": {
-    "message": "G"
+    "message": "ग"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "गूगल खाते"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "सुरक्षा चेतावनी"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- पासवर्ड रीसेट का अनुरोध किया गया..."
   },
   "t_8d9c307c": {
-    "message": "N"
+    "message": "न"
   },
   "t_170b1d36": {
-    "message": "Netflix"
+    "message": "नेटफ्लिक्स"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "इस सप्ताह नया"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- हमारे नवीनतम\nरिलीज़ देखें..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "सुरक्षा तकनीकें"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "निजी सामग्री धुंधली करना"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "तत्काल दृश्य सुरक्षा के लिए व्हाट्सएप, जीमेल और पासवर्ड इनपुट को धुंधला करता है।"
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "स्क्रीन शेयर पर ऑटो-प्रोटेक्ट"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "ऑनलाइन साझा करते समय आपकी स्क्रीन को तुरंत सुरक्षित करता है।"
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
-  },
-  "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "क्या आप\nएक भौतिक प्रोजेक्टर का उपयोग कर रहे हैं?"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "रीडिंग फ्लैशलाइट"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "आस-पास की दृश्य अव्यवस्था को पूरी तरह से खत्म करने के लिए एक उज्ज्वल स्पॉटलाइट के साथ आपके माउस का अनुसरण करता है।"
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "१.\nबीम का आकार"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "स्पॉटलाइट\r\n                                                            या रूलर"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "२.\nबीम का आकार / ऊंचाई"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "दृश्य क्षेत्र की\nमोटाई"
   },
   "t_f0cad41b": {
-    "message": "35px"
+    "message": "३५px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "३.\r\n                                                            फोकस बीम लेंस टिंट"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "पढ़ने के अंतराल को धीरे से टिंट करता है"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "४.\r\n                                                            एम्बिएंट बैकग्राउंड शैडो"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "आपके लेंस के चारों ओर धुंधलापन"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "सेंसरी शील्ड"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "ध्यान भटकाने वाले एनिमेशन को फ्रीज करें"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "न्यूज़डेली.कॉम/ब्रेकिंग"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "ताज़ा खबर"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "दैनिक समाचारों पर एक लेख पढ़ रहे हैं..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "जीत!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "शील्ड मोड"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(डिफ़ॉल्ट)"
   },
   "t_9e3360ac": {
-    "message": "PRO"
+    "message": "प्रो"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "ऑटो-प्ले रोकें + मैन्युअल नेविगेशन पर\nशांत फ़ेड"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "डिस्लेक्सिया रीडिंग मोड"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "अनुकूलित फ़ॉन्ट और स्पेसिंग"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "तीव्रता प्रोफ़ाइल"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "कम"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "मध्यम"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "उच्च"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "विकिपीडिया.ऑर्ग/विकि/रीडिंग"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "पढ़ना"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "यहाँ आपकी रीडिंग सेटिंग्स का पूर्वावलोकन है।"
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "उन्नत विकल्प"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "फ़ॉन्ट स्टाइल"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "डिफ़ॉल्ट (कोई बदलाव नहीं)"
   },
   "t_5d2967ef": {
-    "message": "OpenDyslexic"
+    "message": "ओपनडिस्लेक्सिक"
   },
   "t_1042daad": {
-    "message": "Lexend (ADHD Pro) 🔒"
+    "message": "लेक्सेंड (एडीएचडी प्रो) 🔒"
   },
   "t_bcec044a": {
-    "message": "Atkinson Hyperlegible 🔒"
+    "message": "एटकिंसन हाइपरलेजिबल 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "फ़ास्ट सैन्स"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "फ़ास्ट सेरिफ़"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "कॉमिक न्यू"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "कॉमिक सैन्स"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "अक्षर अंतराल"
   },
   "t_960b44c5": {
-    "message": "Normal"
+    "message": "सामान्य"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "लाइन की ऊंचाई"
   },
   "t_60086472": {
-    "message": "1.5"
+    "message": "१.५"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "शब्द अंतराल"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "फ़ॉन्ट आकार"
   },
   "t_30bd7ce7": {
-    "message": "100%"
+    "message": "१००%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "ओवरले रंग"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "कोई नहीं"
   },
   "t_2bd8c63b": {
-    "message": "Beige"
+    "message": "बेज"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "हल्का नीला"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "हल्का हरा"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "हल्का पीला"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "टेक्स्ट-टू-स्पीच"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "हाइलाइटिंग के साथ जोर से पढ़ें"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "चलाएं"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "विराम"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "रोकें"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "आवाज़ चयन"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "ऑटो (सर्वोत्तम गुणवत्ता)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "पढ़ने की गति"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "बहुत धीमा"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "धीमा"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "तेज़"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "बहुत तेज़"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "वॉल्यूम"
   },
   "t_f1943132": {
-    "message": "70%"
+    "message": "७०%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "विराम चिह्नों पर रुकें"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "शब्द हाइलाइटिंग"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "सक्षम करें"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "मोड"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "डार्क"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "विकिपीडिया.ऑर्ग/विकि/लाइट"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "आंखों के आराम के लिए उत्तम दृश्य। रोशनी तीव्र हो सकती है।"
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "चमक"
   },
   "t_c63ecd19": {
-    "message": "Contrast"
+    "message": "कंट्रास्ट"
   },
   "t_b84a9a38": {
-    "message": "Sepia"
+    "message": "सेपिया"
   },
   "t_9f1ef078": {
-    "message": "0%"
+    "message": "०%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "ग्रेस्केल"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "डिफ़ॉल्ट"
   },
   "t_b1166920": {
-    "message": "Lexend 🔒"
+    "message": "लेक्सेंड 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "टेक्स्ट स्ट्रोक"
   },
   "t_cfcd2084": {
-    "message": "0"
+    "message": "०"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "स्मार्ट कन्वर्टर और रीडर"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "वर्तमान फ़ाइल"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "अपलोड करने के लिए फ़ाइल पर क्लिक करें या खींचें"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• तैयार"
   },
   "t_4c4ad5fc": {
-    "message": "HTML"
+    "message": "एचटीएमएल"
   },
   "t_5c31b30e": {
-    "message": "EPUB"
+    "message": "ईपब"
   },
   "t_7cfd9a9f": {
-    "message": "DOCX"
+    "message": "डॉक्स"
   },
   "t_af97e960": {
     "message": "📌"
   },
   "t_4cc6684d": {
-    "message": "Global"
+    "message": "वैश्विक"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "साइट/पेज"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "मेरी नोटबुक"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "सभी साफ़ करें"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "रद्द करें"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "शब्द सहेजें"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "अभी तक कोई सहेजा गया शब्द नहीं है।"
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "किसी भी पेज पर जार्गन (जार्गन) पर होवर करें और उन्हें यहाँ सहेजने के लिए बुकमार्क फ़्लैग पर क्लिक करें!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "किसी भी वेबसाइट के इंटरफ़ेस की फिर से कल्पना करें। बताएं कि आप क्या चाहते हैं या एक\nप्रीसेट चुनें।"
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "मॉर्फ\nलागू किया गया"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "कस्टम एआई लेआउट\nइस साइट पर सक्रिय है।"
   },
   "t_e8a57cd1": {
-    "message": "0 /\r\n                                500"
+    "message": "० /\r\n                                ५००"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "पेज रीसेट करें"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "मॉर्फ लेआउट"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "डिफ़ॉल्ट प्रीसेट"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "हॉरर कार्निवल"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "डरावना कार्निवल वाइब्स और एनिमेटेड हॉरर टेक्स्ट"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "मैट्रिक्स कंसोल"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "साइबरपंक टर्मिनल थीम"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "न्यूरो फ़ोकस"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "डिस्लेक्सिया-अनुकूल फ़ॉन्ट और शांत रंग"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "रीडर मोड"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "फोकस के लिए अनुकूलित न्यूनतम लेआउट"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "हाल के प्रॉम्प्ट"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "अतिथि उपयोगकर्ता"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "मुफ़्त खाता"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "लॉगिन / प्रबंधित करें"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "लॉग आउट"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "एपीआई सेटिंग्स"
   },
   "t_766cc4dd": {
-    "message": "Gemini"
+    "message": "जेमिनी"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "एआई प्रदाता"
   },
   "t_222cf5ed": {
-    "message": "Google Gemini"
+    "message": "गूगल जेमिनी"
   },
   "t_a0607683": {
-    "message": "OpenRouter"
+    "message": "ओपनराउटर"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "जेमिनी एपीआई कुंजी"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "गूगल एआई स्टूडियो"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "ओपनराउटर एपीआई कुंजी"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "एपीआई कुंजी सहेजें"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "ईज़ीव्यू\nएआई प्राथमिकता"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ मेरी एपीआई कुंजी"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 ईज़ीव्यू सर्वर"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "चुनें कि सभी एआई सुविधाओं के लिए पहले किसका उपयोग किया जाता है। यदि आपकी कुंजी समाप्त हो जाती है, तो ईज़ीव्यू सर्वर का हमेशा बैकअप के रूप में उपयोग किया जाता है।"
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "गोपनीयता\nऔर प्राथमिकता"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "प्राथमिकता १:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "प्राथमिकता २:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "मॉर्फ\nइंजन नोट:"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "कभी नहीं"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "सहायता और प्रतिक्रिया"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "कोई प्रश्न है, कोई बग मिला है, या कोई सुविधा सुझाना चाहते हैं? हमें आपसे सुनना अच्छा लगेगा!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "बग की रिपोर्ट करें / प्रतिक्रिया दें"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "सरल बनाने के लिए तैयार"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "सेटिंग्स निर्यात करें"
   },
   "t_9d5ed678": {
-    "message": "B"
+    "message": "बोल्ड"
   },
   "t_dd753679": {
-    "message": "I"
+    "message": "इटैलिक"
   },
   "t_20a1d47c": {
     "message": "✎"
   },
   "t_4c614360": {
-    "message": "U"
+    "message": "अंडरलाइन"
   },
   "t_2f43b42f": {
     "message": "..."
@@ -615,25 +1172,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "शक्ति"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "अपारदर्शिता"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "वजन"
   },
   "t_18d80423": {
-    "message": "400"
+    "message": "४००"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "लाइन\r\nऊंचाई"
   },
   "t_f522dede": {
-    "message": "1.7x"
+    "message": "१.७x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "छोड़ें"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,88 +1199,88 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "हाइलाइट"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "स्याही"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "फ़ेड"
   },
   "t_e8bfe352": {
-    "message": "Lexend 👑"
+    "message": "लेक्सेंड 👑"
   },
   "t_0cd4623c": {
-    "message": "Atkinson Hyperlegible 👑"
+    "message": "एटकिंसन हाइपरलेजिबल 👑"
   },
   "t_6fbda3a3": {
-    "message": "Arial"
+    "message": "एरियल"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "हेल्वेटिका"
   },
   "t_207c3219": {
-    "message": "Verdana"
+    "message": "वर्दाना"
   },
   "t_2bd141ae": {
-    "message": "Tahoma"
+    "message": "ताहोमा"
   },
   "t_720661ec": {
-    "message": "Trebuchet MS"
+    "message": "ट्रेबुचेट एमएस"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "सिस्टम सैन्स"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "टाइम्स न्यू रोमन"
   },
   "t_eada8196": {
-    "message": "Georgia"
+    "message": "जॉर्जिया"
   },
   "t_96a78725": {
-    "message": "Garamond"
+    "message": "गैरामोंड"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "सिस्टम सेरिफ़"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "कॉमिक सैन्स एमएस"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "कूरियर न्यू"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "मोनोस्पेस"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "फ़ॉन्ट\r\nआकार"
   },
   "t_f4f9f2f4": {
-    "message": "14px"
+    "message": "१४px"
   },
   "t_cf3c032c": {
-    "message": "16px"
+    "message": "१६px"
   },
   "t_d69f92af": {
-    "message": "18px"
+    "message": "१८px"
   },
   "t_865b4c0b": {
-    "message": "20px"
+    "message": "२०px"
   },
   "t_14cdf596": {
-    "message": "22px"
+    "message": "२२px"
   },
   "t_33f60d47": {
-    "message": "24px"
+    "message": "२४px"
   },
   "t_c7c6a7b0": {
-    "message": "28px"
+    "message": "२८px"
   },
   "t_4d3604fc": {
-    "message": "32px"
+    "message": "३२px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "पूर्ण"
   },
   "t_63922286": {
     "message": "×"
@@ -732,154 +1289,34 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "थीम लाइब्रेरी निर्यात करें"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "अपनी एआई-जनरेटेड कृतियों को\r\n                स्थानीय रूप से सहेजें।"
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "पूरी लाइब्रेरी निर्यात करें"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
-  },
-  "t_ccca2ddf": {
-    "message": "EasyView Reader"
-  },
-  "t_8524de96": {
-    "message": "Loading..."
-  },
-  "t_25e8f2fd": {
-    "message": "Please wait..."
-  },
-  "t_ec9d785d": {
-    "message": "1.5x"
-  },
-  "t_dafd5f8f": {
-    "message": "Lexend"
-  },
-  "t_16d90a0b": {
-    "message": "Atkinson Hyperlegible"
-  },
-  "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
-  },
-  "t_f7cee5ea": {
-    "message": "Calibri"
-  },
-  "t_ccc0239e": {
-    "message": "Candara"
-  },
-  "t_2963521b": {
-    "message": "Corbel"
-  },
-  "t_37f1cc58": {
-    "message": "Cambria"
-  },
-  "t_c3d9d4bf": {
-    "message": "Constantia"
-  },
-  "t_5d1a5b35": {
-    "message": "Palatino Linotype"
-  },
-  "t_4dc386b6": {
-    "message": "Book Antiqua"
-  },
-  "t_03c461f6": {
-    "message": "Franklin Gothic"
-  },
-  "t_7b1ee3b6": {
-    "message": "Century Gothic"
-  },
-  "t_a3293302": {
-    "message": "Gill Sans"
-  },
-  "t_eb726908": {
-    "message": "Sitka Text"
-  },
-  "t_b5bdee2c": {
-    "message": "Sylfaen"
-  },
-  "t_1ec05249": {
-    "message": "Microsoft Sans Serif"
-  },
-  "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
-  },
-  "t_16507cdd": {
-    "message": "Consolas"
-  },
-  "t_391c5954": {
-    "message": "Lucida Console"
-  },
-  "t_9879efdf": {
-    "message": "Lucida Sans Typewriter"
-  },
-  "t_21f59b54": {
-    "message": "Impact"
-  },
-  "t_94a7bb97": {
-    "message": "Arial Black"
-  },
-  "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
-  },
-  "t_40885309": {
-    "message": "Berlin Sans FB"
-  },
-  "t_6d5566ba": {
-    "message": "Gabriola"
-  },
-  "t_edb42482": {
-    "message": "Ink Free"
-  },
-  "t_fa233799": {
-    "message": "Segoe Script"
-  },
-  "t_2f7bc407": {
-    "message": "Segoe Print"
-  },
-  "t_0095a9fa": {
-    "message": "Export"
-  },
-  "t_520d0db3": {
-    "message": "Format"
-  },
-  "t_5956a437": {
-    "message": "TXT"
-  },
-  "t_1351017a": {
-    "message": "Filename"
-  },
-  "t_6af8212e": {
-    "message": "EasyView Notes Board"
-  },
-  "t_d16da0f5": {
-    "message": "🌎"
-  },
-  "t_6df173ff": {
-    "message": "📍"
+    "message": ".जेएसओएन (जेएसओएन (JSON) फ़ाइल)"
   },
   "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
-  },
-  "js_24833610": {
-    "message": "Saved"
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> कार्रवाई आवश्यक</div>\n            <h2 class=\"ev-si-title\">खाता<br><span class=\"ev-si-gradient-text\">निलंबित</span></h2>\n            <p class=\"ev-si-sub\">हमारी सेवा की शर्तों के उल्लंघन के कारण आपका ईज़ीव्यू एक्सेस प्रतिबंधित कर दिया गया है।</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                सपोर्ट से संपर्क करें\n            </a>\n          </div>\n        </div>\n      "
   },
   "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>कृपया पहले अपना मॉर्फ बताएं।</span>\n          </div>"
   },
   "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>मॉर्फ हो रहा है...</span>\n      "
   },
   "js_138703dd": {
-    "message": "No Theme on Page"
+    "message": "पृष्ठ पर कोई थीम नहीं"
   },
   "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>वर्तमान पेज एक्सपोर्ट करें"
   },
   "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> कंपाइल हो रहा है..."
   },
   "js_e541190e": {
     "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
@@ -891,30 +1328,1322 @@
     "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
   },
   "js_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "सरल बनाने के लिए तैयार"
   },
   "js_a18366b2": {
-    "message": "Dark"
+    "message": "डार्क"
   },
   "js_9914a0ce": {
-    "message": "Light"
+    "message": "लाइट"
   },
   "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+    "message": "<option value=\"auto\">ऑटो (सर्वोत्तम गुणवत्ता)</option>"
   },
   "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> डिकोड हो रहा है..."
   },
   "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+    "message": "यह समझने में <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">काफी आसान</span> लगता है।"
   },
   "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+    "message": "यह समझने में कम अस्पष्ट लगता है।"
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_f05df71b": {
+    "message": "अपग्रेड हो रहा है"
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_78db2ae3": {
+    "message": "हमारे एआई सर्वर अपग्रेड से गुजर रहे हैं।"
+  },
+  "t_bb2129c8": {
+    "message": "पूर्ण क्षमता अनलॉक करें"
+  },
+  "t_aefee7cd": {
+    "message": "हर मस्तिष्क के लिए स्पष्टता"
+  },
+  "t_c38beca1": {
+    "message": "फ़ायरफ़ॉक्स भौतिक मॉनिटर डिटेक्शन एपीआई को प्रतिबंधित करता है।"
+  },
+  "t_f2fe1e79": {
+    "message": "१.० से नीचे के मान\r\n                                    टेक्स्ट को संकुचित कर सकते हैं और लेआउट को तोड़ सकते हैं।"
+  },
+  "t_ca677d53": {
+    "message": "विज़ुअल समायोजन"
+  },
+  "t_230b4522": {
+    "message": "नोट्स बोर्ड"
+  },
+  "t_596b54bf": {
+    "message": "मॉर्फ एआई एजेंट"
+  },
+  "t_47e79a17": {
+    "message": "अपनी मुफ्त कुंजी यहाँ प्राप्त करें"
+  },
+  "t_42372184": {
+    "message": "थीम्स इस रूप में निर्यात की जाती हैं"
+  },
+  "t_74fdc8a2": {
+    "message": "कृपया पहले अपने मॉर्फ परिवर्तन का वर्णन करें।"
+  },
+  "t_245fd3b9": {
+    "message": "मॉर्फ्ड लेआउट साफ़ किया गया।"
+  },
+  "t_172bd753": {
+    "message": "थीम सफलतापूर्वक एक्सपोर्ट की गई!"
+  },
+  "t_4c34daff": {
+    "message": "कनेक्शन का समय समाप्त हो गया। सर्वर तक नहीं पहुँचा जा सका।"
+  },
+  "t_0dd56117": {
+    "message": "इस पृष्ठ पर कोई सक्रिय थीम नहीं मिली।"
+  },
+  "t_cb5c0766": {
+    "message": "लाइब्रेरी सफलतापूर्वक एक्सपोर्ट की गई!"
+  },
+  "t_8adb392e": {
+    "message": "कनेक्शन का समय समाप्त हो गया। सर्वर तक नहीं पहुँचा जा सका।"
+  },
+  "t_ae94e0e4": {
+    "message": "आपकी थीम लाइब्रेरी खाली है।"
+  },
+  "t_10a0c40b": {
+    "message": "कस्टम थीम सफलतापूर्वक लोड की गई!"
+  },
+  "t_9b6007a8": {
+    "message": "थीम फ़ाइल पढ़ने में विफल।"
+  },
+  "t_d4fa051d": {
+    "message": "विफल: $1। कृपया टैब को पुनः लोड करें।",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "लागू किया गया: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "लाइब्रेरी से $1 थीम पुनर्स्थापित की गईं!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "भाषा प्राथमिकता"
+  },
+  "t_lang_updated_reload": {
+    "message": "भाषा अपडेट की गई। पुनः लोड हो रहा है..."
+  },
+  "t_transformation_failed": {
+    "message": "रूपांतरण विफल रहा।"
+  },
+  "t_c8a59e71": {
+    "message": "खारिज करें"
+  },
+  "t_7764306b": {
+    "message": "क्लाउड सेवाएँ रखरखाव सक्रिय"
+  },
+  "t_248228de": {
+    "message": "पॉपअप में डिस्लेक्सिया फ़ॉन्ट टॉगल करें"
+  },
+  "t_79a59320": {
+    "message": "ऐप टूर शुरू करें"
+  },
+  "t_533bff5b": {
+    "message": "पृष्ठ पर स्टिकी नोट पिन करें (ऑल्ट+एन)"
+  },
+  "t_f4f70727": {
+    "message": "सेटिंग्स"
+  },
+  "t_4fd11104": {
+    "message": "सर्कुलर स्पॉटलाइट"
+  },
+  "t_0d063af1": {
+    "message": "क्षैतिज रेखा रूलर 🔒"
+  },
+  "t_60d71580": {
+    "message": "क्लियर लाइट"
+  },
+  "t_efe48742": {
+    "message": "एम्बर फ़ोकस"
+  },
+  "t_610a09ca": {
+    "message": "कूल स्यान"
+  },
+  "t_886f6b9e": {
+    "message": "रेस्टफ़ुल ग्रीन"
+  },
+  "t_65e8194e": {
+    "message": "पिच ब्लैक"
+  },
+  "t_7243ed99": {
+    "message": "मिडनाइट स्लेट"
+  },
+  "t_ec6d8325": {
+    "message": "डीप फ़ॉरेस्ट"
+  },
+  "t_4af435e0": {
+    "message": "वैम्पायर वाइन"
+  },
+  "t_2a7dbdf8": {
+    "message": "प्रो फ़ीचर"
+  },
+  "t_fc4aec61": {
+    "message": "रीडर में खोलें"
+  },
+  "t_801ab246": {
+    "message": "डाउनलोड"
+  },
+  "t_aa3880dc": {
+    "message": "एचटीएमएल के रूप में डाउनलोड करें"
+  },
+  "t_e0781e81": {
+    "message": "ईपब के रूप में डाउनलोड करें"
+  },
+  "t_442ff212": {
+    "message": "डॉक्स (DOCX) के रूप में डाउनलोड करें"
+  },
+  "t_6244ee7c": {
+    "message": "कस्टम शब्द मैन्युअल रूप से जोड़ें"
+  },
+  "t_6e7d015f": {
+    "message": "सीएसवी (CSV) फ़ाइल आयात करें"
+  },
+  "t_edbc5415": {
+    "message": "अंकी (Anki) / क्विज़लेट (Quizlet) के लिए निर्यात करें"
+  },
+  "t_46c29f7a": {
+    "message": "थीम लोड करें"
+  },
+  "t_2bd65c5d": {
+    "message": "थीम एक्सपोर्ट करें"
+  },
+  "t_c1c433ac": {
+    "message": "सक्रिय एआई प्रदाता"
+  },
+  "t_90c09393": {
+    "message": "बिंदुदार"
+  },
+  "t_eb656e41": {
+    "message": "डैश"
+  },
+  "t_0c99ddee": {
+    "message": "हाइलाइट रंग"
+  },
+  "t_eaf63759": {
+    "message": "स्याही का रंग"
+  },
+  "t_a183c9f0": {
+    "message": "फ़ेड रंग"
+  },
+  "t_75e7422f": {
+    "message": "पृष्ठभूमि का रंग"
+  },
+  "t_42f9ceea": {
+    "message": "सहेजी गई शब्दावली खोजें..."
+  },
+  "t_0e84a8cf": {
+    "message": "शब्द या संक्षिप्त नाम दर्ज करें..."
+  },
+  "t_eea6890c": {
+    "message": "अर्थ / अनुवाद..."
+  },
+  "t_4480cf46": {
+    "message": "मेमोरी ट्रिक या अध्ययन नोट (वैकल्पिक)..."
+  },
+  "t_d8634fbf": {
+    "message": "उदाहरण के लिए, गोल कार्ड के साथ गुलाबी एनीमे स्टाइल थीम में बदलें, या रेट्रो डार्क ग्रीन टर्मिनल कंसोल में बदलें..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "स्टिकी नोट्स"
+  },
+  "t_b097d277": {
+    "message": "शब्द जोड़ें"
+  },
+  "t_1eeb67ee": {
+    "message": "वर्तमान पृष्ठ निर्यात करें"
+  },
+  "t_b62ded9a": {
+    "message": "क्लाउड सेवाएं ऑफ़लाइन"
+  },
+  "t_263e00eb": {
+    "message": "साइन इन / खाता बनाएं"
+  },
+  "t_7748eb3b": {
+    "message": "अपग्रेड हो रहा है"
+  },
+  "t_81a5d20b": {
+    "message": "सभी फ़्रीज़ करें"
+  },
+  "t_e61146d9": {
+    "message": "शांत फ़ेड्स"
+  },
+  "t_57323916": {
+    "message": "ऑटो-प्ले रोकें"
+  },
+  "t_f50319ea": {
+    "message": "पूर्ण सुरक्षा"
+  },
+  "t_8e13f26d": {
+    "message": "त्वरित प्रश्न"
+  },
+  "t_134b26da": {
+    "message": "क्या आप<br><span class=\"ev-si-gradient-text\">ईज़ीव्यू का आनंद ले रहे हैं?</span>"
+  },
+  "t_b75bdd9e": {
+    "message": "आपकी प्रतिक्रिया हमें सुधारने में मदद करती है।<br>क्या आप अनुभव का आनंद ले रहे हैं?"
+  },
+  "t_396d1ff8": {
+    "message": "हाँ, मैं हूँ!"
+  },
+  "t_7d0cacf3": {
+    "message": "सुधार की आवश्यकता है"
+  },
+  "t_815142c9": {
+    "message": "हमारा समर्थन करें"
+  },
+  "t_abd9fa39": {
+    "message": "क्या आप<br><span class=\"ev-si-gradient-text\">समीक्षा छोड़ना चाहेंगे?</span>"
+  },
+  "t_02991e61": {
+    "message": "आप जैसे उपयोगकर्ताओं की रेटिंग ईज़ीव्यू को बढ़ने में मदद करने का सबसे अच्छा तरीका है। इसमें केवल एक मिनट लगता है!"
+  },
+  "t_db49c1f2": {
+    "message": "अभी रेट करें"
+  },
+  "t_7a4f0d12": {
+    "message": "मुझे बाद में याद दिलाएं"
+  },
+  "t_fee6c0e9": {
+    "message": "निजी प्रतिक्रिया"
+  },
+  "t_74393dde": {
+    "message": "हम <span class=\"ev-si-gradient-text\">क्या बेहतर कर सकते हैं?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "हमें बताएं कि क्या गलत हुआ..."
+  },
+  "t_6f97affc": {
+    "message": "फ़ीडबैक भेजें"
+  },
+  "t_b20871b3": {
+    "message": "कृपया अपनी प्रतिक्रिया दर्ज करें"
+  },
+  "t_7b0fee4d": {
+    "message": "भेजा जा रहा है..."
+  },
+  "t_fb631633": {
+    "message": "आपकी प्रतिक्रिया के लिए धन्यवाद।"
+  },
+  "t_08727add": {
+    "message": "वेब को अपने तरीके से देखें।"
+  },
+  "t_15bbb9d0": {
+    "message": "वेबसाइट"
+  },
+  "t_c5f29bb3": {
+    "message": "गोपनीयता"
+  },
+  "t_ad5b1a22": {
+    "message": "संस्थापक"
+  },
+  "t_db496e03": {
+    "message": "व्यक्तिगत कुंजियाँ एआई के साथ एक सीधा, १००% निजी कनेक्शन बनाती हैं। आपका टेक्स्ट कभी भी ईज़ीव्यू सर्वर को नहीं छूता है।"
+  },
+  "t_387c35b3": {
+    "message": "यदि कोई कुंजी मौजूद नहीं है या आपकी कुंजी विफल हो जाती है तो हमारा प्रबंधित सर्वर (प्रीमियम) एक विश्वसनीय बैकअप के रूप में कार्य करता है।"
+  },
+  "t_98bc5a17": {
+    "message": "स्वामित्व वाले एल्गोरिदम की सुरक्षा के लिए, आपकी कुंजी को गूगल (गूगल) के साथ प्रमाणित करने के लिए हमारे सुरक्षित सर्वर के माध्यम से संक्षेप में रूट किया जाता है। यह"
+  },
+  "t_de47f1be": {
+    "message": "संग्रहीत या लॉग नहीं की जाती है।"
+  },
+  "t_25e02e7f": {
+    "message": "सक्रिय: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ प्रीमियम सदस्य"
+  },
+  "t_df56cfae": {
+    "message": "⭐ लाइफटाइम सदस्य"
+  },
+  "t_41cbc704": {
+    "message": " दिन शेष"
+  },
+  "t_b194bd82": {
+    "message": "कभी समाप्त नहीं होता"
+  },
+  "t_9f830444": {
+    "message": "⭐ प्रो:"
+  },
+  "t_61b82be6": {
+    "message": " मॉर्फ़ शेष"
+  },
+  "t_c20e7ceb": {
+    "message": " मुफ्त मॉर्फ़ शेष"
+  },
+  "t_d7087930": {
+    "message": " मुफ्त उपयोग शेष"
+  },
+  "t_4bbf11bd": {
+    "message": "शब्द और अर्थ फ़ील्ड खाली नहीं छोड़े जा सकते!"
+  },
+  "t_08f09d38": {
+    "message": "शब्द विवरण सफलतापूर्वक अपडेट किए गए!"
+  },
+  "t_32001b52": {
+    "message": "कृपया एक शब्द और उसका अर्थ दोनों दर्ज करें।"
+  },
+  "t_b8115861": {
+    "message": "आपकी स्टडी नोटबुक खाली है। पहले वेबपेजों पर कुछ शब्दों को बुकमार्क करें!"
+  },
+  "t_7114113b": {
+    "message": "अपनी प्रो सुविधाओं को सत्यापित करने के लिए कृपया पहले अपने ईज़ीव्यू खाते में साइन इन करें!"
+  },
+  "t_093f9fa0": {
+    "message": "आपका सत्र टोकन गायब है। एक्सेस बहाल करने के लिए कृपया easyview.in पर फिर से साइन इन करें।"
+  },
+  "t_0e065596": {
+    "message": "यह एक सत्यापित प्रीमियम-ओनली सुविधा है। अनलॉक करने के लिए प्रो में अपग्रेड करें!"
+  },
+  "t_c792a645": {
+    "message": "सुरक्षित एक्सपोर्ट सर्वर से कनेक्ट करने में विफल। थोड़ी देर बाद पुनः प्रयास करें।"
+  },
+  "t_8d1a2675": {
+    "message": "उस सीएसवी में कोई भी मान्य शब्दावली आइटम नहीं मिल सका।"
+  },
+  "t_a613ed90": {
+    "message": "ब्राउज़र स्टोरेज में लिखने में विफल! फ़ाइल स्थानीय कैश के लिए बहुत बड़ी हो सकती है।"
+  },
+  "t_8efe87ab": {
+    "message": "ब्राउज़र आपकी स्थानीय फ़ाइल पढ़ने में विफल रहा।"
+  },
+  "t_50bf63aa": {
+    "message": "क्या आप वाकई अपने नोटबुक से सभी सहेजे गए शब्दों को हटाना चाहते हैं?"
+  },
+  "t_ff252710": {
+    "message": "आयात पूर्ण: सभी $1 प्रविष्टियाँ पहले से ही आपके नोटबुक में मौजूद हैं।",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "सीएसवी पार्स करने में विफल: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "\"$1\" पहले से ही आपकी नोटबुक में है। क्या आप इसके लिए एक और परिभाषा जोड़ना चाहते हैं?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "सफलतापूर्वक लॉग आउट किया गया"
+  },
+  "t_dbd35100": {
+    "message": "मॉर्फ इंजन पहले से ही काम कर रहा है..."
+  },
+  "t_2de4e55d": {
+    "message": "मॉर्फ्ड लेआउट साफ़ किया गया"
+  },
+  "t_1bb9196d": {
+    "message": "मॉर्फ्ड: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "मॉर्फिंग विफल: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "ट्रिगर किया गया: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 आइटम व्यवस्थित",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "यह सभी सिंक्रनाइज़ किए गए उपकरणों पर इस नोट को स्थायी रूप से हटा देगा। आगे बढ़ें?"
+  },
+  "t_25abf697": {
+    "message": "ईपब (EPUB) एक्सपोर्ट के लिए जेएस-ज़िप लाइब्रेरी की आवश्यकता है।"
+  },
+  "t_71609188": {
+    "message": "डॉक्स (DOCX) एक्सपोर्ट के लिए एचटीएमएल-डॉक्स लाइब्रेरी की आवश्यकता है।"
+  },
+  "t_e1499766": {
+    "message": "कोई फ़ाइल लोड नहीं हुई।"
+  },
+  "t_023b3355": {
+    "message": "गोपनीयता शील्ड सक्रिय"
+  },
+  "t_9483a5da": {
+    "message": "प्राइवेसी शील्ड निष्क्रिय"
+  },
+  "t_a04202db": {
+    "message": "हाइलाइट्स अस्थायी रूप से छिपे हुए हैं"
+  },
+  "t_b3d6b264": {
+    "message": "हाइलाइट्स पुनर्स्थापित किए गए"
+  },
+  "t_7485c55e": {
+    "message": "ईज़ीव्यू में आपका स्वागत है! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "आसान वेब रीडिंग के लिए आपका एआई-संचालित संज्ञानात्मक पुल। आइए सुविधाओं का एक त्वरित दौरा करें।"
+  },
+  "t_3a1fe637": {
+    "message": "जार्गन डिकोडर 📖"
+  },
+  "t_89cec86e": {
+    "message": "किसी भी वेबपेज पर जटिल शब्दावली को सरल बनाता है।"
+  },
+  "t_f8aefae7": {
+    "message": "प्राइवेसी शील्ड 🔐"
+  },
+  "t_aa860f86": {
+    "message": "संवेदनशील डेटा को धुंधला करता है और ध्यान भटकाने-मुक्त पढ़ने के लिए एक फोकस रूलर शामिल करता है।"
+  },
+  "t_0681a3b6": {
+    "message": "सेंसरी शील्ड 🛡️"
+  },
+  "t_6118b864": {
+    "message": "ध्यान भटकाने वाले जीआईएफ और एनिमेशन को फ्रीज करता है।"
+  },
+  "t_12ec6fc6": {
+    "message": "डिस्लेक्सिया रीडिंग मोड 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "आसान पढ़ने के लिए अनुकूलित फ़ॉन्ट और स्पेसिंग।"
+  },
+  "t_18d9ce63": {
+    "message": "टेक्स्ट-टू-स्पीच 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "शब्द हाइलाइटिंग के साथ कोई भी वेबपेज सुनें।"
+  },
+  "t_0019a700": {
+    "message": "मॉर्फ इंजन ✨"
+  },
+  "t_47c2535a": {
+    "message": "किसी भी वेबसाइट को कस्टम थीम या लेआउट में बदलने के लिए एआई का उपयोग करें।"
+  },
+  "t_2ed2f639": {
+    "message": "स्टिकी नोट्स 📝"
+  },
+  "t_75025b5f": {
+    "message": "महत्वपूर्ण जानकारी सहेजने के लिए किसी भी वेबपेज पर फ्लोटिंग स्टिकी नोट्स पिन करें (ऑल्ट+एन)।"
+  },
+  "t_3ff2d7cc": {
+    "message": "एपीआई कॉन्फ़िगरेशन ⚙️"
+  },
+  "t_0754e836": {
+    "message": "अपना कोटा सिंक करने के लिए साइन इन करें, या यहाँ अपनी खुद की मुफ्त जेमिनी एपीआई कुंजी सेट करें।"
+  },
+  "t_7b6a2059": {
+    "message": "चरण $1 का $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "शुरू करें!"
+  },
+  "t_10ac3d04": {
+    "message": "अगला"
+  },
+  "t_5c7a52b8": {
+    "message": "दबाएं "
+  },
+  "t_a1b2c3d4": {
+    "message": " किसी भी समय ऑटो-प्रोटेक्ट शील्ड को मैन्युअल रूप से सक्रिय करने के लिए।"
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ प्राइवेसी शील्ड सक्रिय"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 प्राइवेसी शील्ड निष्क्रिय"
+  },
+  "js_9b3e1a": {
+    "message": "ईज़ीव्यू लेआउट और मॉर्फिंग का विश्लेषण कर रहा है..."
+  },
+  "js_4c8d2f": {
+    "message": "परिभाषित करें"
+  },
+  "js_7a1e9b": {
+    "message": "डिकोड करें"
+  },
+  "js_2d5f8c": {
+    "message": "सरल बनाएं"
+  },
+  "js_6e3a4d": {
+    "message": "बुकमार्क"
+  },
+  "js_1f9b7c": {
+    "message": "हाइलाइट"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "डॉम ट्री का विश्लेषण किया जा रहा है..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "अव्यवस्थित लेआउट..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "संरचना को समतल किया जा रहा है..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[शोर_ओवरलोड]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "ध्यान भटकाने वाली चीजें हटाई जा रही हैं..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "जटिल नोड्स"
+  },
+  "js_ldr_m4_cl": {
+    "message": "डिस्लेक्सिया नियम लागू किए जा रहे हैं..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "ईज़ीव्यू यूआई रेंडर किया जा रहा है..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "टेक्स्ट ब्लॉक स्कैन किया जा रहा है..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "बहुत अधिक शब्द..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "मुख्य अर्थ निकाला जा रहा है..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "संज्ञानात्मक भार"
+  },
+  "js_ldr_s3_cl": {
+    "message": "सरल अंग्रेजी का मसौदा तैयार किया जा रहा है..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "वर्बोज़ एआई..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "पठनीयता लागू की जा रही है..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "आउटपुट को बेहतर बनाया जा रहा है..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "जार्गन का अनुवाद किया जा रहा है..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "त्रुटि: भ्रम"
+  },
+  "js_ldr_j2_cl": {
+    "message": "परिभाषाएं खोजी जा रही हैं..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[शोर_ओवरलोड]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "संदर्भ को सरल बनाया जा रहा है..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "अज्ञात शब्द"
+  },
+  "js_ldr_j4_cl": {
+    "message": "स्पष्टता लागू की जा रही है..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "परिणामों को फ़ॉर्मेट किया जा रहा है..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "गहन विश्लेषण..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "एआई लॉजिक को अंतिम रूप दिया जा रहा है..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "एआई चल रहा है..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "लगभग समाप्त..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "भारी ट्रैफ़िक..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "थोड़ा अधिक समय लग रहा है..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "अभी भी काम कर रहा है..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "थोड़ा धैर्य रखें..."
+  },
+  "t_b7012ab9": {
+    "message": "मॉर्फ"
+  },
+  "t_c5e8b1d9": {
+    "message": "प्रो फ़ॉन्ट्स"
+  },
+  "t_c8f2ba19": {
+    "message": "निजी सामग्री को धुंधला करना सक्षम"
+  },
+  "t_e2dae61a": {
+    "message": "निजी सामग्री को धुंधला करना अक्षम"
+  },
+  "t_c74de318": {
+    "message": "स्क्रीन शेयर पर ऑटो-प्रोटेक्ट सक्षम"
+  },
+  "t_a5fd56f4": {
+    "message": "स्क्रीन शेयर पर ऑटो-प्रोटेक्ट अक्षम"
+  },
+  "t_ab8d1f2a": {
+    "message": "फ़्लैशलाइट मोड सक्षम"
+  },
+  "t_2bf5cc98": {
+    "message": "फ़्लैशलाइट मोड अक्षम"
+  },
+  "t_513bb93f": {
+    "message": "बायोनिक रीडिंग"
+  },
+  "t_5a8b2c1d": {
+    "message": "यहाँ आपकी रीडिंग सेटिंग्स का पूर्वावलोकन है।"
+  },
+  "t_ac1d4e5f": {
+    "message": "कोई नहीं"
+  },
+  "t_b2e3f4a1": {
+    "message": "चौड़ा"
+  },
+  "t_c3f4a5b2": {
+    "message": "अतिरिक्त चौड़ा"
+  },
+  "t_d1a3c901": {
+    "message": "क्लिक"
+  },
+  "t_b4f2e891": {
+    "message": "एलिमेंट पर पिन करें"
+  },
+  "t_c9a1b302": {
+    "message": "स्पेस"
+  },
+  "t_f6d4e203": {
+    "message": "वैश्विक नोट"
+  },
+  "t_e2b3f104": {
+    "message": "एस्केप"
+  },
+  "t_a7c0d905": {
+    "message": "रद्द करें"
+  },
+  "t_e1b2c301": {
+    "message": "केवल यह पृष्ठ"
+  },
+  "t_f7a3b402": {
+    "message": "यह साइट"
+  },
+  "t_a8c4d503": {
+    "message": "सभी साइटें (वैश्विक)"
+  },
+  "t_b9d5e604": {
+    "message": "रीलोड तक छिपाएं"
+  },
+  "t_c0e6f705": {
+    "message": "एलिमेंट पर नोट पिन करें"
+  },
+  "t_d1f7a806": {
+    "message": "नोट का रंग बदलें"
+  },
+  "t_e2a8b907": {
+    "message": "नोट को छोटा/बड़ा करें"
+  },
+  "t_f3b9c008": {
+    "message": "नोट सामग्री कॉपी करें"
+  },
+  "t_a4c0d109": {
+    "message": "अधिक क्रियाएं"
+  },
+  "t_b5d1e200": {
+    "message": "यह नोट हटाएं"
+  },
+  "t_e87033a2": {
+    "message": "ऑल्ट + एक्स"
+  },
+  "t_4120201a": {
+    "message": "फ्री ट्रायल सक्रिय"
+  },
+  "t_6ed40ffb": {
+    "message": "डिवाइसों के बीच सेटिंग्स सिंक करें"
+  },
+  "t_f8b8a5fd": {
+    "message": "उच्च मुफ्त उपयोग कोटा"
+  },
+  "t_440b106d": {
+    "message": "भविष्य की प्रो सुविधाओं तक पहुंच"
+  },
+  "t_3a99076c": {
+    "message": "प्रीमियम सीमा"
+  },
+  "t_545f6c2f": {
+    "message": "असीमित"
+  },
+  "t_ad23f4a0": {
+    "message": "स्थानिक नोट्स"
+  },
+  "t_04f2f045": {
+    "message": "आपने वेब पर सभी १५ फ्री टियर नोट्स सफलतापूर्वक तैनात कर लिए हैं। अनंत स्थानिक मेमोरी और कस्टम रंगों को अनलॉक करने के लिए ईज़ीव्यू प्रीमियम में अपग्रेड करें।"
+  },
+  "t_cf874b99": {
+    "message": "प्रीमियम अनलॉक करें"
+  },
+  "t_a6d36e2f": {
+    "message": "सभी स्थानीय एक्सेसिबिलिटी नियंत्रण (सक्रिय)"
+  },
+  "t_b0b69bc3": {
+    "message": "टेक्स्ट-टू-स्पीच इंजन (सक्रिय)"
+  },
+  "t_cc96c21a": {
+    "message": "क्लाउड एआई सुविधाएँ (ऑफ़लाइन)"
+  },
+  "t_7af6f6e5": {
+    "message": "मैं समझता हूँ"
+  },
+  "t_9bc7102e": {
+    "message": "अपना कोटा ट्रैक करने और जार्गन डिकोडर को अनलॉक करने के लिए एक मुफ्त ईज़ीव्यू खाता बनाएं।"
+  },
+  "t_ab7512fd": {
+    "message": "आपका सत्र टोकन गायब है। एक्सेस बहाल करने के लिए कृपया easyview.in पर फिर से साइन इन करें।"
+  },
+  "t_1cd7820a": {
+    "message": "केवल प्रो एक्सेस"
+  },
+  "t_8eb14032": {
+    "message": "जार्गन डिकोडर<br><span class=\"ev-si-gradient-text\">कोटा समाप्त</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "कोटा समाप्त"
+  },
+  "t_5ae983dc": {
+    "message": "आपने इस महीने के सभी <strong>५ मुफ्त डिकोड</strong> का उपयोग कर लिया है। सेकंडों में असीमित एक्सेस अनलॉक करें।"
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> प्रो बनें — असीमित डिकोड</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> अपनी खुद की एपीआई कुंजी का उपयोग करें</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 सेटिंग्स में एपीआई कुंजी जोड़ें</button>"
+  },
+  "t_9be4129a": {
+    "message": "स्टडी डेक एक्सपोर्टर<br><span class=\"ev-si-gradient-text\">प्रो ऑटोमेशन</span>"
+  },
+  "t_fac34185": {
+    "message": "अपनी पूरी कस्टम स्टडी नोटबुक को तुरंत <strong>अंकी (Anki)</strong> और <strong>क्विज़लेट (Quizlet)</strong> में एक्सपोर्ट करें।"
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> मैन्युअल टाइपिंग छोड़ें</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> आरएफसी-४१८० फ्लैशकार्ड कंपाइलर</div>"
+  },
+  "t_da12c30b": {
+    "message": "प्रो एक्सेस"
+  },
+  "t_4a9b2c01": {
+    "message": "यह फ़ीचर"
+  },
+  "t_3be78c01": {
+    "message": "यह डिस्लेक्सिया रीडिंग फ़ॉन्ट"
+  },
+  "t_0ad4b971": {
+    "message": "यह विज़ुअल फ़ॉन्ट"
+  },
+  "t_9af42be8": {
+    "message": "यह प्रीमियम निर्यात फ़ॉन्ट"
+  },
+  "t_cbae8349": {
+    "message": "सभी एक्सेसिबिलिटी सुविधाओं और पावर टूल्स को अनलॉक करने के लिए अपग्रेड करें।"
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> उन्नत एक्सेसिबिलिटी</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> सभी भविष्य के अपडेट</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ प्रो में अपग्रेड करें"
+  },
+  "t_5ef4c1a2": {
+    "message": "शायद बाद में"
+  },
+  "t_3b7a5e82": {
+    "message": ", लेकिन एआई सुविधाएँ अस्थायी रूप से अनुपलब्ध हो सकती हैं।"
+  },
+  "t_c91d8e12": {
+    "message": "सामान्य"
+  },
+  "t_b42f3a9d": {
+    "message": "परिभाषा"
+  },
+  "t_f1d4a8e6": {
+    "message": "शब्दकोश"
+  },
+  "t_e398c71f": {
+    "message": "कस्टम"
+  },
+  "t_a72df9e5": {
+    "message": "चिकित्सा"
+  },
+  "t_d8f2c61a": {
+    "message": "कानूनी"
+  },
+  "t_b3e1f5d2": {
+    "message": "वित्तीय"
+  },
+  "t_c25d81f9": {
+    "message": "तकनीक"
+  },
+  "t_e1b3a4f6": {
+    "message": "शैक्षणिक"
+  },
+  "t_d5f9b4c1": {
+    "message": "शब्द"
+  },
+  "t_f7a2e8ea": {
+    "message": "श्रेणी"
+  },
+  "t_e3b1c6d9": {
+    "message": "सरलीकृत अर्थ"
+  },
+  "t_a9d4e5f2": {
+    "message": "अध्ययन नोट्स / संदर्भ"
+  },
+  "t_b4c5d6e7": {
+    "message": "रद्द करें"
+  },
+  "t_c8f2a1b4": {
+    "message": "बदलाव सहेजें"
+  },
+  "t_8c17b5e6": {
+    "message": "आपका सत्र टोकन गायब है। एक्सेस बहाल करने के लिए कृपया easyview.in पर फिर से साइन इन करें।"
+  },
+  "t_a43dc219": {
+    "message": "अपना उपयोग कोटा ट्रैक करने और एआई मॉर्फ इंजन को अनलॉक करने के लिए एक मुफ्त ईज़ीव्यू खाता बनाएं।"
+  },
+  "t_54c523fe": {
+    "message": "🎉 शानदार! $1 नए अध्ययन कार्ड सफलतापूर्वक आयात किए गए।"
+  },
+  "t_a7d8be72": {
+    "message": "🎉 शानदार! $1 नए कार्ड आयात किए गए। ($2 डुप्लिकेट छोड़ दिए गए।)"
+  },
+  "t_14894d12": {
+    "message": "थीम एक्सपोर्ट"
+  },
+  "t_f27a2629": {
+    "message": "थीम लाइब्रेरी बैकअप"
+  },
+  "t_9ad85e17": {
+    "message": "रीडिंग रूलर मोड"
+  },
+  "t_b9d4e7a5": {
+    "message": "उन्नत सेंसरी शील्ड मोड"
+  },
+  "t_94f4f7e4": {
+    "message": "डॉक्स (DOCX) पार्स किया जा रहा है...",
+    "description": "रीडर में DOCX पार्स करते समय की स्थिति"
+  },
+  "t_120adfc1": {
+    "message": "ईपब (EPUB) पार्स किया जा रहा है...",
+    "description": "रीडर में EPUB पार्स करते समय की स्थिति"
+  },
+  "t_5d2a45b8": {
+    "message": "रीडिंग रूलर मोड केवल प्रो सब्सक्रिप्शन के लिए उपलब्ध है।",
+    "description": "जब गैर-प्रो उपयोगकर्ता रीडिंग रूलर का उपयोग करने का प्रयास करता है तो अलर्ट"
+  },
+  "t_c1f29623": {
+    "message": "पूरा कार्ड संपादित करें",
+    "description": "नोटबुक में पूरा कार्ड संपादित करने के लिए टूलटिप"
+  },
+  "t_1063e38c": {
+    "message": "हटाएं",
+    "description": "नोटबुक से कार्ड हटाने के लिए टूलटिप"
+  },
+  "t_ccca2ddf": {
+    "message": "ईज़ीव्यू रीडर"
+  },
+  "t_8524de96": {
+    "message": "लोड हो रहा है..."
+  },
+  "t_25e8f2fd": {
+    "message": "कृपया प्रतीक्षा करें..."
+  },
+  "t_ec9d785d": {
+    "message": "१.५x"
+  },
+  "t_dafd5f8f": {
+    "message": "लेक्सेंड"
+  },
+  "t_16d90a0b": {
+    "message": "एटकिंसन हाइपरलेजिबल"
+  },
+  "t_5c7db066": {
+    "message": "सेगो यूआई (विंडोज़ डिफ़ॉल्ट)"
+  },
+  "t_f7cee5ea": {
+    "message": "कैलिबरी"
+  },
+  "t_ccc0239e": {
+    "message": "कैंडारा"
+  },
+  "t_2963521b": {
+    "message": "कोर्बेल"
+  },
+  "t_37f1cc58": {
+    "message": "कैम्ब्रिया"
+  },
+  "t_c3d9d4bf": {
+    "message": "कॉन्स्टेंटिया"
+  },
+  "t_5d1a5b35": {
+    "message": "पैलेटिनो लिनोटाइप"
+  },
+  "t_4dc386b6": {
+    "message": "बुक एंटीक्वा"
+  },
+  "t_03c461f6": {
+    "message": "फ्रैंकलिन गोथिक"
+  },
+  "t_7b1ee3b6": {
+    "message": "सेंचुरी गोथिक"
+  },
+  "t_a3293302": {
+    "message": "गिल सैन्स"
+  },
+  "t_eb726908": {
+    "message": "सिटका टेक्स्ट"
+  },
+  "t_b5bdee2c": {
+    "message": "सिल्फ़ेन"
+  },
+  "t_1ec05249": {
+    "message": "माइक्रोसॉफ्ट सैन्स सेरिफ़"
+  },
+  "t_ad4a300c": {
+    "message": "सेगो यूआई सेमीबोल्ड"
+  },
+  "t_16507cdd": {
+    "message": "कंसोलस"
+  },
+  "t_391c5954": {
+    "message": "ल्युसिडा कंसोल"
+  },
+  "t_9879efdf": {
+    "message": "ल्यूसिडा सैन्स टाइपराइटर"
+  },
+  "t_21f59b54": {
+    "message": "इम्पैक्ट"
+  },
+  "t_94a7bb97": {
+    "message": "एरियल ब्लैक"
+  },
+  "t_6e87c2cb": {
+    "message": "कॉपरप्लेट गोथिक"
+  },
+  "t_40885309": {
+    "message": "बर्लिन सैन्स एफबी"
+  },
+  "t_6d5566ba": {
+    "message": "गैब्रियोला"
+  },
+  "t_edb42482": {
+    "message": "इंक फ्री"
+  },
+  "t_fa233799": {
+    "message": "सेगो स्क्रिप्ट"
+  },
+  "t_2f7bc407": {
+    "message": "सेगो प्रिंट"
+  },
+  "t_0095a9fa": {
+    "message": "निर्यात"
+  },
+  "t_520d0db3": {
+    "message": "प्रारूप"
+  },
+  "t_5956a437": {
+    "message": "टेक्स्ट"
+  },
+  "t_1351017a": {
+    "message": "फ़ाइल का नाम"
+  },
+  "t_d4c3c15b": {
+    "message": "कोई फ़ाइल लोड नहीं हुई"
+  },
+  "t_0ca5a078": {
+    "message": "कृपया फ़ाइल अपलोड करने के लिए कनवर्टर टैब का उपयोग करें।"
+  },
+  "t_c9857e16": {
+    "message": "असमर्थित फ़ाइल प्रकार।"
+  },
+  "t_6b447b91": {
+    "message": "फ़ाइल पार्स करने में त्रुटि: "
+  },
+  "t_7f4588be": {
+    "message": "ईपब"
+  },
+  "t_12dc65c2": {
+    "message": "लाइट/डार्क मोड टॉगल करें"
+  },
+  "t_d3d2e617": {
+    "message": "बंद करें"
+  },
+  "t_6e8cfcb7": {
+    "message": "सर्वर पर सुरक्षित निर्यात (प्रीमियम)"
+  },
+  "t_2f9df658": {
+    "message": "वर्कस्पेस को अलग करें और सभी विंडो के ऊपर तैरता रखें"
+  },
+  "t_72d6d7a1": {
+    "message": "आयात"
+  },
+  "t_de93d5fd": {
+    "message": "नोट्स निर्यात करें"
+  },
+  "t_a1aacca9": {
+    "message": "फ्लोट ओएस"
+  },
+  "t_ac0b844f": {
+    "message": "वैश्विक नोट्स"
+  },
+  "t_15866f1d": {
+    "message": "साइट-विशिष्ट नोट्स"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
+  },
+  "t_6af8212e": {
+    "message": "ईज़ीव्यू नोट्स बोर्ड"
+  },
+  "t_d16da0f5": {
+    "message": "🌎"
+  },
+  "t_6df173ff": {
+    "message": "📍"
+  },
+  "t_22f58a00": {
+    "message": "🌎 वैश्विक नोट"
+  },
+  "t_5be8bbeb": {
+    "message": "🌐 साइट नोट"
+  },
+  "t_59a56663": {
+    "message": "📍 पेज नोट"
+  },
+  "t_c1843696": {
+    "message": "इंटीग्रिटी टोकन का सत्यापन किया जा रहा है..."
+  },
+  "t_58038ee4": {
+    "message": "अभी"
+  },
+  "t_e254e1a1": {
+    "message": "$1 मिनट पहले",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_121d4d02": {
+    "message": "$1 घंटे पहले",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_19d2b280": {
+    "message": "$1 दिन पहले",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_d3d4311c": {
+    "message": "नोट खींचें"
+  },
+  "t_7b32ea16": {
+    "message": "$1 पर स्विच करें",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_11916b28": {
+    "message": "प्लेसमेंट स्कोप"
+  },
+  "t_5463fe67": {
+    "message": "रंग पैलेट"
+  },
+  "t_d116d454": {
+    "message": "नोट छोटा करें"
+  },
+  "t_be9ba0e5": {
+    "message": "टेक्स्ट कॉपी करें"
+  },
+  "t_28471624": {
+    "message": "अधिक क्रियाएं"
+  },
+  "t_90e467df": {
+    "message": "नोट बंद करें"
+  },
+  "t_34494920": {
+    "message": "अपना नोट यहाँ टाइप करें..."
+  },
+  "t_bdda0b60": {
+    "message": "आप क्या सोच रहे थे..."
+  },
+  "t_8689de27": {
+    "message": "हर जगह उपलब्ध"
+  },
+  "t_c0cf9810": {
+    "message": "मूल पृष्ठ पर वापस जाएं"
+  },
+  "t_24a23176": {
+    "message": "मूल संदर्भ"
+  },
+  "t_4c1c1e76": {
+    "message": "नोटबुक आयात"
+  },
+  "t_2736f644": {
+    "message": "अपने बाहरी अध्ययन डेक और शब्दावली सूचियों को अपने ईज़ीव्यू इकोसिस्टम में सहजता से एकीकृत करें।"
+  },
+  "t_ca4f038f": {
+    "message": "अनिवार्य कॉलम"
+  },
+  "t_7277de5f": {
+    "message": "अर्थ"
+  },
+  "t_ce591bfa": {
+    "message": "वैकल्पिक कॉलम"
+  },
+  "t_f4c6f851": {
+    "message": "नोट्स"
+  },
+  "t_c1fd81a6": {
+    "message": "सीएसवी फ़ाइल चुनें या खींचें"
+  },
+  "t_5c426600": {
+    "message": "डुप्लिकेट और मौजूदा शब्दों को स्वचालित रूप से फ़िल्टर किया जाता है"
+  },
+  "t_76e7183d": {
+    "message": "आयात सफल रहा!"
+  },
+  "t_3e17e02d": {
+    "message": "आपकी शब्दावली अपडेट कर दी गई है।"
+  },
+  "t_3148d309": {
+    "message": "टैब बंद करें"
+  },
+  "t_0e412fa1": {
+    "message": "पॉपअप पर लौटने पर जश्न शुरू होगा"
+  },
+  "t_d29f6e6b": {
+    "message": "आयात विफल रहा"
+  },
+  "t_e04efbcb": {
+    "message": "नोटबुक स्थिति"
+  },
+  "t_ed732761": {
+    "message": "मॉर्फ थीम्स आयात"
+  },
+  "t_e44db711": {
+    "message": "अपनी कस्टम मॉर्फ इंजन लाइब्रेरी को सीधे ईज़ीव्यू में सुरक्षित रूप से आयात करें।"
+  },
+  "t_c0bb7d43": {
+    "message": "जेसन फ़ाइल चुनें या खींचें"
+  },
+  "t_36e9583e": {
+    "message": "आपके द्वारा पहले एक्सपोर्ट किए गए थीम लेआउट को आयात करता है।"
+  },
+  "t_21630184": {
+    "message": "थीम्स पुनर्स्थापित!"
+  },
+  "t_d0c1ec75": {
+    "message": "आपके मॉर्फ टेम्प्लेट सफलतापूर्वक इंस्टॉल हो गए हैं।"
+  },
+  "t_cd27a5c0": {
+    "message": "ईज़ीव्यू — कंटेंट रीडर"
+  },
+  "t_b171ab1f": {
+    "message": "रीडर में आपका स्वागत है"
+  },
+  "t_4e07c284": {
+    "message": "अपने दस्तावेज़ों को अनुकूलित टाइपोग्राफी और उन्नत एक्सेसिबिलिटी सहायता के साथ पढ़ने के लिए यहाँ अपलोड करें।"
+  },
+  "t_004621c0": {
+    "message": "डॉक्स, ईपब, और टीएक्सटी समर्थित हैं"
+  },
+  "t_23bb27a0": {
+    "message": "दस्तावेज़ पार्सर शुरू हो रहा है..."
+  },
+  "t_e1d5f16c": {
+    "message": "पठनीयता के लिए डॉक्स को अनुकूलित किया जा रहा है..."
+  },
+  "t_0e55c5d0": {
+    "message": "ईपब संरचना का विश्लेषण किया जा रहा है..."
   }
 }

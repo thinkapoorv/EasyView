@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "ایزی‌ویو — شفافیت برای هر مغز"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "ایزی‌ویو"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "هر وب‌سایتی را فوراً با دستورات هوش مصنوعی یا تک‌کلیک‌ها تغییر دهید. وب را به روش خود ببینید."
+  },
+  "t_68ba0232": {
+    "message": "حالت دیسلکسیا فعال شد"
+  },
+  "t_85f47a25": {
+    "message": "حالت دیسلکسیا غیرفعال شد"
+  },
+  "t_1cc1b64d": {
+    "message": "محتوای کافی برای تحلیل وجود ندارد"
+  },
+  "t_cebe6412": {
+    "message": "هیچ اصطلاح پیچیده‌ای یافت نشد"
+  },
+  "t_b964aa0f": {
+    "message": "خطا در تحلیل محتوای صفحه"
+  },
+  "t_956c104e": {
+    "message": "حافظه صفحه پاک شد"
+  },
+  "t_1f4b0f3e": {
+    "message": "واژه‌نامه پاک شد"
+  },
+  "t_4bfeec37": {
+    "message": "هیچ اصطلاح پیچیده‌ای در انتخاب یافت نشد"
+  },
+  "t_1b5e8531": {
+    "message": "هیچ اصطلاح پیچیده‌ای در انتخاب یافت نشد"
+  },
+  "t_a1f781ec": {
+    "message": "خطا در رمزگشایی انتخاب"
+  },
+  "t_7aae8122": {
+    "message": "برجسته‌سازی‌های انتخاب پاک شدند"
+  },
+  "t_58762fd6": {
+    "message": "لطفاً یک کلمه یا عبارت کوتاه را برای تعریف انتخاب کنید."
+  },
+  "t_6838b119": {
+    "message": "خطای شبکه در جستجوی تعریف."
+  },
+  "t_ea3ca1b5": {
+    "message": "$1 اصطلاح رمزگشایی شد (از حافظه پنهان)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "$1 اصطلاح رمزگشایی شد (کش شده)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "شما تمام استفاده‌های رایگان رمزگشای اصطلاحات تخصصی این ماه را مصرف کرده‌اید. برای دسترسی نامحدود به نسخه حرفه‌ای ارتقا دهید."
+  },
+  "t_cb3c5d3a": {
+    "message": "$1 اصطلاح در $2 دسته‌بندی رمزگشایی شد",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "$1 مورد از اصطلاحات واژگانی رمزگشایی‌شده شما به‌طور خودکار برجسته شد",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "$1 تعریف اصطلاح ذخیره‌شده بازیابی شد$2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "شما تمام استفاده‌های رایگان رمزگشای اصطلاحات تخصصی این ماه را مصرف کرده‌اید. برای دسترسی نامحدود به نسخه حرفه‌ای ارتقا دهید."
+  },
+  "t_0b841c82": {
+    "message": "قبلاً در دفترچه یادداشت موجود است!"
+  },
+  "t_8901f3ab": {
+    "message": "در دفترچه ذخیره شد!"
+  },
+  "t_eb8f5242": {
+    "message": "خطا در ذخیره در دفترچه یادداشت"
+  },
+  "t_bd15702b": {
+    "message": "سپر حسی فعال شد"
+  },
+  "t_c28f3265": {
+    "message": "سپر حسی غیرفعال شد"
+  },
+  "t_3f8910d9": {
+    "message": "ایزی‌ویو"
+  },
+  "t_8aafa613": {
+    "message": "امکان ساده‌سازی این متن وجود نداشت"
+  },
+  "t_79d2dc85": {
+    "message": "امکان ساده‌سازی این متن وجود نداشت"
+  },
+  "t_99684ba5": {
+    "message": "خطا در ساده‌سازی متن"
+  },
+  "t_f4362bde": {
+    "message": "در کلیپ‌بورد کپی شد!"
+  },
+  "t_af07ef4b": {
+    "message": "کپی نشد"
+  },
+  "t_94e4d537": {
+    "message": "متن در صفحه جایگزین شد"
+  },
+  "t_14a04b67": {
+    "message": "حافظه ساده‌سازی حذف شد"
+  },
+  "t_c444ff21": {
+    "message": "متن اصلی موقتاً بازیابی شد"
+  },
+  "t_55f1db14": {
+    "message": "شما تمام استفاده‌های رایگان این ماه را مصرف کرده‌اید. برای دسترسی نامحدود به نسخه حرفه‌ای ارتقا دهید."
+  },
+  "t_fde4e3f0": {
+    "message": "$1 ساده‌سازی ذخیره‌شده در این صفحه بازیابی شد",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "ساده‌سازی بارگذاری‌شده پویا به‌طور خودکار بازیابی شد!"
+  },
+  "t_dfa22e52": {
+    "message": "تبدیل متن به گفتار فعال شد"
+  },
+  "t_ca153ad0": {
+    "message": "تبدیل متن به گفتار غیرفعال شد"
+  },
+  "t_dadbff09": {
+    "message": "لطفاً ابتدا تبدیل متن به گفتار را فعال کنید"
+  },
+  "t_47071c61": {
+    "message": "در حال ادامه..."
+  },
+  "t_5516c48d": {
+    "message": "هیچ محتوای قابل خواندنی در این صفحه یافت نشد"
+  },
+  "t_c57f25c9": {
+    "message": "محتوای قابل خواندن یافت نشد"
+  },
+  "t_2516997e": {
+    "message": "خواندن کامل شد"
+  },
+  "t_d3069aea": {
+    "message": "تبدیل متن به گفتار در این مرورگر پشتیبانی نمی‌شود"
+  },
+  "t_53e6b8c6": {
+    "message": "لطفاً ابتدا مقداری متن انتخاب کنید"
+  },
+  "t_e932d0f7": {
+    "message": "در حال خواندن انتخاب..."
+  },
+  "t_1c50528d": {
+    "message": "خواندن کامل شد"
+  },
+  "t_594778a2": {
+    "message": "متوقف شده"
+  },
+  "t_4ded5f77": {
+    "message": "گفتار متوقف شد"
+  },
+  "t_0a74758c": {
+    "message": "✨ قدرت گرفته از کلید شخصی"
+  },
+  "t_2fceddad": {
+    "message": "✨ نامحدود"
+  },
+  "t_97627d80": {
+    "message": "✨ قدرت گرفته از کلید شخصی"
+  },
+  "t_fd7d5888": {
+    "message": "مدیریت اشتراک"
+  },
+  "t_df4657a5": {
+    "message": "عضو رایگان"
+  },
+  "t_22dfb2ec": {
+    "message": "کاربر مهمان"
+  },
+  "t_bd9f2460": {
+    "message": "حساب رایگان"
+  },
+  "t_f5adda31": {
+    "message": "ورود / ثبت‌نام"
+  },
+  "t_d2439201": {
+    "message": "✨ نامحدود"
+  },
+  "t_164442b7": {
+    "message": "در حال آماده‌سازی موتور مبدل..."
+  },
+  "t_1e7c3002": {
+    "message": "آماده برای تجزیه فایل‌ها."
+  },
+  "t_d30f78df": {
+    "message": "حالت تیره"
+  },
+  "t_6c68d8ce": {
+    "message": "حالت روشن"
+  },
+  "t_fcb68c2b": {
+    "message": "هیچ یادداشت چسبانی یافت نشد. چیزی برای صادر کردن نیست!"
+  },
+  "t_2b75b2d9": {
+    "message": "توکن نشست شما یافت نشد. لطفاً دوباره به easyview.in وارد شوید تا دسترسی بازیابی شود."
+  },
+  "t_291a4e34": {
+    "message": "مسیریابی امن سرور شکست خورد. اتصال خود را بررسی کنید."
+  },
+  "t_2dcf62b3": {
+    "message": "هیچ یادداشت گمشده‌ای شناسایی نشد. فضای کاری به‌روز است."
+  },
+  "t_951bf3ae": {
+    "message": "خطا در رمزگشایی: فایل با محدوده‌های ایزی‌ویو مطابقت ندارد."
+  },
+  "t_817a4ba0": {
+    "message": "رابط برنامه‌نویسی تصویر در تصویر پشتیبانی نمی‌شود. لطفاً کروم را به‌روز کنید."
+  },
+  "t_e8aa6e9a": {
+    "message": "خطا در راه‌اندازی موتور تصویر در تصویر: "
+  },
+  "t_9feed9d5": {
+    "message": "$1 یادداشت جدید با موفقیت رمزگشایی و تزریق شد.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "آزمایشی"
+  },
+  "t_c289adbe": {
+    "message": "حمایت از ما"
+  },
+  "t_60d5b12a": {
+    "message": "نظر بدهید"
+  },
+  "js_eb82de4c": {
+    "message": "رنگ سفارشی"
+  },
+  "js_8caef32b": {
+    "message": "بازنشانی/پاک‌سازی (متن را انتخاب کرده و کلیک کنید، یا روی بخش برجسته دوبار کلیک کنید)"
+  },
+  "t_823aeb91": {
+    "message": "فضای کاری ایزی‌ویو"
+  },
+  "t_fc42ed23": {
+    "message": "هیچ یادداشت سراسری در فضای کاری شما شناور نیست."
+  },
+  "t_12d7c58a": {
+    "message": "هنگامی که نشانگر یادداشت‌های چسبان فعال است، کلید فاصله را فشار دهید تا یکی ایجاد شود."
+  },
+  "t_ab983c11": {
+    "message": "هیچ یادداشت خاصی برای این سایت یافت نشد."
+  },
+  "t_e22709e9": {
+    "message": "روی یک عنصر فیزیکی در هر وب‌سایتی کلیک کنید تا یک یادداشت هدفمند به آن متصل کنید."
+  },
+  "t_34bdba45": {
+    "message": "گام"
+  },
+  "t_9b2d88a1": {
+    "message": "از"
+  },
+  "t_8f44d852": {
+    "message": "شروع کنید!"
+  },
+  "t_b45c2f91": {
+    "message": "باز کردن قفل خروجی‌های فضای کاری"
+  },
+  "t_88f91dc1": {
+    "message": "رندر و خروجی گرفتن امن از تمام یادداشت‌های فضای کاری سراسری شما نیازمند مجوز حرفه‌ای تأییدشده است. برای باز کردن دائمی این ویژگی ارتقا دهید."
+  },
+  "t_134dff88": {
+    "message": "شاید بعداً"
+  },
+  "t_5b8c9d11": {
+    "message": "ارتقا به حرفه‌ای"
+  },
+  "t_792bd8c9": {
+    "message": "فضای کاری شناور!"
+  },
+  "t_e39f7dc2": {
+    "message": "یادداشت‌های چسبان شما اکنون روی دسکتاپ سیستم‌عامل شناور هستند."
+  },
+  "t_c83d6ec9": {
+    "message": "اتصال مجدد فضای کاری"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">هوش مصنوعی ایزی‌ویو</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">در حال فیلتر نویز...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>کوچک‌سازی</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>توقف موتور</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "تولید متوقف شد"
+  },
+  "t_removed_from_notebook": {
+    "message": "از دفترچه یادداشت حذف شد"
+  },
+  "t_d1c58470": {
+    "message": "برای حذف برجسته‌سازی دوبار کلیک کنید"
+  },
+  "t_d4fdfb03": {
+    "message": "برای دریافت $1 استفاده رایگان در ماه به ایزی‌ویو وارد شوید، یا کلید ای‌پی‌آی خود را در تنظیمات اضافه کنید.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "در حال بارگذاری نتایج ذخیره شده..."
+  },
+  "t_3a99733d": {
+    "message": "در حال راه‌اندازی رمزگشای اصطلاحات..."
+  },
+  "t_b6dc9fc9": {
+    "message": "یک حساب رایگان ایزی‌ویو بسازید تا $1 رمزگشایی رایگان هوش مصنوعی در ماه دریافت کرده و سهمیه خود را پیگیری کنید.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "یک حساب رایگان ایزی‌ویو بسازید تا $1 تعریف رایگان هوش مصنوعی در ماه دریافت کرده و سهمیه خود را پیگیری کنید.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "در حال استخراج محتوای اصلی..."
+  },
+  "t_0eeae2bf": {
+    "message": "در حال تشخیص زمینه صفحه..."
+  },
+  "t_87f125d0": {
+    "message": "در حال تحلیل اصطلاحات..."
+  },
+  "t_9ef6e70f": {
+    "message": "در حال استفاده از نتایج کش شده..."
+  },
+  "t_9afdc5e8": {
+    "message": "در حال تحلیل با هوش مصنوعی..."
+  },
+  "t_7ecc3abe": {
+    "message": "رمزگشایی هوش مصنوعی شکست خورد"
+  },
+  "t_9220c8de": {
+    "message": "در حال اعمال ساده‌سازی‌ها..."
+  },
+  "t_57f406b1": {
+    "message": "در حال رمزگشایی انتخاب..."
+  },
+  "t_c50f2b72": {
+    "message": "مشاهده واژه‌نامه"
+  },
+  "t_49de9b11": {
+    "message": "مخفی کردن هایلایت‌ها در صفحه"
+  },
+  "t_3158774e": {
+    "message": "بازیابی هایلایت‌ها در صفحه"
+  },
+  "t_fc3ad42d": {
+    "message": "ذخیره در واژگان"
+  },
+  "t_87e933b8": {
+    "message": "در حال جستجوی تعریف..."
+  },
+  "t_56b79836": {
+    "message": "تعریف کلمه بارگذاری شد."
+  },
+  "t_969b24ea": {
+    "message": "🔊 برای فعال‌سازی صدای تم، هر جایی کلیک کنید"
+  },
+  "t_49337275": {
+    "message": "برجسته‌سازی دستی"
+  },
+  "t_93324bd5": {
+    "message": "مستقیماً از صفحه وب ذخیره شد."
+  },
+  "t_82e413f3": {
+    "message": "در حال ساده‌سازی متن..."
+  },
+  "t_86c4f6e5": {
+    "message": "در حال ساده‌سازی با هوش مصنوعی..."
+  },
+  "t_c3e18edb": {
+    "message": "ساده‌سازی ناموفق بود"
+  },
+  "t_6398ab2c": {
+    "message": "سطح خواندن: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "برای بازیابی موقت متن اصلی کلیک کنید"
+  },
+  "t_9beea3e8": {
+    "message": "حذف دائمی از حافظه"
+  },
+  "t_453bb8f7": {
+    "message": "یک حساب رایگان ایزی‌ویو بسازید تا ماهانه $1 ساده‌سازی رایگان هوش مصنوعی دریافت کرده و سهمیه خود را پیگیری کنید.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "گوش دادن"
+  },
+  "t_24833610": {
+    "message": "ذخیره شد"
+  },
+  "t_30a008cb": {
+    "message": "بیشتر بخوانید &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "در دفترچه واژگان ذخیره شد!"
+  },
+  "t_2728e87f": {
+    "message": "از دفترچه واژگان حذف شد"
+  },
+  "t_6b8c66ce": {
+    "message": "واژه‌نامه ($1 اصطلاح)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "حذف حافظه برای این صفحه"
+  },
+  "t_8a49fe1a": {
+    "message": "حذف اصطلاح"
+  },
+  "t_1534891c": {
+    "message": "رمزگشایی $1 اصطلاح",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "ذخیره در دفترچه"
+  },
+  "t_150a2843": {
+    "message": "پاک کردن برجسته‌سازی‌ها"
+  },
+  "t_21ef939c": {
+    "message": "در دفترچه ذخیره شد!"
+  },
+  "t_8054da35": {
+    "message": "فرهنگ لغت سریع",
+    "description": "عنوان پنجره فرهنگ لغت سریع"
+  },
+  "t_4aeb2167": {
+    "message": "کلمه پیدا نشد",
+    "description": "عنوان جایگزین فرهنگ لغت"
+  },
+  "t_272d0070": {
+    "message": "ما نتوانستیم \"$1\" را در فرهنگ لغت پایه پیدا کنیم. ممکن است اصطلاح عامیانه مدرن، مخفف یا اصطلاح بسیار فنی باشد.",
+    "description": "توضیحات جایگزین فرهنگ لغت با جای‌نگهدار کلمه",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "رمزگشایی با ایوی ای‌آی",
+    "description": "دکمه جایگزین برای رمزگشایی با هوش مصنوعی"
+  },
+  "t_14f1f972": {
+    "message": "از طریق",
+    "description": "پیشوند منبع فرهنگ لغت"
+  },
+  "t_f2faf2f1": {
+    "message": "اسم",
+    "description": "نقش دستوری اسم"
+  },
+  "t_b512ddf1": {
+    "message": "فعل",
+    "description": "نقش دستوری فعل"
+  },
+  "t_d807ae6a": {
+    "message": "صفت",
+    "description": "نقش دستوری صفت"
+  },
+  "t_1a607278": {
+    "message": "قید",
+    "description": "نقش دستوری قید"
+  },
+  "t_02de720d": {
+    "message": "ضمیر",
+    "description": "ضمیر (بخش کلام)"
+  },
+  "t_4b7be2c3": {
+    "message": "حرف اضافه",
+    "description": "حرف اضافه (بخش کلام)"
+  },
+  "t_a3c1d30b": {
+    "message": "حرف ربط",
+    "description": "حرف ربط (بخش کلام)"
+  },
+  "t_e189f001": {
+    "message": "صوت",
+    "description": "صوت (بخش کلام)"
+  },
+  "t_96de90f8": {
+    "message": "کپی متن ساده‌سازی شده",
+    "description": "راهنمای ابزار برای کپی متن ساده‌شده"
+  },
+  "t_44a6e288": {
+    "message": "خواندن صفحه",
+    "description": "راهنمای ابزار برای خواندن کل صفحه با استفاده از تبدیل متن به گفتار"
+  },
+  "t_7d70d73b": {
+    "message": "خواندن متن انتخاب‌شده",
+    "description": "راهنمای ابزار برای خواندن متن انتخاب‌شده با استفاده از تبدیل متن به گفتار"
+  },
+  "t_11936123": {
+    "message": "حذف غیرقابل بازگشت یادداشت",
+    "description": "راهنمای ابزار برای حذف دائمی یادداشت چسبان"
+  },
+  "t_d27532d9": {
+    "message": "کوچک‌سازی"
+  },
+  "t_2bd339d8": {
+    "message": "بازیابی"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "ایزی‌ویو"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "هشدار سیستم"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "اعلان سیستم"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "موتور\n                        ایزی‌ویو"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "ویژگی‌های محلی باقی می‌مانند\r\n                        فعال"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,580 +599,571 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "تجربه\n                        ایزی‌ویو"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "شما ۱۲ ساعت است که از ایزی‌ویو استفاده می‌کنید. یک حساب رایگان بسازید تا تنظیمات خود را ذخیره کنید، سهمیه خود را حفظ کنید و ویژگی‌های بیشتری را باز کنید."
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "۱۲ ساعت دیگر به من یادآوری کن"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "روشن"
   },
   "t_7fc56270": {
-    "message": "A"
+    "message": "کوچک"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "قلم"
   },
   "t_5dbc98dc": {
-    "message": "S"
+    "message": "کوچک"
   },
   "t_69691c7b": {
-    "message": "M"
+    "message": "متوسط"
   },
   "t_d20caec3": {
-    "message": "L"
+    "message": "بزرگ"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "ویژگی‌ها"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "تصویری"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "مبدل"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "دفترچه"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "رمزگشای اصطلاحات"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "ساده‌سازی اصطلاحات حقوقی پیچیده"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "fa.wikipedia.org/wiki/عصب‌گوناگونی"
   },
   "t_61e9c06e": {
-    "message": "W"
+    "message": "بزرگ"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "تفاوت عصبی"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "خیلی\n                                                آسان‌تر"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "سپر تمرکز و حریم خصوصی"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "تار کردن محتوای خصوصی و حساس"
   },
   "t_7f766191": {
-    "message": "mail.google.com/mail/u/0/"
+    "message": "میل.گوگل.کام/میل/یو/۰/"
   },
   "t_dfcf28d0": {
-    "message": "G"
+    "message": "ج"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "حساب‌های گوگل"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "هشدار امنیتی"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- درخواست بازنشانی رمز عبور..."
   },
   "t_8d9c307c": {
-    "message": "N"
+    "message": "ن"
   },
   "t_170b1d36": {
-    "message": "Netflix"
+    "message": "نتفلیکس"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "جدید این هفته"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- آخرین\n                                                    انتشارهای ما را بررسی کنید..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "تکنیک‌های محافظت"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "تار کردن محتوای خصوصی"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "واتس‌اپ، جی‌میل و ورودی‌های رمز عبور را برای امنیت بصری فوری\n                                            به‌طور هوشمند تار می‌کند."
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "محافظت خودکار هنگام اشتراک‌گذاری صفحه"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "هنگام اشتراک‌گذاری آنلاین، فوراً از صفحه شما محافظت می‌کند."
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
-  },
-  "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "آیا از\n                                                    پروژکتور فیزیکی استفاده می‌کنید؟"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "چراغ‌قوه خواندن"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "با یک نورافکن روشن، ماوس شما را دنبال می‌کند تا به‌طور کامل شلوغی بصری اطراف را از بین ببرد."
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "۱.\n                                                            شکل پرتو"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "نورافکن\n                                                            یا خط‌کش"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "۲.\n                                                                اندازه / ارتفاع پرتو"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "ضخامت\n                                                                ناحیه دید"
   },
   "t_f0cad41b": {
-    "message": "35px"
+    "message": "۳۵px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "۳.\n                                                            رنگ لنز پرتو تمرکز"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "به آرامی\n                                                            شکاف مطالعه را رنگی می‌کند"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "۴.\n                                                            سایه پس‌زمینه محیطی"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "تیرگی\n                                                            اطراف لنز شما"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "سپر حسی"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "متوقف کردن انیمیشن‌های حواس‌پرت‌کن"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "نیوزدیلی.کام/بریکینگ"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "خبر فوری"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "در حال خواندن مقاله‌ای در اخبار روز..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "برنده!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "حالت محافظ"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(پیش‌فرض)"
   },
   "t_9e3360ac": {
-    "message": "PRO"
+    "message": "حرفه‌ای"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "توقف پخش خودکار + محو شدن‌های آرام\n                                                در ناوبری دستی"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "حالت خواندن دیسلکسیا (خوانش‌پریشی)"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "قلم‌ها و فاصله‌گذاری بهینه"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "نمایه شدت"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "کم"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "متوسط"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "زیاد"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "fa.wikipedia.org/wiki/خواندن"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "خواندن"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "این پیش‌نمایشی از تنظیمات خواندن شماست."
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "گزینه‌های پیشرفته"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "سبک قلم"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "پیش‌فرض (بدون تغییر)"
   },
   "t_5d2967ef": {
-    "message": "OpenDyslexic"
+    "message": "اوپن‌دیس‌لکسیک"
   },
   "t_1042daad": {
-    "message": "Lexend (ADHD Pro) 🔒"
+    "message": "لکسند (ای‌دی‌اچ‌دی حرفه‌ای) 🔒"
   },
   "t_bcec044a": {
-    "message": "Atkinson Hyperlegible 🔒"
+    "message": "اتکینسون هایپرلجیبل 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "سنس سریع"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "سریف سریع"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "کمیک نو"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "کمیک سنس"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "فاصله حروف"
   },
   "t_960b44c5": {
-    "message": "Normal"
+    "message": "عادی"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "ارتفاع خط"
   },
   "t_60086472": {
-    "message": "1.5"
+    "message": "۱.۵"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "فاصله کلمات"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "اندازه قلم"
   },
   "t_30bd7ce7": {
-    "message": "100%"
+    "message": "۱۰۰%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "رنگ پوشش"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "هیچ‌کدام"
   },
   "t_2bd8c63b": {
-    "message": "Beige"
+    "message": "بژ"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "آبی روشن"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "سبز روشن"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "زرد روشن"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "تبدیل متن به گفتار"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "خواندن با صدای بلند همراه با برجسته‌سازی"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "پخش"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "مکث"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "توقف"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "انتخاب صدا"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "خودکار (بهترین کیفیت)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "سرعت خواندن"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "بسیار آرام"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "آرام"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "سریع"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "بسیار سریع"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "میزان صدا"
   },
   "t_f1943132": {
-    "message": "70%"
+    "message": "۷۰%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "مکث روی علائم نگارشی"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "برجسته‌سازی کلمات"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "فعال‌سازی"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "حالت"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "تیره"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "ویکی‌پدیا.آرگ/ویکی/روشن"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "تصاویر عالی برای راحتی چشم. نور می‌تواند شدید باشد."
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "روشنایی"
   },
   "t_c63ecd19": {
-    "message": "Contrast"
+    "message": "کنتراست"
   },
   "t_b84a9a38": {
-    "message": "Sepia"
+    "message": "سپیا"
   },
   "t_9f1ef078": {
-    "message": "0%"
+    "message": "۰%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "سیاه و سفید"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "پیش‌فرض"
   },
   "t_b1166920": {
-    "message": "Lexend 🔒"
+    "message": "لکسند 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "ضخامت متن"
   },
   "t_cfcd2084": {
-    "message": "0"
+    "message": "۰"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "مبدل و خواننده هوشمند"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "فایل فعلی"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "برای بارگذاری، فایل را کلیک یا رها کنید"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• آماده"
   },
   "t_4c4ad5fc": {
-    "message": "HTML"
+    "message": "اچ‌تی‌ام‌ال"
   },
   "t_5c31b30e": {
-    "message": "EPUB"
+    "message": "ای‌پاب"
   },
   "t_7cfd9a9f": {
-    "message": "DOCX"
+    "message": "داکس"
   },
   "t_af97e960": {
     "message": "📌"
   },
   "t_4cc6684d": {
-    "message": "Global"
+    "message": "سراسری"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "سایت/صفحه"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "دفترچه من"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "پاک کردن همه"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "لغو"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "ذخیره کلمه"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "هنوز کلمه‌ای ذخیره نشده است."
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "روی اصطلاحات تخصصی در هر صفحه نشانگر را نگه دارید و روی پرچم نشان‌گذاری کلیک کنید تا اینجا ذخیره شوند!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "رابط کاربری هر وب‌سایتی را بازسازی کنید. آنچه می‌خواهید را توصیف کنید یا یک\n                            پیش‌تنظیم انتخاب کنید."
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "تغییر شکل\r\n                                اعمال شد"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "چیدمان هوش مصنوعی سفارشی\n                                در این سایت فعال است."
   },
   "t_e8a57cd1": {
-    "message": "0 /\r\n                                500"
+    "message": "۰ /\r\n                                ۵۰۰"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "بازنشانی صفحه"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "تغییر شکل چیدمان"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "پیش‌فرض‌های اصلی"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "کارناوال وحشت"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "حال و هوای کارناوال ترسناک و متن ترسناک متحرک"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "کنسول ماتریس"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "تم ترمینال سایبرپانک"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "تمرکز عصبی"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "قلم‌های مناسب دیسلکسیا و رنگ‌های آرام‌بخش"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "حالت خواندن"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "طرح مینیمالیستی بهینه‌شده برای تمرکز"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "درخواست‌های اخیر"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "کاربر مهمان"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "حساب رایگان"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "ورود / مدیریت"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "خروج از حساب"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "تنظیمات رابط برنامه‌نویسی"
   },
   "t_766cc4dd": {
-    "message": "Gemini"
+    "message": "جمینای"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "ارائه‌دهنده هوش مصنوعی"
   },
   "t_222cf5ed": {
-    "message": "Google Gemini"
+    "message": "گوگل جمینای"
   },
   "t_a0607683": {
-    "message": "OpenRouter"
+    "message": "اوپن‌روتر"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "کلید رابط رابط API جمینای"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "استودیو هوش مصنوعی گوگل"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "کلید رابط رابط API اوپن‌روتر"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "ذخیره کلید رابط رابط API"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "اولویت هوش مصنوعی\n                                    ایزی‌ویو"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ کلید رابط رابط API من"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 سرورهای ایزی‌ویو"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "انتخاب کنید\n                                که کدام‌یک ابتدا برای تمام ویژگی‌های هوش مصنوعی استفاده شود. اگر کلید شما تمام شود، سرورهای ایزی‌ویو\n                                همیشه به عنوان جایگزین استفاده می‌شوند."
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "حریم خصوصی\r\n                                    و اولویت"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "اولویت ۱:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "اولویت ۲:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "یادداشت موتور\n                                            تغییر ساختار (Morph):"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "هرگز"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "راهنما و بازخورد"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "سوالی دارید، باگی پیدا کردید یا می‌خواهید ویژگی جدیدی پیشنهاد دهید؟ مشتاق شنیدن نظرات شما هستیم!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "گزارش اشکال / ارائه بازخورد"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "آماده برای ساده‌سازی"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "صادرات تنظیمات"
   },
   "t_9d5ed678": {
-    "message": "B"
+    "message": "ب"
   },
   "t_dd753679": {
-    "message": "I"
+    "message": "آی"
   },
   "t_20a1d47c": {
     "message": "✎"
   },
   "t_4c614360": {
-    "message": "U"
+    "message": "یو"
   },
   "t_2f43b42f": {
     "message": "..."
@@ -615,25 +1172,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "شدت"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "شفافیت"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "وزن"
   },
   "t_18d80423": {
-    "message": "400"
+    "message": "۴۰۰"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "ارتفاع\r\n                                خط"
   },
   "t_f522dede": {
-    "message": "1.7x"
+    "message": "۱.۷x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "رد کردن"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,88 +1199,88 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "برجسته کردن"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "جوهر"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "محو"
   },
   "t_e8bfe352": {
-    "message": "Lexend 👑"
+    "message": "لکسند 👑"
   },
   "t_0cd4623c": {
-    "message": "Atkinson Hyperlegible 👑"
+    "message": "اتکینسون هایپرلجیبل 👑"
   },
   "t_6fbda3a3": {
-    "message": "Arial"
+    "message": "آریال"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "هلوتیکا"
   },
   "t_207c3219": {
-    "message": "Verdana"
+    "message": "وردانا"
   },
   "t_2bd141ae": {
-    "message": "Tahoma"
+    "message": "تاهوما"
   },
   "t_720661ec": {
-    "message": "Trebuchet MS"
+    "message": "تربوکت ام‌اس"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "سنس سیستمی"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "تایمز نیو رومن"
   },
   "t_eada8196": {
-    "message": "Georgia"
+    "message": "جورجیا"
   },
   "t_96a78725": {
-    "message": "Garamond"
+    "message": "گاراموند"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "سریف سیستمی"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "کمیک سنس ام‌اس"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "کوریه نیو"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "تک‌فاصله"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "اندازه\r\n                            قلم"
   },
   "t_f4f9f2f4": {
-    "message": "14px"
+    "message": "۱۴px"
   },
   "t_cf3c032c": {
-    "message": "16px"
+    "message": "۱۶px"
   },
   "t_d69f92af": {
-    "message": "18px"
+    "message": "۱۸px"
   },
   "t_865b4c0b": {
-    "message": "20px"
+    "message": "۲۰px"
   },
   "t_14cdf596": {
-    "message": "22px"
+    "message": "۲۲px"
   },
   "t_33f60d47": {
-    "message": "24px"
+    "message": "۲۴px"
   },
   "t_c7c6a7b0": {
-    "message": "28px"
+    "message": "۲۸px"
   },
   "t_4d3604fc": {
-    "message": "32px"
+    "message": "۳۲px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "انجام شد"
   },
   "t_63922286": {
     "message": "×"
@@ -732,154 +1289,34 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "خروجی گرفتن از کتابخانه تم‌ها"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "شاهکارهای تولیدشده توسط هوش مصنوعی خود را\n                به‌صورت محلی ذخیره کنید."
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "خروجی گرفتن از کل کتابخانه"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
-  },
-  "t_ccca2ddf": {
-    "message": "EasyView Reader"
-  },
-  "t_8524de96": {
-    "message": "Loading..."
-  },
-  "t_25e8f2fd": {
-    "message": "Please wait..."
-  },
-  "t_ec9d785d": {
-    "message": "1.5x"
-  },
-  "t_dafd5f8f": {
-    "message": "Lexend"
-  },
-  "t_16d90a0b": {
-    "message": "Atkinson Hyperlegible"
-  },
-  "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
-  },
-  "t_f7cee5ea": {
-    "message": "Calibri"
-  },
-  "t_ccc0239e": {
-    "message": "Candara"
-  },
-  "t_2963521b": {
-    "message": "Corbel"
-  },
-  "t_37f1cc58": {
-    "message": "Cambria"
-  },
-  "t_c3d9d4bf": {
-    "message": "Constantia"
-  },
-  "t_5d1a5b35": {
-    "message": "Palatino Linotype"
-  },
-  "t_4dc386b6": {
-    "message": "Book Antiqua"
-  },
-  "t_03c461f6": {
-    "message": "Franklin Gothic"
-  },
-  "t_7b1ee3b6": {
-    "message": "Century Gothic"
-  },
-  "t_a3293302": {
-    "message": "Gill Sans"
-  },
-  "t_eb726908": {
-    "message": "Sitka Text"
-  },
-  "t_b5bdee2c": {
-    "message": "Sylfaen"
-  },
-  "t_1ec05249": {
-    "message": "Microsoft Sans Serif"
-  },
-  "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
-  },
-  "t_16507cdd": {
-    "message": "Consolas"
-  },
-  "t_391c5954": {
-    "message": "Lucida Console"
-  },
-  "t_9879efdf": {
-    "message": "Lucida Sans Typewriter"
-  },
-  "t_21f59b54": {
-    "message": "Impact"
-  },
-  "t_94a7bb97": {
-    "message": "Arial Black"
-  },
-  "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
-  },
-  "t_40885309": {
-    "message": "Berlin Sans FB"
-  },
-  "t_6d5566ba": {
-    "message": "Gabriola"
-  },
-  "t_edb42482": {
-    "message": "Ink Free"
-  },
-  "t_fa233799": {
-    "message": "Segoe Script"
-  },
-  "t_2f7bc407": {
-    "message": "Segoe Print"
-  },
-  "t_0095a9fa": {
-    "message": "Export"
-  },
-  "t_520d0db3": {
-    "message": "Format"
-  },
-  "t_5956a437": {
-    "message": "TXT"
-  },
-  "t_1351017a": {
-    "message": "Filename"
-  },
-  "t_6af8212e": {
-    "message": "EasyView Notes Board"
-  },
-  "t_d16da0f5": {
-    "message": "🌎"
-  },
-  "t_6df173ff": {
-    "message": "📍"
+    "message": ".جیسون (فایل فایل JSON)"
   },
   "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
-  },
-  "js_24833610": {
-    "message": "Saved"
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> اقدام لازم</div>\n            <h2 class=\"ev-si-title\">حساب<br><span class=\"ev-si-gradient-text\">تعلیق شد</span></h2>\n            <p class=\"ev-si-sub\">دسترسی ایزی‌ویو شما به دلیل نقض شرایط خدمات ما محدود شده است.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                تماس با پشتیبانی\n            </a>\n          </div>\n        </div>\n      "
   },
   "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>لطفاً ابتدا تغییر شکل خود را توصیف کنید.</span>\n          </div>"
   },
   "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>در حال تغییر شکل...</span>\n      "
   },
   "js_138703dd": {
-    "message": "No Theme on Page"
+    "message": "بدون تم در صفحه"
   },
   "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>خروجی گرفتن از صفحه فعلی"
   },
   "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> در حال کامپایل..."
   },
   "js_e541190e": {
     "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
@@ -891,30 +1328,1322 @@
     "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
   },
   "js_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "آماده برای ساده‌سازی"
   },
   "js_a18366b2": {
-    "message": "Dark"
+    "message": "تیره"
   },
   "js_9914a0ce": {
-    "message": "Light"
+    "message": "روشن"
   },
   "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+    "message": "<option value=\"auto\">خودکار (بهترین کیفیت)</option>"
   },
   "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> در حال رمزگشایی..."
   },
   "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+    "message": "درک این مطلب <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">بسیار آسان‌تر</span> به نظر می‌رسد."
   },
   "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+    "message": "درک این موضوع کمتر مبهم به نظر می‌رسد."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_f05df71b": {
+    "message": "در حال ارتقای"
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_78db2ae3": {
+    "message": "سرورهای هوش مصنوعی ما در حال ارتقا هستند."
+  },
+  "t_bb2129c8": {
+    "message": "باز کردن قفل کامل"
+  },
+  "t_aefee7cd": {
+    "message": "شفافیت برای هر مغزی"
+  },
+  "t_c38beca1": {
+    "message": "فایرفاکس رابط‌های برنامه‌نویسی (ای‌پی‌آی) تشخیص مانیتور فیزیکی را محدود می‌کند."
+  },
+  "t_f2fe1e79": {
+    "message": "مقادیر\n                                    کمتر از ۱.۰ ممکن است متن را فشرده کرده و چیدمان‌ها را خراب کند."
+  },
+  "t_ca677d53": {
+    "message": "تنظیمات بصری"
+  },
+  "t_230b4522": {
+    "message": "تخته یادداشت"
+  },
+  "t_596b54bf": {
+    "message": "عامل هوش مصنوعی مورف"
+  },
+  "t_47e79a17": {
+    "message": "کلید رایگان خود را دریافت کنید در"
+  },
+  "t_42372184": {
+    "message": "تم‌ها به این صورت خروجی گرفته می‌شوند"
+  },
+  "t_74fdc8a2": {
+    "message": "لطفاً ابتدا تغییر شکل خود را توصیف کنید."
+  },
+  "t_245fd3b9": {
+    "message": "طرح‌بندی تغییر شکل یافته پاک شد."
+  },
+  "t_172bd753": {
+    "message": "تم با موفقیت صادر شد!"
+  },
+  "t_4c34daff": {
+    "message": "اتصال برقرار نشد. سرور در دسترس نیست."
+  },
+  "t_0dd56117": {
+    "message": "هیچ تم فعالی در این صفحه یافت نشد."
+  },
+  "t_cb5c0766": {
+    "message": "کتابخانه با موفقیت صادر شد!"
+  },
+  "t_8adb392e": {
+    "message": "اتصال برقرار نشد. سرور در دسترس نیست."
+  },
+  "t_ae94e0e4": {
+    "message": "کتابخانه تم شما خالی است."
+  },
+  "t_10a0c40b": {
+    "message": "تم سفارشی با موفقیت بارگذاری شد!"
+  },
+  "t_9b6007a8": {
+    "message": "خطا در خواندن فایل تم."
+  },
+  "t_d4fa051d": {
+    "message": "خطا: $1. لطفاً زبانه را دوباره بارگذاری کنید.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "اعمال شد: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "$1 تم از کتابخانه بازیابی شد!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "ترجیح زبان"
+  },
+  "t_lang_updated_reload": {
+    "message": "زبان به‌روز شد. در حال بارگذاری مجدد..."
+  },
+  "t_transformation_failed": {
+    "message": "تغییر شکل ناموفق بود."
+  },
+  "t_c8a59e71": {
+    "message": "رد کردن"
+  },
+  "t_7764306b": {
+    "message": "تعمیر و نگهداری خدمات ابری فعال است"
+  },
+  "t_248228de": {
+    "message": "تغییر وضعیت قلم دیسلکسیا در پنجره بازشو"
+  },
+  "t_79a59320": {
+    "message": "شروع تور برنامه"
+  },
+  "t_533bff5b": {
+    "message": "سنجاق یادداشت به صفحه (آلت+ان)"
+  },
+  "t_f4f70727": {
+    "message": "تنظیمات"
+  },
+  "t_4fd11104": {
+    "message": "نورافکن دایره‌ای"
+  },
+  "t_0d063af1": {
+    "message": "خط‌کش افقی 🔒"
+  },
+  "t_60d71580": {
+    "message": "روشن شفاف"
+  },
+  "t_efe48742": {
+    "message": "تمرکز کهربایی"
+  },
+  "t_610a09ca": {
+    "message": "فیروزه‌ای خنک"
+  },
+  "t_886f6b9e": {
+    "message": "سبز آرامش‌بخش"
+  },
+  "t_65e8194e": {
+    "message": "سیاه مطلق"
+  },
+  "t_7243ed99": {
+    "message": "تخته‌سنگ نیمه‌شب"
+  },
+  "t_ec6d8325": {
+    "message": "جنگل عمیق"
+  },
+  "t_4af435e0": {
+    "message": "شراب ارغوانی"
+  },
+  "t_2a7dbdf8": {
+    "message": "ویژگی حرفه‌ای"
+  },
+  "t_fc4aec61": {
+    "message": "باز کردن در حالت خواندن"
+  },
+  "t_801ab246": {
+    "message": "دانلود"
+  },
+  "t_aa3880dc": {
+    "message": "دانلود به صورت اچ‌تی‌ام‌ال"
+  },
+  "t_e0781e81": {
+    "message": "دانلود به صورت ای‌پاب"
+  },
+  "t_442ff212": {
+    "message": "دانلود به صورت داکس"
+  },
+  "t_6244ee7c": {
+    "message": "افزودن دستی اصطلاح سفارشی"
+  },
+  "t_6e7d015f": {
+    "message": "وارد کردن فایل سی‌اس‌وی"
+  },
+  "t_edbc5415": {
+    "message": "خروجی برای آنکی / کویزلت"
+  },
+  "t_46c29f7a": {
+    "message": "بارگذاری پوسته"
+  },
+  "t_2bd65c5d": {
+    "message": "خروجی گرفتن از پوسته"
+  },
+  "t_c1c433ac": {
+    "message": "ارائه‌دهنده هوش مصنوعی فعال"
+  },
+  "t_90c09393": {
+    "message": "نقطه‌چین"
+  },
+  "t_eb656e41": {
+    "message": "خط‌چین"
+  },
+  "t_0c99ddee": {
+    "message": "رنگ برجسته‌سازی"
+  },
+  "t_eaf63759": {
+    "message": "رنگ جوهر"
+  },
+  "t_a183c9f0": {
+    "message": "رنگ محو"
+  },
+  "t_75e7422f": {
+    "message": "رنگ پس‌زمینه"
+  },
+  "t_42f9ceea": {
+    "message": "جستجوی واژگان ذخیره شده..."
+  },
+  "t_0e84a8cf": {
+    "message": "کلمه یا اصطلاح را وارد کنید..."
+  },
+  "t_eea6890c": {
+    "message": "معنی / ترجمه..."
+  },
+  "t_4480cf46": {
+    "message": "ترفند حافظه یا یادداشت مطالعه (اختیاری)..."
+  },
+  "t_d8634fbf": {
+    "message": "مثلاً، به یک پوسته انیمه‌ای صورتی با کارت‌های گرد تبدیل شود، یا به یک کنسول ترمینال سبز تیره قدیمی تغییر یابد..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "یادداشت‌های چسبان"
+  },
+  "t_b097d277": {
+    "message": "افزودن کلمه"
+  },
+  "t_1eeb67ee": {
+    "message": "خروجی گرفتن از صفحه فعلی"
+  },
+  "t_b62ded9a": {
+    "message": "سرویس‌های ابری آفلاین هستند"
+  },
+  "t_263e00eb": {
+    "message": "ورود / ایجاد حساب"
+  },
+  "t_7748eb3b": {
+    "message": "در حال ارتقا"
+  },
+  "t_81a5d20b": {
+    "message": "توقف همه"
+  },
+  "t_e61146d9": {
+    "message": "محو آرام"
+  },
+  "t_57323916": {
+    "message": "توقف پخش خودکار"
+  },
+  "t_f50319ea": {
+    "message": "محافظت کامل"
+  },
+  "t_8e13f26d": {
+    "message": "پرسش سریع"
+  },
+  "t_134b26da": {
+    "message": "آیا از<br><span class=\"ev-si-gradient-text\">ایزی‌ویو</span> لذت می‌برید؟"
+  },
+  "t_b75bdd9e": {
+    "message": "بازخورد شما به ما در بهبود کمک می‌کند.<br>آیا از تجربه کار با آن لذت می‌برید؟"
+  },
+  "t_396d1ff8": {
+    "message": "بله، هستم!"
+  },
+  "t_7d0cacf3": {
+    "message": "نیاز به کار دارد"
+  },
+  "t_815142c9": {
+    "message": "حمایت از ما"
+  },
+  "t_abd9fa39": {
+    "message": "آیا مایل هستید<br><span class=\"ev-si-gradient-text\">نظر خود را ثبت کنید؟</span>"
+  },
+  "t_02991e61": {
+    "message": "امتیازدهی کاربران مانند شما بهترین راه برای کمک به رشد ایزی‌ویو است. فقط یک دقیقه زمان می‌برد!"
+  },
+  "t_db49c1f2": {
+    "message": "امتیاز دهید"
+  },
+  "t_7a4f0d12": {
+    "message": "بعداً یادآوری کن"
+  },
+  "t_fee6c0e9": {
+    "message": "بازخورد خصوصی"
+  },
+  "t_74393dde": {
+    "message": "چه کاری را می‌توانیم <span class=\"ev-si-gradient-text\">بهتر انجام دهیم؟</span>"
+  },
+  "t_7096a3ae": {
+    "message": "به ما بگویید چه مشکلی پیش آمد..."
+  },
+  "t_6f97affc": {
+    "message": "ارسال بازخورد"
+  },
+  "t_b20871b3": {
+    "message": "لطفاً بازخورد خود را وارد کنید"
+  },
+  "t_7b0fee4d": {
+    "message": "در حال ارسال..."
+  },
+  "t_fb631633": {
+    "message": "از بازخورد شما سپاسگزاریم."
+  },
+  "t_08727add": {
+    "message": "وب را به روش خود ببینید."
+  },
+  "t_15bbb9d0": {
+    "message": "وب‌سایت"
+  },
+  "t_c5f29bb3": {
+    "message": "حریم خصوصی"
+  },
+  "t_ad5b1a22": {
+    "message": "بنیان‌گذار"
+  },
+  "t_db496e03": {
+    "message": "کلیدهای شخصی یک اتصال مستقیم و ۱۰۰٪ خصوصی به هوش مصنوعی ایجاد می‌کنند. متن شما هرگز به سرورهای ایزی‌ویو نمی‌رسد."
+  },
+  "t_387c35b3": {
+    "message": "سرور مدیریت‌شده ما (پریمیوم) در صورت عدم وجود کلید یا خرابی کلید شما، به عنوان پشتیبان مطمئن عمل می‌کند."
+  },
+  "t_98bc5a17": {
+    "message": "برای محافظت از الگوریتم‌های اختصاصی، کلید شما به‌طور مختصر از طریق سرور امن ما برای احراز هویت با گوگل هدایت می‌شود. این کلید هرگز"
+  },
+  "t_de47f1be": {
+    "message": "ذخیره یا ثبت نمی‌شود."
+  },
+  "t_25e02e7f": {
+    "message": "فعال: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ عضو ویژه"
+  },
+  "t_df56cfae": {
+    "message": "⭐ عضو مادام‌العمر"
+  },
+  "t_41cbc704": {
+    "message": " روز باقی‌مانده"
+  },
+  "t_b194bd82": {
+    "message": "هرگز منقضی نمی‌شود"
+  },
+  "t_9f830444": {
+    "message": "⭐ حرفه‌ای:"
+  },
+  "t_61b82be6": {
+    "message": " تغییر شکل باقی‌مانده"
+  },
+  "t_c20e7ceb": {
+    "message": " مورف رایگان باقی‌مانده"
+  },
+  "t_d7087930": {
+    "message": " استفاده رایگان باقی‌مانده"
+  },
+  "t_4bbf11bd": {
+    "message": "فیلدهای اصطلاح و معنا نمی‌توانند خالی بمانند!"
+  },
+  "t_08f09d38": {
+    "message": "جزئیات کلمه با موفقیت به‌روز شد!"
+  },
+  "t_32001b52": {
+    "message": "لطفاً هم کلمه و هم معنای آن را وارد کنید."
+  },
+  "t_b8115861": {
+    "message": "دفترچه یادداشت مطالعه شما خالی است. ابتدا چند کلمه را در صفحات وب نشان‌گذاری کنید!"
+  },
+  "t_7114113b": {
+    "message": "لطفاً ابتدا به حساب ایزی‌ویو خود وارد شوید تا ویژگی‌های حرفه‌ای خود را تأیید کنید!"
+  },
+  "t_093f9fa0": {
+    "message": "توکن نشست شما یافت نشد. لطفاً دوباره به easyview.in وارد شوید تا دسترسی بازیابی شود."
+  },
+  "t_0e065596": {
+    "message": "این یک ویژگی تأییدشده مخصوص نسخه پریمیوم است. برای باز کردن قفل، به نسخه حرفه‌ای ارتقا دهید!"
+  },
+  "t_c792a645": {
+    "message": "اتصال به سرور خروجی امن برقرار نشد. کمی بعد دوباره تلاش کنید."
+  },
+  "t_8d1a2675": {
+    "message": "شناسایی هیچ مورد واژگانی معتبری در آن فایل سی‌اس‌وی ممکن نبود."
+  },
+  "t_a613ed90": {
+    "message": "خطا در نوشتن حافظه مرورگر! فایل ممکن است برای حافظه پنهان محلی بیش از حد بزرگ باشد."
+  },
+  "t_8efe87ab": {
+    "message": "مرورگر در خواندن فایل محلی شما شکست خورد."
+  },
+  "t_50bf63aa": {
+    "message": "آیا مطمئن هستید که می‌خواهید تمام کلمات ذخیره‌شده را از دفترچه یادداشت خود پاک کنید؟"
+  },
+  "t_ff252710": {
+    "message": "وارد کردن به پایان رسید: تمام $1 ورودی قبلاً در دفترچه یادداشت شما وجود دارند.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "خطا در تجزیه سی‌اس‌وی: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "\"$1\" قبلاً در دفترچه یادداشت شما وجود دارد. آیا می‌خواهید تعریف دیگری برای آن اضافه کنید؟",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "با موفقیت خارج شدید"
+  },
+  "t_dbd35100": {
+    "message": "موتور تغییر شکل در حال کار است..."
+  },
+  "t_2de4e55d": {
+    "message": "طرح‌بندی تغییر شکل یافته پاک شد"
+  },
+  "t_1bb9196d": {
+    "message": "تغییر شکل یافته: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "تغییر شکل ناموفق بود: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "فعال شد: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 مورد سازماندهی شد",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "این کار باعث حذف دائمی این یادداشت در تمام دستگاه‌های همگام‌سازی‌شده می‌شود. ادامه می‌دهید؟"
+  },
+  "t_25abf697": {
+    "message": "خروجی ای‌پاب نیازمند جی‌اس‌زیپ است."
+  },
+  "t_71609188": {
+    "message": "خروجی داکس نیازمند کتابخانه html-docx-js است."
+  },
+  "t_e1499766": {
+    "message": "فایلی بارگذاری نشده."
+  },
+  "t_023b3355": {
+    "message": "سپر حریم خصوصی فعال شد"
+  },
+  "t_9483a5da": {
+    "message": "سپر حریم خصوصی غیرفعال شد"
+  },
+  "t_a04202db": {
+    "message": "برجسته‌سازی‌ها موقتاً پنهان شدند"
+  },
+  "t_b3d6b264": {
+    "message": "هایلایت‌ها بازیابی شدند"
+  },
+  "t_7485c55e": {
+    "message": "به ایزی‌ویو خوش آمدید! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "پل شناختی مجهز به هوش مصنوعی شما برای مطالعه آسان‌تر وب. بیایید نگاهی سریع به ویژگی‌ها بیندازیم."
+  },
+  "t_3a1fe637": {
+    "message": "رمزگشای اصطلاحات 📖"
+  },
+  "t_89cec86e": {
+    "message": "اصطلاحات پیچیده را در هر صفحه وب ساده می‌کند."
+  },
+  "t_f8aefae7": {
+    "message": "سپر حریم خصوصی 🔐"
+  },
+  "t_aa860f86": {
+    "message": "داده‌های حساس را تار کرده و شامل یک خط‌کش تمرکز برای مطالعه بدون حواس‌پرتی است."
+  },
+  "t_0681a3b6": {
+    "message": "سپر حسی 🛡️"
+  },
+  "t_6118b864": {
+    "message": "گیف‌ها و انیمیشن‌های حواس‌پرت‌کن را متوقف می‌کند."
+  },
+  "t_12ec6fc6": {
+    "message": "حالت خواندن دیسلکسیا 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "قلم‌ها و فاصله‌گذاری بهینه‌شده برای خواندن آسان‌تر."
+  },
+  "t_18d9ce63": {
+    "message": "تبدیل متن به گفتار 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "گوش دادن به هر صفحه وب با برجسته‌سازی کلمات."
+  },
+  "t_0019a700": {
+    "message": "موتور تغییر شکل ✨"
+  },
+  "t_47c2535a": {
+    "message": "از هوش مصنوعی برای بازطراحی هر وب‌سایت با پوسته یا چیدمان سفارشی استفاده کنید."
+  },
+  "t_2ed2f639": {
+    "message": "یادداشت‌های چسبان 📝"
+  },
+  "t_75025b5f": {
+    "message": "یادداشت‌های شناور را به هر صفحه وبی سنجاق کنید تا اطلاعات مهم ذخیره شوند (آلت+ان)."
+  },
+  "t_3ff2d7cc": {
+    "message": "پیکربندی ای‌پی‌آی ⚙️"
+  },
+  "t_0754e836": {
+    "message": "برای همگام‌سازی سهمیه خود وارد شوید، یا کلید ای‌پی‌آی جمینای رایگان خود را در اینجا تنظیم کنید."
+  },
+  "t_7b6a2059": {
+    "message": "گام $1 از $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "شروع کنید!"
+  },
+  "t_10ac3d04": {
+    "message": "بعدی"
+  },
+  "t_5c7a52b8": {
+    "message": "فشار دهید "
+  },
+  "t_a1b2c3d4": {
+    "message": " در هر زمان برای فعال‌سازی دستی محافظ خودکار."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ سپر حریم خصوصی فعال شد"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 سپر حریم خصوصی غیرفعال شد"
+  },
+  "js_9b3e1a": {
+    "message": "ایزی‌ویو در حال تحلیل طرح‌بندی و تغییر شکل است..."
+  },
+  "js_4c8d2f": {
+    "message": "تعریف"
+  },
+  "js_7a1e9b": {
+    "message": "رمزگشایی"
+  },
+  "js_2d5f8c": {
+    "message": "ساده‌سازی"
+  },
+  "js_6e3a4d": {
+    "message": "نشانک"
+  },
+  "js_1f9b7c": {
+    "message": "برجسته کردن"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "در حال تحلیل درخت دام..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "چیدمان نامرتب..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "در حال مسطح‌سازی ساختار..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[اضافه‌بار_نویز]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "در حال حذف عوامل حواس‌پرتی..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "گره‌های پیچیده"
+  },
+  "js_ldr_m4_cl": {
+    "message": "در حال اعمال قوانین دیسلکسیا..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "در حال رندر رابط کاربری ایزی‌ویو..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "در حال اسکن بلوک متن..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "کلمات بیش از حد..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "در حال استخراج معنای اصلی..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "بار شناختی"
+  },
+  "js_ldr_s3_cl": {
+    "message": "در حال پیش‌نویس انگلیسی ساده‌تر..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "هوش مصنوعی پرگو..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "در حال اعمال خوانایی..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "در حال صیقل دادن خروجی..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "در حال ترجمه اصطلاحات فنی..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "خطا: سردرگمی"
+  },
+  "js_ldr_j2_cl": {
+    "message": "در حال یافتن تعاریف..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[اضافه‌بار_نویز]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "در حال ساده‌سازی زمینه..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "اصطلاحات ناشناخته"
+  },
+  "js_ldr_j4_cl": {
+    "message": "در حال اعمال شفافیت..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "در حال قالب‌بندی نتایج..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "تحلیل عمیق..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "در حال نهایی‌سازی منطق هوش مصنوعی..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "در حال اجرای هوش مصنوعی..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "تقریباً تمام شد..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "ترافیک سنگین..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "کمی بیشتر طول می‌کشد..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "هنوز در حال کار..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "کمی صبر کنید..."
+  },
+  "t_b7012ab9": {
+    "message": "تغییر شکل"
+  },
+  "t_c5e8b1d9": {
+    "message": "قلم‌های حرفه‌ای"
+  },
+  "t_c8f2ba19": {
+    "message": "تار کردن محتوای خصوصی فعال شد"
+  },
+  "t_e2dae61a": {
+    "message": "تار کردن محتوای خصوصی غیرفعال شد"
+  },
+  "t_c74de318": {
+    "message": "محافظت خودکار هنگام اشتراک‌گذاری صفحه فعال شد"
+  },
+  "t_a5fd56f4": {
+    "message": "محافظت خودکار هنگام اشتراک‌گذاری صفحه غیرفعال شد"
+  },
+  "t_ab8d1f2a": {
+    "message": "حالت چراغ‌قوه فعال شد"
+  },
+  "t_2bf5cc98": {
+    "message": "حالت چراغ‌قوه غیرفعال شد"
+  },
+  "t_513bb93f": {
+    "message": "خواندن بیونیک"
+  },
+  "t_5a8b2c1d": {
+    "message": "این پیش‌نمایشی از تنظیمات خواندن شماست."
+  },
+  "t_ac1d4e5f": {
+    "message": "هیچ‌کدام"
+  },
+  "t_b2e3f4a1": {
+    "message": "عریض"
+  },
+  "t_c3f4a5b2": {
+    "message": "بسیار عریض"
+  },
+  "t_d1a3c901": {
+    "message": "کلیک"
+  },
+  "t_b4f2e891": {
+    "message": "سنجاق به عنصر"
+  },
+  "t_c9a1b302": {
+    "message": "فاصله"
+  },
+  "t_f6d4e203": {
+    "message": "یادداشت سراسری"
+  },
+  "t_e2b3f104": {
+    "message": "خروج"
+  },
+  "t_a7c0d905": {
+    "message": "لغو"
+  },
+  "t_e1b2c301": {
+    "message": "فقط این صفحه"
+  },
+  "t_f7a3b402": {
+    "message": "این سایت"
+  },
+  "t_a8c4d503": {
+    "message": "همه سایت‌ها (سراسری)"
+  },
+  "t_b9d5e604": {
+    "message": "پنهان کردن تا بارگذاری مجدد"
+  },
+  "t_c0e6f705": {
+    "message": "سنجاق کردن یادداشت به عنصر"
+  },
+  "t_d1f7a806": {
+    "message": "تغییر رنگ یادداشت"
+  },
+  "t_e2a8b907": {
+    "message": "جمع کردن/باز کردن یادداشت"
+  },
+  "t_f3b9c008": {
+    "message": "کپی محتوای یادداشت"
+  },
+  "t_a4c0d109": {
+    "message": "اقدامات بیشتر"
+  },
+  "t_b5d1e200": {
+    "message": "حذف این یادداشت"
+  },
+  "t_e87033a2": {
+    "message": "آلت + ایکس"
+  },
+  "t_4120201a": {
+    "message": "دوره آزمایشی رایگان فعال"
+  },
+  "t_6ed40ffb": {
+    "message": "همگام‌سازی تنظیمات در دستگاه‌ها"
+  },
+  "t_f8b8a5fd": {
+    "message": "سهمیه استفاده رایگان بالاتر"
+  },
+  "t_440b106d": {
+    "message": "دسترسی به ویژگی‌های حرفه‌ای آینده"
+  },
+  "t_3a99076c": {
+    "message": "محدودیت اشتراک ویژه"
+  },
+  "t_545f6c2f": {
+    "message": "نامحدود"
+  },
+  "t_ad23f4a0": {
+    "message": "یادداشت‌های فضایی"
+  },
+  "t_04f2f045": {
+    "message": "شما با موفقیت تمام ۱۵ یادداشت سطح رایگان را در سراسر وب ایجاد کردید. برای باز کردن حافظه فضایی نامحدود و رنگ‌های سفارشی، به ایزی‌ویو پریمیوم ارتقا دهید."
+  },
+  "t_cf874b99": {
+    "message": "باز کردن قفل اشتراک ویژه"
+  },
+  "t_a6d36e2f": {
+    "message": "تمام کنترل‌های دسترسی محلی (فعال)"
+  },
+  "t_b0b69bc3": {
+    "message": "موتور تبدیل متن به گفتار (فعال)"
+  },
+  "t_cc96c21a": {
+    "message": "ویژگی‌های ابری هوش مصنوعی (آفلاین)"
+  },
+  "t_7af6f6e5": {
+    "message": "متوجه شدم"
+  },
+  "t_9bc7102e": {
+    "message": "یک حساب رایگان ایزی‌ویو بسازید تا سهمیه خود را پیگیری کرده و قفل رمزگشای اصطلاحات تخصصی را باز کنید."
+  },
+  "t_ab7512fd": {
+    "message": "توکن نشست شما یافت نشد. لطفاً دوباره به easyview.in وارد شوید تا دسترسی بازیابی شود."
+  },
+  "t_1cd7820a": {
+    "message": "فقط دسترسی حرفه‌ای"
+  },
+  "t_8eb14032": {
+    "message": "رمزگشای اصطلاحات تخصصی<br><span class=\"ev-si-gradient-text\">سهمیه به پایان رسید</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "سهمیه به پایان رسید"
+  },
+  "t_5ae983dc": {
+    "message": "شما تمام <strong>۵ رمزگشایی رایگان</strong> این ماه را مصرف کرده‌اید. دسترسی نامحدود را در چند ثانیه باز کنید."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> نسخه حرفه‌ای — رمزگشایی نامحدود</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> استفاده از کلید ای‌پی‌آی خودتان</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 افزودن کلید ای‌پی‌آی در تنظیمات</button>"
+  },
+  "t_9be4129a": {
+    "message": "خروجی‌گیرنده دسته مطالعه<br><span class=\"ev-si-gradient-text\">اتوماسیون حرفه‌ای</span>"
+  },
+  "t_fac34185": {
+    "message": "تمام دفترچه یادداشت مطالعه سفارشی خود را فوراً مستقیماً به <strong>آنکی</strong> و <strong>کوییزلت</strong> صادر کنید."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> حذف تایپ دستی</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> کامپایلر فلش‌کارت RFC-۴۱۸۰</div>"
+  },
+  "t_da12c30b": {
+    "message": "دسترسی حرفه‌ای"
+  },
+  "t_4a9b2c01": {
+    "message": "این ویژگی"
+  },
+  "t_3be78c01": {
+    "message": "این قلم خواندن دیسلکسیا"
+  },
+  "t_0ad4b971": {
+    "message": "این قلم بصری"
+  },
+  "t_9af42be8": {
+    "message": "این قلم خروجی ویژه"
+  },
+  "t_cbae8349": {
+    "message": "برای باز کردن قفل تمام ویژگی‌های دسترسی‌پذیری و ابزارهای قدرتمند، ارتقا دهید."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> دسترسی‌پذیری پیشرفته</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> تمام به‌روزرسانی‌های آینده</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ ارتقا به حرفه‌ای"
+  },
+  "t_5ef4c1a2": {
+    "message": "شاید بعداً"
+  },
+  "t_3b7a5e82": {
+    "message": "، اما ویژگی‌های هوش مصنوعی ممکن است موقتاً در دسترس نباشند."
+  },
+  "t_c91d8e12": {
+    "message": "عمومی"
+  },
+  "t_b42f3a9d": {
+    "message": "تعریف"
+  },
+  "t_f1d4a8e6": {
+    "message": "فرهنگ لغت"
+  },
+  "t_e398c71f": {
+    "message": "سفارشی"
+  },
+  "t_a72df9e5": {
+    "message": "پزشکی"
+  },
+  "t_d8f2c61a": {
+    "message": "قانونی"
+  },
+  "t_b3e1f5d2": {
+    "message": "مالی"
+  },
+  "t_c25d81f9": {
+    "message": "فنی"
+  },
+  "t_e1b3a4f6": {
+    "message": "دانشگاهی"
+  },
+  "t_d5f9b4c1": {
+    "message": "اصطلاح"
+  },
+  "t_f7a2e8ea": {
+    "message": "دسته‌بندی"
+  },
+  "t_e3b1c6d9": {
+    "message": "معنای ساده‌شده"
+  },
+  "t_a9d4e5f2": {
+    "message": "یادداشت‌های مطالعه / زمینه"
+  },
+  "t_b4c5d6e7": {
+    "message": "لغو"
+  },
+  "t_c8f2a1b4": {
+    "message": "ذخیره تغییرات"
+  },
+  "t_8c17b5e6": {
+    "message": "توکن نشست شما یافت نشد. لطفاً دوباره به easyview.in وارد شوید تا دسترسی بازیابی شود."
+  },
+  "t_a43dc219": {
+    "message": "یک حساب رایگان ایزی‌ویو بسازید تا سهمیه استفاده خود را پیگیری کرده و قفل موتور تغییر شکل هوش مصنوعی را باز کنید."
+  },
+  "t_54c523fe": {
+    "message": "🎉 عالی! $1 کارت مطالعه جدید با موفقیت وارد شد."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 عالی! $1 کارت جدید وارد شد. ($2 مورد تکراری رد شد.)"
+  },
+  "t_14894d12": {
+    "message": "برون‌بری پوسته"
+  },
+  "t_f27a2629": {
+    "message": "پشتیبان‌گیری از کتابخانه تم‌ها"
+  },
+  "t_9ad85e17": {
+    "message": "حالت خط‌کش خواندن"
+  },
+  "t_b9d4e7a5": {
+    "message": "حالت‌های پیشرفته سپر حسی"
+  },
+  "t_94f4f7e4": {
+    "message": "در حال تجزیه فایل سند DOCX...",
+    "description": "وضعیت هنگام تجزیه فایل DOCX در کتاب‌خوان"
+  },
+  "t_120adfc1": {
+    "message": "در حال تجزیه فایل کتاب EPUB...",
+    "description": "وضعیت هنگام تجزیه فایل EPUB در کتاب‌خوان"
+  },
+  "t_5d2a45b8": {
+    "message": "حالت خط‌کش خواندن منحصر به اشتراک‌های حرفه‌ای است.",
+    "description": "هشدار هنگام دسترسی کاربر غیرحرفه‌ای به خط‌کش خواندن"
+  },
+  "t_c1f29623": {
+    "message": "ویرایش کل کارت",
+    "description": "راهنمای ابزار برای ویرایش کل کارت در دفترچه"
+  },
+  "t_1063e38c": {
+    "message": "حذف",
+    "description": "راهنمای ابزار برای حذف کارت از دفترچه"
+  },
+  "t_ccca2ddf": {
+    "message": "کتاب‌خوان ایزی‌ویو"
+  },
+  "t_8524de96": {
+    "message": "در حال بارگذاری..."
+  },
+  "t_25e8f2fd": {
+    "message": "لطفاً صبر کنید..."
+  },
+  "t_ec9d785d": {
+    "message": "۱.۵x"
+  },
+  "t_dafd5f8f": {
+    "message": "لکسند"
+  },
+  "t_16d90a0b": {
+    "message": "اتکینسون هایپرلجیبل"
+  },
+  "t_5c7db066": {
+    "message": "سگو یوآی (پیش‌فرض ویندوز)"
+  },
+  "t_f7cee5ea": {
+    "message": "کالیبری"
+  },
+  "t_ccc0239e": {
+    "message": "کاندارا"
+  },
+  "t_2963521b": {
+    "message": "کوربل"
+  },
+  "t_37f1cc58": {
+    "message": "کمبریا"
+  },
+  "t_c3d9d4bf": {
+    "message": "کنستانتیا"
+  },
+  "t_5d1a5b35": {
+    "message": "پالاتینو لینوتایپ"
+  },
+  "t_4dc386b6": {
+    "message": "بوک آنتیکوا"
+  },
+  "t_03c461f6": {
+    "message": "فرانکلین گوتیک"
+  },
+  "t_7b1ee3b6": {
+    "message": "سنتری گوتیک"
+  },
+  "t_a3293302": {
+    "message": "گیل سنس"
+  },
+  "t_eb726908": {
+    "message": "سیتکا تکست"
+  },
+  "t_b5bdee2c": {
+    "message": "سیلفائن"
+  },
+  "t_1ec05249": {
+    "message": "مایکروسافت سنس سریف"
+  },
+  "t_ad4a300c": {
+    "message": "سگو یوآی نیمه‌بولد"
+  },
+  "t_16507cdd": {
+    "message": "کنسولاس"
+  },
+  "t_391c5954": {
+    "message": "لوسیدا کنسول"
+  },
+  "t_9879efdf": {
+    "message": "لوسیدا سنس تایپ‌رایتر"
+  },
+  "t_21f59b54": {
+    "message": "ایمپکت"
+  },
+  "t_94a7bb97": {
+    "message": "آریال بلک"
+  },
+  "t_6e87c2cb": {
+    "message": "کوپری‌پلیت گوتیک"
+  },
+  "t_40885309": {
+    "message": "برلین سنس اف‌بی"
+  },
+  "t_6d5566ba": {
+    "message": "گابریولا"
+  },
+  "t_edb42482": {
+    "message": "اینک فری"
+  },
+  "t_fa233799": {
+    "message": "سگو اسکریپت"
+  },
+  "t_2f7bc407": {
+    "message": "سگو پرینت"
+  },
+  "t_0095a9fa": {
+    "message": "خروجی"
+  },
+  "t_520d0db3": {
+    "message": "قالب"
+  },
+  "t_5956a437": {
+    "message": "TXT (متن)"
+  },
+  "t_1351017a": {
+    "message": "نام فایل"
+  },
+  "t_d4c3c15b": {
+    "message": "فایلی بارگذاری نشده"
+  },
+  "t_0ca5a078": {
+    "message": "لطفاً برای بارگذاری فایل از زبانه مبدل استفاده کنید."
+  },
+  "t_c9857e16": {
+    "message": "نوع فایل پشتیبانی نمی‌شود."
+  },
+  "t_6b447b91": {
+    "message": "خطا در تجزیه فایل: "
+  },
+  "t_7f4588be": {
+    "message": "ای‌پاب"
+  },
+  "t_12dc65c2": {
+    "message": "تغییر حالت روشن/تیره"
+  },
+  "t_d3d2e617": {
+    "message": "بستن"
+  },
+  "t_6e8cfcb7": {
+    "message": "خروجی امن به سرور (پریمیوم)"
+  },
+  "t_2f9df658": {
+    "message": "جدا کردن و شناور کردن فضای کاری بالای همه پنجره‌ها"
+  },
+  "t_72d6d7a1": {
+    "message": "درون‌بری"
+  },
+  "t_de93d5fd": {
+    "message": "خروجی یادداشت‌ها"
+  },
+  "t_a1aacca9": {
+    "message": "فلوت او‌اس"
+  },
+  "t_ac0b844f": {
+    "message": "یادداشت‌های سراسری"
+  },
+  "t_15866f1d": {
+    "message": "یادداشت‌های مخصوص سایت"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
+  },
+  "t_6af8212e": {
+    "message": "تخته یادداشت ایزی‌ویو"
+  },
+  "t_d16da0f5": {
+    "message": "🌎"
+  },
+  "t_6df173ff": {
+    "message": "📍"
+  },
+  "t_22f58a00": {
+    "message": "🌎 یادداشت سراسری"
+  },
+  "t_5be8bbeb": {
+    "message": "🌐 یادداشت سایت"
+  },
+  "t_59a56663": {
+    "message": "📍 یادداشت صفحه"
+  },
+  "t_c1843696": {
+    "message": "در حال تأیید توکن یکپارچگی..."
+  },
+  "t_58038ee4": {
+    "message": "همین الان"
+  },
+  "t_e254e1a1": {
+    "message": "$1 دقیقه پیش",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_121d4d02": {
+    "message": "$1 ساعت پیش",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_19d2b280": {
+    "message": "$1 روز پیش",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_d3d4311c": {
+    "message": "کشیدن یادداشت"
+  },
+  "t_7b32ea16": {
+    "message": "تغییر به $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_11916b28": {
+    "message": "محدوده قرارگیری"
+  },
+  "t_5463fe67": {
+    "message": "پالت رنگ"
+  },
+  "t_d116d454": {
+    "message": "جمع کردن یادداشت"
+  },
+  "t_be9ba0e5": {
+    "message": "کپی متن"
+  },
+  "t_28471624": {
+    "message": "اقدامات بیشتر"
+  },
+  "t_90e467df": {
+    "message": "بستن یادداشت"
+  },
+  "t_34494920": {
+    "message": "یادداشت خود را اینجا بنویسید..."
+  },
+  "t_bdda0b60": {
+    "message": "به چه چیزی فکر می‌کردید..."
+  },
+  "t_8689de27": {
+    "message": "در دسترس در همه جا"
+  },
+  "t_c0cf9810": {
+    "message": "بازگشت به صفحه اصلی"
+  },
+  "t_24a23176": {
+    "message": "زمینه اصلی"
+  },
+  "t_4c1c1e76": {
+    "message": "وارد کردن دفترچه"
+  },
+  "t_2736f644": {
+    "message": "دسته‌های مطالعاتی و لیست‌های واژگان خارجی خود را به‌طور یکپارچه با اکوسیستم ایزی‌ویو ادغام کنید."
+  },
+  "t_ca4f038f": {
+    "message": "ستون‌های الزامی"
+  },
+  "t_7277de5f": {
+    "message": "معنی"
+  },
+  "t_ce591bfa": {
+    "message": "ستون‌های اختیاری"
+  },
+  "t_f4c6f851": {
+    "message": "یادداشت‌ها"
+  },
+  "t_c1fd81a6": {
+    "message": "انتخاب یا کشیدن فایل جدول سی‌اس‌وی"
+  },
+  "t_5c426600": {
+    "message": "موارد تکراری و کلمات موجود به‌طور خودکار فیلتر می‌شوند"
+  },
+  "t_76e7183d": {
+    "message": "واردات با موفقیت انجام شد!"
+  },
+  "t_3e17e02d": {
+    "message": "واژگان شما به‌روزرسانی شد."
+  },
+  "t_3148d309": {
+    "message": "بستن زبانه"
+  },
+  "t_0e412fa1": {
+    "message": "هنگامی که به پنجره بازشو برگردید، جشن فعال می‌شود"
+  },
+  "t_d29f6e6b": {
+    "message": "واردات ناموفق بود"
+  },
+  "t_e04efbcb": {
+    "message": "وضعیت دفترچه"
+  },
+  "t_ed732761": {
+    "message": "وارد کردن تم‌های مورف"
+  },
+  "t_e44db711": {
+    "message": "کتابخانه سفارشی موتور مورف خود را مستقیماً به ایزی‌ویو وارد کنید."
+  },
+  "t_c0bb7d43": {
+    "message": "انتخاب یا کشیدن فایل داده جیسون"
+  },
+  "t_36e9583e": {
+    "message": "طرح‌بندی‌های تم که قبلاً صادر کرده‌اید را وارد می‌کند."
+  },
+  "t_21630184": {
+    "message": "تم‌ها بازیابی شدند!"
+  },
+  "t_d0c1ec75": {
+    "message": "قالب‌های مورف شما با موفقیت نصب شدند."
+  },
+  "t_cd27a5c0": {
+    "message": "ایزی‌ویو — کتاب‌خوان محتوا"
+  },
+  "t_b171ab1f": {
+    "message": "به کتاب‌خوان خوش آمدید"
+  },
+  "t_4e07c284": {
+    "message": "اسناد خود را اینجا بارگذاری کنید تا آن‌ها را با تایپوگرافی سفارشی و ابزارهای دسترسی‌پذیری پیشرفته مطالعه کنید."
+  },
+  "t_004621c0": {
+    "message": "پشتیبانی از فایل‌های داکس، ای‌پاب و متنی"
+  },
+  "t_23bb27a0": {
+    "message": "در حال راه‌اندازی تحلیل‌گر سند..."
+  },
+  "t_e1d5f16c": {
+    "message": "بهینه‌سازی اسناد داکس برای خوانایی بهتر..."
+  },
+  "t_0e55c5d0": {
+    "message": "تحلیل ساختار کتاب‌های الکترونیکی ای‌پاب..."
   }
 }

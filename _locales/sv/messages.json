@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "EasyView — Tydlighet för alla hjärnor"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "EnkelVy"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "Förvandla vilken webbplats som helst direkt med AI-prompter eller enkla klick. Se webben på ditt sätt."
+  },
+  "t_68ba0232": {
+    "message": "Dyslexi-läge aktiverat"
+  },
+  "t_85f47a25": {
+    "message": "Dyslexi-läge inaktiverat"
+  },
+  "t_1cc1b64d": {
+    "message": "Inte tillräckligt med innehåll för att analysera"
+  },
+  "t_cebe6412": {
+    "message": "Inga komplexa termer hittades"
+  },
+  "t_b964aa0f": {
+    "message": "Fel vid analys av sidinnehåll"
+  },
+  "t_956c104e": {
+    "message": "Sidminne rensat"
+  },
+  "t_1f4b0f3e": {
+    "message": "Ordlista rensad"
+  },
+  "t_4bfeec37": {
+    "message": "Inga komplexa termer hittades i markeringen"
+  },
+  "t_1b5e8531": {
+    "message": "Inga komplexa termer hittades i markeringen"
+  },
+  "t_a1f781ec": {
+    "message": "Fel vid avkodning av markering"
+  },
+  "t_7aae8122": {
+    "message": "Markeringar har rensats"
+  },
+  "t_58762fd6": {
+    "message": "Vänligen markera ett enskilt ord eller en kort fras att definiera."
+  },
+  "t_6838b119": {
+    "message": "Nätverksfel vid sökning av definition."
+  },
+  "t_ea3ca1b5": {
+    "message": "Avkodade $1 termer (från cache)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "Avkodade $1 termer (cachade)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "Du har använt alla kostnadsfria användningar av jargongavkodaren denna månad. Uppgradera till Pro för obegränsad åtkomst."
+  },
+  "t_cb3c5d3a": {
+    "message": "Avkodade $1 termer i $2 kategorier",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "Auto-markerade $1 förekomster av din avkodade ordförrådsterm",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "Återställde $1 sparade jargondefinitioner$2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "Du har använt alla kostnadsfria användningar av jargongavkodaren denna månad. Uppgradera till Pro för obegränsad åtkomst."
+  },
+  "t_0b841c82": {
+    "message": "Redan i anteckningsboken!"
+  },
+  "t_8901f3ab": {
+    "message": "Sparad i anteckningsbok!"
+  },
+  "t_eb8f5242": {
+    "message": "Fel vid sparande till anteckningsbok"
+  },
+  "t_bd15702b": {
+    "message": "Sensoriskt skydd aktiverat"
+  },
+  "t_c28f3265": {
+    "message": "Sensoriskt skydd inaktiverat"
+  },
+  "t_3f8910d9": {
+    "message": "ENKELVY"
+  },
+  "t_8aafa613": {
+    "message": "Kunde inte förenkla denna text"
+  },
+  "t_79d2dc85": {
+    "message": "Kunde inte förenkla denna text"
+  },
+  "t_99684ba5": {
+    "message": "Fel vid förenkling av text"
+  },
+  "t_f4362bde": {
+    "message": "Kopierat till urklipp!"
+  },
+  "t_af07ef4b": {
+    "message": "Kunde inte kopiera"
+  },
+  "t_94e4d537": {
+    "message": "Text ersatt på sidan"
+  },
+  "t_14a04b67": {
+    "message": "Förenklingsminne raderat"
+  },
+  "t_c444ff21": {
+    "message": "Originaltext tillfälligt återställd"
+  },
+  "t_55f1db14": {
+    "message": "Du har använt alla kostnadsfria användningar denna månad. Uppgradera till Pro för obegränsad åtkomst."
+  },
+  "t_fde4e3f0": {
+    "message": "Återställde $1 sparade förenklingar på denna sida",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "Återställde automatiskt dynamiskt laddad förenkling!"
+  },
+  "t_dfa22e52": {
+    "message": "Text-till-tal aktiverat"
+  },
+  "t_ca153ad0": {
+    "message": "Text-till-tal inaktiverat"
+  },
+  "t_dadbff09": {
+    "message": "Vänligen aktivera text-till-tal först"
+  },
+  "t_47071c61": {
+    "message": "Återupptar..."
+  },
+  "t_5516c48d": {
+    "message": "Inget läsbart innehåll hittades på denna sida"
+  },
+  "t_c57f25c9": {
+    "message": "Inget läsbart innehåll hittades"
+  },
+  "t_2516997e": {
+    "message": "Läsning klar"
+  },
+  "t_d3069aea": {
+    "message": "Text-till-tal stöds inte i denna webbläsare"
+  },
+  "t_53e6b8c6": {
+    "message": "Vänligen markera lite text först"
+  },
+  "t_e932d0f7": {
+    "message": "Läser markering..."
+  },
+  "t_1c50528d": {
+    "message": "Läsning klar"
+  },
+  "t_594778a2": {
+    "message": "Pausad"
+  },
+  "t_4ded5f77": {
+    "message": "Tal stoppat"
+  },
+  "t_0a74758c": {
+    "message": "✨ Drivs av personlig nyckel"
+  },
+  "t_2fceddad": {
+    "message": "✨ Obegränsad"
+  },
+  "t_97627d80": {
+    "message": "✨ Drivs av personlig nyckel"
+  },
+  "t_fd7d5888": {
+    "message": "Hantera prenumeration"
+  },
+  "t_df4657a5": {
+    "message": "Gratismedlem"
+  },
+  "t_22dfb2ec": {
+    "message": "Gästanvändare"
+  },
+  "t_bd9f2460": {
+    "message": "Gratiskonto"
+  },
+  "t_f5adda31": {
+    "message": "Logga in / Registrera dig"
+  },
+  "t_d2439201": {
+    "message": "✨ Obegränsad"
+  },
+  "t_164442b7": {
+    "message": "Värmer upp konverteringsmotorn..."
+  },
+  "t_1e7c3002": {
+    "message": "Redo att tolka filer."
+  },
+  "t_d30f78df": {
+    "message": "Mörkt läge"
+  },
+  "t_6c68d8ce": {
+    "message": "Ljust läge"
+  },
+  "t_fcb68c2b": {
+    "message": "Inga post-it-lappar hittades. Inget att exportera!"
+  },
+  "t_2b75b2d9": {
+    "message": "Din sessionstoken saknas. Vänligen logga in på easyview.in igen för att återställa åtkomsten."
+  },
+  "t_291a4e34": {
+    "message": "Säker serverdirigering misslyckades. Kontrollera din anslutning."
+  },
+  "t_2dcf62b3": {
+    "message": "Inga saknade anteckningar hittades. Arbetsytan är uppdaterad."
+  },
+  "t_951bf3ae": {
+    "message": "Avkodningsfel: Filen följer inte EasyView-gränserna."
+  },
+  "t_817a4ba0": {
+    "message": "PiP-API stöds inte. Vänligen uppdatera Chrome."
+  },
+  "t_e8aa6e9a": {
+    "message": "Misslyckades med att initiera PiP-motor: "
+  },
+  "t_9feed9d5": {
+    "message": "Dekrypterade och injicerade $1 nya anteckningar framgångsrikt.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "BETA"
+  },
+  "t_c289adbe": {
+    "message": "Stöd oss"
+  },
+  "t_60d5b12a": {
+    "message": "Recensera oss"
+  },
+  "js_eb82de4c": {
+    "message": "Anpassad färg"
+  },
+  "js_8caef32b": {
+    "message": "Återställ/Rensa (Markera text & klicka, eller dubbelklicka på markering manuellt)"
+  },
+  "t_823aeb91": {
+    "message": "EasyView-arbetsyta"
+  },
+  "t_fc42ed23": {
+    "message": "Inga globala anteckningar flyter i din arbetsyta."
+  },
+  "t_12d7c58a": {
+    "message": "Tryck på Mellanslag medan markören för klisterlappar är aktiv för att skapa en."
+  },
+  "t_ab983c11": {
+    "message": "Inga platsspecifika anteckningar hittades här."
+  },
+  "t_e22709e9": {
+    "message": "Klicka på ett fysiskt element på valfri webbplats för att förankra en riktad anteckning."
+  },
+  "t_34bdba45": {
+    "message": "Steg"
+  },
+  "t_9b2d88a1": {
+    "message": "av"
+  },
+  "t_8f44d852": {
+    "message": "Kom igång!"
+  },
+  "t_b45c2f91": {
+    "message": "Lås upp arbetsyte-export"
+  },
+  "t_88f91dc1": {
+    "message": "Att säkert rendera och exportera hela din globala arbetsyta kräver en verifierad Pro-licens. Uppgradera för att låsa upp denna funktion permanent."
+  },
+  "t_134dff88": {
+    "message": "Kanske senare"
+  },
+  "t_5b8c9d11": {
+    "message": "Uppgradera till Pro"
+  },
+  "t_792bd8c9": {
+    "message": "Arbetsyta flytande!"
+  },
+  "t_e39f7dc2": {
+    "message": "Dina klisterlappar svävar nu ovanför ditt operativsystems skrivbord."
+  },
+  "t_c83d6ec9": {
+    "message": "Återdocka arbetsyta"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "Generering stoppad"
+  },
+  "t_removed_from_notebook": {
+    "message": "Borttagen från anteckningsboken"
+  },
+  "t_d1c58470": {
+    "message": "Dubbelklicka för att ta bort markering"
+  },
+  "t_d4fdfb03": {
+    "message": "Logga in på EasyView för att få $1 kostnadsfria användningar/månad, eller lägg till din egen API-nyckel i Inställningar.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "Läser in sparade resultat..."
+  },
+  "t_3a99733d": {
+    "message": "Initierar jargonavkodare..."
+  },
+  "t_b6dc9fc9": {
+    "message": "Skapa ett kostnadsfritt EasyView-konto för att få $1 kostnadsfria AI-avkodningar per månad och spåra din kvot.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "Skapa ett kostnadsfritt EasyView-konto för att få $1 kostnadsfria AI-definitioner per månad och spåra din kvot.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "Extraherar huvudinnehåll..."
+  },
+  "t_0eeae2bf": {
+    "message": "Identifierar sidkontext..."
+  },
+  "t_87f125d0": {
+    "message": "Analyserar terminologi..."
+  },
+  "t_9ef6e70f": {
+    "message": "Använder cachade resultat..."
+  },
+  "t_9afdc5e8": {
+    "message": "Analyserar med AI..."
+  },
+  "t_7ecc3abe": {
+    "message": "AI-avkodning misslyckades"
+  },
+  "t_9220c8de": {
+    "message": "Tillämpar förenklingar..."
+  },
+  "t_57f406b1": {
+    "message": "Avkodar markering..."
+  },
+  "t_c50f2b72": {
+    "message": "Visa ordlista"
+  },
+  "t_49de9b11": {
+    "message": "Dölj markeringar på sidan"
+  },
+  "t_3158774e": {
+    "message": "Återställ markeringar på sidan"
+  },
+  "t_fc3ad42d": {
+    "message": "Spara till ordförråd"
+  },
+  "t_87e933b8": {
+    "message": "Slår upp definition..."
+  },
+  "t_56b79836": {
+    "message": "Ordförklaring inläst."
+  },
+  "t_969b24ea": {
+    "message": "🔊 Klicka var som helst för att aktivera tema-ljud"
+  },
+  "t_49337275": {
+    "message": "Manuell markering"
+  },
+  "t_93324bd5": {
+    "message": "Sparad direkt från webbsida."
+  },
+  "t_82e413f3": {
+    "message": "Förenklar text..."
+  },
+  "t_86c4f6e5": {
+    "message": "Förenklar med AI..."
+  },
+  "t_c3e18edb": {
+    "message": "Förenkling misslyckades"
+  },
+  "t_6398ab2c": {
+    "message": "Läs-nivå: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "Klicka för att tillfälligt återställa originaltext"
+  },
+  "t_9beea3e8": {
+    "message": "Radera från minnet permanent"
+  },
+  "t_453bb8f7": {
+    "message": "Skapa ett kostnadsfritt EasyView-konto för att få $1 kostnadsfria AI-förenklingar per månad och spåra din kvot.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "Lyssna"
+  },
+  "t_24833610": {
+    "message": "Sparad"
+  },
+  "t_30a008cb": {
+    "message": "Läs mer &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "Sparad i anteckningsboken!"
+  },
+  "t_2728e87f": {
+    "message": "Borttagen från anteckningsboken"
+  },
+  "t_6b8c66ce": {
+    "message": "Ordlista ($1 termer)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "Ta bort minne för denna sida"
+  },
+  "t_8a49fe1a": {
+    "message": "Ta bort term"
+  },
+  "t_1534891c": {
+    "message": "Avkodade $1 termer",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "Spara i anteckningsbok"
+  },
+  "t_150a2843": {
+    "message": "Rensa markeringar"
+  },
+  "t_21ef939c": {
+    "message": "Sparad i anteckningsbok!"
+  },
+  "t_8054da35": {
+    "message": "Snabbordbok",
+    "description": "Snabbordboks-popup-rubrik"
+  },
+  "t_4aeb2167": {
+    "message": "Ord hittades ej",
+    "description": "Titel för ordboks-fallback"
+  },
+  "t_272d0070": {
+    "message": "Vi kunde inte hitta \"$1\" i den grundläggande ordboken. Det kan vara modern slang, en förkortning eller högteknologisk jargong.",
+    "description": "Ordboksreservbeskrivning med ordplatshållare",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "Avkoda med Evie AI",
+    "description": "Reservknapp för att avkoda med AI"
+  },
+  "t_14f1f972": {
+    "message": "via",
+    "description": "Prefix för ordbokskälla"
+  },
+  "t_f2faf2f1": {
+    "message": "Substantiv",
+    "description": "Ordklass substantiv"
+  },
+  "t_b512ddf1": {
+    "message": "Verb",
+    "description": "Ordklass verb"
+  },
+  "t_d807ae6a": {
+    "message": "Adjektiv",
+    "description": "Ordklass adjektiv"
+  },
+  "t_1a607278": {
+    "message": "Adverb",
+    "description": "Ordklass adverb"
+  },
+  "t_02de720d": {
+    "message": "Pronomen",
+    "description": "Ordklass pronomen"
+  },
+  "t_4b7be2c3": {
+    "message": "Preposition",
+    "description": "Ordklass preposition"
+  },
+  "t_a3c1d30b": {
+    "message": "Konjunktion",
+    "description": "Ordklass konjunktion"
+  },
+  "t_e189f001": {
+    "message": "Interjektion",
+    "description": "Ordklass interjektion"
+  },
+  "t_96de90f8": {
+    "message": "Kopiera förenklad text",
+    "description": "Verktygstips för att kopiera förenklad text"
+  },
+  "t_44a6e288": {
+    "message": "Läs sida",
+    "description": "Verktygstips för att läsa hela sidan via TTS"
+  },
+  "t_7d70d73b": {
+    "message": "Läs markering",
+    "description": "Verktygstips för att läsa markering via TTS"
+  },
+  "t_11936123": {
+    "message": "Radera anteckning permanent",
+    "description": "Verktygstips för att permanent radera post-it-lappen"
+  },
+  "t_d27532d9": {
+    "message": "Minimera"
+  },
+  "t_2bd339d8": {
+    "message": "Återställ"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "EnkelVy"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "Systemvarning"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "Systemmeddelande"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "EasyView-\r\nmotor"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "Lokala funktioner förblir\r\naktiva"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,22 +599,22 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "EasyView-\r\nupplevelse"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "Du har använt EasyView i 12 timmar. Skapa ett kostnadsfritt konto för att\r\n                    spara dina\r\n                    inställningar, behålla din kvot och låsa upp fler funktioner."
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "Påminn mig om 12 timmar"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "Ljust"
   },
   "t_7fc56270": {
     "message": "A"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "Typsnitt"
   },
   "t_5dbc98dc": {
     "message": "S"
@@ -60,43 +626,40 @@
     "message": "L"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "Funktioner"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "Visuellt"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "Konverterare"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "Anteckningsbok"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "Jargonavkodare"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "Förenkla komplexa juridiska termer"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "wikipedia.org/wiki/Neurodivergens"
   },
   "t_61e9c06e": {
-    "message": "W"
+    "message": "B"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "Neurodivergens"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "mycket\r\n                                                enklare"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "Fokus- och integritetsskydd"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "Gör privat och känsligt innehåll oskarpt"
   },
   "t_7f766191": {
     "message": "mail.google.com/mail/u/0/"
@@ -105,13 +668,13 @@
     "message": "G"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "Google-konton"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "Säkerhetsvarning"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- Lösenordsåterställning begärd..."
   },
   "t_8d9c307c": {
     "message": "N"
@@ -120,133 +683,130 @@
     "message": "Netflix"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "Nytt denna vecka"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- Kolla in våra senaste\r\n                                                    släpp..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "Skyddstekniker"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "Oskärpa för privat innehåll"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "Gör suddigt känslig data i WhatsApp, Gmail och lösenordsfält\r\n                                            för omedelbar visuell säkerhet."
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "Autoskydd vid skärmdelning"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "Skyddar omedelbart din skärm vid delning online."
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
-  },
-  "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "Använder du\r\n                                                    en fysisk projektor?"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "Läs-ficklampa"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "Följer din mus med en ljus spotlight för att helt eliminera omgivande\r\n                                            visuellt brus."
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "1.\r\n                                                            Strålens form"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "Spotlight\r\n                                                            eller linjal"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "2.\r\n                                                                Strålstorlek / Höjd"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "Tjocklek\r\n                                                                på visningsområdet"
   },
   "t_f0cad41b": {
     "message": "35px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "3.\r\n                                                            Fokusstrålens linstoning"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "Tonar försiktigt läsområdet"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "4.\r\n                                                            Omgivande bakgrundsskugga"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "Mörkhet\r\n                                                            runt din lins"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "Sensorisk sköld"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "Frys distraherande animationer"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "nyhetsdagligen.se/senaste"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "SENASTE NYTT"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "Läser en artikel i dagstidningen..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "VINST!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "Sköldläge"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(standard)"
   },
   "t_9e3360ac": {
     "message": "PRO"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "Stoppa automatisk uppspelning + lugna\r\n                                                toningar vid manuell navigering"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "Dyslexi-läsläge"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "Optimerade typsnitt och avstånd"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "Intensitetsprofil"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "Låg"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "Mellan"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "Hög"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "sv.wikipedia.org/wiki/Läsning"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "Läser"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "Här är en förhandsgranskning av dina läsinställningar."
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "Avancerade alternativ"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "Typsnittsstil"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "Standard (Ingen ändring)"
   },
   "t_5d2967ef": {
-    "message": "OpenDyslexic"
+    "message": "Öppen Dyslektiker"
   },
   "t_1042daad": {
     "message": "Lexend (ADHD Pro) 🔒"
@@ -255,127 +815,124 @@
     "message": "Atkinson Hyperlegible 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "Snabb Sans"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "Snabb Serif"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "Komik Ny"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "Komik Sans"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "Bokstavsavstånd"
   },
   "t_960b44c5": {
     "message": "Normal"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "Radavstånd"
   },
   "t_60086472": {
     "message": "1.5"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "Ordavstånd"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "Typsnittsstorlek"
   },
   "t_30bd7ce7": {
     "message": "100%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "Överlagringsfärg"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "Ingen"
   },
   "t_2bd8c63b": {
     "message": "Beige"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "Ljusblå"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "Ljusgrön"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "Ljusgul"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "Text-till-tal"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "Läs högt med markering"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "Spela"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "Paus"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "Stopp"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "Röstval"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "Auto (Bästa kvalitet)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "Läshastighet"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "Mycket långsam"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "Långsam"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "Snabb"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "Mycket snabb"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "Volym"
   },
   "t_f1943132": {
     "message": "70%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "Paus vid skiljetecken"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "Ordmarkering"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "Aktivera"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "Läge"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "Mörkt"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "sv.wikipedia.org/wiki/Ljus"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "Perfekt visuellt för ögonkomfort. Ljus kan vara intensivt."
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "Ljusstyrka"
   },
   "t_c63ecd19": {
-    "message": "Contrast"
+    "message": "Kontrast"
   },
   "t_b84a9a38": {
     "message": "Sepia"
@@ -384,31 +941,31 @@
     "message": "0%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "Gråskala"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "Standard"
   },
   "t_b1166920": {
     "message": "Lexend 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "Textkontur"
   },
   "t_cfcd2084": {
     "message": "0"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "Smart konverterare och läsare"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "Aktuell fil"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "Klicka eller dra fil för att ladda upp"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• Redo"
   },
   "t_4c4ad5fc": {
     "message": "HTML"
@@ -426,181 +983,181 @@
     "message": "Global"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "Webbplats/Sida"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "Min anteckningsbok"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "Rensa allt"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "Avbryt"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "Spara ord"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "Inga sparade ord än."
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "Hovra över jargong på valfri sida och klicka på bokmärkesflaggan för att spara dem här!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "Återskapa vilket webbplatsgränssnitt som helst. Beskriv vad du vill ha eller välj en\r\n                            förinställning."
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "Formning\r\nTillämpad"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "Anpassad AI-layout\r\n                                är aktiv på denna webbplats."
   },
   "t_e8a57cd1": {
     "message": "0 /\r\n                                500"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "Återställ sida"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "Morph-layout"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "Standardförinställningar"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "Skräckkarneval"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "Läskiga karnevalvibbar & animerad skräcktext"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "Matriskonsol"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "Cyberpunk-terminaltema"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "Neurofokus"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "Dyslexivänliga typsnitt & lugnande färger"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "Läsarläge"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "Minimalistisk layout optimerad för fokus"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "Senaste frågor"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "Gästanvändare"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "Gratiskonto"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "Logga in / Hantera"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "Logga ut"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "API-inställningar"
   },
   "t_766cc4dd": {
     "message": "Gemini"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "AI-leverantör"
   },
   "t_222cf5ed": {
-    "message": "Google Gemini"
+    "message": "Google Tvillingar"
   },
   "t_a0607683": {
-    "message": "OpenRouter"
+    "message": "Öppen Rutt"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "Gemini API-nyckel"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "Guggel AI Studio"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "OpenRouter API-nyckel"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "Spara API-nyckel"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "EasyView\r\n                                    AI-prioritet"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ Min API-nyckel"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 EasyView-servrar"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "Välj\r\n                                vad som används först för alla AI-funktioner. Om din nyckel tar slut används EasyView-servrar\r\n                                alltid som reserv."
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "Integritet\r\n& Prioritet"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "Prioritet 1:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "Prioritet 2:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "Morph\r\nEngine-anteckning:"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "aldrig"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "Hjälp & feedback"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "Har du en fråga, hittat en bugg eller vill föreslå en funktion? Vi vill gärna höra från dig!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "Rapportera ett fel / Ge feedback"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Redo att förenkla"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "Exportera inställningar"
   },
   "t_9d5ed678": {
-    "message": "B"
+    "message": "F"
   },
   "t_dd753679": {
-    "message": "I"
+    "message": "K"
   },
   "t_20a1d47c": {
     "message": "✎"
@@ -615,25 +1172,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "Styrka"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "Opacitet"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "Vikt"
   },
   "t_18d80423": {
     "message": "400"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "Rad-\r\navstånd"
   },
   "t_f522dede": {
     "message": "1.7x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "Hoppa över"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,13 +1199,13 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "Markera"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "BLÄCK"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "TONA"
   },
   "t_e8bfe352": {
     "message": "Lexend 👑"
@@ -660,7 +1217,7 @@
     "message": "Arial"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "Helvetika"
   },
   "t_207c3219": {
     "message": "Verdana"
@@ -672,10 +1229,10 @@
     "message": "Trebuchet MS"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "Systemsans"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "Tajms Nju Roman"
   },
   "t_eada8196": {
     "message": "Georgia"
@@ -684,19 +1241,19 @@
     "message": "Garamond"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "Systemseriff"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "Komik Sans MS"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "Kurir Ny"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "Fastbredd"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "Typsnitts-\r\nstorlek"
   },
   "t_f4f9f2f4": {
     "message": "14px"
@@ -723,7 +1280,7 @@
     "message": "32px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "Klar"
   },
   "t_63922286": {
     "message": "×"
@@ -732,25 +1289,1045 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "Exportera temabibliotek"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "Spara dina AI-genererade mästerverk\r\n                lokalt."
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "Exportera hela biblioteket"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
+    "message": ".json (JSON-fil)"
+  },
+  "js_99537132": {
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Åtgärd krävs</div>\n            <h2 class=\"ev-si-title\">Konto<br><span class=\"ev-si-gradient-text\">Avstängt</span></h2>\n            <p class=\"ev-si-sub\">Din åtkomst till EasyView har begränsats på grund av ett brott mot våra användarvillkor.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Kontakta support\n            </a>\n          </div>\n        </div>\n      "
+  },
+  "js_57b20c49": {
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Vänligen beskriv din formning först.</span>\n          </div>"
+  },
+  "js_7f34dbea": {
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Formar...</span>\n      "
+  },
+  "js_138703dd": {
+    "message": "Inget tema på sidan"
+  },
+  "js_cf3190a0": {
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>Exportera aktuell sida"
+  },
+  "js_ac5b17d0": {
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Kompilerar..."
+  },
+  "js_e541190e": {
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
+  },
+  "js_d2e8056c": {
+    "message": "<path d=\"M9.88 9.88a3 3 0 1 0 4.24 4.24\"/><path d=\"M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68\"/><path d=\"M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61\"/><line x1=\"2\" x2=\"22\" y1=\"2\" y2=\"22\"/>"
+  },
+  "js_e2cb885d": {
+    "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
+  },
+  "js_8b86136c": {
+    "message": "Redo att förenkla"
+  },
+  "js_a18366b2": {
+    "message": "Mörkt"
+  },
+  "js_9914a0ce": {
+    "message": "Ljust"
+  },
+  "js_872cc3ae": {
+    "message": "<option value=\"auto\">Auto (Bästa kvalitet)</option>"
+  },
+  "js_94fe16a8": {
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Avkodar..."
+  },
+  "js_be7141cc": {
+    "message": "Detta känns <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">mycket enklare</span> att förstå."
+  },
+  "js_5d0ff3d0": {
+    "message": "Detta känns mindre tvetydigt att förstå."
+  },
+  "t_f05df71b": {
+    "message": "Uppgraderar"
+  },
+  "t_78db2ae3": {
+    "message": "Våra AI-servrar genomgår uppgraderingar."
+  },
+  "t_bb2129c8": {
+    "message": "Lås upp hela"
+  },
+  "t_aefee7cd": {
+    "message": "Tydlighet för varje hjärna"
+  },
+  "t_c38beca1": {
+    "message": "Firefox begränsar API:er för identifiering av fysiska bildskärmar. "
+  },
+  "t_f2fe1e79": {
+    "message": "Värden\r\n                                    under 1.0 kan komprimera text och förstöra layouter."
+  },
+  "t_ca677d53": {
+    "message": "Visuella justeringar"
+  },
+  "t_230b4522": {
+    "message": "Anteckningstavla"
+  },
+  "t_596b54bf": {
+    "message": "Morph AI-agent"
+  },
+  "t_47e79a17": {
+    "message": "Hämta din gratisnyckel på"
+  },
+  "t_42372184": {
+    "message": "Teman exporteras som"
+  },
+  "t_74fdc8a2": {
+    "message": "Vänligen beskriv din morph-transformation först."
+  },
+  "t_245fd3b9": {
+    "message": "Rensade morphad layout."
+  },
+  "t_172bd753": {
+    "message": "Tema exporterades framgångsrikt!"
+  },
+  "t_4c34daff": {
+    "message": "Anslutningen tog för lång tid. Servern kan inte nås."
+  },
+  "t_0dd56117": {
+    "message": "Inget aktivt tema hittades på denna sida."
+  },
+  "t_cb5c0766": {
+    "message": "Bibliotek exporterades framgångsrikt!"
+  },
+  "t_8adb392e": {
+    "message": "Anslutningen tog för lång tid. Servern kan inte nås."
+  },
+  "t_ae94e0e4": {
+    "message": "Ditt temabibliotek är tomt."
+  },
+  "t_10a0c40b": {
+    "message": "Anpassat tema laddades framgångsrikt!"
+  },
+  "t_9b6007a8": {
+    "message": "Kunde inte läsa temafil."
+  },
+  "t_d4fa051d": {
+    "message": "Misslyckades: $1. Vänligen ladda om fliken.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "Tillämpad: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "Återställde $1 teman från biblioteket!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "Språkinställning"
+  },
+  "t_lang_updated_reload": {
+    "message": "Språk uppdaterat. Laddar om..."
+  },
+  "t_transformation_failed": {
+    "message": "Transformation misslyckades."
+  },
+  "t_c8a59e71": {
+    "message": "Avfärda"
+  },
+  "t_7764306b": {
+    "message": "Underhåll av molntjänster aktivt"
+  },
+  "t_248228de": {
+    "message": "Växla dyslexitypsnitt i popup"
+  },
+  "t_79a59320": {
+    "message": "Starta app-rundtur"
+  },
+  "t_533bff5b": {
+    "message": "Fäst anteckning på sidan (Alt+N)"
+  },
+  "t_f4f70727": {
+    "message": "Inställningar"
+  },
+  "t_4fd11104": {
+    "message": "Cirkulär spotlight"
+  },
+  "t_0d063af1": {
+    "message": "Horisontell linjal 🔒"
+  },
+  "t_60d71580": {
+    "message": "Klar ljus"
+  },
+  "t_efe48742": {
+    "message": "Bärnstensfokus"
+  },
+  "t_610a09ca": {
+    "message": "Cool cyan"
+  },
+  "t_886f6b9e": {
+    "message": "Avkopplande grön"
+  },
+  "t_65e8194e": {
+    "message": "Kolsvart"
+  },
+  "t_7243ed99": {
+    "message": "Midnattsgrå"
+  },
+  "t_ec6d8325": {
+    "message": "Djup skog"
+  },
+  "t_4af435e0": {
+    "message": "Vampyrvin"
+  },
+  "t_2a7dbdf8": {
+    "message": "Pro-funktion"
+  },
+  "t_fc4aec61": {
+    "message": "Öppna i läsare"
+  },
+  "t_801ab246": {
+    "message": "Ladda ner"
+  },
+  "t_aa3880dc": {
+    "message": "Ladda ner som HTML"
+  },
+  "t_e0781e81": {
+    "message": "Ladda ner som EPUB"
+  },
+  "t_442ff212": {
+    "message": "Ladda ner som DOCX"
+  },
+  "t_6244ee7c": {
+    "message": "Lägg till anpassad term manuellt"
+  },
+  "t_6e7d015f": {
+    "message": "Importera CSV-fil"
+  },
+  "t_edbc5415": {
+    "message": "Exportera för Anki / Quizlet"
+  },
+  "t_46c29f7a": {
+    "message": "Läs in tema"
+  },
+  "t_2bd65c5d": {
+    "message": "Exportera tema"
+  },
+  "t_c1c433ac": {
+    "message": "Aktiv AI-leverantör"
+  },
+  "t_90c09393": {
+    "message": "Prickad"
+  },
+  "t_eb656e41": {
+    "message": "Streckad"
+  },
+  "t_0c99ddee": {
+    "message": "Markeringsfärg"
+  },
+  "t_eaf63759": {
+    "message": "Bläckfärg"
+  },
+  "t_a183c9f0": {
+    "message": "Toningsfärg"
+  },
+  "t_75e7422f": {
+    "message": "Bakgrundsfärg"
+  },
+  "t_42f9ceea": {
+    "message": "Sök i sparat lexikon..."
+  },
+  "t_0e84a8cf": {
+    "message": "Ange ord eller akronym..."
+  },
+  "t_eea6890c": {
+    "message": "Betydelse / Översättning..."
+  },
+  "t_4480cf46": {
+    "message": "Minnesknep eller studieanteckning (valfritt)..."
+  },
+  "t_d8634fbf": {
+    "message": "t.ex. Förvandla till ett rosa anime-tema med rundade kort, eller förvandla till en retro mörkgrön terminalkonsol..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "Klisterlappar"
+  },
+  "t_b097d277": {
+    "message": "Lägg till ord"
+  },
+  "t_1eeb67ee": {
+    "message": "Exportera aktuell sida"
+  },
+  "t_b62ded9a": {
+    "message": "Molntjänster offline"
+  },
+  "t_263e00eb": {
+    "message": "Logga in / Skapa konto"
+  },
+  "t_7748eb3b": {
+    "message": "UPPGRADERAR"
+  },
+  "t_81a5d20b": {
+    "message": "Frys allt"
+  },
+  "t_e61146d9": {
+    "message": "Lugna toningar"
+  },
+  "t_57323916": {
+    "message": "Stoppa automatisk uppspelning"
+  },
+  "t_f50319ea": {
+    "message": "Fullt skydd"
+  },
+  "t_8e13f26d": {
+    "message": "Snabbfråga"
+  },
+  "t_134b26da": {
+    "message": "Är du nöjd med<br><span class=\"ev-si-gradient-text\">EasyView?</span>"
+  },
+  "t_b75bdd9e": {
+    "message": "Din feedback hjälper oss att förbättras.<br>Är du nöjd med upplevelsen?"
+  },
+  "t_396d1ff8": {
+    "message": "Ja, det är jag!"
+  },
+  "t_7d0cacf3": {
+    "message": "Behöver arbete"
+  },
+  "t_815142c9": {
+    "message": "Stöd oss"
+  },
+  "t_abd9fa39": {
+    "message": "Skulle du kunna tänka dig att<br><span class=\"ev-si-gradient-text\">lämna en recension?</span>"
+  },
+  "t_02991e61": {
+    "message": "Betyg från användare som du är det bästa sättet att hjälpa EasyView att växa. Det tar bara en minut!"
+  },
+  "t_db49c1f2": {
+    "message": "Betygsätt nu"
+  },
+  "t_7a4f0d12": {
+    "message": "Påminn mig senare"
+  },
+  "t_fee6c0e9": {
+    "message": "Privat feedback"
+  },
+  "t_74393dde": {
+    "message": "Vad kan vi <span class=\"ev-si-gradient-text\">göra bättre?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "Berätta vad som gick fel..."
+  },
+  "t_6f97affc": {
+    "message": "Skicka feedback"
+  },
+  "t_b20871b3": {
+    "message": "Vänligen ange din feedback"
+  },
+  "t_7b0fee4d": {
+    "message": "Skickar..."
+  },
+  "t_fb631633": {
+    "message": "Tack för din feedback."
+  },
+  "t_08727add": {
+    "message": "Se webben på ditt sätt."
+  },
+  "t_15bbb9d0": {
+    "message": "Webbplats"
+  },
+  "t_c5f29bb3": {
+    "message": "Integritet"
+  },
+  "t_ad5b1a22": {
+    "message": "Grundare"
+  },
+  "t_db496e03": {
+    "message": "Personliga nycklar skapar en direkt, 100 % privat anslutning till AI:n. Din text når aldrig EasyViews servrar."
+  },
+  "t_387c35b3": {
+    "message": "Vår hanterade server (Premium) fungerar som en pålitlig säkerhetskopia om ingen nyckel finns eller om din nyckel misslyckas."
+  },
+  "t_98bc5a17": {
+    "message": "För att skydda proprietära algoritmer dirigeras din nyckel kortvarigt genom vår säkra server för att autentisera med Google. Den är"
+  },
+  "t_de47f1be": {
+    "message": "inte lagrad eller loggad."
+  },
+  "t_25e02e7f": {
+    "message": "Aktiv: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ Premiummedlem"
+  },
+  "t_df56cfae": {
+    "message": "⭐ Livstidsmedlem"
+  },
+  "t_41cbc704": {
+    "message": " dagar kvar"
+  },
+  "t_b194bd82": {
+    "message": "Går aldrig ut"
+  },
+  "t_9f830444": {
+    "message": "⭐ Pro:"
+  },
+  "t_61b82be6": {
+    "message": " formningar kvar"
+  },
+  "t_c20e7ceb": {
+    "message": " gratisformningar kvar"
+  },
+  "t_d7087930": {
+    "message": " gratisanvändningar kvar"
+  },
+  "t_4bbf11bd": {
+    "message": "Fälten för term och betydelse kan inte lämnas tomma!"
+  },
+  "t_08f09d38": {
+    "message": "Orddetaljer uppdaterades framgångsrikt!"
+  },
+  "t_32001b52": {
+    "message": "Vänligen ange både ett ord och dess betydelse."
+  },
+  "t_b8115861": {
+    "message": "Din studieanteckningsbok är tom. Bokmärk några ord på webbsidor först!"
+  },
+  "t_7114113b": {
+    "message": "Vänligen logga in på ditt EasyView-konto först för att verifiera dina Pro-funktioner!"
+  },
+  "t_093f9fa0": {
+    "message": "Din sessionstoken saknas. Vänligen logga in på easyview.in igen för att återställa åtkomsten."
+  },
+  "t_0e065596": {
+    "message": "Detta är en verifierad Premium-funktion. Uppgradera till Pro för att låsa upp!"
+  },
+  "t_c792a645": {
+    "message": "Kunde inte ansluta till säker exportserver. Försök igen om en stund."
+  },
+  "t_8d1a2675": {
+    "message": "Kunde inte identifiera några giltiga ordförrådsobjekt i den CSV-filen."
+  },
+  "t_a613ed90": {
+    "message": "Skrivfel i webbläsarlagring! Filen kan vara för stor för lokal cache."
+  },
+  "t_8efe87ab": {
+    "message": "Webbläsaren misslyckades med att läsa din lokala fil."
+  },
+  "t_50bf63aa": {
+    "message": "Är du säker på att du vill rensa alla sparade ord från din anteckningsbok?"
+  },
+  "t_ff252710": {
+    "message": "Import avslutad: Alla $1 poster finns redan i din anteckningsbok.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "Kunde inte tolka CSV: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "\"$1\" finns redan i din anteckningsbok. Vill du lägga till en annan definition för den?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "Utloggning lyckades"
+  },
+  "t_dbd35100": {
+    "message": "Formningsmotorn arbetar redan..."
+  },
+  "t_2de4e55d": {
+    "message": "Formad layout rensad"
+  },
+  "t_1bb9196d": {
+    "message": "Formad: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "Formning misslyckades: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "Utlöst: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 objekt organiserade",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "Detta kommer permanent att radera denna anteckning på alla synkroniserade enheter. Fortsätt?"
+  },
+  "t_25abf697": {
+    "message": "EPUB-export kräver JSZip."
+  },
+  "t_71609188": {
+    "message": "DOCX-export kräver html-docx-js."
+  },
+  "t_e1499766": {
+    "message": "Ingen fil laddad."
+  },
+  "t_023b3355": {
+    "message": "Integritetsskydd aktiverat"
+  },
+  "t_9483a5da": {
+    "message": "Integritetsskydd avaktiverat"
+  },
+  "t_a04202db": {
+    "message": "Markeringar dolda tillfälligt"
+  },
+  "t_b3d6b264": {
+    "message": "Markeringar återställda"
+  },
+  "t_7485c55e": {
+    "message": "Välkommen till EasyView! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "Din AI-drivna kognitiva brygga för enklare läsning på webben. Låt oss ta en snabb rundtur bland funktionerna."
+  },
+  "t_3a1fe637": {
+    "message": "Jargonavkodare 📖"
+  },
+  "t_89cec86e": {
+    "message": "Förenklar komplex terminologi på vilken webbsida som helst."
+  },
+  "t_f8aefae7": {
+    "message": "Integritetsskydd 🔐"
+  },
+  "t_aa860f86": {
+    "message": "Gör känslig data suddig och inkluderar en fokuslinjal för distraktionsfri läsning."
+  },
+  "t_0681a3b6": {
+    "message": "Sensorisk sköld 🛡️"
+  },
+  "t_6118b864": {
+    "message": "Fryser distraherande GIF-bilder och animationer."
+  },
+  "t_12ec6fc6": {
+    "message": "Dyslexi-läsläge 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "Optimerade typsnitt och avstånd för enklare läsning."
+  },
+  "t_18d9ce63": {
+    "message": "Text-till-tal 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "Lyssna på vilken webbsida som helst med ordmarkering."
+  },
+  "t_0019a700": {
+    "message": "Morph-motor ✨"
+  },
+  "t_47c2535a": {
+    "message": "Använd AI för att designa om vilken webbplats som helst till ett anpassat tema eller layout."
+  },
+  "t_2ed2f639": {
+    "message": "Klisterlappar"
+  },
+  "t_75025b5f": {
+    "message": "Fäst flytande anteckningar på valfri webbsida för att spara viktig information (Alt+N)."
+  },
+  "t_3ff2d7cc": {
+    "message": "API-konfiguration ⚙️"
+  },
+  "t_0754e836": {
+    "message": "Logga in för att synkronisera din kvot, eller ställ in din egen kostnadsfria Gemini API-nyckel här."
+  },
+  "t_7b6a2059": {
+    "message": "Steg $1 av $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "Kom igång!"
+  },
+  "t_10ac3d04": {
+    "message": "Nästa"
+  },
+  "t_5c7a52b8": {
+    "message": "Tryck "
+  },
+  "t_a1b2c3d4": {
+    "message": " när som helst för att manuellt aktivera Auto-Protect-skyddet."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ Integritetsskydd aktiverat"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 Integritetsskydd avaktiverat"
+  },
+  "js_9b3e1a": {
+    "message": "EasyView analyserar layout och formning..."
+  },
+  "js_4c8d2f": {
+    "message": "Definiera"
+  },
+  "js_7a1e9b": {
+    "message": "Avkoda"
+  },
+  "js_2d5f8c": {
+    "message": "Förenkla"
+  },
+  "js_6e3a4d": {
+    "message": "Bokmärke"
+  },
+  "js_1f9b7c": {
+    "message": "Markera"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "Analyserar DOM-träd..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "Rörig layout..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "Plattar till struktur..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[BRUS_ÖVERBELASTNING]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "Tar bort distraktioner..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "Komplexa noder"
+  },
+  "js_ldr_m4_cl": {
+    "message": "Tillämpar dyslexiregler..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "Renderar EasyView-gränssnitt..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "Skannar textblock..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "För många ord..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "Extraherar kärnbetydelse..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "Kognitiv belastning"
+  },
+  "js_ldr_s3_cl": {
+    "message": "Utarbetar enklare engelska..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "Utförlig AI..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "Tillämpar läsbarhet..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "Polerar resultat..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "Översätter jargong..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "Fel: Förvirring"
+  },
+  "js_ldr_j2_cl": {
+    "message": "Hittar definitioner..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[BRUS_ÖVERBELASTNING]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "Förenklar kontext..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "Okända termer"
+  },
+  "js_ldr_j4_cl": {
+    "message": "Tillämpar tydlighet..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "Formaterar resultat..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "Djupanalys..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "Slutför AI-logik..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "Kör AI..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "Nästan klar..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "Hög trafik..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "Det tar lite längre tid..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "Arbetar fortfarande..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "Håll ut..."
+  },
+  "t_b7012ab9": {
+    "message": "Forma"
+  },
+  "t_c5e8b1d9": {
+    "message": "Pro-typsnitt"
+  },
+  "t_c8f2ba19": {
+    "message": "Oskärpa för privat innehåll aktiverad"
+  },
+  "t_e2dae61a": {
+    "message": "Oskärpa för privat innehåll inaktiverad"
+  },
+  "t_c74de318": {
+    "message": "Autoskydd vid skärmdelning aktiverat"
+  },
+  "t_a5fd56f4": {
+    "message": "Autoskydd vid skärmdelning inaktiverat"
+  },
+  "t_ab8d1f2a": {
+    "message": "Ficklampa-läge aktiverat"
+  },
+  "t_2bf5cc98": {
+    "message": "Ficklampa-läge inaktiverat"
+  },
+  "t_513bb93f": {
+    "message": "Bionisk läsning"
+  },
+  "t_5a8b2c1d": {
+    "message": "Här är en förhandsgranskning av dina läsinställningar."
+  },
+  "t_ac1d4e5f": {
+    "message": "Ingen"
+  },
+  "t_b2e3f4a1": {
+    "message": "Bred"
+  },
+  "t_c3f4a5b2": {
+    "message": "Extra bred"
+  },
+  "t_d1a3c901": {
+    "message": "Klicka"
+  },
+  "t_b4f2e891": {
+    "message": "Fäst vid element"
+  },
+  "t_c9a1b302": {
+    "message": "Mellanslag"
+  },
+  "t_f6d4e203": {
+    "message": "Global anteckning"
+  },
+  "t_e2b3f104": {
+    "message": "Avbryt"
+  },
+  "t_a7c0d905": {
+    "message": "Avbryt"
+  },
+  "t_e1b2c301": {
+    "message": "Endast denna sida"
+  },
+  "t_f7a3b402": {
+    "message": "Denna webbplats"
+  },
+  "t_a8c4d503": {
+    "message": "Alla webbplatser (Globalt)"
+  },
+  "t_b9d5e604": {
+    "message": "Dölj tills omladdning"
+  },
+  "t_c0e6f705": {
+    "message": "Fäst anteckning vid element"
+  },
+  "t_d1f7a806": {
+    "message": "Ändra anteckningsfärg"
+  },
+  "t_e2a8b907": {
+    "message": "Minimera/expandera anteckning"
+  },
+  "t_f3b9c008": {
+    "message": "Kopiera anteckningsinnehåll"
+  },
+  "t_a4c0d109": {
+    "message": "Fler åtgärder"
+  },
+  "t_b5d1e200": {
+    "message": "Ta bort denna anteckning"
+  },
+  "t_e87033a2": {
+    "message": "Alt + X"
+  },
+  "t_4120201a": {
+    "message": "Gratis provperiod aktiv"
+  },
+  "t_6ed40ffb": {
+    "message": "Synkronisera inställningar mellan enheter"
+  },
+  "t_f8b8a5fd": {
+    "message": "Högre kvot för gratisanvändning"
+  },
+  "t_440b106d": {
+    "message": "Tillgång till framtida Pro-funktioner"
+  },
+  "t_3a99076c": {
+    "message": "Premiumgräns"
+  },
+  "t_545f6c2f": {
+    "message": "Obegränsad"
+  },
+  "t_ad23f4a0": {
+    "message": "Spatiala anteckningar"
+  },
+  "t_04f2f045": {
+    "message": "Du har framgångsrikt distribuerat alla 15 anteckningar i gratisnivån över webben. Uppgradera till EasyView Premium för att låsa upp oändligt rumsligt minne och anpassade färger."
+  },
+  "t_cf874b99": {
+    "message": "Lås upp Premium"
+  },
+  "t_a6d36e2f": {
+    "message": "Alla lokala tillgänglighetskontroller (Aktiva)"
+  },
+  "t_b0b69bc3": {
+    "message": "Text-till-tal-motor (Aktiv)"
+  },
+  "t_cc96c21a": {
+    "message": "Molnbaserade AI-funktioner (Offline)"
+  },
+  "t_7af6f6e5": {
+    "message": "Jag förstår"
+  },
+  "t_9bc7102e": {
+    "message": "Skapa ett kostnadsfritt EasyView-konto för att spåra din kvot och låsa upp jargongavkodaren."
+  },
+  "t_ab7512fd": {
+    "message": "Din sessionstoken saknas. Vänligen logga in på easyview.in igen för att återställa åtkomsten."
+  },
+  "t_1cd7820a": {
+    "message": "ENDAST PRO-ÅTKOMST"
+  },
+  "t_8eb14032": {
+    "message": "Jargongavkodare<br><span class=\"ev-si-gradient-text\">Kvot uppnådd</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "SLUT PÅ KVOT"
+  },
+  "t_5ae983dc": {
+    "message": "Du har använt alla <strong>5 kostnadsfria avkodningar</strong> denna månad. Lås upp obegränsad åtkomst på några sekunder."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> Bli Pro — Obegränsade avkodningar</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> Använd din egen API-nyckel</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 Lägg till API-nyckel i Inställningar</button>"
+  },
+  "t_9be4129a": {
+    "message": "Studiekortsexportör<br><span class=\"ev-si-gradient-text\">Pro-automatisering</span>"
+  },
+  "t_fac34185": {
+    "message": "Exportera omedelbart hela din anpassade studieanteckningsbok direkt till <strong>Anki</strong> och <strong>Quizlet</strong>."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Slipp manuell inmatning</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> RFC-4180 flashcard-kompilator</div>"
+  },
+  "t_da12c30b": {
+    "message": "Pro-åtkomst"
+  },
+  "t_4a9b2c01": {
+    "message": "Denna funktion"
+  },
+  "t_3be78c01": {
+    "message": "Detta typsnitt för dyslexiläsning"
+  },
+  "t_0ad4b971": {
+    "message": "Detta visuella typsnitt"
+  },
+  "t_9af42be8": {
+    "message": "Detta premium-exporttypsnitt"
+  },
+  "t_cbae8349": {
+    "message": "Uppgradera för att låsa upp alla tillgänglighetsfunktioner och kraftfulla verktyg."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Avancerad tillgänglighet</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Alla framtida uppdateringar</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ Uppgradera till Pro"
+  },
+  "t_5ef4c1a2": {
+    "message": "Kanske senare"
+  },
+  "t_3b7a5e82": {
+    "message": ", men AI-funktioner kan vara tillfälligt otillgängliga."
+  },
+  "t_c91d8e12": {
+    "message": "Allmänt"
+  },
+  "t_b42f3a9d": {
+    "message": "Definition"
+  },
+  "t_f1d4a8e6": {
+    "message": "Ordbok"
+  },
+  "t_e398c71f": {
+    "message": "Anpassad"
+  },
+  "t_a72df9e5": {
+    "message": "Medicinsk"
+  },
+  "t_d8f2c61a": {
+    "message": "Juridiskt"
+  },
+  "t_b3e1f5d2": {
+    "message": "Finansiell"
+  },
+  "t_c25d81f9": {
+    "message": "Teknik"
+  },
+  "t_e1b3a4f6": {
+    "message": "Akademisk"
+  },
+  "t_d5f9b4c1": {
+    "message": "Term"
+  },
+  "t_f7a2e8ea": {
+    "message": "Kategori"
+  },
+  "t_e3b1c6d9": {
+    "message": "Förenklad betydelse"
+  },
+  "t_a9d4e5f2": {
+    "message": "Studieanteckningar / Kontext"
+  },
+  "t_b4c5d6e7": {
+    "message": "Avbryt"
+  },
+  "t_c8f2a1b4": {
+    "message": "Spara ändringar"
+  },
+  "t_8c17b5e6": {
+    "message": "Din sessionstoken saknas. Vänligen logga in på easyview.in igen för att återställa åtkomsten."
+  },
+  "t_a43dc219": {
+    "message": "Skapa ett kostnadsfritt EasyView-konto för att spåra din användningskvot och låsa upp AI Morph Engine."
+  },
+  "t_54c523fe": {
+    "message": "🎉 Felfritt! Importerade $1 nya studiekort framgångsrikt."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 Felfritt! Importerade $1 nya kort. ($2 dubbletter hoppades över.)"
+  },
+  "t_14894d12": {
+    "message": "Temaexport"
+  },
+  "t_f27a2629": {
+    "message": "Säkerhetskopia av temabibliotek"
+  },
+  "t_9ad85e17": {
+    "message": "Läslinjalläge"
+  },
+  "t_b9d4e7a5": {
+    "message": "Avancerade sensoriska skyddslägen"
+  },
+  "t_94f4f7e4": {
+    "message": "Tolkar DOCX...",
+    "description": "Status vid tolkning av DOCX i läsaren"
+  },
+  "t_120adfc1": {
+    "message": "Tolkar EPUB...",
+    "description": "Status vid tolkning av EPUB i läsaren"
+  },
+  "t_5d2a45b8": {
+    "message": "Läslinjalläge är exklusivt för Pro-prenumerationer.",
+    "description": "Varning när icke-pro-användare kommer åt läslinjal"
+  },
+  "t_c1f29623": {
+    "message": "Redigera hela kortet",
+    "description": "Verktygstips för att redigera hela kortet i anteckningsboken"
+  },
+  "t_1063e38c": {
+    "message": "Ta bort",
+    "description": "Verktygstips för att ta bort kort från anteckningsbok"
   },
   "t_ccca2ddf": {
-    "message": "EasyView Reader"
+    "message": "EasyView-läsare"
   },
   "t_8524de96": {
-    "message": "Loading..."
+    "message": "Läser in..."
   },
   "t_25e8f2fd": {
-    "message": "Please wait..."
+    "message": "Vänligen vänta..."
   },
   "t_ec9d785d": {
     "message": "1.5x"
@@ -762,7 +2339,7 @@
     "message": "Atkinson Hyperlegible"
   },
   "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
+    "message": "Segoe UI (Windows-standard)"
   },
   "t_f7cee5ea": {
     "message": "Calibri"
@@ -777,19 +2354,19 @@
     "message": "Cambria"
   },
   "t_c3d9d4bf": {
-    "message": "Constantia"
+    "message": "Konstantia"
   },
   "t_5d1a5b35": {
-    "message": "Palatino Linotype"
+    "message": "Palatino Lajnotajp"
   },
   "t_4dc386b6": {
-    "message": "Book Antiqua"
+    "message": "Bok Antikva"
   },
   "t_03c461f6": {
-    "message": "Franklin Gothic"
+    "message": "Franklin Gotik"
   },
   "t_7b1ee3b6": {
-    "message": "Century Gothic"
+    "message": "Senturi Gotik"
   },
   "t_a3293302": {
     "message": "Gill Sans"
@@ -804,25 +2381,25 @@
     "message": "Microsoft Sans Serif"
   },
   "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
+    "message": "Sigo UI Semibåld"
   },
   "t_16507cdd": {
     "message": "Consolas"
   },
   "t_391c5954": {
-    "message": "Lucida Console"
+    "message": "Lusida Konsol"
   },
   "t_9879efdf": {
-    "message": "Lucida Sans Typewriter"
+    "message": "Lucida Sans Skrivmaskin"
   },
   "t_21f59b54": {
     "message": "Impact"
   },
   "t_94a7bb97": {
-    "message": "Arial Black"
+    "message": "Arial Svart"
   },
   "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
+    "message": "Kopparplejt Gotik"
   },
   "t_40885309": {
     "message": "Berlin Sans FB"
@@ -834,13 +2411,13 @@
     "message": "Ink Free"
   },
   "t_fa233799": {
-    "message": "Segoe Script"
+    "message": "Segoe Skrift"
   },
   "t_2f7bc407": {
-    "message": "Segoe Print"
+    "message": "Segoe Tryck"
   },
   "t_0095a9fa": {
-    "message": "Export"
+    "message": "Exportera"
   },
   "t_520d0db3": {
     "message": "Format"
@@ -849,10 +2426,55 @@
     "message": "TXT"
   },
   "t_1351017a": {
-    "message": "Filename"
+    "message": "Filnamn"
+  },
+  "t_d4c3c15b": {
+    "message": "Ingen fil laddad"
+  },
+  "t_0ca5a078": {
+    "message": "Vänligen använd fliken Konverterare för att ladda upp en fil."
+  },
+  "t_c9857e16": {
+    "message": "Filtypen stöds ej."
+  },
+  "t_6b447b91": {
+    "message": "Fel vid tolkning av fil: "
+  },
+  "t_7f4588be": {
+    "message": "EPUB"
+  },
+  "t_12dc65c2": {
+    "message": "Växla mellan ljust/mörkt läge"
+  },
+  "t_d3d2e617": {
+    "message": "Stäng"
+  },
+  "t_6e8cfcb7": {
+    "message": "Säker export till server (Premium)"
+  },
+  "t_2f9df658": {
+    "message": "Lossa och låt arbetsytan flyta ovanför alla fönster"
+  },
+  "t_72d6d7a1": {
+    "message": "Importera"
+  },
+  "t_de93d5fd": {
+    "message": "Exportera anteckningar"
+  },
+  "t_a1aacca9": {
+    "message": "Flytande OS"
+  },
+  "t_ac0b844f": {
+    "message": "Globala anteckningar"
+  },
+  "t_15866f1d": {
+    "message": "Webbplatsspecifika anteckningar"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
   },
   "t_6af8212e": {
-    "message": "EasyView Notes Board"
+    "message": "EasyView anteckningstavla"
   },
   "t_d16da0f5": {
     "message": "🌎"
@@ -860,61 +2482,168 @@
   "t_6df173ff": {
     "message": "📍"
   },
-  "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
+  "t_22f58a00": {
+    "message": "🌎 Global anteckning"
   },
-  "js_24833610": {
-    "message": "Saved"
+  "t_5be8bbeb": {
+    "message": "🌐 Webbplatsanteckning"
   },
-  "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+  "t_59a56663": {
+    "message": "📍 Sidanteckning"
   },
-  "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+  "t_c1843696": {
+    "message": "Verifierar integritetstoken..."
   },
-  "js_138703dd": {
-    "message": "No Theme on Page"
+  "t_58038ee4": {
+    "message": "Precis nu"
   },
-  "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+  "t_e254e1a1": {
+    "message": "$1 min sedan",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+  "t_121d4d02": {
+    "message": "$1 tim. sedan",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_e541190e": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
+  "t_19d2b280": {
+    "message": "$1 dag sedan",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_d2e8056c": {
-    "message": "<path d=\"M9.88 9.88a3 3 0 1 0 4.24 4.24\"/><path d=\"M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68\"/><path d=\"M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61\"/><line x1=\"2\" x2=\"22\" y1=\"2\" y2=\"22\"/>"
+  "t_d3d4311c": {
+    "message": "Dra anteckning"
   },
-  "js_e2cb885d": {
-    "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
+  "t_7b32ea16": {
+    "message": "Växla till $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_8b86136c": {
-    "message": "Ready to simplify"
+  "t_11916b28": {
+    "message": "Placeringsomfång"
   },
-  "js_a18366b2": {
-    "message": "Dark"
+  "t_5463fe67": {
+    "message": "Färgpalett"
   },
-  "js_9914a0ce": {
-    "message": "Light"
+  "t_d116d454": {
+    "message": "Minimera anteckning"
   },
-  "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+  "t_be9ba0e5": {
+    "message": "Kopiera text"
   },
-  "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+  "t_28471624": {
+    "message": "Fler åtgärder"
   },
-  "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+  "t_90e467df": {
+    "message": "Stäng anteckning"
   },
-  "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+  "t_34494920": {
+    "message": "Skriv din anteckning här..."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_bdda0b60": {
+    "message": "Vad tänkte du på..."
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_8689de27": {
+    "message": "Tillgänglig överallt"
+  },
+  "t_c0cf9810": {
+    "message": "Teleportera tillbaka till ursprungssidan"
+  },
+  "t_24a23176": {
+    "message": "Ursprungligt sammanhang"
+  },
+  "t_4c1c1e76": {
+    "message": "Anteckningsboksimport"
+  },
+  "t_2736f644": {
+    "message": "Slå sömlöst samman dina externa studiepaket och ordlistor med ditt EasyView-ekosystem."
+  },
+  "t_ca4f038f": {
+    "message": "Obligatoriska kolumner"
+  },
+  "t_7277de5f": {
+    "message": "Betydelse"
+  },
+  "t_ce591bfa": {
+    "message": "Valfria kolumner"
+  },
+  "t_f4c6f851": {
+    "message": "Anteckningar"
+  },
+  "t_c1fd81a6": {
+    "message": "Välj eller dra CSV-fil"
+  },
+  "t_5c426600": {
+    "message": "Dubbletter och befintliga ord filtreras automatiskt"
+  },
+  "t_76e7183d": {
+    "message": "Importen lyckades!"
+  },
+  "t_3e17e02d": {
+    "message": "Ditt ordförråd har uppdaterats."
+  },
+  "t_3148d309": {
+    "message": "Stäng flik"
+  },
+  "t_0e412fa1": {
+    "message": "Firandet aktiveras när du återvänder till popup-fönstret"
+  },
+  "t_d29f6e6b": {
+    "message": "Importen misslyckades"
+  },
+  "t_e04efbcb": {
+    "message": "Anteckningsboksstatus"
+  },
+  "t_ed732761": {
+    "message": "Import av Morph-teman"
+  },
+  "t_e44db711": {
+    "message": "Importera säkert ditt anpassade Morph-motorn-bibliotek direkt till EasyView."
+  },
+  "t_c0bb7d43": {
+    "message": "Välj eller dra JSON-fil"
+  },
+  "t_36e9583e": {
+    "message": "Importerar dina tidigare exporterade temalayouter."
+  },
+  "t_21630184": {
+    "message": "Teman återställda!"
+  },
+  "t_d0c1ec75": {
+    "message": "Dina Morph-mallar har installerats."
+  },
+  "t_cd27a5c0": {
+    "message": "EasyView — Innehållsläsare"
+  },
+  "t_b171ab1f": {
+    "message": "Välkommen till läsaren"
+  },
+  "t_4e07c284": {
+    "message": "Ladda upp dina dokument här för att läsa dem med anpassad typografi och avancerade hjälpmedel."
+  },
+  "t_004621c0": {
+    "message": "Stöder .docx, .epub och .txt"
+  },
+  "t_23bb27a0": {
+    "message": "Initierar dokumenttolk..."
+  },
+  "t_e1d5f16c": {
+    "message": "Optimerar DOCX-filer för läsbarhet..."
+  },
+  "t_0e55c5d0": {
+    "message": "Tolkar struktur för EPUB-filer..."
   }
 }

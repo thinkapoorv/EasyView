@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "EasyView — Claredat per a cada ment"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "VistaFàcil"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "Transforma qualsevol lloc web a l'instant amb indicacions d'IA o amb un sol clic. Mira el web a la teva manera."
+  },
+  "t_68ba0232": {
+    "message": "Mode de dislèxia activat"
+  },
+  "t_85f47a25": {
+    "message": "Mode de dislèxia desactivat"
+  },
+  "t_1cc1b64d": {
+    "message": "No hi ha prou contingut per analitzar"
+  },
+  "t_cebe6412": {
+    "message": "No s'han trobat termes complexos"
+  },
+  "t_b964aa0f": {
+    "message": "Error en analitzar el contingut de la pàgina"
+  },
+  "t_956c104e": {
+    "message": "Memòria de la pàgina esborrada"
+  },
+  "t_1f4b0f3e": {
+    "message": "Glossari esborrat"
+  },
+  "t_4bfeec37": {
+    "message": "No s'han trobat termes complexos a la selecció"
+  },
+  "t_1b5e8531": {
+    "message": "No s'han trobat termes complexos a la selecció"
+  },
+  "t_a1f781ec": {
+    "message": "Error en descodificar la selecció"
+  },
+  "t_7aae8122": {
+    "message": "S'han esborrat els ressaltats de la selecció"
+  },
+  "t_58762fd6": {
+    "message": "Si us plau, seleccioneu una sola paraula o frase curta per definir."
+  },
+  "t_6838b119": {
+    "message": "Error de xarxa en cercar la definició."
+  },
+  "t_ea3ca1b5": {
+    "message": "S'han descodificat $1 termes (des de la memòria cau)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "S'han descodificat $1 termes (memòria cau)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "Has utilitzat tots els usos gratuïts del Descodificador de jerga d'aquest mes. Actualitza a Professional per a un accés il·limitat."
+  },
+  "t_cb3c5d3a": {
+    "message": "S'han descodificat $1 termes en $2 categories",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "S'han ressaltat automàticament $1 instàncies del teu terme de vocabulari descodificat",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "S'han restaurat $1 definicions de jerga desades$2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "Has utilitzat tots els usos gratuïts del Descodificador de jerga d'aquest mes. Actualitza a Professional per a un accés il·limitat."
+  },
+  "t_0b841c82": {
+    "message": "Ja és al quadern!"
+  },
+  "t_8901f3ab": {
+    "message": "Desat al quadern!"
+  },
+  "t_eb8f5242": {
+    "message": "Error en desar al quadern"
+  },
+  "t_bd15702b": {
+    "message": "Escut sensorial activat"
+  },
+  "t_c28f3265": {
+    "message": "Escut sensorial desactivat"
+  },
+  "t_3f8910d9": {
+    "message": "VISTAFÀCIL"
+  },
+  "t_8aafa613": {
+    "message": "No s'ha pogut simplificar aquest text"
+  },
+  "t_79d2dc85": {
+    "message": "No s'ha pogut simplificar aquest text"
+  },
+  "t_99684ba5": {
+    "message": "Error en simplificar el text"
+  },
+  "t_f4362bde": {
+    "message": "Copiat al porta-retalls!"
+  },
+  "t_af07ef4b": {
+    "message": "No s'ha pogut copiar"
+  },
+  "t_94e4d537": {
+    "message": "Text substituït a la pàgina"
+  },
+  "t_14a04b67": {
+    "message": "Memòria de simplificació eliminada"
+  },
+  "t_c444ff21": {
+    "message": "Text original restaurat temporalment"
+  },
+  "t_55f1db14": {
+    "message": "Has utilitzat tots els usos gratuïts d'aquest mes. Actualitza a Professional per a un accés il·limitat."
+  },
+  "t_fde4e3f0": {
+    "message": "S'han restaurat $1 simplificacions desades en aquesta pàgina",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "Simplificació carregada dinàmicament restaurada automàticament!"
+  },
+  "t_dfa22e52": {
+    "message": "Text a veu activat"
+  },
+  "t_ca153ad0": {
+    "message": "Text a veu desactivat"
+  },
+  "t_dadbff09": {
+    "message": "Si us plau, activeu primer el text a veu"
+  },
+  "t_47071c61": {
+    "message": "S'està reprenent..."
+  },
+  "t_5516c48d": {
+    "message": "No s'ha trobat contingut llegible en aquesta pàgina"
+  },
+  "t_c57f25c9": {
+    "message": "No s'ha trobat contingut llegible"
+  },
+  "t_2516997e": {
+    "message": "Lectura completada"
+  },
+  "t_d3069aea": {
+    "message": "El text a veu no és compatible en aquest navegador"
+  },
+  "t_53e6b8c6": {
+    "message": "Si us plau, seleccioneu primer una mica de text"
+  },
+  "t_e932d0f7": {
+    "message": "Llegint la selecció..."
+  },
+  "t_1c50528d": {
+    "message": "Lectura completada"
+  },
+  "t_594778a2": {
+    "message": "En pausa"
+  },
+  "t_4ded5f77": {
+    "message": "Veu aturada"
+  },
+  "t_0a74758c": {
+    "message": "✨ Amb tecnologia de clau personal"
+  },
+  "t_2fceddad": {
+    "message": "✨ Il·limitat"
+  },
+  "t_97627d80": {
+    "message": "✨ Amb tecnologia de clau personal"
+  },
+  "t_fd7d5888": {
+    "message": "Gestiona la subscripció"
+  },
+  "t_df4657a5": {
+    "message": "Membre gratuït"
+  },
+  "t_22dfb2ec": {
+    "message": "Usuari convidat"
+  },
+  "t_bd9f2460": {
+    "message": "Compte gratuït"
+  },
+  "t_f5adda31": {
+    "message": "Inicia sessió / Registra't"
+  },
+  "t_d2439201": {
+    "message": "✨ Il·limitat"
+  },
+  "t_164442b7": {
+    "message": "S'està escalfant el motor de conversió..."
+  },
+  "t_1e7c3002": {
+    "message": "A punt per analitzar fitxers."
+  },
+  "t_d30f78df": {
+    "message": "Mode fosc"
+  },
+  "t_6c68d8ce": {
+    "message": "Mode clar"
+  },
+  "t_fcb68c2b": {
+    "message": "No s'han trobat notes adhesives. Res a exportar!"
+  },
+  "t_2b75b2d9": {
+    "message": "El teu testimoni de sessió no hi és. Si us plau, inicia la sessió a easyview.in de nou per restaurar l'accés."
+  },
+  "t_291a4e34": {
+    "message": "L'encaminament segur del servidor ha fallat. Comproveu la vostra connexió."
+  },
+  "t_2dcf62b3": {
+    "message": "No s'ha detectat cap nota perduda. L'espai de treball està actualitzat."
+  },
+  "t_951bf3ae": {
+    "message": "Error de descodificació: El fitxer no s'ajusta als límits d'EasyView."
+  },
+  "t_817a4ba0": {
+    "message": "API PiP no compatible. Si us plau, actualitzeu el Chrome."
+  },
+  "t_e8aa6e9a": {
+    "message": "No s'ha pogut inicialitzar el motor PiP: "
+  },
+  "t_9feed9d5": {
+    "message": "S'han desxifrat i injectat correctament $1 notes noves.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "PROVA"
+  },
+  "t_c289adbe": {
+    "message": "Dona'ns suport"
+  },
+  "t_60d5b12a": {
+    "message": "Valora'ns"
+  },
+  "js_eb82de4c": {
+    "message": "Color personalitzat"
+  },
+  "js_8caef32b": {
+    "message": "Restableix/Esborra (Selecciona text i fes clic, o fes doble clic al ressaltat manualment)"
+  },
+  "t_823aeb91": {
+    "message": "Espai de treball EasyView"
+  },
+  "t_fc42ed23": {
+    "message": "No hi ha notes globals flotant al vostre espai de treball."
+  },
+  "t_12d7c58a": {
+    "message": "Prem Espai mentre el cursor de les notes adhesives estigui actiu per generar-ne una."
+  },
+  "t_ab983c11": {
+    "message": "No s'han trobat notes específiques del lloc aquí."
+  },
+  "t_e22709e9": {
+    "message": "Fes clic en un element físic de qualsevol lloc web per ancorar una nota específica."
+  },
+  "t_34bdba45": {
+    "message": "Pas"
+  },
+  "t_9b2d88a1": {
+    "message": "de"
+  },
+  "t_8f44d852": {
+    "message": "Comença!"
+  },
+  "t_b45c2f91": {
+    "message": "Desbloqueja les exportacions de l'espai de treball"
+  },
+  "t_88f91dc1": {
+    "message": "Renderitzar i exportar de manera segura totes les notes del teu espai de treball global requereix una llicència Professional verificada. Actualitza per desbloquejar aquesta funció permanentment."
+  },
+  "t_134dff88": {
+    "message": "Potser més tard"
+  },
+  "t_5b8c9d11": {
+    "message": "Actualitza a professional"
+  },
+  "t_792bd8c9": {
+    "message": "Espai de treball flotant!"
+  },
+  "t_e39f7dc2": {
+    "message": "Les teves notes adhesives ara suren sobre l'escriptori del teu sistema operatiu."
+  },
+  "t_c83d6ec9": {
+    "message": "Torna a acoblar l'espai de treball"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtrant soroll...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Executa en segon pla\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimitza</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Atura el motor</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "Generació aturada"
+  },
+  "t_removed_from_notebook": {
+    "message": "Eliminat del quadern"
+  },
+  "t_d1c58470": {
+    "message": "Feu doble clic per eliminar el ressaltat"
+  },
+  "t_d4fdfb03": {
+    "message": "Inicia la sessió a EasyView per obtenir $1 usos gratuïts al mes, o afegeix la teva pròpia clau API a la configuració.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "Carregant resultats desats..."
+  },
+  "t_3a99733d": {
+    "message": "S'està inicialitzant el descodificador de jerga..."
+  },
+  "t_b6dc9fc9": {
+    "message": "Crea un compte gratuït d'EasyView per obtenir $1 descodificacions d'IA gratuïtes al mes i fer un seguiment de la teva quota.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "Crea un compte gratuït d'EasyView per obtenir $1 definicions d'IA gratuïtes al mes i fer un seguiment de la teva quota.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "Extraient el contingut principal..."
+  },
+  "t_0eeae2bf": {
+    "message": "Detectant el context de la pàgina..."
+  },
+  "t_87f125d0": {
+    "message": "Analitzant la terminologia..."
+  },
+  "t_9ef6e70f": {
+    "message": "Utilitzant resultats en memòria cau..."
+  },
+  "t_9afdc5e8": {
+    "message": "Analitzant amb IA..."
+  },
+  "t_7ecc3abe": {
+    "message": "La descodificació per IA ha fallat"
+  },
+  "t_9220c8de": {
+    "message": "S'estan aplicant simplificacions..."
+  },
+  "t_57f406b1": {
+    "message": "Descodificant la selecció..."
+  },
+  "t_c50f2b72": {
+    "message": "Mostra el glossari"
+  },
+  "t_49de9b11": {
+    "message": "Amaga els ressaltats a la pàgina"
+  },
+  "t_3158774e": {
+    "message": "Restaura els ressaltats a la pàgina"
+  },
+  "t_fc3ad42d": {
+    "message": "Desa al vocabulari"
+  },
+  "t_87e933b8": {
+    "message": "Cercant la definició..."
+  },
+  "t_56b79836": {
+    "message": "Definició de paraula carregada."
+  },
+  "t_969b24ea": {
+    "message": "🔊 Feu clic a qualsevol lloc per activar l'àudio del tema"
+  },
+  "t_49337275": {
+    "message": "Ressaltat manual"
+  },
+  "t_93324bd5": {
+    "message": "Desat directament des de la pàgina web."
+  },
+  "t_82e413f3": {
+    "message": "Simplificant el text..."
+  },
+  "t_86c4f6e5": {
+    "message": "Simplificant amb IA..."
+  },
+  "t_c3e18edb": {
+    "message": "La simplificació ha fallat"
+  },
+  "t_6398ab2c": {
+    "message": "Nivell de lectura: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "Feu clic per restaurar temporalment el text original"
+  },
+  "t_9beea3e8": {
+    "message": "Elimina de la memòria permanentment"
+  },
+  "t_453bb8f7": {
+    "message": "Crea un compte gratuït d'EasyView per obtenir $1 simplificacions d'IA gratuïtes al mes i fer un seguiment de la teva quota.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "Escolta"
+  },
+  "t_24833610": {
+    "message": "Desat"
+  },
+  "t_30a008cb": {
+    "message": "Llegeix més &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "Desat al quadern de vocabulari!"
+  },
+  "t_2728e87f": {
+    "message": "Eliminat del quadern de vocabulari"
+  },
+  "t_6b8c66ce": {
+    "message": "Glossari ($1 termes)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "Elimina la memòria d'aquesta pàgina"
+  },
+  "t_8a49fe1a": {
+    "message": "Elimina el terme"
+  },
+  "t_1534891c": {
+    "message": "Descodificats $1 termes",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "Desa al quadern"
+  },
+  "t_150a2843": {
+    "message": "Esborra els ressaltats"
+  },
+  "t_21ef939c": {
+    "message": "Desat al quadern!"
+  },
+  "t_8054da35": {
+    "message": "Diccionari ràpid",
+    "description": "Capçalera de la finestra emergent del diccionari ràpid"
+  },
+  "t_4aeb2167": {
+    "message": "Paraula no trobada",
+    "description": "Títol de reserva del diccionari"
+  },
+  "t_272d0070": {
+    "message": "No hem pogut trobar \"$1\" al diccionari bàsic. Podria ser argot modern, una abreviatura o jerga altament tècnica.",
+    "description": "Descripció alternativa del diccionari amb marcador de posició de paraula",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "Descodifica amb Evie AI",
+    "description": "Botó alternatiu per descodificar amb IA"
+  },
+  "t_14f1f972": {
+    "message": "mitjançant",
+    "description": "Prefix de la font del diccionari"
+  },
+  "t_f2faf2f1": {
+    "message": "Nom",
+    "description": "Part de l'oració: nom"
+  },
+  "t_b512ddf1": {
+    "message": "Verb",
+    "description": "Part de l'oració: verb"
+  },
+  "t_d807ae6a": {
+    "message": "Adjectiu",
+    "description": "Part de l'oració: adjectiu"
+  },
+  "t_1a607278": {
+    "message": "Adverbi",
+    "description": "Part de l'oració: adverbi"
+  },
+  "t_02de720d": {
+    "message": "Pronom",
+    "description": "Pronom (part de l'oració)"
+  },
+  "t_4b7be2c3": {
+    "message": "Preposició",
+    "description": "Preposició (part de l'oració)"
+  },
+  "t_a3c1d30b": {
+    "message": "Conjunció",
+    "description": "Conjunció (part de l'oració)"
+  },
+  "t_e189f001": {
+    "message": "Interjecció",
+    "description": "Interjecció (part de l'oració)"
+  },
+  "t_96de90f8": {
+    "message": "Copia el text simplificat",
+    "description": "Informació sobre l'eina per copiar text simplificat"
+  },
+  "t_44a6e288": {
+    "message": "Llegeix la pàgina",
+    "description": "Informació sobre l'eina per llegir tota la pàgina mitjançant TTS"
+  },
+  "t_7d70d73b": {
+    "message": "Llegeix la selecció",
+    "description": "Informació sobre l'eina per llegir la selecció mitjançant TTS"
+  },
+  "t_11936123": {
+    "message": "Elimina la nota de manera irreversible",
+    "description": "Informació sobre l'eina per eliminar permanentment la nota adhesiva"
+  },
+  "t_d27532d9": {
+    "message": "Minimitza"
+  },
+  "t_2bd339d8": {
+    "message": "Restaura"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "VistaFàcil"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "Alerta del sistema"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "Notificació del sistema"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "Motor\r\n                        EasyView"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "Les funcions locals romanen\r\n                        actives"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,22 +599,22 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "Experiència\r\n                        EasyView"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "Has estat utilitzant EasyView durant 12 hores. Crea un compte gratuït per\r\n                    desar la teva\r\n                    configuració, mantenir la teva quota i desbloquejar més funcions."
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "Recorda-m'ho en 12 hores"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "Clar"
   },
   "t_7fc56270": {
     "message": "A"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "Tipus de lletra"
   },
   "t_5dbc98dc": {
     "message": "S"
@@ -57,46 +623,43 @@
     "message": "M"
   },
   "t_d20caec3": {
-    "message": "L"
+    "message": "G"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "Funcions"
   },
   "t_ee24c7ad": {
     "message": "Visuals"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "Convertidor"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "Quadern"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "Descodificador de jerga"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "Simplifica els termes legals complexos"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "wikipedia.org/wiki/Neurodivergència"
   },
   "t_61e9c06e": {
-    "message": "W"
+    "message": "A"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "Neurodivergència"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "molt\r\n                                                més fàcil"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "Escut de focus i privadesa"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "Difumina el contingut privat i sensible"
   },
   "t_7f766191": {
     "message": "mail.google.com/mail/u/0/"
@@ -105,13 +668,13 @@
     "message": "G"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "Comptes de Google"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "Alerta de seguretat"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- S'ha sol·licitat el restabliment de la contrasenya..."
   },
   "t_8d9c307c": {
     "message": "N"
@@ -120,145 +683,142 @@
     "message": "Netflix"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "Novetat d'aquesta setmana"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- Fes una ullada als nostres últims\r\n                                                    llançaments..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "Tècniques de protecció"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "Difuminat de contingut privat"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "Difumina de manera intel·ligent les entrades de WhatsApp, Gmail i contrasenyes\r\n                                            per a una seguretat visual instantània."
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "Protecció automàtica en compartir pantalla"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "Protegeix la teva pantalla a l'instant quan comparteixis contingut en línia."
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
-  },
-  "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "Utilitzes\r\n                                                    un projector físic?"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "Llanterna de lectura"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "Segueix el teu ratolí amb un focus brillant per eliminar completament el desordre visual\r\n                                            del voltant."
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "1.\r\n                                                            Forma del feix"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "Focus\r\n                                                            o regle"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "2.\r\n                                                                Mida / Alçada del feix"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "Gruix\r\n                                                                de l'àrea de visualització"
   },
   "t_f0cad41b": {
     "message": "35px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "Tinta de la lent del feix"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "Taca suaument l'espai de lectura"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "4.\r\n                                                            Ombra de fons ambiental"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "Foscor\r\n                                                            al voltant de la teva lent"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "Escut sensorial"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "Congela les animacions que distreuen"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "notíciesdiàries.cat/darrera-hora"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "ÚLTIMA HORA"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "Llegint un article a les notícies diàries..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "GUANYA!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "Mode escut"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(per defecte)"
   },
   "t_9e3360ac": {
-    "message": "PRO"
+    "message": "PROFESSIONAL"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "Atura la reproducció automàtica + suaus esvaneixements en la navegació manual"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "Mode de lectura per a dislèxia"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "Tipus de lletra i espaiat optimitzats"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "Perfil d'intensitat"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "Baix"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "Mitjà"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "Alt"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "ca.wikipedia.org/wiki/Lectura"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "Lectura"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "Aquí teniu una vista prèvia de la vostra configuració de lectura."
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "Opcions avançades"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "Estil de lletra"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "Per defecte (Sense canvis)"
   },
   "t_5d2967ef": {
     "message": "OpenDyslexic"
   },
   "t_1042daad": {
-    "message": "Lexend (ADHD Pro) 🔒"
+    "message": "Lexend (ADHD Professional) 🔒"
   },
   "t_bcec044a": {
     "message": "Atkinson Hyperlegible 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "Sans ràpida"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "Serif ràpida"
   },
   "t_93075043": {
     "message": "Comic Neue"
@@ -267,148 +827,145 @@
     "message": "Comic Sans"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "Espaiat entre lletres"
   },
   "t_960b44c5": {
     "message": "Normal"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "Alçada de línia"
   },
   "t_60086472": {
     "message": "1.5"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "Espaiat entre paraules"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "Mida de la lletra"
   },
   "t_30bd7ce7": {
     "message": "100%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "Color de la superposició"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "Cap"
   },
   "t_2bd8c63b": {
-    "message": "Beige"
+    "message": "Beix"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "Blau clar"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "Verd clar"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "Groc clar"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "Text a veu"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "Llegeix en veu alta amb ressaltat"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "Reprodueix"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "Pausa"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "Atura"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "Selecció de veu"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "Automàtic (Millor qualitat)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "Velocitat de lectura"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "Molt lent"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "Lent"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "Ràpid"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "Molt ràpid"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "Volum"
   },
   "t_f1943132": {
     "message": "70%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "Pausa a la puntuació"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "Ressaltat de paraules"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "Activa"
   },
   "t_650be618": {
     "message": "Mode"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "Fosc"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "ca.wikipedia.org/wiki/Llum"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "Visuals perfectes per a la comoditat ocular. La llum pot ser intensa."
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "Brillantor"
   },
   "t_c63ecd19": {
     "message": "Contrast"
   },
   "t_b84a9a38": {
-    "message": "Sepia"
+    "message": "Sèpia"
   },
   "t_9f1ef078": {
     "message": "0%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "Escala de grisos"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "Per defecte"
   },
   "t_b1166920": {
     "message": "Lexend 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "Traç del text"
   },
   "t_cfcd2084": {
     "message": "0"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "Convertidor i lector intel·ligent"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "Fitxer actual"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "Feu clic o arrossegueu el fitxer per carregar-lo"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• A punt"
   },
   "t_4c4ad5fc": {
     "message": "HTML"
@@ -426,112 +983,112 @@
     "message": "Global"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "Lloc/Pàgina"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "El meu bloc de notes"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "Esborra-ho tot"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "Cancel·la"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "Desa la paraula"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "Encara no hi ha paraules desades."
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "Passa el cursor sobre la jerga en qualsevol pàgina i fes clic a l'indicador de marcadors per desar-la aquí!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "Reimagina la interfície de qualsevol lloc web. Descriu el que vols o tria un\r\n                            preajust."
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "Morfologia\n                                aplicada"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "El disseny d'IA personalitzat\r\n                                està actiu en aquest lloc."
   },
   "t_e8a57cd1": {
     "message": "0 /\r\n                                500"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "Restableix la pàgina"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "Disseny de morf"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "Valors predefinits"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "Carnaval de terror"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "Vibres de carnaval esgarrifós i text de terror animat"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "Consola matriu"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "Tema de terminal cyberpunk"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "Enfocament neuro"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "Tipus de lletra aptes per a dislèxia i colors calmants"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "Mode lectura"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "Disseny minimalista optimitzat per a la concentració"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "Indicacions recents"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "Usuari convidat"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "Compte gratuït"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "Inicia sessió / Gestiona"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "Tanca la sessió"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "Configuració de l'API"
   },
   "t_766cc4dd": {
     "message": "Gemini"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "Proveïdor d'IA"
   },
   "t_222cf5ed": {
     "message": "Google Gemini"
@@ -540,61 +1097,61 @@
     "message": "OpenRouter"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "Clau de l'API de Gemini"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "Estudi d'IA de Google"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "Clau de l'API d'OpenRouter"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "Desa la clau de l'API"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "Prioritat d'IA\r\n                                    EasyView"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ La meva clau d'API"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 Servidors EasyView"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "Tria\r\n                                què s'utilitza primer per a totes les funcions d'IA. Si la teva clau s'esgota, els servidors d'EasyView s'utilitzen\r\n                                sempre com a alternativa."
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "Privadesa\r\n                                    i prioritat"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "Prioritat 1:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "Prioritat 2:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "Nota del motor de morfologia:"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "mai"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "Ajuda i comentaris"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "Tens alguna pregunta, has trobat un error o vols suggerir una funció? Ens encantaria saber de tu!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "Informa d'un error / Dona la teva opinió"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "A punt per simplificar"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "Exporta la configuració"
   },
   "t_9d5ed678": {
     "message": "B"
@@ -606,7 +1163,7 @@
     "message": "✎"
   },
   "t_4c614360": {
-    "message": "U"
+    "message": "S"
   },
   "t_2f43b42f": {
     "message": "..."
@@ -615,25 +1172,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "Força"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "Opacitat"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "Pes"
   },
   "t_18d80423": {
     "message": "400"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "Alçada\r\n                                de línia"
   },
   "t_f522dede": {
     "message": "1.7x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "Omet"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,13 +1199,13 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "Ressaltat"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "TINTA"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "ESVANEIX"
   },
   "t_e8bfe352": {
     "message": "Lexend 👑"
@@ -660,7 +1217,7 @@
     "message": "Arial"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "Helvètica"
   },
   "t_207c3219": {
     "message": "Verdana"
@@ -672,7 +1229,7 @@
     "message": "Trebuchet MS"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "Sans del sistema"
   },
   "t_8900726a": {
     "message": "Times New Roman"
@@ -684,7 +1241,7 @@
     "message": "Garamond"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "Serif del sistema"
   },
   "t_9495d215": {
     "message": "Comic Sans MS"
@@ -693,10 +1250,10 @@
     "message": "Courier New"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "Monoespai"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "Mida\r\n                            de la lletra"
   },
   "t_f4f9f2f4": {
     "message": "14px"
@@ -723,7 +1280,7 @@
     "message": "32px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "Fet"
   },
   "t_63922286": {
     "message": "×"
@@ -732,25 +1289,1045 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "Exporta la biblioteca de temes"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "Desa les teves obres mestres generades per IA\r\n                localment."
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "Exporta tota la biblioteca"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
+    "message": ".json (Fitxer JSON)"
+  },
+  "js_99537132": {
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Acció necessària</div>\n            <h2 class=\"ev-si-title\">Compte<br><span class=\"ev-si-gradient-text\">Suspès</span></h2>\n            <p class=\"ev-si-sub\">El teu accés a EasyView ha estat restringit a causa d'una violació dels nostres termes de servei.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contacta amb el suport\n            </a>\n          </div>\n        </div>\n      "
+  },
+  "js_57b20c49": {
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Si us plau, descriu primer el teu morf.</span>\n          </div>"
+  },
+  "js_7f34dbea": {
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morfant...</span>\n      "
+  },
+  "js_138703dd": {
+    "message": "Cap tema a la pàgina"
+  },
+  "js_cf3190a0": {
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>Exporta la pàgina actual"
+  },
+  "js_ac5b17d0": {
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compilant..."
+  },
+  "js_e541190e": {
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
+  },
+  "js_d2e8056c": {
+    "message": "<path d=\"M9.88 9.88a3 3 0 1 0 4.24 4.24\"/><path d=\"M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68\"/><path d=\"M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61\"/><line x1=\"2\" x2=\"22\" y1=\"2\" y2=\"22\"/>"
+  },
+  "js_e2cb885d": {
+    "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
+  },
+  "js_8b86136c": {
+    "message": "A punt per simplificar"
+  },
+  "js_a18366b2": {
+    "message": "Fosc"
+  },
+  "js_9914a0ce": {
+    "message": "Clar"
+  },
+  "js_872cc3ae": {
+    "message": "<option value=\"auto\">Automàtic (millor qualitat)</option>"
+  },
+  "js_94fe16a8": {
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Descodificant..."
+  },
+  "js_be7141cc": {
+    "message": "Això sembla <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">molt més fàcil</span> d'entendre."
+  },
+  "js_5d0ff3d0": {
+    "message": "Això sembla menys clar de comprendre."
+  },
+  "t_f05df71b": {
+    "message": "Actualitzant el"
+  },
+  "t_78db2ae3": {
+    "message": "Els nostres servidors d'IA estan en procés d'actualització."
+  },
+  "t_bb2129c8": {
+    "message": "Desbloqueja el complet"
+  },
+  "t_aefee7cd": {
+    "message": "Claredat per a cada cervell"
+  },
+  "t_c38beca1": {
+    "message": "El Firefox restringeix les API de detecció de monitors físics. "
+  },
+  "t_f2fe1e79": {
+    "message": "Els valors\r\n                                    per sota d'1.0 poden comprimir el text i trencar els dissenys."
+  },
+  "t_ca677d53": {
+    "message": "Ajustos visuals"
+  },
+  "t_230b4522": {
+    "message": "Tauler de notes"
+  },
+  "t_596b54bf": {
+    "message": "Agent d'IA Morph"
+  },
+  "t_47e79a17": {
+    "message": "Obtingues la teva clau gratuïta a"
+  },
+  "t_42372184": {
+    "message": "Els temes s'exporten com"
+  },
+  "t_74fdc8a2": {
+    "message": "Si us plau, descriviu primer la vostra transformació amb Morph."
+  },
+  "t_245fd3b9": {
+    "message": "Disseny morfat esborrat."
+  },
+  "t_172bd753": {
+    "message": "Tema exportat correctament!"
+  },
+  "t_4c34daff": {
+    "message": "Temps de connexió esgotat. Servidor inabastable."
+  },
+  "t_0dd56117": {
+    "message": "No s'ha trobat cap tema actiu en aquesta pàgina."
+  },
+  "t_cb5c0766": {
+    "message": "Biblioteca exportada correctament!"
+  },
+  "t_8adb392e": {
+    "message": "Temps de connexió esgotat. Servidor inabastable."
+  },
+  "t_ae94e0e4": {
+    "message": "La vostra biblioteca de temes està buida."
+  },
+  "t_10a0c40b": {
+    "message": "Tema personalitzat carregat correctament!"
+  },
+  "t_9b6007a8": {
+    "message": "Error en llegir el fitxer de tema."
+  },
+  "t_d4fa051d": {
+    "message": "Error: $1. Si us plau, recarregueu la pestanya.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "Aplicat: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "S'han restaurat $1 temes de la biblioteca!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "Preferència d'idioma"
+  },
+  "t_lang_updated_reload": {
+    "message": "Llengua actualitzada. S'està recarregant..."
+  },
+  "t_transformation_failed": {
+    "message": "La transformació ha fallat."
+  },
+  "t_c8a59e71": {
+    "message": "Ignora"
+  },
+  "t_7764306b": {
+    "message": "Manteniment dels serveis al núvol actiu"
+  },
+  "t_248228de": {
+    "message": "Commuta el tipus de lletra per a dislèxia a la finestra emergent"
+  },
+  "t_79a59320": {
+    "message": "Inicia el recorregut"
+  },
+  "t_533bff5b": {
+    "message": "Fixa una nota adhesiva a la pàgina (Alt+N)"
+  },
+  "t_f4f70727": {
+    "message": "Configuració"
+  },
+  "t_4fd11104": {
+    "message": "Focus circular"
+  },
+  "t_0d063af1": {
+    "message": "Regle de línia horitzontal 🔒"
+  },
+  "t_60d71580": {
+    "message": "Clar net"
+  },
+  "t_efe48742": {
+    "message": "Enfocament ambre"
+  },
+  "t_610a09ca": {
+    "message": "Cian fresc"
+  },
+  "t_886f6b9e": {
+    "message": "Verd relaxant"
+  },
+  "t_65e8194e": {
+    "message": "Negre intens"
+  },
+  "t_7243ed99": {
+    "message": "Pissarra de mitjanit"
+  },
+  "t_ec6d8325": {
+    "message": "Bosc profund"
+  },
+  "t_4af435e0": {
+    "message": "Vi vampir"
+  },
+  "t_2a7dbdf8": {
+    "message": "Funció professional"
+  },
+  "t_fc4aec61": {
+    "message": "Obre al lector"
+  },
+  "t_801ab246": {
+    "message": "Descarrega"
+  },
+  "t_aa3880dc": {
+    "message": "Descarrega com a HTML"
+  },
+  "t_e0781e81": {
+    "message": "Descarrega com a EPUB"
+  },
+  "t_442ff212": {
+    "message": "Descarrega com a DOCX"
+  },
+  "t_6244ee7c": {
+    "message": "Afegeix un terme personalitzat manualment"
+  },
+  "t_6e7d015f": {
+    "message": "Importa fitxer CSV"
+  },
+  "t_edbc5415": {
+    "message": "Exporta per a Anki / Quizlet"
+  },
+  "t_46c29f7a": {
+    "message": "Carrega el tema"
+  },
+  "t_2bd65c5d": {
+    "message": "Exporta el tema"
+  },
+  "t_c1c433ac": {
+    "message": "Proveïdor d'IA actiu"
+  },
+  "t_90c09393": {
+    "message": "Puntejat"
+  },
+  "t_eb656e41": {
+    "message": "Traçat"
+  },
+  "t_0c99ddee": {
+    "message": "Color de ressaltat"
+  },
+  "t_eaf63759": {
+    "message": "Color de la tinta"
+  },
+  "t_a183c9f0": {
+    "message": "Color d'esvaïment"
+  },
+  "t_75e7422f": {
+    "message": "Color de fons"
+  },
+  "t_42f9ceea": {
+    "message": "Cerca al lèxic desat..."
+  },
+  "t_0e84a8cf": {
+    "message": "Introdueix una paraula o acrònim..."
+  },
+  "t_eea6890c": {
+    "message": "Significat / Traducció..."
+  },
+  "t_4480cf46": {
+    "message": "Truc de memòria o nota d'estudi (opcional)..."
+  },
+  "t_d8634fbf": {
+    "message": "p. ex., Converteix-ho en un tema d'estil anime rosa amb targetes arrodonides, o transforma-ho en una consola de terminal verda fosca retro..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "Notes adhesives"
+  },
+  "t_b097d277": {
+    "message": "Afegeix paraula"
+  },
+  "t_1eeb67ee": {
+    "message": "Exporta la pàgina actual"
+  },
+  "t_b62ded9a": {
+    "message": "Serveis al núvol desconnectats"
+  },
+  "t_263e00eb": {
+    "message": "Inicia sessió / Crea un compte"
+  },
+  "t_7748eb3b": {
+    "message": "ACTUALITZANT"
+  },
+  "t_81a5d20b": {
+    "message": "Congela-ho tot"
+  },
+  "t_e61146d9": {
+    "message": "Esvaïments calmats"
+  },
+  "t_57323916": {
+    "message": "Atura la reproducció automàtica"
+  },
+  "t_f50319ea": {
+    "message": "Protecció total"
+  },
+  "t_8e13f26d": {
+    "message": "Pregunta ràpida"
+  },
+  "t_134b26da": {
+    "message": "Estàs gaudint de<br><span class=\"ev-si-gradient-text\">EasyView?</span>"
+  },
+  "t_b75bdd9e": {
+    "message": "Els teus comentaris ens ajuden a millorar.<br>Estàs gaudint de l'experiència?"
+  },
+  "t_396d1ff8": {
+    "message": "Sí, m'agrada!"
+  },
+  "t_7d0cacf3": {
+    "message": "Necessita millores"
+  },
+  "t_815142c9": {
+    "message": "Dona'ns suport"
+  },
+  "t_abd9fa39": {
+    "message": "T'importaria<br><span class=\"ev-si-gradient-text\">deixar una ressenya?</span>"
+  },
+  "t_02991e61": {
+    "message": "Les valoracions d'usuaris com tu són la millor manera d'ajudar EasyView a créixer. Només es triga un minut!"
+  },
+  "t_db49c1f2": {
+    "message": "Valora ara"
+  },
+  "t_7a4f0d12": {
+    "message": "Recorda-m'ho més tard"
+  },
+  "t_fee6c0e9": {
+    "message": "Comentaris privats"
+  },
+  "t_74393dde": {
+    "message": "Què podem <span class=\"ev-si-gradient-text\">millorar?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "Digues-nos què ha anat malament..."
+  },
+  "t_6f97affc": {
+    "message": "Envia comentaris"
+  },
+  "t_b20871b3": {
+    "message": "Si us plau, introduïu els vostres comentaris"
+  },
+  "t_7b0fee4d": {
+    "message": "S'està enviant..."
+  },
+  "t_fb631633": {
+    "message": "Gràcies pels vostres comentaris."
+  },
+  "t_08727add": {
+    "message": "Mira el web a la teva manera."
+  },
+  "t_15bbb9d0": {
+    "message": "Lloc web"
+  },
+  "t_c5f29bb3": {
+    "message": "Privadesa"
+  },
+  "t_ad5b1a22": {
+    "message": "Fundador"
+  },
+  "t_db496e03": {
+    "message": "Les claus personals creen una connexió directa i 100% privada amb la IA. El teu text mai toca els servidors d'EasyView."
+  },
+  "t_387c35b3": {
+    "message": "El nostre servidor gestionat (Premium) actua com una còpia de seguretat fiable si no hi ha cap clau o si la teva clau falla."
+  },
+  "t_98bc5a17": {
+    "message": "Per protegir els algorismes propietaris, la teva clau s'encamina breument a través del nostre servidor segur per autenticar-se amb Google. No és"
+  },
+  "t_de47f1be": {
+    "message": "emmagatzemat o registrat."
+  },
+  "t_25e02e7f": {
+    "message": "Actiu: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ Membre prèmium"
+  },
+  "t_df56cfae": {
+    "message": "⭐ Membre vitalici"
+  },
+  "t_41cbc704": {
+    "message": " dies restants"
+  },
+  "t_b194bd82": {
+    "message": "Mai caduca"
+  },
+  "t_9f830444": {
+    "message": "⭐ Professional:"
+  },
+  "t_61b82be6": {
+    "message": " morfs restants"
+  },
+  "t_c20e7ceb": {
+    "message": " morfs gratuïts restants"
+  },
+  "t_d7087930": {
+    "message": " usos gratuïts restants"
+  },
+  "t_4bbf11bd": {
+    "message": "Els camps de terme i significat no es poden deixar en blanc!"
+  },
+  "t_08f09d38": {
+    "message": "Detalls de la paraula actualitzats correctament!"
+  },
+  "t_32001b52": {
+    "message": "Si us plau, introduïu tant una paraula com el seu significat."
+  },
+  "t_b8115861": {
+    "message": "El teu quadern d'estudi està buit. Primer marca algunes paraules a les pàgines web!"
+  },
+  "t_7114113b": {
+    "message": "Si us plau, inicia la sessió al teu compte d'EasyView primer per verificar les teves funcions Professional!"
+  },
+  "t_093f9fa0": {
+    "message": "El teu testimoni de sessió no hi és. Si us plau, inicia la sessió a easyview.in de nou per restaurar l'accés."
+  },
+  "t_0e065596": {
+    "message": "Aquesta és una funció verificada només per a Premium. Actualitza a Professional per desbloquejar-la!"
+  },
+  "t_c792a645": {
+    "message": "No s'ha pogut connectar al servidor d'exportació segur. Torna-ho a provar en breu."
+  },
+  "t_8d1a2675": {
+    "message": "No s'ha pogut identificar cap element de vocabulari vàlid en aquest CSV."
+  },
+  "t_a613ed90": {
+    "message": "Error d'escriptura a l'emmagatzematge del navegador! El fitxer pot ser massa gran per a la memòria cau local."
+  },
+  "t_8efe87ab": {
+    "message": "El navegador no ha pogut llegir el vostre fitxer local."
+  },
+  "t_50bf63aa": {
+    "message": "Estàs segur que vols esborrar totes les paraules desades del teu quadern?"
+  },
+  "t_ff252710": {
+    "message": "Importació finalitzada: Les $1 entrades ja existeixen al teu quadern.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "Error en analitzar el CSV: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "\"$1\" ja és al teu quadern. Vols afegir una altra definició per a això?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "Sessió tancada correctament"
+  },
+  "t_dbd35100": {
+    "message": "El motor de morfologia ja està en marxa..."
+  },
+  "t_2de4e55d": {
+    "message": "Disseny morfat esborrat"
+  },
+  "t_1bb9196d": {
+    "message": "Morfat: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "El morf ha fallat: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "Activat: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 elements organitzats",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "Això destruirà permanentment aquesta nota en tots els dispositius sincronitzats. Vols continuar?"
+  },
+  "t_25abf697": {
+    "message": "L'exportació EPUB requereix JSZip."
+  },
+  "t_71609188": {
+    "message": "L'exportació DOCX requereix html-docx-js."
+  },
+  "t_e1499766": {
+    "message": "Cap fitxer carregat."
+  },
+  "t_023b3355": {
+    "message": "Escut de privadesa activat"
+  },
+  "t_9483a5da": {
+    "message": "Escut de privadesa desactivat"
+  },
+  "t_a04202db": {
+    "message": "Ressaltats ocults temporalment"
+  },
+  "t_b3d6b264": {
+    "message": "Ressaltats restaurats"
+  },
+  "t_7485c55e": {
+    "message": "Benvingut a EasyView! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "El teu pont cognitiu impulsat per IA per a una lectura web més fàcil. Fem un recorregut ràpid per les funcions."
+  },
+  "t_3a1fe637": {
+    "message": "Descodificador de jerga 📖"
+  },
+  "t_89cec86e": {
+    "message": "Simplifica la terminologia complexa en qualsevol pàgina web."
+  },
+  "t_f8aefae7": {
+    "message": "Escut de privadesa 🔐"
+  },
+  "t_aa860f86": {
+    "message": "Difumina les dades sensibles i inclou un regle d'enfocament per a una lectura sense distraccions."
+  },
+  "t_0681a3b6": {
+    "message": "Escut sensorial 🛡️"
+  },
+  "t_6118b864": {
+    "message": "Congela els GIF i les animacions que distreuen."
+  },
+  "t_12ec6fc6": {
+    "message": "Mode de lectura per a dislèxia 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "Tipus de lletra i espaiat optimitzats per a una lectura més fàcil."
+  },
+  "t_18d9ce63": {
+    "message": "Text a veu 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "Escolta qualsevol pàgina web amb ressaltat de paraules."
+  },
+  "t_0019a700": {
+    "message": "Motor de morfologia ✨"
+  },
+  "t_47c2535a": {
+    "message": "Utilitza la IA per redissenyar qualsevol lloc web amb un tema o disseny personalitzat."
+  },
+  "t_2ed2f639": {
+    "message": "Notes adhesives 📝"
+  },
+  "t_75025b5f": {
+    "message": "Fixa notes adhesives flotants a qualsevol pàgina web per desar informació important (Alt+N)."
+  },
+  "t_3ff2d7cc": {
+    "message": "Configuració de l'API ⚙️"
+  },
+  "t_0754e836": {
+    "message": "Inicia la sessió per sincronitzar la teva quota, o configura la teva pròpia clau API de Gemini gratuïta aquí."
+  },
+  "t_7b6a2059": {
+    "message": "Pas $1 de $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "Comença!"
+  },
+  "t_10ac3d04": {
+    "message": "Següent"
+  },
+  "t_5c7a52b8": {
+    "message": "Prem "
+  },
+  "t_a1b2c3d4": {
+    "message": " en qualsevol moment per activar manualment l'escut de protecció automàtica."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ Escut de privadesa activat"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 Escut de privadesa desactivat"
+  },
+  "js_9b3e1a": {
+    "message": "L'EasyView està analitzant el disseny i aplicant la morfologia..."
+  },
+  "js_4c8d2f": {
+    "message": "Defineix"
+  },
+  "js_7a1e9b": {
+    "message": "Descodifica"
+  },
+  "js_2d5f8c": {
+    "message": "Simplifica"
+  },
+  "js_6e3a4d": {
+    "message": "Marcador"
+  },
+  "js_1f9b7c": {
+    "message": "Ressaltat"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "Analitzant l'arbre DOM..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "Disseny desordenat..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "Aplanant l'estructura..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[SOBRECÀRREGA_DE_SOROLL]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "Eliminant distraccions..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "Nodes complexos"
+  },
+  "js_ldr_m4_cl": {
+    "message": "S'estan aplicant les regles per a la dislèxia..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "Renderitzant la interfície d'EasyView..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "Escanejant el bloc de text..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "Massa paraules..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "S'està extraient el significat principal..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "Càrrega cognitiva"
+  },
+  "js_ldr_s3_cl": {
+    "message": "S'està redactant un anglès més senzill..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "IA detallada..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "Aplicant llegibilitat..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "Polint el resultat..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "Traduint l'argot..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "Error: Confusió"
+  },
+  "js_ldr_j2_cl": {
+    "message": "Cercant definicions..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[SOBRECÀRREGA_DE_SOROLL]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "Simplificant el context..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "Termes desconeguts"
+  },
+  "js_ldr_j4_cl": {
+    "message": "Aplicant claredat..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "Donant format als resultats..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "Anàlisi profunda..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "Finalitzant la lògica de l'IA..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "Executant IA..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "Gairebé acabat..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "Trànsit intens..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "Triga una mica més..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "Encara treballant..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "Espera un moment..."
+  },
+  "t_b7012ab9": {
+    "message": "Morf"
+  },
+  "t_c5e8b1d9": {
+    "message": "Tipus de lletra professionals"
+  },
+  "t_c8f2ba19": {
+    "message": "Difuminat de contingut privat activat"
+  },
+  "t_e2dae61a": {
+    "message": "Difuminat de contingut privat desactivat"
+  },
+  "t_c74de318": {
+    "message": "Protecció automàtica en compartir pantalla activada"
+  },
+  "t_a5fd56f4": {
+    "message": "Protecció automàtica en compartir pantalla desactivada"
+  },
+  "t_ab8d1f2a": {
+    "message": "Mode llanterna activat"
+  },
+  "t_2bf5cc98": {
+    "message": "Mode llanterna desactivat"
+  },
+  "t_513bb93f": {
+    "message": "Lectura biònica"
+  },
+  "t_5a8b2c1d": {
+    "message": "Aquí teniu una vista prèvia de la vostra configuració de lectura."
+  },
+  "t_ac1d4e5f": {
+    "message": "Cap"
+  },
+  "t_b2e3f4a1": {
+    "message": "Ample"
+  },
+  "t_c3f4a5b2": {
+    "message": "Molt ample"
+  },
+  "t_d1a3c901": {
+    "message": "Clic"
+  },
+  "t_b4f2e891": {
+    "message": "Fixa a l'element"
+  },
+  "t_c9a1b302": {
+    "message": "Espai"
+  },
+  "t_f6d4e203": {
+    "message": "Nota global"
+  },
+  "t_e2b3f104": {
+    "message": "Esc"
+  },
+  "t_a7c0d905": {
+    "message": "Cancel·la"
+  },
+  "t_e1b2c301": {
+    "message": "Només aquesta pàgina"
+  },
+  "t_f7a3b402": {
+    "message": "Aquest lloc"
+  },
+  "t_a8c4d503": {
+    "message": "Tots els llocs (Global)"
+  },
+  "t_b9d5e604": {
+    "message": "Amaga fins a recarregar"
+  },
+  "t_c0e6f705": {
+    "message": "Fixa la nota a l'element"
+  },
+  "t_d1f7a806": {
+    "message": "Canvia el color de la nota"
+  },
+  "t_e2a8b907": {
+    "message": "Col·lapsa/expandeix la nota"
+  },
+  "t_f3b9c008": {
+    "message": "Copia el contingut de la nota"
+  },
+  "t_a4c0d109": {
+    "message": "Més accions"
+  },
+  "t_b5d1e200": {
+    "message": "Suprimeix aquesta nota"
+  },
+  "t_e87033a2": {
+    "message": "Alt + X"
+  },
+  "t_4120201a": {
+    "message": "Prova gratuïta activa"
+  },
+  "t_6ed40ffb": {
+    "message": "Sincronitza la configuració entre dispositius"
+  },
+  "t_f8b8a5fd": {
+    "message": "Quota d'ús gratuït més alta"
+  },
+  "t_440b106d": {
+    "message": "Accés a futures funcions professionals"
+  },
+  "t_3a99076c": {
+    "message": "Límit prèmium"
+  },
+  "t_545f6c2f": {
+    "message": "Il·limitat"
+  },
+  "t_ad23f4a0": {
+    "message": "Notes espacials"
+  },
+  "t_04f2f045": {
+    "message": "Has desplegat correctament les 15 notes del nivell gratuït per tot el web. Actualitza a EasyView Premium per desbloquejar memòria espacial infinita i colors personalitzats."
+  },
+  "t_cf874b99": {
+    "message": "Desbloqueja el prèmium"
+  },
+  "t_a6d36e2f": {
+    "message": "Tots els controls d'accessibilitat locals (actius)"
+  },
+  "t_b0b69bc3": {
+    "message": "Motor de text a veu (actiu)"
+  },
+  "t_cc96c21a": {
+    "message": "Funcions d'IA al núvol (fora de línia)"
+  },
+  "t_7af6f6e5": {
+    "message": "Ho entenc"
+  },
+  "t_9bc7102e": {
+    "message": "Crea un compte gratuït d'EasyView per fer un seguiment de la teva quota i desbloquejar el Descodificador de jerga."
+  },
+  "t_ab7512fd": {
+    "message": "El teu testimoni de sessió no hi és. Si us plau, inicia la sessió a easyview.in de nou per restaurar l'accés."
+  },
+  "t_1cd7820a": {
+    "message": "NOMÉS ACCÉS PROFESSIONAL"
+  },
+  "t_8eb14032": {
+    "message": "Descodificador de jerga<br><span class=\"ev-si-gradient-text\">Quota assolida</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "QUOTA EXHAURIDA"
+  },
+  "t_5ae983dc": {
+    "message": "Has utilitzat les <strong>5 descodificacions gratuïtes</strong> d'aquest mes. Desbloqueja l'accés il·limitat en segons."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> Passa a Professional — Descodificacions il·limitades</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> Utilitza la teva pròpia clau API</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 Afegeix la clau API a la configuració</button>"
+  },
+  "t_9be4129a": {
+    "message": "Exportador de baralla d'estudi<br><span class=\"ev-si-gradient-text\">Automatització Professional</span>"
+  },
+  "t_fac34185": {
+    "message": "Exporta a l'instant tot el teu quadern d'estudi personalitzat directament a <strong>Anki</strong> i <strong>Quizlet</strong>."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Oblida't d'escriure manualment</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Compilador de targetes de memòria RFC-4180</div>"
+  },
+  "t_da12c30b": {
+    "message": "Accés professional"
+  },
+  "t_4a9b2c01": {
+    "message": "Aquesta funció"
+  },
+  "t_3be78c01": {
+    "message": "Aquest tipus de lletra per a la lectura amb dislèxia"
+  },
+  "t_0ad4b971": {
+    "message": "Aquest tipus de lletra visual"
+  },
+  "t_9af42be8": {
+    "message": "Aquest tipus de lletra d'exportació premium"
+  },
+  "t_cbae8349": {
+    "message": "Actualitza per desbloquejar totes les funcions d'accessibilitat i eines avançades."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Accessibilitat avançada</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Totes les futures actualitzacions</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ Actualitza a professional"
+  },
+  "t_5ef4c1a2": {
+    "message": "Potser més tard"
+  },
+  "t_3b7a5e82": {
+    "message": ", però les funcions d'IA poden estar temporalment no disponibles."
+  },
+  "t_c91d8e12": {
+    "message": "General"
+  },
+  "t_b42f3a9d": {
+    "message": "Definició"
+  },
+  "t_f1d4a8e6": {
+    "message": "Diccionari"
+  },
+  "t_e398c71f": {
+    "message": "Personalitzat"
+  },
+  "t_a72df9e5": {
+    "message": "Mèdic"
+  },
+  "t_d8f2c61a": {
+    "message": "Legal"
+  },
+  "t_b3e1f5d2": {
+    "message": "Financer"
+  },
+  "t_c25d81f9": {
+    "message": "Tecnologia"
+  },
+  "t_e1b3a4f6": {
+    "message": "Acadèmic"
+  },
+  "t_d5f9b4c1": {
+    "message": "Terme"
+  },
+  "t_f7a2e8ea": {
+    "message": "Categoria"
+  },
+  "t_e3b1c6d9": {
+    "message": "Significat simplificat"
+  },
+  "t_a9d4e5f2": {
+    "message": "Notes d'estudi / Context"
+  },
+  "t_b4c5d6e7": {
+    "message": "Cancel·la"
+  },
+  "t_c8f2a1b4": {
+    "message": "Desa els canvis"
+  },
+  "t_8c17b5e6": {
+    "message": "El teu testimoni de sessió no hi és. Si us plau, inicia la sessió a easyview.in de nou per restaurar l'accés."
+  },
+  "t_a43dc219": {
+    "message": "Crea un compte gratuït d'EasyView per fer un seguiment de la teva quota d'ús i desbloquejar el motor d'IA Morph."
+  },
+  "t_54c523fe": {
+    "message": "🎉 Impecable! S'han importat correctament $1 targetes d'estudi noves."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 Impecable! S'han importat $1 targetes noves. (S'han omès $2 duplicats.)"
+  },
+  "t_14894d12": {
+    "message": "Exportació del tema"
+  },
+  "t_f27a2629": {
+    "message": "Còpia de seguretat de la biblioteca de temes"
+  },
+  "t_9ad85e17": {
+    "message": "Mode regle de lectura"
+  },
+  "t_b9d4e7a5": {
+    "message": "Modes avançats de l'escut sensorial"
+  },
+  "t_94f4f7e4": {
+    "message": "Analitzant DOCX...",
+    "description": "Estat en analitzar DOCX al lector"
+  },
+  "t_120adfc1": {
+    "message": "Analitzant EPUB...",
+    "description": "Estat en analitzar EPUB al lector"
+  },
+  "t_5d2a45b8": {
+    "message": "El mode de regle de lectura és exclusiu per a subscripcions professionals.",
+    "description": "Avís quan un usuari no professional accedeix al regle de lectura"
+  },
+  "t_c1f29623": {
+    "message": "Edita tota la targeta",
+    "description": "Informació sobre eines per editar tota la targeta al quadern"
+  },
+  "t_1063e38c": {
+    "message": "Elimina",
+    "description": "Informació sobre eines per eliminar la targeta del quadern"
   },
   "t_ccca2ddf": {
-    "message": "EasyView Reader"
+    "message": "Lector EasyView"
   },
   "t_8524de96": {
-    "message": "Loading..."
+    "message": "S'està carregant..."
   },
   "t_25e8f2fd": {
-    "message": "Please wait..."
+    "message": "Si us plau, espera..."
   },
   "t_ec9d785d": {
     "message": "1.5x"
@@ -762,7 +2339,7 @@
     "message": "Atkinson Hyperlegible"
   },
   "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
+    "message": "Segoe UI (per defecte de Windows)"
   },
   "t_f7cee5ea": {
     "message": "Calibri"
@@ -786,10 +2363,10 @@
     "message": "Book Antiqua"
   },
   "t_03c461f6": {
-    "message": "Franklin Gothic"
+    "message": "Gòtic Franklin"
   },
   "t_7b1ee3b6": {
-    "message": "Century Gothic"
+    "message": "Gòtic del Segle"
   },
   "t_a3293302": {
     "message": "Gill Sans"
@@ -804,13 +2381,13 @@
     "message": "Microsoft Sans Serif"
   },
   "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
+    "message": "Segoe UI Seminegre"
   },
   "t_16507cdd": {
     "message": "Consolas"
   },
   "t_391c5954": {
-    "message": "Lucida Console"
+    "message": "Consola Lùcida"
   },
   "t_9879efdf": {
     "message": "Lucida Sans Typewriter"
@@ -822,7 +2399,7 @@
     "message": "Arial Black"
   },
   "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
+    "message": "Gòtic Copperplate"
   },
   "t_40885309": {
     "message": "Berlin Sans FB"
@@ -840,19 +2417,64 @@
     "message": "Segoe Print"
   },
   "t_0095a9fa": {
-    "message": "Export"
+    "message": "Exporta"
   },
   "t_520d0db3": {
     "message": "Format"
   },
   "t_5956a437": {
-    "message": "TXT"
+    "message": "TEXT"
   },
   "t_1351017a": {
-    "message": "Filename"
+    "message": "Nom del fitxer"
+  },
+  "t_d4c3c15b": {
+    "message": "Cap fitxer carregat"
+  },
+  "t_0ca5a078": {
+    "message": "Si us plau, utilitzeu la pestanya del convertidor per carregar un fitxer."
+  },
+  "t_c9857e16": {
+    "message": "Tipus de fitxer no compatible."
+  },
+  "t_6b447b91": {
+    "message": "Error en analitzar el fitxer: "
+  },
+  "t_7f4588be": {
+    "message": "EPUB"
+  },
+  "t_12dc65c2": {
+    "message": "Alterna clar/fosc"
+  },
+  "t_d3d2e617": {
+    "message": "Tanca"
+  },
+  "t_6e8cfcb7": {
+    "message": "Exportació segura al servidor (Premium)"
+  },
+  "t_2f9df658": {
+    "message": "Desenganxa i fes flotar l'espai de treball sobre totes les finestres"
+  },
+  "t_72d6d7a1": {
+    "message": "Importa"
+  },
+  "t_de93d5fd": {
+    "message": "Exporta les notes"
+  },
+  "t_a1aacca9": {
+    "message": "Sistema flotant"
+  },
+  "t_ac0b844f": {
+    "message": "Notes globals"
+  },
+  "t_15866f1d": {
+    "message": "Notes específiques del lloc"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
   },
   "t_6af8212e": {
-    "message": "EasyView Notes Board"
+    "message": "Tauler de notes EasyView"
   },
   "t_d16da0f5": {
     "message": "🌎"
@@ -860,61 +2482,168 @@
   "t_6df173ff": {
     "message": "📍"
   },
-  "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
+  "t_22f58a00": {
+    "message": "🌎 Nota global"
   },
-  "js_24833610": {
-    "message": "Saved"
+  "t_5be8bbeb": {
+    "message": "🌐 Nota del lloc"
   },
-  "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+  "t_59a56663": {
+    "message": "📍 Nota de la pàgina"
   },
-  "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+  "t_c1843696": {
+    "message": "S'està verificant el testimoni d'integritat..."
   },
-  "js_138703dd": {
-    "message": "No Theme on Page"
+  "t_58038ee4": {
+    "message": "Ara mateix"
   },
-  "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+  "t_e254e1a1": {
+    "message": "fa $1 min",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+  "t_121d4d02": {
+    "message": "fa $1 h",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_e541190e": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
+  "t_19d2b280": {
+    "message": "fa $1 d",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_d2e8056c": {
-    "message": "<path d=\"M9.88 9.88a3 3 0 1 0 4.24 4.24\"/><path d=\"M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68\"/><path d=\"M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61\"/><line x1=\"2\" x2=\"22\" y1=\"2\" y2=\"22\"/>"
+  "t_d3d4311c": {
+    "message": "Arrossega la nota"
   },
-  "js_e2cb885d": {
-    "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
+  "t_7b32ea16": {
+    "message": "Canvia a $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_8b86136c": {
-    "message": "Ready to simplify"
+  "t_11916b28": {
+    "message": "Abast de la ubicació"
   },
-  "js_a18366b2": {
-    "message": "Dark"
+  "t_5463fe67": {
+    "message": "Paleta de colors"
   },
-  "js_9914a0ce": {
-    "message": "Light"
+  "t_d116d454": {
+    "message": "Col·lapsa la nota"
   },
-  "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+  "t_be9ba0e5": {
+    "message": "Copia el text"
   },
-  "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+  "t_28471624": {
+    "message": "Més accions"
   },
-  "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+  "t_90e467df": {
+    "message": "Tanca la nota"
   },
-  "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+  "t_34494920": {
+    "message": "Escriu la teva nota aquí..."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_bdda0b60": {
+    "message": "En què pensaves..."
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_8689de27": {
+    "message": "Disponible a tot arreu"
+  },
+  "t_c0cf9810": {
+    "message": "Teletransporta't de tornada a la pàgina d'origen"
+  },
+  "t_24a23176": {
+    "message": "Context original"
+  },
+  "t_4c1c1e76": {
+    "message": "Importació de quadern"
+  },
+  "t_2736f644": {
+    "message": "Combina perfectament els teus jocs d'estudi i llistes de vocabulari externs amb el teu ecosistema EasyView."
+  },
+  "t_ca4f038f": {
+    "message": "Columnes obligatòries"
+  },
+  "t_7277de5f": {
+    "message": "Significat"
+  },
+  "t_ce591bfa": {
+    "message": "Columnes opcionals"
+  },
+  "t_f4c6f851": {
+    "message": "Anotacions"
+  },
+  "t_c1fd81a6": {
+    "message": "Selecciona o arrossega un fitxer CSV"
+  },
+  "t_5c426600": {
+    "message": "Els duplicats i les paraules existents es filtren automàticament"
+  },
+  "t_76e7183d": {
+    "message": "Importació correcta!"
+  },
+  "t_3e17e02d": {
+    "message": "El teu vocabulari s'ha actualitzat."
+  },
+  "t_3148d309": {
+    "message": "Tanca la pestanya"
+  },
+  "t_0e412fa1": {
+    "message": "La celebració s'activarà quan tornis a la finestra emergent"
+  },
+  "t_d29f6e6b": {
+    "message": "L'importació ha fallat"
+  },
+  "t_e04efbcb": {
+    "message": "Estat del quadern"
+  },
+  "t_ed732761": {
+    "message": "Importació de temes Morph"
+  },
+  "t_e44db711": {
+    "message": "Importa de manera segura la teva biblioteca personalitzada de motor Morph directament a l'EasyView."
+  },
+  "t_c0bb7d43": {
+    "message": "Selecciona o arrossega un fitxer JSON"
+  },
+  "t_36e9583e": {
+    "message": "Importa els teus dissenys de temes exportats anteriorment."
+  },
+  "t_21630184": {
+    "message": "Temes restaurats!"
+  },
+  "t_d0c1ec75": {
+    "message": "Les teves plantilles Morph s'han instal·lat correctament."
+  },
+  "t_cd27a5c0": {
+    "message": "EasyView — Lector de contingut"
+  },
+  "t_b171ab1f": {
+    "message": "Benvingut al Lector"
+  },
+  "t_4e07c284": {
+    "message": "Puja els teus documents aquí per llegir-los amb tipografia personalitzada i ajudes d'accessibilitat avançades."
+  },
+  "t_004621c0": {
+    "message": "Admet .docx, .epub i .txt"
+  },
+  "t_23bb27a0": {
+    "message": "S'està inicialitzant l'analitzador de documents..."
+  },
+  "t_e1d5f16c": {
+    "message": "S'està optimitzant el arxius DOCX per a la llegibilitat..."
+  },
+  "t_0e55c5d0": {
+    "message": "S'està analitzant l'estructura dels arxius EPUB..."
   }
 }

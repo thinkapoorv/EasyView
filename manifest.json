@@ -14,7 +14,7 @@
   "default_locale": "en",
   "name": "__MSG_appName__",
   "short_name": "__MSG_appShortName__",
-  "version": "1.1.1.6",
+  "version": "1.1.1.7",
   "description": "__MSG_appDesc__",
   "permissions": [
     "activeTab",
@@ -39,18 +39,29 @@
         "<all_urls>"
       ],
       "js": [
+        "js/i18n-content.js",
         "js/constants/tier-schema.js",
         "dom-utils.js",
         "content.js",
         "js/features/selection-tooltip.js",
         "js/features/content-privacy-shield.js",
         "js/features/sticky-notes.js",
-        "inject/index.js",
-        "inject/payment-bridge.js"
+        "inject/index.js"
       ],
       "css": [
         "content.css",
         "js/features/sticky-notes.css"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://easyview.in/*",
+        "https://*.easyview.in/*",
+        "https://easyview.vercel.app/*"
+      ],
+      "js": [
+        "inject/payment-bridge.js"
       ],
       "run_at": "document_idle"
     }
@@ -107,7 +118,8 @@
         "sandbox.js",
         "fonts/kindle/Fast_OpenDyslexic/*.otf",
         "fonts/kindle/Fast_Sans/*.otf",
-        "fonts/kindle/Fast_Serif/*.otf"
+        "fonts/kindle/Fast_Serif/*.otf",
+        "_locales/*"
       ],
       "matches": [
         "<all_urls>"

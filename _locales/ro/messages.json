@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "EasyView — Claritate pentru orice creier"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "VizualizareUșoară"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "Transformă instantaneu orice site web cu instrucțiuni AI sau un singur clic. Vezi web-ul în felul tău."
+  },
+  "t_68ba0232": {
+    "message": "Mod dislexie activat"
+  },
+  "t_85f47a25": {
+    "message": "Mod dislexie dezactivat"
+  },
+  "t_1cc1b64d": {
+    "message": "Nu există suficient conținut de analizat"
+  },
+  "t_cebe6412": {
+    "message": "Nu s-au găsit termeni complecși"
+  },
+  "t_b964aa0f": {
+    "message": "Eroare la analizarea conținutului paginii"
+  },
+  "t_956c104e": {
+    "message": "Memoria paginii ștearsă"
+  },
+  "t_1f4b0f3e": {
+    "message": "Glosar șters"
+  },
+  "t_4bfeec37": {
+    "message": "Nu s-au găsit termeni complecși în selecție"
+  },
+  "t_1b5e8531": {
+    "message": "Nu s-au găsit termeni complecși în selecție"
+  },
+  "t_a1f781ec": {
+    "message": "Eroare la decodarea selecției"
+  },
+  "t_7aae8122": {
+    "message": "Evidențierile selecției au fost șterse"
+  },
+  "t_58762fd6": {
+    "message": "Te rugăm să selectezi un singur cuvânt sau o frază scurtă pentru a defini."
+  },
+  "t_6838b119": {
+    "message": "Eroare de rețea la căutarea definiției."
+  },
+  "t_ea3ca1b5": {
+    "message": "Am decodat $1 termeni (din cache)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "Am decodat $1 termeni (stocați)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "Ai folosit toate utilizările gratuite ale Decodificatorului de Jargon luna aceasta. Actualizează la Profesional pentru acces nelimitat."
+  },
+  "t_cb3c5d3a": {
+    "message": "Am decodat $1 termeni în $2 categorii",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "Am evidențiat automat $1 instanțe ale termenului tău de vocabular decodat",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "Am restabilit $1 definiție de jargon salvată$2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "Ai folosit toate utilizările gratuite ale Decodificatorului de Jargon luna aceasta. Actualizează la Profesional pentru acces nelimitat."
+  },
+  "t_0b841c82": {
+    "message": "Deja în Caiet!"
+  },
+  "t_8901f3ab": {
+    "message": "Salvat în Caiet!"
+  },
+  "t_eb8f5242": {
+    "message": "Eroare la salvarea în Caiet"
+  },
+  "t_bd15702b": {
+    "message": "Scut senzorial activat"
+  },
+  "t_c28f3265": {
+    "message": "Scut senzorial dezactivat"
+  },
+  "t_3f8910d9": {
+    "message": "VIZUALIZAREUȘOARĂ"
+  },
+  "t_8aafa613": {
+    "message": "Nu s-a putut simplifica acest text"
+  },
+  "t_79d2dc85": {
+    "message": "Nu s-a putut simplifica acest text"
+  },
+  "t_99684ba5": {
+    "message": "Eroare la simplificarea textului"
+  },
+  "t_f4362bde": {
+    "message": "Copiat în clipboard!"
+  },
+  "t_af07ef4b": {
+    "message": "Copierea a eșuat"
+  },
+  "t_94e4d537": {
+    "message": "Text înlocuit pe pagină"
+  },
+  "t_14a04b67": {
+    "message": "Memoria de simplificare a fost ștearsă"
+  },
+  "t_c444ff21": {
+    "message": "Textul original a fost restabilit temporar"
+  },
+  "t_55f1db14": {
+    "message": "Ai folosit toate utilizările gratuite luna aceasta. Actualizează la Profesional pentru acces nelimitat."
+  },
+  "t_fde4e3f0": {
+    "message": "Am restabilit $1 simplificări salvate pe această pagină",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "Simplificare încărcată dinamic restabilită automat!"
+  },
+  "t_dfa22e52": {
+    "message": "Text-to-Speech activat"
+  },
+  "t_ca153ad0": {
+    "message": "Text-to-Speech dezactivat"
+  },
+  "t_dadbff09": {
+    "message": "Te rugăm să activezi mai întâi Text-către-Vorbire"
+  },
+  "t_47071c61": {
+    "message": "Se reia..."
+  },
+  "t_5516c48d": {
+    "message": "Nu s-a găsit conținut lizibil pe această pagină"
+  },
+  "t_c57f25c9": {
+    "message": "Nu s-a găsit conținut lizibil"
+  },
+  "t_2516997e": {
+    "message": "Citire finalizată"
+  },
+  "t_d3069aea": {
+    "message": "Text-către-Vorbire nu este suportat în acest browser"
+  },
+  "t_53e6b8c6": {
+    "message": "Te rugăm să selectezi mai întâi un text"
+  },
+  "t_e932d0f7": {
+    "message": "Citire selecție..."
+  },
+  "t_1c50528d": {
+    "message": "Citire finalizată"
+  },
+  "t_594778a2": {
+    "message": "În pauză"
+  },
+  "t_4ded5f77": {
+    "message": "Redarea vocală oprită"
+  },
+  "t_0a74758c": {
+    "message": "✨ Susținut de cheie personală"
+  },
+  "t_2fceddad": {
+    "message": "✨ Nelimitat"
+  },
+  "t_97627d80": {
+    "message": "✨ Susținut de cheie personală"
+  },
+  "t_fd7d5888": {
+    "message": "Gestionează abonamentul"
+  },
+  "t_df4657a5": {
+    "message": "Membru gratuit"
+  },
+  "t_22dfb2ec": {
+    "message": "Utilizator invitat"
+  },
+  "t_bd9f2460": {
+    "message": "Cont gratuit"
+  },
+  "t_f5adda31": {
+    "message": "Autentificare / Înregistrare"
+  },
+  "t_d2439201": {
+    "message": "✨ Nelimitat"
+  },
+  "t_164442b7": {
+    "message": "Se pregătește motorul de conversie..."
+  },
+  "t_1e7c3002": {
+    "message": "Pregătit pentru parsarea fișierelor."
+  },
+  "t_d30f78df": {
+    "message": "Mod întunecat"
+  },
+  "t_6c68d8ce": {
+    "message": "Mod luminos"
+  },
+  "t_fcb68c2b": {
+    "message": "Nu s-au găsit notițe. Nimic de exportat!"
+  },
+  "t_2b75b2d9": {
+    "message": "Tokenul tău de sesiune lipsește. Te rugăm să te conectezi din nou la easyview.in pentru a restabili accesul."
+  },
+  "t_291a4e34": {
+    "message": "Rutarea securizată a serverului a eșuat. Verifică conexiunea."
+  },
+  "t_2dcf62b3": {
+    "message": "Nu au fost detectate note lipsă. Spațiul de lucru este la zi."
+  },
+  "t_951bf3ae": {
+    "message": "Eroare de decriptare: Fișierul nu respectă limitele EasyView."
+  },
+  "t_817a4ba0": {
+    "message": "API-ul PiP nu este suportat. Te rugăm să actualizezi Chrome."
+  },
+  "t_e8aa6e9a": {
+    "message": "Eșec la inițializarea motorului PiP: "
+  },
+  "t_9feed9d5": {
+    "message": "Am decriptat și injectat cu succes $1 notițe noi.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "TESTARE"
+  },
+  "t_c289adbe": {
+    "message": "Susține-ne"
+  },
+  "t_60d5b12a": {
+    "message": "Evaluează-ne"
+  },
+  "js_eb82de4c": {
+    "message": "Culoare personalizată"
+  },
+  "js_8caef32b": {
+    "message": "Resetează/Șterge (Selectează textul și dă clic, sau dă dublu-clic pe evidențiere manual)"
+  },
+  "t_823aeb91": {
+    "message": "Spațiu de lucru EasyView"
+  },
+  "t_fc42ed23": {
+    "message": "Nu există notițe globale care plutesc în spațiul tău de lucru."
+  },
+  "t_12d7c58a": {
+    "message": "Apasă Spațiu în timp ce cursorul pentru Note Adezive este activ pentru a genera una."
+  },
+  "t_ab983c11": {
+    "message": "Nu s-au găsit notițe specifice site-ului aici."
+  },
+  "t_e22709e9": {
+    "message": "Dă clic pe un element fizic de pe orice site web pentru a ancora o notă țintită."
+  },
+  "t_34bdba45": {
+    "message": "Pas"
+  },
+  "t_9b2d88a1": {
+    "message": "din"
+  },
+  "t_8f44d852": {
+    "message": "Începe acum!"
+  },
+  "t_b45c2f91": {
+    "message": "Deblochează exporturile spațiului de lucru"
+  },
+  "t_88f91dc1": {
+    "message": "Redarea și exportarea în siguranță a întregului tău Spațiu de Lucru Global necesită o licență Profesională verificată. Actualizează pentru a debloca permanent această funcție."
+  },
+  "t_134dff88": {
+    "message": "Poate mai târziu"
+  },
+  "t_5b8c9d11": {
+    "message": "Treci la Profesional"
+  },
+  "t_792bd8c9": {
+    "message": "Spațiu de lucru plutitor!"
+  },
+  "t_e39f7dc2": {
+    "message": "Notele tale adezive plutesc acum deasupra desktopului sistemului tău de operare."
+  },
+  "t_c83d6ec9": {
+    "message": "Re-ancorează spațiul de lucru"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Se filtrează zgomotul...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Rulează în fundal\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimizează</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Oprește motorul</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "Generare oprită"
+  },
+  "t_removed_from_notebook": {
+    "message": "Eliminat din carnețel"
+  },
+  "t_d1c58470": {
+    "message": "Dă dublu-clic pentru a elimina evidențierea"
+  },
+  "t_d4fdfb03": {
+    "message": "Conectează-te la EasyView pentru a primi $1 utilizări gratuite/lună, sau adaugă propria cheie API în Setări.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "Încărcare rezultate salvate..."
+  },
+  "t_3a99733d": {
+    "message": "Se inițializează decodificatorul de jargon..."
+  },
+  "t_b6dc9fc9": {
+    "message": "Creează un cont EasyView gratuit pentru a primi $1 decodificări AI gratuite pe lună și a-ți urmări cota.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "Creează un cont EasyView gratuit pentru a primi $1 definiții AI gratuite pe lună și a-ți urmări cota.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "Extragere conținut principal..."
+  },
+  "t_0eeae2bf": {
+    "message": "Detectare context pagină..."
+  },
+  "t_87f125d0": {
+    "message": "Analizare terminologie..."
+  },
+  "t_9ef6e70f": {
+    "message": "Utilizare rezultate stocate..."
+  },
+  "t_9afdc5e8": {
+    "message": "Analizare cu AI..."
+  },
+  "t_7ecc3abe": {
+    "message": "Decodificarea AI a eșuat"
+  },
+  "t_9220c8de": {
+    "message": "Se aplică simplificările..."
+  },
+  "t_57f406b1": {
+    "message": "Decodare selecție..."
+  },
+  "t_c50f2b72": {
+    "message": "Vezi glosar"
+  },
+  "t_49de9b11": {
+    "message": "Ascunde evidențierile pe pagină"
+  },
+  "t_3158774e": {
+    "message": "Restabilește evidențierile pe pagină"
+  },
+  "t_fc3ad42d": {
+    "message": "Salvează în vocabular"
+  },
+  "t_87e933b8": {
+    "message": "Căutare definiție..."
+  },
+  "t_56b79836": {
+    "message": "Definiția cuvântului încărcată."
+  },
+  "t_969b24ea": {
+    "message": "🔊 Dă clic oriunde pentru a activa sunetul temei"
+  },
+  "t_49337275": {
+    "message": "Evidențiere manuală"
+  },
+  "t_93324bd5": {
+    "message": "Salvat direct de pe pagina web."
+  },
+  "t_82e413f3": {
+    "message": "Simplific textul..."
+  },
+  "t_86c4f6e5": {
+    "message": "Simplificare cu AI..."
+  },
+  "t_c3e18edb": {
+    "message": "Simplificarea a eșuat"
+  },
+  "t_6398ab2c": {
+    "message": "Nivel de citire: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "Dă clic pentru a restabili temporar textul original"
+  },
+  "t_9beea3e8": {
+    "message": "Șterge permanent din memorie"
+  },
+  "t_453bb8f7": {
+    "message": "Creează un cont EasyView gratuit pentru a primi $1 simplificări AI gratuite pe lună și a-ți urmări cota.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "Ascultă"
+  },
+  "t_24833610": {
+    "message": "Salvat"
+  },
+  "t_30a008cb": {
+    "message": "Citește mai mult &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "Salvat în caietul de vocabular!"
+  },
+  "t_2728e87f": {
+    "message": "Eliminat din caietul de vocabular"
+  },
+  "t_6b8c66ce": {
+    "message": "Glosar ($1 termeni)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "Elimină memoria pentru această pagină"
+  },
+  "t_8a49fe1a": {
+    "message": "Elimină termenul"
+  },
+  "t_1534891c": {
+    "message": "Decodificate $1 termeni",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "Salvează în Caiet"
+  },
+  "t_150a2843": {
+    "message": "Șterge evidențierile"
+  },
+  "t_21ef939c": {
+    "message": "Salvat în Caiet!"
+  },
+  "t_8054da35": {
+    "message": "Dicționar rapid",
+    "description": "Antet fereastră dicționar rapid"
+  },
+  "t_4aeb2167": {
+    "message": "Cuvânt negăsit",
+    "description": "Titlu alternativ dicționar"
+  },
+  "t_272d0070": {
+    "message": "Nu am putut găsi \"$1\" în dicționarul de bază. Ar putea fi argou modern, o abreviere sau jargon foarte tehnic.",
+    "description": "Descriere de rezervă pentru dicționar cu substituent de cuvânt",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "Decodează cu Evie AI",
+    "description": "Buton de rezervă pentru decodare cu AI"
+  },
+  "t_14f1f972": {
+    "message": "prin",
+    "description": "Prefix sursă dicționar"
+  },
+  "t_f2faf2f1": {
+    "message": "Substantiv",
+    "description": "Parte de vorbire substantiv"
+  },
+  "t_b512ddf1": {
+    "message": "Verb",
+    "description": "Parte de vorbire verb"
+  },
+  "t_d807ae6a": {
+    "message": "Adjectiv",
+    "description": "Parte de vorbire adjectiv"
+  },
+  "t_1a607278": {
+    "message": "Adverb",
+    "description": "Parte de vorbire adverb"
+  },
+  "t_02de720d": {
+    "message": "Pronume",
+    "description": "Parte de vorbire pronume"
+  },
+  "t_4b7be2c3": {
+    "message": "Prepoziție",
+    "description": "Parte de vorbire prepoziție"
+  },
+  "t_a3c1d30b": {
+    "message": "Conjuncție",
+    "description": "Parte de vorbire conjuncție"
+  },
+  "t_e189f001": {
+    "message": "Interjecție",
+    "description": "Parte de vorbire interjecție"
+  },
+  "t_96de90f8": {
+    "message": "Copiază textul simplificat",
+    "description": "Indiciu pentru a copia textul simplificat"
+  },
+  "t_44a6e288": {
+    "message": "Citește pagina",
+    "description": "Indiciu pentru a citi întreaga pagină prin TTS"
+  },
+  "t_7d70d73b": {
+    "message": "Citește selecția",
+    "description": "Indiciu pentru a citi selecția prin TTS"
+  },
+  "t_11936123": {
+    "message": "Șterge ireversibil notița",
+    "description": "Indiciu pentru a șterge permanent notița"
+  },
+  "t_d27532d9": {
+    "message": "Minimizează"
+  },
+  "t_2bd339d8": {
+    "message": "Restabilește"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "VizualizareUșoară"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "Alertă sistem"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "Notificare de sistem"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "Motor\r\n                        EasyView"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "Funcțiile locale rămân\r\n                        active"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,25 +599,25 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "Experiență\r\n                        EasyView"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "Folosești EasyView de 12 ore. Creează un cont gratuit pentru a-ți\r\n                    salva\r\n                    setările, a-ți păstra cota și a debloca mai multe funcții."
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "Amintește-mi în 12 ore"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "Luminos"
   },
   "t_7fc56270": {
     "message": "A"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "Fontă"
   },
   "t_5dbc98dc": {
-    "message": "S"
+    "message": "M"
   },
   "t_69691c7b": {
     "message": "M"
@@ -60,43 +626,40 @@
     "message": "L"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "Funcționalități"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "Vizual"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "Convertor"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "Caiet"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "Decodificator de jargon"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "Simplifică termenii juridici complecși"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "wikipedia.org/wiki/Neurodivergență"
   },
   "t_61e9c06e": {
-    "message": "W"
+    "message": "L"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "Neurodivergență"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "mult\r\n                                                mai ușor"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "Scut pentru focalizare și confidențialitate"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "Estompează conținutul privat și sensibil"
   },
   "t_7f766191": {
     "message": "mail.google.com/mail/u/0/"
@@ -105,13 +668,13 @@
     "message": "G"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "Conturi Google"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "Alertă de securitate"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- Resetarea parolei solicitată..."
   },
   "t_8d9c307c": {
     "message": "N"
@@ -120,145 +683,142 @@
     "message": "Netflix"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "Nou săptămâna aceasta"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- Verifică cele mai recente\r\n                                                    lansări ale noastre..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "Tehnici de protecție"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "Estomparea conținutului privat"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "Estompează inteligent WhatsApp, Gmail și intrările de parole\r\n                                            pentru securitate vizuală instantanee."
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "Protecție automată la partajarea ecranului"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "Îți protejează instantaneu ecranul când partajezi online."
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
-  },
-  "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "Folosești\r\n                                                    un proiector fizic?"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "Lanternă de citire"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "Urmează mouse-ul cu un reflector luminos pentru a elimina complet\r\n                                            dezordinea vizuală din jur."
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "1.\r\n                                                            Forma fasciculului"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "Reflector\r\n                                                            sau Riglă"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "2.\r\n                                                                Dimensiune / Înălțime fascicul"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "Grosimea\r\n                                                                zonei de vizualizare"
   },
   "t_f0cad41b": {
     "message": "35px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "3.\r\n                                                            Nuanța lentilei fasciculului de focalizare"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "Colorează ușor\r\n                                                            spațiul de citire"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "4.\r\n                                                            Umbra ambientală a fundalului"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "Intensitatea\r\n                                                            din jurul lentilei tale"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "Scut senzorial"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "Îngheață animațiile care distrag atenția"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "știri-zilnice.ro/știri-de-ultimă-oră"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "ȘTIRI DE ULTIMĂ ORĂ"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "Se citește un articol din știrile zilnice..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "CÂȘTIG!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "Mod scut"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(implicit)"
   },
   "t_9e3360ac": {
-    "message": "PRO"
+    "message": "PROFESIONAL"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "Oprește redarea automată + estompări calme\r\n                                                la navigarea manuală"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "Mod citire dislexie"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "Fonturi și spațiere optimizate"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "Profil de intensitate"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "Scăzut"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "Mediu"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "Ridicat"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "ro.wikipedia.org/wiki/Citire"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "Citire"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "Iată o previzualizare a setărilor tale de citire."
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "Opțiuni avansate"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "Stil font"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "Implicit (Fără modificare)"
   },
   "t_5d2967ef": {
     "message": "OpenDyslexic"
   },
   "t_1042daad": {
-    "message": "Lexend (ADHD Pro) 🔒"
+    "message": "Lexend (ADHD Profesional) 🔒"
   },
   "t_bcec044a": {
     "message": "Atkinson Hyperlegible 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "Sans rapid"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "Serif rapid"
   },
   "t_93075043": {
     "message": "Comic Neue"
@@ -267,148 +827,145 @@
     "message": "Comic Sans"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "Spațiere litere"
   },
   "t_960b44c5": {
     "message": "Normal"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "Înălțime rând"
   },
   "t_60086472": {
     "message": "1.5"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "Spațiere cuvinte"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "Dimensiune font"
   },
   "t_30bd7ce7": {
     "message": "100%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "Culoare suprapunere"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "Niciunul"
   },
   "t_2bd8c63b": {
-    "message": "Beige"
+    "message": "Bej"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "Albastru deschis"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "Verde deschis"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "Galben deschis"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "Text-către-vorbire"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "Citește cu voce tare cu evidențiere"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "Redare"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "Pauză"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "Oprește"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "Selectare voce"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "Auto (Cea mai bună calitate)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "Viteză citire"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "Foarte încet"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "Încet"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "Rapid"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "Foarte rapid"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "Volum"
   },
   "t_f1943132": {
     "message": "70%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "Pauză la punctuație"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "Evidențiere cuvinte"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "Activează"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "Mod"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "Întunecat"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "ro.wikipedia.org/wiki/Lumină"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "Vizualuri perfecte pentru confortul ochilor. Lumina poate fi intensă."
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "Luminozitate"
   },
   "t_c63ecd19": {
     "message": "Contrast"
   },
   "t_b84a9a38": {
-    "message": "Sepia"
+    "message": "Sepiu"
   },
   "t_9f1ef078": {
     "message": "0%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "Tonuri de gri"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "Implicit"
   },
   "t_b1166920": {
     "message": "Lexend 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "Contur text"
   },
   "t_cfcd2084": {
     "message": "0"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "Convertor și cititor inteligent"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "Fișier curent"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "Clic sau trage fișierul pentru a încărca"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• Pregătit"
   },
   "t_4c4ad5fc": {
     "message": "HTML"
@@ -426,112 +983,112 @@
     "message": "Global"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "Site/Pagină"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "Carnetul meu"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "Șterge tot"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "Anulează"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "Salvează cuvântul"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "Niciun cuvânt salvat încă."
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "Treci cu mouse-ul peste jargon pe orice pagină și dă clic pe marcajul de carte pentru a-l salva aici!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "Reimaginează interfața oricărui site web. Descrie ce vrei sau alege o\r\n                            prestabilire."
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "Aspect\r\n                                Aplicat"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "Aspectul AI personalizat\r\n                                este activ pe acest site."
   },
   "t_e8a57cd1": {
     "message": "0 /\r\n                                500"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "Resetează pagina"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "Aspect morf"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "Presetări implicite"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "Carnaval de groază"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "Vibe-uri de carnaval înfricoșător și text horror animat"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "Consolă matrice"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "Temă terminal cyberpunk"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "Focalizare neuro"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "Fonturi prietenoase pentru dislexie și culori calmante"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "Mod citire"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "Aspect minimalist optimizat pentru concentrare"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "Solicitări recente"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "Utilizator invitat"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "Cont gratuit"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "Autentificare / Gestionare"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "Deconectare"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "Setări API"
   },
   "t_766cc4dd": {
     "message": "Gemini"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "Furnizor IA"
   },
   "t_222cf5ed": {
     "message": "Google Gemini"
@@ -540,64 +1097,64 @@
     "message": "OpenRouter"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "Cheie API Gemini"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "Studioul AI Google"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "Cheie API OpenRouter"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "Salvează cheia API"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "EasyView\r\n                                    Prioritate AI"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ Cheia mea API"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 Servere EasyView"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "Alege\r\n                                ce este folosit mai întâi pentru toate funcțiile AI. Dacă cheia ta expiră, serverele EasyView sunt\r\n                                întotdeauna folosite ca rezervă."
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "Confidențialitate\r\n                                    & Prioritate"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "Prioritate 1:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "Prioritate 2:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "Notă motor\r\n                                            morf:"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "niciodată"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "Ajutor și feedback"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "Ai o întrebare, ai găsit o eroare sau vrei să sugerezi o funcție? Ne-ar plăcea să aflăm de la tine!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "Raportează o eroare / Oferă feedback"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Pregătit pentru simplificare"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "Exportă setări"
   },
   "t_9d5ed678": {
-    "message": "B"
+    "message": "A"
   },
   "t_dd753679": {
     "message": "I"
@@ -615,25 +1172,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "Intensitate"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "Opacitate"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "Grosime"
   },
   "t_18d80423": {
     "message": "400"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "Înălțime\r\n                                Linie"
   },
   "t_f522dede": {
     "message": "1.7x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "Omite"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,13 +1199,13 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "Evidențiere"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "CERNEALĂ"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "ESTOMPARE"
   },
   "t_e8bfe352": {
     "message": "Lexend 👑"
@@ -672,10 +1229,10 @@
     "message": "Trebuchet MS"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "Sans sistem"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "Taims Niu Roman"
   },
   "t_eada8196": {
     "message": "Georgia"
@@ -684,7 +1241,7 @@
     "message": "Garamond"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "Serif sistem"
   },
   "t_9495d215": {
     "message": "Comic Sans MS"
@@ -693,10 +1250,10 @@
     "message": "Courier New"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "Monospațiat"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "Dimensiune font"
   },
   "t_f4f9f2f4": {
     "message": "14px"
@@ -723,7 +1280,7 @@
     "message": "32px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "Gata"
   },
   "t_63922286": {
     "message": "×"
@@ -732,25 +1289,1045 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "Exportă biblioteca de teme"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "Salvează-ți capodoperele generate de AI\r\n                local."
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "Exportă întreaga bibliotecă"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
+    "message": ".json (Fișier JSON)"
+  },
+  "js_99537132": {
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Acțiune necesară</div>\n            <h2 class=\"ev-si-title\">Cont<br><span class=\"ev-si-gradient-text\">Suspendat</span></h2>\n            <p class=\"ev-si-sub\">Accesul tău EasyView a fost restricționat din cauza unei încălcări a termenilor noștri de serviciu.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contactează asistența\n            </a>\n          </div>\n        </div>\n      "
+  },
+  "js_57b20c49": {
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Te rugăm să descrii mai întâi morful tău.</span>\n          </div>"
+  },
+  "js_7f34dbea": {
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Se morfează...</span>\n      "
+  },
+  "js_138703dd": {
+    "message": "Nicio temă pe pagină"
+  },
+  "js_cf3190a0": {
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>Exportă pagina curentă"
+  },
+  "js_ac5b17d0": {
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Se compilează..."
+  },
+  "js_e541190e": {
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
+  },
+  "js_d2e8056c": {
+    "message": "<path d=\"M9.88 9.88a3 3 0 1 0 4.24 4.24\"/><path d=\"M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68\"/><path d=\"M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61\"/><line x1=\"2\" x2=\"22\" y1=\"2\" y2=\"22\"/>"
+  },
+  "js_e2cb885d": {
+    "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
+  },
+  "js_8b86136c": {
+    "message": "Pregătit pentru simplificare"
+  },
+  "js_a18366b2": {
+    "message": "Întunecat"
+  },
+  "js_9914a0ce": {
+    "message": "Luminos"
+  },
+  "js_872cc3ae": {
+    "message": "<option value=\"auto\">Auto (Cea mai bună calitate)</option>"
+  },
+  "js_94fe16a8": {
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Se decodifică..."
+  },
+  "js_be7141cc": {
+    "message": "Acest lucru pare <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">mult mai ușor</span> de înțeles."
+  },
+  "js_5d0ff3d0": {
+    "message": "Acest lucru pare mai puțin ambiguu de înțeles."
+  },
+  "t_f05df71b": {
+    "message": "Actualizarea"
+  },
+  "t_78db2ae3": {
+    "message": "Serverele noastre AI sunt în curs de actualizare."
+  },
+  "t_bb2129c8": {
+    "message": "Deblochează complet"
+  },
+  "t_aefee7cd": {
+    "message": "Claritate pentru fiecare creier"
+  },
+  "t_c38beca1": {
+    "message": "Firefox restricționează API-urile de detectare a monitorului fizic. "
+  },
+  "t_f2fe1e79": {
+    "message": "Valorile sub 1.0 pot comprima textul și pot strica aspectul paginii."
+  },
+  "t_ca677d53": {
+    "message": "Ajustări vizuale"
+  },
+  "t_230b4522": {
+    "message": "Panou de notițe"
+  },
+  "t_596b54bf": {
+    "message": "Agent AI Morph"
+  },
+  "t_47e79a17": {
+    "message": "Obține cheia gratuită la"
+  },
+  "t_42372184": {
+    "message": "Temele sunt exportate ca"
+  },
+  "t_74fdc8a2": {
+    "message": "Te rugăm să descrii mai întâi transformarea ta Morph."
+  },
+  "t_245fd3b9": {
+    "message": "Aspectul morfat a fost șters."
+  },
+  "t_172bd753": {
+    "message": "Temă exportată cu succes!"
+  },
+  "t_4c34daff": {
+    "message": "Conexiunea a expirat. Serverul este inaccesibil."
+  },
+  "t_0dd56117": {
+    "message": "Nu s-a găsit nicio temă activă pe această pagină."
+  },
+  "t_cb5c0766": {
+    "message": "Biblioteca exportată cu succes!"
+  },
+  "t_8adb392e": {
+    "message": "Conexiunea a expirat. Serverul este inaccesibil."
+  },
+  "t_ae94e0e4": {
+    "message": "Biblioteca ta de teme este goală."
+  },
+  "t_10a0c40b": {
+    "message": "Temă personalizată încărcată cu succes!"
+  },
+  "t_9b6007a8": {
+    "message": "Eroare la citirea fișierului de temă."
+  },
+  "t_d4fa051d": {
+    "message": "Eșec: $1. Te rugăm să reîncarci fila.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "Aplicat: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "Am restabilit $1 teme din bibliotecă!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "Preferință limbă"
+  },
+  "t_lang_updated_reload": {
+    "message": "Limba a fost actualizată. Se reîncarcă..."
+  },
+  "t_transformation_failed": {
+    "message": "Transformarea a eșuat."
+  },
+  "t_c8a59e71": {
+    "message": "Respinge"
+  },
+  "t_7764306b": {
+    "message": "Mentenanță servicii cloud activă"
+  },
+  "t_248228de": {
+    "message": "Comută fontul pentru dislexie în fereastră"
+  },
+  "t_79a59320": {
+    "message": "Începe turul aplicației"
+  },
+  "t_533bff5b": {
+    "message": "Fixează notița pe pagină (Alt+N)"
+  },
+  "t_f4f70727": {
+    "message": "Setări"
+  },
+  "t_4fd11104": {
+    "message": "Spot circular"
+  },
+  "t_0d063af1": {
+    "message": "Riglă linie orizontală 🔒"
+  },
+  "t_60d71580": {
+    "message": "Clar luminos"
+  },
+  "t_efe48742": {
+    "message": "Focalizare chihlimbar"
+  },
+  "t_610a09ca": {
+    "message": "Cian rece"
+  },
+  "t_886f6b9e": {
+    "message": "Verde odihnitor"
+  },
+  "t_65e8194e": {
+    "message": "Negru intens"
+  },
+  "t_7243ed99": {
+    "message": "Ardezie de miezul nopții"
+  },
+  "t_ec6d8325": {
+    "message": "Pădure adâncă"
+  },
+  "t_4af435e0": {
+    "message": "Vin de vampir"
+  },
+  "t_2a7dbdf8": {
+    "message": "Funcție profesională"
+  },
+  "t_fc4aec61": {
+    "message": "Deschide în cititor"
+  },
+  "t_801ab246": {
+    "message": "Descarcă"
+  },
+  "t_aa3880dc": {
+    "message": "Descarcă ca HTML"
+  },
+  "t_e0781e81": {
+    "message": "Descarcă ca EPUB"
+  },
+  "t_442ff212": {
+    "message": "Descarcă ca DOCX"
+  },
+  "t_6244ee7c": {
+    "message": "Adaugă termen personalizat manual"
+  },
+  "t_6e7d015f": {
+    "message": "Importă fișier CSV"
+  },
+  "t_edbc5415": {
+    "message": "Exportă pentru Anki / Quizlet"
+  },
+  "t_46c29f7a": {
+    "message": "Încarcă temă"
+  },
+  "t_2bd65c5d": {
+    "message": "Exportă temă"
+  },
+  "t_c1c433ac": {
+    "message": "Furnizor AI activ"
+  },
+  "t_90c09393": {
+    "message": "Punctat"
+  },
+  "t_eb656e41": {
+    "message": "Punctată"
+  },
+  "t_0c99ddee": {
+    "message": "Culoare evidențiere"
+  },
+  "t_eaf63759": {
+    "message": "Culoare cerneală"
+  },
+  "t_a183c9f0": {
+    "message": "Culoare estompare"
+  },
+  "t_75e7422f": {
+    "message": "Culoare fundal"
+  },
+  "t_42f9ceea": {
+    "message": "Caută în lexiconul salvat..."
+  },
+  "t_0e84a8cf": {
+    "message": "Introdu cuvânt sau acronim..."
+  },
+  "t_eea6890c": {
+    "message": "Semnificație / Traducere..."
+  },
+  "t_4480cf46": {
+    "message": "Truc de memorie sau notiță de studiu (opțional)..."
+  },
+  "t_d8634fbf": {
+    "message": "de ex., Transformă într-o temă stil anime roz cu carduri rotunjite, sau transformă într-o consolă terminal retro verde închis..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "Notițe adezive"
+  },
+  "t_b097d277": {
+    "message": "Adaugă cuvânt"
+  },
+  "t_1eeb67ee": {
+    "message": "Exportă pagina curentă"
+  },
+  "t_b62ded9a": {
+    "message": "Servicii cloud offline"
+  },
+  "t_263e00eb": {
+    "message": "Conectare / Creează cont"
+  },
+  "t_7748eb3b": {
+    "message": "ACTUALIZARE LA PRO"
+  },
+  "t_81a5d20b": {
+    "message": "Îngheață tot"
+  },
+  "t_e61146d9": {
+    "message": "Estompări calme"
+  },
+  "t_57323916": {
+    "message": "Oprește redarea automată"
+  },
+  "t_f50319ea": {
+    "message": "Protecție completă"
+  },
+  "t_8e13f26d": {
+    "message": "Întrebare rapidă"
+  },
+  "t_134b26da": {
+    "message": "Te bucuri de<br><span class=\"ev-si-gradient-text\">EasyView?</span>"
+  },
+  "t_b75bdd9e": {
+    "message": "Feedback-ul tău ne ajută să ne îmbunătățim.<br>Te bucuri de experiență?"
+  },
+  "t_396d1ff8": {
+    "message": "Da!"
+  },
+  "t_7d0cacf3": {
+    "message": "Necesită îmbunătățiri"
+  },
+  "t_815142c9": {
+    "message": "Susține-ne"
+  },
+  "t_abd9fa39": {
+    "message": "Te-ar deranja să<br><span class=\"ev-si-gradient-text\">lași o recenzie?</span>"
+  },
+  "t_02991e61": {
+    "message": "Evaluările de la utilizatori ca tine sunt cea mai bună cale de a ajuta EasyView să crească. Durează doar un minut!"
+  },
+  "t_db49c1f2": {
+    "message": "Evaluează acum"
+  },
+  "t_7a4f0d12": {
+    "message": "Amintește-mi mai târziu"
+  },
+  "t_fee6c0e9": {
+    "message": "Feedback privat"
+  },
+  "t_74393dde": {
+    "message": "Ce putem <span class=\"ev-si-gradient-text\">face mai bine?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "Spune-ne ce a mers prost..."
+  },
+  "t_6f97affc": {
+    "message": "Trimite feedback"
+  },
+  "t_b20871b3": {
+    "message": "Te rugăm să introduci feedback-ul tău"
+  },
+  "t_7b0fee4d": {
+    "message": "Se trimite..."
+  },
+  "t_fb631633": {
+    "message": "Îți mulțumim pentru feedback."
+  },
+  "t_08727add": {
+    "message": "Vezi web-ul în felul tău."
+  },
+  "t_15bbb9d0": {
+    "message": "Site web"
+  },
+  "t_c5f29bb3": {
+    "message": "Confidențialitate"
+  },
+  "t_ad5b1a22": {
+    "message": "Fondator"
+  },
+  "t_db496e03": {
+    "message": "Cheile personale creează o conexiune directă, 100% privată cu AI-ul. Textul tău nu atinge niciodată serverele EasyView."
+  },
+  "t_387c35b3": {
+    "message": "Serverul nostru gestionat (Premium) acționează ca o copie de rezervă fiabilă dacă nu este prezentă nicio cheie sau dacă cheia ta eșuează."
+  },
+  "t_98bc5a17": {
+    "message": "Pentru a proteja algoritmii proprietari, cheia ta este direcționată scurt prin serverul nostru securizat pentru a se autentifica cu Google. Este"
+  },
+  "t_de47f1be": {
+    "message": "stocată sau înregistrată."
+  },
+  "t_25e02e7f": {
+    "message": "Activ: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ Membru Premium"
+  },
+  "t_df56cfae": {
+    "message": "⭐ Membru pe viață"
+  },
+  "t_41cbc704": {
+    "message": " zile rămase"
+  },
+  "t_b194bd82": {
+    "message": "Nu expiră niciodată"
+  },
+  "t_9f830444": {
+    "message": "⭐ Profesionist:"
+  },
+  "t_61b82be6": {
+    "message": " morfări rămase"
+  },
+  "t_c20e7ceb": {
+    "message": " morfări gratuite rămase"
+  },
+  "t_d7087930": {
+    "message": " utilizări gratuite rămase"
+  },
+  "t_4bbf11bd": {
+    "message": "Câmpurile Termen și Sens nu pot fi lăsate goale!"
+  },
+  "t_08f09d38": {
+    "message": "Detaliile cuvântului au fost actualizate!"
+  },
+  "t_32001b52": {
+    "message": "Te rugăm să introduci atât un cuvânt, cât și sensul acestuia."
+  },
+  "t_b8115861": {
+    "message": "Caietul tău de studiu este gol. Marchează mai întâi câteva cuvinte pe paginile web!"
+  },
+  "t_7114113b": {
+    "message": "Te rugăm să te conectezi mai întâi la contul tău EasyView pentru a-ți verifica funcțiile Profesionale!"
+  },
+  "t_093f9fa0": {
+    "message": "Tokenul tău de sesiune lipsește. Te rugăm să te conectezi din nou la easyview.in pentru a restabili accesul."
+  },
+  "t_0e065596": {
+    "message": "Aceasta este o funcție verificată doar pentru Premium. Actualizează la Profesional pentru a o debloca!"
+  },
+  "t_c792a645": {
+    "message": "Conectarea la serverul securizat de export a eșuat. Încearcă din nou în scurt timp."
+  },
+  "t_8d1a2675": {
+    "message": "Nu s-a putut identifica niciun element de vocabular valid în acel CSV."
+  },
+  "t_a613ed90": {
+    "message": "Eroare la scrierea în stocarea browserului! Fișierul ar putea fi prea mare pentru memoria cache locală."
+  },
+  "t_8efe87ab": {
+    "message": "Browserul nu a reușit să citească fișierul local."
+  },
+  "t_50bf63aa": {
+    "message": "Ești sigur că vrei să ștergi toate cuvintele salvate din caietul tău?"
+  },
+  "t_ff252710": {
+    "message": "Import finalizat: Toate cele $1 intrări există deja în Caietul tău.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "Eroare la parsarea CSV: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "\"$1\" este deja în caietul tău. Vrei să adaugi o altă definiție pentru el?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "Deconectare reușită"
+  },
+  "t_dbd35100": {
+    "message": "Motorul de morfare este deja în lucru..."
+  },
+  "t_2de4e55d": {
+    "message": "Aspect morfat șters"
+  },
+  "t_1bb9196d": {
+    "message": "Morfat: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "Morfarea a eșuat: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "Declanșat: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 elemente organizate",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "Aceasta va șterge permanent această notă de pe toate dispozitivele sincronizate. Continui?"
+  },
+  "t_25abf697": {
+    "message": "Exportul EPUB necesită JSZip."
+  },
+  "t_71609188": {
+    "message": "Exportul DOCX necesită html-docx-js."
+  },
+  "t_e1499766": {
+    "message": "Niciun fișier încărcat."
+  },
+  "t_023b3355": {
+    "message": "Scut confidențialitate activat"
+  },
+  "t_9483a5da": {
+    "message": "Scutul de confidențialitate dezactivat"
+  },
+  "t_a04202db": {
+    "message": "Evidențierile sunt ascunse temporar"
+  },
+  "t_b3d6b264": {
+    "message": "Evidențieri restabilite"
+  },
+  "t_7485c55e": {
+    "message": "Bun venit la EasyView! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "Puntea ta cognitivă alimentată de AI pentru o citire web mai ușoară. Hai să facem un tur rapid al funcțiilor."
+  },
+  "t_3a1fe637": {
+    "message": "Decodificator de jargon 📖"
+  },
+  "t_89cec86e": {
+    "message": "Simplifică terminologia complexă pe orice pagină web."
+  },
+  "t_f8aefae7": {
+    "message": "Scut de confidențialitate 🔐"
+  },
+  "t_aa860f86": {
+    "message": "Estompează datele sensibile și include o Riglă de Focalizare pentru o citire fără distrageri."
+  },
+  "t_0681a3b6": {
+    "message": "Scut senzorial 🛡️"
+  },
+  "t_6118b864": {
+    "message": "Îngheață GIF-urile și animațiile care distrag atenția."
+  },
+  "t_12ec6fc6": {
+    "message": "Mod citire dislexie 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "Fonturi și spațiere optimizate pentru o citire mai ușoară."
+  },
+  "t_18d9ce63": {
+    "message": "Text-către-vorbire 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "Ascultă orice pagină web cu evidențierea cuvintelor."
+  },
+  "t_0019a700": {
+    "message": "Motor de morfare ✨"
+  },
+  "t_47c2535a": {
+    "message": "Folosește AI pentru a reproiecta orice site web într-o temă sau un aspect personalizat."
+  },
+  "t_2ed2f639": {
+    "message": "Note adezive 📝"
+  },
+  "t_75025b5f": {
+    "message": "Fixează notițe flotante pe orice pagină web pentru a salva informații importante (Alt+N)."
+  },
+  "t_3ff2d7cc": {
+    "message": "Configurare API ⚙️"
+  },
+  "t_0754e836": {
+    "message": "Conectează-te pentru a-ți sincroniza cota sau configurează propria cheie API Gemini gratuită aici."
+  },
+  "t_7b6a2059": {
+    "message": "Pasul $1 din $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "Începe acum!"
+  },
+  "t_10ac3d04": {
+    "message": "Următorul"
+  },
+  "t_5c7a52b8": {
+    "message": "Apasă "
+  },
+  "t_a1b2c3d4": {
+    "message": " oricând pentru a activa manual scutul de Protecție Automată."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ Scutul de confidențialitate activat"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 Scutul de confidențialitate dezactivat"
+  },
+  "js_9b3e1a": {
+    "message": "EasyView analizează aspectul și aplică transformările..."
+  },
+  "js_4c8d2f": {
+    "message": "Definește"
+  },
+  "js_7a1e9b": {
+    "message": "Decodează"
+  },
+  "js_2d5f8c": {
+    "message": "Simplifică"
+  },
+  "js_6e3a4d": {
+    "message": "Marcaj"
+  },
+  "js_1f9b7c": {
+    "message": "Evidențiere"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "Analizare arbore DOM..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "Aspect dezordonat..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "Aplatizare structură..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[SUPRAÎNCĂRCARE_ZGOMOT]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "Eliminare distrageri..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "Noduri complexe"
+  },
+  "js_ldr_m4_cl": {
+    "message": "Se aplică regulile pentru dislexie..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "Randare interfață EasyView..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "Scanare bloc de text..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "Prea multe cuvinte..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "Se extrage sensul principal..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "Încărcare cognitivă"
+  },
+  "js_ldr_s3_cl": {
+    "message": "Se redactează o engleză mai simplă..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "AI detaliat..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "Aplicare lizibilitate..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "Șlefuire rezultat..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "Traducere jargon..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "Eroare: Confuzie"
+  },
+  "js_ldr_j2_cl": {
+    "message": "Căutare definiții..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[SUPRAÎNCĂRCARE_ZGOMOT]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "Simplificare context..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "Termeni necunoscuți"
+  },
+  "js_ldr_j4_cl": {
+    "message": "Aplicare claritate..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "Formatare rezultate..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "Analiză profundă..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "Finalizare logică AI..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "Se rulează AI..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "Aproape terminat..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "Trafic intens..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "Durează puțin mai mult..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "Încă se lucrează..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "Așteaptă puțin..."
+  },
+  "t_b7012ab9": {
+    "message": "Morfare"
+  },
+  "t_c5e8b1d9": {
+    "message": "Fonte profesionale"
+  },
+  "t_c8f2ba19": {
+    "message": "Estomparea conținutului privat activată"
+  },
+  "t_e2dae61a": {
+    "message": "Estomparea conținutului privat dezactivată"
+  },
+  "t_c74de318": {
+    "message": "Protecție automată la partajarea ecranului activată"
+  },
+  "t_a5fd56f4": {
+    "message": "Protecție automată la partajarea ecranului dezactivată"
+  },
+  "t_ab8d1f2a": {
+    "message": "Mod lanternă activat"
+  },
+  "t_2bf5cc98": {
+    "message": "Mod lanternă dezactivat"
+  },
+  "t_513bb93f": {
+    "message": "Citire bionică"
+  },
+  "t_5a8b2c1d": {
+    "message": "Iată o previzualizare a setărilor tale de citire."
+  },
+  "t_ac1d4e5f": {
+    "message": "Niciunul"
+  },
+  "t_b2e3f4a1": {
+    "message": "Lat"
+  },
+  "t_c3f4a5b2": {
+    "message": "Foarte lat"
+  },
+  "t_d1a3c901": {
+    "message": "Clic"
+  },
+  "t_b4f2e891": {
+    "message": "Fixează pe element"
+  },
+  "t_c9a1b302": {
+    "message": "Spațiu"
+  },
+  "t_f6d4e203": {
+    "message": "Notiță globală"
+  },
+  "t_e2b3f104": {
+    "message": "Ieșire"
+  },
+  "t_a7c0d905": {
+    "message": "Anulează"
+  },
+  "t_e1b2c301": {
+    "message": "Doar această pagină"
+  },
+  "t_f7a3b402": {
+    "message": "Acest site"
+  },
+  "t_a8c4d503": {
+    "message": "Toate site-urile (Global)"
+  },
+  "t_b9d5e604": {
+    "message": "Ascunde până la reîncărcare"
+  },
+  "t_c0e6f705": {
+    "message": "Fixează notița pe element"
+  },
+  "t_d1f7a806": {
+    "message": "Schimbă culoarea notei"
+  },
+  "t_e2a8b907": {
+    "message": "Restrânge/extinde notița"
+  },
+  "t_f3b9c008": {
+    "message": "Copiază conținutul notei"
+  },
+  "t_a4c0d109": {
+    "message": "Mai multe acțiuni"
+  },
+  "t_b5d1e200": {
+    "message": "Șterge această notă"
+  },
+  "t_e87033a2": {
+    "message": "Alt + X"
+  },
+  "t_4120201a": {
+    "message": "Probă gratuită activă"
+  },
+  "t_6ed40ffb": {
+    "message": "Sincronizează setările între dispozitive"
+  },
+  "t_f8b8a5fd": {
+    "message": "Cotă de utilizare gratuită mai mare"
+  },
+  "t_440b106d": {
+    "message": "Acces la viitoarele funcții Profesionale"
+  },
+  "t_3a99076c": {
+    "message": "Limită Premium"
+  },
+  "t_545f6c2f": {
+    "message": "Nelimitat"
+  },
+  "t_ad23f4a0": {
+    "message": "Note spațiale"
+  },
+  "t_04f2f045": {
+    "message": "Ai implementat cu succes toate cele 15 note din Nivelul Gratuit pe web. Actualizează la EasyView Premium pentru a debloca memoria spațială infinită și culorile personalizate."
+  },
+  "t_cf874b99": {
+    "message": "Deblochează Premium"
+  },
+  "t_a6d36e2f": {
+    "message": "Toate controalele locale de accesibilitate (Active)"
+  },
+  "t_b0b69bc3": {
+    "message": "Motor Text-către-Vorbire (Activ)"
+  },
+  "t_cc96c21a": {
+    "message": "Funcții AI în cloud (Offline)"
+  },
+  "t_7af6f6e5": {
+    "message": "Înțeleg"
+  },
+  "t_9bc7102e": {
+    "message": "Creează un cont EasyView gratuit pentru a-ți urmări cota și a debloca Decodificatorul de Jargon."
+  },
+  "t_ab7512fd": {
+    "message": "Tokenul tău de sesiune lipsește. Te rugăm să te conectezi din nou la easyview.in pentru a restabili accesul."
+  },
+  "t_1cd7820a": {
+    "message": "DOAR ACCES PROFESIONAL"
+  },
+  "t_8eb14032": {
+    "message": "Decodificator de Jargon<br><span class=\"ev-si-gradient-text\">Cotă atinsă</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "COTĂ DEPĂȘITĂ"
+  },
+  "t_5ae983dc": {
+    "message": "Ai folosit toate cele <strong>5 decodificări gratuite</strong> luna aceasta. Deblochează accesul nelimitat în câteva secunde."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> Treci la Profesional — Decodificări nelimitate</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> Folosește propria cheie API</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 Adaugă cheie API în Setări</button>"
+  },
+  "t_9be4129a": {
+    "message": "Exportator Pachet de Studiu<br><span class=\"ev-si-gradient-text\">Automatizare Profesională</span>"
+  },
+  "t_fac34185": {
+    "message": "Exportă instantaneu întregul tău Caiet de Studiu personalizat direct în <strong>Anki</strong> și <strong>Quizlet</strong>."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Renunță la tastarea manuală</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Compilator de carduri flash RFC-4180</div>"
+  },
+  "t_da12c30b": {
+    "message": "Acces profesional"
+  },
+  "t_4a9b2c01": {
+    "message": "Această funcție"
+  },
+  "t_3be78c01": {
+    "message": "Acest font pentru citire dislexică"
+  },
+  "t_0ad4b971": {
+    "message": "Acest font vizual"
+  },
+  "t_9af42be8": {
+    "message": "Acest font premium de export"
+  },
+  "t_cbae8349": {
+    "message": "Actualizează pentru a debloca toate funcțiile de accesibilitate și instrumentele avansate."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Accesibilitate avansată</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Toate actualizările viitoare</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ Treci la Pro"
+  },
+  "t_5ef4c1a2": {
+    "message": "Poate mai târziu"
+  },
+  "t_3b7a5e82": {
+    "message": ", dar funcțiile AI pot fi temporar indisponibile."
+  },
+  "t_c91d8e12": {
+    "message": "General"
+  },
+  "t_b42f3a9d": {
+    "message": "Definiție"
+  },
+  "t_f1d4a8e6": {
+    "message": "Dicționar"
+  },
+  "t_e398c71f": {
+    "message": "Personalizat"
+  },
+  "t_a72df9e5": {
+    "message": "Medical"
+  },
+  "t_d8f2c61a": {
+    "message": "Juridic"
+  },
+  "t_b3e1f5d2": {
+    "message": "Financiar"
+  },
+  "t_c25d81f9": {
+    "message": "Tehnic"
+  },
+  "t_e1b3a4f6": {
+    "message": "Academic"
+  },
+  "t_d5f9b4c1": {
+    "message": "Termen"
+  },
+  "t_f7a2e8ea": {
+    "message": "Categorie"
+  },
+  "t_e3b1c6d9": {
+    "message": "Înțeles simplificat"
+  },
+  "t_a9d4e5f2": {
+    "message": "Notițe de studiu / Context"
+  },
+  "t_b4c5d6e7": {
+    "message": "Anulează"
+  },
+  "t_c8f2a1b4": {
+    "message": "Salvează modificările"
+  },
+  "t_8c17b5e6": {
+    "message": "Tokenul tău de sesiune lipsește. Te rugăm să te conectezi din nou la easyview.in pentru a restabili accesul."
+  },
+  "t_a43dc219": {
+    "message": "Creează un cont EasyView gratuit pentru a-ți urmări cota de utilizare și a debloca motorul AI Morph."
+  },
+  "t_54c523fe": {
+    "message": "🎉 Impecabil! Am importat cu succes $1 carduri de studiu noi."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 Impecabil! Am importat $1 carduri noi. ($2 duplicate omise.)"
+  },
+  "t_14894d12": {
+    "message": "Export temă"
+  },
+  "t_f27a2629": {
+    "message": "Backup bibliotecă teme"
+  },
+  "t_9ad85e17": {
+    "message": "Mod riglă de citire"
+  },
+  "t_b9d4e7a5": {
+    "message": "Moduri avansate de scut senzorial"
+  },
+  "t_94f4f7e4": {
+    "message": "Se analizează DOCX...",
+    "description": "Stare la analizarea DOCX în cititor"
+  },
+  "t_120adfc1": {
+    "message": "Se analizează EPUB...",
+    "description": "Stare la analizarea EPUB în cititor"
+  },
+  "t_5d2a45b8": {
+    "message": "Modul Riglă de citire este exclusiv pentru abonamentele Pro.",
+    "description": "Alertă când un utilizator non-pro accesează rigla de citire"
+  },
+  "t_c1f29623": {
+    "message": "Editează tot cardul",
+    "description": "Indiciu pentru a edita întregul card în caiet"
+  },
+  "t_1063e38c": {
+    "message": "Elimină",
+    "description": "Indiciu pentru a elimina cardul din caiet"
   },
   "t_ccca2ddf": {
-    "message": "EasyView Reader"
+    "message": "Cititor EasyView"
   },
   "t_8524de96": {
-    "message": "Loading..."
+    "message": "Se încarcă..."
   },
   "t_25e8f2fd": {
-    "message": "Please wait..."
+    "message": "Te rugăm să aștepți..."
   },
   "t_ec9d785d": {
     "message": "1.5x"
@@ -762,7 +2339,7 @@
     "message": "Atkinson Hyperlegible"
   },
   "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
+    "message": "Segoe UI (Implicit Windows)"
   },
   "t_f7cee5ea": {
     "message": "Calibri"
@@ -780,16 +2357,16 @@
     "message": "Constantia"
   },
   "t_5d1a5b35": {
-    "message": "Palatino Linotype"
+    "message": "Palatino Lainotaip"
   },
   "t_4dc386b6": {
     "message": "Book Antiqua"
   },
   "t_03c461f6": {
-    "message": "Franklin Gothic"
+    "message": "Franklin Gotik"
   },
   "t_7b1ee3b6": {
-    "message": "Century Gothic"
+    "message": "Senturi Gotik"
   },
   "t_a3293302": {
     "message": "Gill Sans"
@@ -804,13 +2381,13 @@
     "message": "Microsoft Sans Serif"
   },
   "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
+    "message": "Segoi UI Semibold"
   },
   "t_16507cdd": {
     "message": "Consolas"
   },
   "t_391c5954": {
-    "message": "Lucida Console"
+    "message": "Lusida Konsol"
   },
   "t_9879efdf": {
     "message": "Lucida Sans Typewriter"
@@ -822,7 +2399,7 @@
     "message": "Arial Black"
   },
   "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
+    "message": "Koperpleit Gotik"
   },
   "t_40885309": {
     "message": "Berlin Sans FB"
@@ -840,19 +2417,64 @@
     "message": "Segoe Print"
   },
   "t_0095a9fa": {
-    "message": "Export"
+    "message": "Exportă"
   },
   "t_520d0db3": {
     "message": "Format"
   },
   "t_5956a437": {
-    "message": "TXT"
+    "message": "TEXT"
   },
   "t_1351017a": {
-    "message": "Filename"
+    "message": "Nume fișier"
+  },
+  "t_d4c3c15b": {
+    "message": "Niciun fișier încărcat"
+  },
+  "t_0ca5a078": {
+    "message": "Te rugăm să folosești fila Convertor pentru a încărca un fișier."
+  },
+  "t_c9857e16": {
+    "message": "Tip de fișier neacceptat."
+  },
+  "t_6b447b91": {
+    "message": "Eroare la analizarea fișierului: "
+  },
+  "t_7f4588be": {
+    "message": "EPUB"
+  },
+  "t_12dc65c2": {
+    "message": "Comută Luminos/Întunecat"
+  },
+  "t_d3d2e617": {
+    "message": "Închide"
+  },
+  "t_6e8cfcb7": {
+    "message": "Export securizat pe server (Premium)"
+  },
+  "t_2f9df658": {
+    "message": "Detașează și plasează spațiul de lucru deasupra tuturor ferestrelor"
+  },
+  "t_72d6d7a1": {
+    "message": "Importă"
+  },
+  "t_de93d5fd": {
+    "message": "Exportă notițe"
+  },
+  "t_a1aacca9": {
+    "message": "Sistem de operare flotant"
+  },
+  "t_ac0b844f": {
+    "message": "Notițe globale"
+  },
+  "t_15866f1d": {
+    "message": "Notițe specifice site-ului"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
   },
   "t_6af8212e": {
-    "message": "EasyView Notes Board"
+    "message": "Panou de notițe EasyView"
   },
   "t_d16da0f5": {
     "message": "🌎"
@@ -860,61 +2482,168 @@
   "t_6df173ff": {
     "message": "📍"
   },
-  "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
+  "t_22f58a00": {
+    "message": "🌎 Notă globală"
   },
-  "js_24833610": {
-    "message": "Saved"
+  "t_5be8bbeb": {
+    "message": "🌐 Notă site"
   },
-  "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+  "t_59a56663": {
+    "message": "📍 Notă pagină"
   },
-  "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+  "t_c1843696": {
+    "message": "Se verifică jetonul de integritate..."
   },
-  "js_138703dd": {
-    "message": "No Theme on Page"
+  "t_58038ee4": {
+    "message": "Chiar acum"
   },
-  "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+  "t_e254e1a1": {
+    "message": "acum $1m",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+  "t_121d4d02": {
+    "message": "acum $1h",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_e541190e": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
+  "t_19d2b280": {
+    "message": "acum $1d",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_d2e8056c": {
-    "message": "<path d=\"M9.88 9.88a3 3 0 1 0 4.24 4.24\"/><path d=\"M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68\"/><path d=\"M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61\"/><line x1=\"2\" x2=\"22\" y1=\"2\" y2=\"22\"/>"
+  "t_d3d4311c": {
+    "message": "Mută notița"
   },
-  "js_e2cb885d": {
-    "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
+  "t_7b32ea16": {
+    "message": "Comută la $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_8b86136c": {
-    "message": "Ready to simplify"
+  "t_11916b28": {
+    "message": "Domeniu de aplicare"
   },
-  "js_a18366b2": {
-    "message": "Dark"
+  "t_5463fe67": {
+    "message": "Paletă de culori"
   },
-  "js_9914a0ce": {
-    "message": "Light"
+  "t_d116d454": {
+    "message": "Restrânge nota"
   },
-  "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+  "t_be9ba0e5": {
+    "message": "Copiază textul"
   },
-  "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+  "t_28471624": {
+    "message": "Mai multe acțiuni"
   },
-  "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+  "t_90e467df": {
+    "message": "Închide notița"
   },
-  "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+  "t_34494920": {
+    "message": "Scrie-ți notița aici..."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_bdda0b60": {
+    "message": "La ce te gândeai..."
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_8689de27": {
+    "message": "Disponibil peste tot"
+  },
+  "t_c0cf9810": {
+    "message": "Teleportează înapoi la pagina de origine"
+  },
+  "t_24a23176": {
+    "message": "Context original"
+  },
+  "t_4c1c1e76": {
+    "message": "Import agendă"
+  },
+  "t_2736f644": {
+    "message": "Îmbină fără probleme pachetele de studiu externe și listele de vocabular în ecosistemul tău EasyView."
+  },
+  "t_ca4f038f": {
+    "message": "Coloane obligatorii"
+  },
+  "t_7277de5f": {
+    "message": "Semnificație"
+  },
+  "t_ce591bfa": {
+    "message": "Coloane opționale"
+  },
+  "t_f4c6f851": {
+    "message": "Note"
+  },
+  "t_c1fd81a6": {
+    "message": "Selectați sau trageți un fișier tabelar CSV"
+  },
+  "t_5c426600": {
+    "message": "Duplicatele și cuvintele existente sunt filtrate automat"
+  },
+  "t_76e7183d": {
+    "message": "Import reușit!"
+  },
+  "t_3e17e02d": {
+    "message": "Vocabularul tău a fost actualizat."
+  },
+  "t_3148d309": {
+    "message": "Închide fila"
+  },
+  "t_0e412fa1": {
+    "message": "Efectul de sărbătoare se va declanșa când revii la fereastra pop-up"
+  },
+  "t_d29f6e6b": {
+    "message": "Import eșuat"
+  },
+  "t_e04efbcb": {
+    "message": "Stare agendă"
+  },
+  "t_ed732761": {
+    "message": "Import teme Morph"
+  },
+  "t_e44db711": {
+    "message": "Importă în siguranță biblioteca ta personalizată motorului Morph direct în EasyView."
+  },
+  "t_c0bb7d43": {
+    "message": "Selectați sau trageți un fișier de date JSON"
+  },
+  "t_36e9583e": {
+    "message": "Importă aspectele temelor exportate anterior."
+  },
+  "t_21630184": {
+    "message": "Teme restaurate!"
+  },
+  "t_d0c1ec75": {
+    "message": "Șabloanele tale morph au fost instalate cu succes."
+  },
+  "t_cd27a5c0": {
+    "message": "EasyView — Cititor de conținut"
+  },
+  "t_b171ab1f": {
+    "message": "Bun venit în Cititor"
+  },
+  "t_4e07c284": {
+    "message": "Încarcă documentele aici pentru a le citi cu tipografie personalizată și instrumente avansate de accesibilitate."
+  },
+  "t_004621c0": {
+    "message": "Suportă fișiere .docx, .epub și .txt"
+  },
+  "t_23bb27a0": {
+    "message": "Se inițializează parserul de documente..."
+  },
+  "t_e1d5f16c": {
+    "message": "Se optimizează fișierele DOCX pentru lizibilitate..."
+  },
+  "t_0e55c5d0": {
+    "message": "Se analizează structura fișierelor EPUB..."
   }
 }

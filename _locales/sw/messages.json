@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "EasyView — Uwazi kwa Kila Ubongo"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "MwonekanoRahisi"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "Badilisha tovuti yoyote papo hapo kwa vidokezo vya AI au mibofyo moja. Tazama wavuti kwa njia yako."
+  },
+  "t_68ba0232": {
+    "message": "Modi ya disleksia imewashwa"
+  },
+  "t_85f47a25": {
+    "message": "Modi ya disleksia imezimwa"
+  },
+  "t_1cc1b64d": {
+    "message": "Hakuna maudhui ya kutosha kuchambua"
+  },
+  "t_cebe6412": {
+    "message": "Hakuna maneno magumu yaliyopatikana"
+  },
+  "t_b964aa0f": {
+    "message": "Hitilafu katika kuchambua maudhui ya ukurasa"
+  },
+  "t_956c104e": {
+    "message": "Kumbukumbu ya ukurasa imefutwa"
+  },
+  "t_1f4b0f3e": {
+    "message": "Kamusi imefutwa"
+  },
+  "t_4bfeec37": {
+    "message": "Hakuna maneno magumu yaliyopatikana katika uteuzi"
+  },
+  "t_1b5e8531": {
+    "message": "Hakuna maneno magumu yaliyopatikana katika uteuzi"
+  },
+  "t_a1f781ec": {
+    "message": "Hitilafu katika kufafanua uteuzi"
+  },
+  "t_7aae8122": {
+    "message": "Vivutio vya uteuzi vimefutwa"
+  },
+  "t_58762fd6": {
+    "message": "Tafadhali chagua neno moja au kifungu kifupi cha kufafanua."
+  },
+  "t_6838b119": {
+    "message": "Hitilafu ya mtandao wakati wa kutafuta ufafanuzi."
+  },
+  "t_ea3ca1b5": {
+    "message": "Imefafanua maneno $1 (kutoka akiba)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "Imefafanua maneno $1 (yaliyohifadhiwa)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "Umetumia matumizi yote ya bure ya Kifafanuzi cha Jargon mwezi huu. Boresha hadi Mtaalamu kwa ufikiaji usio na kikomo."
+  },
+  "t_cb3c5d3a": {
+    "message": "Imefafanua maneno $1 katika kategoria $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "Imeangazia kiotomatiki $1 ya neno lako la msamiati lililofafanuliwa",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "Imerejesha ufafanuzi $1 wa jargon ulihifadhiwa$2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "Umetumia matumizi yote ya bure ya Kifafanuzi cha Jargon mwezi huu. Boresha hadi Mtaalamu kwa ufikiaji usio na kikomo."
+  },
+  "t_0b841c82": {
+    "message": "Tayari kipo kwenye daftari!"
+  },
+  "t_8901f3ab": {
+    "message": "Imehifadhiwa kwenye Daftari!"
+  },
+  "t_eb8f5242": {
+    "message": "Hitilafu katika kuhifadhi kwenye daftari"
+  },
+  "t_bd15702b": {
+    "message": "Ngao ya hisia imewashwa"
+  },
+  "t_c28f3265": {
+    "message": "Ngao ya hisia imezimwa"
+  },
+  "t_3f8910d9": {
+    "message": "MWONEKANORAHISI"
+  },
+  "t_8aafa613": {
+    "message": "Imeshindwa kurahisisha maandishi haya"
+  },
+  "t_79d2dc85": {
+    "message": "Imeshindwa kurahisisha maandishi haya"
+  },
+  "t_99684ba5": {
+    "message": "Hitilafu katika kurahisisha maandishi"
+  },
+  "t_f4362bde": {
+    "message": "Nakala imewekwa kwenye ubao!"
+  },
+  "t_af07ef4b": {
+    "message": "Imeshindwa kunakili"
+  },
+  "t_94e4d537": {
+    "message": "Maandishi yamebadilishwa kwenye ukurasa"
+  },
+  "t_14a04b67": {
+    "message": "Kumbukumbu ya urahisishaji imefutwa"
+  },
+  "t_c444ff21": {
+    "message": "Maandishi asilia yamerejeshwa kwa muda"
+  },
+  "t_55f1db14": {
+    "message": "Umetumia matumizi yote ya bure mwezi huu. Boresha hadi Mtaalamu kwa ufikiaji usio na kikomo."
+  },
+  "t_fde4e3f0": {
+    "message": "Imerejesha urahisishaji $1 ulihifadhiwa kwenye ukurasa huu",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "Urahisishaji uliopakiwa kwa nguvu umerejeshwa kiotomatiki!"
+  },
+  "t_dfa22e52": {
+    "message": "Maandishi-kwa-Sauti yameashwa"
+  },
+  "t_ca153ad0": {
+    "message": "Maandishi-kwa-Sauti yamezimwa"
+  },
+  "t_dadbff09": {
+    "message": "Tafadhali washa Maandishi-kwa-Sauti kwanza"
+  },
+  "t_47071c61": {
+    "message": "Inarejelea..."
+  },
+  "t_5516c48d": {
+    "message": "Hakuna maudhui yanayoweza kusomeka yaliyopatikana kwenye ukurasa huu"
+  },
+  "t_c57f25c9": {
+    "message": "Hakuna maudhui yanayosomeka yaliyopatikana"
+  },
+  "t_2516997e": {
+    "message": "Usomaji umekamilika"
+  },
+  "t_d3069aea": {
+    "message": "Maandishi-kwa-Sauti hayatumiki katika kivinjari hiki"
+  },
+  "t_53e6b8c6": {
+    "message": "Tafadhali chagua maandishi kwanza"
+  },
+  "t_e932d0f7": {
+    "message": "Inasoma uteuzi..."
+  },
+  "t_1c50528d": {
+    "message": "Usomaji umekamilika"
+  },
+  "t_594778a2": {
+    "message": "Imesitishwa"
+  },
+  "t_4ded5f77": {
+    "message": "Hotuba imesimamishwa"
+  },
+  "t_0a74758c": {
+    "message": "✨ Inaendeshwa na Ufunguo wa Kibinafsi"
+  },
+  "t_2fceddad": {
+    "message": "✨ Bila Kikomo"
+  },
+  "t_97627d80": {
+    "message": "✨ Inaendeshwa na Ufunguo wa Kibinafsi"
+  },
+  "t_fd7d5888": {
+    "message": "Dhibiti Usajili"
+  },
+  "t_df4657a5": {
+    "message": "Mwanachama wa Bure"
+  },
+  "t_22dfb2ec": {
+    "message": "Mtumiaji Mgeni"
+  },
+  "t_bd9f2460": {
+    "message": "Akaunti ya Bure"
+  },
+  "t_f5adda31": {
+    "message": "Ingia / Jisajili"
+  },
+  "t_d2439201": {
+    "message": "✨ Bila Kikomo"
+  },
+  "t_164442b7": {
+    "message": "Inapasha moto Injini ya Kugeuza..."
+  },
+  "t_1e7c3002": {
+    "message": "Tayari kuchanganua faili."
+  },
+  "t_d30f78df": {
+    "message": "Modi ya Giza"
+  },
+  "t_6c68d8ce": {
+    "message": "Modi ya Mwanga"
+  },
+  "t_fcb68c2b": {
+    "message": "Hakuna madokezo ya kunata yaliyopatikana. Hakuna cha kusafirisha!"
+  },
+  "t_2b75b2d9": {
+    "message": "Tokeni yako ya kipindi haipo. Tafadhali ingia kwenye easyview.in tena ili kurejesha ufikiaji."
+  },
+  "t_291a4e34": {
+    "message": "Uelekezaji wa seva salama umeshindwa. Angalia muunganisho wako."
+  },
+  "t_2dcf62b3": {
+    "message": "Hakuna madokezo yaliyokosekana yaliyogunduliwa. Nafasi ya kazi imesasishwa."
+  },
+  "t_951bf3ae": {
+    "message": "Imeshindwa kusimbua: Faili haikidhi mipaka ya EasyView."
+  },
+  "t_817a4ba0": {
+    "message": "PiP API haitumiki. Tafadhali sasisha Chrome."
+  },
+  "t_e8aa6e9a": {
+    "message": "Imeshindwa kuanzisha injini ya PiP: "
+  },
+  "t_9feed9d5": {
+    "message": "Imefanikiwa kusimbua na kuingiza madokezo mapya $1.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "MAJARIBIO"
+  },
+  "t_c289adbe": {
+    "message": "Tuunge Mkono"
+  },
+  "t_60d5b12a": {
+    "message": "Tupatie Ukaguzi"
+  },
+  "js_eb82de4c": {
+    "message": "Rangi Maalum"
+  },
+  "js_8caef32b": {
+    "message": "Weka upya/Futa (Chagua maandishi & bofya, au bofya mara mbili ili kuondoa uangaziaji kwa mikono)"
+  },
+  "t_823aeb91": {
+    "message": "Nafasi ya Kazi ya EasyView"
+  },
+  "t_fc42ed23": {
+    "message": "Hakuna madokezo ya kimataifa yanayoelea kwenye nafasi yako ya kazi."
+  },
+  "t_12d7c58a": {
+    "message": "Bonyeza Nafasi wakati kishale cha Madokezo ya Kunata kikiwa amilifu ili kutengeneza moja."
+  },
+  "t_ab983c11": {
+    "message": "Hakuna madokezo mahususi ya tovuti yaliyopatikana hapa."
+  },
+  "t_e22709e9": {
+    "message": "Bofya kwenye kipengele cha kimwili kwenye tovuti yoyote ili kuweka dokezo lengwa."
+  },
+  "t_34bdba45": {
+    "message": "Hatua"
+  },
+  "t_9b2d88a1": {
+    "message": "ya"
+  },
+  "t_8f44d852": {
+    "message": "Anza Sasa!"
+  },
+  "t_b45c2f91": {
+    "message": "Fungua Mauzo ya Nafasi ya Kazi"
+  },
+  "t_88f91dc1": {
+    "message": "Kutoa na kuhamisha madokezo yako yote ya Nafasi ya Kazi ya Kimataifa kwa usalama kunahitaji leseni ya Pro iliyothibitishwa. Boresha ili kufungua kipengele hiki kabisa."
+  },
+  "t_134dff88": {
+    "message": "Labda Baadaye"
+  },
+  "t_5b8c9d11": {
+    "message": "Boresha hadi Pro"
+  },
+  "t_792bd8c9": {
+    "message": "Nafasi ya Kazi Inaelea!"
+  },
+  "t_e39f7dc2": {
+    "message": "Madokezo yako ya kunata sasa yanaelea juu ya eneo-kazi lako la mfumo wa uendeshaji."
+  },
+  "t_c83d6ec9": {
+    "message": "Weka Upya Nafasi ya Kazi"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Inachuja Kelele...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Endesha chinichini\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Punguza</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Simamisha Injini</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "Uzalishaji umesimamishwa"
+  },
+  "t_removed_from_notebook": {
+    "message": "Imeondolewa kwenye daftari"
+  },
+  "t_d1c58470": {
+    "message": "Bofya mara mbili ili kuondoa kivutio"
+  },
+  "t_d4fdfb03": {
+    "message": "Ingia kwenye EasyView ili kupata matumizi $1 ya bure/mwezi, au ongeza ufunguo wako wa API katika Mipangilio.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "Inapakia matokeo yaliyohifadhiwa..."
+  },
+  "t_3a99733d": {
+    "message": "Inaanzisha Kifafanuzi cha Jargoni..."
+  },
+  "t_b6dc9fc9": {
+    "message": "Unda akaunti ya bure ya EasyView ili kupata ufafanuzi $1 wa bure wa AI kwa mwezi na kufuatilia kiasi chako.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "Unda akaunti ya bure ya EasyView ili kupata ufafanuzi $1 wa bure wa AI kwa mwezi na kufuatilia kiasi chako.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "Inatoa maudhui makuu..."
+  },
+  "t_0eeae2bf": {
+    "message": "Inagundua muktadha wa ukurasa..."
+  },
+  "t_87f125d0": {
+    "message": "Inachambua istilahi..."
+  },
+  "t_9ef6e70f": {
+    "message": "Inatumia matokeo yaliyohifadhiwa..."
+  },
+  "t_9afdc5e8": {
+    "message": "Inachambua na AI..."
+  },
+  "t_7ecc3abe": {
+    "message": "Ufafanuzi wa AI umeshindwa"
+  },
+  "t_9220c8de": {
+    "message": "Inatumia urahisishaji..."
+  },
+  "t_57f406b1": {
+    "message": "Inafafanua uteuzi..."
+  },
+  "t_c50f2b72": {
+    "message": "Tazama Kamusi"
+  },
+  "t_49de9b11": {
+    "message": "Ficha vivutio kwenye ukurasa"
+  },
+  "t_3158774e": {
+    "message": "Rejesha vivutio kwenye ukurasa"
+  },
+  "t_fc3ad42d": {
+    "message": "Hifadhi kwenye Msamiati"
+  },
+  "t_87e933b8": {
+    "message": "Inatafuta ufafanuzi..."
+  },
+  "t_56b79836": {
+    "message": "Ufafanuzi wa neno umepakiwa."
+  },
+  "t_969b24ea": {
+    "message": "🔊 Bofya popote ili kuwasha sauti ya mandhari"
+  },
+  "t_49337275": {
+    "message": "Uangaziaji wa mwongozo"
+  },
+  "t_93324bd5": {
+    "message": "Imehifadhiwa moja kwa moja kutoka kwa ukurasa wa wavuti."
+  },
+  "t_82e413f3": {
+    "message": "Inarahisisha maandishi..."
+  },
+  "t_86c4f6e5": {
+    "message": "Inarahisisha na AI..."
+  },
+  "t_c3e18edb": {
+    "message": "Urahisishaji umeshindwa"
+  },
+  "t_6398ab2c": {
+    "message": "Kiwango cha usomaji: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "Bofya ili kurejesha maandishi asilia kwa muda"
+  },
+  "t_9beea3e8": {
+    "message": "Futa kutoka kwa kumbukumbu kabisa"
+  },
+  "t_453bb8f7": {
+    "message": "Unda akaunti ya bure ya EasyView ili kupata urahisishaji $1 wa bure wa AI kwa mwezi na kufuatilia kiasi chako.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "Sikiliza"
+  },
+  "t_24833610": {
+    "message": "Imehifadhiwa"
+  },
+  "t_30a008cb": {
+    "message": "Soma zaidi &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "Imehifadhiwa kwenye Daftari la Msamiati!"
+  },
+  "t_2728e87f": {
+    "message": "Imeondolewa kwenye Daftari la Msamiati"
+  },
+  "t_6b8c66ce": {
+    "message": "Kamusi (maneno $1)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "Ondoa kumbukumbu kwa ukurasa huu"
+  },
+  "t_8a49fe1a": {
+    "message": "Ondoa neno"
+  },
+  "t_1534891c": {
+    "message": "Imefafanua maneno $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "Hifadhi kwenye Daftari"
+  },
+  "t_150a2843": {
+    "message": "Futa uangaziaji"
+  },
+  "t_21ef939c": {
+    "message": "Imehifadhiwa kwenye Daftari!"
+  },
+  "t_8054da35": {
+    "message": "Kamusi ya Haraka",
+    "description": "Kichwa cha kidukizo cha Kamusi ya Haraka"
+  },
+  "t_4aeb2167": {
+    "message": "Neno Halijapatikana",
+    "description": "Kichwa cha kamusi mbadala"
+  },
+  "t_272d0070": {
+    "message": "Hatukuweza kupata \"$1\" katika kamusi ya msingi. Inaweza kuwa misimu ya kisasa, kifupisho, au jargoni ya kiufundi sana.",
+    "description": "Maelezo ya mbadala wa kamusi na kishika nafasi cha neno",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "Fafanua na Evie AI",
+    "description": "Kitufe cha mbadala cha kufafanua na AI"
+  },
+  "t_14f1f972": {
+    "message": "kupitia",
+    "description": "Kiambishi awali cha chanzo cha kamusi"
+  },
+  "t_f2faf2f1": {
+    "message": "Nomino",
+    "description": "Aina ya neno nomino"
+  },
+  "t_b512ddf1": {
+    "message": "Kitenzi",
+    "description": "Aina ya neno kitenzi"
+  },
+  "t_d807ae6a": {
+    "message": "Vivumishi",
+    "description": "Aina ya neno kivumishi"
+  },
+  "t_1a607278": {
+    "message": "Kielezi",
+    "description": "Aina ya neno kielezi"
+  },
+  "t_02de720d": {
+    "message": "Kiwakilishi",
+    "description": "Aina ya neno kiwakilishi"
+  },
+  "t_4b7be2c3": {
+    "message": "Kihusishi",
+    "description": "Aina ya neno kihusishi"
+  },
+  "t_a3c1d30b": {
+    "message": "Kiunganishi",
+    "description": "Aina ya neno kiunganishi"
+  },
+  "t_e189f001": {
+    "message": "Viingizi",
+    "description": "Aina ya neno kiingizi"
+  },
+  "t_96de90f8": {
+    "message": "Nakili maandishi yaliyorahisishwa",
+    "description": "Kidokezo cha kunakili maandishi yaliyorahisishwa"
+  },
+  "t_44a6e288": {
+    "message": "Soma Ukurasa",
+    "description": "Kidokezo cha kusoma ukurasa mzima kupitia TTS"
+  },
+  "t_7d70d73b": {
+    "message": "Soma Uliyochagua",
+    "description": "Kidokezo cha kusoma uteuzi kupitia TTS"
+  },
+  "t_11936123": {
+    "message": "Futa dokezo kabisa",
+    "description": "Kidokezo cha kufuta kabisa dokezo"
+  },
+  "t_d27532d9": {
+    "message": "Punguza"
+  },
+  "t_2bd339d8": {
+    "message": "Rejesha"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "MwonekanoRahisi"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "Tahadhari ya Mfumo"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "Arifa ya mfumo"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "Injini ya\r\nEasyView"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "Vipengele vya ndani vinabaki kuwa hai"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,22 +599,22 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "Uzoefu wa\r\nEasyView"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "Umekuwa ukitumia EasyView kwa saa 12. Unda akaunti ya bure ili kuhifadhi mipangilio yako, kudumisha kiasi chako, na kufungua vipengele zaidi."
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "Nikumbushe baada ya saa 12"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "Mwanga"
   },
   "t_7fc56270": {
     "message": "A"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "Fonti"
   },
   "t_5dbc98dc": {
     "message": "S"
@@ -60,541 +626,532 @@
     "message": "L"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "Vipengele"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "Taswira"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "Kigeuzi"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "Daftari"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "Kifafanuzi cha Istilahi"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "Rahisisha maneno magumu ya kisheria"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "wikipedia.org/wiki/Utofauti_wa_Kineurolojia"
   },
   "t_61e9c06e": {
     "message": "W"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "Utofauti wa Kineurolojia"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "rahisi\r\n                                                zaidi"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "Lengo & Ngao ya Faragha"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "Ufifishe maudhui ya kibinafsi na nyeti"
   },
   "t_7f766191": {
-    "message": "mail.google.com/mail/u/0/"
+    "message": "pepe.guguli.komu/pepe/u/0/"
   },
   "t_dfcf28d0": {
     "message": "G"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "Akaunti za Google"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "Tahadhari ya usalama"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- Ombi la kuweka upya nenosiri..."
   },
   "t_8d9c307c": {
     "message": "N"
   },
   "t_170b1d36": {
-    "message": "Netflix"
+    "message": "Netifliksi"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "Mpya wiki hii"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- Angalia matoleo yetu ya hivi punde\r\n                                                    ..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "Mbinu za ulinzi"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "Kufifisha maudhui ya faragha"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "Hufifisha kwa akili WhatsApp, Gmail, na sehemu za kuingiza nenosiri kwa ajili ya usalama wa kuona papo hapo."
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "Kinga-Otomatiki kwenye Kushiriki Skrini"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "Inakinga skrini yako papo hapo unaposhiriki mtandaoni."
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
-  },
-  "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "Unatumia\r\n                                                    Projekta ya Kimwili?"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "Tochi ya Kusoma"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "Hufuata kipanya chako kwa mwangaza mkali ili kuondoa kabisa\r\n                                            fujo za kuona zinazozunguka."
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "1.\r\n                                                            Umbo la Mwangaza"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "Mwangaza\r\n                                                            au Rula"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "2.\r\n                                                                Ukubwa / Urefu wa Mwangaza"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "Unene\r\n                                                                wa eneo la kutazama"
   },
   "t_f0cad41b": {
     "message": "35px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "3.\r\n                                                            Tint ya Lenzi ya Mwangaza wa Kuzingatia"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "Hupaka rangi kwa upole\r\n                                                            pengo la kusoma"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "4.\r\n                                                            Kivuli cha Mandhari ya Mazingira"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "Giza\r\n                                                            linalozunguka lenzi yako"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "Ngao ya Kihisi"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "Gandisha michoro inayovuruga"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "nyuzidaili.komu/habari-moto"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "HABARI MPYA"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "Kusoma makala kwenye habari za kila siku..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "SHINDA!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "Modi ya Ngao"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(chaguo-msingi)"
   },
   "t_9e3360ac": {
-    "message": "PRO"
+    "message": "MTAALAMU"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "Simamisha uchezaji otomatiki + futisha kwa utulivu\r\n                                                kwenye urambazaji wa mikono"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "Modi ya kusoma kwa wenye disleksia"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "Fonti na nafasi zilizoboreshwa"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "Wasifu wa Uzito"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "Chini"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "Kati"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "Juu"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "wikipedia.org/wiki/Kusoma"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "Kusoma"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "Huu hapa ni hakikisho la mipangilio yako ya kusoma."
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "Chaguzi za Juu"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "Mtindo wa Fonti"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "Chaguo-msingi (Hakuna mabadiliko)"
   },
   "t_5d2967ef": {
     "message": "OpenDyslexic"
   },
   "t_1042daad": {
-    "message": "Lexend (ADHD Pro) 🔒"
+    "message": "Leksendi (ADHD Mtaalamu) 🔒"
   },
   "t_bcec044a": {
-    "message": "Atkinson Hyperlegible 🔒"
+    "message": "Atkinsoni Haiperlejibulu 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "Sans ya Haraka"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "Serifu ya Haraka"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "Komiki Noye"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "Komiki Sans"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "Nafasi ya Herufi"
   },
   "t_960b44c5": {
-    "message": "Normal"
+    "message": "Kawaida"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "Urefu wa Mstari"
   },
   "t_60086472": {
     "message": "1.5"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "Nafasi ya Neno"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "Ukubwa wa Fonti"
   },
   "t_30bd7ce7": {
     "message": "100%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "Rangi ya Ufuniko"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "Hakuna"
   },
   "t_2bd8c63b": {
-    "message": "Beige"
+    "message": "Beji"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "Bluu Isiyokolea"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "Kijani Isiyokolea"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "Njano Isiyokolea"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "Maandishi-kwa-Sauti (TTS)"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "Soma kwa sauti na uangaziaji"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "Cheza"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "Sitisha"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "Simamisha"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "Uteuzi wa Sauti"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "Otomatiki (Ubora Bora)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "Kasi ya Kusoma"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "Polepole Sana"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "Polepole"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "Haraka"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "Haraka Sana"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "Sauti"
   },
   "t_f1943132": {
     "message": "70%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "Sitisha kwenye alama za uakifishaji"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "Uangaziaji wa Maneno"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "Washa"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "Modi"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "Giza"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "wikipedia.org/wiki/Mwanga"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "Taswira kamilifu kwa faraja ya macho. Mwanga unaweza kuwa mkali sana."
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "Mwangaza"
   },
   "t_c63ecd19": {
-    "message": "Contrast"
+    "message": "Tofauti"
   },
   "t_b84a9a38": {
-    "message": "Sepia"
+    "message": "Rangi ya Kahawia"
   },
   "t_9f1ef078": {
     "message": "0%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "Kijivu"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "Chaguomsingi"
   },
   "t_b1166920": {
-    "message": "Lexend 🔒"
+    "message": "Leksendi 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "Kiharusi cha Maandishi"
   },
   "t_cfcd2084": {
     "message": "0"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "Kigeuzi na Msomaji Mahiri"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "Faili ya Sasa"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "Bofya au buruta faili ili kupakia"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• Tayari"
   },
   "t_4c4ad5fc": {
-    "message": "HTML"
+    "message": "Lugha ya Mtandao"
   },
   "t_5c31b30e": {
-    "message": "EPUB"
+    "message": "Kitabu cha Kielektroniki"
   },
   "t_7cfd9a9f": {
-    "message": "DOCX"
+    "message": "Hati ya Neno"
   },
   "t_af97e960": {
     "message": "📌"
   },
   "t_4cc6684d": {
-    "message": "Global"
+    "message": "Kimataifa"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "Tovuti/Ukurasa"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "Daftari Langu"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "Futa Yote"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "Ghairi"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "Hifadhi Neno"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "Hakuna maneno yaliyohifadhiwa bado."
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "Elea juu ya msamiati kwenye ukurasa wowote na ubofye alama ya alamisho ili kuuhifadhi hapa!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "Fikiria upya kiolesura cha tovuti yoyote. Eleza unachotaka au chagua\r\n                            kiolezo."
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "Morph\nImetumika"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "Mpangilio maalum wa AI\r\n                                ni amilifu kwenye tovuti hii."
   },
   "t_e8a57cd1": {
     "message": "0 /\r\n                                500"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "Weka Upya Ukurasa"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "Mpangilio wa Morph"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "Mipangilio Chaguomsingi"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "Karnivali ya Hofu"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "Mazingira ya kutisha na maandishi ya kutisha yaliyohuishwa"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "Dashibodi ya Matrix"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "Mandhari ya terminal ya Cyberpunk"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "Lengo la Neva"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "Fonti rafiki kwa udisleksia na rangi za kutuliza"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "Modi ya Msomaji"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "Mpangilio mdogo ulioboreshwa kwa ajili ya umakini"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "Vidokezo vya Hivi Karibuni"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "Mtumiaji Mgeni"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "Akaunti ya Bure"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "Ingia / Dhibiti"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "Ondoka"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "Mipangilio ya API"
   },
   "t_766cc4dd": {
-    "message": "Gemini"
+    "message": "Jemini"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "Mtoa Huduma wa AI"
   },
   "t_222cf5ed": {
-    "message": "Google Gemini"
+    "message": "Google Jemini"
   },
   "t_a0607683": {
     "message": "OpenRouter"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "Ufunguo wa API ya Gemini"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "Studio ya AI ya Google"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "Ufunguo wa API ya OpenRouter"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "Hifadhi Ufunguo wa API"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "EasyView\nKipaumbele cha AI"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ Ufunguo Wangu wa API"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 Seva za EasyView"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "Chagua\r\n                                kinachotumiwa kwanza kwa vipengele vyote vya AI. Ikiwa ufunguo wako utaisha, seva za EasyView\r\n                                hutumiwa kila wakati kama mbadala."
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "Faragha\r\n& Kipaumbele"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "Kipaumbele 1:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "Kipaumbele 2:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "Dokezo la Injini ya\nBadiliko:"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "kamwe"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "Msaada & Maoni"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "Una swali, umepata hitilafu, au unataka kupendekeza kipengele? Tungependa kusikia kutoka kwako!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "Ripoti Hitilafu / Toa Maoni"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Tayari kurahisisha"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "Hamisha Mipangilio"
   },
   "t_9d5ed678": {
     "message": "B"
@@ -615,25 +1172,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "Nguvu"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "Uwazi"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "Uzito"
   },
   "t_18d80423": {
     "message": "400"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "Urefu wa\nMstari"
   },
   "t_f522dede": {
     "message": "1.7x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "Ruka"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,61 +1199,61 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "Angaza"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "WINO"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "FUTISHA"
   },
   "t_e8bfe352": {
-    "message": "Lexend 👑"
+    "message": "Leksendi 👑"
   },
   "t_0cd4623c": {
-    "message": "Atkinson Hyperlegible 👑"
+    "message": "Atkinsoni Haiperlejibulu 👑"
   },
   "t_6fbda3a3": {
-    "message": "Arial"
+    "message": "Ariyali"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "Helvetika"
   },
   "t_207c3219": {
-    "message": "Verdana"
+    "message": "Vedana"
   },
   "t_2bd141ae": {
     "message": "Tahoma"
   },
   "t_720661ec": {
-    "message": "Trebuchet MS"
+    "message": "Trebushi MS"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "Mfumo Sans"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "Taimsi Nyu Romani"
   },
   "t_eada8196": {
-    "message": "Georgia"
+    "message": "Jojia"
   },
   "t_96a78725": {
-    "message": "Garamond"
+    "message": "Garamondi"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "Mfumo Serif"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "Komiki Sans MS"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "Kuriya Mpya"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "Monospesi (Monospace)"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "Ukubwa wa\r\nFonti"
   },
   "t_f4f9f2f4": {
     "message": "14px"
@@ -723,7 +1280,7 @@
     "message": "32px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "Imekamilika"
   },
   "t_63922286": {
     "message": "×"
@@ -732,154 +1289,34 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "Hamisha maktaba ya mandhari"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "Hifadhi kazi zako bora zilizotengenezwa na AI\r\n                ndani ya kifaa."
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "Hamisha maktaba nzima"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
-  },
-  "t_ccca2ddf": {
-    "message": "EasyView Reader"
-  },
-  "t_8524de96": {
-    "message": "Loading..."
-  },
-  "t_25e8f2fd": {
-    "message": "Please wait..."
-  },
-  "t_ec9d785d": {
-    "message": "1.5x"
-  },
-  "t_dafd5f8f": {
-    "message": "Lexend"
-  },
-  "t_16d90a0b": {
-    "message": "Atkinson Hyperlegible"
-  },
-  "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
-  },
-  "t_f7cee5ea": {
-    "message": "Calibri"
-  },
-  "t_ccc0239e": {
-    "message": "Candara"
-  },
-  "t_2963521b": {
-    "message": "Corbel"
-  },
-  "t_37f1cc58": {
-    "message": "Cambria"
-  },
-  "t_c3d9d4bf": {
-    "message": "Constantia"
-  },
-  "t_5d1a5b35": {
-    "message": "Palatino Linotype"
-  },
-  "t_4dc386b6": {
-    "message": "Book Antiqua"
-  },
-  "t_03c461f6": {
-    "message": "Franklin Gothic"
-  },
-  "t_7b1ee3b6": {
-    "message": "Century Gothic"
-  },
-  "t_a3293302": {
-    "message": "Gill Sans"
-  },
-  "t_eb726908": {
-    "message": "Sitka Text"
-  },
-  "t_b5bdee2c": {
-    "message": "Sylfaen"
-  },
-  "t_1ec05249": {
-    "message": "Microsoft Sans Serif"
-  },
-  "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
-  },
-  "t_16507cdd": {
-    "message": "Consolas"
-  },
-  "t_391c5954": {
-    "message": "Lucida Console"
-  },
-  "t_9879efdf": {
-    "message": "Lucida Sans Typewriter"
-  },
-  "t_21f59b54": {
-    "message": "Impact"
-  },
-  "t_94a7bb97": {
-    "message": "Arial Black"
-  },
-  "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
-  },
-  "t_40885309": {
-    "message": "Berlin Sans FB"
-  },
-  "t_6d5566ba": {
-    "message": "Gabriola"
-  },
-  "t_edb42482": {
-    "message": "Ink Free"
-  },
-  "t_fa233799": {
-    "message": "Segoe Script"
-  },
-  "t_2f7bc407": {
-    "message": "Segoe Print"
-  },
-  "t_0095a9fa": {
-    "message": "Export"
-  },
-  "t_520d0db3": {
-    "message": "Format"
-  },
-  "t_5956a437": {
-    "message": "TXT"
-  },
-  "t_1351017a": {
-    "message": "Filename"
-  },
-  "t_6af8212e": {
-    "message": "EasyView Notes Board"
-  },
-  "t_d16da0f5": {
-    "message": "🌎"
-  },
-  "t_6df173ff": {
-    "message": "📍"
+    "message": ".json (Faili ya JSON)"
   },
   "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
-  },
-  "js_24833610": {
-    "message": "Saved"
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Hatua Inahitajika</div>\n            <h2 class=\"ev-si-title\">Akaunti<br><span class=\"ev-si-gradient-text\">Imesimamishwa</span></h2>\n            <p class=\"ev-si-sub\">Ufikiaji wako wa EasyView umezuiwa kutokana na ukiukaji wa sheria na masharti yetu.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Wasiliana na Usaidizi\n            </a>\n          </div>\n        </div>\n      "
   },
   "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Tafadhali eleza mabadiliko yako kwanza.</span>\n          </div>"
   },
   "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Inabadilisha...</span>\n      "
   },
   "js_138703dd": {
-    "message": "No Theme on Page"
+    "message": "Hakuna Mandhari kwenye Ukurasa"
   },
   "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>Hamisha Ukurasa wa Sasa"
   },
   "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Inakusanya..."
   },
   "js_e541190e": {
     "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
@@ -891,30 +1328,1322 @@
     "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
   },
   "js_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Tayari kurahisisha"
   },
   "js_a18366b2": {
-    "message": "Dark"
+    "message": "Giza"
   },
   "js_9914a0ce": {
-    "message": "Light"
+    "message": "Mwanga"
   },
   "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+    "message": "<option value=\"auto\">Otomatiki (Ubora Bora)</option>"
   },
   "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Inafafanua..."
   },
   "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+    "message": "Hii inahisi <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">rahisi zaidi</span> kuelewa."
   },
   "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+    "message": "Hii inaonekana kuwa na utata mdogo kueleweka."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_f05df71b": {
+    "message": "Inapandisha daraja"
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_78db2ae3": {
+    "message": "Seva zetu za AI zinafanyiwa maboresho."
+  },
+  "t_bb2129c8": {
+    "message": "Fungua toleo kamili"
+  },
+  "t_aefee7cd": {
+    "message": "Uwazi kwa kila ubongo"
+  },
+  "t_c38beca1": {
+    "message": "Firefox inazuia API za utambuzi wa kifuatiliaji cha kimwili. "
+  },
+  "t_f2fe1e79": {
+    "message": "Thamani\r\n                                    chini ya 1.0 zinaweza kubana maandishi na kuvunja mipangilio."
+  },
+  "t_ca677d53": {
+    "message": "Marekebisho ya Mwonekano"
+  },
+  "t_230b4522": {
+    "message": "Ubao wa Vidokezo"
+  },
+  "t_596b54bf": {
+    "message": "Wakala wa AI wa Morph"
+  },
+  "t_47e79a17": {
+    "message": "Pata ufunguo wako wa bure katika"
+  },
+  "t_42372184": {
+    "message": "Mandhari yanasafirishwa kama"
+  },
+  "t_74fdc8a2": {
+    "message": "Tafadhali eleza mabadiliko yako ya morph kwanza."
+  },
+  "t_245fd3b9": {
+    "message": "Mpangilio uliobadilishwa umefutwa."
+  },
+  "t_172bd753": {
+    "message": "Mandhari yamesafirishwa kwa mafanikio!"
+  },
+  "t_4c34daff": {
+    "message": "Muda wa muunganisho umeisha. Seva haipatikani."
+  },
+  "t_0dd56117": {
+    "message": "Hakuna mandhari hai yaliyopatikana kwenye ukurasa huu."
+  },
+  "t_cb5c0766": {
+    "message": "Maktaba imesafirishwa kwa mafanikio!"
+  },
+  "t_8adb392e": {
+    "message": "Muda wa muunganisho umeisha. Seva haipatikani."
+  },
+  "t_ae94e0e4": {
+    "message": "Maktaba yako ya mandhari ni tupu."
+  },
+  "t_10a0c40b": {
+    "message": "Mandhari maalum yamepakiwa kwa mafanikio!"
+  },
+  "t_9b6007a8": {
+    "message": "Imeshindwa kusoma faili ya mandhari."
+  },
+  "t_d4fa051d": {
+    "message": "Imeshindwa: $1. Tafadhali pakia upya kichupo.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "Imetumika: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "Imerejesha mandhari $1 kutoka kwa maktaba!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "Mapendeleo ya lugha"
+  },
+  "t_lang_updated_reload": {
+    "message": "Lugha imesasishwa. Inapakia upya..."
+  },
+  "t_transformation_failed": {
+    "message": "Mabadiliko yameshindwa."
+  },
+  "t_c8a59e71": {
+    "message": "Ondoa"
+  },
+  "t_7764306b": {
+    "message": "Matengenezo ya Huduma za Wingu Yanafanya Kazi"
+  },
+  "t_248228de": {
+    "message": "Washa Fonti ya Udisleksia kwenye Kidukizo"
+  },
+  "t_79a59320": {
+    "message": "Anza Ziara ya Programu"
+  },
+  "t_533bff5b": {
+    "message": "Bandika Kidokezo kwenye Ukurasa (Alt+N)"
+  },
+  "t_f4f70727": {
+    "message": "Mipangilio"
+  },
+  "t_4fd11104": {
+    "message": "Mwangaza wa Mviringo"
+  },
+  "t_0d063af1": {
+    "message": "Rula ya Mstari wa Mlalo 🔒"
+  },
+  "t_60d71580": {
+    "message": "Mwanga Safi"
+  },
+  "t_efe48742": {
+    "message": "Lengo la Amberi"
+  },
+  "t_610a09ca": {
+    "message": "Siyani Tulivu"
+  },
+  "t_886f6b9e": {
+    "message": "Kijani cha Mapumziko"
+  },
+  "t_65e8194e": {
+    "message": "Nyeusi Totoro"
+  },
+  "t_7243ed99": {
+    "message": "Slate ya Usiku wa Manane"
+  },
+  "t_ec6d8325": {
+    "message": "Msitu Mzito"
+  },
+  "t_4af435e0": {
+    "message": "Divai ya Vampire"
+  },
+  "t_2a7dbdf8": {
+    "message": "Kipengele cha Mtaalamu"
+  },
+  "t_fc4aec61": {
+    "message": "Fungua katika Kisomaji"
+  },
+  "t_801ab246": {
+    "message": "Pakua"
+  },
+  "t_aa3880dc": {
+    "message": "Pakua kama HTML"
+  },
+  "t_e0781e81": {
+    "message": "Pakua kama EPUB"
+  },
+  "t_442ff212": {
+    "message": "Pakua kama DOCX"
+  },
+  "t_6244ee7c": {
+    "message": "Ongeza neno maalum kwa mikono"
+  },
+  "t_6e7d015f": {
+    "message": "Ingiza Faili ya CSV"
+  },
+  "t_edbc5415": {
+    "message": "Hamisha kwa Anki / Quizlet"
+  },
+  "t_46c29f7a": {
+    "message": "Pakia Mandhari"
+  },
+  "t_2bd65c5d": {
+    "message": "Hamisha Mandhari"
+  },
+  "t_c1c433ac": {
+    "message": "Mtoa Huduma wa AI Anayefanya Kazi"
+  },
+  "t_90c09393": {
+    "message": "Doti"
+  },
+  "t_eb656e41": {
+    "message": "Mistari-mistari"
+  },
+  "t_0c99ddee": {
+    "message": "Rangi ya Kuangazia"
+  },
+  "t_eaf63759": {
+    "message": "Rangi ya Wino"
+  },
+  "t_a183c9f0": {
+    "message": "Rangi ya Kufutisha"
+  },
+  "t_75e7422f": {
+    "message": "Rangi ya Mandharinyuma"
+  },
+  "t_42f9ceea": {
+    "message": "Tafuta msamiati uliohifadhiwa..."
+  },
+  "t_0e84a8cf": {
+    "message": "Ingiza neno au kifupi..."
+  },
+  "t_eea6890c": {
+    "message": "Maana / Tafsiri..."
+  },
+  "t_4480cf46": {
+    "message": "Mbinu ya kumbukumbu au dokezo la kusoma (hiari)..."
+  },
+  "t_d8634fbf": {
+    "message": "k.m., Badilisha kuwa mandhari ya mtindo wa anime ya waridi yenye kadi zilizopinda, au badilisha kuwa koni ya terminal ya kijani kibichi ya retro..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "Vidokezo vya Kunata"
+  },
+  "t_b097d277": {
+    "message": "Ongeza Neno"
+  },
+  "t_1eeb67ee": {
+    "message": "Hamisha ukurasa wa sasa"
+  },
+  "t_b62ded9a": {
+    "message": "Huduma za wingu zimezimwa"
+  },
+  "t_263e00eb": {
+    "message": "Ingia / Fungua Akaunti"
+  },
+  "t_7748eb3b": {
+    "message": "INAPANDISHA DARAJA"
+  },
+  "t_81a5d20b": {
+    "message": "Gandisha Yote"
+  },
+  "t_e61146d9": {
+    "message": "Futo Tulivu"
+  },
+  "t_57323916": {
+    "message": "Simamisha Uchezaji Otomatiki"
+  },
+  "t_f50319ea": {
+    "message": "Ulinzi Kamili"
+  },
+  "t_8e13f26d": {
+    "message": "Swali la Haraka"
+  },
+  "t_134b26da": {
+    "message": "Je, unafurahia<br><span class=\"ev-si-gradient-text\">EasyView?</span>"
+  },
+  "t_b75bdd9e": {
+    "message": "Maoni yako yanatusaidia kuboresha.<br>Je, unafurahia matumizi haya?"
+  },
+  "t_396d1ff8": {
+    "message": "Ndiyo, nafurahia!"
+  },
+  "t_7d0cacf3": {
+    "message": "Inahitaji kazi"
+  },
+  "t_815142c9": {
+    "message": "Tuunge Mkono"
+  },
+  "t_abd9fa39": {
+    "message": "Je, ungependa<br><span class=\"ev-si-gradient-text\">kuacha ukaguzi?</span>"
+  },
+  "t_02991e61": {
+    "message": "Ukadiriaji kutoka kwa watumiaji kama wewe ndiyo njia bora ya kusaidia EasyView kukua. Inachukua dakika moja tu!"
+  },
+  "t_db49c1f2": {
+    "message": "Kadiria Sasa"
+  },
+  "t_7a4f0d12": {
+    "message": "Nikumbushe baadaye"
+  },
+  "t_fee6c0e9": {
+    "message": "Maoni ya Kibinafsi"
+  },
+  "t_74393dde": {
+    "message": "Tunaweza <span class=\"ev-si-gradient-text\">kufanya nini vizuri zaidi?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "Tuambie nini kilienda vibaya..."
+  },
+  "t_6f97affc": {
+    "message": "Tuma Maoni"
+  },
+  "t_b20871b3": {
+    "message": "Tafadhali ingiza maoni yako"
+  },
+  "t_7b0fee4d": {
+    "message": "Inatuma..."
+  },
+  "t_fb631633": {
+    "message": "Asante kwa maoni yako."
+  },
+  "t_08727add": {
+    "message": "Tazama mtandao kwa njia yako."
+  },
+  "t_15bbb9d0": {
+    "message": "Tovuti"
+  },
+  "t_c5f29bb3": {
+    "message": "Faragha"
+  },
+  "t_ad5b1a22": {
+    "message": "Mwanzilishi"
+  },
+  "t_db496e03": {
+    "message": "Funguo za kibinafsi huunda muunganisho wa moja kwa moja, 100% wa faragha kwa AI. Maandishi yako hayagusi seva za EasyView kamwe."
+  },
+  "t_387c35b3": {
+    "message": "Seva yetu inayodhibitiwa (Premium) hufanya kazi kama nakala rudufu ya kuaminika ikiwa hakuna ufunguo au ikiwa ufunguo wako utashindwa."
+  },
+  "t_98bc5a17": {
+    "message": "Ili kulinda algoriti za umiliki, ufunguo wako huelekezwa kwa ufupi kupitia seva yetu salama ili kuthibitisha na Google. Haikuhifadhiwa"
+  },
+  "t_de47f1be": {
+    "message": "imehifadhiwa au kuingia kwenye kumbukumbu."
+  },
+  "t_25e02e7f": {
+    "message": "Inayotumika: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ Mwanachama wa Premium"
+  },
+  "t_df56cfae": {
+    "message": "⭐ Mwanachama wa Maisha Yote"
+  },
+  "t_41cbc704": {
+    "message": " siku zilizobaki"
+  },
+  "t_b194bd82": {
+    "message": "Haiishi kamwe"
+  },
+  "t_9f830444": {
+    "message": "⭐ Mtaalamu:"
+  },
+  "t_61b82be6": {
+    "message": " mabadiliko yamesalia"
+  },
+  "t_c20e7ceb": {
+    "message": " mabadiliko ya bure yamesalia"
+  },
+  "t_d7087930": {
+    "message": " matumizi ya bure yaliyobaki"
+  },
+  "t_4bbf11bd": {
+    "message": "Sehemu za Neno na Maana haziwezi kuachwa wazi!"
+  },
+  "t_08f09d38": {
+    "message": "Maelezo ya neno yamesasishwa kwa mafanikio!"
+  },
+  "t_32001b52": {
+    "message": "Tafadhali ingiza neno na maana yake."
+  },
+  "t_b8115861": {
+    "message": "Daftari lako la Kusoma ni tupu. Alamisha maneno fulani kwenye kurasa za wavuti kwanza!"
+  },
+  "t_7114113b": {
+    "message": "Tafadhali ingia kwenye akaunti yako ya EasyView kwanza ili kuthibitisha vipengele vyako vya Mtaalamu!"
+  },
+  "t_093f9fa0": {
+    "message": "Tokeni yako ya kipindi haipo. Tafadhali ingia kwenye easyview.in tena ili kurejesha ufikiaji."
+  },
+  "t_0e065596": {
+    "message": "Hiki ni kipengele kilichothibitishwa cha Premium pekee. Boresha hadi Pro ili kufungua!"
+  },
+  "t_c792a645": {
+    "message": "Imeshindwa kuunganisha kwenye seva salama ya kuhamisha. Jaribu tena hivi karibuni."
+  },
+  "t_8d1a2675": {
+    "message": "Imeshindwa kutambua vipengee vyovyote halali vya msamiati katika CSV hiyo."
+  },
+  "t_a613ed90": {
+    "message": "Kushindwa kuandika kwenye hifadhi ya kivinjari! Faili inaweza kuwa kubwa sana kwa akiba ya ndani."
+  },
+  "t_8efe87ab": {
+    "message": "Kivinjari kimeshindwa kusoma faili yako ya ndani."
+  },
+  "t_50bf63aa": {
+    "message": "Je, una uhakika unataka kufuta maneno yote yaliyohifadhiwa kutoka kwenye daftari lako?"
+  },
+  "t_ff252710": {
+    "message": "Uingizaji umekamilika: Ingizo zote $1 tayari zipo kwenye Daftari lako.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "Imeshindwa kuchanganua CSV: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "\"$1\" tayari iko kwenye daftari lako. Je, unataka kuongeza ufafanuzi mwingine kwa ajili yake?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "Umeondoka kwa mafanikio"
+  },
+  "t_dbd35100": {
+    "message": "Injini ya Morph tayari inafanya kazi..."
+  },
+  "t_2de4e55d": {
+    "message": "Mpangilio uliobadilishwa umefutwa"
+  },
+  "t_1bb9196d": {
+    "message": "Imebadilishwa: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "Ubadilishaji umeshindwa: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "Imechochewa: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 vipengee vimepangwa",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "Hii itavunja dokezo hili kabisa kwenye vifaa vyote vilivyosawazishwa. Endelea?"
+  },
+  "t_25abf697": {
+    "message": "Usafirishaji wa EPUB unahitaji JSZip."
+  },
+  "t_71609188": {
+    "message": "Usafirishaji wa DOCX unahitaji html-docx-js."
+  },
+  "t_e1499766": {
+    "message": "Hakuna faili iliyopakiwa."
+  },
+  "t_023b3355": {
+    "message": "Ngao ya Faragha Imewashwa"
+  },
+  "t_9483a5da": {
+    "message": "Ngao ya Faragha Imezimwa"
+  },
+  "t_a04202db": {
+    "message": "Vivutio vimefichwa kwa muda"
+  },
+  "t_b3d6b264": {
+    "message": "Vivutio vimerejeshwa"
+  },
+  "t_7485c55e": {
+    "message": "Karibu kwenye EasyView! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "Daraja lako la utambuzi linaloendeshwa na AI kwa ajili ya kusoma wavuti kwa urahisi zaidi. Wacha tufanye ziara ya haraka ya vipengele."
+  },
+  "t_3a1fe637": {
+    "message": "Kifafanuzi cha Jargoni 📖"
+  },
+  "t_89cec86e": {
+    "message": "Hurahisisha istilahi ngumu kwenye ukurasa wowote wa wavuti."
+  },
+  "t_f8aefae7": {
+    "message": "Ngao ya Faragha 🔐"
+  },
+  "t_aa860f86": {
+    "message": "Hufifisha data nyeti na inajumuisha Rula ya Kusoma kwa ajili ya kusoma bila usumbufu."
+  },
+  "t_0681a3b6": {
+    "message": "Ngao ya Kihisi 🛡️"
+  },
+  "t_6118b864": {
+    "message": "Hugandisha GIF na michoro inayovuruga."
+  },
+  "t_12ec6fc6": {
+    "message": "Modi ya kusoma kwa wenye disleksia 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "Fonti na nafasi zilizoboreshwa kwa ajili ya kusoma kwa urahisi."
+  },
+  "t_18d9ce63": {
+    "message": "Maandishi-kwa-Sauti 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "Sikiliza ukurasa wowote wa wavuti na vivutio vya maneno."
+  },
+  "t_0019a700": {
+    "message": "Injini ya Morph ✨"
+  },
+  "t_47c2535a": {
+    "message": "Tumia AI kubuni upya tovuti yoyote kuwa mandhari au mpangilio maalum."
+  },
+  "t_2ed2f639": {
+    "message": "Vidokezo vya Kunata 📝"
+  },
+  "t_75025b5f": {
+    "message": "Bandika vidokezo vinavyoelea kwenye ukurasa wowote wa wavuti ili kuhifadhi taarifa muhimu (Alt+N)."
+  },
+  "t_3ff2d7cc": {
+    "message": "Usanidi wa API ⚙️"
+  },
+  "t_0754e836": {
+    "message": "Ingia ili kusawazisha kiasi chako, au weka ufunguo wako wa bure wa Gemini API hapa."
+  },
+  "t_7b6a2059": {
+    "message": "Hatua $1 ya $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "Anza Sasa!"
+  },
+  "t_10ac3d04": {
+    "message": "Inayofuata"
+  },
+  "t_5c7a52b8": {
+    "message": "Bonyeza "
+  },
+  "t_a1b2c3d4": {
+    "message": " wakati wowote ili kuwasha ngao ya Kujilinda Kiotomatiki kwa mikono."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ Ngao ya Faragha imewashwa"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 Ngao ya Faragha imezimwa"
+  },
+  "js_9b3e1a": {
+    "message": "EasyView inachambua mpangilio na kubadilisha..."
+  },
+  "js_4c8d2f": {
+    "message": "Fafanua"
+  },
+  "js_7a1e9b": {
+    "message": "Fafanua"
+  },
+  "js_2d5f8c": {
+    "message": "Rahisisha"
+  },
+  "js_6e3a4d": {
+    "message": "Alamisho"
+  },
+  "js_1f9b7c": {
+    "message": "Angaza"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "Inachambua mti wa DOM..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "Mpangilio Mchafu..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "Inapunguza muundo..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[KELELE_NYINGI]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "Inaondoa visumbufu..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "Nodi Changamano"
+  },
+  "js_ldr_m4_cl": {
+    "message": "Inatumia Kanuni za Disleksia..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "Inatoa UI ya EasyView..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "Inachanganua kizuizi cha maandishi..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "Maneno mengi sana..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "Inachambua Maana ya Msingi..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "Mzigo wa Utambuzi"
+  },
+  "js_ldr_s3_cl": {
+    "message": "Inaandaa Kiingereza Rahisi..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "AI ya Maneno Mengi..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "Inatumia usomekaji..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "Inasafisha matokeo..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "Inatafsiri istilahi..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "Hitilafu: Kuchanganyikiwa"
+  },
+  "js_ldr_j2_cl": {
+    "message": "Inatafuta ufafanuzi..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[KELELE_NYINGI]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "Inarahisisha muktadha..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "Maneno Yasiyojulikana"
+  },
+  "js_ldr_j4_cl": {
+    "message": "Inatumia uwazi..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "Inapangilia matokeo..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "Uchambuzi wa kina..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "Inakamilisha mantiki ya AI..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "Inaendesha AI..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "Karibu Kumaliza..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "Trafiki Nzito..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "Inachukua muda kidogo..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "Bado Inafanya Kazi..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "Subiri kidogo..."
+  },
+  "t_b7012ab9": {
+    "message": "Badilisha"
+  },
+  "t_c5e8b1d9": {
+    "message": "Fonti za Kitaalamu"
+  },
+  "t_c8f2ba19": {
+    "message": "Ufifishaji wa Maudhui ya Kibinafsi umewashwa"
+  },
+  "t_e2dae61a": {
+    "message": "Ufifishaji wa Maudhui ya Kibinafsi umezimwa"
+  },
+  "t_c74de318": {
+    "message": "Kinga-Otomatiki kwenye Kushiriki Skrini imewashwa"
+  },
+  "t_a5fd56f4": {
+    "message": "Kinga-Otomatiki kwenye Kushiriki Skrini imezimwa"
+  },
+  "t_ab8d1f2a": {
+    "message": "Modi ya tochi imewashwa"
+  },
+  "t_2bf5cc98": {
+    "message": "Modi ya tochi imezimwa"
+  },
+  "t_513bb93f": {
+    "message": "Usomaji wa Bionic"
+  },
+  "t_5a8b2c1d": {
+    "message": "Huu hapa ni hakikisho la mipangilio yako ya kusoma."
+  },
+  "t_ac1d4e5f": {
+    "message": "Hakuna"
+  },
+  "t_b2e3f4a1": {
+    "message": "Pana"
+  },
+  "t_c3f4a5b2": {
+    "message": "Pana Zaidi"
+  },
+  "t_d1a3c901": {
+    "message": "Bofya"
+  },
+  "t_b4f2e891": {
+    "message": "Bandika kwenye Kipengele"
+  },
+  "t_c9a1b302": {
+    "message": "Nafasi"
+  },
+  "t_f6d4e203": {
+    "message": "Kidokezo cha Kimataifa"
+  },
+  "t_e2b3f104": {
+    "message": "Ondoka"
+  },
+  "t_a7c0d905": {
+    "message": "Ghairi"
+  },
+  "t_e1b2c301": {
+    "message": "Ukurasa huu pekee"
+  },
+  "t_f7a3b402": {
+    "message": "Tovuti hii"
+  },
+  "t_a8c4d503": {
+    "message": "Tovuti zote (Kimataifa)"
+  },
+  "t_b9d5e604": {
+    "message": "Ficha hadi upakie upya"
+  },
+  "t_c0e6f705": {
+    "message": "Bandika dokezo kwenye kipengele"
+  },
+  "t_d1f7a806": {
+    "message": "Badilisha rangi ya kidokezo"
+  },
+  "t_e2a8b907": {
+    "message": "Kunja/panua dokezo"
+  },
+  "t_f3b9c008": {
+    "message": "Nakili maudhui ya kidokezo"
+  },
+  "t_a4c0d109": {
+    "message": "Vitendo zaidi"
+  },
+  "t_b5d1e200": {
+    "message": "Futa kidokezo hiki"
+  },
+  "t_e87033a2": {
+    "message": "Alt + X"
+  },
+  "t_4120201a": {
+    "message": "Jaribio la Bure Limewashwa"
+  },
+  "t_6ed40ffb": {
+    "message": "Sawazisha mipangilio kwenye vifaa"
+  },
+  "t_f8b8a5fd": {
+    "message": "Kiwango cha juu cha matumizi ya bure"
+  },
+  "t_440b106d": {
+    "message": "Ufikiaji wa vipengele vya baadaye vya Kitaalamu"
+  },
+  "t_3a99076c": {
+    "message": "Kikomo cha Kitaalamu"
+  },
+  "t_545f6c2f": {
+    "message": "Bila Kikomo"
+  },
+  "t_ad23f4a0": {
+    "message": "Vidokezo vya Anga"
+  },
+  "t_04f2f045": {
+    "message": "Umefaulu kupeleka madokezo yote 15 ya Kiwango cha Bure kwenye wavuti. Boresha hadi EasyView Premium ili kufungua kumbukumbu isiyo na kikomo ya anga na rangi maalum."
+  },
+  "t_cf874b99": {
+    "message": "Fungua Premium"
+  },
+  "t_a6d36e2f": {
+    "message": "Vidhibiti Vyote vya Ufikivu vya Ndani (Inafanya kazi)"
+  },
+  "t_b0b69bc3": {
+    "message": "Injini ya Maandishi-kwa-Sauti (Inafanya kazi)"
+  },
+  "t_cc96c21a": {
+    "message": "Vipengele vya AI ya Wingu (Nje ya Mtandao)"
+  },
+  "t_7af6f6e5": {
+    "message": "Ninaelewa"
+  },
+  "t_9bc7102e": {
+    "message": "Unda akaunti ya bure ya EasyView ili kufuatilia kiasi chako na kufungua Kifafanuzi cha Istilahi."
+  },
+  "t_ab7512fd": {
+    "message": "Tokeni yako ya kipindi haipo. Tafadhali ingia kwenye easyview.in tena ili kurejesha ufikiaji."
+  },
+  "t_1cd7820a": {
+    "message": "UFIKIAJI WA PREMIUM PEKEE"
+  },
+  "t_8eb14032": {
+    "message": "Kifafanuzi cha Istilahi<br><span class=\"ev-si-gradient-text\">Kiasi Kimefikiwa</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "KIKOMO KIMEISHA"
+  },
+  "t_5ae983dc": {
+    "message": "Umetumia <strong>ufafanuzi 5 wa bure</strong> wote mwezi huu. Fungua ufikiaji usio na kikomo kwa sekunde."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> Nenda kwa Premium — Ufafanuzi usio na kikomo</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> Tumia ufunguo wako wa API</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 Ongeza Ufunguo wa API katika Mipangilio</button>"
+  },
+  "t_9be4129a": {
+    "message": "Hamishaji wa Staha ya Kusoma<br><span class=\"ev-si-gradient-text\">Uendeshaji wa Premium</span>"
+  },
+  "t_fac34185": {
+    "message": "Hamisha Daftari lako lote la Kusoma maalum moja kwa moja hadi <strong>Anki</strong> na <strong>Quizlet</strong>."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Acha kuandika kwa mikono</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Kikompila cha kadi ya flash ya RFC-4180</div>"
+  },
+  "t_da12c30b": {
+    "message": "Ufikiaji wa Premium"
+  },
+  "t_4a9b2c01": {
+    "message": "Kipengele hiki"
+  },
+  "t_3be78c01": {
+    "message": "Fonti hii ya Kusoma kwa Disleksia"
+  },
+  "t_0ad4b971": {
+    "message": "Fonti hii ya Visual"
+  },
+  "t_9af42be8": {
+    "message": "Fonti hii ya malipo ya Hamisha"
+  },
+  "t_cbae8349": {
+    "message": "Boresha ili kufungua vipengele vyote vya ufikivu na zana za nguvu."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Ufikivu wa Hali ya Juu</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Masasisho Yote ya Baadaye</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ Boresha hadi Premium"
+  },
+  "t_5ef4c1a2": {
+    "message": "Labda Baadaye"
+  },
+  "t_3b7a5e82": {
+    "message": ", lakini vipengele vya AI vinaweza kuwa havipatikani kwa muda."
+  },
+  "t_c91d8e12": {
+    "message": "Jumla"
+  },
+  "t_b42f3a9d": {
+    "message": "Ufafanuzi"
+  },
+  "t_f1d4a8e6": {
+    "message": "Kamusi"
+  },
+  "t_e398c71f": {
+    "message": "Maalum"
+  },
+  "t_a72df9e5": {
+    "message": "Matibabu"
+  },
+  "t_d8f2c61a": {
+    "message": "Kisheria"
+  },
+  "t_b3e1f5d2": {
+    "message": "Kifedha"
+  },
+  "t_c25d81f9": {
+    "message": "Teknolojia"
+  },
+  "t_e1b3a4f6": {
+    "message": "Kitaaluma"
+  },
+  "t_d5f9b4c1": {
+    "message": "Neno"
+  },
+  "t_f7a2e8ea": {
+    "message": "Jamii"
+  },
+  "t_e3b1c6d9": {
+    "message": "Maana Iliyorahisishwa"
+  },
+  "t_a9d4e5f2": {
+    "message": "Vidokezo vya kusoma / Muktadha"
+  },
+  "t_b4c5d6e7": {
+    "message": "Ghairi"
+  },
+  "t_c8f2a1b4": {
+    "message": "Hifadhi Mabadiliko"
+  },
+  "t_8c17b5e6": {
+    "message": "Tokeni yako ya kipindi haipo. Tafadhali ingia kwenye easyview.in tena ili kurejesha ufikiaji."
+  },
+  "t_a43dc219": {
+    "message": "Unda akaunti ya bure ya EasyView ili kufuatilia kiasi chako cha matumizi na kufungua Injini ya Morph ya AI."
+  },
+  "t_54c523fe": {
+    "message": "🎉 Safi! Imefanikiwa kuingiza kadi mpya $1 za kusoma."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 Bila dosari! Imeingiza kadi mpya $1. ($2 nakala zilirukwa.)"
+  },
+  "t_14894d12": {
+    "message": "Usafirishaji wa Mandhari"
+  },
+  "t_f27a2629": {
+    "message": "Hifadhi nakala ya maktaba ya mandhari"
+  },
+  "t_9ad85e17": {
+    "message": "Modi ya Rula ya Kusoma"
+  },
+  "t_b9d4e7a5": {
+    "message": "Modi za juu za Ngao ya Kihisi"
+  },
+  "t_94f4f7e4": {
+    "message": "Inachanganua DOCX...",
+    "description": "Hali wakati wa kuchanganua DOCX katika kisomaji"
+  },
+  "t_120adfc1": {
+    "message": "Inachanganua EPUB...",
+    "description": "Hali wakati wa kuchanganua EPUB katika kisomaji"
+  },
+  "t_5d2a45b8": {
+    "message": "Hali ya Rula ya Kusoma ni ya kipekee kwa usajili wa Pro.",
+    "description": "Tahadhari wakati mtumiaji asiye wa Pro anapofikia rula ya kusoma"
+  },
+  "t_c1f29623": {
+    "message": "Hariri Kadi Nzima",
+    "description": "Kidokezo cha kuhariri kadi nzima kwenye daftari"
+  },
+  "t_1063e38c": {
+    "message": "Ondoa",
+    "description": "Kidokezo cha kuondoa kadi kutoka kwa daftari"
+  },
+  "t_ccca2ddf": {
+    "message": "Kisomaji cha EasyView"
+  },
+  "t_8524de96": {
+    "message": "Inapakia..."
+  },
+  "t_25e8f2fd": {
+    "message": "Tafadhali subiri..."
+  },
+  "t_ec9d785d": {
+    "message": "1.5x"
+  },
+  "t_dafd5f8f": {
+    "message": "Leksendi"
+  },
+  "t_16d90a0b": {
+    "message": "Atkinsoni Haiperlejibulu"
+  },
+  "t_5c7db066": {
+    "message": "Segoe UI (Chaguo-msingi la Windows)"
+  },
+  "t_f7cee5ea": {
+    "message": "Kalibri"
+  },
+  "t_ccc0239e": {
+    "message": "Kandara"
+  },
+  "t_2963521b": {
+    "message": "Kobeli"
+  },
+  "t_37f1cc58": {
+    "message": "Kambria"
+  },
+  "t_c3d9d4bf": {
+    "message": "Konstantia"
+  },
+  "t_5d1a5b35": {
+    "message": "Palatino Linitipu"
+  },
+  "t_4dc386b6": {
+    "message": "Buku Antikwa"
+  },
+  "t_03c461f6": {
+    "message": "Franklini Gothiki"
+  },
+  "t_7b1ee3b6": {
+    "message": "Senturi Gothiki"
+  },
+  "t_a3293302": {
+    "message": "Gili Sans"
+  },
+  "t_eb726908": {
+    "message": "Sitka Maandiko"
+  },
+  "t_b5bdee2c": {
+    "message": "Silfaeni"
+  },
+  "t_1ec05249": {
+    "message": "Maikrosofti Sansi Serifu"
+  },
+  "t_ad4a300c": {
+    "message": "Segoe UI Semibold"
+  },
+  "t_16507cdd": {
+    "message": "Konsolasi"
+  },
+  "t_391c5954": {
+    "message": "Lusida Konsoli"
+  },
+  "t_9879efdf": {
+    "message": "Lusida Sansi Taipuraita"
+  },
+  "t_21f59b54": {
+    "message": "Impakti"
+  },
+  "t_94a7bb97": {
+    "message": "Ariyali Nyeusi"
+  },
+  "t_6e87c2cb": {
+    "message": "Kopa-pleti Gothiki"
+  },
+  "t_40885309": {
+    "message": "Berlini Sans FB"
+  },
+  "t_6d5566ba": {
+    "message": "Gabriyola"
+  },
+  "t_edb42482": {
+    "message": "Inki Fri"
+  },
+  "t_fa233799": {
+    "message": "Segoe Skripti"
+  },
+  "t_2f7bc407": {
+    "message": "Segoe Printi"
+  },
+  "t_0095a9fa": {
+    "message": "Hamisha"
+  },
+  "t_520d0db3": {
+    "message": "Umbizo"
+  },
+  "t_5956a437": {
+    "message": "MAANDIKO"
+  },
+  "t_1351017a": {
+    "message": "Jina la faili"
+  },
+  "t_d4c3c15b": {
+    "message": "Hakuna faili iliyopakiwa"
+  },
+  "t_0ca5a078": {
+    "message": "Tafadhali tumia kichupo cha Kigeuzi kupakia faili."
+  },
+  "t_c9857e16": {
+    "message": "Aina ya faili isiyotumika."
+  },
+  "t_6b447b91": {
+    "message": "Hitilafu katika kuchanganua faili: "
+  },
+  "t_7f4588be": {
+    "message": "Kitabu cha Kielektroniki"
+  },
+  "t_12dc65c2": {
+    "message": "Geuza Mwanga/Giza"
+  },
+  "t_d3d2e617": {
+    "message": "Funga"
+  },
+  "t_6e8cfcb7": {
+    "message": "Usafirishaji Salama kwa Seva (Pro)"
+  },
+  "t_2f9df658": {
+    "message": "Tenganisha na uelee Nafasi ya Kazi juu ya madirisha yote"
+  },
+  "t_72d6d7a1": {
+    "message": "Ingiza"
+  },
+  "t_de93d5fd": {
+    "message": "Hamisha Vidokezo"
+  },
+  "t_a1aacca9": {
+    "message": "Mfumo wa Float"
+  },
+  "t_ac0b844f": {
+    "message": "Vidokezo vya Ulimwenguni"
+  },
+  "t_15866f1d": {
+    "message": "Vidokezo Maalum vya Tovuti"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
+  },
+  "t_6af8212e": {
+    "message": "Ubao wa Vidokezo wa EasyView"
+  },
+  "t_d16da0f5": {
+    "message": "🌎"
+  },
+  "t_6df173ff": {
+    "message": "📍"
+  },
+  "t_22f58a00": {
+    "message": "🌎 Kidokezo cha Ulimwenguni"
+  },
+  "t_5be8bbeb": {
+    "message": "🌐 Kidokezo cha Tovuti"
+  },
+  "t_59a56663": {
+    "message": "📍 Kidokezo cha Ukurasa"
+  },
+  "t_c1843696": {
+    "message": "Inathibitisha Tokeni ya Uaminifu..."
+  },
+  "t_58038ee4": {
+    "message": "Sasa hivi"
+  },
+  "t_e254e1a1": {
+    "message": "$1m iliyopita",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_121d4d02": {
+    "message": "$1h iliyopita",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_19d2b280": {
+    "message": "$1d iliyopita",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_d3d4311c": {
+    "message": "Buruta Kidokezo"
+  },
+  "t_7b32ea16": {
+    "message": "Badilisha hadi $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_11916b28": {
+    "message": "Upeo wa uwekaji"
+  },
+  "t_5463fe67": {
+    "message": "Paleti ya Rangi"
+  },
+  "t_d116d454": {
+    "message": "Kunja Kidokezo"
+  },
+  "t_be9ba0e5": {
+    "message": "Nakili Maandiko"
+  },
+  "t_28471624": {
+    "message": "Vitendo zaidi"
+  },
+  "t_90e467df": {
+    "message": "Funga Kidokezo"
+  },
+  "t_34494920": {
+    "message": "Andika dokezo lako hapa..."
+  },
+  "t_bdda0b60": {
+    "message": "Ulikuwa unafikiria nini..."
+  },
+  "t_8689de27": {
+    "message": "Inapatikana kila mahali"
+  },
+  "t_c0cf9810": {
+    "message": "Rudi kwenye ukurasa asilia"
+  },
+  "t_24a23176": {
+    "message": "Muktadha Asilia"
+  },
+  "t_4c1c1e76": {
+    "message": "Uingizaji wa Daftari"
+  },
+  "t_2736f644": {
+    "message": "Unganisha kwa urahisi staha zako za masomo za nje na orodha za msamiati kwenye mfumo wa EasyView."
+  },
+  "t_ca4f038f": {
+    "message": "Safu Wima Zinazohitajika"
+  },
+  "t_7277de5f": {
+    "message": "Maana"
+  },
+  "t_ce591bfa": {
+    "message": "Safu Wima za Hiari"
+  },
+  "t_f4c6f851": {
+    "message": "Vidokezo"
+  },
+  "t_c1fd81a6": {
+    "message": "Chagua au Buruta Faili ya CSV"
+  },
+  "t_5c426600": {
+    "message": "Nakala na maneno yaliyopo huchujwa kiotomatiki."
+  },
+  "t_76e7183d": {
+    "message": "Uingizaji Umefaulu!"
+  },
+  "t_3e17e02d": {
+    "message": "Msamiati wako umesasishwa."
+  },
+  "t_3148d309": {
+    "message": "Funga Kichupo"
+  },
+  "t_0e412fa1": {
+    "message": "Sherehe itaanza utakaporejea kwenye kidukizo."
+  },
+  "t_d29f6e6b": {
+    "message": "Uingizaji Umefeli"
+  },
+  "t_e04efbcb": {
+    "message": "Hali ya Daftari"
+  },
+  "t_ed732761": {
+    "message": "Uingizaji wa Mandhari ya Morph"
+  },
+  "t_e44db711": {
+    "message": "Ingiza kwa usalama maktaba yako maalum ya injini ya Morph moja kwa moja kwenye EasyView."
+  },
+  "t_c0bb7d43": {
+    "message": "Chagua au Buruta Faili ya JSON"
+  },
+  "t_36e9583e": {
+    "message": "Inaingiza mipangilio yako ya mandhari uliyosafirisha awali."
+  },
+  "t_21630184": {
+    "message": "Mandhari Yamerudishwa!"
+  },
+  "t_d0c1ec75": {
+    "message": "Violezo vyako vya morph vimesakinishwa kwa mafanikio."
+  },
+  "t_cd27a5c0": {
+    "message": "EasyView — Kisoma Maudhui"
+  },
+  "t_b171ab1f": {
+    "message": "Karibu kwenye Kisomaji"
+  },
+  "t_4e07c284": {
+    "message": "Pakia hati zako hapa ili uzisome kwa chapa maalum na visaidizi vya hali ya juu vya ufikivu."
+  },
+  "t_004621c0": {
+    "message": "Inaauni .docx, .epub, na .txt"
+  },
+  "t_23bb27a0": {
+    "message": "Inaanzisha kichanganuzi cha hati..."
+  },
+  "t_e1d5f16c": {
+    "message": "Inaboresha faili za DOCX kwa ajili ya usomaji..."
+  },
+  "t_0e55c5d0": {
+    "message": "Inachanganua muundo wa faili za EPUB..."
   }
 }

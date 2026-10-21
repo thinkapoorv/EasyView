@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "易讀 (易讀 (EasyView)) — 讓每個大腦都清晰"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "簡易檢視"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "透過 人工智慧 (人工智慧 (AI)) 提示或單次點擊，立即轉換任何網站。以您的方式瀏覽網頁。"
+  },
+  "t_68ba0232": {
+    "message": "閱讀障礙模式已啟用"
+  },
+  "t_85f47a25": {
+    "message": "閱讀障礙模式已停用"
+  },
+  "t_1cc1b64d": {
+    "message": "內容不足，無法分析"
+  },
+  "t_cebe6412": {
+    "message": "未找到複雜術語"
+  },
+  "t_b964aa0f": {
+    "message": "分析頁面內容時發生錯誤"
+  },
+  "t_956c104e": {
+    "message": "頁面記憶已清除"
+  },
+  "t_1f4b0f3e": {
+    "message": "術語表已清除"
+  },
+  "t_4bfeec37": {
+    "message": "在選取範圍中找不到複雜術語"
+  },
+  "t_1b5e8531": {
+    "message": "在選取範圍中找不到複雜術語"
+  },
+  "t_a1f781ec": {
+    "message": "解碼選取範圍錯誤"
+  },
+  "t_7aae8122": {
+    "message": "已清除選取範圍的標示"
+  },
+  "t_58762fd6": {
+    "message": "請選取單一單字或短語來定義。"
+  },
+  "t_6838b119": {
+    "message": "查詢定義時發生網路錯誤。"
+  },
+  "t_ea3ca1b5": {
+    "message": "已解碼 $1 個術語（來自快取）",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "已解碼 $1 個術語（快取）",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "您本月已用盡所有免費術語解碼器使用次數。升級至專業版即可無限存取。"
+  },
+  "t_cb3c5d3a": {
+    "message": "已在 $2 個類別中解碼 $1 個術語",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "已自動標示 $1 個您解碼的詞彙術語",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "已還原 $1 個已儲存的術語定義$2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "您本月已用盡所有免費術語解碼器使用次數。升級至專業版即可無限存取。"
+  },
+  "t_0b841c82": {
+    "message": "已在筆記本中！"
+  },
+  "t_8901f3ab": {
+    "message": "已儲存至筆記本！"
+  },
+  "t_eb8f5242": {
+    "message": "儲存至筆記本錯誤"
+  },
+  "t_bd15702b": {
+    "message": "感官防護已啟用"
+  },
+  "t_c28f3265": {
+    "message": "感官防護已停用"
+  },
+  "t_3f8910d9": {
+    "message": "簡易檢視"
+  },
+  "t_8aafa613": {
+    "message": "無法簡化此文字"
+  },
+  "t_79d2dc85": {
+    "message": "無法簡化此文字"
+  },
+  "t_99684ba5": {
+    "message": "簡化文字錯誤"
+  },
+  "t_f4362bde": {
+    "message": "已複製到剪貼簿！"
+  },
+  "t_af07ef4b": {
+    "message": "複製失敗"
+  },
+  "t_94e4d537": {
+    "message": "頁面文字已替換"
+  },
+  "t_14a04b67": {
+    "message": "已刪除簡化記憶"
+  },
+  "t_c444ff21": {
+    "message": "已暫時還原原始文字"
+  },
+  "t_55f1db14": {
+    "message": "您本月已用盡所有免費使用次數。升級至專業版即可無限存取。"
+  },
+  "t_fde4e3f0": {
+    "message": "已還原此頁面上 $1 個已儲存的簡化內容",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "已自動還原動態載入的簡化內容！"
+  },
+  "t_dfa22e52": {
+    "message": "文字轉語音已啟用"
+  },
+  "t_ca153ad0": {
+    "message": "文字轉語音已停用"
+  },
+  "t_dadbff09": {
+    "message": "請先啟用文字轉語音"
+  },
+  "t_47071c61": {
+    "message": "恢復中..."
+  },
+  "t_5516c48d": {
+    "message": "在此頁面上找不到可讀內容"
+  },
+  "t_c57f25c9": {
+    "message": "未找到可讀內容"
+  },
+  "t_2516997e": {
+    "message": "閱讀完成"
+  },
+  "t_d3069aea": {
+    "message": "此瀏覽器不支援文字轉語音"
+  },
+  "t_53e6b8c6": {
+    "message": "請先選取一些文字"
+  },
+  "t_e932d0f7": {
+    "message": "正在讀取選取範圍..."
+  },
+  "t_1c50528d": {
+    "message": "閱讀完成"
+  },
+  "t_594778a2": {
+    "message": "已暫停"
+  },
+  "t_4ded5f77": {
+    "message": "語音已停止"
+  },
+  "t_0a74758c": {
+    "message": "✨ 由個人金鑰驅動"
+  },
+  "t_2fceddad": {
+    "message": "✨ 無限制"
+  },
+  "t_97627d80": {
+    "message": "✨ 由個人金鑰驅動"
+  },
+  "t_fd7d5888": {
+    "message": "管理訂閱"
+  },
+  "t_df4657a5": {
+    "message": "免費會員"
+  },
+  "t_22dfb2ec": {
+    "message": "訪客使用者"
+  },
+  "t_bd9f2460": {
+    "message": "免費帳戶"
+  },
+  "t_f5adda31": {
+    "message": "登入 / 註冊"
+  },
+  "t_d2439201": {
+    "message": "✨ 無限制"
+  },
+  "t_164442b7": {
+    "message": "正在暖機轉換引擎..."
+  },
+  "t_1e7c3002": {
+    "message": "準備解析檔案。"
+  },
+  "t_d30f78df": {
+    "message": "深色模式"
+  },
+  "t_6c68d8ce": {
+    "message": "淺色模式"
+  },
+  "t_fcb68c2b": {
+    "message": "找不到便利貼。沒有可匯出的內容！"
+  },
+  "t_2b75b2d9": {
+    "message": "您的工作階段權杖遺失。請重新登入 easyview.in 以恢復存取權。"
+  },
+  "t_291a4e34": {
+    "message": "安全伺服器路由失敗。請檢查您的連線。"
+  },
+  "t_2dcf62b3": {
+    "message": "未偵測到遺失的筆記。工作區已是最新狀態。"
+  },
+  "t_951bf3ae": {
+    "message": "解密失敗：檔案不符合 易讀 (易讀 (EasyView)) 的邊界規範。"
+  },
+  "t_817a4ba0": {
+    "message": "不支援子母畫面 API 介面 介面。請更新 Chrome 瀏覽器 瀏覽器。"
+  },
+  "t_e8aa6e9a": {
+    "message": "初始化子母畫面引擎失敗： "
+  },
+  "t_9feed9d5": {
+    "message": "已成功解密並注入 $1 個新筆記。",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "測試版"
+  },
+  "t_c289adbe": {
+    "message": "支持我們"
+  },
+  "t_60d5b12a": {
+    "message": "評價我們"
+  },
+  "js_eb82de4c": {
+    "message": "自訂顏色"
+  },
+  "js_8caef32b": {
+    "message": "重設/清除（選取文字並點擊，或手動雙擊反白處）"
+  },
+  "t_823aeb91": {
+    "message": "簡易檢視工作區"
+  },
+  "t_fc42ed23": {
+    "message": "您的工作區中沒有全域浮動筆記。"
+  },
+  "t_12d7c58a": {
+    "message": "當便利貼游標啟用時，按下「空格」即可產生一張便利貼。"
+  },
+  "t_ab983c11": {
+    "message": "在此處找不到特定於網站的筆記。"
+  },
+  "t_e22709e9": {
+    "message": "點擊任何網站上的實體元素以錨定目標筆記。"
+  },
+  "t_34bdba45": {
+    "message": "步驟"
+  },
+  "t_9b2d88a1": {
+    "message": "之"
+  },
+  "t_8f44d852": {
+    "message": "開始使用！"
+  },
+  "t_b45c2f91": {
+    "message": "解鎖工作區匯出功能"
+  },
+  "t_88f91dc1": {
+    "message": "安全渲染並匯出您完整的全域工作區筆記需要已驗證的專業版授權。升級以永久解鎖此功能。"
+  },
+  "t_134dff88": {
+    "message": "稍後再說"
+  },
+  "t_5b8c9d11": {
+    "message": "升級至專業版"
+  },
+  "t_792bd8c9": {
+    "message": "工作區浮動中！"
+  },
+  "t_e39f7dc2": {
+    "message": "您的便利貼現在正懸浮於作業系統桌面之上。"
+  },
+  "t_c83d6ec9": {
+    "message": "重新停靠工作區"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">易讀 (易讀 (EasyView)) 人工智慧 (人工智慧 (AI))</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">正在過濾雜訊...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"在背景執行\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>最小化</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>停止引擎</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "生成已停止"
+  },
+  "t_removed_from_notebook": {
+    "message": "已從筆記本移除"
+  },
+  "t_d1c58470": {
+    "message": "按兩下以移除標示"
+  },
+  "t_d4fdfb03": {
+    "message": "登入 易讀 (易讀 (EasyView)) 以獲得每月 $1 次免費使用額度，或在「設定」中新增您自己的 API 介面 介面 金鑰。",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "正在載入已儲存結果..."
+  },
+  "t_3a99733d": {
+    "message": "正在初始化術語解碼器..."
+  },
+  "t_b6dc9fc9": {
+    "message": "建立免費的 易讀 (易讀 (EasyView)) 帳號以獲得每月 $1 次免費 人工智慧 (人工智慧 (AI)) 解碼額度並追蹤您的配額。",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "建立免費的 易讀 (易讀 (EasyView)) 帳號以獲得每月 $1 次免費 人工智慧 (人工智慧 (AI)) 定義額度並追蹤您的配額。",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "正在擷取主要內容..."
+  },
+  "t_0eeae2bf": {
+    "message": "正在偵測頁面內容..."
+  },
+  "t_87f125d0": {
+    "message": "正在分析術語..."
+  },
+  "t_9ef6e70f": {
+    "message": "正在使用快取結果..."
+  },
+  "t_9afdc5e8": {
+    "message": "正在使用 人工智慧 (人工智慧 (AI)) 分析..."
+  },
+  "t_7ecc3abe": {
+    "message": "人工智慧解碼失敗"
+  },
+  "t_9220c8de": {
+    "message": "正在套用簡化..."
+  },
+  "t_57f406b1": {
+    "message": "正在解碼選取範圍..."
+  },
+  "t_c50f2b72": {
+    "message": "檢視詞彙表"
+  },
+  "t_49de9b11": {
+    "message": "隱藏頁面標示"
+  },
+  "t_3158774e": {
+    "message": "還原頁面標示"
+  },
+  "t_fc3ad42d": {
+    "message": "儲存至詞彙"
+  },
+  "t_87e933b8": {
+    "message": "正在查詢定義..."
+  },
+  "t_56b79836": {
+    "message": "已載入字詞定義。"
+  },
+  "t_969b24ea": {
+    "message": "🔊 點擊任何地方以啟用主題音訊"
+  },
+  "t_49337275": {
+    "message": "手動標示"
+  },
+  "t_93324bd5": {
+    "message": "直接從網頁儲存。"
+  },
+  "t_82e413f3": {
+    "message": "正在簡化文字..."
+  },
+  "t_86c4f6e5": {
+    "message": "正在使用 人工智慧 (人工智慧 (AI)) 簡化..."
+  },
+  "t_c3e18edb": {
+    "message": "簡化失敗"
+  },
+  "t_6398ab2c": {
+    "message": "閱讀等級：$1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "點擊以暫時還原原始文字"
+  },
+  "t_9beea3e8": {
+    "message": "永久從記憶中刪除"
+  },
+  "t_453bb8f7": {
+    "message": "建立免費的 易讀 (易讀 (EasyView)) 帳號以獲得每月 $1 次免費 人工智慧 (人工智慧 (AI)) 簡化額度並追蹤您的使用量。",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "聆聽"
+  },
+  "t_24833610": {
+    "message": "已儲存"
+  },
+  "t_30a008cb": {
+    "message": "閱讀更多 &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "已儲存至詞彙筆記本！"
+  },
+  "t_2728e87f": {
+    "message": "已從詞彙筆記本移除"
+  },
+  "t_6b8c66ce": {
+    "message": "詞彙表 ($1 個術語)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "移除此頁面的記憶"
+  },
+  "t_8a49fe1a": {
+    "message": "移除術語"
+  },
+  "t_1534891c": {
+    "message": "已解碼 $1 個術語",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "儲存至筆記本"
+  },
+  "t_150a2843": {
+    "message": "清除標示"
+  },
+  "t_21ef939c": {
+    "message": "已儲存至筆記本！"
+  },
+  "t_8054da35": {
+    "message": "快速字典",
+    "description": "快速字典彈出視窗標題"
+  },
+  "t_4aeb2167": {
+    "message": "找不到單字",
+    "description": "字典備用標題"
+  },
+  "t_272d0070": {
+    "message": "我們在基礎字典中找不到「$1」。這可能是現代俚語、縮寫或高度專業的術語。",
+    "description": "帶有單字預留位置的字典備用說明",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "使用 伊維 (Evie) 人工智慧 (人工智慧 (AI)) 解碼",
+    "description": "使用人工智慧解碼的備用按鈕"
+  },
+  "t_14f1f972": {
+    "message": "經由",
+    "description": "字典來源前綴"
+  },
+  "t_f2faf2f1": {
+    "message": "名詞",
+    "description": "詞性：名詞"
+  },
+  "t_b512ddf1": {
+    "message": "動詞",
+    "description": "詞性：動詞"
+  },
+  "t_d807ae6a": {
+    "message": "形容詞",
+    "description": "詞性：形容詞"
+  },
+  "t_1a607278": {
+    "message": "副詞",
+    "description": "詞性：副詞"
+  },
+  "t_02de720d": {
+    "message": "代名詞",
+    "description": "詞性：代名詞"
+  },
+  "t_4b7be2c3": {
+    "message": "介系詞",
+    "description": "詞性：介系詞"
+  },
+  "t_a3c1d30b": {
+    "message": "連接詞",
+    "description": "詞性：連接詞"
+  },
+  "t_e189f001": {
+    "message": "感嘆詞",
+    "description": "詞性：感嘆詞"
+  },
+  "t_96de90f8": {
+    "message": "複製簡化後的文字",
+    "description": "複製簡化文字的工具提示"
+  },
+  "t_44a6e288": {
+    "message": "閱讀頁面",
+    "description": "透過文字轉語音朗讀整個頁面的工具提示"
+  },
+  "t_7d70d73b": {
+    "message": "朗讀選取內容",
+    "description": "透過文字轉語音朗讀選取內容的工具提示"
+  },
+  "t_11936123": {
+    "message": "永久刪除筆記",
+    "description": "永久刪除便利貼的工具提示"
+  },
+  "t_d27532d9": {
+    "message": "最小化"
+  },
+  "t_2bd339d8": {
+    "message": "還原"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "簡易檢視"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "系統警示"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "系統通知"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "易讀 (易讀 (EasyView)) 引擎"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "本機功能保持啟用"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,580 +599,571 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "易讀 (易讀 (EasyView)) 體驗"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "您已使用 易讀 (易讀 (EasyView)) 十二小時。建立免費帳號以\r\n                    儲存您的\r\n                    設定、保留您的配額並解鎖更多功能。"
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "十二小時後提醒我"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "淺色"
   },
   "t_7fc56270": {
-    "message": "A"
+    "message": "特"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "字體"
   },
   "t_5dbc98dc": {
-    "message": "S"
+    "message": "小"
   },
   "t_69691c7b": {
-    "message": "M"
+    "message": "中"
   },
   "t_d20caec3": {
-    "message": "L"
+    "message": "大"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "功能"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "視覺效果"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "轉換器"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "筆記本"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "術語解碼器"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "簡化複雜的法律術語"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "維基百科.org/wiki/神經多樣性"
   },
   "t_61e9c06e": {
-    "message": "W"
+    "message": "寬"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "神經多樣性"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "容易\r\n                                                許多"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "專注與隱私防護"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "模糊私人與敏感內容"
   },
   "t_7f766191": {
-    "message": "mail.google.com/mail/u/0/"
+    "message": "郵件點谷歌點康/郵件/使用者/0/"
   },
   "t_dfcf28d0": {
-    "message": "G"
+    "message": "綠"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "谷歌 (谷歌 (Google)) 帳戶"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "安全警示"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- 已要求重設密碼..."
   },
   "t_8d9c307c": {
-    "message": "N"
+    "message": "正"
   },
   "t_170b1d36": {
-    "message": "Netflix"
+    "message": "網飛"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "本週新功能"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- 查看我們最新的\r\n                                                    版本更新..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "保護技術"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "私人內容模糊化"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "智慧模糊 WhatsApp 應用、Gmail 信箱 與密碼\r\n                                            輸入欄位，以實現即時視覺安全。"
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "螢幕共享時自動保護"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "線上分享時立即遮蔽您的螢幕畫面。"
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
-  },
-  "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "正在使用\r\n                                                    實體投影機？"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "閱讀手電筒"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "以明亮的聚光燈跟隨您的滑鼠，徹底消除周圍的\r\n                                            視覺雜亂。"
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "第一項、\r\n                                                            光束形狀"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "聚光燈\r\n                                                            或尺規"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "第二項、\r\n                                                                光束大小 / 高度"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "檢視區域的\r\n                                                                厚度"
   },
   "t_f0cad41b": {
     "message": "35px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "第三項、\r\n                                                            焦點光束鏡頭色調"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "輕柔地\r\n                                                            渲染閱讀間隙"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "第四項、\r\n                                                            環境背景陰影"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "鏡頭周圍的\r\n                                                            暗度"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "感官防護罩"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "凍結會分散注意力的動畫"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "新聞日報點康/即時新聞"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "突發新聞"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "正在閱讀每日新聞文章..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "成功！"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "防護模式"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "（預設）"
   },
   "t_9e3360ac": {
-    "message": "PRO"
+    "message": "專業版"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "停止自動播放 + 手動導覽時的\r\n                                                平靜淡出"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "閱讀障礙閱讀模式"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "最佳化字體與間距"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "強度設定檔"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "低"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "中"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "高"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "維基百科點歐格/維基/閱讀"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "閱讀"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "這是您的閱讀設定預覽。"
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "進階選項"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "字體樣式"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "預設（無變更）"
   },
   "t_5d2967ef": {
-    "message": "OpenDyslexic"
+    "message": "開放閱讀障礙字體"
   },
   "t_1042daad": {
-    "message": "Lexend (ADHD Pro) 🔒"
+    "message": "Lexend (注意力不足過動症 (ADHD) 專業版) 🔒"
   },
   "t_bcec044a": {
-    "message": "Atkinson Hyperlegible 🔒"
+    "message": "阿特金森超易讀體 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "快速無襯線體"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "快速襯線體"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "漫畫新體"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "漫畫無襯線體"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "字元間距"
   },
   "t_960b44c5": {
-    "message": "Normal"
+    "message": "正常"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "行高"
   },
   "t_60086472": {
     "message": "1.5"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "字元間距"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "字體大小"
   },
   "t_30bd7ce7": {
     "message": "100%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "覆蓋顏色"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "無"
   },
   "t_2bd8c63b": {
-    "message": "Beige"
+    "message": "米色"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "淺藍色"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "淺綠色"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "淺黃色"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "文字轉語音"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "朗讀並顯示標示"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "播放"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "暫停"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "停止"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "語音選擇"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "自動（最佳品質）"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "閱讀速度"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "極慢"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "慢"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "快"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "極快"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "音量"
   },
   "t_f1943132": {
     "message": "70%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "標點符號處暫停"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "單字標示"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "啟用"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "模式"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "深色"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "維基百科點歐格/維基/光"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "完美的視覺效果，讓眼睛舒適。光線可能會太強。"
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "亮度"
   },
   "t_c63ecd19": {
-    "message": "Contrast"
+    "message": "對比度"
   },
   "t_b84a9a38": {
-    "message": "Sepia"
+    "message": "深褐色"
   },
   "t_9f1ef078": {
     "message": "0%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "灰階"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "預設"
   },
   "t_b1166920": {
-    "message": "Lexend 🔒"
+    "message": "萊克森德體 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "文字描邊"
   },
   "t_cfcd2084": {
     "message": "0"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "智慧轉換器與閱讀器"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "目前檔案"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "點擊或拖曳檔案以上傳"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• 就緒"
   },
   "t_4c4ad5fc": {
-    "message": "HTML"
+    "message": "超文本標記語言"
   },
   "t_5c31b30e": {
-    "message": "EPUB"
+    "message": "電子書格式"
   },
   "t_7cfd9a9f": {
-    "message": "DOCX"
+    "message": "微軟文件格式"
   },
   "t_af97e960": {
     "message": "📌"
   },
   "t_4cc6684d": {
-    "message": "Global"
+    "message": "全域"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "網站/頁面"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "我的筆記本"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "全部清除"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "取消"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "儲存單字"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "尚未儲存任何字詞。"
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "將滑鼠懸停在任何頁面的術語上，並點擊書籤旗標即可將其儲存於此！"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "重新構想任何網站的介面。描述您想要的樣式或選擇一個\r\n                            預設值。"
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "已套用變形"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "自訂 人工智慧 (人工智慧 (AI)) 版面配置\r\n                                已在此網站啟用。"
   },
   "t_e8a57cd1": {
     "message": "0 /\r\n                                500"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "重置頁面"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "變形佈局"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "預設設定"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "恐怖嘉年華"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "詭異嘉年華氛圍與動畫恐怖文字"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "矩陣控制台"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "賽博龐克終端機主題"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "神經專注"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "閱讀障礙友善字體與舒緩色彩"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "閱讀模式"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "針對專注力最佳化的極簡版面"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "近期提示詞"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "訪客使用者"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "免費帳戶"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "登入 / 管理"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "登出"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "API 介面 介面 設定"
   },
   "t_766cc4dd": {
-    "message": "Gemini"
+    "message": "雙子座"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "人工智慧提供者"
   },
   "t_222cf5ed": {
-    "message": "Google Gemini"
+    "message": "谷歌 (谷歌 (Google)) 雙子座"
   },
   "t_a0607683": {
-    "message": "OpenRouter"
+    "message": "開放路由"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "雙子座 (Gemini) API 介面 介面 金鑰"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "谷歌 (谷歌 (Google)) 人工智慧工作室"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "OpenRouter API 介面 介面 金鑰"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "儲存 API 介面 介面 金鑰"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "易讀 (易讀 (EasyView))\r\n                                    人工智慧 (人工智慧 (AI)) 優先級"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ 我的 API 介面 介面 金鑰"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 易讀 (易讀 (EasyView)) 伺服器"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "選擇\r\n                                優先用於所有 人工智慧 (人工智慧 (AI)) 功能的項目。若您的金鑰用盡，易讀 (易讀 (EasyView)) 伺服器將\r\n                                永遠作為備援使用。"
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "隱私與優先權"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "優先級 1："
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "優先級 2："
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "變形\r\n                                            引擎筆記："
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "永不"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "說明與回饋"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "有問題、發現錯誤或想建議新功能嗎？我們很樂意聽取您的意見！"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "回報錯誤 / 提供意見回饋"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "準備簡化"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "匯出設定"
   },
   "t_9d5ed678": {
-    "message": "B"
+    "message": "粗"
   },
   "t_dd753679": {
-    "message": "I"
+    "message": "斜"
   },
   "t_20a1d47c": {
     "message": "✎"
   },
   "t_4c614360": {
-    "message": "U"
+    "message": "底"
   },
   "t_2f43b42f": {
     "message": "..."
@@ -615,25 +1172,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "強度"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "不透明度"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "字重"
   },
   "t_18d80423": {
     "message": "400"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "行高"
   },
   "t_f522dede": {
     "message": "1.7x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "跳過"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,61 +1199,61 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "高亮顯示"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "墨水"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "淡出"
   },
   "t_e8bfe352": {
-    "message": "Lexend 👑"
+    "message": "萊克森德體 👑"
   },
   "t_0cd4623c": {
-    "message": "Atkinson Hyperlegible 👑"
+    "message": "阿特金森超易讀體 👑"
   },
   "t_6fbda3a3": {
-    "message": "Arial"
+    "message": "愛麗兒體"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "赫爾維蒂卡體"
   },
   "t_207c3219": {
-    "message": "Verdana"
+    "message": "維爾達納體"
   },
   "t_2bd141ae": {
-    "message": "Tahoma"
+    "message": "塔霍馬體"
   },
   "t_720661ec": {
-    "message": "Trebuchet MS"
+    "message": "特雷布謝 MS 體"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "系統無襯線體"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "新羅馬體"
   },
   "t_eada8196": {
-    "message": "Georgia"
+    "message": "喬治亞體"
   },
   "t_96a78725": {
-    "message": "Garamond"
+    "message": "加拉蒙體"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "系統襯線體"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "漫畫無襯線 MS 體"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "信差新體"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "等寬字體"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "字體大小"
   },
   "t_f4f9f2f4": {
     "message": "14px"
@@ -723,7 +1280,7 @@
     "message": "32px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "完成"
   },
   "t_63922286": {
     "message": "×"
@@ -732,154 +1289,34 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "匯出主題庫"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "將您 人工智慧 (人工智慧 (AI)) 生成的傑作\r\n                儲存於本機。"
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "匯出整個圖書館"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
-  },
-  "t_ccca2ddf": {
-    "message": "EasyView Reader"
-  },
-  "t_8524de96": {
-    "message": "Loading..."
-  },
-  "t_25e8f2fd": {
-    "message": "Please wait..."
-  },
-  "t_ec9d785d": {
-    "message": "1.5x"
-  },
-  "t_dafd5f8f": {
-    "message": "Lexend"
-  },
-  "t_16d90a0b": {
-    "message": "Atkinson Hyperlegible"
-  },
-  "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
-  },
-  "t_f7cee5ea": {
-    "message": "Calibri"
-  },
-  "t_ccc0239e": {
-    "message": "Candara"
-  },
-  "t_2963521b": {
-    "message": "Corbel"
-  },
-  "t_37f1cc58": {
-    "message": "Cambria"
-  },
-  "t_c3d9d4bf": {
-    "message": "Constantia"
-  },
-  "t_5d1a5b35": {
-    "message": "Palatino Linotype"
-  },
-  "t_4dc386b6": {
-    "message": "Book Antiqua"
-  },
-  "t_03c461f6": {
-    "message": "Franklin Gothic"
-  },
-  "t_7b1ee3b6": {
-    "message": "Century Gothic"
-  },
-  "t_a3293302": {
-    "message": "Gill Sans"
-  },
-  "t_eb726908": {
-    "message": "Sitka Text"
-  },
-  "t_b5bdee2c": {
-    "message": "Sylfaen"
-  },
-  "t_1ec05249": {
-    "message": "Microsoft Sans Serif"
-  },
-  "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
-  },
-  "t_16507cdd": {
-    "message": "Consolas"
-  },
-  "t_391c5954": {
-    "message": "Lucida Console"
-  },
-  "t_9879efdf": {
-    "message": "Lucida Sans Typewriter"
-  },
-  "t_21f59b54": {
-    "message": "Impact"
-  },
-  "t_94a7bb97": {
-    "message": "Arial Black"
-  },
-  "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
-  },
-  "t_40885309": {
-    "message": "Berlin Sans FB"
-  },
-  "t_6d5566ba": {
-    "message": "Gabriola"
-  },
-  "t_edb42482": {
-    "message": "Ink Free"
-  },
-  "t_fa233799": {
-    "message": "Segoe Script"
-  },
-  "t_2f7bc407": {
-    "message": "Segoe Print"
-  },
-  "t_0095a9fa": {
-    "message": "Export"
-  },
-  "t_520d0db3": {
-    "message": "Format"
-  },
-  "t_5956a437": {
-    "message": "TXT"
-  },
-  "t_1351017a": {
-    "message": "Filename"
-  },
-  "t_6af8212e": {
-    "message": "EasyView Notes Board"
-  },
-  "t_d16da0f5": {
-    "message": "🌎"
-  },
-  "t_6df173ff": {
-    "message": "📍"
+    "message": ".json（JSON檔案）"
   },
   "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
-  },
-  "js_24833610": {
-    "message": "Saved"
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> 需要採取行動</div>\n            <h2 class=\"ev-si-title\">帳號<br><span class=\"ev-si-gradient-text\">已暫停</span></h2>\n            <p class=\"ev-si-sub\">由於違反我們的服務條款，您的 易讀 (易讀 (EasyView)) 存取權已受到限制。</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                聯絡支援團隊\n            </a>\n          </div>\n        </div>\n      "
   },
   "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>請先描述您的變形需求。</span>\n          </div>"
   },
   "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>變形中...</span>\n      "
   },
   "js_138703dd": {
-    "message": "No Theme on Page"
+    "message": "頁面無主題"
   },
   "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>匯出目前頁面"
   },
   "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> 編譯中..."
   },
   "js_e541190e": {
     "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
@@ -891,30 +1328,1322 @@
     "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
   },
   "js_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "準備簡化"
   },
   "js_a18366b2": {
-    "message": "Dark"
+    "message": "深色"
   },
   "js_9914a0ce": {
-    "message": "Light"
+    "message": "淺色"
   },
   "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+    "message": "<option value=\"auto\">自動（最佳品質）</option>"
   },
   "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> 解碼中..."
   },
   "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+    "message": "這感覺<span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">容易許多</span>，更容易理解了。"
   },
   "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+    "message": "這感覺比較容易理解。"
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_f05df71b": {
+    "message": "正在升級"
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_78db2ae3": {
+    "message": "我們的人工智慧伺服器正在進行升級。"
+  },
+  "t_bb2129c8": {
+    "message": "解鎖完整功能"
+  },
+  "t_aefee7cd": {
+    "message": "為每個大腦提供清晰度"
+  },
+  "t_c38beca1": {
+    "message": "火狐瀏覽器限制了實體螢幕偵測介面。"
+  },
+  "t_f2fe1e79": {
+    "message": "低於 1.0 的數值\r\n                                    可能會壓縮文字並破壞版面配置。"
+  },
+  "t_ca677d53": {
+    "message": "視覺調整"
+  },
+  "t_230b4522": {
+    "message": "筆記看板"
+  },
+  "t_596b54bf": {
+    "message": "變形人工智慧代理"
+  },
+  "t_47e79a17": {
+    "message": "取得免費金鑰於"
+  },
+  "t_42372184": {
+    "message": "主題匯出格式為"
+  },
+  "t_74fdc8a2": {
+    "message": "請先描述您的變形轉換。"
+  },
+  "t_245fd3b9": {
+    "message": "已清除變形版面。"
+  },
+  "t_172bd753": {
+    "message": "主題匯出成功！"
+  },
+  "t_4c34daff": {
+    "message": "連線逾時。無法連線至伺服器。"
+  },
+  "t_0dd56117": {
+    "message": "在此頁面上找不到使用中的主題。"
+  },
+  "t_cb5c0766": {
+    "message": "圖書館匯出成功！"
+  },
+  "t_8adb392e": {
+    "message": "連線逾時。無法連線至伺服器。"
+  },
+  "t_ae94e0e4": {
+    "message": "您的圖書館是空的。"
+  },
+  "t_10a0c40b": {
+    "message": "自訂主題載入成功！"
+  },
+  "t_9b6007a8": {
+    "message": "讀取主題檔案失敗。"
+  },
+  "t_d4fa051d": {
+    "message": "失敗：$1。請重新載入分頁。",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "已套用：$1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "已從圖書館還原 $1 個主題！",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "語言偏好"
+  },
+  "t_lang_updated_reload": {
+    "message": "語言已更新。正在重新載入..."
+  },
+  "t_transformation_failed": {
+    "message": "轉換失敗。"
+  },
+  "t_c8a59e71": {
+    "message": "忽略"
+  },
+  "t_7764306b": {
+    "message": "雲端服務維護中"
+  },
+  "t_248228de": {
+    "message": "在彈出視窗中切換閱讀障礙字體"
+  },
+  "t_79a59320": {
+    "message": "開始應用程式導覽"
+  },
+  "t_533bff5b": {
+    "message": "將便利貼釘選至頁面 (換擋+N)"
+  },
+  "t_f4f70727": {
+    "message": "設定"
+  },
+  "t_4fd11104": {
+    "message": "圓形聚光燈"
+  },
+  "t_0d063af1": {
+    "message": "水平線尺規 🔒"
+  },
+  "t_60d71580": {
+    "message": "清透光"
+  },
+  "t_efe48742": {
+    "message": "琥珀專注"
+  },
+  "t_610a09ca": {
+    "message": "冷青色"
+  },
+  "t_886f6b9e": {
+    "message": "寧靜綠"
+  },
+  "t_65e8194e": {
+    "message": "漆黑"
+  },
+  "t_7243ed99": {
+    "message": "午夜石板色"
+  },
+  "t_ec6d8325": {
+    "message": "深林綠"
+  },
+  "t_4af435e0": {
+    "message": "吸血鬼紅酒色"
+  },
+  "t_2a7dbdf8": {
+    "message": "專業版功能"
+  },
+  "t_fc4aec61": {
+    "message": "在閱讀器中開啟"
+  },
+  "t_801ab246": {
+    "message": "下載"
+  },
+  "t_aa3880dc": {
+    "message": "下載為 HTML 網頁"
+  },
+  "t_e0781e81": {
+    "message": "下載為 EPUB 電子書"
+  },
+  "t_442ff212": {
+    "message": "下載為 DOCX 文件"
+  },
+  "t_6244ee7c": {
+    "message": "手動新增自訂術語"
+  },
+  "t_6e7d015f": {
+    "message": "匯入 CSV 表格 檔案"
+  },
+  "t_edbc5415": {
+    "message": "匯出至 Anki 記憶卡 / Quizlet 學習卡"
+  },
+  "t_46c29f7a": {
+    "message": "載入主題"
+  },
+  "t_2bd65c5d": {
+    "message": "匯出主題"
+  },
+  "t_c1c433ac": {
+    "message": "使用中的人工智慧供應商"
+  },
+  "t_90c09393": {
+    "message": "點線"
+  },
+  "t_eb656e41": {
+    "message": "虛線"
+  },
+  "t_0c99ddee": {
+    "message": "螢光筆顏色"
+  },
+  "t_eaf63759": {
+    "message": "墨水顏色"
+  },
+  "t_a183c9f0": {
+    "message": "淡出顏色"
+  },
+  "t_75e7422f": {
+    "message": "背景顏色"
+  },
+  "t_42f9ceea": {
+    "message": "搜尋已儲存的詞彙..."
+  },
+  "t_0e84a8cf": {
+    "message": "輸入字詞或縮寫..."
+  },
+  "t_eea6890c": {
+    "message": "意義 / 翻譯..."
+  },
+  "t_4480cf46": {
+    "message": "記憶技巧或學習筆記（選填）..."
+  },
+  "t_d8634fbf": {
+    "message": "例如：轉換為帶有圓角卡片的粉紅色動漫風格主題，或轉換為復古深綠色終端機控制台..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "便利貼"
+  },
+  "t_b097d277": {
+    "message": "新增單字"
+  },
+  "t_1eeb67ee": {
+    "message": "匯出目前頁面"
+  },
+  "t_b62ded9a": {
+    "message": "雲端服務離線"
+  },
+  "t_263e00eb": {
+    "message": "登入 / 建立帳號"
+  },
+  "t_7748eb3b": {
+    "message": "升級中"
+  },
+  "t_81a5d20b": {
+    "message": "凍結全部"
+  },
+  "t_e61146d9": {
+    "message": "平靜淡出"
+  },
+  "t_57323916": {
+    "message": "停止自動播放"
+  },
+  "t_f50319ea": {
+    "message": "全面防護"
+  },
+  "t_8e13f26d": {
+    "message": "快速提問"
+  },
+  "t_134b26da": {
+    "message": "您喜歡<br><span class=\"ev-si-gradient-text\">易讀 (易讀 (EasyView)) 嗎？</span>"
+  },
+  "t_b75bdd9e": {
+    "message": "您的回饋有助於我們改進。<br>您喜歡這次的使用體驗嗎？"
+  },
+  "t_396d1ff8": {
+    "message": "是的，我很喜歡！"
+  },
+  "t_7d0cacf3": {
+    "message": "需要改進"
+  },
+  "t_815142c9": {
+    "message": "支持我們"
+  },
+  "t_abd9fa39": {
+    "message": "您願意<br><span class=\"ev-si-gradient-text\">留下評論嗎？</span>"
+  },
+  "t_02991e61": {
+    "message": "像您一樣的使用者評分是幫助 易讀 (易讀 (EasyView)) 成長的最佳方式。只需一分鐘！"
+  },
+  "t_db49c1f2": {
+    "message": "立即評分"
+  },
+  "t_7a4f0d12": {
+    "message": "稍後提醒我"
+  },
+  "t_fee6c0e9": {
+    "message": "私人回饋"
+  },
+  "t_74393dde": {
+    "message": "我們有什麼可以<span class=\"ev-si-gradient-text\">做得更好？</span>"
+  },
+  "t_7096a3ae": {
+    "message": "告訴我們出了什麼問題..."
+  },
+  "t_6f97affc": {
+    "message": "傳送意見回饋"
+  },
+  "t_b20871b3": {
+    "message": "請輸入您的意見回饋"
+  },
+  "t_7b0fee4d": {
+    "message": "傳送中..."
+  },
+  "t_fb631633": {
+    "message": "感謝您的意見回饋。"
+  },
+  "t_08727add": {
+    "message": "以您的方式瀏覽網頁。"
+  },
+  "t_15bbb9d0": {
+    "message": "網站"
+  },
+  "t_c5f29bb3": {
+    "message": "隱私權"
+  },
+  "t_ad5b1a22": {
+    "message": "創辦人"
+  },
+  "t_db496e03": {
+    "message": "個人金鑰可建立與 人工智慧 (人工智慧 (AI)) 之間 100% 私密的直接連線。您的文字絕不會接觸 易讀 (易讀 (EasyView)) 伺服器。"
+  },
+  "t_387c35b3": {
+    "message": "若未提供金鑰或金鑰失效，我們的託管伺服器（專業版）將作為可靠的備份。"
+  },
+  "t_98bc5a17": {
+    "message": "為了保護專有演算法，您的金鑰會短暫透過我們的安全伺服器路由，以向 谷歌 (谷歌 (Google)) 進行驗證。它是"
+  },
+  "t_de47f1be": {
+    "message": "未儲存或記錄。"
+  },
+  "t_25e02e7f": {
+    "message": "啟用中： "
+  },
+  "t_406a3cab": {
+    "message": "⭐ 專業版會員"
+  },
+  "t_df56cfae": {
+    "message": "⭐ 終身會員"
+  },
+  "t_41cbc704": {
+    "message": " 天剩餘"
+  },
+  "t_b194bd82": {
+    "message": "永不過期"
+  },
+  "t_9f830444": {
+    "message": "⭐ 專業版："
+  },
+  "t_61b82be6": {
+    "message": " 次變形剩餘"
+  },
+  "t_c20e7ceb": {
+    "message": " 次免費變形剩餘"
+  },
+  "t_d7087930": {
+    "message": " 次免費使用剩餘"
+  },
+  "t_4bbf11bd": {
+    "message": "術語與意義欄位不能留空！"
+  },
+  "t_08f09d38": {
+    "message": "單字詳細資訊更新成功！"
+  },
+  "t_32001b52": {
+    "message": "請同時輸入單字及其意義。"
+  },
+  "t_b8115861": {
+    "message": "您的學習筆記本是空的。請先在網頁上為單字加上書籤！"
+  },
+  "t_7114113b": {
+    "message": "請先登入您的 易讀 (易讀 (EasyView)) 帳號以驗證您的專業版功能！"
+  },
+  "t_093f9fa0": {
+    "message": "您的工作階段權杖遺失。請重新登入 easyview.in 以恢復存取權。"
+  },
+  "t_0e065596": {
+    "message": "這是已驗證的專業版專屬功能。升級至專業版即可解鎖！"
+  },
+  "t_c792a645": {
+    "message": "無法連線至安全匯出伺服器。請稍後再試。"
+  },
+  "t_8d1a2675": {
+    "message": "無法在該 CSV 表格 中識別任何有效的詞彙項目。"
+  },
+  "t_a613ed90": {
+    "message": "瀏覽器儲存寫入失敗！檔案可能對於本機快取而言過大。"
+  },
+  "t_8efe87ab": {
+    "message": "瀏覽器無法讀取您的本機檔案。"
+  },
+  "t_50bf63aa": {
+    "message": "您確定要清除筆記本中所有已儲存的單字嗎？"
+  },
+  "t_ff252710": {
+    "message": "匯入結束：所有 $1 個項目皆已存在於您的筆記本中。",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "解析 CSV 表格 失敗：$1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "「$1」已存在於您的筆記本中。您想要為它新增另一個定義嗎？",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "已成功登出"
+  },
+  "t_dbd35100": {
+    "message": "變形引擎已在運作中..."
+  },
+  "t_2de4e55d": {
+    "message": "已清除變形版面"
+  },
+  "t_1bb9196d": {
+    "message": "已變形：$1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "變形失敗：$1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "已觸發：$1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 已整理 $1 個項目",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "這將永久刪除所有同步裝置上的此筆記。確定要繼續嗎？"
+  },
+  "t_25abf697": {
+    "message": "匯出 EPUB 電子書 格式需要 JSZip 元件庫。"
+  },
+  "t_71609188": {
+    "message": "匯出 DOCX 文件 格式需要 html-docx 元件庫。"
+  },
+  "t_e1499766": {
+    "message": "未載入檔案。"
+  },
+  "t_023b3355": {
+    "message": "隱私防護已啟用"
+  },
+  "t_9483a5da": {
+    "message": "隱私防護已停用"
+  },
+  "t_a04202db": {
+    "message": "標示已暫時隱藏"
+  },
+  "t_b3d6b264": {
+    "message": "已還原標示"
+  },
+  "t_7485c55e": {
+    "message": "歡迎使用 易讀 (易讀 (EasyView))！👋"
+  },
+  "t_06fa81ac": {
+    "message": "您由 人工智慧 (人工智慧 (AI)) 驅動的認知橋樑，讓網頁閱讀更輕鬆。讓我們快速導覽各項功能。"
+  },
+  "t_3a1fe637": {
+    "message": "術語解碼器 📖"
+  },
+  "t_89cec86e": {
+    "message": "簡化任何網頁上的複雜術語。"
+  },
+  "t_f8aefae7": {
+    "message": "隱私防護罩 🔐"
+  },
+  "t_aa860f86": {
+    "message": "模糊敏感資料並包含「焦點尺規」，提供無干擾的閱讀體驗。"
+  },
+  "t_0681a3b6": {
+    "message": "感官防護罩 🛡️"
+  },
+  "t_6118b864": {
+    "message": "凍結會分散注意力的 GIF 動態圖 與動畫。"
+  },
+  "t_12ec6fc6": {
+    "message": "閱讀障礙閱讀模式 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "最佳化的字體與間距，讓閱讀更輕鬆。"
+  },
+  "t_18d9ce63": {
+    "message": "文字轉語音 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "聆聽任何網頁並顯示單字標示。"
+  },
+  "t_0019a700": {
+    "message": "變形引擎 ✨"
+  },
+  "t_47c2535a": {
+    "message": "使用 人工智慧 (人工智慧 (AI)) 將任何網站重新設計為自訂主題或版面配置。"
+  },
+  "t_2ed2f639": {
+    "message": "便利貼 📝"
+  },
+  "t_75025b5f": {
+    "message": "將浮動便利貼釘選至任何網頁以儲存重要資訊 (換擋+N)。"
+  },
+  "t_3ff2d7cc": {
+    "message": "API 介面 介面 設定 ⚙️"
+  },
+  "t_0754e836": {
+    "message": "登入以同步您的配額，或在此設定您自己的免費 雙子座 (Gemini) API 介面 介面 金鑰。"
+  },
+  "t_7b6a2059": {
+    "message": "步驟 $1 之 $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "開始使用！"
+  },
+  "t_10ac3d04": {
+    "message": "下一頁"
+  },
+  "t_5c7a52b8": {
+    "message": "按下 "
+  },
+  "t_a1b2c3d4": {
+    "message": " 隨時手動啟用「自動保護」防護罩。"
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ 隱私防護已啟用"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 隱私防護已停用"
+  },
+  "js_9b3e1a": {
+    "message": "易讀 (易讀 (EasyView)) 正在分析版面並進行變形..."
+  },
+  "js_4c8d2f": {
+    "message": "定義"
+  },
+  "js_7a1e9b": {
+    "message": "解碼"
+  },
+  "js_2d5f8c": {
+    "message": "簡化"
+  },
+  "js_6e3a4d": {
+    "message": "書籤"
+  },
+  "js_1f9b7c": {
+    "message": "高亮顯示"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "正在分析 DOM 頁面架構 樹狀結構..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "版面混亂..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "正在扁平化結構..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[雜訊過載]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "正在移除干擾..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "複雜節點"
+  },
+  "js_ldr_m4_cl": {
+    "message": "正在套用閱讀障礙規則..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "正在渲染 易讀 (易讀 (EasyView)) 介面..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "正在掃描文字區塊..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "單字過多..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "正在擷取核心意義..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "認知負荷"
+  },
+  "js_ldr_s3_cl": {
+    "message": "正在草擬更簡單的英文..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "詳細人工智慧..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "正在套用可讀性..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "正在潤飾輸出..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "正在翻譯術語..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "錯誤：混亂"
+  },
+  "js_ldr_j2_cl": {
+    "message": "正在尋找定義..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[雜訊過載]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "正在簡化內容..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "未知術語"
+  },
+  "js_ldr_j4_cl": {
+    "message": "正在套用清晰度..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "正在格式化結果..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "深度分析中..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "正在完成 人工智慧 (人工智慧 (AI)) 邏輯..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "正在執行人工智慧..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "即將完成..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "流量繁忙..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "需要較長時間..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "處理中..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "請稍候..."
+  },
+  "t_b7012ab9": {
+    "message": "變形"
+  },
+  "t_c5e8b1d9": {
+    "message": "專業版字體"
+  },
+  "t_c8f2ba19": {
+    "message": "已啟用私人內容模糊化"
+  },
+  "t_e2dae61a": {
+    "message": "已停用私人內容模糊化"
+  },
+  "t_c74de318": {
+    "message": "已啟用螢幕共享時自動保護"
+  },
+  "t_a5fd56f4": {
+    "message": "已停用螢幕共享時自動保護"
+  },
+  "t_ab8d1f2a": {
+    "message": "手電筒模式已啟用"
+  },
+  "t_2bf5cc98": {
+    "message": "手電筒模式已停用"
+  },
+  "t_513bb93f": {
+    "message": "仿生閱讀"
+  },
+  "t_5a8b2c1d": {
+    "message": "這是您的閱讀設定預覽。"
+  },
+  "t_ac1d4e5f": {
+    "message": "無"
+  },
+  "t_b2e3f4a1": {
+    "message": "寬"
+  },
+  "t_c3f4a5b2": {
+    "message": "特寬"
+  },
+  "t_d1a3c901": {
+    "message": "點擊"
+  },
+  "t_b4f2e891": {
+    "message": "釘選至元素"
+  },
+  "t_c9a1b302": {
+    "message": "空格"
+  },
+  "t_f6d4e203": {
+    "message": "全域筆記"
+  },
+  "t_e2b3f104": {
+    "message": "退出"
+  },
+  "t_a7c0d905": {
+    "message": "取消"
+  },
+  "t_e1b2c301": {
+    "message": "僅限此頁面"
+  },
+  "t_f7a3b402": {
+    "message": "本網站"
+  },
+  "t_a8c4d503": {
+    "message": "所有網站（全域）"
+  },
+  "t_b9d5e604": {
+    "message": "隱藏直到重新載入"
+  },
+  "t_c0e6f705": {
+    "message": "將筆記釘選至元素"
+  },
+  "t_d1f7a806": {
+    "message": "變更筆記顏色"
+  },
+  "t_e2a8b907": {
+    "message": "收合/展開筆記"
+  },
+  "t_f3b9c008": {
+    "message": "複製筆記內容"
+  },
+  "t_a4c0d109": {
+    "message": "更多動作"
+  },
+  "t_b5d1e200": {
+    "message": "刪除此筆記"
+  },
+  "t_e87033a2": {
+    "message": "按鍵組合 換擋 + X"
+  },
+  "t_4120201a": {
+    "message": "免費試用中"
+  },
+  "t_6ed40ffb": {
+    "message": "跨裝置同步設定"
+  },
+  "t_f8b8a5fd": {
+    "message": "更高的免費使用額度"
+  },
+  "t_440b106d": {
+    "message": "存取未來的專業版功能"
+  },
+  "t_3a99076c": {
+    "message": "專業版限制"
+  },
+  "t_545f6c2f": {
+    "message": "無限制"
+  },
+  "t_ad23f4a0": {
+    "message": "空間筆記"
+  },
+  "t_04f2f045": {
+    "message": "您已成功在網頁上部署所有 15 個免費層級筆記。升級至 易讀 (易讀 (EasyView)) 專業版以解鎖無限空間記憶與自訂顏色。"
+  },
+  "t_cf874b99": {
+    "message": "解鎖專業版"
+  },
+  "t_a6d36e2f": {
+    "message": "所有本機輔助功能控制（已啟用）"
+  },
+  "t_b0b69bc3": {
+    "message": "文字轉語音引擎（已啟用）"
+  },
+  "t_cc96c21a": {
+    "message": "雲端人工智慧功能（離線）"
+  },
+  "t_7af6f6e5": {
+    "message": "我了解了"
+  },
+  "t_9bc7102e": {
+    "message": "建立免費的 易讀 (易讀 (EasyView)) 帳號以追蹤您的配額並解鎖術語解碼器。"
+  },
+  "t_ab7512fd": {
+    "message": "您的工作階段權杖遺失。請重新登入 easyview.in 以恢復存取權。"
+  },
+  "t_1cd7820a": {
+    "message": "僅限專業版存取"
+  },
+  "t_8eb14032": {
+    "message": "術語解碼器<br><span class=\"ev-si-gradient-text\">配額已達上限</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "超出配額"
+  },
+  "t_5ae983dc": {
+    "message": "您本月已用盡 <strong>五次免費解碼</strong>。立即解鎖無限存取權。"
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> 升級專業版 — 無限解碼</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> 使用您自己的 API 介面 介面 金鑰</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 在設定中新增 API 介面 介面 金鑰</button>"
+  },
+  "t_9be4129a": {
+    "message": "學習卡片組匯出器<br><span class=\"ev-si-gradient-text\">專業版自動化</span>"
+  },
+  "t_fac34185": {
+    "message": "立即將您完整的自訂學習筆記本直接匯出至 <strong>Anki 記憶卡</strong> 與 <strong>Quizlet 學習卡</strong>。"
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> 免除手動輸入</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> RFC-4180 閃示卡編譯器</div>"
+  },
+  "t_da12c30b": {
+    "message": "專業版存取權"
+  },
+  "t_4a9b2c01": {
+    "message": "此功能"
+  },
+  "t_3be78c01": {
+    "message": "此閱讀障礙專用字體"
+  },
+  "t_0ad4b971": {
+    "message": "此視覺字體"
+  },
+  "t_9af42be8": {
+    "message": "此進階匯出字體"
+  },
+  "t_cbae8349": {
+    "message": "升級以解鎖所有輔助功能與強大工具。"
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> 進階輔助功能</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> 所有未來更新</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ 升級至專業版"
+  },
+  "t_5ef4c1a2": {
+    "message": "稍後再說"
+  },
+  "t_3b7a5e82": {
+    "message": "，但人工智慧功能可能暫時無法使用。"
+  },
+  "t_c91d8e12": {
+    "message": "一般"
+  },
+  "t_b42f3a9d": {
+    "message": "定義"
+  },
+  "t_f1d4a8e6": {
+    "message": "字典"
+  },
+  "t_e398c71f": {
+    "message": "自訂"
+  },
+  "t_a72df9e5": {
+    "message": "醫療"
+  },
+  "t_d8f2c61a": {
+    "message": "法律"
+  },
+  "t_b3e1f5d2": {
+    "message": "金融"
+  },
+  "t_c25d81f9": {
+    "message": "科技"
+  },
+  "t_e1b3a4f6": {
+    "message": "學術"
+  },
+  "t_d5f9b4c1": {
+    "message": "術語"
+  },
+  "t_f7a2e8ea": {
+    "message": "類別"
+  },
+  "t_e3b1c6d9": {
+    "message": "簡化含義"
+  },
+  "t_a9d4e5f2": {
+    "message": "學習筆記 / 上下文"
+  },
+  "t_b4c5d6e7": {
+    "message": "取消"
+  },
+  "t_c8f2a1b4": {
+    "message": "儲存變更"
+  },
+  "t_8c17b5e6": {
+    "message": "您的工作階段權杖遺失。請重新登入 easyview.in 以恢復存取權。"
+  },
+  "t_a43dc219": {
+    "message": "建立免費的 易讀 (易讀 (EasyView)) 帳號以追蹤您的使用配額並解鎖 人工智慧 (人工智慧 (AI)) 變形引擎。"
+  },
+  "t_54c523fe": {
+    "message": "🎉 完美！已成功匯入 $1 個新學習卡片。"
+  },
+  "t_a7d8be72": {
+    "message": "🎉 完美！已匯入 $1 個新卡片。（已跳過 $2 個重複項目。）"
+  },
+  "t_14894d12": {
+    "message": "主題匯出"
+  },
+  "t_f27a2629": {
+    "message": "主題庫備份"
+  },
+  "t_9ad85e17": {
+    "message": "閱讀尺模式"
+  },
+  "t_b9d4e7a5": {
+    "message": "進階感官防護模式"
+  },
+  "t_94f4f7e4": {
+    "message": "正在解析 DOCX 文件...",
+    "description": "在閱讀器中解析 DOCX 時的狀態"
+  },
+  "t_120adfc1": {
+    "message": "正在解析 EPUB 電子書...",
+    "description": "在閱讀器中解析 EPUB 時的狀態"
+  },
+  "t_5d2a45b8": {
+    "message": "閱讀尺模式為專業版訂閱專屬。",
+    "description": "當非專業版使用者存取閱讀尺時發出警示"
+  },
+  "t_c1f29623": {
+    "message": "編輯整張卡片",
+    "description": "在筆記本中編輯整張卡片的工具提示"
+  },
+  "t_1063e38c": {
+    "message": "移除",
+    "description": "從筆記本移除卡片的工具提示"
+  },
+  "t_ccca2ddf": {
+    "message": "簡易檢視閱讀器"
+  },
+  "t_8524de96": {
+    "message": "載入中..."
+  },
+  "t_25e8f2fd": {
+    "message": "請稍候..."
+  },
+  "t_ec9d785d": {
+    "message": "1.5x"
+  },
+  "t_dafd5f8f": {
+    "message": "萊克森德體"
+  },
+  "t_16d90a0b": {
+    "message": "阿特金森超易讀體"
+  },
+  "t_5c7db066": {
+    "message": "Segoe 介面 (Windows 系統 系統 預設)"
+  },
+  "t_f7cee5ea": {
+    "message": "加里布利體"
+  },
+  "t_ccc0239e": {
+    "message": "坎達拉體"
+  },
+  "t_2963521b": {
+    "message": "科貝爾體"
+  },
+  "t_37f1cc58": {
+    "message": "坎布里亞體"
+  },
+  "t_c3d9d4bf": {
+    "message": "康斯坦提亞體"
+  },
+  "t_5d1a5b35": {
+    "message": "帕拉提諾字體"
+  },
+  "t_4dc386b6": {
+    "message": "古董書體"
+  },
+  "t_03c461f6": {
+    "message": "富蘭克林哥德體"
+  },
+  "t_7b1ee3b6": {
+    "message": "世紀哥德體"
+  },
+  "t_a3293302": {
+    "message": "吉爾無襯線體"
+  },
+  "t_eb726908": {
+    "message": "西特卡文字體"
+  },
+  "t_b5bdee2c": {
+    "message": "希爾凡體"
+  },
+  "t_1ec05249": {
+    "message": "微軟無襯線字體"
+  },
+  "t_ad4a300c": {
+    "message": "Segoe 介面 半粗體"
+  },
+  "t_16507cdd": {
+    "message": "控制台體"
+  },
+  "t_391c5954": {
+    "message": "露西達控制台體"
+  },
+  "t_9879efdf": {
+    "message": "Lucida Sans 打字機字體"
+  },
+  "t_21f59b54": {
+    "message": "衝擊體"
+  },
+  "t_94a7bb97": {
+    "message": "愛麗兒黑體"
+  },
+  "t_6e87c2cb": {
+    "message": "銅版哥德體"
+  },
+  "t_40885309": {
+    "message": "柏林無襯線體"
+  },
+  "t_6d5566ba": {
+    "message": "加布里奧拉體"
+  },
+  "t_edb42482": {
+    "message": "墨水手寫體"
+  },
+  "t_fa233799": {
+    "message": "賽格手寫體"
+  },
+  "t_2f7bc407": {
+    "message": "賽格印刷體"
+  },
+  "t_0095a9fa": {
+    "message": "匯出"
+  },
+  "t_520d0db3": {
+    "message": "格式"
+  },
+  "t_5956a437": {
+    "message": "文字"
+  },
+  "t_1351017a": {
+    "message": "檔案名稱"
+  },
+  "t_d4c3c15b": {
+    "message": "未載入檔案"
+  },
+  "t_0ca5a078": {
+    "message": "請使用轉換器分頁來上傳檔案。"
+  },
+  "t_c9857e16": {
+    "message": "不支援的檔案類型。"
+  },
+  "t_6b447b91": {
+    "message": "解析檔案錯誤： "
+  },
+  "t_7f4588be": {
+    "message": "電子書格式"
+  },
+  "t_12dc65c2": {
+    "message": "切換淺色/深色模式"
+  },
+  "t_d3d2e617": {
+    "message": "關閉"
+  },
+  "t_6e8cfcb7": {
+    "message": "安全匯出至伺服器（專業版）"
+  },
+  "t_2f9df658": {
+    "message": "分離並將工作區浮動於所有視窗之上"
+  },
+  "t_72d6d7a1": {
+    "message": "匯入"
+  },
+  "t_de93d5fd": {
+    "message": "匯出筆記"
+  },
+  "t_a1aacca9": {
+    "message": "浮動視窗"
+  },
+  "t_ac0b844f": {
+    "message": "全域筆記"
+  },
+  "t_15866f1d": {
+    "message": "網站專屬筆記"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
+  },
+  "t_6af8212e": {
+    "message": "易讀 (易讀 (EasyView)) 筆記板"
+  },
+  "t_d16da0f5": {
+    "message": "🌎"
+  },
+  "t_6df173ff": {
+    "message": "📍"
+  },
+  "t_22f58a00": {
+    "message": "🌎 全域筆記"
+  },
+  "t_5be8bbeb": {
+    "message": "🌐 網站筆記"
+  },
+  "t_59a56663": {
+    "message": "📍 頁面筆記"
+  },
+  "t_c1843696": {
+    "message": "正在驗證完整性 Token..."
+  },
+  "t_58038ee4": {
+    "message": "剛剛"
+  },
+  "t_e254e1a1": {
+    "message": "$1 分鐘前",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_121d4d02": {
+    "message": "$1 小時前",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_19d2b280": {
+    "message": "$1 天前",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_d3d4311c": {
+    "message": "拖曳筆記"
+  },
+  "t_7b32ea16": {
+    "message": "切換至 $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_11916b28": {
+    "message": "放置範圍"
+  },
+  "t_5463fe67": {
+    "message": "色彩調色盤"
+  },
+  "t_d116d454": {
+    "message": "收合筆記"
+  },
+  "t_be9ba0e5": {
+    "message": "複製文字"
+  },
+  "t_28471624": {
+    "message": "更多動作"
+  },
+  "t_90e467df": {
+    "message": "關閉筆記"
+  },
+  "t_34494920": {
+    "message": "在此輸入您的筆記..."
+  },
+  "t_bdda0b60": {
+    "message": "您在想什麼..."
+  },
+  "t_8689de27": {
+    "message": "隨處可用"
+  },
+  "t_c0cf9810": {
+    "message": "傳送回原始頁面"
+  },
+  "t_24a23176": {
+    "message": "原始上下文"
+  },
+  "t_4c1c1e76": {
+    "message": "筆記匯入"
+  },
+  "t_2736f644": {
+    "message": "將您的外部學習牌組與詞彙表無縫整合至 易覽 生態系統中。"
+  },
+  "t_ca4f038f": {
+    "message": "必要欄位"
+  },
+  "t_7277de5f": {
+    "message": "釋義"
+  },
+  "t_ce591bfa": {
+    "message": "選填欄位"
+  },
+  "t_f4c6f851": {
+    "message": "筆記"
+  },
+  "t_c1fd81a6": {
+    "message": "選擇或拖曳表格資料檔案"
+  },
+  "t_5c426600": {
+    "message": "重複項目與現有詞彙將自動過濾"
+  },
+  "t_76e7183d": {
+    "message": "匯入成功！"
+  },
+  "t_3e17e02d": {
+    "message": "您的詞彙表已更新。"
+  },
+  "t_3148d309": {
+    "message": "關閉分頁"
+  },
+  "t_0e412fa1": {
+    "message": "當您回到彈出視窗時將觸發慶祝效果。"
+  },
+  "t_d29f6e6b": {
+    "message": "匯入失敗"
+  },
+  "t_e04efbcb": {
+    "message": "筆記狀態"
+  },
+  "t_ed732761": {
+    "message": "匯入 變幻引擎 主題"
+  },
+  "t_e44db711": {
+    "message": "將您的自訂 變幻引擎 資源庫安全地直接匯入 易覽。"
+  },
+  "t_c0bb7d43": {
+    "message": "選擇或拖曳資料檔案"
+  },
+  "t_36e9583e": {
+    "message": "匯入您先前匯出的佈景主題配置。"
+  },
+  "t_21630184": {
+    "message": "佈景主題已還原！"
+  },
+  "t_d0c1ec75": {
+    "message": "您的 變幻 範本已成功安裝。"
+  },
+  "t_cd27a5c0": {
+    "message": "易覽 — 內容閱讀器"
+  },
+  "t_b171ab1f": {
+    "message": "歡迎使用閱讀器"
+  },
+  "t_4e07c284": {
+    "message": "在此上傳您的文件，以透過自訂排版與進階輔助功能進行閱讀。"
+  },
+  "t_004621c0": {
+    "message": "支援 文字文件、電子書與純文字檔案"
+  },
+  "t_23bb27a0": {
+    "message": "正在初始化文件解析器..."
+  },
+  "t_e1d5f16c": {
+    "message": "正在優化 文字文件 以提升可讀性..."
+  },
+  "t_0e55c5d0": {
+    "message": "正在解析 電子書 結構..."
   }
 }

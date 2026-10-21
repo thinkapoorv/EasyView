@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "ఈజీవ్యూ — ప్రతి మెదడుకు స్పష్టత"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "ఈజీవ్యూ"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "ఏఐ ప్రాంప్ట్‌లు లేదా సింగిల్ క్లిక్‌లతో ఏదైనా వెబ్‌సైట్‌ను తక్షణమే మార్చండి. వెబ్‌ను మీ మార్గంలో చూడండి."
+  },
+  "t_68ba0232": {
+    "message": "డిస్లెక్సియా మోడ్ యాక్టివేట్ చేయబడింది"
+  },
+  "t_85f47a25": {
+    "message": "డిస్లెక్సియా మోడ్ డియాక్టివేట్ చేయబడింది"
+  },
+  "t_1cc1b64d": {
+    "message": "విశ్లేషించడానికి తగినంత కంటెంట్ లేదు"
+  },
+  "t_cebe6412": {
+    "message": "సంక్లిష్ట పదాలు ఏవీ కనుగొనబడలేదు"
+  },
+  "t_b964aa0f": {
+    "message": "పేజీ కంటెంట్‌ను విశ్లేషించడంలో లోపం"
+  },
+  "t_956c104e": {
+    "message": "పేజీ మెమరీ క్లియర్ చేయబడింది"
+  },
+  "t_1f4b0f3e": {
+    "message": "గ్లోసరీ క్లియర్ చేయబడింది"
+  },
+  "t_4bfeec37": {
+    "message": "ఎంపికలో సంక్లిష్టమైన పదాలు ఏవీ కనుగొనబడలేదు"
+  },
+  "t_1b5e8531": {
+    "message": "ఎంపికలో సంక్లిష్టమైన పదాలు ఏవీ కనుగొనబడలేదు"
+  },
+  "t_a1f781ec": {
+    "message": "ఎంపికను డీకోడ్ చేయడంలో లోపం"
+  },
+  "t_7aae8122": {
+    "message": "ఎంపిక హైలైట్‌లు క్లియర్ చేయబడ్డాయి"
+  },
+  "t_58762fd6": {
+    "message": "దయచేసి నిర్వచించడానికి ఒకే పదాన్ని లేదా చిన్న పదబంధాన్ని ఎంచుకోండి."
+  },
+  "t_6838b119": {
+    "message": "నిర్వచనం కోసం వెతుకుతున్నప్పుడు నెట్‌వర్క్ లోపం."
+  },
+  "t_ea3ca1b5": {
+    "message": "డీకోడ్ చేసిన $1 పదాలు (కాష్ నుండి)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "$1 పదాలు డీకోడ్ చేయబడ్డాయి (కాష్ చేయబడ్డాయి)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "ఈ నెలలో మీరు అన్ని ఉచిత జార్గన్ డీకోడర్ వినియోగాలను పూర్తి చేశారు. అపరిమిత యాక్సెస్ కోసం ప్రోకి అప్‌గ్రేడ్ చేయండి."
+  },
+  "t_cb3c5d3a": {
+    "message": "$2 వర్గాలలో $1 పదాలను డీకోడ్ చేసాము",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "మీరు డీకోడ్ చేసిన పదజాలం యొక్క $1 ఉదాహరణలు ఆటో-హైలైట్ చేయబడ్డాయి",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "సేవ్ చేసిన $1 జార్గన్ నిర్వచనం$2 పునరుద్ధరించబడింది",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "ఈ నెలలో మీరు అన్ని ఉచిత జార్గన్ డీకోడర్ వినియోగాలను పూర్తి చేశారు. అపరిమిత యాక్సెస్ కోసం ప్రోకి అప్‌గ్రేడ్ చేయండి."
+  },
+  "t_0b841c82": {
+    "message": "ఇప్పటికే నోట్‌బుక్‌లో ఉంది!"
+  },
+  "t_8901f3ab": {
+    "message": "నోట్‌బుక్‌లో సేవ్ చేయబడింది!"
+  },
+  "t_eb8f5242": {
+    "message": "నోట్‌బుక్‌లో సేవ్ చేయడంలో లోపం"
+  },
+  "t_bd15702b": {
+    "message": "సెన్సరీ షీల్డ్ యాక్టివేట్ చేయబడింది"
+  },
+  "t_c28f3265": {
+    "message": "సెన్సరీ షీల్డ్ డియాక్టివేట్ చేయబడింది"
+  },
+  "t_3f8910d9": {
+    "message": "ఈజీవ్యూ"
+  },
+  "t_8aafa613": {
+    "message": "ఈ టెక్స్ట్‌ను సరళీకరించలేకపోయాము"
+  },
+  "t_79d2dc85": {
+    "message": "ఈ టెక్స్ట్‌ను సరళీకరించలేకపోయాము"
+  },
+  "t_99684ba5": {
+    "message": "టెక్స్ట్‌ను సరళీకరించడంలో లోపం"
+  },
+  "t_f4362bde": {
+    "message": "క్లిప్‌బోర్డ్‌కు కాపీ చేయబడింది!"
+  },
+  "t_af07ef4b": {
+    "message": "కాపీ చేయడం విఫలమైంది"
+  },
+  "t_94e4d537": {
+    "message": "పేజీలో టెక్స్ట్ మార్చబడింది"
+  },
+  "t_14a04b67": {
+    "message": "సరళీకరణ మెమరీ తొలగించబడింది"
+  },
+  "t_c444ff21": {
+    "message": "అసలు టెక్స్ట్ తాత్కాలికంగా పునరుద్ధరించబడింది"
+  },
+  "t_55f1db14": {
+    "message": "ఈ నెలలో మీరు అన్ని ఉచిత వినియోగాలను పూర్తి చేశారు. అపరిమిత యాక్సెస్ కోసం ప్రోకి అప్‌గ్రేడ్ చేయండి."
+  },
+  "t_fde4e3f0": {
+    "message": "ఈ పేజీలో సేవ్ చేసిన $1 సరళీకరణలను పునరుద్ధరించాము",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "డైనమిక్‌గా లోడ్ అయిన సరళీకరణ ఆటో-పునరుద్ధరించబడింది!"
+  },
+  "t_dfa22e52": {
+    "message": "టెక్స్ట్-టు-స్పీచ్ యాక్టివేట్ చేయబడింది"
+  },
+  "t_ca153ad0": {
+    "message": "టెక్స్ట్-టు-స్పీచ్ డిసేబుల్ చేయబడింది"
+  },
+  "t_dadbff09": {
+    "message": "దయచేసి ముందుగా టెక్స్ట్-టు-స్పీచ్‌ను ఎనేబుల్ చేయండి"
+  },
+  "t_47071c61": {
+    "message": "తిరిగి ప్రారంభిస్తోంది..."
+  },
+  "t_5516c48d": {
+    "message": "ఈ పేజీలో చదవగలిగే కంటెంట్ ఏదీ కనుగొనబడలేదు"
+  },
+  "t_c57f25c9": {
+    "message": "చదవగలిగే కంటెంట్ ఏదీ కనుగొనబడలేదు"
+  },
+  "t_2516997e": {
+    "message": "చదవడం పూర్తయింది"
+  },
+  "t_d3069aea": {
+    "message": "ఈ బ్రౌజర్‌లో టెక్స్ట్-టు-స్పీచ్‌కు మద్దతు లేదు"
+  },
+  "t_53e6b8c6": {
+    "message": "దయచేసి ముందుగా కొంత టెక్స్ట్‌ను ఎంచుకోండి"
+  },
+  "t_e932d0f7": {
+    "message": "ఎంపికను చదువుతోంది..."
+  },
+  "t_1c50528d": {
+    "message": "చదవడం పూర్తయింది"
+  },
+  "t_594778a2": {
+    "message": "పాజ్ చేయబడింది"
+  },
+  "t_4ded5f77": {
+    "message": "స్పీచ్ ఆపివేయబడింది"
+  },
+  "t_0a74758c": {
+    "message": "✨ పర్సనల్ కీ ద్వారా పనిచేస్తుంది"
+  },
+  "t_2fceddad": {
+    "message": "✨ అపరిమితం"
+  },
+  "t_97627d80": {
+    "message": "✨ పర్సనల్ కీ ద్వారా పనిచేస్తుంది"
+  },
+  "t_fd7d5888": {
+    "message": "సబ్‌స్క్రిప్షన్ నిర్వహించు"
+  },
+  "t_df4657a5": {
+    "message": "ఉచిత సభ్యుడు"
+  },
+  "t_22dfb2ec": {
+    "message": "అతిథి వినియోగదారు"
+  },
+  "t_bd9f2460": {
+    "message": "ఉచిత ఖాతా"
+  },
+  "t_f5adda31": {
+    "message": "లాగిన్ / సైన్ అప్"
+  },
+  "t_d2439201": {
+    "message": "✨ అపరిమితం"
+  },
+  "t_164442b7": {
+    "message": "కన్వర్టర్ ఇంజిన్‌ను సిద్ధం చేస్తున్నాము..."
+  },
+  "t_1e7c3002": {
+    "message": "ఫైళ్లను పార్స్ చేయడానికి సిద్ధంగా ఉంది."
+  },
+  "t_d30f78df": {
+    "message": "డార్క్ మోడ్"
+  },
+  "t_6c68d8ce": {
+    "message": "లైట్ మోడ్"
+  },
+  "t_fcb68c2b": {
+    "message": "స్టిక్కీ నోట్స్ ఏవీ కనుగొనబడలేదు. ఎగుమతి చేయడానికి ఏమీ లేదు!"
+  },
+  "t_2b75b2d9": {
+    "message": "మీ సెషన్ టోకెన్ లేదు. యాక్సెస్‌ను పునరుద్ధరించడానికి దయచేసి easyview.inకి మళ్ళీ సైన్ ఇన్ చేయండి."
+  },
+  "t_291a4e34": {
+    "message": "సురక్షిత సర్వర్ రూటింగ్ విఫలమైంది. మీ కనెక్షన్‌ను తనిఖీ చేయండి."
+  },
+  "t_2dcf62b3": {
+    "message": "ఏ తప్పిపోయిన నోట్స్ గుర్తించబడలేదు. వర్క్‌స్పేస్ తాజాగా ఉంది."
+  },
+  "t_951bf3ae": {
+    "message": "డీక్రిప్షన్ విఫలమైంది: ఫైల్ ఈజీవ్యూ పరిమితులకు అనుగుణంగా లేదు."
+  },
+  "t_817a4ba0": {
+    "message": "పిక్చర్-ఇన్-పిక్చర్ (పిక్చర్-ఇన్-పిక్చర్ (PiP)) ఏపీఐ (ఏపీఐ (API)) మద్దతు లేదు. దయచేసి క్రోమ్‌ను అప్‌డేట్ చేయండి."
+  },
+  "t_e8aa6e9a": {
+    "message": "పిక్చర్-ఇన్-పిక్చర్ (పిక్చర్-ఇన్-పిక్చర్ (PiP)) ఇంజిన్‌ను ప్రారంభించడం విఫలమైంది: "
+  },
+  "t_9feed9d5": {
+    "message": "$1 కొత్త నోట్స్‌ను విజయవంతంగా డీక్రిప్ట్ చేసి ఇంజెక్ట్ చేసాము",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "బీటా"
+  },
+  "t_c289adbe": {
+    "message": "మాకు మద్దతు ఇవ్వండి"
+  },
+  "t_60d5b12a": {
+    "message": "మమ్మల్ని సమీక్షించండి"
+  },
+  "js_eb82de4c": {
+    "message": "కస్టమ్ రంగు"
+  },
+  "js_8caef32b": {
+    "message": "రీసెట్/క్లియర్ (టెక్స్ట్‌ను ఎంచుకుని క్లిక్ చేయండి, లేదా మాన్యువల్‌గా హైలైట్‌పై డబుల్ క్లిక్ చేయండి)"
+  },
+  "t_823aeb91": {
+    "message": "ఈజీవ్యూ వర్క్‌స్పేస్"
+  },
+  "t_fc42ed23": {
+    "message": "మీ వర్క్‌స్పేస్‌లో గ్లోబల్ నోట్స్ ఏవీ లేవు."
+  },
+  "t_12d7c58a": {
+    "message": "స్టిక్కీ నోట్స్ కర్సర్ యాక్టివ్‌గా ఉన్నప్పుడు ఒకదాన్ని రూపొందించడానికి స్పేస్ నొక్కండి."
+  },
+  "t_ab983c11": {
+    "message": "ఇక్కడ సైట్-నిర్దిష్ట నోట్స్ ఏవీ కనుగొనబడలేదు."
+  },
+  "t_e22709e9": {
+    "message": "టార్గెటెడ్ నోట్‌ను యాంకర్ చేయడానికి ఏదైనా వెబ్‌సైట్‌లోని భౌతిక మూలకంపై క్లిక్ చేయండి."
+  },
+  "t_34bdba45": {
+    "message": "దశ"
+  },
+  "t_9b2d88a1": {
+    "message": "లో"
+  },
+  "t_8f44d852": {
+    "message": "ప్రారంభించండి!"
+  },
+  "t_b45c2f91": {
+    "message": "వర్క్‌స్పేస్ ఎగుమతులను అన్‌లాక్ చేయి"
+  },
+  "t_88f91dc1": {
+    "message": "మీ మొత్తం గ్లోబల్ వర్క్‌స్పేస్ నోట్స్‌ను సురక్షితంగా రెండరింగ్ మరియు ఎగుమతి చేయడానికి ధృవీకరించబడిన ప్రో లైసెన్స్ అవసరం. ఈ ఫీచర్‌ను శాశ్వతంగా అన్‌లాక్ చేయడానికి అప్‌గ్రేడ్ చేయండి."
+  },
+  "t_134dff88": {
+    "message": "బహుశా తర్వాత"
+  },
+  "t_5b8c9d11": {
+    "message": "ప్రోకి అప్‌గ్రేడ్ చేయండి"
+  },
+  "t_792bd8c9": {
+    "message": "వర్క్‌స్పేస్ ఫ్లోటింగ్!"
+  },
+  "t_e39f7dc2": {
+    "message": "మీ స్టిక్కీ నోట్స్ ఇప్పుడు మీ ఓఎస్ డెస్క్‌టాప్ పైన తేలుతున్నాయి."
+  },
+  "t_c83d6ec9": {
+    "message": "వర్క్‌స్పేస్‌ను రీ-డాక్ చేయి"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">ఈజీవ్యూ ఏఐ</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">నాయిస్‌ను ఫిల్టర్ చేస్తోంది...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"నేపథ్యంలో రన్ చేయి\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>మినిమైజ్</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>ఇంజిన్‌ను ఆపు</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "జనరేషన్ ఆపివేయబడింది"
+  },
+  "t_removed_from_notebook": {
+    "message": "నోట్‌బుక్ నుండి తొలగించబడింది"
+  },
+  "t_d1c58470": {
+    "message": "హైలైట్‌ను తొలగించడానికి డబుల్ క్లిక్ చేయండి"
+  },
+  "t_d4fdfb03": {
+    "message": "$1 ఉచిత వినియోగాలను/నెల పొందడానికి ఈజీవ్యూకి సైన్ ఇన్ చేయండి, లేదా సెట్టింగ్స్‌లో మీ స్వంత ఏపిఐ కీని జోడించండి.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "సేవ్ చేసిన ఫలితాలను లోడ్ చేస్తోంది..."
+  },
+  "t_3a99733d": {
+    "message": "జార్గన్ డీకోడర్‌ను ప్రారంభిస్తున్నాము..."
+  },
+  "t_b6dc9fc9": {
+    "message": "$1 ఉచిత ఏఐ డీకోడ్‌లను నెలకు పొందడానికి మరియు మీ కోటాను ట్రాక్ చేయడానికి ఉచిత ఈజీవ్యూ ఖాతాను సృష్టించండి.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "$1 ఉచిత ఏఐ నిర్వచనాలను నెలకు పొందడానికి మరియు మీ కోటాను ట్రాక్ చేయడానికి ఉచిత ఈజీవ్యూ ఖాతాను సృష్టించండి.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "ప్రధాన కంటెంట్‌ను సంగ్రహిస్తోంది..."
+  },
+  "t_0eeae2bf": {
+    "message": "పేజీ సందర్భాన్ని గుర్తిస్తోంది..."
+  },
+  "t_87f125d0": {
+    "message": "పరిభాషను విశ్లేషిస్తోంది..."
+  },
+  "t_9ef6e70f": {
+    "message": "కాష్ చేసిన ఫలితాలను ఉపయోగిస్తోంది..."
+  },
+  "t_9afdc5e8": {
+    "message": "ఏఐతో విశ్లేషిస్తోంది..."
+  },
+  "t_7ecc3abe": {
+    "message": "ఏఐ డీకోడింగ్ విఫలమైంది"
+  },
+  "t_9220c8de": {
+    "message": "సరళీకరణలను వర్తింపజేస్తున్నాము..."
+  },
+  "t_57f406b1": {
+    "message": "ఎంపికను డీకోడ్ చేస్తోంది..."
+  },
+  "t_c50f2b72": {
+    "message": "గ్లోసరీని చూడండి"
+  },
+  "t_49de9b11": {
+    "message": "పేజీలో హైలైట్‌లను దాచు"
+  },
+  "t_3158774e": {
+    "message": "పేజీలో హైలైట్‌లను పునరుద్ధరించు"
+  },
+  "t_fc3ad42d": {
+    "message": "వొకాబ్‌లో సేవ్ చేయి"
+  },
+  "t_87e933b8": {
+    "message": "నిర్వచనం కోసం వెతుకుతోంది..."
+  },
+  "t_56b79836": {
+    "message": "పద నిర్వచనం లోడ్ చేయబడింది."
+  },
+  "t_969b24ea": {
+    "message": "🔊 థీమ్ ఆడియోను యాక్టివేట్ చేయడానికి ఎక్కడైనా క్లిక్ చేయండి"
+  },
+  "t_49337275": {
+    "message": "మాన్యువల్ హైలైట్"
+  },
+  "t_93324bd5": {
+    "message": "వెబ్ పేజీ నుండి నేరుగా సేవ్ చేయబడింది."
+  },
+  "t_82e413f3": {
+    "message": "టెక్స్ట్‌ను సరళీకరిస్తోంది..."
+  },
+  "t_86c4f6e5": {
+    "message": "ఏఐతో సరళీకరిస్తోంది..."
+  },
+  "t_c3e18edb": {
+    "message": "సరళీకరణ విఫలమైంది"
+  },
+  "t_6398ab2c": {
+    "message": "రీడింగ్ స్థాయి: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "అసలు టెక్స్ట్‌ను తాత్కాలికంగా పునరుద్ధరించడానికి క్లిక్ చేయండి"
+  },
+  "t_9beea3e8": {
+    "message": "మెమరీ నుండి శాశ్వతంగా తొలగించు"
+  },
+  "t_453bb8f7": {
+    "message": "$1 ఉచిత ఏఐ సరళీకరణలను నెలకు పొందడానికి మరియు మీ కోటాను ట్రాక్ చేయడానికి ఉచిత ఈజీవ్యూ ఖాతాను సృష్టించండి.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "వినండి"
+  },
+  "t_24833610": {
+    "message": "సేవ్ చేయబడింది"
+  },
+  "t_30a008cb": {
+    "message": "మరింత చదవండి &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "వొకాబులరీ నోట్‌బుక్‌లో సేవ్ చేయబడింది!"
+  },
+  "t_2728e87f": {
+    "message": "వొకాబులరీ నోట్‌బుక్ నుండి తొలగించబడింది"
+  },
+  "t_6b8c66ce": {
+    "message": "గ్లోసరీ ($1 పదాలు)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "ఈ పేజీ కోసం మెమరీని తొలగించు"
+  },
+  "t_8a49fe1a": {
+    "message": "పదాన్ని తొలగించు"
+  },
+  "t_1534891c": {
+    "message": "$1 పదాలు డీకోడ్ చేయబడ్డాయి",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "నోట్‌బుక్‌లో సేవ్ చేయి"
+  },
+  "t_150a2843": {
+    "message": "హైలైట్‌లను క్లియర్ చేయి"
+  },
+  "t_21ef939c": {
+    "message": "నోట్‌బుక్‌లో సేవ్ చేయబడింది!"
+  },
+  "t_8054da35": {
+    "message": "త్వరిత నిఘంటువు",
+    "description": "క్విక్ డిక్షనరీ పాపప్ హెడర్"
+  },
+  "t_4aeb2167": {
+    "message": "పదం కనుగొనబడలేదు",
+    "description": "నిఘంటువు ఫాల్‌బ్యాక్ శీర్షిక"
+  },
+  "t_272d0070": {
+    "message": "ప్రాథమిక నిఘంటువులో మేము \"$1\"ని కనుగొనలేకపోయాము. ఇది ఆధునిక స్లాంగ్, సంక్షిప్త రూపం లేదా అత్యంత సాంకేతిక జార్గన్ కావచ్చు.",
+    "description": "పద ప్లేస్‌హోల్డర్‌తో డిక్షనరీ ఫాల్‌బ్యాక్ వివరణ",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "ఈవీ ఏఐతో డీకోడ్ చేయండి",
+    "description": "ఏఐతో డీకోడ్ చేయడానికి ఫాల్‌బ్యాక్ బటన్"
+  },
+  "t_14f1f972": {
+    "message": "ద్వారా",
+    "description": "నిఘంటువు మూల ప్రిఫిక్స్"
+  },
+  "t_f2faf2f1": {
+    "message": "నామవాచకం",
+    "description": "నామవాచకం"
+  },
+  "t_b512ddf1": {
+    "message": "క్రియ",
+    "description": "క్రియ"
+  },
+  "t_d807ae6a": {
+    "message": "విశేషణం",
+    "description": "విశేషణం"
+  },
+  "t_1a607278": {
+    "message": "క్రియా విశేషణం",
+    "description": "క్రియా విశేషణం"
+  },
+  "t_02de720d": {
+    "message": "సర్వనామం",
+    "description": "సర్వనామం"
+  },
+  "t_4b7be2c3": {
+    "message": "విభక్తి",
+    "description": "విభక్తి"
+  },
+  "t_a3c1d30b": {
+    "message": "సముచ్చయం",
+    "description": "సముచ్చయం"
+  },
+  "t_e189f001": {
+    "message": "ఆశ్చర్యార్థకం",
+    "description": "ఆశ్చర్యార్థకం (వాక్యభాగం)"
+  },
+  "t_96de90f8": {
+    "message": "సరళీకరించిన టెక్స్ట్‌ను కాపీ చేయి",
+    "description": "సరళీకరించిన టెక్స్ట్‌ను కాపీ చేయడానికి టూల్‌టిప్"
+  },
+  "t_44a6e288": {
+    "message": "పేజీని చదవండి",
+    "description": "TTS ద్వారా మొత్తం పేజీని చదవడానికి టూల్‌టిప్"
+  },
+  "t_7d70d73b": {
+    "message": "ఎంపికను చదవండి",
+    "description": "TTS ద్వారా ఎంపికను చదవడానికి టూల్‌టిప్"
+  },
+  "t_11936123": {
+    "message": "నోట్‌ను శాశ్వతంగా తొలగించు",
+    "description": "స్టిక్కీ నోట్‌ను శాశ్వతంగా తొలగించడానికి టూల్‌టిప్"
+  },
+  "t_d27532d9": {
+    "message": "మినిమైజ్"
+  },
+  "t_2bd339d8": {
+    "message": "పునరుద్ధరించు"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "ఈజీవ్యూ"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "సిస్టమ్ అలర్ట్"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "సిస్టమ్ నోటిఫికేషన్"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "ఈజీవ్యూ\r\n ఇంజిన్"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "లోకల్ ఫీచర్లు\r\n సక్రియంగా ఉంటాయి"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,580 +599,571 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "ఈజీవ్యూ\r\n అనుభవం"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "మీరు ౧౨ గంటలుగా ఈజీవ్యూని ఉపయోగిస్తున్నారు. మీ సెట్టింగ్స్‌ను సేవ్ చేయడానికి, మీ కోటాను ఉంచుకోవడానికి మరియు మరిన్ని ఫీచర్లను అన్‌లాక్ చేయడానికి ఉచిత ఖాతాను సృష్టించండి."
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "౧౨ గంటల్లో నాకు గుర్తు చేయి"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "లైట్"
   },
   "t_7fc56270": {
-    "message": "A"
+    "message": "ఎ"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "ఫాంట్"
   },
   "t_5dbc98dc": {
-    "message": "S"
+    "message": "ఎస్"
   },
   "t_69691c7b": {
-    "message": "M"
+    "message": "ఎం"
   },
   "t_d20caec3": {
-    "message": "L"
+    "message": "ఎల్"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "ఫీచర్లు"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "విజువల్స్"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "కన్వర్టర్"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "నోట్‌బుక్"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "జార్గన్ డీకోడర్"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "సంక్లిష్టమైన లీగల్ పదాలను సరళీకరించు"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "వికీపీడియా.ఆర్గ్/వికీ/న్యూరోడైవర్జెన్స్"
   },
   "t_61e9c06e": {
-    "message": "W"
+    "message": "డబ్ల్యూ"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "న్యూరోడైవర్జెన్స్"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "చాలా\r\n                                                సులభం"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "ఫోకస్ & ప్రైవసీ షీల్డ్"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "ప్రైవేట్ మరియు సున్నితమైన కంటెంట్‌ను బ్లర్ చేయండి"
   },
   "t_7f766191": {
-    "message": "mail.google.com/mail/u/0/"
+    "message": "మెయిల్.గూగుల్.కామ్/మెయిల్/యు/౦/"
   },
   "t_dfcf28d0": {
-    "message": "G"
+    "message": "జి"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "గూగుల్ ఖాతాలు"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "సెక్యూరిటీ అలర్ట్"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- పాస్‌వర్డ్ రీసెట్ అభ్యర్థించబడింది..."
   },
   "t_8d9c307c": {
-    "message": "N"
+    "message": "ఎన్"
   },
   "t_170b1d36": {
-    "message": "Netflix"
+    "message": "నెట్‌ఫ్లిక్స్"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "ఈ వారం కొత్తవి"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- మా తాజా\r\n                                                    రిలీజ్‌లను చూడండి..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "రక్షణ పద్ధతులు"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "ప్రైవేట్ కంటెంట్ బ్లరింగ్"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "వాట్సాప్, జిమెయిల్ మరియు పాస్‌వర్డ్\r\n                                            ఇన్‌పుట్‌లను తక్షణ విజువల్ సెక్యూరిటీ కోసం బ్లర్ చేస్తుంది."
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "స్క్రీన్ షేర్‌లో ఆటో-ప్రొటెక్ట్"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "ఆన్‌లైన్‌లో షేర్ చేస్తున్నప్పుడు మీ స్క్రీన్‌ను తక్షణమే రక్షిస్తుంది."
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
-  },
-  "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "భౌతిక ప్రొజెక్టర్‌ను\r\n                                                    ఉపయోగిస్తున్నారా?"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "రీడింగ్ ఫ్లాష్‌లైట్"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "చుట్టుపక్కల ఉన్న విజువల్ క్లట్టర్‌ను పూర్తిగా తొలగించడానికి ప్రకాశవంతమైన స్పాట్‌లైట్‌తో మీ మౌస్‌ను అనుసరిస్తుంది."
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "౧.\r\n                                                            బీమ్ ఆకారం"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "స్పాట్‌లైట్\r\n                                                            లేదా రూలర్"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "౨.\r\n                                                                బీమ్ పరిమాణం / ఎత్తు"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "వ్యూ ఏరియా యొక్క\r\n                                                                మందం"
   },
   "t_f0cad41b": {
-    "message": "35px"
+    "message": "౩౫px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "౩.\r\n                                                            ఫోకస్ బీమ్ లెన్స్ టింట్"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "పఠన గ్యాప్‌ను సున్నితంగా రంగు వేస్తుంది"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "౪.\r\n                                                            యాంబియంట్ బ్యాక్‌గ్రౌండ్ షాడో"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "మీ లెన్స్ చుట్టూ మసకబారే తీవ్రత"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "సెన్సరీ షీల్డ్"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "డిస్ట్రాక్టింగ్ యానిమేషన్లను ఫ్రీజ్ చేయండి"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "న్యూస్‌డైలీ.కామ్/బ్రేకింగ్"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "తాజా వార్తలు"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "రోజువారీ వార్తల్లోని ఒక కథనాన్ని చదువుతున్నాము..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "గెలుపు!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "షీల్డ్ మోడ్"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(డిఫాల్ట్)"
   },
   "t_9e3360ac": {
-    "message": "PRO"
+    "message": "ప్రో"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "ఆటో-ప్లేను ఆపండి + మాన్యువల్ నావిగేషన్‌లో ప్రశాంతమైన ఫేడ్స్"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "డిస్లెక్సియా రీడింగ్ మోడ్"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "ఆప్టిమైజ్ చేసిన ఫాంట్‌లు & స్పేసింగ్"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "ఇంటెన్సిటీ ప్రొఫైల్"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "తక్కువ"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "మధ్యస్థం"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "ఎక్కువ"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "వికీపీడియా.ఆర్గ్/వికీ/రీడింగ్"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "చదవడం"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "మీ రీడింగ్ సెట్టింగ్‌ల ప్రివ్యూ ఇక్కడ ఉంది."
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "అధునాతన ఎంపికలు"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "ఫాంట్ శైలి"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "డిఫాల్ట్ (మార్పు లేదు)"
   },
   "t_5d2967ef": {
-    "message": "OpenDyslexic"
+    "message": "ఓపెన్ డిస్లెక్సిక్"
   },
   "t_1042daad": {
-    "message": "Lexend (ADHD Pro) 🔒"
+    "message": "లెక్సెండ్ (ఏడీహెచ్‌డీ ప్రో) 🔒"
   },
   "t_bcec044a": {
-    "message": "Atkinson Hyperlegible 🔒"
+    "message": "అట్కిన్సన్ హైపర్లెజిబుల్ 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "ఫాస్ట్ సాన్స్"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "ఫాస్ట్ సెరిఫ్"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "కామిక్ న్యూ"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "కామిక్ సాన్స్"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "అక్షరాల మధ్య ఖాళీ"
   },
   "t_960b44c5": {
-    "message": "Normal"
+    "message": "సాధారణ"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "లైన్ ఎత్తు"
   },
   "t_60086472": {
-    "message": "1.5"
+    "message": "౧.౫"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "పదాల మధ్య ఖాళీ"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "ఫాంట్ పరిమాణం"
   },
   "t_30bd7ce7": {
-    "message": "100%"
+    "message": "౧౦౦%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "ఓవర్‌లే రంగు"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "ఏదీ లేదు"
   },
   "t_2bd8c63b": {
-    "message": "Beige"
+    "message": "బీజ్"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "లేత నీలం"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "లేత ఆకుపచ్చ"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "లేత పసుపు"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "టెక్స్ట్-టు-స్పీచ్"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "హైలైటింగ్‌తో బిగ్గరగా చదవండి"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "ప్లే"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "పాజ్"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "ఆపు"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "వాయిస్ ఎంపిక"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "ఆటో (ఉత్తమ నాణ్యత)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "చదివే వేగం"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "చాలా నెమ్మది"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "నెమ్మది"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "వేగంగా"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "చాలా వేగంగా"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "వాల్యూమ్"
   },
   "t_f1943132": {
-    "message": "70%"
+    "message": "౭౦%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "విరామ చిహ్నాల వద్ద పాజ్ చేయి"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "పదాల హైలైటింగ్"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "ఎనేబుల్"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "మోడ్"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "డార్క్"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "వికీపీడియా.ఆర్గ్/వికీ/లైట్"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "కంటి సౌకర్యం కోసం సరైన విజువల్స్. కాంతి తీవ్రంగా ఉండవచ్చు."
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "బ్రైట్‌నెస్"
   },
   "t_c63ecd19": {
-    "message": "Contrast"
+    "message": "కాంట్రాస్ట్"
   },
   "t_b84a9a38": {
-    "message": "Sepia"
+    "message": "సెపియా"
   },
   "t_9f1ef078": {
-    "message": "0%"
+    "message": "౦%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "గ్రేస్కేల్"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "డిఫాల్ట్"
   },
   "t_b1166920": {
-    "message": "Lexend 🔒"
+    "message": "లెక్సెండ్ 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "టెక్స్ట్ స్ట్రోక్"
   },
   "t_cfcd2084": {
-    "message": "0"
+    "message": "౦"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "స్మార్ట్ కన్వర్టర్ & రీడర్"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "ప్రస్తుత ఫైల్"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "అప్‌లోడ్ చేయడానికి ఫైల్‌ను క్లిక్ చేయండి లేదా లాగండి"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• సిద్ధం"
   },
   "t_4c4ad5fc": {
-    "message": "HTML"
+    "message": "హెచ్‌టిఎమ్‌ఎల్"
   },
   "t_5c31b30e": {
-    "message": "EPUB"
+    "message": "ఇపబ్"
   },
   "t_7cfd9a9f": {
-    "message": "DOCX"
+    "message": "డాక్స్"
   },
   "t_af97e960": {
     "message": "📌"
   },
   "t_4cc6684d": {
-    "message": "Global"
+    "message": "గ్లోబల్"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "సైట్/పేజీ"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "నా నోట్‌బుక్"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "అన్నీ తొలగించు"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "రద్దు"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "పదాన్ని సేవ్ చేయి"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "ఇంకా సేవ్ చేసిన పదాలు లేవు."
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "ఏదైనా పేజీలోని జార్గన్‌పై హోవర్ చేసి, వాటిని ఇక్కడ సేవ్ చేయడానికి బుక్‌మార్క్ ఫ్లాగ్‌పై క్లిక్ చేయండి!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "ఏదైనా వెబ్‌సైట్ ఇంటర్‌ఫేస్‌ను మళ్ళీ ఊహించుకోండి. మీకు ఏమి కావాలో వివరించండి లేదా ఒక\r\n                            ప్రీసెట్‌ను ఎంచుకోండి."
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "మార్ఫ్\r\n వర్తింపజేయబడింది"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "కస్టమ్ ఏఐ లేఅవుట్\r\n ఈ సైట్‌లో యాక్టివ్‌గా ఉంది."
   },
   "t_e8a57cd1": {
-    "message": "0 /\r\n                                500"
+    "message": "౦ /\r\n                                ౫౦౦"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "పేజీని రీసెట్ చేయి"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "మార్ఫ్ లేఅవుట్"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "డిఫాల్ట్ ప్రీసెట్లు"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "హర్రర్ కార్నివాల్"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "క్రీపీ కార్నివాల్ వైబ్స్ & యానిమేటెడ్ హారర్ టెక్స్ట్"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "మ్యాట్రిక్స్ కన్సోల్"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "సైబర్‌పంక్ టెర్మినల్ థీమ్"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "న్యూరో ఫోకస్"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "డిస్లెక్సియా-ఫ్రెండ్లీ ఫాంట్‌లు & ప్రశాంతమైన రంగులు"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "రీడర్ మోడ్"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "ఫోకస్ కోసం ఆప్టిమైజ్ చేసిన మినిమలిస్ట్ లేఅవుట్"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "ఇటీవలి ప్రాంప్ట్‌లు"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "అతిథి వినియోగదారు"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "ఉచిత ఖాతా"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "లాగిన్ / నిర్వహించు"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "లాగ్ అవుట్"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "ఏపిఐ సెట్టింగ్‌లు"
   },
   "t_766cc4dd": {
-    "message": "Gemini"
+    "message": "జెమిని"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "ఏఐ ప్రొవైడర్"
   },
   "t_222cf5ed": {
-    "message": "Google Gemini"
+    "message": "గూగుల్ జెమిని"
   },
   "t_a0607683": {
-    "message": "OpenRouter"
+    "message": "ఓపెన్ రౌటర్"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "జెమిని ఏపీఐ (ఏపీఐ (API)) కీ"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "గూగుల్ ఏఐ స్టూడియో"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "ఓపెన్‌రౌటర్ ఏపీఐ (ఏపీఐ (API)) కీ"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "ఏపిఐ కీని సేవ్ చేయి"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "ఈజీవ్యూ\r\n ఏఐ ప్రాధాన్యత"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ నా ఏపిఐ కీ"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 ఈజీవ్యూ సర్వర్లు"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "అన్ని ఏఐ ఫీచర్ల కోసం మొదట దేనిని ఉపయోగించాలో ఎంచుకోండి. మీ కీ అయిపోతే, ఈజీవ్యూ సర్వర్లు ఎల్లప్పుడూ ఫాల్‌బ్యాక్‌గా ఉపయోగించబడతాయి."
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "ప్రైవసీ\r\n & ప్రాధాన్యత"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "ప్రాధాన్యత ౧:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "ప్రాధాన్యత ౨:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "మార్ఫ్\r\n ఇంజిన్ నోట్:"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "ఎప్పటికీ వద్దు"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "సహాయం & ఫీడ్‌బ్యాక్"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "ప్రశ్న ఉందా, బగ్ దొరికిందా, లేదా ఫీచర్‌ను సూచించాలనుకుంటున్నారా? మీ నుండి వినడానికి మేము ఇష్టపడతాము!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "బగ్‌ను నివేదించండి / అభిప్రాయాన్ని తెలియజేయండి"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "సరళీకరించడానికి సిద్ధంగా ఉంది"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "ఎగుమతి సెట్టింగ్‌లు"
   },
   "t_9d5ed678": {
-    "message": "B"
+    "message": "బి"
   },
   "t_dd753679": {
-    "message": "I"
+    "message": "ఐ"
   },
   "t_20a1d47c": {
     "message": "✎"
   },
   "t_4c614360": {
-    "message": "U"
+    "message": "యు"
   },
   "t_2f43b42f": {
     "message": "..."
@@ -615,25 +1172,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "బలం"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "ఒపాసిటీ"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "బరువు"
   },
   "t_18d80423": {
-    "message": "400"
+    "message": "౪౦౦"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "లైన్\r\n ఎత్తు"
   },
   "t_f522dede": {
-    "message": "1.7x"
+    "message": "౧.౭x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "దాటవేయి"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,88 +1199,88 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "హైలైట్"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "ఇంక్"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "ఫేడ్"
   },
   "t_e8bfe352": {
-    "message": "Lexend 👑"
+    "message": "లెక్సెండ్ 👑"
   },
   "t_0cd4623c": {
-    "message": "Atkinson Hyperlegible 👑"
+    "message": "అట్కిన్సన్ హైపర్లెజిబుల్ 👑"
   },
   "t_6fbda3a3": {
-    "message": "Arial"
+    "message": "ఏరియల్"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "హెల్వెటికా"
   },
   "t_207c3219": {
-    "message": "Verdana"
+    "message": "వెర్దానా"
   },
   "t_2bd141ae": {
-    "message": "Tahoma"
+    "message": "తహోమా"
   },
   "t_720661ec": {
-    "message": "Trebuchet MS"
+    "message": "ట్రెబుచెట్ ఎంఎస్"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "సిస్టమ్ సాన్స్"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "టైమ్స్ న్యూ రోమన్"
   },
   "t_eada8196": {
-    "message": "Georgia"
+    "message": "జార్జియా"
   },
   "t_96a78725": {
-    "message": "Garamond"
+    "message": "గారామాండ్"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "సిస్టమ్ సెరిఫ్"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "కామిక్ సాన్స్ ఎంఎస్"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "కొరియర్ న్యూ"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "మోనోస్పేస్"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "ఫాంట్ పరిమాణం"
   },
   "t_f4f9f2f4": {
-    "message": "14px"
+    "message": "౧౪px"
   },
   "t_cf3c032c": {
-    "message": "16px"
+    "message": "౧౬px"
   },
   "t_d69f92af": {
-    "message": "18px"
+    "message": "౧౮px"
   },
   "t_865b4c0b": {
-    "message": "20px"
+    "message": "౨౦px"
   },
   "t_14cdf596": {
-    "message": "22px"
+    "message": "౨౨px"
   },
   "t_33f60d47": {
-    "message": "24px"
+    "message": "౨౪px"
   },
   "t_c7c6a7b0": {
-    "message": "28px"
+    "message": "౨౮px"
   },
   "t_4d3604fc": {
-    "message": "32px"
+    "message": "౩౨px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "పూర్తయింది"
   },
   "t_63922286": {
     "message": "×"
@@ -732,154 +1289,34 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "థీమ్ లైబ్రరీని ఎగుమతి చేయి"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "మీ ఏఐ-సృష్టించిన కళాఖండాలను\r\n                స్థానికంగా సేవ్ చేయండి."
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "మొత్తం లైబ్రరీని ఎగుమతి చేయి"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
-  },
-  "t_ccca2ddf": {
-    "message": "EasyView Reader"
-  },
-  "t_8524de96": {
-    "message": "Loading..."
-  },
-  "t_25e8f2fd": {
-    "message": "Please wait..."
-  },
-  "t_ec9d785d": {
-    "message": "1.5x"
-  },
-  "t_dafd5f8f": {
-    "message": "Lexend"
-  },
-  "t_16d90a0b": {
-    "message": "Atkinson Hyperlegible"
-  },
-  "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
-  },
-  "t_f7cee5ea": {
-    "message": "Calibri"
-  },
-  "t_ccc0239e": {
-    "message": "Candara"
-  },
-  "t_2963521b": {
-    "message": "Corbel"
-  },
-  "t_37f1cc58": {
-    "message": "Cambria"
-  },
-  "t_c3d9d4bf": {
-    "message": "Constantia"
-  },
-  "t_5d1a5b35": {
-    "message": "Palatino Linotype"
-  },
-  "t_4dc386b6": {
-    "message": "Book Antiqua"
-  },
-  "t_03c461f6": {
-    "message": "Franklin Gothic"
-  },
-  "t_7b1ee3b6": {
-    "message": "Century Gothic"
-  },
-  "t_a3293302": {
-    "message": "Gill Sans"
-  },
-  "t_eb726908": {
-    "message": "Sitka Text"
-  },
-  "t_b5bdee2c": {
-    "message": "Sylfaen"
-  },
-  "t_1ec05249": {
-    "message": "Microsoft Sans Serif"
-  },
-  "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
-  },
-  "t_16507cdd": {
-    "message": "Consolas"
-  },
-  "t_391c5954": {
-    "message": "Lucida Console"
-  },
-  "t_9879efdf": {
-    "message": "Lucida Sans Typewriter"
-  },
-  "t_21f59b54": {
-    "message": "Impact"
-  },
-  "t_94a7bb97": {
-    "message": "Arial Black"
-  },
-  "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
-  },
-  "t_40885309": {
-    "message": "Berlin Sans FB"
-  },
-  "t_6d5566ba": {
-    "message": "Gabriola"
-  },
-  "t_edb42482": {
-    "message": "Ink Free"
-  },
-  "t_fa233799": {
-    "message": "Segoe Script"
-  },
-  "t_2f7bc407": {
-    "message": "Segoe Print"
-  },
-  "t_0095a9fa": {
-    "message": "Export"
-  },
-  "t_520d0db3": {
-    "message": "Format"
-  },
-  "t_5956a437": {
-    "message": "TXT"
-  },
-  "t_1351017a": {
-    "message": "Filename"
-  },
-  "t_6af8212e": {
-    "message": "EasyView Notes Board"
-  },
-  "t_d16da0f5": {
-    "message": "🌎"
-  },
-  "t_6df173ff": {
-    "message": "📍"
+    "message": ".జేసన్ (జేసన్ (JSON) ఫైల్)"
   },
   "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
-  },
-  "js_24833610": {
-    "message": "Saved"
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> చర్య అవసరం</div>\n            <h2 class=\"ev-si-title\">ఖాతా<br><span class=\"ev-si-gradient-text\">సస్పెండ్ చేయబడింది</span></h2>\n            <p class=\"ev-si-sub\">మా సేవా నిబంధనలను ఉల్లంఘించినందుకు మీ ఈజీవ్యూ యాక్సెస్ పరిమితం చేయబడింది.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                సపోర్ట్‌ను సంప్రదించండి\n            </a>\n          </div>\n        </div>\n      "
   },
   "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>దయచేసి ముందుగా మీ మార్ఫ్‌ను వివరించండి.</span>\n          </div>"
   },
   "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>మార్ఫింగ్...</span>\n      "
   },
   "js_138703dd": {
-    "message": "No Theme on Page"
+    "message": "పేజీలో థీమ్ లేదు"
   },
   "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>ప్రస్తుత పేజీని ఎగుమతి చేయి"
   },
   "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> కంపైల్ అవుతోంది..."
   },
   "js_e541190e": {
     "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
@@ -891,30 +1328,1322 @@
     "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
   },
   "js_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "సరళీకరించడానికి సిద్ధంగా ఉంది"
   },
   "js_a18366b2": {
-    "message": "Dark"
+    "message": "డార్క్"
   },
   "js_9914a0ce": {
-    "message": "Light"
+    "message": "లైట్"
   },
   "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+    "message": "<option value=\"auto\">ఆటో (ఉత్తమ నాణ్యత)</option>"
   },
   "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> డీకోడ్ అవుతోంది..."
   },
   "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+    "message": "ఇది అర్థం చేసుకోవడానికి <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">చాలా సులభంగా</span> అనిపిస్తుంది."
   },
   "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+    "message": "ఇది అర్థం చేసుకోవడానికి తక్కువ అస్పష్టంగా అనిపిస్తుంది."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_f05df71b": {
+    "message": "అప్‌గ్రేడ్ చేస్తోంది"
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_78db2ae3": {
+    "message": "మా ఏఐ సర్వర్లు అప్‌గ్రేడ్ అవుతున్నాయి."
+  },
+  "t_bb2129c8": {
+    "message": "పూర్తిగా అన్‌లాక్ చేయి"
+  },
+  "t_aefee7cd": {
+    "message": "ప్రతి మెదడుకు స్పష్టత"
+  },
+  "t_c38beca1": {
+    "message": "ఫైర్‌ఫాక్స్ భౌతిక మానిటర్ గుర్తింపు ఏపీఐ-లను పరిమితం చేస్తుంది."
+  },
+  "t_f2fe1e79": {
+    "message": "౧.౦ కంటే తక్కువ విలువలు\r\n                                    టెక్స్ట్‌ను కుదించవచ్చు మరియు లేఅవుట్‌లను పాడు చేయవచ్చు."
+  },
+  "t_ca677d53": {
+    "message": "విజువల్ సర్దుబాట్లు"
+  },
+  "t_230b4522": {
+    "message": "నోట్స్ బోర్డ్"
+  },
+  "t_596b54bf": {
+    "message": "మార్ఫ్ ఏఐ ఏజెంట్"
+  },
+  "t_47e79a17": {
+    "message": "మీ ఉచిత కీని ఇక్కడ పొందండి"
+  },
+  "t_42372184": {
+    "message": "థీమ్‌లు ఇలా ఎగుమతి చేయబడతాయి"
+  },
+  "t_74fdc8a2": {
+    "message": "దయచేసి ముందుగా మీ మార్ఫ్ పరివర్తనను వివరించండి."
+  },
+  "t_245fd3b9": {
+    "message": "మార్ఫ్ చేసిన లేఅవుట్ క్లియర్ చేయబడింది."
+  },
+  "t_172bd753": {
+    "message": "థీమ్ విజయవంతంగా ఎగుమతి చేయబడింది!"
+  },
+  "t_4c34daff": {
+    "message": "కనెక్షన్ సమయం ముగిసింది. సర్వర్ అందుబాటులో లేదు."
+  },
+  "t_0dd56117": {
+    "message": "ఈ పేజీలో యాక్టివ్ థీమ్ ఏదీ కనుగొనబడలేదు."
+  },
+  "t_cb5c0766": {
+    "message": "లైబ్రరీ విజయవంతంగా ఎగుమతి చేయబడింది!"
+  },
+  "t_8adb392e": {
+    "message": "కనెక్షన్ సమయం ముగిసింది. సర్వర్ అందుబాటులో లేదు."
+  },
+  "t_ae94e0e4": {
+    "message": "మీ థీమ్ లైబ్రరీ ఖాళీగా ఉంది."
+  },
+  "t_10a0c40b": {
+    "message": "కస్టమ్ థీమ్ విజయవంతంగా లోడ్ చేయబడింది!"
+  },
+  "t_9b6007a8": {
+    "message": "థీమ్ ఫైల్‌ను చదవడం విఫలమైంది."
+  },
+  "t_d4fa051d": {
+    "message": "విఫలమైంది: $1. దయచేసి ట్యాబ్‌ను రీలోడ్ చేయండి.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "వర్తింపజేయబడింది: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "లైబ్రరీ నుండి $1 థీమ్‌లను పునరుద్ధరించాము!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "భాషా ప్రాధాన్యత"
+  },
+  "t_lang_updated_reload": {
+    "message": "భాష నవీకరించబడింది. రీలోడ్ అవుతోంది..."
+  },
+  "t_transformation_failed": {
+    "message": "ట్రాన్స్‌ఫార్మేషన్ విఫలమైంది."
+  },
+  "t_c8a59e71": {
+    "message": "తీసివేయి"
+  },
+  "t_7764306b": {
+    "message": "క్లౌడ్ సర్వీసెస్ మెయింటెనెన్స్ సక్రియంగా ఉంది"
+  },
+  "t_248228de": {
+    "message": "పాపప్‌లో డిస్లెక్సియా ఫాంట్‌ను టోగుల్ చేయండి"
+  },
+  "t_79a59320": {
+    "message": "యాప్ టూర్ ప్రారంభించు"
+  },
+  "t_533bff5b": {
+    "message": "పేజీకి స్టిక్కీ నోట్‌ను పిన్ చేయండి (ఆల్ట్+ఎన్)"
+  },
+  "t_f4f70727": {
+    "message": "సెట్టింగ్‌లు"
+  },
+  "t_4fd11104": {
+    "message": "సర్క్యులర్ స్పాట్‌లైట్"
+  },
+  "t_0d063af1": {
+    "message": "హారిజాంటల్ లైన్ రూలర్ 🔒"
+  },
+  "t_60d71580": {
+    "message": "క్లియర్ లైట్"
+  },
+  "t_efe48742": {
+    "message": "అంబర్ ఫోకస్"
+  },
+  "t_610a09ca": {
+    "message": "కూల్ సియాన్"
+  },
+  "t_886f6b9e": {
+    "message": "రెస్ట్‌ఫుల్ గ్రీన్"
+  },
+  "t_65e8194e": {
+    "message": "పిచ్ బ్లాక్"
+  },
+  "t_7243ed99": {
+    "message": "మిడ్‌నైట్ స్లేట్"
+  },
+  "t_ec6d8325": {
+    "message": "డీప్ ఫారెస్ట్"
+  },
+  "t_4af435e0": {
+    "message": "వాంపైర్ వైన్"
+  },
+  "t_2a7dbdf8": {
+    "message": "ప్రో ఫీచర్"
+  },
+  "t_fc4aec61": {
+    "message": "రీడర్‌లో తెరువు"
+  },
+  "t_801ab246": {
+    "message": "డౌన్‌లోడ్"
+  },
+  "t_aa3880dc": {
+    "message": "HTMLగా డౌన్‌లోడ్ చేయి"
+  },
+  "t_e0781e81": {
+    "message": "EPUBగా డౌన్‌లోడ్ చేయి"
+  },
+  "t_442ff212": {
+    "message": "DOCXగా డౌన్‌లోడ్ చేయి"
+  },
+  "t_6244ee7c": {
+    "message": "కస్టమ్ పదాన్ని మాన్యువల్‌గా జోడించు"
+  },
+  "t_6e7d015f": {
+    "message": "సీఎస్వీ (CSV) ఫైల్‌ను దిగుమతి చేయి"
+  },
+  "t_edbc5415": {
+    "message": "అంకి / క్విజ్‌లెట్ కోసం ఎగుమతి చేయి"
+  },
+  "t_46c29f7a": {
+    "message": "థీమ్‌ను లోడ్ చేయి"
+  },
+  "t_2bd65c5d": {
+    "message": "థీమ్‌ను ఎగుమతి చేయి"
+  },
+  "t_c1c433ac": {
+    "message": "యాక్టివ్ ఏఐ ప్రొవైడర్"
+  },
+  "t_90c09393": {
+    "message": "చుక్కలు"
+  },
+  "t_eb656e41": {
+    "message": "గీతలు"
+  },
+  "t_0c99ddee": {
+    "message": "హైలైట్ రంగు"
+  },
+  "t_eaf63759": {
+    "message": "ఇంక్ రంగు"
+  },
+  "t_a183c9f0": {
+    "message": "ఫేడ్ రంగు"
+  },
+  "t_75e7422f": {
+    "message": "నేపథ్య రంగు"
+  },
+  "t_42f9ceea": {
+    "message": "సేవ్ చేసిన లెక్సికాన్ కోసం వెతకండి..."
+  },
+  "t_0e84a8cf": {
+    "message": "పదం లేదా ఎక్రోనిం ఎంటర్ చేయండి..."
+  },
+  "t_eea6890c": {
+    "message": "అర్థం / అనువాదం..."
+  },
+  "t_4480cf46": {
+    "message": "మెమరీ ట్రిక్ లేదా స్టడీ నోట్ (ఐచ్ఛికం)..."
+  },
+  "t_d8634fbf": {
+    "message": "ఉదాహరణకు, గుండ్రని కార్డులతో పింక్ అనిమే స్టైల్ థీమ్‌గా మార్చండి, లేదా రెట్రో డార్క్ గ్రీన్ టెర్మినల్ కన్సోల్‌గా మార్చండి..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "స్టిక్కీ నోట్స్"
+  },
+  "t_b097d277": {
+    "message": "పదాన్ని జోడించు"
+  },
+  "t_1eeb67ee": {
+    "message": "ప్రస్తుత పేజీని ఎగుమతి చేయి"
+  },
+  "t_b62ded9a": {
+    "message": "క్లౌడ్ సేవలు ఆఫ్‌లైన్‌లో ఉన్నాయి"
+  },
+  "t_263e00eb": {
+    "message": "సైన్ ఇన్ / ఖాతాను సృష్టించు"
+  },
+  "t_7748eb3b": {
+    "message": "అప్‌గ్రేడ్ అవుతోంది"
+  },
+  "t_81a5d20b": {
+    "message": "అన్నీ ఫ్రీజ్ చేయి"
+  },
+  "t_e61146d9": {
+    "message": "ప్రశాంతమైన ఫేడ్స్"
+  },
+  "t_57323916": {
+    "message": "ఆటో-ప్లే ఆపు"
+  },
+  "t_f50319ea": {
+    "message": "పూర్తి రక్షణ"
+  },
+  "t_8e13f26d": {
+    "message": "త్వరిత ప్రశ్న"
+  },
+  "t_134b26da": {
+    "message": "మీరు <br><span class=\"ev-si-gradient-text\">ఈజీవ్యూని</span> ఆస్వాదిస్తున్నారా?"
+  },
+  "t_b75bdd9e": {
+    "message": "మీ ఫీడ్‌బ్యాక్ మాకు మెరుగుపరచడంలో సహాయపడుతుంది.<br>మీరు ఈ అనుభవాన్ని ఆస్వాదిస్తున్నారా?"
+  },
+  "t_396d1ff8": {
+    "message": "అవును, నేను!"
+  },
+  "t_7d0cacf3": {
+    "message": "మెరుగుపరచాలి"
+  },
+  "t_815142c9": {
+    "message": "మాకు మద్దతు ఇవ్వండి"
+  },
+  "t_abd9fa39": {
+    "message": "మీరు <br><span class=\"ev-si-gradient-text\">రివ్యూ ఇవ్వగలరా?</span>"
+  },
+  "t_02991e61": {
+    "message": "మీలాంటి వినియోగదారుల నుండి వచ్చే రేటింగ్స్ ఈజీవ్యూ వృద్ధికి ఉత్తమ మార్గం. దీనికి కేవలం ఒక నిమిషం పడుతుంది!"
+  },
+  "t_db49c1f2": {
+    "message": "రేట్ చేయండి"
+  },
+  "t_7a4f0d12": {
+    "message": "తర్వాత గుర్తు చేయి"
+  },
+  "t_fee6c0e9": {
+    "message": "ప్రైవేట్ ఫీడ్‌బ్యాక్"
+  },
+  "t_74393dde": {
+    "message": "మేము ఇంకా ఏమి <span class=\"ev-si-gradient-text\">మెరుగుపరచగలం?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "ఏమి తప్పు జరిగిందో మాకు చెప్పండి..."
+  },
+  "t_6f97affc": {
+    "message": "ఫీడ్‌బ్యాక్ పంపండి"
+  },
+  "t_b20871b3": {
+    "message": "దయచేసి మీ అభిప్రాయాన్ని నమోదు చేయండి"
+  },
+  "t_7b0fee4d": {
+    "message": "పంపుతోంది..."
+  },
+  "t_fb631633": {
+    "message": "మీ అభిప్రాయానికి ధన్యవాదాలు."
+  },
+  "t_08727add": {
+    "message": "వెబ్‌ను మీ మార్గంలో చూడండి."
+  },
+  "t_15bbb9d0": {
+    "message": "వెబ్‌సైట్"
+  },
+  "t_c5f29bb3": {
+    "message": "గోప్యత"
+  },
+  "t_ad5b1a22": {
+    "message": "వ్యవస్థాపకుడు"
+  },
+  "t_db496e03": {
+    "message": "వ్యక్తిగత కీలు ఏఐకి నేరుగా, ౧౦౦% ప్రైవేట్ కనెక్షన్‌ను సృష్టిస్తాయి. మీ టెక్స్ట్ ఎప్పటికీ ఈజీవ్యూ సర్వర్లను తాకదు."
+  },
+  "t_387c35b3": {
+    "message": "ఏ కీ లేకపోయినా లేదా మీ కీ విఫలమైనా మా మేనేజ్డ్ సర్వర్ (ప్రీమియం) నమ్మకమైన బ్యాకప్‌గా పనిచేస్తుంది."
+  },
+  "t_98bc5a17": {
+    "message": "యాజమాన్య అల్గారిథమ్‌లను రక్షించడానికి, మీ కీ గూగుల్‌తో ప్రామాణీకరించడానికి మా సురక్షిత సర్వర్ ద్వారా క్లుప్తంగా రూట్ చేయబడుతుంది. ఇది"
+  },
+  "t_de47f1be": {
+    "message": "స్టోర్ చేయబడదు లేదా లాగ్ చేయబడదు."
+  },
+  "t_25e02e7f": {
+    "message": "యాక్టివ్: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ ప్రీమియం సభ్యుడు"
+  },
+  "t_df56cfae": {
+    "message": "⭐ లైఫ్‌టైమ్ సభ్యుడు"
+  },
+  "t_41cbc704": {
+    "message": " రోజులు మిగిలి ఉన్నాయి"
+  },
+  "t_b194bd82": {
+    "message": "ఎప్పటికీ గడువు ముగియదు"
+  },
+  "t_9f830444": {
+    "message": "⭐ ప్రో:"
+  },
+  "t_61b82be6": {
+    "message": " మిగిలి ఉన్న మార్ఫ్‌లు"
+  },
+  "t_c20e7ceb": {
+    "message": " ఉచిత మార్ఫ్‌లు మిగిలి ఉన్నాయి"
+  },
+  "t_d7087930": {
+    "message": " ఉచిత వినియోగాలు మిగిలి ఉన్నాయి"
+  },
+  "t_4bbf11bd": {
+    "message": "పదం మరియు అర్థం ఫీల్డ్‌లను ఖాళీగా ఉంచకూడదు!"
+  },
+  "t_08f09d38": {
+    "message": "పద వివరాలు విజయవంతంగా నవీకరించబడ్డాయి!"
+  },
+  "t_32001b52": {
+    "message": "దయచేసి పదం మరియు దాని అర్థం రెండింటినీ నమోదు చేయండి."
+  },
+  "t_b8115861": {
+    "message": "మీ స్టడీ నోట్‌బుక్ ఖాళీగా ఉంది. ముందుగా వెబ్‌పేజీలలో కొన్ని పదాలను బుక్‌మార్క్ చేయండి!"
+  },
+  "t_7114113b": {
+    "message": "మీ ప్రో ఫీచర్లను ధృవీకరించడానికి ముందుగా మీ ఈజీవ్యూ ఖాతాకు సైన్ ఇన్ చేయండి!"
+  },
+  "t_093f9fa0": {
+    "message": "మీ సెషన్ టోకెన్ లేదు. యాక్సెస్‌ను పునరుద్ధరించడానికి దయచేసి easyview.inకి మళ్ళీ సైన్ ఇన్ చేయండి."
+  },
+  "t_0e065596": {
+    "message": "ఇది ధృవీకరించబడిన ప్రీమియం-మాత్రమే ఫీచర్. అన్‌లాక్ చేయడానికి ప్రోకి అప్‌గ్రేడ్ చేయండి!"
+  },
+  "t_c792a645": {
+    "message": "సురక్షిత ఎగుమతి సర్వర్‌కు కనెక్ట్ అవ్వడం విఫలమైంది. కొద్దిసేపటి తర్వాత మళ్ళీ ప్రయత్నించండి."
+  },
+  "t_8d1a2675": {
+    "message": "ఆ సిఎస్‌విలో ఎటువంటి సరైన పదజాల అంశాలను గుర్తించలేకపోయాము."
+  },
+  "t_a613ed90": {
+    "message": "బ్రౌజర్ స్టోరేజ్ రైట్ విఫలమైంది! ఫైల్ లోకల్ క్యాచీకి చాలా పెద్దదిగా ఉండవచ్చు."
+  },
+  "t_8efe87ab": {
+    "message": "మీ లోకల్ ఫైల్‌ను చదవడంలో బ్రౌజర్ విఫలమైంది."
+  },
+  "t_50bf63aa": {
+    "message": "మీ నోట్‌బుక్ నుండి సేవ్ చేసిన అన్ని పదాలను క్లియర్ చేయాలనుకుంటున్నారా?"
+  },
+  "t_ff252710": {
+    "message": "దిగుమతి పూర్తయింది: మొత్తం $1 ఎంట్రీలు ఇప్పటికే మీ నోట్‌బుక్‌లో ఉన్నాయి.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "సీఎస్‌వీని పార్స్ చేయడం విఫలమైంది: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "\"$1\" ఇప్పటికే మీ నోట్‌బుక్‌లో ఉంది. దీని కోసం మరొక నిర్వచనాన్ని జోడించాలనుకుంటున్నారా?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "విజయవంతంగా లాగ్ అవుట్ అయ్యారు"
+  },
+  "t_dbd35100": {
+    "message": "మార్ఫ్ ఇంజిన్ ఇప్పటికే పనిచేస్తోంది..."
+  },
+  "t_2de4e55d": {
+    "message": "మార్ఫ్ చేసిన లేఅవుట్ క్లియర్ చేయబడింది"
+  },
+  "t_1bb9196d": {
+    "message": "మార్ఫ్ చేయబడింది: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "మార్ఫింగ్ విఫలమైంది: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "ట్రిగ్గర్ చేయబడింది: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 అంశాలు నిర్వహించబడ్డాయి",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "ఇది సింక్రొనైజ్ చేయబడిన అన్ని పరికరాలలో ఈ నోట్‌ను శాశ్వతంగా తొలగిస్తుంది. కొనసాగించాలా?"
+  },
+  "t_25abf697": {
+    "message": "ఇపబ్ ఎగుమతికి జేఎస్-జిప్ లైబ్రరీ అవసరం."
+  },
+  "t_71609188": {
+    "message": "డాక్స్ (DOCX) ఎగుమతికి హెచ్‌టీఎంఎల్-డాక్స్ లైబ్రరీ అవసరం."
+  },
+  "t_e1499766": {
+    "message": "ఏ ఫైల్ లోడ్ కాలేదు."
+  },
+  "t_023b3355": {
+    "message": "ప్రైవసీ షీల్డ్ యాక్టివేట్ చేయబడింది"
+  },
+  "t_9483a5da": {
+    "message": "ప్రైవసీ షీల్డ్ నిష్క్రియం చేయబడింది"
+  },
+  "t_a04202db": {
+    "message": "హైలైట్‌లు తాత్కాలికంగా దాచబడ్డాయి"
+  },
+  "t_b3d6b264": {
+    "message": "హైలైట్‌లు పునరుద్ధరించబడ్డాయి"
+  },
+  "t_7485c55e": {
+    "message": "ఈజీవ్యూకి స్వాగతం! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "సులభమైన వెబ్ పఠనం కోసం మీ ఏఐ-ఆధారిత కాగ్నిటివ్ బ్రిడ్జ్. ఫీచర్ల గురించి క్లుప్తంగా తెలుసుకుందాం."
+  },
+  "t_3a1fe637": {
+    "message": "జార్గన్ డీకోడర్ 📖"
+  },
+  "t_89cec86e": {
+    "message": "ఏదైనా వెబ్‌పేజీలో సంక్లిష్టమైన పదజాలాన్ని సరళీకరిస్తుంది."
+  },
+  "t_f8aefae7": {
+    "message": "ప్రైవసీ షీల్డ్ 🔐"
+  },
+  "t_aa860f86": {
+    "message": "సున్నితమైన డేటాను బ్లర్ చేస్తుంది మరియు పరధ్యానం లేని పఠనం కోసం ఫోకస్ రూలర్‌ను కలిగి ఉంటుంది."
+  },
+  "t_0681a3b6": {
+    "message": "సెన్సరీ షీల్డ్ 🛡️"
+  },
+  "t_6118b864": {
+    "message": "డిస్ట్రాక్టింగ్ GIFలు మరియు యానిమేషన్లను ఫ్రీజ్ చేస్తుంది."
+  },
+  "t_12ec6fc6": {
+    "message": "డిస్లెక్సియా రీడింగ్ మోడ్ 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "సులభంగా చదవడానికి ఆప్టిమైజ్ చేసిన ఫాంట్‌లు మరియు స్పేసింగ్."
+  },
+  "t_18d9ce63": {
+    "message": "టెక్స్ట్-టు-స్పీచ్ 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "పద హైలైటింగ్‌తో ఏదైనా వెబ్‌పేజీని వినండి."
+  },
+  "t_0019a700": {
+    "message": "మార్ఫ్ ఇంజిన్ ✨"
+  },
+  "t_47c2535a": {
+    "message": "ఏదైనా వెబ్‌సైట్‌ను కస్టమ్ థీమ్ లేదా లేఅవుట్‌గా మార్చడానికి ఏఐని ఉపయోగించండి."
+  },
+  "t_2ed2f639": {
+    "message": "స్టిక్కీ నోట్స్ 📝"
+  },
+  "t_75025b5f": {
+    "message": "ముఖ్యమైన సమాచారాన్ని సేవ్ చేయడానికి ఏదైనా వెబ్‌పేజీకి ఫ్లోటింగ్ స్టిక్కీ నోట్‌లను పిన్ చేయండి (ఆల్ట్+ఎన్)."
+  },
+  "t_3ff2d7cc": {
+    "message": "ఏపీఐ కాన్ఫిగరేషన్ ⚙️"
+  },
+  "t_0754e836": {
+    "message": "మీ కోటాను సింక్ చేయడానికి సైన్ ఇన్ చేయండి, లేదా ఇక్కడ మీ స్వంత ఉచిత జెమిని ఏపిఐ కీని సెటప్ చేయండి."
+  },
+  "t_7b6a2059": {
+    "message": "మెట్టు $1 / $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "ప్రారంభించండి!"
+  },
+  "t_10ac3d04": {
+    "message": "తదుపరి"
+  },
+  "t_5c7a52b8": {
+    "message": "నొక్కండి "
+  },
+  "t_a1b2c3d4": {
+    "message": " ఆటో-ప్రొటెక్ట్ షీల్డ్‌ను మాన్యువల్‌గా ఎనేబుల్ చేయడానికి ఎప్పుడైనా నొక్కండి."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ ప్రైవసీ షీల్డ్ సక్రియం చేయబడింది"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 ప్రైవసీ షీల్డ్ నిష్క్రియం చేయబడింది"
+  },
+  "js_9b3e1a": {
+    "message": "ఈజీవ్యూ లేఅవుట్‌ను విశ్లేషిస్తోంది మరియు మార్ఫ్ చేస్తోంది..."
+  },
+  "js_4c8d2f": {
+    "message": "నిర్వచించు"
+  },
+  "js_7a1e9b": {
+    "message": "డీకోడ్"
+  },
+  "js_2d5f8c": {
+    "message": "సరళీకరించు"
+  },
+  "js_6e3a4d": {
+    "message": "బుక్‌మార్క్"
+  },
+  "js_1f9b7c": {
+    "message": "హైలైట్"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "డీఓఎమ్ ట్రీని విశ్లేషిస్తోంది..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "మెస్సీ లేఅవుట్..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "నిర్మాణాన్ని ఫ్లాటెన్ చేస్తోంది..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[నాయిస్_ఓవర్‌లోడ్]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "డిస్ట్రాక్షన్లను తొలగిస్తోంది..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "సంక్లిష్ట నోడ్స్"
+  },
+  "js_ldr_m4_cl": {
+    "message": "డిస్లెక్సియా నియమాలను వర్తింపజేస్తున్నాము..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "ఈజీవ్యూ యూఐని రెండర్ చేస్తోంది..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "టెక్స్ట్ బ్లాక్‌ను స్కాన్ చేస్తోంది..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "చాలా ఎక్కువ పదాలు..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "ప్రధాన అర్థాన్ని సంగ్రహిస్తున్నాము..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "కాగ్నిటివ్ లోడ్"
+  },
+  "js_ldr_s3_cl": {
+    "message": "సరళమైన ఇంగ్లీష్‌ను రూపొందిస్తున్నాము..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "వెర్బోస్ ఏఐ..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "రీడబిలిటీని వర్తింపజేస్తోంది..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "అవుట్‌పుట్‌ను మెరుగుపరుస్తోంది..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "జార్గన్‌ను అనువదిస్తోంది..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "లోపం: గందరగోళం"
+  },
+  "js_ldr_j2_cl": {
+    "message": "నిర్వచనాలను కనుగొంటోంది..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[నాయిస్_ఓవర్‌లోడ్]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "సందర్భాన్ని సరళీకరిస్తోంది..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "తెలియని పదాలు"
+  },
+  "js_ldr_j4_cl": {
+    "message": "స్పష్టతను వర్తింపజేస్తోంది..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "ఫలితాలను ఫార్మాట్ చేస్తోంది..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "డీప్ అనాలిసిస్..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "ఏఐ లాజిక్‌ను ఖరారు చేస్తోంది..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "ఏఐ రన్ అవుతోంది..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "దాదాపు పూర్తయింది..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "భారీ ట్రాఫిక్..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "కొంచెం ఎక్కువ సమయం పడుతోంది..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "ఇంకా పని చేస్తోంది..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "కొంచెం వేచి ఉండండి..."
+  },
+  "t_b7012ab9": {
+    "message": "మార్ఫ్"
+  },
+  "t_c5e8b1d9": {
+    "message": "ప్రో ఫాంట్లు"
+  },
+  "t_c8f2ba19": {
+    "message": "ప్రైవేట్ కంటెంట్ బ్లరింగ్ ఎనేబుల్ చేయబడింది"
+  },
+  "t_e2dae61a": {
+    "message": "ప్రైవేట్ కంటెంట్ బ్లరింగ్ డిసేబుల్ చేయబడింది"
+  },
+  "t_c74de318": {
+    "message": "స్క్రీన్ షేర్‌లో ఆటో-ప్రొటెక్ట్ ఎనేబుల్ చేయబడింది"
+  },
+  "t_a5fd56f4": {
+    "message": "స్క్రీన్ షేర్‌లో ఆటో-ప్రొటెక్ట్ డిసేబుల్ చేయబడింది"
+  },
+  "t_ab8d1f2a": {
+    "message": "ఫ్లాష్‌లైట్ మోడ్ ఎనేబుల్ చేయబడింది"
+  },
+  "t_2bf5cc98": {
+    "message": "ఫ్లాష్‌లైట్ మోడ్ డిసేబుల్ చేయబడింది"
+  },
+  "t_513bb93f": {
+    "message": "బయోనిక్ రీడింగ్"
+  },
+  "t_5a8b2c1d": {
+    "message": "మీ రీడింగ్ సెట్టింగ్‌ల ప్రివ్యూ ఇక్కడ ఉంది."
+  },
+  "t_ac1d4e5f": {
+    "message": "ఏదీ లేదు"
+  },
+  "t_b2e3f4a1": {
+    "message": "వెడల్పు"
+  },
+  "t_c3f4a5b2": {
+    "message": "ఎక్కువ వెడల్పు"
+  },
+  "t_d1a3c901": {
+    "message": "క్లిక్"
+  },
+  "t_b4f2e891": {
+    "message": "ఎలిమెంట్‌కు పిన్ చేయండి"
+  },
+  "t_c9a1b302": {
+    "message": "స్పేస్"
+  },
+  "t_f6d4e203": {
+    "message": "గ్లోబల్ నోట్"
+  },
+  "t_e2b3f104": {
+    "message": "ఎస్కేప్"
+  },
+  "t_a7c0d905": {
+    "message": "రద్దు"
+  },
+  "t_e1b2c301": {
+    "message": "ఈ పేజీ మాత్రమే"
+  },
+  "t_f7a3b402": {
+    "message": "ఈ సైట్"
+  },
+  "t_a8c4d503": {
+    "message": "అన్ని సైట్లు (గ్లోబల్)"
+  },
+  "t_b9d5e604": {
+    "message": "రీలోడ్ చేసే వరకు దాచు"
+  },
+  "t_c0e6f705": {
+    "message": "ఎలిమెంట్‌కు నోట్‌ను పిన్ చేయండి"
+  },
+  "t_d1f7a806": {
+    "message": "నోట్ రంగును మార్చండి"
+  },
+  "t_e2a8b907": {
+    "message": "నోట్‌ను కుదించు/విస్తరించండి"
+  },
+  "t_f3b9c008": {
+    "message": "నోట్ కంటెంట్‌ను కాపీ చేయండి"
+  },
+  "t_a4c0d109": {
+    "message": "మరిన్ని చర్యలు"
+  },
+  "t_b5d1e200": {
+    "message": "ఈ నోట్‌ను తొలగించండి"
+  },
+  "t_e87033a2": {
+    "message": "ఆల్ట్ + ఎక్స్"
+  },
+  "t_4120201a": {
+    "message": "ఉచిత ట్రయల్ యాక్టివ్‌లో ఉంది"
+  },
+  "t_6ed40ffb": {
+    "message": "పరికరాల మధ్య సెట్టింగ్‌లను సింక్ చేయండి"
+  },
+  "t_f8b8a5fd": {
+    "message": "ఎక్కువ ఉచిత వినియోగ కోటా"
+  },
+  "t_440b106d": {
+    "message": "భవిష్యత్తు ప్రో ఫీచర్లకు యాక్సెస్"
+  },
+  "t_3a99076c": {
+    "message": "ప్రీమియం పరిమితి"
+  },
+  "t_545f6c2f": {
+    "message": "అపరిమితం"
+  },
+  "t_ad23f4a0": {
+    "message": "స్పేషియల్ నోట్స్"
+  },
+  "t_04f2f045": {
+    "message": "మీరు వెబ్ అంతటా మొత్తం ౧౫ ఉచిత టైర్ నోట్స్‌ను విజయవంతంగా సృష్టించారు. అనంతమైన స్పేషియల్ మెమరీ మరియు కస్టమ్ రంగులను అన్‌లాక్ చేయడానికి ఈజీవ్యూ ప్రీమియంకు అప్‌గ్రేడ్ చేయండి."
+  },
+  "t_cf874b99": {
+    "message": "ప్రీమియం అన్‌లాక్ చేయండి"
+  },
+  "t_a6d36e2f": {
+    "message": "అన్ని లోకల్ యాక్సెసిబిలిటీ కంట్రోల్స్ (సక్రియంగా ఉన్నాయి)"
+  },
+  "t_b0b69bc3": {
+    "message": "టెక్స్ట్-టు-స్పీచ్ ఇంజిన్ (సక్రియంగా ఉంది)"
+  },
+  "t_cc96c21a": {
+    "message": "క్లౌడ్ ఏఐ ఫీచర్లు (ఆఫ్‌లైన్)"
+  },
+  "t_7af6f6e5": {
+    "message": "నాకు అర్థమైంది"
+  },
+  "t_9bc7102e": {
+    "message": "మీ కోటాను ట్రాక్ చేయడానికి మరియు జార్గన్ డీకోడర్‌ను అన్‌లాక్ చేయడానికి ఉచిత ఈజీవ్యూ ఖాతాను సృష్టించండి."
+  },
+  "t_ab7512fd": {
+    "message": "మీ సెషన్ టోకెన్ లేదు. యాక్సెస్‌ను పునరుద్ధరించడానికి దయచేసి easyview.inకి మళ్ళీ సైన్ ఇన్ చేయండి."
+  },
+  "t_1cd7820a": {
+    "message": "ప్రో యాక్సెస్ మాత్రమే"
+  },
+  "t_8eb14032": {
+    "message": "జార్గన్ డీకోడర్<br><span class=\"ev-si-gradient-text\">కోటా పూర్తయింది</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "కోటా అయిపోయింది"
+  },
+  "t_5ae983dc": {
+    "message": "ఈ నెలలో మీరు <strong>౫ ఉచిత డీకోడ్‌లను</strong> పూర్తి చేశారు. సెకన్లలో అపరిమిత యాక్సెస్‌ను అన్‌లాక్ చేయండి."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> ప్రోకి వెళ్ళండి — అపరిమిత డీకోడ్‌లు</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> మీ స్వంత ఏపిఐ కీని ఉపయోగించండి</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 సెట్టింగ్స్‌లో ఏపిఐ కీని జోడించండి</button>"
+  },
+  "t_9be4129a": {
+    "message": "స్టడీ డెక్ ఎక్స్‌పోర్టర్<br><span class=\"ev-si-gradient-text\">ప్రో ఆటోమేషన్</span>"
+  },
+  "t_fac34185": {
+    "message": "మీ మొత్తం కస్టమ్ స్టడీ నోట్‌బుక్‌ను నేరుగా <strong>అంకి</strong> మరియు <strong>క్విజ్‌లెట్</strong>కి తక్షణమే ఎగుమతి చేయండి."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> మాన్యువల్ టైపింగ్‌ను వదిలేయండి</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> ఆర్‌ఎఫ్‌సి-౪౧౮౦ ఫ్లాష్‌కార్డ్ కంపైలర్</div>"
+  },
+  "t_da12c30b": {
+    "message": "ప్రో యాక్సెస్"
+  },
+  "t_4a9b2c01": {
+    "message": "ఈ ఫీచర్"
+  },
+  "t_3be78c01": {
+    "message": "ఈ డిస్లెక్సియా రీడింగ్ ఫాంట్"
+  },
+  "t_0ad4b971": {
+    "message": "ఈ విజువల్ ఫాంట్"
+  },
+  "t_9af42be8": {
+    "message": "ఈ ప్రీమియం ఎగుమతి ఫాంట్"
+  },
+  "t_cbae8349": {
+    "message": "అన్ని యాక్సెసిబిలిటీ ఫీచర్లు మరియు పవర్ టూల్స్‌ను అన్‌లాక్ చేయడానికి అప్‌గ్రేడ్ చేయండి."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> అడ్వాన్స్‌డ్ యాక్సెసిబిలిటీ</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> అన్ని భవిష్యత్తు అప్‌డేట్‌లు</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ ప్రోకి అప్‌గ్రేడ్ చేయండి"
+  },
+  "t_5ef4c1a2": {
+    "message": "బహుశా తర్వాత"
+  },
+  "t_3b7a5e82": {
+    "message": ", కానీ ఏఐ ఫీచర్లు తాత్కాలికంగా అందుబాటులో ఉండకపోవచ్చు."
+  },
+  "t_c91d8e12": {
+    "message": "సాధారణ"
+  },
+  "t_b42f3a9d": {
+    "message": "నిర్వచనం"
+  },
+  "t_f1d4a8e6": {
+    "message": "నిఘంటువు"
+  },
+  "t_e398c71f": {
+    "message": "కస్టమ్"
+  },
+  "t_a72df9e5": {
+    "message": "వైద్య"
+  },
+  "t_d8f2c61a": {
+    "message": "లీగల్"
+  },
+  "t_b3e1f5d2": {
+    "message": "ఆర్థిక"
+  },
+  "t_c25d81f9": {
+    "message": "టెక్"
+  },
+  "t_e1b3a4f6": {
+    "message": "అకడమిక్"
+  },
+  "t_d5f9b4c1": {
+    "message": "పదం"
+  },
+  "t_f7a2e8ea": {
+    "message": "వర్గం"
+  },
+  "t_e3b1c6d9": {
+    "message": "సరళీకరించిన అర్థం"
+  },
+  "t_a9d4e5f2": {
+    "message": "స్టడీ నోట్స్ / సందర్భం"
+  },
+  "t_b4c5d6e7": {
+    "message": "రద్దు"
+  },
+  "t_c8f2a1b4": {
+    "message": "మార్పులను సేవ్ చేయండి"
+  },
+  "t_8c17b5e6": {
+    "message": "మీ సెషన్ టోకెన్ లేదు. యాక్సెస్‌ను పునరుద్ధరించడానికి దయచేసి easyview.inకి మళ్ళీ సైన్ ఇన్ చేయండి."
+  },
+  "t_a43dc219": {
+    "message": "మీ వినియోగ కోటాను ట్రాక్ చేయడానికి మరియు ఏఐ మార్ఫ్ ఇంజిన్‌ను అన్‌లాక్ చేయడానికి ఉచిత ఈజీవ్యూ ఖాతాను సృష్టించండి."
+  },
+  "t_54c523fe": {
+    "message": "🎉 అద్భుతం! $1 కొత్త స్టడీ కార్డ్‌లను విజయవంతంగా దిగుమతి చేసాము."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 అద్భుతం! $1 కొత్త కార్డులు దిగుమతి చేయబడ్డాయి. ($2 డూప్లికేట్‌లు దాటవేయబడ్డాయి.)"
+  },
+  "t_14894d12": {
+    "message": "థీమ్ ఎగుమతి"
+  },
+  "t_f27a2629": {
+    "message": "థీమ్ లైబ్రరీ బ్యాకప్"
+  },
+  "t_9ad85e17": {
+    "message": "రీడింగ్ రూలర్ మోడ్"
+  },
+  "t_b9d4e7a5": {
+    "message": "అడ్వాన్స్‌డ్ సెన్సరీ షీల్డ్ మోడ్‌లు"
+  },
+  "t_94f4f7e4": {
+    "message": "డాక్స్ (DOCX) పార్స్ అవుతోంది...",
+    "description": "రీడర్‌లో DOCXని పార్స్ చేస్తున్నప్పుడు స్థితి"
+  },
+  "t_120adfc1": {
+    "message": "ఈపబ్ (EPUB) పార్స్ అవుతోంది...",
+    "description": "రీడర్‌లో EPUBని పార్స్ చేస్తున్నప్పుడు స్థితి"
+  },
+  "t_5d2a45b8": {
+    "message": "రీడింగ్ రూలర్ మోడ్ ప్రో సబ్‌స్క్రిప్షన్‌లకు మాత్రమే పరిమితం.",
+    "description": "నాన్-ప్రో యూజర్ రీడింగ్ రూలర్‌ను యాక్సెస్ చేసినప్పుడు హెచ్చరిక"
+  },
+  "t_c1f29623": {
+    "message": "మొత్తం కార్డ్‌ను ఎడిట్ చేయండి",
+    "description": "నోట్‌బుక్‌లో మొత్తం కార్డ్‌ను ఎడిట్ చేయడానికి టూల్‌టిప్"
+  },
+  "t_1063e38c": {
+    "message": "తొలగించండి",
+    "description": "నోట్‌బుక్ నుండి కార్డ్‌ను తొలగించడానికి టూల్‌టిప్"
+  },
+  "t_ccca2ddf": {
+    "message": "ఈజీవ్యూ రీడర్"
+  },
+  "t_8524de96": {
+    "message": "లోడ్ అవుతోంది..."
+  },
+  "t_25e8f2fd": {
+    "message": "దయచేసి వేచి ఉండండి..."
+  },
+  "t_ec9d785d": {
+    "message": "౧.౫x"
+  },
+  "t_dafd5f8f": {
+    "message": "లెక్సెండ్"
+  },
+  "t_16d90a0b": {
+    "message": "అట్కిన్సన్ హైపర్లెజిబుల్"
+  },
+  "t_5c7db066": {
+    "message": "సెగో యుఐ (విండోస్ డిఫాల్ట్)"
+  },
+  "t_f7cee5ea": {
+    "message": "కాలిబ్రి"
+  },
+  "t_ccc0239e": {
+    "message": "కాండారా"
+  },
+  "t_2963521b": {
+    "message": "కోర్బెల్"
+  },
+  "t_37f1cc58": {
+    "message": "కాంబ్రియా"
+  },
+  "t_c3d9d4bf": {
+    "message": "కాన్స్టాంటియా"
+  },
+  "t_5d1a5b35": {
+    "message": "పలాటినో లైనోటైప్"
+  },
+  "t_4dc386b6": {
+    "message": "బుక్ యాంటిక్వా"
+  },
+  "t_03c461f6": {
+    "message": "ఫ్రాంక్లిన్ గోతిక్"
+  },
+  "t_7b1ee3b6": {
+    "message": "సెంచరీ గోతిక్"
+  },
+  "t_a3293302": {
+    "message": "గిల్ సాన్స్"
+  },
+  "t_eb726908": {
+    "message": "సిట్కా టెక్స్ట్"
+  },
+  "t_b5bdee2c": {
+    "message": "సిల్ఫేన్"
+  },
+  "t_1ec05249": {
+    "message": "మైక్రోసాఫ్ట్ సాన్స్ సెరిఫ్"
+  },
+  "t_ad4a300c": {
+    "message": "సెగో యూఐ సెమీబోల్డ్"
+  },
+  "t_16507cdd": {
+    "message": "కన్సోలాస్"
+  },
+  "t_391c5954": {
+    "message": "లూసిడా కన్సోల్"
+  },
+  "t_9879efdf": {
+    "message": "లూసిడా సాన్స్ టైప్‌రైటర్"
+  },
+  "t_21f59b54": {
+    "message": "ఇంపాక్ట్"
+  },
+  "t_94a7bb97": {
+    "message": "ఏరియల్ బ్లాక్"
+  },
+  "t_6e87c2cb": {
+    "message": "కాపర్ ప్లేట్ గోతిక్"
+  },
+  "t_40885309": {
+    "message": "బెర్లిన్ సాన్స్ FB"
+  },
+  "t_6d5566ba": {
+    "message": "గాబ్రియోలా"
+  },
+  "t_edb42482": {
+    "message": "ఇంక్ ఫ్రీ"
+  },
+  "t_fa233799": {
+    "message": "సెగో స్క్రిప్ట్"
+  },
+  "t_2f7bc407": {
+    "message": "సెగో ప్రింట్"
+  },
+  "t_0095a9fa": {
+    "message": "ఎగుమతి"
+  },
+  "t_520d0db3": {
+    "message": "ఫార్మాట్"
+  },
+  "t_5956a437": {
+    "message": "టెక్స్ట్"
+  },
+  "t_1351017a": {
+    "message": "ఫైల్ పేరు"
+  },
+  "t_d4c3c15b": {
+    "message": "ఏ ఫైల్ లోడ్ కాలేదు"
+  },
+  "t_0ca5a078": {
+    "message": "దయచేసి ఫైల్‌ను అప్‌లోడ్ చేయడానికి కన్వర్టర్ ట్యాబ్‌ను ఉపయోగించండి."
+  },
+  "t_c9857e16": {
+    "message": "మద్దతు లేని ఫైల్ రకం."
+  },
+  "t_6b447b91": {
+    "message": "ఫైల్‌ను పార్స్ చేయడంలో లోపం: "
+  },
+  "t_7f4588be": {
+    "message": "ఇపబ్"
+  },
+  "t_12dc65c2": {
+    "message": "లైట్/డార్క్ మోడ్‌ను మార్చండి"
+  },
+  "t_d3d2e617": {
+    "message": "మూసివేయండి"
+  },
+  "t_6e8cfcb7": {
+    "message": "సర్వర్‌కు సురక్షిత ఎగుమతి (ప్రీమియం)"
+  },
+  "t_2f9df658": {
+    "message": "వర్క్‌స్పేస్‌ను విడదీసి అన్ని విండోల పైన తేలేలా చేయండి"
+  },
+  "t_72d6d7a1": {
+    "message": "దిగుమతి"
+  },
+  "t_de93d5fd": {
+    "message": "నోట్స్‌ను ఎగుమతి చేయండి"
+  },
+  "t_a1aacca9": {
+    "message": "ఫ్లోట్ ఓఎస్"
+  },
+  "t_ac0b844f": {
+    "message": "గ్లోబల్ నోట్స్"
+  },
+  "t_15866f1d": {
+    "message": "సైట్-నిర్దిష్ట నోట్స్"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
+  },
+  "t_6af8212e": {
+    "message": "ఈజీవ్యూ నోట్స్ బోర్డ్"
+  },
+  "t_d16da0f5": {
+    "message": "🌎"
+  },
+  "t_6df173ff": {
+    "message": "📍"
+  },
+  "t_22f58a00": {
+    "message": "🌎 గ్లోబల్ నోట్"
+  },
+  "t_5be8bbeb": {
+    "message": "🌐 సైట్ నోట్"
+  },
+  "t_59a56663": {
+    "message": "📍 పేజీ నోట్"
+  },
+  "t_c1843696": {
+    "message": "ఇంటిగ్రిటీ టోకెన్‌ను ధృవీకరిస్తున్నాము..."
+  },
+  "t_58038ee4": {
+    "message": "ఇప్పుడే"
+  },
+  "t_e254e1a1": {
+    "message": "$1 నిమిషం క్రితం",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_121d4d02": {
+    "message": "$1 గంట క్రితం",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_19d2b280": {
+    "message": "$1 రోజు క్రితం",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_d3d4311c": {
+    "message": "నోట్‌ను డ్రాగ్ చేయండి"
+  },
+  "t_7b32ea16": {
+    "message": "$1కి మారండి",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_11916b28": {
+    "message": "ప్లేస్‌మెంట్ పరిధి"
+  },
+  "t_5463fe67": {
+    "message": "రంగుల ప్యాలెట్"
+  },
+  "t_d116d454": {
+    "message": "నోట్‌ను కుదించండి"
+  },
+  "t_be9ba0e5": {
+    "message": "టెక్స్ట్‌ను కాపీ చేయండి"
+  },
+  "t_28471624": {
+    "message": "మరిన్ని చర్యలు"
+  },
+  "t_90e467df": {
+    "message": "నోట్‌ను మూసివేయండి"
+  },
+  "t_34494920": {
+    "message": "మీ నోట్‌ను ఇక్కడ టైప్ చేయండి..."
+  },
+  "t_bdda0b60": {
+    "message": "మీరు ఏమి ఆలోచిస్తున్నారు..."
+  },
+  "t_8689de27": {
+    "message": "ప్రతిచోటా అందుబాటులో ఉంది"
+  },
+  "t_c0cf9810": {
+    "message": "ఒరిజినల్ పేజీకి తిరిగి వెళ్ళండి"
+  },
+  "t_24a23176": {
+    "message": "ఒరిజినల్ కాంటెక్స్ట్"
+  },
+  "t_4c1c1e76": {
+    "message": "నోట్‌బుక్ దిగుమతి"
+  },
+  "t_2736f644": {
+    "message": "మీ బాహ్య స్టడీ డెక్‌లు మరియు పదజాల జాబితాలను మీ ఈజీవ్యూ ఎకోసిస్టమ్‌లో సజావుగా విలీనం చేయండి."
+  },
+  "t_ca4f038f": {
+    "message": "అవసరమైన నిలువు వరుసలు"
+  },
+  "t_7277de5f": {
+    "message": "అర్థం"
+  },
+  "t_ce591bfa": {
+    "message": "ఐచ్ఛిక నిలువు వరుసలు"
+  },
+  "t_f4c6f851": {
+    "message": "నోట్స్"
+  },
+  "t_c1fd81a6": {
+    "message": "సిఎస్వి ఫైల్‌ను ఎంచుకోండి లేదా లాగండి"
+  },
+  "t_5c426600": {
+    "message": "డూప్లికేట్లు మరియు ఇప్పటికే ఉన్న పదాలు స్వయంచాలకంగా ఫిల్టర్ చేయబడతాయి"
+  },
+  "t_76e7183d": {
+    "message": "దిగుమతి విజయవంతమైంది!"
+  },
+  "t_3e17e02d": {
+    "message": "మీ పదజాలం నవీకరించబడింది."
+  },
+  "t_3148d309": {
+    "message": "ట్యాబ్‌ను మూసివేయి"
+  },
+  "t_0e412fa1": {
+    "message": "మీరు పాపప్‌కు తిరిగి వచ్చినప్పుడు వేడుక ప్రారంభమవుతుంది"
+  },
+  "t_d29f6e6b": {
+    "message": "దిగుమతి విఫలమైంది"
+  },
+  "t_e04efbcb": {
+    "message": "నోట్‌బుక్ స్థితి"
+  },
+  "t_ed732761": {
+    "message": "మార్ఫ్ థీమ్స్ దిగుమతి"
+  },
+  "t_e44db711": {
+    "message": "మీ కస్టమ్ మార్ఫ్ ఇంజిన్ లైబ్రరీని నేరుగా ఈజీవ్యూలోకి సురక్షితంగా దిగుమతి చేసుకోండి."
+  },
+  "t_c0bb7d43": {
+    "message": "జేసన్ ఫైల్‌ను ఎంచుకోండి లేదా లాగండి"
+  },
+  "t_36e9583e": {
+    "message": "మీరు గతంలో ఎగుమతి చేసిన థీమ్ లేఅవుట్‌లను దిగుమతి చేస్తుంది."
+  },
+  "t_21630184": {
+    "message": "థీమ్‌లు పునరుద్ధరించబడ్డాయి!"
+  },
+  "t_d0c1ec75": {
+    "message": "మీ మార్ఫ్ టెంప్లేట్లు విజయవంతంగా ఇన్‌స్టాల్ చేయబడ్డాయి."
+  },
+  "t_cd27a5c0": {
+    "message": "ఈజీవ్యూ — కంటెంట్ రీడర్"
+  },
+  "t_b171ab1f": {
+    "message": "రీడర్‌కు స్వాగతం"
+  },
+  "t_4e07c284": {
+    "message": "అనుకూలీకరించిన టైపోగ్రఫీ మరియు అధునాతన యాక్సెసిబిలిటీ సహాయాలతో చదవడానికి మీ పత్రాలను ఇక్కడ అప్‌లోడ్ చేయండి."
+  },
+  "t_004621c0": {
+    "message": "డాక్స్, ఈపబ్ మరియు టిఎక్స్‌టి ఫైల్‌లకు మద్దతు ఇస్తుంది"
+  },
+  "t_23bb27a0": {
+    "message": "డాక్యుమెంట్ పార్సర్‌ను సిద్ధం చేస్తోంది..."
+  },
+  "t_e1d5f16c": {
+    "message": "చదవడానికి వీలుగా డాక్స్ ఆప్టిమైజ్ చేయబడుతోంది..."
+  },
+  "t_0e55c5d0": {
+    "message": "ఈపబ్ నిర్మాణాన్ని విశ్లేషిస్తోంది..."
   }
 }

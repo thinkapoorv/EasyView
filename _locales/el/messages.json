@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "ΊζιΒιου — Διαύγεια για κάθε μυαλό"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "ΊζιΒιού"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "Μεταμορφώστε οποιονδήποτε ιστότοπο αμέσως με προτροπές Τεχνητή Νοημοσύνη (Τεχνητή Νοημοσύνη (AI)) ή με ένα κλικ. Δείτε τον ιστό με τον δικό σας τρόπο."
+  },
+  "t_68ba0232": {
+    "message": "Η λειτουργία δυσλεξίας ενεργοποιήθηκε"
+  },
+  "t_85f47a25": {
+    "message": "Η λειτουργία δυσλεξίας απενεργοποιήθηκε"
+  },
+  "t_1cc1b64d": {
+    "message": "Δεν υπάρχει αρκετό περιεχόμενο για ανάλυση"
+  },
+  "t_cebe6412": {
+    "message": "Δεν βρέθηκαν σύνθετοι όροι"
+  },
+  "t_b964aa0f": {
+    "message": "Σφάλμα κατά την ανάλυση του περιεχομένου της σελίδας"
+  },
+  "t_956c104e": {
+    "message": "Η μνήμη της σελίδας καθαρίστηκε"
+  },
+  "t_1f4b0f3e": {
+    "message": "Το γλωσσάρι καθαρίστηκε"
+  },
+  "t_4bfeec37": {
+    "message": "Δεν βρέθηκαν σύνθετοι όροι στην επιλογή"
+  },
+  "t_1b5e8531": {
+    "message": "Δεν βρέθηκαν σύνθετοι όροι στην επιλογή"
+  },
+  "t_a1f781ec": {
+    "message": "Σφάλμα αποκωδικοποίησης επιλογής"
+  },
+  "t_7aae8122": {
+    "message": "Οι επισημάνσεις επιλογής διαγράφηκαν"
+  },
+  "t_58762fd6": {
+    "message": "Παρακαλώ επιλέξτε μια μεμονωμένη λέξη ή σύντομη φράση για ορισμό."
+  },
+  "t_6838b119": {
+    "message": "Σφάλμα δικτύου κατά την αναζήτηση ορισμού."
+  },
+  "t_ea3ca1b5": {
+    "message": "Αποκωδικοποιήθηκαν $1 όροι (από την προσωρινή μνήμη)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "Αποκωδικοποιήθηκαν $1 όροι (από την προσωρινή μνήμη)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "Έχετε χρησιμοποιήσει όλες τις δωρεάν χρήσεις του Αποκωδικοποιητή Ορολογίας αυτόν τον μήνα. Αναβαθμίστε σε Επαγγελματικό (Pro) για απεριόριστη πρόσβαση."
+  },
+  "t_cb3c5d3a": {
+    "message": "Αποκωδικοποιήθηκαν $1 όροι σε $2 κατηγορίες",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "Αυτόματη επισήμανση $1 περιπτώσεων του όρου λεξιλογίου που αποκωδικοποιήσατε",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "Αποκαταστάθηκαν $1 αποθηκευμένοι ορισμοί ορολογίας$2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "Έχετε χρησιμοποιήσει όλες τις δωρεάν χρήσεις του Αποκωδικοποιητή Ορολογίας αυτόν τον μήνα. Αναβαθμίστε σε Επαγγελματικό (Pro) για απεριόριστη πρόσβαση."
+  },
+  "t_0b841c82": {
+    "message": "Ήδη στο σημειωματάριο!"
+  },
+  "t_8901f3ab": {
+    "message": "Αποθηκεύτηκε στο σημειωματάριο!"
+  },
+  "t_eb8f5242": {
+    "message": "Σφάλμα αποθήκευσης στο σημειωματάριο"
+  },
+  "t_bd15702b": {
+    "message": "Η αισθητηριακή ασπίδα ενεργοποιήθηκε"
+  },
+  "t_c28f3265": {
+    "message": "Η αισθητηριακή ασπίδα απενεργοποιήθηκε"
+  },
+  "t_3f8910d9": {
+    "message": "ΊΖΙΒΙΟΥ"
+  },
+  "t_8aafa613": {
+    "message": "Δεν ήταν δυνατή η απλοποίηση αυτού του κειμένου"
+  },
+  "t_79d2dc85": {
+    "message": "Δεν ήταν δυνατή η απλοποίηση αυτού του κειμένου"
+  },
+  "t_99684ba5": {
+    "message": "Σφάλμα απλοποίησης κειμένου"
+  },
+  "t_f4362bde": {
+    "message": "Αντιγράφηκε στο πρόχειρο!"
+  },
+  "t_af07ef4b": {
+    "message": "Αποτυχία αντιγραφής"
+  },
+  "t_94e4d537": {
+    "message": "Το κείμενο αντικαταστάθηκε στη σελίδα"
+  },
+  "t_14a04b67": {
+    "message": "Η μνήμη απλοποίησης διαγράφηκε"
+  },
+  "t_c444ff21": {
+    "message": "Το αρχικό κείμενο αποκαταστάθηκε προσωρινά"
+  },
+  "t_55f1db14": {
+    "message": "Έχετε χρησιμοποιήσει όλες τις δωρεάν χρήσεις αυτόν τον μήνα. Αναβαθμίστε σε Επαγγελματικό (Pro) για απεριόριστη πρόσβαση."
+  },
+  "t_fde4e3f0": {
+    "message": "Αποκαταστάθηκαν $1 αποθηκευμένες απλοποιήσεις σε αυτή τη σελίδα",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "Αυτόματη αποκατάσταση δυναμικά φορτωμένης απλοποίησης!"
+  },
+  "t_dfa22e52": {
+    "message": "Η μετατροπή κειμένου σε ομιλία ενεργοποιήθηκε"
+  },
+  "t_ca153ad0": {
+    "message": "Η μετατροπή κειμένου σε ομιλία απενεργοποιήθηκε"
+  },
+  "t_dadbff09": {
+    "message": "Παρακαλώ ενεργοποιήστε πρώτα το Κείμενο-σε-Ομιλία"
+  },
+  "t_47071c61": {
+    "message": "Συνέχιση..."
+  },
+  "t_5516c48d": {
+    "message": "Δεν βρέθηκε αναγνώσιμο περιεχόμενο σε αυτή τη σελίδα"
+  },
+  "t_c57f25c9": {
+    "message": "Δεν βρέθηκε αναγνώσιμο περιεχόμενο"
+  },
+  "t_2516997e": {
+    "message": "Η ανάγνωση ολοκληρώθηκε"
+  },
+  "t_d3069aea": {
+    "message": "Το Κείμενο-σε-Ομιλία δεν υποστηρίζεται σε αυτό το πρόγραμμα περιήγησης"
+  },
+  "t_53e6b8c6": {
+    "message": "Παρακαλώ επιλέξτε πρώτα κάποιο κείμενο"
+  },
+  "t_e932d0f7": {
+    "message": "Ανάγνωση επιλογής..."
+  },
+  "t_1c50528d": {
+    "message": "Η ανάγνωση ολοκληρώθηκε"
+  },
+  "t_594778a2": {
+    "message": "Σε παύση"
+  },
+  "t_4ded5f77": {
+    "message": "Η ομιλία σταμάτησε"
+  },
+  "t_0a74758c": {
+    "message": "✨ Με την υποστήριξη προσωπικού κλειδιού"
+  },
+  "t_2fceddad": {
+    "message": "✨ Απεριόριστο"
+  },
+  "t_97627d80": {
+    "message": "✨ Με την υποστήριξη προσωπικού κλειδιού"
+  },
+  "t_fd7d5888": {
+    "message": "Διαχείριση συνδρομής"
+  },
+  "t_df4657a5": {
+    "message": "Δωρεάν μέλος"
+  },
+  "t_22dfb2ec": {
+    "message": "Χρήστης επισκέπτης"
+  },
+  "t_bd9f2460": {
+    "message": "Δωρεάν λογαριασμός"
+  },
+  "t_f5adda31": {
+    "message": "Σύνδεση / Εγγραφή"
+  },
+  "t_d2439201": {
+    "message": "✨ Απεριόριστο"
+  },
+  "t_164442b7": {
+    "message": "Προθέρμανση μηχανής μετατροπής..."
+  },
+  "t_1e7c3002": {
+    "message": "Έτοιμο για ανάλυση αρχείων."
+  },
+  "t_d30f78df": {
+    "message": "Σκούρα λειτουργία"
+  },
+  "t_6c68d8ce": {
+    "message": "Φωτεινή λειτουργία"
+  },
+  "t_fcb68c2b": {
+    "message": "Δεν βρέθηκαν αυτοκόλλητες σημειώσεις. Τίποτα για εξαγωγή!"
+  },
+  "t_2b75b2d9": {
+    "message": "Το διακριτικό της συνεδρίας σας λείπει. Παρακαλούμε συνδεθείτε ξανά στο easyview.in για να αποκαταστήσετε την πρόσβαση."
+  },
+  "t_291a4e34": {
+    "message": "Η δρομολόγηση ασφαλούς διακομιστή απέτυχε. Ελέγξτε τη σύνδεσή σας."
+  },
+  "t_2dcf62b3": {
+    "message": "Δεν εντοπίστηκαν σημειώσεις που λείπουν. Ο χώρος εργασίας είναι ενημερωμένος."
+  },
+  "t_951bf3ae": {
+    "message": "Αποτυχία αποκρυπτογράφησης: Το αρχείο δεν συμμορφώνεται με τα όρια του ΊζιΒιου."
+  },
+  "t_817a4ba0": {
+    "message": "Το εικόνα σε εικόνα (εικόνα σε εικόνα (PiP)) διεπαφή διεπαφή API δεν υποστηρίζεται. Παρακαλώ ενημερώστε το Χρωμ (Χρωμ)."
+  },
+  "t_e8aa6e9a": {
+    "message": "Αποτυχία αρχικοποίησης της μηχανής εικόνα σε εικόνα (εικόνα σε εικόνα (PiP)): "
+  },
+  "t_9feed9d5": {
+    "message": "Επιτυχής αποκρυπτογράφηση και εισαγωγή $1 νέων σημειώσεων.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "ΔΟΚΙΜΑΣΤΙΚΗ"
+  },
+  "t_c289adbe": {
+    "message": "Υποστηρίξτε μας"
+  },
+  "t_60d5b12a": {
+    "message": "Αξιολογήστε μας"
+  },
+  "js_eb82de4c": {
+    "message": "Προσαρμοσμένο χρώμα"
+  },
+  "js_8caef32b": {
+    "message": "Επαναφορά/Εκκαθάριση (Επιλέξτε κείμενο & κάντε κλικ, ή κάντε διπλό κλικ στην επισήμανση χειροκίνητα)"
+  },
+  "t_823aeb91": {
+    "message": "Χώρος εργασίας ΊζιΒιου"
+  },
+  "t_fc42ed23": {
+    "message": "Δεν υπάρχουν καθολικές σημειώσεις στον χώρο εργασίας σας."
+  },
+  "t_12d7c58a": {
+    "message": "Πατήστε Διάστημα ενώ ο κέρσορας των Αυτοκόλλητων Σημειώσεων είναι ενεργός για να δημιουργήσετε μία."
+  },
+  "t_ab983c11": {
+    "message": "Δεν βρέθηκαν σημειώσεις για τον συγκεκριμένο ιστότοπο."
+  },
+  "t_e22709e9": {
+    "message": "Κάντε κλικ σε ένα φυσικό στοιχείο σε οποιονδήποτε ιστότοπο για να αγκυρώσετε μια στοχευμένη σημείωση."
+  },
+  "t_34bdba45": {
+    "message": "Βήμα"
+  },
+  "t_9b2d88a1": {
+    "message": "του"
+  },
+  "t_8f44d852": {
+    "message": "Ξεκινήστε!"
+  },
+  "t_b45c2f91": {
+    "message": "Ξεκλείδωμα εξαγωγών χώρου εργασίας"
+  },
+  "t_88f91dc1": {
+    "message": "Η ασφαλής απόδοση και εξαγωγή ολόκληρων των σημειώσεων του Καθολικού Χώρου Εργασίας σας απαιτεί επαληθευμένη άδεια Επαγγελματικό (Pro). Αναβαθμίστε για να ξεκλειδώσετε αυτή τη δυνατότητα μόνιμα."
+  },
+  "t_134dff88": {
+    "message": "Ίσως αργότερα"
+  },
+  "t_5b8c9d11": {
+    "message": "Αναβάθμιση σε Επαγγελματικό (Pro)"
+  },
+  "t_792bd8c9": {
+    "message": "Χώρος εργασίας σε αιώρηση!"
+  },
+  "t_e39f7dc2": {
+    "message": "Οι αυτοκόλλητες σημειώσεις σας αιωρούνται τώρα πάνω από την επιφάνεια εργασίας του λειτουργικού σας συστήματος."
+  },
+  "t_c83d6ec9": {
+    "message": "Επανασύνδεση χώρου εργασίας"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">ΊζιΒιου Τεχνητή Νοημοσύνη (Τεχνητή Νοημοσύνη (AI))</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Φιλτράρισμα Θορύβου...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Εκτέλεση στο παρασκήνιο\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Ελαχιστοποίηση</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Διακοπή Μηχανής</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "Η παραγωγή σταμάτησε"
+  },
+  "t_removed_from_notebook": {
+    "message": "Αφαιρέθηκε από το σημειωματάριο"
+  },
+  "t_d1c58470": {
+    "message": "Κάντε διπλό κλικ για αφαίρεση επισήμανσης"
+  },
+  "t_d4fdfb03": {
+    "message": "Συνδεθείτε στο ΊζιΒιου για να λάβετε $1 δωρεάν χρήσεις/μήνα, ή προσθέστε το δικό σας κλειδί διεπαφή διεπαφή API στις Ρυθμίσεις.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "Φόρτωση αποθηκευμένων αποτελεσμάτων..."
+  },
+  "t_3a99733d": {
+    "message": "Αρχικοποίηση αποκωδικοποιητή ορολογίας..."
+  },
+  "t_b6dc9fc9": {
+    "message": "Δημιουργήστε έναν δωρεάν λογαριασμό ΊζιΒιου για να λάβετε $1 δωρεάν αποκωδικοποιήσεις Τεχνητή Νοημοσύνη (Τεχνητή Νοημοσύνη (AI)) ανά μήνα και να παρακολουθείτε το όριό σας.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "Δημιουργήστε έναν δωρεάν λογαριασμό ΊζιΒιου για να λάβετε $1 δωρεάν ορισμούς Τεχνητή Νοημοσύνη (Τεχνητή Νοημοσύνη (AI)) ανά μήνα και να παρακολουθείτε το όριό σας.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "Εξαγωγή κύριου περιεχομένου..."
+  },
+  "t_0eeae2bf": {
+    "message": "Ανίχνευση πλαισίου σελίδας..."
+  },
+  "t_87f125d0": {
+    "message": "Ανάλυση ορολογίας..."
+  },
+  "t_9ef6e70f": {
+    "message": "Χρήση αποτελεσμάτων από την προσωρινή μνήμη..."
+  },
+  "t_9afdc5e8": {
+    "message": "Ανάλυση με Τεχνητή Νοημοσύνη (Τεχνητή Νοημοσύνη (AI))..."
+  },
+  "t_7ecc3abe": {
+    "message": "Η αποκωδικοποίηση ΤΝ απέτυχε"
+  },
+  "t_9220c8de": {
+    "message": "Εφαρμογή απλοποιήσεων..."
+  },
+  "t_57f406b1": {
+    "message": "Αποκωδικοποίηση επιλογής..."
+  },
+  "t_c50f2b72": {
+    "message": "Προβολή γλωσσαρίου"
+  },
+  "t_49de9b11": {
+    "message": "Απόκρυψη επισημάνσεων στη σελίδα"
+  },
+  "t_3158774e": {
+    "message": "Επαναφορά επισημάνσεων στη σελίδα"
+  },
+  "t_fc3ad42d": {
+    "message": "Αποθήκευση στο λεξιλόγιο"
+  },
+  "t_87e933b8": {
+    "message": "Αναζήτηση ορισμού..."
+  },
+  "t_56b79836": {
+    "message": "Ο ορισμός της λέξης φορτώθηκε."
+  },
+  "t_969b24ea": {
+    "message": "🔊 Κάντε κλικ οπουδήποτε για να ενεργοποιήσετε τον ήχο του θέματος"
+  },
+  "t_49337275": {
+    "message": "Χειροκίνητη επισήμανση"
+  },
+  "t_93324bd5": {
+    "message": "Αποθηκεύτηκε απευθείας από την ιστοσελίδα."
+  },
+  "t_82e413f3": {
+    "message": "Απλοποίηση κειμένου..."
+  },
+  "t_86c4f6e5": {
+    "message": "Απλοποίηση με Τεχνητή Νοημοσύνη (Τεχνητή Νοημοσύνη (AI))..."
+  },
+  "t_c3e18edb": {
+    "message": "Η απλοποίηση απέτυχε"
+  },
+  "t_6398ab2c": {
+    "message": "Επίπεδο ανάγνωσης: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "Κάντε κλικ για προσωρινή αποκατάσταση του αρχικού κειμένου"
+  },
+  "t_9beea3e8": {
+    "message": "Μόνιμη διαγραφή από τη μνήμη"
+  },
+  "t_453bb8f7": {
+    "message": "Δημιουργήστε έναν δωρεάν λογαριασμό ΊζιΒιου για να λαμβάνετε $1 δωρεάν απλοποιήσεις Τεχνητή Νοημοσύνη (Τεχνητή Νοημοσύνη (AI)) ανά μήνα και να παρακολουθείτε το όριό σας.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "Ακρόαση"
+  },
+  "t_24833610": {
+    "message": "Αποθηκεύτηκε"
+  },
+  "t_30a008cb": {
+    "message": "Διαβάστε περισσότερα &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "Αποθηκεύτηκε στο Σημειωματάριο Λεξιλογίου!"
+  },
+  "t_2728e87f": {
+    "message": "Αφαιρέθηκε από το Σημειωματάριο Λεξιλογίου"
+  },
+  "t_6b8c66ce": {
+    "message": "Γλωσσάρι ($1 όροι)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "Αφαίρεση μνήμης για αυτή τη σελίδα"
+  },
+  "t_8a49fe1a": {
+    "message": "Αφαίρεση όρου"
+  },
+  "t_1534891c": {
+    "message": "Αποκωδικοποιήθηκαν $1 όροι",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "Αποθήκευση στο σημειωματάριο"
+  },
+  "t_150a2843": {
+    "message": "Καθαρισμός επισημάνσεων"
+  },
+  "t_21ef939c": {
+    "message": "Αποθηκεύτηκε στο σημειωματάριο!"
+  },
+  "t_8054da35": {
+    "message": "Γρήγορο λεξικό",
+    "description": "Κεφαλίδα αναδυόμενου παραθύρου γρήγορου λεξικού"
+  },
+  "t_4aeb2167": {
+    "message": "Η λέξη δεν βρέθηκε",
+    "description": "Τίτλος εφεδρικού λεξικού"
+  },
+  "t_272d0070": {
+    "message": "Δεν μπορέσαμε να βρούμε το \"$1\" στο βασικό λεξικό. Μπορεί να είναι μοντέρνα αργκό, συντομογραφία ή εξαιρετικά τεχνική ορολογία.",
+    "description": "Περιγραφή εφεδρικού λεξικού με σύμβολο κράτησης θέσης λέξης",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "Αποκωδικοποίηση με Ίβι (Evie) Τεχνητή Νοημοσύνη (Τεχνητή Νοημοσύνη (AI))",
+    "description": "Εφεδρικό κουμπί για αποκωδικοποίηση με AI"
+  },
+  "t_14f1f972": {
+    "message": "μέσω",
+    "description": "Πρόθεμα πηγής λεξικού"
+  },
+  "t_f2faf2f1": {
+    "message": "Ουσιαστικό",
+    "description": "Μέρος του λόγου ουσιαστικό"
+  },
+  "t_b512ddf1": {
+    "message": "Ρήμα",
+    "description": "Μέρος του λόγου ρήμα"
+  },
+  "t_d807ae6a": {
+    "message": "Επίθετο",
+    "description": "Μέρος του λόγου επίθετο"
+  },
+  "t_1a607278": {
+    "message": "Επίρρημα",
+    "description": "Μέρος του λόγου επίρρημα"
+  },
+  "t_02de720d": {
+    "message": "Αντωνυμία",
+    "description": "Αντωνυμία (μέρος του λόγου)"
+  },
+  "t_4b7be2c3": {
+    "message": "Πρόθεση",
+    "description": "Πρόθεση (μέρος του λόγου)"
+  },
+  "t_a3c1d30b": {
+    "message": "Σύνδεσμος",
+    "description": "Σύνδεσμος (μέρος του λόγου)"
+  },
+  "t_e189f001": {
+    "message": "Επιφώνημα",
+    "description": "Επιφώνημα (μέρος του λόγου)"
+  },
+  "t_96de90f8": {
+    "message": "Αντιγραφή απλοποιημένου κειμένου",
+    "description": "Επεξήγηση για αντιγραφή απλοποιημένου κειμένου"
+  },
+  "t_44a6e288": {
+    "message": "Ανάγνωση σελίδας",
+    "description": "Επεξήγηση για ανάγνωση ολόκληρης της σελίδας μέσω TTS"
+  },
+  "t_7d70d73b": {
+    "message": "Ανάγνωση επιλογής",
+    "description": "Επεξήγηση για ανάγνωση επιλογής μέσω TTS"
+  },
+  "t_11936123": {
+    "message": "Αμετάκλητη διαγραφή σημείωσης",
+    "description": "Επεξήγηση για μόνιμη διαγραφή αυτοκόλλητης σημείωσης"
+  },
+  "t_d27532d9": {
+    "message": "Ελαχιστοποίηση"
+  },
+  "t_2bd339d8": {
+    "message": "Επαναφορά"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "ΊζιΒιού"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "Ειδοποίηση συστήματος"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "Ειδοποίηση συστήματος"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "Μηχανή\r\nΊζιΒιου"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "Οι τοπικές λειτουργίες παραμένουν\r\nενεργές"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,580 +599,571 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "Εμπειρία\r\nΊζιΒιου"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "Χρησιμοποιείτε το ΊζιΒιου για δώδεκα ώρες. Δημιουργήστε έναν δωρεάν λογαριασμό για να αποθηκεύσετε τις ρυθμίσεις σας, να διατηρήσετε το όριό σας και να ξεκλειδώσετε περισσότερες δυνατότητες."
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "Υπενθύμιση σε δώδεκα ώρες"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "Φωτεινή"
   },
   "t_7fc56270": {
-    "message": "A"
+    "message": "Α"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "Γραμματοσειρά"
   },
   "t_5dbc98dc": {
-    "message": "S"
+    "message": "Σ"
   },
   "t_69691c7b": {
-    "message": "M"
+    "message": "Μ"
   },
   "t_d20caec3": {
-    "message": "L"
+    "message": "Μ"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "Λειτουργίες"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "Οπτικά"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "Μετατροπέας"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "Σημειωματάριο"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "Αποκωδικοποιητής ορολογίας"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "Απλοποίηση σύνθετων νομικών όρων"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "wikipedia.org/wiki/Νευροδιαφορετικότητα"
   },
   "t_61e9c06e": {
-    "message": "W"
+    "message": "Π"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "Νευροδιαφορετικότητα"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "πολύ\r\n                                                πιο εύκολο"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "Ασπίδα εστίασης & ιδιωτικότητας"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "Θόλωση ιδιωτικού και ευαίσθητου περιεχομένου"
   },
   "t_7f766191": {
-    "message": "mail.google.com/mail/u/0/"
+    "message": "μέιλ.γκουγκλ.κομ/μέιλ/υ/0/"
   },
   "t_dfcf28d0": {
-    "message": "G"
+    "message": "Γ"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "Λογαριασμοί Γκουγκλ (Γκουγκλ)"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "Ειδοποίηση ασφαλείας"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- Ζητήθηκε επαναφορά κωδικού πρόσβασης..."
   },
   "t_8d9c307c": {
-    "message": "N"
+    "message": "Ν"
   },
   "t_170b1d36": {
-    "message": "Netflix"
+    "message": "Νέτφλιξ"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "Νέα αυτή την εβδομάδα"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- Δείτε τις τελευταίες μας\r\n                                                    εκδόσεις..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "Τεχνικές προστασίας"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "Θόλωμα ιδιωτικού περιεχομένου"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "Θολώνει έξυπνα τις εισαγωγές Γουάτσαπ, Τζιμέιλ και κωδικών πρόσβασης\r\n                                            για άμεση οπτική ασφάλεια."
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "Αυτόματη προστασία κατά την κοινή χρήση οθόνης"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "Προστατεύει άμεσα την οθόνη σας κατά την κοινή χρήση στο διαδίκτυο."
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
-  },
-  "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "Χρησιμοποιείτε\r\n                                                    Φυσικό Προβολέα;"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "Φακός ανάγνωσης"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "Ακολουθεί το ποντίκι σας με έναν φωτεινό προβολέα για να εξαλείψει πλήρως τον περιβάλλοντα οπτικό θόρυβο."
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "Πρώτον.\r\n                                                            Σχήμα Δέσμης"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "Προβολέας\r\n                                                            ή Χάρακας"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "Δεύτερον.\r\n                                                                Μέγεθος / Ύψος Δέσμης"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "Πάχος\r\n                                                                της περιοχής προβολής"
   },
   "t_f0cad41b": {
     "message": "35px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "Τρίτον.\r\n                                                            Απόχρωση Φακού Δέσμης Εστίασης"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "Χρωματίζει απαλά το κενό ανάγνωσης"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "Τέταρτον.\r\n                                                            Σκιά Περιβάλλοντος Φόντου"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "Σκοτεινότητα γύρω από τον φακό σας"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "Αισθητηριακή ασπίδα"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "Πάγωμα κινούμενων σχεδίων που αποσπούν την προσοχή"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "νιούζντέιλι.κομ/μπρέικινγκ"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "ΕΚΤΑΚΤΗ ΕΙΔΗΣΗ"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "Ανάγνωση άρθρου στις καθημερινές ειδήσεις..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "ΝΙΚΗ!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "Λειτουργία προστασίας"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(προεπιλογή)"
   },
   "t_9e3360ac": {
-    "message": "PRO"
+    "message": "ΕΠΑΓΓΕΛΜΑΤΙΚΟ"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "Διακοπή αυτόματης αναπαραγωγής + ήρεμα\r\n                                                ξεθωριάσματα στη χειροκίνητη πλοήγηση"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "Λειτουργία ανάγνωσης δυσλεξίας"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "Βελτιστοποιημένες γραμματοσειρές & διάστιχο"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "Προφίλ έντασης"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "Χαμηλή"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "Μεσαία"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "Υψηλή"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "βικιπίντια.οργκ/γουίκι/Ανάγνωση"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "Ανάγνωση"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "Αυτή είναι μια προεπισκόπηση των ρυθμίσεων ανάγνωσής σας."
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "Προχωρημένες επιλογές"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "Στυλ γραμματοσειράς"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "Προεπιλογή (Καμία αλλαγή)"
   },
   "t_5d2967ef": {
-    "message": "OpenDyslexic"
+    "message": "Όπεν Ντισλέξικ"
   },
   "t_1042daad": {
-    "message": "Lexend (ADHD Pro) 🔒"
+    "message": "Λέξεντ (ΔΕΠΥ ΕΠΑΓΓΕΛΜΑΤΙΚΟ) 🔒"
   },
   "t_bcec044a": {
-    "message": "Atkinson Hyperlegible 🔒"
+    "message": "Άτκινσον Χάπερλετζιμπλ 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "Γρήγορη Sans"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "Γρήγορη Serif"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "Κόμικ Νόιε"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "Κόμικ Σανς"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "Διάστιχο γραμμάτων"
   },
   "t_960b44c5": {
-    "message": "Normal"
+    "message": "Κανονική"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "Ύψος γραμμής"
   },
   "t_60086472": {
     "message": "1.5"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "Διάστημα λέξεων"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "Μέγεθος γραμματοσειράς"
   },
   "t_30bd7ce7": {
     "message": "100%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "Χρώμα επικάλυψης"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "Καμία"
   },
   "t_2bd8c63b": {
-    "message": "Beige"
+    "message": "Μπεζ"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "Ανοιχτό μπλε"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "Ανοιχτό πράσινο"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "Ανοιχτό κίτρινο"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "Μετατροπή κειμένου σε ομιλία"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "Ανάγνωση δυνατά με επισήμανση"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "Αναπαραγωγή"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "Παύση"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "Διακοπή"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "Επιλογή φωνής"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "Αυτόματο (Καλύτερη ποιότητα)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "Ταχύτητα ανάγνωσης"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "Πολύ αργά"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "Αργά"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "Γρήγορα"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "Πολύ γρήγορα"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "Ένταση"
   },
   "t_f1943132": {
     "message": "70%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "Παύση στη στίξη"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "Επισήμανση λέξεων"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "Ενεργοποίηση"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "Λειτουργία"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "Σκούρα"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "βικιπίντια.οργκ/γουίκι/Φως"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "Τέλεια οπτικά στοιχεία για άνεση των ματιών. Το φως μπορεί να είναι έντονο."
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "Φωτεινότητα"
   },
   "t_c63ecd19": {
-    "message": "Contrast"
+    "message": "Αντίθεση"
   },
   "t_b84a9a38": {
-    "message": "Sepia"
+    "message": "Σέπια"
   },
   "t_9f1ef078": {
     "message": "0%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "Κλίμακα του γκρι"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "Προεπιλογή"
   },
   "t_b1166920": {
-    "message": "Lexend 🔒"
+    "message": "Λέξεντ 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "Περίγραμμα κειμένου"
   },
   "t_cfcd2084": {
     "message": "0"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "Έξυπνος μετατροπέας & αναγνώστης"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "Τρέχον αρχείο"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "Κάντε κλικ ή σύρετε αρχείο για μεταφόρτωση"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• Έτοιμο"
   },
   "t_4c4ad5fc": {
-    "message": "HTML"
+    "message": "σελίδα HTML"
   },
   "t_5c31b30e": {
-    "message": "EPUB"
+    "message": "βιβλίο EPUB"
   },
   "t_7cfd9a9f": {
-    "message": "DOCX"
+    "message": "έγγραφο DOCX"
   },
   "t_af97e960": {
     "message": "📌"
   },
   "t_4cc6684d": {
-    "message": "Global"
+    "message": "Καθολική"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "Ιστότοπος/Σελίδα"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "Το σημειωματάριό μου"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "Εκκαθάριση όλων"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "Ακύρωση"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "Αποθήκευση λέξης"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "Δεν υπάρχουν αποθηκευμένες λέξεις ακόμα."
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "Περάστε το ποντίκι πάνω από την ορολογία σε οποιαδήποτε σελίδα και κάντε κλικ στη σημαία σελιδοδείκτη για να την αποθηκεύσετε εδώ!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "Επαναφανταστείτε τη διεπαφή οποιουδήποτε ιστότοπου. Περιγράψτε τι θέλετε ή επιλέξτε μια\r\n                            προεπιλογή."
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "Εφαρμόστηκε Μεταμόρφωση"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "Η προσαρμοσμένη διάταξη Τεχνητή Νοημοσύνη (Τεχνητή Νοημοσύνη (AI))\r\n                                είναι ενεργή σε αυτόν τον ιστότοπο."
   },
   "t_e8a57cd1": {
     "message": "0 /\r\n                                500"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "Επαναφορά σελίδας"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "Διάταξη μεταμόρφωσης"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "Προεπιλεγμένες ρυθμίσεις"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "Καρναβάλι τρόμου"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "Ατμόσφαιρα τρομακτικού καρναβαλιού & κινούμενο κείμενο τρόμου"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "Κονσόλα μήτρας"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "Θέμα τερματικού Cyberpunk"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "Εστίαση Νευροδιαφορετικότητας"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "Γραμματοσειρές φιλικές προς τη δυσλεξία & ηρεμιστικά χρώματα"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "Λειτουργία ανάγνωσης"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "Μινιμαλιστική διάταξη βελτιστοποιημένη για εστίαση"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "Πρόσφατες προτροπές"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "Χρήστης επισκέπτης"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "Δωρεάν λογαριασμός"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "Σύνδεση / Διαχείριση"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "Αποσύνδεση"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "Ρυθμίσεις διεπαφή διεπαφή API"
   },
   "t_766cc4dd": {
-    "message": "Gemini"
+    "message": "Τζέμινι"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "Πάροχος ΤΝ"
   },
   "t_222cf5ed": {
-    "message": "Google Gemini"
+    "message": "Γκούγκλ Τζέμινι"
   },
   "t_a0607683": {
-    "message": "OpenRouter"
+    "message": "Όπεν Ρούτερ"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "Κλειδί διεπαφή διεπαφή API Τζέμινι (Gemini)"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "Γκούγκλ Έι-Άι Στούντιο"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "Κλειδί διεπαφή διεπαφή API OpenRouter"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "Αποθήκευση κλειδιού διεπαφή διεπαφή API"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "ΊζιΒιου\r\n                                    Προτεραιότητα Τεχνητή Νοημοσύνη (Τεχνητή Νοημοσύνη (AI))"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ Το κλειδί διεπαφή διεπαφή API μου"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 Διακομιστές ΊζιΒιου"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "Επιλέξτε\r\n                                τι χρησιμοποιείται πρώτο για όλες τις δυνατότητες Τεχνητή Νοημοσύνη (Τεχνητή Νοημοσύνη (AI)). Εάν το κλειδί σας εξαντληθεί, οι διακομιστές του ΊζιΒιου\r\n                                χρησιμοποιούνται πάντα ως εφεδρεία."
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "Ιδιωτικότητα\r\n& Προτεραιότητα"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "Προτεραιότητα ένα:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "Προτεραιότητα δύο:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "Σημείωση Μηχανής\r\n                                            Μεταμόρφωσης:"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "ποτέ"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "Βοήθεια & Σχόλια"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "Έχετε κάποια ερώτηση, βρήκατε κάποιο σφάλμα ή θέλετε να προτείνετε μια δυνατότητα; Θα θέλαμε πολύ να σας ακούσουμε!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "Αναφορά σφάλματος / Υποβολή σχολίων"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Έτοιμο για απλοποίηση"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "Εξαγωγή ρυθμίσεων"
   },
   "t_9d5ed678": {
-    "message": "B"
+    "message": "Β"
   },
   "t_dd753679": {
-    "message": "I"
+    "message": "Ι"
   },
   "t_20a1d47c": {
     "message": "✎"
   },
   "t_4c614360": {
-    "message": "U"
+    "message": "Υ"
   },
   "t_2f43b42f": {
     "message": "..."
@@ -615,25 +1172,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "Ισχύς"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "Αδιαφάνεια"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "Βάρος"
   },
   "t_18d80423": {
     "message": "400"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "Ύψος\r\nΓραμμής"
   },
   "t_f522dede": {
     "message": "1.7x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "Παράλειψη"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,61 +1199,61 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "Επισήμανση"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "ΜΕΛΑΝΙ"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "ΞΕΘΩΡΙΑΣΜΑ"
   },
   "t_e8bfe352": {
-    "message": "Lexend 👑"
+    "message": "Λέξεντ 👑"
   },
   "t_0cd4623c": {
-    "message": "Atkinson Hyperlegible 👑"
+    "message": "Άτκινσον Χάπερλετζιμπλ 👑"
   },
   "t_6fbda3a3": {
-    "message": "Arial"
+    "message": "Αριάλ"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "Ελβέτικα"
   },
   "t_207c3219": {
-    "message": "Verdana"
+    "message": "Βερντάνα"
   },
   "t_2bd141ae": {
-    "message": "Tahoma"
+    "message": "Ταχόμα"
   },
   "t_720661ec": {
-    "message": "Trebuchet MS"
+    "message": "Τρεμπιουσέ Εμ Ες"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "Σύστημα Σανς"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "Τάιμς Νιου Ρόμαν"
   },
   "t_eada8196": {
-    "message": "Georgia"
+    "message": "Τζόρτζια"
   },
   "t_96a78725": {
-    "message": "Garamond"
+    "message": "Γκαραμόν"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "Σύστημα Σερίφ"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "Κόμικ Σανς Εμ Ες"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "Κούριερ Νιού"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "Μονόχωρη"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "Μέγεθος\r\nΓραμματοσειράς"
   },
   "t_f4f9f2f4": {
     "message": "14px"
@@ -723,7 +1280,7 @@
     "message": "32px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "Τέλος"
   },
   "t_63922286": {
     "message": "×"
@@ -732,154 +1289,34 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "Εξαγωγή βιβλιοθήκης θεμάτων"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "Αποθηκεύστε τα αριστουργήματα που δημιουργήθηκαν από Τεχνητή Νοημοσύνη (Τεχνητή Νοημοσύνη (AI))\r\n                τοπικά."
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "Εξαγωγή ολόκληρης της βιβλιοθήκης"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
-  },
-  "t_ccca2ddf": {
-    "message": "EasyView Reader"
-  },
-  "t_8524de96": {
-    "message": "Loading..."
-  },
-  "t_25e8f2fd": {
-    "message": "Please wait..."
-  },
-  "t_ec9d785d": {
-    "message": "1.5x"
-  },
-  "t_dafd5f8f": {
-    "message": "Lexend"
-  },
-  "t_16d90a0b": {
-    "message": "Atkinson Hyperlegible"
-  },
-  "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
-  },
-  "t_f7cee5ea": {
-    "message": "Calibri"
-  },
-  "t_ccc0239e": {
-    "message": "Candara"
-  },
-  "t_2963521b": {
-    "message": "Corbel"
-  },
-  "t_37f1cc58": {
-    "message": "Cambria"
-  },
-  "t_c3d9d4bf": {
-    "message": "Constantia"
-  },
-  "t_5d1a5b35": {
-    "message": "Palatino Linotype"
-  },
-  "t_4dc386b6": {
-    "message": "Book Antiqua"
-  },
-  "t_03c461f6": {
-    "message": "Franklin Gothic"
-  },
-  "t_7b1ee3b6": {
-    "message": "Century Gothic"
-  },
-  "t_a3293302": {
-    "message": "Gill Sans"
-  },
-  "t_eb726908": {
-    "message": "Sitka Text"
-  },
-  "t_b5bdee2c": {
-    "message": "Sylfaen"
-  },
-  "t_1ec05249": {
-    "message": "Microsoft Sans Serif"
-  },
-  "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
-  },
-  "t_16507cdd": {
-    "message": "Consolas"
-  },
-  "t_391c5954": {
-    "message": "Lucida Console"
-  },
-  "t_9879efdf": {
-    "message": "Lucida Sans Typewriter"
-  },
-  "t_21f59b54": {
-    "message": "Impact"
-  },
-  "t_94a7bb97": {
-    "message": "Arial Black"
-  },
-  "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
-  },
-  "t_40885309": {
-    "message": "Berlin Sans FB"
-  },
-  "t_6d5566ba": {
-    "message": "Gabriola"
-  },
-  "t_edb42482": {
-    "message": "Ink Free"
-  },
-  "t_fa233799": {
-    "message": "Segoe Script"
-  },
-  "t_2f7bc407": {
-    "message": "Segoe Print"
-  },
-  "t_0095a9fa": {
-    "message": "Export"
-  },
-  "t_520d0db3": {
-    "message": "Format"
-  },
-  "t_5956a437": {
-    "message": "TXT"
-  },
-  "t_1351017a": {
-    "message": "Filename"
-  },
-  "t_6af8212e": {
-    "message": "EasyView Notes Board"
-  },
-  "t_d16da0f5": {
-    "message": "🌎"
-  },
-  "t_6df173ff": {
-    "message": "📍"
+    "message": ".τζέισον (αρχείο αρχείο JSON)"
   },
   "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
-  },
-  "js_24833610": {
-    "message": "Saved"
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Απαιτείται Ενέργεια</div>\n            <h2 class=\"ev-si-title\">Λογαριασμός<br><span class=\"ev-si-gradient-text\">Σε Αναστολή</span></h2>\n            <p class=\"ev-si-sub\">Η πρόσβασή σας στο ΊζιΒιου έχει περιοριστεί λόγω παραβίασης των όρων παροχής υπηρεσιών μας.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Επικοινωνία με την Υποστήριξη\n            </a>\n          </div>\n        </div>\n      "
   },
   "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Παρακαλούμε περιγράψτε πρώτα τη μεταμόρφωσή σας.</span>\n          </div>"
   },
   "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Μεταμόρφωση...</span>\n      "
   },
   "js_138703dd": {
-    "message": "No Theme on Page"
+    "message": "Κανένα θέμα στη σελίδα"
   },
   "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>Εξαγωγή Τρέχουσας Σελίδας"
   },
   "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Μεταγλώττιση..."
   },
   "js_e541190e": {
     "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
@@ -891,30 +1328,1322 @@
     "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
   },
   "js_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Έτοιμο για απλοποίηση"
   },
   "js_a18366b2": {
-    "message": "Dark"
+    "message": "Σκούρα"
   },
   "js_9914a0ce": {
-    "message": "Light"
+    "message": "Φωτεινή"
   },
   "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+    "message": "<option value=\"auto\">Αυτόματο (Καλύτερη Ποιότητα)</option>"
   },
   "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Αποκωδικοποίηση..."
   },
   "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+    "message": "Αυτό φαίνεται <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">πολύ πιο εύκολο</span> στην κατανόηση."
   },
   "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+    "message": "Αυτό φαίνεται λιγότερο ασαφές στην κατανόηση."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_f05df71b": {
+    "message": "Αναβάθμιση του"
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_78db2ae3": {
+    "message": "Οι διακομιστές Τεχνητή Νοημοσύνη (Τεχνητή Νοημοσύνη (AI)) μας υποβάλλονται σε αναβαθμίσεις."
+  },
+  "t_bb2129c8": {
+    "message": "Ξεκλειδώστε το πλήρες"
+  },
+  "t_aefee7cd": {
+    "message": "Καθαρότητα για κάθε εγκέφαλο"
+  },
+  "t_c38beca1": {
+    "message": "Το πρόγραμμα περιήγησης περιορίζει τις διεπαφές προγραμματισμού εφαρμογών εντοπισμού φυσικής οθόνης."
+  },
+  "t_f2fe1e79": {
+    "message": "Τιμές\r\n                                    κάτω από 1.0 μπορεί να συμπιέσουν το κείμενο και να καταστρέψουν τις διατάξεις."
+  },
+  "t_ca677d53": {
+    "message": "Οπτικές προσαρμογές"
+  },
+  "t_230b4522": {
+    "message": "Πίνακας σημειώσεων"
+  },
+  "t_596b54bf": {
+    "message": "Πράκτορας ΤΝ μεταμόρφωση (Morph)"
+  },
+  "t_47e79a17": {
+    "message": "Πάρτε το δωρεάν κλειδί σας στο"
+  },
+  "t_42372184": {
+    "message": "Τα θέματα εξάγονται ως"
+  },
+  "t_74fdc8a2": {
+    "message": "Παρακαλώ περιγράψτε πρώτα τη μεταμόρφωσή σας."
+  },
+  "t_245fd3b9": {
+    "message": "Η μεταμορφωμένη διάταξη καθαρίστηκε."
+  },
+  "t_172bd753": {
+    "message": "Το θέμα εξήχθη με επιτυχία!"
+  },
+  "t_4c34daff": {
+    "message": "Η σύνδεση έληξε. Ο διακομιστής δεν είναι προσβάσιμος."
+  },
+  "t_0dd56117": {
+    "message": "Δεν βρέθηκε ενεργό θέμα σε αυτή τη σελίδα."
+  },
+  "t_cb5c0766": {
+    "message": "Η βιβλιοθήκη εξήχθη με επιτυχία!"
+  },
+  "t_8adb392e": {
+    "message": "Η σύνδεση έληξε. Ο διακομιστής δεν είναι προσβάσιμος."
+  },
+  "t_ae94e0e4": {
+    "message": "Η βιβλιοθήκη θεμάτων σας είναι άδεια."
+  },
+  "t_10a0c40b": {
+    "message": "Το προσαρμοσμένο θέμα φορτώθηκε με επιτυχία!"
+  },
+  "t_9b6007a8": {
+    "message": "Αποτυχία ανάγνωσης αρχείου θέματος."
+  },
+  "t_d4fa051d": {
+    "message": "Αποτυχία: $1. Παρακαλώ επαναφορτώστε την καρτέλα.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "Εφαρμόστηκε: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "Αποκαταστάθηκαν $1 θέματα από τη βιβλιοθήκη!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "Προτίμηση γλώσσας"
+  },
+  "t_lang_updated_reload": {
+    "message": "Η γλώσσα ενημερώθηκε. Επαναφόρτωση..."
+  },
+  "t_transformation_failed": {
+    "message": "Η μεταμόρφωση απέτυχε."
+  },
+  "t_c8a59e71": {
+    "message": "Απόρριψη"
+  },
+  "t_7764306b": {
+    "message": "Ενεργή συντήρηση υπηρεσιών Cloud"
+  },
+  "t_248228de": {
+    "message": "Εναλλαγή γραμματοσειράς δυσλεξίας στο αναδυόμενο παράθυρο"
+  },
+  "t_79a59320": {
+    "message": "Έναρξη περιήγησης εφαρμογής"
+  },
+  "t_533bff5b": {
+    "message": "Καρφίτσωμα σημείωσης στη σελίδα (Άλτ+Ν)"
+  },
+  "t_f4f70727": {
+    "message": "Ρυθμίσεις"
+  },
+  "t_4fd11104": {
+    "message": "Κυκλικός προβολέας"
+  },
+  "t_0d063af1": {
+    "message": "Οριζόντιος χάρακας γραμμής 🔒"
+  },
+  "t_60d71580": {
+    "message": "Καθαρό φως"
+  },
+  "t_efe48742": {
+    "message": "Εστίαση κεχριμπαριού"
+  },
+  "t_610a09ca": {
+    "message": "Δροσερό κυανό"
+  },
+  "t_886f6b9e": {
+    "message": "Ήρεμο πράσινο"
+  },
+  "t_65e8194e": {
+    "message": "Κατάμαυρο"
+  },
+  "t_7243ed99": {
+    "message": "Μεσάνυχτα σχιστόλιθου"
+  },
+  "t_ec6d8325": {
+    "message": "Βαθύ δάσος"
+  },
+  "t_4af435e0": {
+    "message": "Κρασί βρικόλακα"
+  },
+  "t_2a7dbdf8": {
+    "message": "Επαγγελματική λειτουργία"
+  },
+  "t_fc4aec61": {
+    "message": "Άνοιγμα στον αναγνώστη"
+  },
+  "t_801ab246": {
+    "message": "Λήψη"
+  },
+  "t_aa3880dc": {
+    "message": "Λήψη ως σελίδα HTML"
+  },
+  "t_e0781e81": {
+    "message": "Λήψη ως βιβλίο EPUB"
+  },
+  "t_442ff212": {
+    "message": "Λήψη ως έγγραφο DOCX"
+  },
+  "t_6244ee7c": {
+    "message": "Προσθήκη προσαρμοσμένου όρου χειροκίνητα"
+  },
+  "t_6e7d015f": {
+    "message": "Εισαγωγή αρχείου αρχείο CSV"
+  },
+  "t_edbc5415": {
+    "message": "Εξαγωγή για Άνκι (Άνκι (Anki)) / Κουίζλετ (Κουίζλετ (Quizlet))"
+  },
+  "t_46c29f7a": {
+    "message": "Φόρτωση θέματος"
+  },
+  "t_2bd65c5d": {
+    "message": "Εξαγωγή θέματος"
+  },
+  "t_c1c433ac": {
+    "message": "Ενεργός πάροχος ΤΝ"
+  },
+  "t_90c09393": {
+    "message": "Διακεκομμένη"
+  },
+  "t_eb656e41": {
+    "message": "Με παύλες"
+  },
+  "t_0c99ddee": {
+    "message": "Χρώμα επισήμανσης"
+  },
+  "t_eaf63759": {
+    "message": "Χρώμα μελανιού"
+  },
+  "t_a183c9f0": {
+    "message": "Χρώμα ξεθωριάσματος"
+  },
+  "t_75e7422f": {
+    "message": "Χρώμα φόντου"
+  },
+  "t_42f9ceea": {
+    "message": "Αναζήτηση αποθηκευμένων όρων..."
+  },
+  "t_0e84a8cf": {
+    "message": "Εισαγάγετε λέξη ή ακρωνύμιο..."
+  },
+  "t_eea6890c": {
+    "message": "Σημασία / Μετάφραση..."
+  },
+  "t_4480cf46": {
+    "message": "Κόλπο μνήμης ή σημείωση μελέτης (προαιρετικά)..."
+  },
+  "t_d8634fbf": {
+    "message": "π.χ., Μετατροπή σε ροζ θέμα στυλ άνιμε με στρογγυλεμένες κάρτες, ή μεταμόρφωση σε ρετρό σκούρα πράσινη κονσόλα τερματικού..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "Αυτοκόλλητες σημειώσεις"
+  },
+  "t_b097d277": {
+    "message": "Προσθήκη λέξης"
+  },
+  "t_1eeb67ee": {
+    "message": "Εξαγωγή τρέχουσας σελίδας"
+  },
+  "t_b62ded9a": {
+    "message": "Υπηρεσίες cloud εκτός σύνδεσης"
+  },
+  "t_263e00eb": {
+    "message": "Σύνδεση / Δημιουργία λογαριασμού"
+  },
+  "t_7748eb3b": {
+    "message": "ΑΝΑΒΑΘΜΙΣΗ"
+  },
+  "t_81a5d20b": {
+    "message": "Πάγωμα όλων"
+  },
+  "t_e61146d9": {
+    "message": "Ήρεμα ξεθωριάσματα"
+  },
+  "t_57323916": {
+    "message": "Διακοπή αυτόματης αναπαραγωγής"
+  },
+  "t_f50319ea": {
+    "message": "Πλήρης προστασία"
+  },
+  "t_8e13f26d": {
+    "message": "Γρήγορη ερώτηση"
+  },
+  "t_134b26da": {
+    "message": "Απολαμβάνετε το<br><span class=\"ev-si-gradient-text\">ΊζιΒιου;</span>"
+  },
+  "t_b75bdd9e": {
+    "message": "Τα σχόλιά σας μας βοηθούν να βελτιωθούμε.<br>Απολαμβάνετε την εμπειρία;"
+  },
+  "t_396d1ff8": {
+    "message": "Ναι, είμαι!"
+  },
+  "t_7d0cacf3": {
+    "message": "Χρειάζεται δουλειά"
+  },
+  "t_815142c9": {
+    "message": "Υποστηρίξτε μας"
+  },
+  "t_abd9fa39": {
+    "message": "Θα σας πείραζε να<br><span class=\"ev-si-gradient-text\">αφήσετε μια κριτική;</span>"
+  },
+  "t_02991e61": {
+    "message": "Οι αξιολογήσεις από χρήστες σαν εσάς είναι ο καλύτερος τρόπος για να βοηθήσετε το ΊζιΒιου να αναπτυχθεί. Χρειάζεται μόνο ένα λεπτό!"
+  },
+  "t_db49c1f2": {
+    "message": "Βαθμολογήστε τώρα"
+  },
+  "t_7a4f0d12": {
+    "message": "Υπενθύμιση αργότερα"
+  },
+  "t_fee6c0e9": {
+    "message": "Ιδιωτικά σχόλια"
+  },
+  "t_74393dde": {
+    "message": "Τι μπορούμε να <span class=\"ev-si-gradient-text\">κάνουμε καλύτερα;</span>"
+  },
+  "t_7096a3ae": {
+    "message": "Πείτε μας τι πήγε στραβά..."
+  },
+  "t_6f97affc": {
+    "message": "Αποστολή σχολίων"
+  },
+  "t_b20871b3": {
+    "message": "Παρακαλώ εισάγετε τα σχόλιά σας"
+  },
+  "t_7b0fee4d": {
+    "message": "Αποστολή..."
+  },
+  "t_fb631633": {
+    "message": "Σας ευχαριστούμε για τα σχόλιά σας."
+  },
+  "t_08727add": {
+    "message": "Δείτε τον ιστό με τον δικό σας τρόπο."
+  },
+  "t_15bbb9d0": {
+    "message": "Ιστότοπος"
+  },
+  "t_c5f29bb3": {
+    "message": "Ιδιωτικότητα"
+  },
+  "t_ad5b1a22": {
+    "message": "Ιδρυτής"
+  },
+  "t_db496e03": {
+    "message": "Τα προσωπικά κλειδιά δημιουργούν μια άμεση, 100% ιδιωτική σύνδεση με το Τεχνητή Νοημοσύνη (Τεχνητή Νοημοσύνη (AI)). Το κείμενό σας δεν αγγίζει ποτέ τους διακομιστές του ΊζιΒιου."
+  },
+  "t_387c35b3": {
+    "message": "Ο διαχειριζόμενος διακομιστής μας (Premium) λειτουργεί ως αξιόπιστο αντίγραφο ασφαλείας εάν δεν υπάρχει κλειδί ή εάν το κλειδί σας αποτύχει."
+  },
+  "t_98bc5a17": {
+    "message": "Για την προστασία των ιδιοταγών αλγορίθμων, το κλειδί σας δρομολογείται εν συντομία μέσω του ασφαλούς διακομιστή μας για έλεγχο ταυτότητας με την Γκουγκλ (Γκουγκλ). Είναι"
+  },
+  "t_de47f1be": {
+    "message": "αποθηκεύεται ή καταγράφεται."
+  },
+  "t_25e02e7f": {
+    "message": "Ενεργό: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ Premium μέλος"
+  },
+  "t_df56cfae": {
+    "message": "⭐ Μέλος εφ' όρου ζωής"
+  },
+  "t_41cbc704": {
+    "message": " ημέρες απομένουν"
+  },
+  "t_b194bd82": {
+    "message": "Δεν λήγει ποτέ"
+  },
+  "t_9f830444": {
+    "message": "⭐ Επαγγελματικό:"
+  },
+  "t_61b82be6": {
+    "message": " μεταμορφώσεις απομένουν"
+  },
+  "t_c20e7ceb": {
+    "message": " δωρεάν μεταμορφώσεις απομένουν"
+  },
+  "t_d7087930": {
+    "message": " δωρεάν χρήσεις απομένουν"
+  },
+  "t_4bbf11bd": {
+    "message": "Τα πεδία Όρος και Σημασία δεν μπορούν να μείνουν κενά!"
+  },
+  "t_08f09d38": {
+    "message": "Οι λεπτομέρειες της λέξης ενημερώθηκαν με επιτυχία!"
+  },
+  "t_32001b52": {
+    "message": "Παρακαλώ εισάγετε τόσο μια λέξη όσο και τη σημασία της."
+  },
+  "t_b8115861": {
+    "message": "Το Σημειωματάριο Μελέτης σας είναι άδειο. Προσθέστε πρώτα σελιδοδείκτες σε λέξεις από ιστοσελίδες!"
+  },
+  "t_7114113b": {
+    "message": "Παρακαλούμε συνδεθείτε πρώτα στον λογαριασμό σας στο ΊζιΒιου για να επαληθεύσετε τις δυνατότητες Επαγγελματικό (Pro)!"
+  },
+  "t_093f9fa0": {
+    "message": "Το διακριτικό της συνεδρίας σας λείπει. Παρακαλούμε συνδεθείτε ξανά στο easyview.in για να αποκαταστήσετε την πρόσβαση."
+  },
+  "t_0e065596": {
+    "message": "Αυτή είναι μια επαληθευμένη δυνατότητα μόνο για Premium. Αναβαθμίστε σε Επαγγελματικό (Pro) για να την ξεκλειδώσετε!"
+  },
+  "t_c792a645": {
+    "message": "Αποτυχία σύνδεσης στον ασφαλή διακομιστή εξαγωγής. Προσπαθήστε ξανά σύντομα."
+  },
+  "t_8d1a2675": {
+    "message": "Δεν ήταν δυνατή η αναγνώριση έγκυρων στοιχείων λεξιλογίου σε αυτό το αρχείο CSV."
+  },
+  "t_a613ed90": {
+    "message": "Αποτυχία εγγραφής στην αποθήκευση του προγράμματος περιήγησης! Το αρχείο μπορεί να είναι πολύ μεγάλο για την τοπική προσωρινή μνήμη."
+  },
+  "t_8efe87ab": {
+    "message": "Το πρόγραμμα περιήγησης απέτυχε να διαβάσει το τοπικό σας αρχείο."
+  },
+  "t_50bf63aa": {
+    "message": "Είστε βέβαιοι ότι θέλετε να διαγράψετε όλες τις αποθηκευμένες λέξεις από το σημειωματάριό σας;"
+  },
+  "t_ff252710": {
+    "message": "Η εισαγωγή ολοκληρώθηκε: Και οι $1 καταχωρήσεις υπάρχουν ήδη στο Σημειωματάριό σας.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "Αποτυχία ανάλυσης αρχείο CSV: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "Το \"$1\" υπάρχει ήδη στο σημειωματάριό σας. Θέλετε να προσθέσετε έναν ακόμη ορισμό για αυτό;",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "Αποσυνδεθήκατε επιτυχώς"
+  },
+  "t_dbd35100": {
+    "message": "Η μηχανή μεταμόρφωση (Morph) λειτουργεί ήδη..."
+  },
+  "t_2de4e55d": {
+    "message": "Η μεταμορφωμένη διάταξη καθαρίστηκε"
+  },
+  "t_1bb9196d": {
+    "message": "Μεταμορφώθηκε: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "Η μεταμόρφωση απέτυχε: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "Ενεργοποιήθηκε: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 στοιχεία οργανωμένα",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "Αυτό θα διαγράψει μόνιμα αυτή τη σημείωση από όλες τις συγχρονισμένες συσκευές. Να προχωρήσω;"
+  },
+  "t_25abf697": {
+    "message": "Η εξαγωγή βιβλίο EPUB απαιτεί βιβλιοθήκη JSZip."
+  },
+  "t_71609188": {
+    "message": "Η εξαγωγή έγγραφο DOCX απαιτεί βιβλιοθήκη html-docx-js."
+  },
+  "t_e1499766": {
+    "message": "Δεν φορτώθηκε αρχείο."
+  },
+  "t_023b3355": {
+    "message": "Η ασπίδα ιδιωτικότητας ενεργοποιήθηκε"
+  },
+  "t_9483a5da": {
+    "message": "Η Ασπίδα Ιδιωτικότητας απενεργοποιήθηκε"
+  },
+  "t_a04202db": {
+    "message": "Οι επισημάνσεις κρύφτηκαν προσωρινά"
+  },
+  "t_b3d6b264": {
+    "message": "Οι επισημάνσεις αποκαταστάθηκαν"
+  },
+  "t_7485c55e": {
+    "message": "Καλώς ήρθατε στο ΊζιΒιου! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "Η γνωστική σας γέφυρα με υποστήριξη Τεχνητή Νοημοσύνη (Τεχνητή Νοημοσύνη (AI)) για ευκολότερη ανάγνωση στον ιστό. Ας κάνουμε μια γρήγορη περιήγηση στις δυνατότητες."
+  },
+  "t_3a1fe637": {
+    "message": "Αποκωδικοποιητής ορολογίας 📖"
+  },
+  "t_89cec86e": {
+    "message": "Απλοποιεί τη σύνθετη ορολογία σε οποιαδήποτε ιστοσελίδα."
+  },
+  "t_f8aefae7": {
+    "message": "Ασπίδα προστασίας προσωπικών δεδομένων 🔐"
+  },
+  "t_aa860f86": {
+    "message": "Θολώνει ευαίσθητα δεδομένα και περιλαμβάνει έναν Χάρακα Εστίασης για ανάγνωση χωρίς περισπασμούς."
+  },
+  "t_0681a3b6": {
+    "message": "Αισθητηριακή ασπίδα 🛡️"
+  },
+  "t_6118b864": {
+    "message": "Παγώνει τα κινούμενα σχέδια GIF και τα κινούμενα σχέδια που αποσπούν την προσοχή."
+  },
+  "t_12ec6fc6": {
+    "message": "Λειτουργία ανάγνωσης δυσλεξίας 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "Βελτιστοποιημένες γραμματοσειρές και διαστήματα για ευκολότερη ανάγνωση."
+  },
+  "t_18d9ce63": {
+    "message": "Μετατροπή κειμένου σε ομιλία 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "Ακούστε οποιαδήποτε ιστοσελίδα με επισήμανση λέξεων."
+  },
+  "t_0019a700": {
+    "message": "Μηχανή μεταμόρφωση (Morph) ✨"
+  },
+  "t_47c2535a": {
+    "message": "Χρησιμοποιήστε Τεχνητή Νοημοσύνη (Τεχνητή Νοημοσύνη (AI)) για να επανασχεδιάσετε οποιονδήποτε ιστότοπο σε προσαρμοσμένο θέμα ή διάταξη."
+  },
+  "t_2ed2f639": {
+    "message": "Αυτοκόλλητες σημειώσεις 📝"
+  },
+  "t_75025b5f": {
+    "message": "Καρφιτσώστε αιωρούμενες σημειώσεις σε οποιαδήποτε ιστοσελίδα για αποθήκευση σημαντικών πληροφοριών (Άλτ+Ν)."
+  },
+  "t_3ff2d7cc": {
+    "message": "Ρύθμιση διεπαφή διεπαφή API ⚙️"
+  },
+  "t_0754e836": {
+    "message": "Συνδεθείτε για να συγχρονίσετε το όριό σας ή ορίστε το δικό σας δωρεάν κλειδί διεπαφή διεπαφή API Τζέμινι (Gemini) εδώ."
+  },
+  "t_7b6a2059": {
+    "message": "Βήμα $1 από $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "Ξεκινήστε!"
+  },
+  "t_10ac3d04": {
+    "message": "Επόμενο"
+  },
+  "t_5c7a52b8": {
+    "message": "Πατήστε "
+  },
+  "t_a1b2c3d4": {
+    "message": " ανά πάσα στιγμή για να ενεργοποιήσετε χειροκίνητα την ασπίδα Αυτόματης Προστασίας."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ Η Ασπίδα Ιδιωτικότητας ενεργοποιήθηκε"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 Η Ασπίδα Ιδιωτικότητας απενεργοποιήθηκε"
+  },
+  "js_9b3e1a": {
+    "message": "Το ΊζιΒιου αναλύει τη διάταξη και εκτελεί μεταμόρφωση..."
+  },
+  "js_4c8d2f": {
+    "message": "Ορισμός"
+  },
+  "js_7a1e9b": {
+    "message": "Αποκωδικοποίηση"
+  },
+  "js_2d5f8c": {
+    "message": "Απλοποίηση"
+  },
+  "js_6e3a4d": {
+    "message": "Σελιδοδείκτης"
+  },
+  "js_1f9b7c": {
+    "message": "Επισήμανση"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "Ανάλυση δέντρου δομή DOM..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "Ακατάστατη διάταξη..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "Ισοπέδωση δομής..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[ΥΠΕΡΦΟΡΤΩΣΗ_ΘΟΡΥΒΟΥ]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "Αφαίρεση περισπασμών..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "Σύνθετοι κόμβοι"
+  },
+  "js_ldr_m4_cl": {
+    "message": "Εφαρμογή κανόνων δυσλεξίας..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "Απόδοση διεπαφής ΊζιΒιου..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "Σάρωση μπλοκ κειμένου..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "Πάρα πολλές λέξεις..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "Εξαγωγή βασικού νοήματος..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "Γνωστικό φορτίο"
+  },
+  "js_ldr_s3_cl": {
+    "message": "Σύνταξη απλούστερων Αγγλικών..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "Αναλυτική ΤΝ..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "Εφαρμογή αναγνωσιμότητας..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "Βελτιστοποίηση αποτελεσμάτων..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "Μετάφραση ορολογίας..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "Σφάλμα: Σύγχυση"
+  },
+  "js_ldr_j2_cl": {
+    "message": "Εύρεση ορισμών..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[ΥΠΕΡΦΟΡΤΩΣΗ_ΘΟΡΥΒΟΥ]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "Απλοποίηση πλαισίου..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "Άγνωστοι όροι"
+  },
+  "js_ldr_j4_cl": {
+    "message": "Εφαρμογή σαφήνειας..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "Μορφοποίηση αποτελεσμάτων..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "Βαθιά ανάλυση..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "Οριστικοποίηση λογικής Τεχνητή Νοημοσύνη (Τεχνητή Νοημοσύνη (AI))..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "Εκτέλεση ΤΝ..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "Σχεδόν έτοιμο..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "Μεγάλη κίνηση..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "Παίρνει λίγο περισσότερο χρόνο..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "Ακόμα σε εξέλιξη..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "Κρατηθείτε..."
+  },
+  "t_b7012ab9": {
+    "message": "Μεταμόρφωση"
+  },
+  "t_c5e8b1d9": {
+    "message": "Επαγγελματικές γραμματοσειρές"
+  },
+  "t_c8f2ba19": {
+    "message": "Ενεργοποιήθηκε η θόλωση ιδιωτικού περιεχομένου"
+  },
+  "t_e2dae61a": {
+    "message": "Απενεργοποιήθηκε η θόλωση ιδιωτικού περιεχομένου"
+  },
+  "t_c74de318": {
+    "message": "Η αυτόματη προστασία κατά την κοινή χρήση οθόνης ενεργοποιήθηκε"
+  },
+  "t_a5fd56f4": {
+    "message": "Η αυτόματη προστασία κατά την κοινή χρήση οθόνης απενεργοποιήθηκε"
+  },
+  "t_ab8d1f2a": {
+    "message": "Η λειτουργία φακού ενεργοποιήθηκε"
+  },
+  "t_2bf5cc98": {
+    "message": "Η λειτουργία φακού απενεργοποιήθηκε"
+  },
+  "t_513bb93f": {
+    "message": "Βιονική ανάγνωση"
+  },
+  "t_5a8b2c1d": {
+    "message": "Αυτή είναι μια προεπισκόπηση των ρυθμίσεων ανάγνωσής σας."
+  },
+  "t_ac1d4e5f": {
+    "message": "Καμία"
+  },
+  "t_b2e3f4a1": {
+    "message": "Ευρεία"
+  },
+  "t_c3f4a5b2": {
+    "message": "Πολύ ευρεία"
+  },
+  "t_d1a3c901": {
+    "message": "Κλικ"
+  },
+  "t_b4f2e891": {
+    "message": "Καρφίτσωμα στο στοιχείο"
+  },
+  "t_c9a1b302": {
+    "message": "Διάστημα"
+  },
+  "t_f6d4e203": {
+    "message": "Καθολική σημείωση"
+  },
+  "t_e2b3f104": {
+    "message": "Διαφ"
+  },
+  "t_a7c0d905": {
+    "message": "Ακύρωση"
+  },
+  "t_e1b2c301": {
+    "message": "Μόνο αυτή η σελίδα"
+  },
+  "t_f7a3b402": {
+    "message": "Αυτός ο ιστότοπος"
+  },
+  "t_a8c4d503": {
+    "message": "Όλοι οι ιστότοποι (Καθολικά)"
+  },
+  "t_b9d5e604": {
+    "message": "Απόκρυψη μέχρι την επαναφόρτωση"
+  },
+  "t_c0e6f705": {
+    "message": "Καρφίτσωμα σημείωσης στο στοιχείο"
+  },
+  "t_d1f7a806": {
+    "message": "Αλλαγή χρώματος σημείωσης"
+  },
+  "t_e2a8b907": {
+    "message": "Σύμπτυξη/ανάπτυξη σημείωσης"
+  },
+  "t_f3b9c008": {
+    "message": "Αντιγραφή περιεχομένου σημείωσης"
+  },
+  "t_a4c0d109": {
+    "message": "Περισσότερες ενέργειες"
+  },
+  "t_b5d1e200": {
+    "message": "Διαγραφή αυτής της σημείωσης"
+  },
+  "t_e87033a2": {
+    "message": "Συντόμευση πληκτρολογίου Άλτ + Χ"
+  },
+  "t_4120201a": {
+    "message": "Ενεργή δωρεάν δοκιμή"
+  },
+  "t_6ed40ffb": {
+    "message": "Συγχρονισμός ρυθμίσεων σε όλες τις συσκευές"
+  },
+  "t_f8b8a5fd": {
+    "message": "Υψηλότερο όριο δωρεάν χρήσης"
+  },
+  "t_440b106d": {
+    "message": "Πρόσβαση σε μελλοντικές Επαγγελματικές λειτουργίες"
+  },
+  "t_3a99076c": {
+    "message": "Όριο Premium"
+  },
+  "t_545f6c2f": {
+    "message": "Απεριόριστο"
+  },
+  "t_ad23f4a0": {
+    "message": "Χωρικές σημειώσεις"
+  },
+  "t_04f2f045": {
+    "message": "Έχετε αναπτύξει επιτυχώς και τις δεκαπέντε σημειώσεις της Δωρεάν Βαθμίδας σε όλο τον ιστό. Αναβαθμίστε στο ΊζιΒιου Premium για να ξεκλειδώσετε άπειρη χωρική μνήμη και προσαρμοσμένα χρώματα."
+  },
+  "t_cf874b99": {
+    "message": "Ξεκλείδωμα Premium"
+  },
+  "t_a6d36e2f": {
+    "message": "Όλοι οι τοπικοί έλεγχοι προσβασιμότητας (Ενεργοί)"
+  },
+  "t_b0b69bc3": {
+    "message": "Μηχανή μετατροπής κειμένου σε ομιλία (Ενεργή)"
+  },
+  "t_cc96c21a": {
+    "message": "Λειτουργίες Cloud Τεχνητή Νοημοσύνη (Τεχνητή Νοημοσύνη (AI)) (Εκτός σύνδεσης)"
+  },
+  "t_7af6f6e5": {
+    "message": "Καταλαβαίνω"
+  },
+  "t_9bc7102e": {
+    "message": "Δημιουργήστε έναν δωρεάν λογαριασμό ΊζιΒιου για να παρακολουθείτε το όριό σας και να ξεκλειδώσετε τον Αποκωδικοποιητή Ορολογίας."
+  },
+  "t_ab7512fd": {
+    "message": "Το διακριτικό της συνεδρίας σας λείπει. Παρακαλούμε συνδεθείτε ξανά στο easyview.in για να αποκαταστήσετε την πρόσβαση."
+  },
+  "t_1cd7820a": {
+    "message": "ΜΟΝΟ ΠΡΟΣΒΑΣΗ PRO"
+  },
+  "t_8eb14032": {
+    "message": "Αποκωδικοποιητής Ορολογίας<br><span class=\"ev-si-gradient-text\">Το Όριο Εξαντλήθηκε</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "ΕΚΤΟΣ ΟΡΙΟΥ"
+  },
+  "t_5ae983dc": {
+    "message": "Έχετε χρησιμοποιήσει και τις <strong>πέντε δωρεάν αποκωδικοποιήσεις</strong> αυτόν τον μήνα. Ξεκλειδώστε απεριόριστη πρόσβαση σε δευτερόλεπτα."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> Μετάβαση σε Επαγγελματικό (Pro) — Απεριόριστες αποκωδικοποιήσεις</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> Χρησιμοποιήστε το δικό σας κλειδί διεπαφή διεπαφή API</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 Προσθήκη Κλειδιού διεπαφή διεπαφή API στις Ρυθμίσεις</button>"
+  },
+  "t_9be4129a": {
+    "message": "Εξαγωγέας Συνόλου Μελέτης<br><span class=\"ev-si-gradient-text\">Επαγγελματικό (Pro) Αυτοματοποίηση</span>"
+  },
+  "t_fac34185": {
+    "message": "Εξάγετε αμέσως ολόκληρο το προσαρμοσμένο Σημειωματάριο Μελέτης σας απευθείας στο <strong>Άνκι (Άνκι (Anki))</strong> και το <strong>Κουίζλετ (Κουίζλετ (Quizlet))</strong>."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Κατάργηση χειροκίνητης πληκτρολόγησης</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Μεταγλωττιστής καρτών μνήμης RFC-4180</div>"
+  },
+  "t_da12c30b": {
+    "message": "Επαγγελματική πρόσβαση"
+  },
+  "t_4a9b2c01": {
+    "message": "Αυτή η λειτουργία"
+  },
+  "t_3be78c01": {
+    "message": "Αυτή η γραμματοσειρά ανάγνωσης για δυσλεξία"
+  },
+  "t_0ad4b971": {
+    "message": "Αυτή η οπτική γραμματοσειρά"
+  },
+  "t_9af42be8": {
+    "message": "Αυτή η γραμματοσειρά εξαγωγής premium"
+  },
+  "t_cbae8349": {
+    "message": "Αναβαθμίστε για να ξεκλειδώσετε όλες τις δυνατότητες προσβασιμότητας και τα προηγμένα εργαλεία."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Προηγμένη Προσβασιμότητα</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Όλες οι Μελλοντικές Ενημερώσεις</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ Αναβάθμιση σε Επαγγελματικό (Pro)"
+  },
+  "t_5ef4c1a2": {
+    "message": "Ίσως αργότερα"
+  },
+  "t_3b7a5e82": {
+    "message": ", αλλά οι λειτουργίες ΤΝ ενδέχεται να μην είναι προσωρινά διαθέσιμες."
+  },
+  "t_c91d8e12": {
+    "message": "Γενικά"
+  },
+  "t_b42f3a9d": {
+    "message": "Ορισμός"
+  },
+  "t_f1d4a8e6": {
+    "message": "Λεξικό"
+  },
+  "t_e398c71f": {
+    "message": "Προσαρμοσμένο"
+  },
+  "t_a72df9e5": {
+    "message": "Ιατρικά"
+  },
+  "t_d8f2c61a": {
+    "message": "Νομικά"
+  },
+  "t_b3e1f5d2": {
+    "message": "Οικονομικά"
+  },
+  "t_c25d81f9": {
+    "message": "Τεχνολογία"
+  },
+  "t_e1b3a4f6": {
+    "message": "Ακαδημαϊκά"
+  },
+  "t_d5f9b4c1": {
+    "message": "Όρος"
+  },
+  "t_f7a2e8ea": {
+    "message": "Κατηγορία"
+  },
+  "t_e3b1c6d9": {
+    "message": "Απλοποιημένη σημασία"
+  },
+  "t_a9d4e5f2": {
+    "message": "Σημειώσεις μελέτης / Πλαίσιο"
+  },
+  "t_b4c5d6e7": {
+    "message": "Ακύρωση"
+  },
+  "t_c8f2a1b4": {
+    "message": "Αποθήκευση αλλαγών"
+  },
+  "t_8c17b5e6": {
+    "message": "Το διακριτικό της συνεδρίας σας λείπει. Παρακαλούμε συνδεθείτε ξανά στο easyview.in για να αποκαταστήσετε την πρόσβαση."
+  },
+  "t_a43dc219": {
+    "message": "Δημιουργήστε έναν δωρεάν λογαριασμό ΊζιΒιου για να παρακολουθείτε το όριο χρήσης σας και να ξεκλειδώσετε τη Μηχανή Μεταμόρφωσης Τεχνητή Νοημοσύνη (Τεχνητή Νοημοσύνη (AI))."
+  },
+  "t_54c523fe": {
+    "message": "🎉 Τέλεια! Επιτυχής εισαγωγή $1 νέων καρτών μελέτης."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 Τέλεια! Εισήχθησαν $1 νέες κάρτες. ($2 διπλότυπα παραλείφθηκαν.)"
+  },
+  "t_14894d12": {
+    "message": "Εξαγωγή θέματος"
+  },
+  "t_f27a2629": {
+    "message": "Αντίγραφο ασφαλείας βιβλιοθήκης θεμάτων"
+  },
+  "t_9ad85e17": {
+    "message": "Λειτουργία χάρακα ανάγνωσης"
+  },
+  "t_b9d4e7a5": {
+    "message": "Προηγμένες λειτουργίες Αισθητηριακής Ασπίδας"
+  },
+  "t_94f4f7e4": {
+    "message": "Ανάλυση έγγραφο DOCX...",
+    "description": "Κατάσταση κατά την ανάλυση DOCX στον αναγνώστη"
+  },
+  "t_120adfc1": {
+    "message": "Ανάλυση βιβλίο EPUB...",
+    "description": "Κατάσταση κατά την ανάλυση EPUB στον αναγνώστη"
+  },
+  "t_5d2a45b8": {
+    "message": "Η λειτουργία Χάρακα Ανάγνωσης είναι αποκλειστική για συνδρομές Επαγγελματικό (Pro).",
+    "description": "Ειδοποίηση όταν μη-pro χρήστης αποκτά πρόσβαση στον χάρακα ανάγνωσης"
+  },
+  "t_c1f29623": {
+    "message": "Επεξεργασία ολόκληρης της κάρτας",
+    "description": "Επεξήγηση για επεξεργασία ολόκληρης της κάρτας στο σημειωματάριο"
+  },
+  "t_1063e38c": {
+    "message": "Αφαίρεση",
+    "description": "Επεξήγηση για αφαίρεση κάρτας από το σημειωματάριο"
+  },
+  "t_ccca2ddf": {
+    "message": "Αναγνώστης ΊζιΒιου"
+  },
+  "t_8524de96": {
+    "message": "Φόρτωση..."
+  },
+  "t_25e8f2fd": {
+    "message": "Παρακαλώ περιμένετε..."
+  },
+  "t_ec9d785d": {
+    "message": "1.5x"
+  },
+  "t_dafd5f8f": {
+    "message": "Λέξεντ"
+  },
+  "t_16d90a0b": {
+    "message": "Άτκινσον Χάπερλετζιμπλ"
+  },
+  "t_5c7db066": {
+    "message": "Segoe διεπαφή χρήστη (Προεπιλογή Γουίντοους (Γουίντοους))"
+  },
+  "t_f7cee5ea": {
+    "message": "Καλίμπρι"
+  },
+  "t_ccc0239e": {
+    "message": "Καντάρα"
+  },
+  "t_2963521b": {
+    "message": "Κόρμπελ"
+  },
+  "t_37f1cc58": {
+    "message": "Κάμπρια"
+  },
+  "t_c3d9d4bf": {
+    "message": "Κονστάντια"
+  },
+  "t_5d1a5b35": {
+    "message": "Παλατίνο Λινόταϊπ"
+  },
+  "t_4dc386b6": {
+    "message": "Μπουκ Αντίκουα"
+  },
+  "t_03c461f6": {
+    "message": "Φράνκλιν Γκόθικ"
+  },
+  "t_7b1ee3b6": {
+    "message": "Σέντσουρι Γκόθικ"
+  },
+  "t_a3293302": {
+    "message": "Γκιλ Σανς"
+  },
+  "t_eb726908": {
+    "message": "Σίτκα Τεκστ"
+  },
+  "t_b5bdee2c": {
+    "message": "Σίλφαεν"
+  },
+  "t_1ec05249": {
+    "message": "Μάικροσοφτ Σανς Σερίφ"
+  },
+  "t_ad4a300c": {
+    "message": "Σεγκόι Γιού-Άι Σέμιμπολντ"
+  },
+  "t_16507cdd": {
+    "message": "Κονσόλας"
+  },
+  "t_391c5954": {
+    "message": "Λουσίντα Κόνσολ"
+  },
+  "t_9879efdf": {
+    "message": "Λουσίντα Σανς Τάιπραϊτερ"
+  },
+  "t_21f59b54": {
+    "message": "Ίμπακτ"
+  },
+  "t_94a7bb97": {
+    "message": "Αριάλ Μπλακ"
+  },
+  "t_6e87c2cb": {
+    "message": "Κόπερπλεϊτ Γκόθικ"
+  },
+  "t_40885309": {
+    "message": "Μπερλίν Σανς Εφ-Μπι"
+  },
+  "t_6d5566ba": {
+    "message": "Γκαμπριόλα"
+  },
+  "t_edb42482": {
+    "message": "Ινκ Φρι"
+  },
+  "t_fa233799": {
+    "message": "Σεγκόε Σκριπτ"
+  },
+  "t_2f7bc407": {
+    "message": "Σεγκόε Πριντ"
+  },
+  "t_0095a9fa": {
+    "message": "Εξαγωγή"
+  },
+  "t_520d0db3": {
+    "message": "Μορφή"
+  },
+  "t_5956a437": {
+    "message": "ΚΕΙΜ"
+  },
+  "t_1351017a": {
+    "message": "Όνομα αρχείου"
+  },
+  "t_d4c3c15b": {
+    "message": "Δεν φορτώθηκε αρχείο"
+  },
+  "t_0ca5a078": {
+    "message": "Παρακαλώ χρησιμοποιήστε την καρτέλα Μετατροπέας για να ανεβάσετε ένα αρχείο."
+  },
+  "t_c9857e16": {
+    "message": "Μη υποστηριζόμενος τύπος αρχείου."
+  },
+  "t_6b447b91": {
+    "message": "Σφάλμα ανάλυσης αρχείου: "
+  },
+  "t_7f4588be": {
+    "message": "βιβλίο EPUB"
+  },
+  "t_12dc65c2": {
+    "message": "Εναλλαγή φωτεινής/σκοτεινής λειτουργίας"
+  },
+  "t_d3d2e617": {
+    "message": "Κλείσιμο"
+  },
+  "t_6e8cfcb7": {
+    "message": "Ασφαλής εξαγωγή στον διακομιστή (Premium)"
+  },
+  "t_2f9df658": {
+    "message": "Αποκόλληση και εμφάνιση του Χώρου Εργασίας πάνω από όλα τα παράθυρα"
+  },
+  "t_72d6d7a1": {
+    "message": "Εισαγωγή"
+  },
+  "t_de93d5fd": {
+    "message": "Εξαγωγή σημειώσεων"
+  },
+  "t_a1aacca9": {
+    "message": "Αποκόλληση OS"
+  },
+  "t_ac0b844f": {
+    "message": "Καθολικές σημειώσεις"
+  },
+  "t_15866f1d": {
+    "message": "Σημειώσεις ανά ιστότοπο"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
+  },
+  "t_6af8212e": {
+    "message": "Πίνακας σημειώσεων ΊζιΒιου"
+  },
+  "t_d16da0f5": {
+    "message": "🌎"
+  },
+  "t_6df173ff": {
+    "message": "📍"
+  },
+  "t_22f58a00": {
+    "message": "🌎 Καθολική σημείωση"
+  },
+  "t_5be8bbeb": {
+    "message": "🌐 Σημείωση ιστότοπου"
+  },
+  "t_59a56663": {
+    "message": "📍 Σημείωση σελίδας"
+  },
+  "t_c1843696": {
+    "message": "Επαλήθευση διακριτικού ακεραιότητας..."
+  },
+  "t_58038ee4": {
+    "message": "Μόλις τώρα"
+  },
+  "t_e254e1a1": {
+    "message": "Πριν από $1 λεπτό",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_121d4d02": {
+    "message": "Πριν από $1 ώρα",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_19d2b280": {
+    "message": "Πριν από $1 ημέρα",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_d3d4311c": {
+    "message": "Μετακίνηση σημείωσης"
+  },
+  "t_7b32ea16": {
+    "message": "Εναλλαγή σε $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_11916b28": {
+    "message": "Πεδίο τοποθέτησης"
+  },
+  "t_5463fe67": {
+    "message": "Παλέτα χρωμάτων"
+  },
+  "t_d116d454": {
+    "message": "Σύμπτυξη σημείωσης"
+  },
+  "t_be9ba0e5": {
+    "message": "Αντιγραφή κειμένου"
+  },
+  "t_28471624": {
+    "message": "Περισσότερες ενέργειες"
+  },
+  "t_90e467df": {
+    "message": "Κλείσιμο σημείωσης"
+  },
+  "t_34494920": {
+    "message": "Πληκτρολογήστε τη σημείωσή σας εδώ..."
+  },
+  "t_bdda0b60": {
+    "message": "Τι σκεφτόσουν..."
+  },
+  "t_8689de27": {
+    "message": "Διαθέσιμο παντού"
+  },
+  "t_c0cf9810": {
+    "message": "Τηλεμεταφορά πίσω στην αρχική σελίδα"
+  },
+  "t_24a23176": {
+    "message": "Αρχικό πλαίσιο"
+  },
+  "t_4c1c1e76": {
+    "message": "Εισαγωγή σημειωματάριου"
+  },
+  "t_2736f644": {
+    "message": "Συγχωνεύστε απρόσκοπτα τις εξωτερικές τράπουλες μελέτης και λίστες λεξιλογίου στο οικοσύστημα ΊζιΒιου."
+  },
+  "t_ca4f038f": {
+    "message": "Υποχρεωτικές στήλες"
+  },
+  "t_7277de5f": {
+    "message": "Σημασία"
+  },
+  "t_ce591bfa": {
+    "message": "Προαιρετικές στήλες"
+  },
+  "t_f4c6f851": {
+    "message": "Σημειώσεις"
+  },
+  "t_c1fd81a6": {
+    "message": "Επιλέξτε ή σύρετε ένα αρχείο πίνακα δεδομένων"
+  },
+  "t_5c426600": {
+    "message": "Τα διπλότυπα και οι υπάρχουσες λέξεις φιλτράρονται αυτόματα"
+  },
+  "t_76e7183d": {
+    "message": "Επιτυχής εισαγωγή!"
+  },
+  "t_3e17e02d": {
+    "message": "Το λεξιλόγιό σας ενημερώθηκε."
+  },
+  "t_3148d309": {
+    "message": "Κλείσιμο καρτέλας"
+  },
+  "t_0e412fa1": {
+    "message": "Ο εορτασμός θα ενεργοποιηθεί όταν επιστρέψετε στο αναδυόμενο παράθυρο"
+  },
+  "t_d29f6e6b": {
+    "message": "Αποτυχία εισαγωγής"
+  },
+  "t_e04efbcb": {
+    "message": "Κατάσταση σημειωματάριου"
+  },
+  "t_ed732761": {
+    "message": "Εισαγωγή θεμάτων Μορφ"
+  },
+  "t_e44db711": {
+    "message": "Εισαγάγετε με ασφάλεια τη βιβλιοθήκη μηχανής Μορφ απευθείας στο ΊζιΒιου."
+  },
+  "t_c0bb7d43": {
+    "message": "Επιλέξτε ή σύρετε ένα αρχείο δομημένων δεδομένων"
+  },
+  "t_36e9583e": {
+    "message": "Εισάγει τις διατάξεις θεμάτων που είχατε εξάγει προηγουμένως."
+  },
+  "t_21630184": {
+    "message": "Τα θέματα αποκαταστάθηκαν!"
+  },
+  "t_d0c1ec75": {
+    "message": "Τα πρότυπα Μορφ εγκαταστάθηκαν με επιτυχία."
+  },
+  "t_cd27a5c0": {
+    "message": "ΊζιΒιου — Αναγνώστης περιεχομένου"
+  },
+  "t_b171ab1f": {
+    "message": "Καλώς ήρθατε στο πρόγραμμα ανάγνωσης"
+  },
+  "t_4e07c284": {
+    "message": "Ανεβάστε τα έγγραφά σας εδώ για να τα διαβάσετε με προσαρμοσμένη τυπογραφία και προηγμένα βοηθήματα προσβασιμότητας."
+  },
+  "t_004621c0": {
+    "message": "Υποστηρίζει έγγραφα κειμένου, ψηφιακά βιβλία και αρχεία απλού κειμένου"
+  },
+  "t_23bb27a0": {
+    "message": "Αρχικοποίηση αναλυτή εγγράφων..."
+  },
+  "t_e1d5f16c": {
+    "message": "Βελτιστοποίηση εγγράφων κειμένου για ευκολότερη ανάγνωση..."
+  },
+  "t_0e55c5d0": {
+    "message": "Ανάλυση δομής ψηφιακών ηλεκτρονικών βιβλίων..."
   }
 }

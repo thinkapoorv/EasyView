@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "EasyView — przejrzystość dla każdego umysłu"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "Łatwy Widok"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "Przekształć dowolną stronę internetową natychmiast za pomocą poleceń AI lub pojedynczych kliknięć. Przeglądaj sieć po swojemu."
+  },
+  "t_68ba0232": {
+    "message": "Tryb dla dyslektyków włączony"
+  },
+  "t_85f47a25": {
+    "message": "Tryb dla dyslektyków wyłączony"
+  },
+  "t_1cc1b64d": {
+    "message": "Zbyt mało treści do analizy"
+  },
+  "t_cebe6412": {
+    "message": "Nie znaleziono złożonych terminów"
+  },
+  "t_b964aa0f": {
+    "message": "Błąd podczas analizy zawartości strony"
+  },
+  "t_956c104e": {
+    "message": "Pamięć strony wyczyszczona"
+  },
+  "t_1f4b0f3e": {
+    "message": "Słowniczek wyczyszczony"
+  },
+  "t_4bfeec37": {
+    "message": "Nie znaleziono złożonych terminów w zaznaczeniu"
+  },
+  "t_1b5e8531": {
+    "message": "Nie znaleziono złożonych terminów w zaznaczeniu"
+  },
+  "t_a1f781ec": {
+    "message": "Błąd podczas dekodowania zaznaczenia"
+  },
+  "t_7aae8122": {
+    "message": "Wyróżnienia zaznaczenia wyczyszczone"
+  },
+  "t_58762fd6": {
+    "message": "Wybierz pojedyncze słowo lub krótką frazę do zdefiniowania."
+  },
+  "t_6838b119": {
+    "message": "Błąd sieci podczas wyszukiwania definicji."
+  },
+  "t_ea3ca1b5": {
+    "message": "Zdekodowano $1 terminów (z pamięci podręcznej)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "Zdekodowano $1 terminów (z pamięci podręcznej)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "Wykorzystałeś wszystkie darmowe użycia Dekodera żargonu w tym miesiącu. Uaktualnij do Pro, aby uzyskać nieograniczony dostęp."
+  },
+  "t_cb3c5d3a": {
+    "message": "Zdekodowano $1 terminów w $2 kategoriach",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "Automatycznie wyróżniono $1 wystąpień Twojego zdekodowanego terminu słownikowego",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "Przywrócono $1 zapisanych definicji żargonu$2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "Wykorzystałeś wszystkie darmowe użycia Dekodera żargonu w tym miesiącu. Uaktualnij do Pro, aby uzyskać nieograniczony dostęp."
+  },
+  "t_0b841c82": {
+    "message": "Już w notatniku!"
+  },
+  "t_8901f3ab": {
+    "message": "Zapisano w notatniku!"
+  },
+  "t_eb8f5242": {
+    "message": "Błąd podczas zapisywania do notatnika"
+  },
+  "t_bd15702b": {
+    "message": "Osłona sensoryczna włączona"
+  },
+  "t_c28f3265": {
+    "message": "Osłona sensoryczna wyłączona"
+  },
+  "t_3f8910d9": {
+    "message": "ŁATWY WIDOK"
+  },
+  "t_8aafa613": {
+    "message": "Nie udało się uprościć tego tekstu"
+  },
+  "t_79d2dc85": {
+    "message": "Nie udało się uprościć tego tekstu"
+  },
+  "t_99684ba5": {
+    "message": "Błąd podczas upraszczania tekstu"
+  },
+  "t_f4362bde": {
+    "message": "Skopiowano do schowka!"
+  },
+  "t_af07ef4b": {
+    "message": "Kopiowanie nieudane"
+  },
+  "t_94e4d537": {
+    "message": "Tekst zastąpiony na stronie"
+  },
+  "t_14a04b67": {
+    "message": "Pamięć uproszczeń usunięta"
+  },
+  "t_c444ff21": {
+    "message": "Oryginalny tekst tymczasowo przywrócony"
+  },
+  "t_55f1db14": {
+    "message": "Wykorzystałeś wszystkie darmowe użycia w tym miesiącu. Uaktualnij do Pro, aby uzyskać nieograniczony dostęp."
+  },
+  "t_fde4e3f0": {
+    "message": "Przywrócono $1 zapisanych uproszczeń na tej stronie",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "Automatycznie przywrócono dynamicznie załadowane uproszczenie!"
+  },
+  "t_dfa22e52": {
+    "message": "Synteza mowy włączona"
+  },
+  "t_ca153ad0": {
+    "message": "Synteza mowy wyłączona"
+  },
+  "t_dadbff09": {
+    "message": "Najpierw włącz zamianę tekstu na mowę"
+  },
+  "t_47071c61": {
+    "message": "Wznawianie..."
+  },
+  "t_5516c48d": {
+    "message": "Nie znaleziono czytelnej zawartości na tej stronie"
+  },
+  "t_c57f25c9": {
+    "message": "Nie znaleziono czytelnej zawartości"
+  },
+  "t_2516997e": {
+    "message": "Czytanie zakończone"
+  },
+  "t_d3069aea": {
+    "message": "Zamiana tekstu na mowę nie jest obsługiwana w tej przeglądarce"
+  },
+  "t_53e6b8c6": {
+    "message": "Najpierw zaznacz tekst"
+  },
+  "t_e932d0f7": {
+    "message": "Odczytywanie zaznaczenia..."
+  },
+  "t_1c50528d": {
+    "message": "Czytanie zakończone"
+  },
+  "t_594778a2": {
+    "message": "Wstrzymano"
+  },
+  "t_4ded5f77": {
+    "message": "Mowa zatrzymana"
+  },
+  "t_0a74758c": {
+    "message": "✨ Obsługiwane przez klucz osobisty"
+  },
+  "t_2fceddad": {
+    "message": "✨ Bez limitu"
+  },
+  "t_97627d80": {
+    "message": "✨ Obsługiwane przez klucz osobisty"
+  },
+  "t_fd7d5888": {
+    "message": "Zarządzaj subskrypcją"
+  },
+  "t_df4657a5": {
+    "message": "Użytkownik darmowy"
+  },
+  "t_22dfb2ec": {
+    "message": "Użytkownik gość"
+  },
+  "t_bd9f2460": {
+    "message": "Darmowe konto"
+  },
+  "t_f5adda31": {
+    "message": "Zaloguj / Zarejestruj się"
+  },
+  "t_d2439201": {
+    "message": "✨ Bez limitu"
+  },
+  "t_164442b7": {
+    "message": "Rozgrzewanie silnika konwertera..."
+  },
+  "t_1e7c3002": {
+    "message": "Gotowe do parsowania plików."
+  },
+  "t_d30f78df": {
+    "message": "Tryb ciemny"
+  },
+  "t_6c68d8ce": {
+    "message": "Tryb jasny"
+  },
+  "t_fcb68c2b": {
+    "message": "Nie znaleziono karteczek. Brak danych do eksportu!"
+  },
+  "t_2b75b2d9": {
+    "message": "Twój token sesji wygasł. Zaloguj się ponownie na easyview.in, aby przywrócić dostęp."
+  },
+  "t_291a4e34": {
+    "message": "Routing bezpiecznego serwera nie powiódł się. Sprawdź połączenie."
+  },
+  "t_2dcf62b3": {
+    "message": "Nie wykryto brakujących notatek. Obszar roboczy jest aktualny."
+  },
+  "t_951bf3ae": {
+    "message": "Błąd odszyfrowywania: Plik nie jest zgodny z granicami EasyView."
+  },
+  "t_817a4ba0": {
+    "message": "interfejs API obraz w obrazie (PiP) nie jest obsługiwane. Proszę zaktualizować Chrome."
+  },
+  "t_e8aa6e9a": {
+    "message": "Nie udało się zainicjować silnika obraz w obrazie (PiP): "
+  },
+  "t_9feed9d5": {
+    "message": "Pomyślnie odszyfrowano i wstrzyknięto $1 nowych notatek.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "WERSJA BETA"
+  },
+  "t_c289adbe": {
+    "message": "Wesprzyj nas"
+  },
+  "t_60d5b12a": {
+    "message": "Oceń nas"
+  },
+  "js_eb82de4c": {
+    "message": "Niestandardowy kolor"
+  },
+  "js_8caef32b": {
+    "message": "Resetuj/Wyczyść (Zaznacz tekst i kliknij lub kliknij dwukrotnie, aby usunąć wyróżnienie ręcznie)"
+  },
+  "t_823aeb91": {
+    "message": "Obszar roboczy EasyView"
+  },
+  "t_fc42ed23": {
+    "message": "Brak globalnych notatek w Twoim obszarze roboczym."
+  },
+  "t_12d7c58a": {
+    "message": "Naciśnij spację, gdy kursor karteczek samoprzylepnych jest aktywny, aby wygenerować nową."
+  },
+  "t_ab983c11": {
+    "message": "Nie znaleziono notatek dla tej witryny."
+  },
+  "t_e22709e9": {
+    "message": "Kliknij fizyczny element na dowolnej stronie internetowej, aby zakotwiczyć docelową notatkę."
+  },
+  "t_34bdba45": {
+    "message": "Krok"
+  },
+  "t_9b2d88a1": {
+    "message": "z"
+  },
+  "t_8f44d852": {
+    "message": "Rozpocznij!"
+  },
+  "t_b45c2f91": {
+    "message": "Odblokuj eksporty obszaru roboczego"
+  },
+  "t_88f91dc1": {
+    "message": "Bezpieczne renderowanie i eksportowanie wszystkich notatek Globalnego Obszaru Roboczego wymaga zweryfikowanej licencji Pro. Uaktualnij, aby odblokować tę funkcję na stałe."
+  },
+  "t_134dff88": {
+    "message": "Może później"
+  },
+  "t_5b8c9d11": {
+    "message": "Przejdź na wersję Pro"
+  },
+  "t_792bd8c9": {
+    "message": "Obszar roboczy odłączony!"
+  },
+  "t_e39f7dc2": {
+    "message": "Twoje karteczki samoprzylepne unoszą się teraz nad pulpitem systemu."
+  },
+  "t_c83d6ec9": {
+    "message": "Przywróć dokowanie obszaru roboczego"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtrowanie szumu...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Uruchom w tle\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimalizuj</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Zatrzymaj silnik</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "Generowanie zatrzymane"
+  },
+  "t_removed_from_notebook": {
+    "message": "Usunięto z notatnika"
+  },
+  "t_d1c58470": {
+    "message": "Kliknij dwukrotnie, aby usunąć wyróżnienie"
+  },
+  "t_d4fdfb03": {
+    "message": "Zaloguj się do EasyView, aby otrzymać $1 darmowych użyć/miesiąc lub dodaj własny klucz interfejs API w Ustawieniach.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "Ładowanie zapisanych wyników..."
+  },
+  "t_3a99733d": {
+    "message": "Inicjowanie dekodera żargonu..."
+  },
+  "t_b6dc9fc9": {
+    "message": "Utwórz darmowe konto EasyView, aby otrzymać $1 darmowych dekodowań AI miesięcznie i śledzić swój limit.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "Utwórz darmowe konto EasyView, aby otrzymać $1 darmowych definicji AI miesięcznie i śledzić swój limit.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "Wyodrębnianie głównej zawartości..."
+  },
+  "t_0eeae2bf": {
+    "message": "Wykrywanie kontekstu strony..."
+  },
+  "t_87f125d0": {
+    "message": "Analizowanie terminologii..."
+  },
+  "t_9ef6e70f": {
+    "message": "Używanie wyników z pamięci podręcznej..."
+  },
+  "t_9afdc5e8": {
+    "message": "Analizowanie przez AI..."
+  },
+  "t_7ecc3abe": {
+    "message": "Dekodowanie AI nieudane"
+  },
+  "t_9220c8de": {
+    "message": "Stosowanie uproszczeń..."
+  },
+  "t_57f406b1": {
+    "message": "Dekodowanie zaznaczenia..."
+  },
+  "t_c50f2b72": {
+    "message": "Zobacz glosariusz"
+  },
+  "t_49de9b11": {
+    "message": "Ukryj wyróżnienia na stronie"
+  },
+  "t_3158774e": {
+    "message": "Przywróć wyróżnienia na stronie"
+  },
+  "t_fc3ad42d": {
+    "message": "Zapisz do słownictwa"
+  },
+  "t_87e933b8": {
+    "message": "Wyszukiwanie definicji..."
+  },
+  "t_56b79836": {
+    "message": "Definicja słowa załadowana."
+  },
+  "t_969b24ea": {
+    "message": "🔊 Kliknij gdziekolwiek, aby aktywować dźwięk motywu"
+  },
+  "t_49337275": {
+    "message": "Ręczne podświetlanie"
+  },
+  "t_93324bd5": {
+    "message": "Zapisano bezpośrednio ze strony internetowej."
+  },
+  "t_82e413f3": {
+    "message": "Upraszczanie tekstu..."
+  },
+  "t_86c4f6e5": {
+    "message": "Upraszczanie przez AI..."
+  },
+  "t_c3e18edb": {
+    "message": "Upraszczanie nie powiodło się"
+  },
+  "t_6398ab2c": {
+    "message": "Poziom czytania: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "Kliknij, aby tymczasowo przywrócić oryginalny tekst"
+  },
+  "t_9beea3e8": {
+    "message": "Usuń z pamięci na stałe"
+  },
+  "t_453bb8f7": {
+    "message": "Utwórz darmowe konto EasyView, aby otrzymać $1 darmowych uproszczeń AI miesięcznie i śledzić swój limit.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "Słuchaj"
+  },
+  "t_24833610": {
+    "message": "Zapisano"
+  },
+  "t_30a008cb": {
+    "message": "Czytaj więcej &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "Zapisano w notatniku słownictwa!"
+  },
+  "t_2728e87f": {
+    "message": "Usunięto z notatnika słownictwa"
+  },
+  "t_6b8c66ce": {
+    "message": "Słowniczek ($1 terminów)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "Usuń pamięć dla tej strony"
+  },
+  "t_8a49fe1a": {
+    "message": "Usuń termin"
+  },
+  "t_1534891c": {
+    "message": "Zdekodowano $1 terminów",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "Zapisz w notatniku"
+  },
+  "t_150a2843": {
+    "message": "Wyczyść podświetlenia"
+  },
+  "t_21ef939c": {
+    "message": "Zapisano w notatniku!"
+  },
+  "t_8054da35": {
+    "message": "Szybki słownik",
+    "description": "Nagłówek wyskakującego okienka szybkiego słownika"
+  },
+  "t_4aeb2167": {
+    "message": "Nie znaleziono słowa",
+    "description": "Tytuł zastępczy słownika"
+  },
+  "t_272d0070": {
+    "message": "Nie mogliśmy znaleźć \"$1\" w podstawowym słowniku. Może to być nowoczesny slang, skrót lub wysoce techniczny żargon.",
+    "description": "Opis zastępczy słownika z symbolem zastępczym słowa",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "Dekoduj z Evie AI",
+    "description": "Przycisk zapasowy do dekodowania za pomocą AI"
+  },
+  "t_14f1f972": {
+    "message": "przez",
+    "description": "Prefiks źródła słownika"
+  },
+  "t_f2faf2f1": {
+    "message": "Rzeczownik",
+    "description": "Część mowy rzeczownik"
+  },
+  "t_b512ddf1": {
+    "message": "Czasownik",
+    "description": "Część mowy czasownik"
+  },
+  "t_d807ae6a": {
+    "message": "Przymiotnik",
+    "description": "Część mowy przymiotnik"
+  },
+  "t_1a607278": {
+    "message": "Przysłówek",
+    "description": "Część mowy przysłówek"
+  },
+  "t_02de720d": {
+    "message": "Zaimek",
+    "description": "Część mowy zaimek"
+  },
+  "t_4b7be2c3": {
+    "message": "Przyimek",
+    "description": "Część mowy przyimek"
+  },
+  "t_a3c1d30b": {
+    "message": "Spójnik",
+    "description": "Część mowy spójnik"
+  },
+  "t_e189f001": {
+    "message": "Wykrzyknik",
+    "description": "Część mowy wykrzyknik"
+  },
+  "t_96de90f8": {
+    "message": "Kopiuj uproszczony tekst",
+    "description": "Etykieta narzędzia do kopiowania uproszczonego tekstu"
+  },
+  "t_44a6e288": {
+    "message": "Czytaj stronę",
+    "description": "Etykieta narzędzia do czytania całej strony przez TTS"
+  },
+  "t_7d70d73b": {
+    "message": "Czytaj zaznaczenie",
+    "description": "Etykieta narzędzia do czytania zaznaczenia przez TTS"
+  },
+  "t_11936123": {
+    "message": "Nieodwracalnie usuń notatkę",
+    "description": "Etykieta narzędzia do trwałego usuwania karteczki"
+  },
+  "t_d27532d9": {
+    "message": "Minimalizuj"
+  },
+  "t_2bd339d8": {
+    "message": "Przywróć"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "Łatwy Widok"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "Alert systemowy"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "Powiadomienie systemowe"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "Silnik\r\nEasyView"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "Funkcje lokalne pozostają\r\n                        aktywne"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,349 +599,340 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "Doświadczenie\r\nEasyView"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "Używasz EasyView od dwanaście godzin. Utwórz darmowe konto, aby\r\n                    zapisać swoje\r\n                    ustawienia, zachować limit i odblokować więcej funkcji."
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "Przypomnij mi za dwanaście godzin"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "Jasny"
   },
   "t_7fc56270": {
     "message": "A"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "Czcionka"
   },
   "t_5dbc98dc": {
-    "message": "S"
-  },
-  "t_69691c7b": {
     "message": "M"
   },
+  "t_69691c7b": {
+    "message": "Ś"
+  },
   "t_d20caec3": {
-    "message": "L"
+    "message": "D"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "Funkcje"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "Wizualizacje"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "Konwerter"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "Notatnik"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "Dekoder żargonu"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "Uprość skomplikowane terminy prawne"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "wikipedia.org/wiki/Neuroróżnorodność"
   },
   "t_61e9c06e": {
-    "message": "W"
+    "message": "S"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "Neuroróżnorodność"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "o wiele\r\n                                                łatwiejsze"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "Osłona skupienia i prywatności"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "Rozmyj prywatne i wrażliwe treści"
   },
   "t_7f766191": {
-    "message": "mail.google.com/mail/u/0/"
+    "message": "mejl.gugl.kom/mejl/u/0/"
   },
   "t_dfcf28d0": {
     "message": "G"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "Konta Google"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "Alert bezpieczeństwa"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- Zawnioskowano o reset hasła..."
   },
   "t_8d9c307c": {
     "message": "N"
   },
   "t_170b1d36": {
-    "message": "Netflix"
+    "message": "Netfliks"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "Nowości w tym tygodniu"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- Sprawdź nasze najnowsze\r\n                                                    wydania..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "Techniki ochrony"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "Rozmywanie prywatnych treści"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "Inteligentnie rozmywa WhatsApp, Gmail i pola\r\n                                            wprowadzania haseł dla natychmiastowego bezpieczeństwa wizualnego."
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "Automatyczna ochrona podczas udostępniania ekranu"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "Natychmiast zasłania ekran podczas udostępniania online."
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
-  },
-  "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "Używasz\r\n                                                    fizycznego projektora?"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "Latarka do czytania"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "Podąża za Twoją myszą z jasnym reflektorem, aby całkowicie wyeliminować otaczający\r\n                                            bałagan wizualny."
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "Po pierwsze.\r\n                                                            Kształt wiązki"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "Reflektor\r\n                                                            lub linijka"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "Po drugie.\r\n                                                                Rozmiar / wysokość wiązki"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "Grubość\r\n                                                                obszaru widoku"
   },
   "t_f0cad41b": {
     "message": "35px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "Po trzecie.\r\n                                                            Odcień soczewki wiązki skupienia"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "Delikatnie przyciemnia obszar czytania"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "Po czwarte.\r\n                                                            Cień tła otoczenia"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "Ciemność\r\n                                                            wokół Twojej soczewki"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "Tarcza sensoryczna"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "Zatrzymaj rozpraszające animacje"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "niusdejli.kom/brejking"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "PILNE WIADOMOŚCI"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "Czytanie artykułu w codziennych wiadomościach..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "WYGRANA!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "Tryb ochrony"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(domyślne)"
   },
   "t_9e3360ac": {
-    "message": "PRO"
+    "message": "WERSJA PRO"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "Zatrzymaj autoodtwarzanie + spokojne\r\n                                                zanikanie przy ręcznej nawigacji"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "Tryb czytania dla dyslektyków"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "Zoptymalizowane czcionki i odstępy"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "Profil intensywności"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "Niski"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "Średni"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "Wysoki"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "wikipedija.org/wiki/Czytanie"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "Czytanie"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "Oto podgląd Twoich ustawień czytania."
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "Opcje zaawansowane"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "Styl czcionki"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "Domyślny (bez zmian)"
   },
   "t_5d2967ef": {
-    "message": "OpenDyslexic"
+    "message": "Otwarty Dyslektyk"
   },
   "t_1042daad": {
-    "message": "Lexend (ADHD Pro) 🔒"
+    "message": "Leksend (ADHD Wersja Pro) 🔒"
   },
   "t_bcec044a": {
-    "message": "Atkinson Hyperlegible 🔒"
+    "message": "Atkinson Hyperlegible"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "Szybki bezszeryfowy"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "Szybki szeryfowy"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "Komik Noje"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "Komik Sans"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "Odstępy między literami"
   },
   "t_960b44c5": {
-    "message": "Normal"
+    "message": "Normalny"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "Wysokość linii"
   },
   "t_60086472": {
     "message": "1.5"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "Odstępy między słowami"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "Rozmiar czcionki"
   },
   "t_30bd7ce7": {
     "message": "100%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "Kolor nakładki"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "Brak"
   },
   "t_2bd8c63b": {
-    "message": "Beige"
+    "message": "Beżowy"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "Jasnoniebieski"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "Jasnozielony"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "Jasnożółty"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "Zamiana tekstu na mowę"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "Czytaj na głos z wyróżnianiem"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "Odtwórz"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "Wstrzymaj"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "Zatrzymaj"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "Wybór głosu"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "Auto (najlepsza jakość)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "Szybkość czytania"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "Bardzo wolno"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "Wolno"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "Szybko"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "Bardzo szybko"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "Głośność"
   },
   "t_f1943132": {
     "message": "70%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "Wstrzymaj przy interpunkcji"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "Podświetlanie słów"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "Włącz"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "Tryb"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "Ciemny"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "wikipedija.org/wiki/Jasny"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "Idealna oprawa wizualna dla komfortu oczu. Jasność może być intensywna."
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "Jasność"
   },
   "t_c63ecd19": {
-    "message": "Contrast"
+    "message": "Kontrast"
   },
   "t_b84a9a38": {
     "message": "Sepia"
@@ -384,31 +941,31 @@
     "message": "0%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "Skala szarości"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "Domyślny"
   },
   "t_b1166920": {
-    "message": "Lexend 🔒"
+    "message": "Leksend 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "Obrys tekstu"
   },
   "t_cfcd2084": {
     "message": "0"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "Inteligentny konwerter i czytnik"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "Bieżący plik"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "Kliknij lub przeciągnij plik, aby przesłać"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• Gotowe"
   },
   "t_4c4ad5fc": {
     "message": "HTML"
@@ -423,184 +980,184 @@
     "message": "📌"
   },
   "t_4cc6684d": {
-    "message": "Global"
+    "message": "Globalny"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "Witryna/Strona"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "Mój notatnik"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "Wyczyść wszystko"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "Anuluj"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "Zapisz słowo"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "Brak zapisanych słów."
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "Najedź kursorem na żargon na dowolnej stronie i kliknij flagę zakładki, aby zapisać go tutaj!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "Zmień interfejs dowolnej strony internetowej. Opisz, czego chcesz, lub wybierz\r\n                            ustawienie wstępne."
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "Zastosowana\nmorfologia"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "Niestandardowy układ AI\r\n                                jest aktywny na tej stronie."
   },
   "t_e8a57cd1": {
     "message": "0 /\r\n                                500"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "Resetuj stronę"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "Układ morfologii"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "Domyślne ustawienia"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "Karnawał horroru"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "Klimat upiornego karnawału i animowany tekst horroru"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "Konsola matrycowa"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "Motyw terminala cyberpunk"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "Neuro Fokus"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "Czcionki przyjazne dyslektykom i kojące kolory"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "Tryb czytania"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "Minimalistyczny układ zoptymalizowany pod kątem skupienia"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "Ostatnie zapytania"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "Użytkownik gość"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "Darmowe konto"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "Zaloguj / Zarządzaj"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "Wyloguj"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "Ustawienia interfejs API"
   },
   "t_766cc4dd": {
-    "message": "Gemini"
+    "message": "Bliźnięta"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "Dostawca AI"
   },
   "t_222cf5ed": {
-    "message": "Google Gemini"
+    "message": "Google Bliźnięta"
   },
   "t_a0607683": {
-    "message": "OpenRouter"
+    "message": "Otwarty Router"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "Klucz interfejs API Gemini"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "Gugl Ej Aj Stjudio"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "Klucz interfejs API OpenRouter"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "Zapisz klucz interfejs API"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "EasyView\r\n                                    Priorytet AI"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ Mój klucz interfejs API"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 Serwery EasyView"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "Wybierz\r\n                                co jest używane najpierw dla wszystkich funkcji AI. Jeśli Twój klucz się wyczerpie, serwery EasyView są\r\n                                zawsze używane jako rozwiązanie zastępcze."
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "Prywatność\r\n                                    i priorytety"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "Priorytet jeden:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "Priorytet dwa:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "Uwaga silnika morfologicznego:"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "nigdy"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "Pomoc i opinie"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "Masz pytanie, znalazłeś błąd lub chcesz zasugerować funkcję? Chętnie Cię wysłuchamy!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "Zgłoś błąd / Prześlij opinię"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Gotowy do uproszczenia"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "Eksportuj ustawienia"
   },
   "t_9d5ed678": {
-    "message": "B"
+    "message": "P"
   },
   "t_dd753679": {
-    "message": "I"
+    "message": "K"
   },
   "t_20a1d47c": {
     "message": "✎"
@@ -615,25 +1172,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "Siła"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "Krycie"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "Waga"
   },
   "t_18d80423": {
     "message": "400"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "Wysokość\r\nLinii"
   },
   "t_f522dede": {
     "message": "1.7x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "Pomiń"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,61 +1199,61 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "Podświetlenie"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "ATRAMENT"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "ZANIKANIE"
   },
   "t_e8bfe352": {
-    "message": "Lexend 👑"
+    "message": "Leksend 👑"
   },
   "t_0cd4623c": {
-    "message": "Atkinson Hyperlegible 👑"
+    "message": "Atkinson Hajperledżibl 👑"
   },
   "t_6fbda3a3": {
     "message": "Arial"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "Helwetika"
   },
   "t_207c3219": {
-    "message": "Verdana"
+    "message": "Werdana"
   },
   "t_2bd141ae": {
     "message": "Tahoma"
   },
   "t_720661ec": {
-    "message": "Trebuchet MS"
+    "message": "Trebuszet MS"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "Systemowy bezszeryfowy"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "Tajms Nju Roman"
   },
   "t_eada8196": {
-    "message": "Georgia"
+    "message": "Dżordżia"
   },
   "t_96a78725": {
     "message": "Garamond"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "Systemowy szeryfowy"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "Komik Sans MS"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "Kurier Nju"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "Monospaced"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "Rozmiar\r\nczcionki"
   },
   "t_f4f9f2f4": {
     "message": "14px"
@@ -723,7 +1280,7 @@
     "message": "32px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "Gotowe"
   },
   "t_63922286": {
     "message": "×"
@@ -732,154 +1289,34 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "Eksportuj bibliotekę motywów"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "Zapisuj swoje arcydzieła wygenerowane przez AI\r\n                lokalnie."
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "Eksportuj całą bibliotekę"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
-  },
-  "t_ccca2ddf": {
-    "message": "EasyView Reader"
-  },
-  "t_8524de96": {
-    "message": "Loading..."
-  },
-  "t_25e8f2fd": {
-    "message": "Please wait..."
-  },
-  "t_ec9d785d": {
-    "message": "1.5x"
-  },
-  "t_dafd5f8f": {
-    "message": "Lexend"
-  },
-  "t_16d90a0b": {
-    "message": "Atkinson Hyperlegible"
-  },
-  "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
-  },
-  "t_f7cee5ea": {
-    "message": "Calibri"
-  },
-  "t_ccc0239e": {
-    "message": "Candara"
-  },
-  "t_2963521b": {
-    "message": "Corbel"
-  },
-  "t_37f1cc58": {
-    "message": "Cambria"
-  },
-  "t_c3d9d4bf": {
-    "message": "Constantia"
-  },
-  "t_5d1a5b35": {
-    "message": "Palatino Linotype"
-  },
-  "t_4dc386b6": {
-    "message": "Book Antiqua"
-  },
-  "t_03c461f6": {
-    "message": "Franklin Gothic"
-  },
-  "t_7b1ee3b6": {
-    "message": "Century Gothic"
-  },
-  "t_a3293302": {
-    "message": "Gill Sans"
-  },
-  "t_eb726908": {
-    "message": "Sitka Text"
-  },
-  "t_b5bdee2c": {
-    "message": "Sylfaen"
-  },
-  "t_1ec05249": {
-    "message": "Microsoft Sans Serif"
-  },
-  "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
-  },
-  "t_16507cdd": {
-    "message": "Consolas"
-  },
-  "t_391c5954": {
-    "message": "Lucida Console"
-  },
-  "t_9879efdf": {
-    "message": "Lucida Sans Typewriter"
-  },
-  "t_21f59b54": {
-    "message": "Impact"
-  },
-  "t_94a7bb97": {
-    "message": "Arial Black"
-  },
-  "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
-  },
-  "t_40885309": {
-    "message": "Berlin Sans FB"
-  },
-  "t_6d5566ba": {
-    "message": "Gabriola"
-  },
-  "t_edb42482": {
-    "message": "Ink Free"
-  },
-  "t_fa233799": {
-    "message": "Segoe Script"
-  },
-  "t_2f7bc407": {
-    "message": "Segoe Print"
-  },
-  "t_0095a9fa": {
-    "message": "Export"
-  },
-  "t_520d0db3": {
-    "message": "Format"
-  },
-  "t_5956a437": {
-    "message": "TXT"
-  },
-  "t_1351017a": {
-    "message": "Filename"
-  },
-  "t_6af8212e": {
-    "message": "EasyView Notes Board"
-  },
-  "t_d16da0f5": {
-    "message": "🌎"
-  },
-  "t_6df173ff": {
-    "message": "📍"
+    "message": ".json (Plik JSON)"
   },
   "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
-  },
-  "js_24833610": {
-    "message": "Saved"
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Wymagane działanie</div>\n            <h2 class=\"ev-si-title\">Konto<br><span class=\"ev-si-gradient-text\">Zawieszone</span></h2>\n            <p class=\"ev-si-sub\">Twój dostęp do EasyView został ograniczony z powodu naruszenia naszych warunków świadczenia usług.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Skontaktuj się z pomocą techniczną\n            </a>\n          </div>\n        </div>\n      "
   },
   "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Najpierw opisz swoją transformację.</span>\n          </div>"
   },
   "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Przekształcanie...</span>\n      "
   },
   "js_138703dd": {
-    "message": "No Theme on Page"
+    "message": "Brak motywu na stronie"
   },
   "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>Eksportuj bieżącą stronę"
   },
   "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Kompilowanie..."
   },
   "js_e541190e": {
     "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
@@ -891,30 +1328,1322 @@
     "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
   },
   "js_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Gotowy do uproszczenia"
   },
   "js_a18366b2": {
-    "message": "Dark"
+    "message": "Ciemny"
   },
   "js_9914a0ce": {
-    "message": "Light"
+    "message": "Jasny"
   },
   "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+    "message": "<option value=\"auto\">Auto (Najlepsza jakość)</option>"
   },
   "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Dekodowanie..."
   },
   "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+    "message": "To wydaje się <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">o wiele łatwiejsze</span> do zrozumienia."
   },
   "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+    "message": "To wydaje się mniej jednoznaczne."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_f05df71b": {
+    "message": "Aktualizowanie"
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_78db2ae3": {
+    "message": "Nasze serwery AI przechodzą aktualizacje."
+  },
+  "t_bb2129c8": {
+    "message": "Odblokuj pełną"
+  },
+  "t_aefee7cd": {
+    "message": "Przejrzystość dla każdego mózgu"
+  },
+  "t_c38beca1": {
+    "message": "Firefox ogranicza interfejsy programistyczne (API) wykrywania fizycznego monitora. "
+  },
+  "t_f2fe1e79": {
+    "message": "Wartości\r\n                                    poniżej 1.0 mogą kompresować tekst i psuć układy."
+  },
+  "t_ca677d53": {
+    "message": "Dostosowania wizualne"
+  },
+  "t_230b4522": {
+    "message": "Tablica notatek"
+  },
+  "t_596b54bf": {
+    "message": "Agent AI Morph"
+  },
+  "t_47e79a17": {
+    "message": "Pobierz darmowy klucz na"
+  },
+  "t_42372184": {
+    "message": "Motywy są eksportowane jako"
+  },
+  "t_74fdc8a2": {
+    "message": "Najpierw opisz swoją transformację."
+  },
+  "t_245fd3b9": {
+    "message": "Wyczyszczono układ po transformacji."
+  },
+  "t_172bd753": {
+    "message": "Motyw wyeksportowany pomyślnie!"
+  },
+  "t_4c34daff": {
+    "message": "Przekroczono czas połączenia. Serwer nieosiągalny."
+  },
+  "t_0dd56117": {
+    "message": "Nie znaleziono aktywnego motywu na tej stronie."
+  },
+  "t_cb5c0766": {
+    "message": "Biblioteka wyeksportowana pomyślnie!"
+  },
+  "t_8adb392e": {
+    "message": "Przekroczono czas połączenia. Serwer nieosiągalny."
+  },
+  "t_ae94e0e4": {
+    "message": "Twoja biblioteka motywów jest pusta."
+  },
+  "t_10a0c40b": {
+    "message": "Niestandardowy motyw załadowany pomyślnie!"
+  },
+  "t_9b6007a8": {
+    "message": "Nie udało się odczytać pliku motywu."
+  },
+  "t_d4fa051d": {
+    "message": "Błąd: $1. Proszę przeładować kartę.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "Zastosowano: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "Przywrócono $1 motywów z biblioteki!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "Preferencje językowe"
+  },
+  "t_lang_updated_reload": {
+    "message": "Język zaktualizowany. Przeładowywanie..."
+  },
+  "t_transformation_failed": {
+    "message": "Transformacja nie powiodła się."
+  },
+  "t_c8a59e71": {
+    "message": "Odrzuć"
+  },
+  "t_7764306b": {
+    "message": "Konserwacja usług w chmurze aktywna"
+  },
+  "t_248228de": {
+    "message": "Przełącz czcionkę dla dyslektyków w wyskakującym okienku"
+  },
+  "t_79a59320": {
+    "message": "Rozpocznij wycieczkę po aplikacji"
+  },
+  "t_533bff5b": {
+    "message": "Przypnij notatkę do strony (Alt+N)"
+  },
+  "t_f4f70727": {
+    "message": "Ustawienia"
+  },
+  "t_4fd11104": {
+    "message": "Okrągły reflektor"
+  },
+  "t_0d063af1": {
+    "message": "Pozioma linia prowadząca 🔒"
+  },
+  "t_60d71580": {
+    "message": "Jasne światło"
+  },
+  "t_efe48742": {
+    "message": "Bursztynowe skupienie"
+  },
+  "t_610a09ca": {
+    "message": "Chłodny cyjan"
+  },
+  "t_886f6b9e": {
+    "message": "Spokojna zieleń"
+  },
+  "t_65e8194e": {
+    "message": "Głęboka czerń"
+  },
+  "t_7243ed99": {
+    "message": "Łupek o północy"
+  },
+  "t_ec6d8325": {
+    "message": "Głęboki las"
+  },
+  "t_4af435e0": {
+    "message": "Wino wampira"
+  },
+  "t_2a7dbdf8": {
+    "message": "Funkcja Pro"
+  },
+  "t_fc4aec61": {
+    "message": "Otwórz w czytniku"
+  },
+  "t_801ab246": {
+    "message": "Pobierz"
+  },
+  "t_aa3880dc": {
+    "message": "Pobierz jako HTML"
+  },
+  "t_e0781e81": {
+    "message": "Pobierz jako EPUB"
+  },
+  "t_442ff212": {
+    "message": "Pobierz jako DOCX"
+  },
+  "t_6244ee7c": {
+    "message": "Dodaj własny termin ręcznie"
+  },
+  "t_6e7d015f": {
+    "message": "Importuj plik CSV"
+  },
+  "t_edbc5415": {
+    "message": "Eksportuj dla Anki / Quizlet"
+  },
+  "t_46c29f7a": {
+    "message": "Wczytaj motyw"
+  },
+  "t_2bd65c5d": {
+    "message": "Eksportuj motyw"
+  },
+  "t_c1c433ac": {
+    "message": "Aktywny dostawca AI"
+  },
+  "t_90c09393": {
+    "message": "Kropkowane"
+  },
+  "t_eb656e41": {
+    "message": "Kreskowane"
+  },
+  "t_0c99ddee": {
+    "message": "Kolor podświetlenia"
+  },
+  "t_eaf63759": {
+    "message": "Kolor atramentu"
+  },
+  "t_a183c9f0": {
+    "message": "Kolor zanikania"
+  },
+  "t_75e7422f": {
+    "message": "Kolor tła"
+  },
+  "t_42f9ceea": {
+    "message": "Przeszukaj zapisany leksykon..."
+  },
+  "t_0e84a8cf": {
+    "message": "Wpisz słowo lub akronim..."
+  },
+  "t_eea6890c": {
+    "message": "Znaczenie / Tłumaczenie..."
+  },
+  "t_4480cf46": {
+    "message": "Sposób zapamiętywania lub notatka do nauki (opcjonalnie)..."
+  },
+  "t_d8634fbf": {
+    "message": "np. Zmień na różowy motyw w stylu anime z zaokrąglonymi kartami lub przekształć w konsolę terminala w stylu retro..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "Karteczki samoprzylepne"
+  },
+  "t_b097d277": {
+    "message": "Dodaj słowo"
+  },
+  "t_1eeb67ee": {
+    "message": "Eksportuj bieżącą stronę"
+  },
+  "t_b62ded9a": {
+    "message": "Usługi chmurowe offline"
+  },
+  "t_263e00eb": {
+    "message": "Zaloguj się / Utwórz konto"
+  },
+  "t_7748eb3b": {
+    "message": "AKTUALIZOWANIE"
+  },
+  "t_81a5d20b": {
+    "message": "Zamroź wszystko"
+  },
+  "t_e61146d9": {
+    "message": "Spokojne zanikanie"
+  },
+  "t_57323916": {
+    "message": "Zatrzymaj automatyczne odtwarzanie"
+  },
+  "t_f50319ea": {
+    "message": "Pełna ochrona"
+  },
+  "t_8e13f26d": {
+    "message": "Szybkie pytanie"
+  },
+  "t_134b26da": {
+    "message": "Czy podoba Ci się<br><span class=\"ev-si-gradient-text\">EasyView?</span>"
+  },
+  "t_b75bdd9e": {
+    "message": "Twoja opinia pomaga nam się doskonalić.<br>Czy podoba Ci się korzystanie z aplikacji?"
+  },
+  "t_396d1ff8": {
+    "message": "Tak!"
+  },
+  "t_7d0cacf3": {
+    "message": "Wymaga poprawy"
+  },
+  "t_815142c9": {
+    "message": "Wesprzyj nas"
+  },
+  "t_abd9fa39": {
+    "message": "Czy zechciałbyś<br><span class=\"ev-si-gradient-text\">zostawić recenzję?</span>"
+  },
+  "t_02991e61": {
+    "message": "Oceny od użytkowników takich jak Ty to najlepszy sposób, aby pomóc EasyView w rozwoju. Zajmuje to tylko minutę!"
+  },
+  "t_db49c1f2": {
+    "message": "Oceń teraz"
+  },
+  "t_7a4f0d12": {
+    "message": "Przypomnij później"
+  },
+  "t_fee6c0e9": {
+    "message": "Prywatna opinia"
+  },
+  "t_74393dde": {
+    "message": "Co możemy <span class=\"ev-si-gradient-text\">zrobić lepiej?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "Powiedz nam, co poszło nie tak..."
+  },
+  "t_6f97affc": {
+    "message": "Wyślij opinię"
+  },
+  "t_b20871b3": {
+    "message": "Proszę wpisać swoją opinię"
+  },
+  "t_7b0fee4d": {
+    "message": "Wysyłanie..."
+  },
+  "t_fb631633": {
+    "message": "Dziękujemy za Twoją opinię."
+  },
+  "t_08727add": {
+    "message": "Przeglądaj sieć po swojemu."
+  },
+  "t_15bbb9d0": {
+    "message": "Strona internetowa"
+  },
+  "t_c5f29bb3": {
+    "message": "Prywatność"
+  },
+  "t_ad5b1a22": {
+    "message": "Założyciel"
+  },
+  "t_db496e03": {
+    "message": "Osobiste klucze tworzą bezpośrednie, w 100% prywatne połączenie z AI. Twój tekst nigdy nie trafia na serwery EasyView."
+  },
+  "t_387c35b3": {
+    "message": "Nasz zarządzany serwer (Premium) działa jako niezawodna kopia zapasowa, jeśli nie ma klucza lub jeśli Twój klucz zawiedzie."
+  },
+  "t_98bc5a17": {
+    "message": "Aby chronić zastrzeżone algorytmy, Twój klucz jest krótko kierowany przez nasz bezpieczny serwer w celu uwierzytelnienia w Google. Jest on"
+  },
+  "t_de47f1be": {
+    "message": "przechowywany ani logowany."
+  },
+  "t_25e02e7f": {
+    "message": "Aktywne: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ Członek Premium"
+  },
+  "t_df56cfae": {
+    "message": "⭐ Członek dożywotni"
+  },
+  "t_41cbc704": {
+    "message": " pozostało dni"
+  },
+  "t_b194bd82": {
+    "message": "Nigdy nie wygasa"
+  },
+  "t_9f830444": {
+    "message": "⭐ Wersja Pro:"
+  },
+  "t_61b82be6": {
+    "message": " pozostało zmian"
+  },
+  "t_c20e7ceb": {
+    "message": " pozostało darmowych morfologii"
+  },
+  "t_d7087930": {
+    "message": " pozostało darmowych użyć"
+  },
+  "t_4bbf11bd": {
+    "message": "Pola terminu i znaczenia nie mogą pozostać puste!"
+  },
+  "t_08f09d38": {
+    "message": "Szczegóły słowa zaktualizowane pomyślnie!"
+  },
+  "t_32001b52": {
+    "message": "Proszę wpisać zarówno słowo, jak i jego znaczenie."
+  },
+  "t_b8115861": {
+    "message": "Twój Notatnik do nauki jest pusty. Najpierw dodaj zakładki do słów na stronach internetowych!"
+  },
+  "t_7114113b": {
+    "message": "Najpierw zaloguj się na swoje konto EasyView, aby zweryfikować funkcje Pro!"
+  },
+  "t_093f9fa0": {
+    "message": "Twój token sesji wygasł. Zaloguj się ponownie na easyview.in, aby przywrócić dostęp."
+  },
+  "t_0e065596": {
+    "message": "To zweryfikowana funkcja tylko dla wersji Premium. Uaktualnij do Pro, aby odblokować!"
+  },
+  "t_c792a645": {
+    "message": "Nie udało się połączyć z bezpiecznym serwerem eksportu. Spróbuj ponownie za chwilę."
+  },
+  "t_8d1a2675": {
+    "message": "Nie udało się zidentyfikować żadnych poprawnych elementów słownictwa w tym pliku CSV."
+  },
+  "t_a613ed90": {
+    "message": "Błąd zapisu w pamięci przeglądarki! Plik może być zbyt duży dla pamięci podręcznej."
+  },
+  "t_8efe87ab": {
+    "message": "Przeglądarka nie mogła odczytać Twojego pliku lokalnego."
+  },
+  "t_50bf63aa": {
+    "message": "Czy na pewno chcesz wyczyścić wszystkie zapisane słowa ze swojego notatnika?"
+  },
+  "t_ff252710": {
+    "message": "Import zakończony: Wszystkie $1 wpisy już istnieją w Twoim Notatniku.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "Nie udało się sparsować CSV: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "\"$1\" znajduje się już w Twoim notatniku. Czy chcesz dodać dla niego kolejną definicję?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "Wylogowano pomyślnie"
+  },
+  "t_dbd35100": {
+    "message": "Silnik przekształceń już pracuje..."
+  },
+  "t_2de4e55d": {
+    "message": "Układ po transformacji wyczyszczony"
+  },
+  "t_1bb9196d": {
+    "message": "Przekształcono: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "Przekształcanie nie powiodło się: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "Uruchomiono: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 elementów uporządkowanych",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "To trwale usunie tę notatkę ze wszystkich zsynchronizowanych urządzeń. Kontynuować?"
+  },
+  "t_25abf697": {
+    "message": "Eksport do EPUB wymaga JSZip."
+  },
+  "t_71609188": {
+    "message": "Eksport do DOCX wymaga html-docx-js."
+  },
+  "t_e1499766": {
+    "message": "Nie załadowano pliku."
+  },
+  "t_023b3355": {
+    "message": "Osłona prywatności włączona"
+  },
+  "t_9483a5da": {
+    "message": "Osłona prywatności wyłączona"
+  },
+  "t_a04202db": {
+    "message": "Wyróżnienia tymczasowo ukryte"
+  },
+  "t_b3d6b264": {
+    "message": "Wyróżnienia przywrócone"
+  },
+  "t_7485c55e": {
+    "message": "Witaj w EasyView! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "Twój most poznawczy zasilany przez AI dla łatwiejszego czytania w sieci. Zróbmy szybką wycieczkę po funkcjach."
+  },
+  "t_3a1fe637": {
+    "message": "Dekoder żargonu 📖"
+  },
+  "t_89cec86e": {
+    "message": "Upraszcza złożoną terminologię na dowolnej stronie internetowej."
+  },
+  "t_f8aefae7": {
+    "message": "Tarcza prywatności 🔐"
+  },
+  "t_aa860f86": {
+    "message": "Rozmywa wrażliwe dane i zawiera Linijkę Skupienia dla czytania bez rozpraszania uwagi."
+  },
+  "t_0681a3b6": {
+    "message": "Tarcza sensoryczna 🛡️"
+  },
+  "t_6118b864": {
+    "message": "Zatrzymuje rozpraszające pliki GIF i animacje."
+  },
+  "t_12ec6fc6": {
+    "message": "Tryb czytania dla dyslektyków 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "Zoptymalizowane czcionki i odstępy dla łatwiejszego czytania."
+  },
+  "t_18d9ce63": {
+    "message": "Zamiana tekstu na mowę 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "Słuchaj dowolnej strony internetowej z wyróżnianiem słów."
+  },
+  "t_0019a700": {
+    "message": "Silnik Morph ✨"
+  },
+  "t_47c2535a": {
+    "message": "Użyj AI, aby przeprojektować dowolną stronę internetową na niestandardowy motyw lub układ."
+  },
+  "t_2ed2f639": {
+    "message": "Przyklejane notatki 📝"
+  },
+  "t_75025b5f": {
+    "message": "Przypinaj pływające notatki do dowolnej strony internetowej, aby zapisać ważne informacje (Alt+N)."
+  },
+  "t_3ff2d7cc": {
+    "message": "Konfiguracja interfejs API ⚙️"
+  },
+  "t_0754e836": {
+    "message": "Zaloguj się, aby zsynchronizować swój limit lub skonfiguruj własny darmowy klucz interfejs API Gemini tutaj."
+  },
+  "t_7b6a2059": {
+    "message": "Krok $1 z $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "Rozpocznij!"
+  },
+  "t_10ac3d04": {
+    "message": "Dalej"
+  },
+  "t_5c7a52b8": {
+    "message": "Naciśnij "
+  },
+  "t_a1b2c3d4": {
+    "message": " w dowolnym momencie, aby ręcznie włączyć tarczę Auto-Ochrony."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ Osłona prywatności włączona"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 Osłona prywatności wyłączona"
+  },
+  "js_9b3e1a": {
+    "message": "EasyView analizuje układ i przekształca..."
+  },
+  "js_4c8d2f": {
+    "message": "Definiuj"
+  },
+  "js_7a1e9b": {
+    "message": "Dekoduj"
+  },
+  "js_2d5f8c": {
+    "message": "Uprość"
+  },
+  "js_6e3a4d": {
+    "message": "Zakładka"
+  },
+  "js_1f9b7c": {
+    "message": "Podświetlenie"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "Analizowanie drzewa DOM..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "Niechlujny układ..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "Spłaszczanie struktury..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[PRZEŁADOWANIE_HAŁASEM]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "Usuwanie rozpraszaczy..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "Złożone węzły"
+  },
+  "js_ldr_m4_cl": {
+    "message": "Stosowanie zasad dla dyslektyków..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "Renderowanie interfejsu EasyView..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "Skanowanie bloku tekstu..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "Zbyt wiele słów..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "Wyodrębnianie głównego znaczenia..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "Obciążenie poznawcze"
+  },
+  "js_ldr_s3_cl": {
+    "message": "Przygotowywanie prostszego języka angielskiego..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "Wielomówne AI..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "Stosowanie czytelności..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "Wygładzanie danych wyjściowych..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "Tłumaczenie żargonu..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "Błąd: Dezorientacja"
+  },
+  "js_ldr_j2_cl": {
+    "message": "Wyszukiwanie definicji..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[PRZEŁADOWANIE_HAŁASEM]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "Upraszczanie kontekstu..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "Nieznane terminy"
+  },
+  "js_ldr_j4_cl": {
+    "message": "Stosowanie przejrzystości..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "Formatowanie wyników..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "Głęboka analiza..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "Finalizowanie logiki AI..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "Uruchamianie AI..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "Prawie gotowe..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "Duży ruch..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "Trwa to nieco dłużej..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "Nadal pracuję..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "Cierpliwości..."
+  },
+  "t_b7012ab9": {
+    "message": "Morfologia"
+  },
+  "t_c5e8b1d9": {
+    "message": "Czcionki Pro"
+  },
+  "t_c8f2ba19": {
+    "message": "Rozmywanie prywatnych treści włączone"
+  },
+  "t_e2dae61a": {
+    "message": "Rozmywanie prywatnych treści wyłączone"
+  },
+  "t_c74de318": {
+    "message": "Automatyczna ochrona podczas udostępniania ekranu włączona"
+  },
+  "t_a5fd56f4": {
+    "message": "Automatyczna ochrona podczas udostępniania ekranu wyłączona"
+  },
+  "t_ab8d1f2a": {
+    "message": "Tryb latarki włączony"
+  },
+  "t_2bf5cc98": {
+    "message": "Tryb latarki wyłączony"
+  },
+  "t_513bb93f": {
+    "message": "Bioniczne czytanie"
+  },
+  "t_5a8b2c1d": {
+    "message": "Oto podgląd Twoich ustawień czytania."
+  },
+  "t_ac1d4e5f": {
+    "message": "Brak"
+  },
+  "t_b2e3f4a1": {
+    "message": "Szeroki"
+  },
+  "t_c3f4a5b2": {
+    "message": "Bardzo szeroki"
+  },
+  "t_d1a3c901": {
+    "message": "Kliknij"
+  },
+  "t_b4f2e891": {
+    "message": "Przypnij do elementu"
+  },
+  "t_c9a1b302": {
+    "message": "Spacja"
+  },
+  "t_f6d4e203": {
+    "message": "Globalna notatka"
+  },
+  "t_e2b3f104": {
+    "message": "Wyjdź"
+  },
+  "t_a7c0d905": {
+    "message": "Anuluj"
+  },
+  "t_e1b2c301": {
+    "message": "Tylko ta strona"
+  },
+  "t_f7a3b402": {
+    "message": "Ta witryna"
+  },
+  "t_a8c4d503": {
+    "message": "Wszystkie strony (Globalnie)"
+  },
+  "t_b9d5e604": {
+    "message": "Ukryj do przeładowania"
+  },
+  "t_c0e6f705": {
+    "message": "Przypnij notatkę do elementu"
+  },
+  "t_d1f7a806": {
+    "message": "Zmień kolor notatki"
+  },
+  "t_e2a8b907": {
+    "message": "Zwiń/rozwiń notatkę"
+  },
+  "t_f3b9c008": {
+    "message": "Kopiuj zawartość notatki"
+  },
+  "t_a4c0d109": {
+    "message": "Więcej akcji"
+  },
+  "t_b5d1e200": {
+    "message": "Usuń tę notatkę"
+  },
+  "t_e87033a2": {
+    "message": "Alt + X"
+  },
+  "t_4120201a": {
+    "message": "Darmowy okres próbny aktywny"
+  },
+  "t_6ed40ffb": {
+    "message": "Synchronizuj ustawienia między urządzeniami"
+  },
+  "t_f8b8a5fd": {
+    "message": "Wyższy darmowy limit użycia"
+  },
+  "t_440b106d": {
+    "message": "Dostęp do przyszłych funkcji Pro"
+  },
+  "t_3a99076c": {
+    "message": "Limit wersji Premium"
+  },
+  "t_545f6c2f": {
+    "message": "Bez limitu"
+  },
+  "t_ad23f4a0": {
+    "message": "Notatki przestrzenne"
+  },
+  "t_04f2f045": {
+    "message": "Pomyślnie wdrożyłeś wszystkie piętnaście notatek z darmowego poziomu w sieci. Uaktualnij do EasyView Premium, aby odblokować nieskończoną pamięć przestrzenną i niestandardowe kolory."
+  },
+  "t_cf874b99": {
+    "message": "Odblokuj wersję Premium"
+  },
+  "t_a6d36e2f": {
+    "message": "Wszystkie lokalne kontrolki dostępności (aktywne)"
+  },
+  "t_b0b69bc3": {
+    "message": "Silnik zamiany tekstu na mowę (aktywny)"
+  },
+  "t_cc96c21a": {
+    "message": "Funkcje chmury AI (offline)"
+  },
+  "t_7af6f6e5": {
+    "message": "Rozumiem"
+  },
+  "t_9bc7102e": {
+    "message": "Utwórz darmowe konto EasyView, aby śledzić swój limit i odblokować Dekoder żargonu."
+  },
+  "t_ab7512fd": {
+    "message": "Twój token sesji wygasł. Zaloguj się ponownie na easyview.in, aby przywrócić dostęp."
+  },
+  "t_1cd7820a": {
+    "message": "TYLKO DOSTĘP PRO"
+  },
+  "t_8eb14032": {
+    "message": "Dekoder żargonu<br><span class=\"ev-si-gradient-text\">Limit osiągnięty</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "LIMIT WYCZERPANY"
+  },
+  "t_5ae983dc": {
+    "message": "Wykorzystałeś <strong>pięć darmowych dekodowań</strong> w tym miesiącu. Odblokuj nieograniczony dostęp w kilka sekund."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> Przejdź na Pro — Nieograniczone dekodowania</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> Użyj własnego klucza interfejs API</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 Dodaj klucz interfejs API w Ustawieniach</button>"
+  },
+  "t_9be4129a": {
+    "message": "Eksport talii do nauki<br><span class=\"ev-si-gradient-text\">Automatyzacja Pro</span>"
+  },
+  "t_fac34185": {
+    "message": "Natychmiast eksportuj cały swój niestandardowy Notatnik do nauki bezpośrednio do <strong>Anki</strong> i <strong>Quizlet</strong>."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Porzuć ręczne pisanie</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Kompilator fiszek RFC-4180</div>"
+  },
+  "t_da12c30b": {
+    "message": "Dostęp Pro"
+  },
+  "t_4a9b2c01": {
+    "message": "Ta funkcja"
+  },
+  "t_3be78c01": {
+    "message": "Ta czcionka do czytania dla dyslektyków"
+  },
+  "t_0ad4b971": {
+    "message": "Ta czcionka wizualna"
+  },
+  "t_9af42be8": {
+    "message": "Ta czcionka eksportu premium"
+  },
+  "t_cbae8349": {
+    "message": "Uaktualnij, aby odblokować wszystkie funkcje dostępności i zaawansowane narzędzia."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Zaawansowana dostępność</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Wszystkie przyszłe aktualizacje</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ Przejdź na wersję Pro"
+  },
+  "t_5ef4c1a2": {
+    "message": "Może później"
+  },
+  "t_3b7a5e82": {
+    "message": ", ale funkcje AI mogą być tymczasowo niedostępne."
+  },
+  "t_c91d8e12": {
+    "message": "Ogólne"
+  },
+  "t_b42f3a9d": {
+    "message": "Definicja"
+  },
+  "t_f1d4a8e6": {
+    "message": "Słownik"
+  },
+  "t_e398c71f": {
+    "message": "Niestandardowy"
+  },
+  "t_a72df9e5": {
+    "message": "Medyczny"
+  },
+  "t_d8f2c61a": {
+    "message": "Prawne"
+  },
+  "t_b3e1f5d2": {
+    "message": "Finansowe"
+  },
+  "t_c25d81f9": {
+    "message": "Techniczny"
+  },
+  "t_e1b3a4f6": {
+    "message": "Akademicki"
+  },
+  "t_d5f9b4c1": {
+    "message": "Termin"
+  },
+  "t_f7a2e8ea": {
+    "message": "Kategoria"
+  },
+  "t_e3b1c6d9": {
+    "message": "Uproszczone znaczenie"
+  },
+  "t_a9d4e5f2": {
+    "message": "Notatki do nauki / Kontekst"
+  },
+  "t_b4c5d6e7": {
+    "message": "Anuluj"
+  },
+  "t_c8f2a1b4": {
+    "message": "Zapisz zmiany"
+  },
+  "t_8c17b5e6": {
+    "message": "Twój token sesji wygasł. Zaloguj się ponownie na easyview.in, aby przywrócić dostęp."
+  },
+  "t_a43dc219": {
+    "message": "Utwórz darmowe konto EasyView, aby śledzić swój limit użycia i odblokować silnik Morph AI."
+  },
+  "t_54c523fe": {
+    "message": "🎉 Bezbłędnie! Pomyślnie zaimportowano $1 nowych kart do nauki."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 Bezbłędnie! Zaimportowano $1 nowych kart. ($2 duplikaty pominięto.)"
+  },
+  "t_14894d12": {
+    "message": "Eksport motywu"
+  },
+  "t_f27a2629": {
+    "message": "Kopia zapasowa biblioteki motywów"
+  },
+  "t_9ad85e17": {
+    "message": "Tryb linijki do czytania"
+  },
+  "t_b9d4e7a5": {
+    "message": "Zaawansowane tryby osłony sensorycznej"
+  },
+  "t_94f4f7e4": {
+    "message": "Analizowanie DOCX...",
+    "description": "Status podczas analizowania DOCX w czytniku"
+  },
+  "t_120adfc1": {
+    "message": "Analizowanie EPUB...",
+    "description": "Status podczas analizowania EPUB w czytniku"
+  },
+  "t_5d2a45b8": {
+    "message": "Tryb Linijki Czytania jest dostępny wyłącznie w subskrypcjach Pro.",
+    "description": "Alert, gdy użytkownik nieposiadający wersji Pro uzyskuje dostęp do linijki czytania"
+  },
+  "t_c1f29623": {
+    "message": "Edytuj całą kartę",
+    "description": "Etykieta narzędzia do edycji całej karty w notatniku"
+  },
+  "t_1063e38c": {
+    "message": "Usuń",
+    "description": "Etykieta narzędzia do usuwania karty z notatnika"
+  },
+  "t_ccca2ddf": {
+    "message": "Czytnik EasyView"
+  },
+  "t_8524de96": {
+    "message": "Ładowanie..."
+  },
+  "t_25e8f2fd": {
+    "message": "Proszę czekać..."
+  },
+  "t_ec9d785d": {
+    "message": "1.5x"
+  },
+  "t_dafd5f8f": {
+    "message": "Leksend"
+  },
+  "t_16d90a0b": {
+    "message": "Atkinson Hajperledżibl"
+  },
+  "t_5c7db066": {
+    "message": "Segoe UI (domyślna w systemie Windows)"
+  },
+  "t_f7cee5ea": {
+    "message": "Kalibri"
+  },
+  "t_ccc0239e": {
+    "message": "Kandara"
+  },
+  "t_2963521b": {
+    "message": "Korbel"
+  },
+  "t_37f1cc58": {
+    "message": "Kambria"
+  },
+  "t_c3d9d4bf": {
+    "message": "Konstancja"
+  },
+  "t_5d1a5b35": {
+    "message": "Palatino Lajnotajp"
+  },
+  "t_4dc386b6": {
+    "message": "Księga Antykwa"
+  },
+  "t_03c461f6": {
+    "message": "Franklin Gotik"
+  },
+  "t_7b1ee3b6": {
+    "message": "Senturi Gotik"
+  },
+  "t_a3293302": {
+    "message": "Gil Sans"
+  },
+  "t_eb726908": {
+    "message": "Sitka Tekst"
+  },
+  "t_b5bdee2c": {
+    "message": "Silfaen"
+  },
+  "t_1ec05249": {
+    "message": "Majkrosoft Sans Serif"
+  },
+  "t_ad4a300c": {
+    "message": "Segoj Ju Aj Semibold"
+  },
+  "t_16507cdd": {
+    "message": "Konsolas"
+  },
+  "t_391c5954": {
+    "message": "Lusida Konsol"
+  },
+  "t_9879efdf": {
+    "message": "Lusida Sans Tajpraiter"
+  },
+  "t_21f59b54": {
+    "message": "Impakt"
+  },
+  "t_94a7bb97": {
+    "message": "Arial Czarny"
+  },
+  "t_6e87c2cb": {
+    "message": "Koperplejt Gotik"
+  },
+  "t_40885309": {
+    "message": "Berlin Sans FB"
+  },
+  "t_6d5566ba": {
+    "message": "Gabrioła"
+  },
+  "t_edb42482": {
+    "message": "Pismo Odręczne"
+  },
+  "t_fa233799": {
+    "message": "Segoe Skrypt"
+  },
+  "t_2f7bc407": {
+    "message": "Segoe Druk"
+  },
+  "t_0095a9fa": {
+    "message": "Eksportuj"
+  },
+  "t_520d0db3": {
+    "message": "Format"
+  },
+  "t_5956a437": {
+    "message": "TEKST"
+  },
+  "t_1351017a": {
+    "message": "Nazwa pliku"
+  },
+  "t_d4c3c15b": {
+    "message": "Nie załadowano pliku"
+  },
+  "t_0ca5a078": {
+    "message": "Proszę użyć karty Konwerter, aby przesłać plik."
+  },
+  "t_c9857e16": {
+    "message": "Nieobsługiwany typ pliku."
+  },
+  "t_6b447b91": {
+    "message": "Błąd podczas parsowania pliku: "
+  },
+  "t_7f4588be": {
+    "message": "EPUB"
+  },
+  "t_12dc65c2": {
+    "message": "Przełącz Jasny/Ciemny"
+  },
+  "t_d3d2e617": {
+    "message": "Zamknij"
+  },
+  "t_6e8cfcb7": {
+    "message": "Bezpieczny eksport na serwer (Premium)"
+  },
+  "t_2f9df658": {
+    "message": "Odłącz i unieś obszar roboczy nad wszystkimi oknami"
+  },
+  "t_72d6d7a1": {
+    "message": "Importuj"
+  },
+  "t_de93d5fd": {
+    "message": "Eksportuj notatki"
+  },
+  "t_a1aacca9": {
+    "message": "Pływający system operacyjny"
+  },
+  "t_ac0b844f": {
+    "message": "Globalne notatki"
+  },
+  "t_15866f1d": {
+    "message": "Notatki dla witryny"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
+  },
+  "t_6af8212e": {
+    "message": "Tablica notatek EasyView"
+  },
+  "t_d16da0f5": {
+    "message": "🌎"
+  },
+  "t_6df173ff": {
+    "message": "📍"
+  },
+  "t_22f58a00": {
+    "message": "🌎 Notatka globalna"
+  },
+  "t_5be8bbeb": {
+    "message": "🌐 Notatka dla witryny"
+  },
+  "t_59a56663": {
+    "message": "📍 Notatka strony"
+  },
+  "t_c1843696": {
+    "message": "Weryfikacja tokena integralności..."
+  },
+  "t_58038ee4": {
+    "message": "Właśnie teraz"
+  },
+  "t_e254e1a1": {
+    "message": "$1 min. temu",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_121d4d02": {
+    "message": "$1 godz. temu",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_19d2b280": {
+    "message": "$1 dni temu",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_d3d4311c": {
+    "message": "Przeciągnij notatkę"
+  },
+  "t_7b32ea16": {
+    "message": "Przełącz na $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_11916b28": {
+    "message": "Zakres umieszczenia"
+  },
+  "t_5463fe67": {
+    "message": "Paleta kolorów"
+  },
+  "t_d116d454": {
+    "message": "Zwiń notatkę"
+  },
+  "t_be9ba0e5": {
+    "message": "Kopiuj tekst"
+  },
+  "t_28471624": {
+    "message": "Więcej akcji"
+  },
+  "t_90e467df": {
+    "message": "Zamknij notatkę"
+  },
+  "t_34494920": {
+    "message": "Wpisz notatkę tutaj..."
+  },
+  "t_bdda0b60": {
+    "message": "O czym myślisz..."
+  },
+  "t_8689de27": {
+    "message": "Dostępne wszędzie"
+  },
+  "t_c0cf9810": {
+    "message": "Teleportuj z powrotem do strony źródłowej"
+  },
+  "t_24a23176": {
+    "message": "Oryginalny kontekst"
+  },
+  "t_4c1c1e76": {
+    "message": "Import notatnika"
+  },
+  "t_2736f644": {
+    "message": "Bezproblemowo scalaj zewnętrzne talie do nauki i listy słownictwa z ekosystemem EasyView."
+  },
+  "t_ca4f038f": {
+    "message": "Wymagane kolumny"
+  },
+  "t_7277de5f": {
+    "message": "Znaczenie"
+  },
+  "t_ce591bfa": {
+    "message": "Opcjonalne kolumny"
+  },
+  "t_f4c6f851": {
+    "message": "Notatki"
+  },
+  "t_c1fd81a6": {
+    "message": "Wybierz lub przeciągnij plik arkusza kalkulacyjnego CSV"
+  },
+  "t_5c426600": {
+    "message": "Duplikaty i istniejące słowa są filtrowane automatycznie"
+  },
+  "t_76e7183d": {
+    "message": "Import zakończony sukcesem!"
+  },
+  "t_3e17e02d": {
+    "message": "Twoje słownictwo zostało zaktualizowane."
+  },
+  "t_3148d309": {
+    "message": "Zamknij kartę"
+  },
+  "t_0e412fa1": {
+    "message": "Efekt świętowania zostanie uruchomiony po powrocie do wyskakującego okienka"
+  },
+  "t_d29f6e6b": {
+    "message": "Import nieudany"
+  },
+  "t_e04efbcb": {
+    "message": "Status notatnika"
+  },
+  "t_ed732761": {
+    "message": "Import motywów Morph"
+  },
+  "t_e44db711": {
+    "message": "Bezpiecznie zaimportuj swoją niestandardową bibliotekę silnika Morph bezpośrednio do EasyView."
+  },
+  "t_c0bb7d43": {
+    "message": "Wybierz lub przeciągnij plik danych JSON"
+  },
+  "t_36e9583e": {
+    "message": "Importuje wcześniej wyeksportowane układy motywów."
+  },
+  "t_21630184": {
+    "message": "Motywy przywrócone!"
+  },
+  "t_d0c1ec75": {
+    "message": "Twoje szablony Morph zostały pomyślnie zainstalowane."
+  },
+  "t_cd27a5c0": {
+    "message": "EasyView — Czytnik treści"
+  },
+  "t_b171ab1f": {
+    "message": "Witamy w czytniku"
+  },
+  "t_4e07c284": {
+    "message": "Prześlij tutaj swoje dokumenty, aby czytać je z dostosowaną typografią i zaawansowanymi pomocami ułatwiającymi dostęp."
+  },
+  "t_004621c0": {
+    "message": "Obsługuje dokumenty tekstowe, e-booki oraz pliki .docx, .epub i .txt"
+  },
+  "t_23bb27a0": {
+    "message": "Inicjowanie parsera dokumentów..."
+  },
+  "t_e1d5f16c": {
+    "message": "Optymalizacja plików DOCX pod kątem czytelności..."
+  },
+  "t_0e55c5d0": {
+    "message": "Analizowanie struktury plików EPUB..."
   }
 }

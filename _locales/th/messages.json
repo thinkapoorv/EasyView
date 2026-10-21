@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "อีซี่วิว — ความชัดเจนสำหรับทุกสมอง"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "อีซี่วิว"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "เปลี่ยนเว็บไซต์ใดก็ได้ทันทีด้วยคำสั่ง เอไอ (เอไอ (AI)) หรือการคลิกเพียงครั้งเดียว ดูเว็บในแบบของคุณ"
+  },
+  "t_68ba0232": {
+    "message": "เปิดใช้งานโหมดดิสเล็กเซียแล้ว"
+  },
+  "t_85f47a25": {
+    "message": "ปิดใช้งานโหมดดิสเล็กเซียแล้ว"
+  },
+  "t_1cc1b64d": {
+    "message": "เนื้อหาไม่เพียงพอที่จะวิเคราะห์"
+  },
+  "t_cebe6412": {
+    "message": "ไม่พบคำศัพท์ที่ซับซ้อน"
+  },
+  "t_b964aa0f": {
+    "message": "เกิดข้อผิดพลาดในการวิเคราะห์เนื้อหาหน้าเว็บ"
+  },
+  "t_956c104e": {
+    "message": "ล้างหน่วยความจำหน้าเว็บแล้ว"
+  },
+  "t_1f4b0f3e": {
+    "message": "ล้างคำศัพท์แล้ว"
+  },
+  "t_4bfeec37": {
+    "message": "ไม่พบคำศัพท์ที่ซับซ้อนในสิ่งที่เลือก"
+  },
+  "t_1b5e8531": {
+    "message": "ไม่พบคำศัพท์ที่ซับซ้อนในสิ่งที่เลือก"
+  },
+  "t_a1f781ec": {
+    "message": "ข้อผิดพลาดในการถอดรหัสส่วนที่เลือก"
+  },
+  "t_7aae8122": {
+    "message": "ล้างไฮไลต์ที่เลือกแล้ว"
+  },
+  "t_58762fd6": {
+    "message": "โปรดเลือกคำเดียวหรือวลีสั้นๆ เพื่อกำหนดความหมาย"
+  },
+  "t_6838b119": {
+    "message": "เกิดข้อผิดพลาดเครือข่ายขณะค้นหาคำจำกัดความ"
+  },
+  "t_ea3ca1b5": {
+    "message": "ถอดรหัส $1 คำ (จากแคช)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "ถอดรหัส $1 คำแล้ว (แคช)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "คุณใช้สิทธิ์ตัวถอดรหัสศัพท์เฉพาะฟรีครบแล้วในเดือนนี้ อัปเกรดเป็นโปรเพื่อเข้าถึงได้ไม่จำกัด"
+  },
+  "t_cb3c5d3a": {
+    "message": "ถอดรหัส $1 คำใน $2 หมวดหมู่",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "ไฮไลต์คำศัพท์ที่คุณถอดรหัสโดยอัตโนมัติจำนวน $1 รายการ",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "กู้คืน $1 คำจำกัดความศัพท์เฉพาะที่บันทึกไว้ $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "คุณใช้สิทธิ์ตัวถอดรหัสศัพท์เฉพาะฟรีครบแล้วในเดือนนี้ อัปเกรดเป็นโปรเพื่อเข้าถึงได้ไม่จำกัด"
+  },
+  "t_0b841c82": {
+    "message": "อยู่ในสมุดบันทึกแล้ว!"
+  },
+  "t_8901f3ab": {
+    "message": "บันทึกลงสมุดบันทึกแล้ว!"
+  },
+  "t_eb8f5242": {
+    "message": "ข้อผิดพลาดในการบันทึกลงสมุดบันทึก"
+  },
+  "t_bd15702b": {
+    "message": "เปิดใช้งานเกราะป้องกันประสาทสัมผัสแล้ว"
+  },
+  "t_c28f3265": {
+    "message": "ปิดใช้งานเกราะป้องกันประสาทสัมผัสแล้ว"
+  },
+  "t_3f8910d9": {
+    "message": "อีซี่วิว"
+  },
+  "t_8aafa613": {
+    "message": "ไม่สามารถทำให้ข้อความนี้ง่ายขึ้นได้"
+  },
+  "t_79d2dc85": {
+    "message": "ไม่สามารถทำให้ข้อความนี้ง่ายขึ้นได้"
+  },
+  "t_99684ba5": {
+    "message": "ข้อผิดพลาดในการทำให้ข้อความง่ายขึ้น"
+  },
+  "t_f4362bde": {
+    "message": "คัดลอกไปยังคลิปบอร์ดแล้ว!"
+  },
+  "t_af07ef4b": {
+    "message": "คัดลอกล้มเหลว"
+  },
+  "t_94e4d537": {
+    "message": "แทนที่ข้อความบนหน้าเว็บแล้ว"
+  },
+  "t_14a04b67": {
+    "message": "ลบหน่วยความจำการทำให้ง่ายขึ้นแล้ว"
+  },
+  "t_c444ff21": {
+    "message": "กู้คืนข้อความต้นฉบับชั่วคราวแล้ว"
+  },
+  "t_55f1db14": {
+    "message": "คุณใช้สิทธิ์ฟรีครบแล้วในเดือนนี้ อัปเกรดเป็นโปรเพื่อเข้าถึงได้ไม่จำกัด"
+  },
+  "t_fde4e3f0": {
+    "message": "กู้คืน $1 การทำให้ง่ายขึ้นที่บันทึกไว้บนหน้านี้แล้ว",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "กู้คืนการทำให้ง่ายขึ้นที่โหลดแบบไดนามิกโดยอัตโนมัติแล้ว!"
+  },
+  "t_dfa22e52": {
+    "message": "เปิดใช้งานการอ่านออกเสียงข้อความแล้ว"
+  },
+  "t_ca153ad0": {
+    "message": "ปิดใช้งานการอ่านออกเสียงข้อความ"
+  },
+  "t_dadbff09": {
+    "message": "โปรดเปิดใช้งานระบบอ่านออกเสียงก่อน"
+  },
+  "t_47071c61": {
+    "message": "กำลังกลับมาทำงานต่อ..."
+  },
+  "t_5516c48d": {
+    "message": "ไม่พบเนื้อหาที่อ่านได้บนหน้านี้"
+  },
+  "t_c57f25c9": {
+    "message": "ไม่พบเนื้อหาที่อ่านได้"
+  },
+  "t_2516997e": {
+    "message": "การอ่านเสร็จสมบูรณ์"
+  },
+  "t_d3069aea": {
+    "message": "ไม่รองรับระบบอ่านออกเสียงในเบราว์เซอร์นี้"
+  },
+  "t_53e6b8c6": {
+    "message": "โปรดเลือกข้อความก่อน"
+  },
+  "t_e932d0f7": {
+    "message": "กำลังอ่านส่วนที่เลือก..."
+  },
+  "t_1c50528d": {
+    "message": "การอ่านเสร็จสมบูรณ์"
+  },
+  "t_594778a2": {
+    "message": "หยุดชั่วคราว"
+  },
+  "t_4ded5f77": {
+    "message": "หยุดการอ่านออกเสียงแล้ว"
+  },
+  "t_0a74758c": {
+    "message": "✨ ขับเคลื่อนโดยคีย์ส่วนตัว"
+  },
+  "t_2fceddad": {
+    "message": "✨ ไม่จำกัด"
+  },
+  "t_97627d80": {
+    "message": "✨ ขับเคลื่อนโดยคีย์ส่วนตัว"
+  },
+  "t_fd7d5888": {
+    "message": "จัดการการสมัครสมาชิก"
+  },
+  "t_df4657a5": {
+    "message": "สมาชิกฟรี"
+  },
+  "t_22dfb2ec": {
+    "message": "ผู้ใช้งานทั่วไป"
+  },
+  "t_bd9f2460": {
+    "message": "บัญชีฟรี"
+  },
+  "t_f5adda31": {
+    "message": "เข้าสู่ระบบ / สมัครสมาชิก"
+  },
+  "t_d2439201": {
+    "message": "✨ ไม่จำกัด"
+  },
+  "t_164442b7": {
+    "message": "กำลังเตรียมเครื่องมือแปลง..."
+  },
+  "t_1e7c3002": {
+    "message": "พร้อมแยกวิเคราะห์ไฟล์"
+  },
+  "t_d30f78df": {
+    "message": "โหมดมืด"
+  },
+  "t_6c68d8ce": {
+    "message": "โหมดสว่าง"
+  },
+  "t_fcb68c2b": {
+    "message": "ไม่พบบันทึกช่วยจำ ไม่มีอะไรให้ส่งออก!"
+  },
+  "t_2b75b2d9": {
+    "message": "โทเค็นเซสชันของคุณหายไป โปรดลงชื่อเข้าใช้ easyview.in อีกครั้งเพื่อกู้คืนการเข้าถึง"
+  },
+  "t_291a4e34": {
+    "message": "การกำหนดเส้นทางเซิร์ฟเวอร์ที่ปลอดภัยล้มเหลว ตรวจสอบการเชื่อมต่อของคุณ"
+  },
+  "t_2dcf62b3": {
+    "message": "ไม่พบโน้ตที่หายไป พื้นที่ทำงานของคุณเป็นปัจจุบันแล้ว"
+  },
+  "t_951bf3ae": {
+    "message": "การถอดรหัสล้มเหลว: ไฟล์ไม่เป็นไปตามขอบเขตของ อีซี่วิว (อีซี่วิว (EasyView))"
+  },
+  "t_817a4ba0": {
+    "message": "ไม่รองรับ ภาพซ้อนภาพ (ภาพซ้อนภาพ (PiP)) อินเทอร์เฟซ API (อินเทอร์เฟซ) โปรดอัปเดต โครม (โครม)"
+  },
+  "t_e8aa6e9a": {
+    "message": "ไม่สามารถเริ่มต้นเครื่องมือ ภาพซ้อนภาพ (ภาพซ้อนภาพ (PiP)): "
+  },
+  "t_9feed9d5": {
+    "message": "ถอดรหัสและแทรก $1 บันทึกใหม่สำเร็จแล้ว",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "เบต้า"
+  },
+  "t_c289adbe": {
+    "message": "สนับสนุนเรา"
+  },
+  "t_60d5b12a": {
+    "message": "รีวิวเรา"
+  },
+  "js_eb82de4c": {
+    "message": "สีที่กำหนดเอง"
+  },
+  "js_8caef32b": {
+    "message": "รีเซ็ต/ล้าง (เลือกข้อความแล้วคลิก หรือดับเบิลคลิกที่ไฮไลต์ด้วยตนเอง)"
+  },
+  "t_823aeb91": {
+    "message": "พื้นที่ทำงานอีซี่วิว"
+  },
+  "t_fc42ed23": {
+    "message": "ไม่พบบันทึกทั่วไปลอยอยู่ในพื้นที่ทำงานของคุณ"
+  },
+  "t_12d7c58a": {
+    "message": "กด เว้นวรรค ในขณะที่เคอร์เซอร์โน้ตแปะทำงานอยู่เพื่อสร้างโน้ตใหม่"
+  },
+  "t_ab983c11": {
+    "message": "ไม่พบบันทึกเฉพาะไซต์ที่นี่"
+  },
+  "t_e22709e9": {
+    "message": "คลิกที่องค์ประกอบบนเว็บไซต์ใดก็ได้เพื่อยึดโน้ตที่ต้องการ"
+  },
+  "t_34bdba45": {
+    "message": "ขั้นตอน"
+  },
+  "t_9b2d88a1": {
+    "message": "ของ"
+  },
+  "t_8f44d852": {
+    "message": "เริ่มต้นใช้งาน!"
+  },
+  "t_b45c2f91": {
+    "message": "ปลดล็อกการส่งออกพื้นที่ทำงาน"
+  },
+  "t_88f91dc1": {
+    "message": "การเรนเดอร์และส่งออกโน้ตพื้นที่ทำงานทั่วไปทั้งหมดของคุณอย่างปลอดภัยต้องใช้ใบอนุญาตโปรที่ผ่านการยืนยัน อัปเกรดเพื่อปลดล็อกฟีเจอร์นี้อย่างถาวร"
+  },
+  "t_134dff88": {
+    "message": "ไว้ทีหลัง"
+  },
+  "t_5b8c9d11": {
+    "message": "อัปเกรดเป็นโปร"
+  },
+  "t_792bd8c9": {
+    "message": "พื้นที่ทำงานแบบลอย!"
+  },
+  "t_e39f7dc2": {
+    "message": "โน้ตแปะของคุณกำลังลอยอยู่เหนือเดสก์ท็อปของระบบปฏิบัติการแล้ว"
+  },
+  "t_c83d6ec9": {
+    "message": "เชื่อมต่อพื้นที่ทำงานใหม่"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">อีซี่วิว (อีซี่วิว (EasyView)) เอไอ (เอไอ (AI))</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">กำลังกรองสัญญาณรบกวน...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"ทำงานในพื้นหลัง\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>ย่อขนาด</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>หยุดเครื่องมือ</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "หยุดการสร้างแล้ว"
+  },
+  "t_removed_from_notebook": {
+    "message": "ลบออกจากสมุดบันทึกแล้ว"
+  },
+  "t_d1c58470": {
+    "message": "ดับเบิลคลิกเพื่อลบไฮไลต์"
+  },
+  "t_d4fdfb03": {
+    "message": "ลงชื่อเข้าใช้ อีซี่วิว (อีซี่วิว (EasyView)) เพื่อรับสิทธิ์ใช้งานฟรี $1 ครั้ง/เดือน หรือเพิ่มคีย์ อินเทอร์เฟซ API (อินเทอร์เฟซ) ของคุณเองในการตั้งค่า",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "กำลังโหลดผลลัพธ์ที่บันทึกไว้..."
+  },
+  "t_3a99733d": {
+    "message": "กำลังเริ่มต้นตัวถอดรหัสศัพท์เฉพาะ..."
+  },
+  "t_b6dc9fc9": {
+    "message": "สร้างบัญชี อีซี่วิว (อีซี่วิว (EasyView)) ฟรีเพื่อรับสิทธิ์ถอดรหัส เอไอ (เอไอ (AI)) ฟรี $1 ครั้งต่อเดือนและติดตามโควตาของคุณ",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "สร้างบัญชี อีซี่วิว (อีซี่วิว (EasyView)) ฟรีเพื่อรับสิทธิ์คำจำกัดความ เอไอ (เอไอ (AI)) ฟรี $1 ครั้งต่อเดือนและติดตามโควตาของคุณ",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "กำลังดึงเนื้อหาหลัก..."
+  },
+  "t_0eeae2bf": {
+    "message": "กำลังตรวจจับบริบทของหน้าเว็บ..."
+  },
+  "t_87f125d0": {
+    "message": "กำลังวิเคราะห์คำศัพท์..."
+  },
+  "t_9ef6e70f": {
+    "message": "กำลังใช้ผลลัพธ์ที่แคชไว้..."
+  },
+  "t_9afdc5e8": {
+    "message": "กำลังวิเคราะห์ด้วย เอไอ (เอไอ (AI))..."
+  },
+  "t_7ecc3abe": {
+    "message": "การถอดรหัสด้วย เอไอ (เอไอ (AI)) ล้มเหลว"
+  },
+  "t_9220c8de": {
+    "message": "กำลังใช้การทำให้ง่ายขึ้น..."
+  },
+  "t_57f406b1": {
+    "message": "กำลังถอดรหัสส่วนที่เลือก..."
+  },
+  "t_c50f2b72": {
+    "message": "ดูอภิธานศัพท์"
+  },
+  "t_49de9b11": {
+    "message": "ซ่อนไฮไลต์บนหน้าเว็บ"
+  },
+  "t_3158774e": {
+    "message": "กู้คืนไฮไลต์บนหน้าเว็บ"
+  },
+  "t_fc3ad42d": {
+    "message": "บันทึกลงคำศัพท์"
+  },
+  "t_87e933b8": {
+    "message": "กำลังค้นหาคำจำกัดความ..."
+  },
+  "t_56b79836": {
+    "message": "โหลดคำจำกัดความของคำแล้ว"
+  },
+  "t_969b24ea": {
+    "message": "🔊 คลิกที่ใดก็ได้เพื่อเปิดใช้งานเสียงของธีม"
+  },
+  "t_49337275": {
+    "message": "ไฮไลต์ด้วยตนเอง"
+  },
+  "t_93324bd5": {
+    "message": "บันทึกโดยตรงจากหน้าเว็บ"
+  },
+  "t_82e413f3": {
+    "message": "กำลังทำให้ข้อความง่ายขึ้น..."
+  },
+  "t_86c4f6e5": {
+    "message": "กำลังทำให้ง่ายขึ้นด้วย เอไอ (เอไอ (AI))..."
+  },
+  "t_c3e18edb": {
+    "message": "การทำให้ง่ายขึ้นล้มเหลว"
+  },
+  "t_6398ab2c": {
+    "message": "ระดับการอ่าน: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "คลิกเพื่อกู้คืนข้อความต้นฉบับชั่วคราว"
+  },
+  "t_9beea3e8": {
+    "message": "ลบออกจากหน่วยความจำอย่างถาวร"
+  },
+  "t_453bb8f7": {
+    "message": "สร้างบัญชี อีซี่วิว (อีซี่วิว (EasyView)) ฟรีเพื่อรับสิทธิ์การทำให้ง่ายขึ้นด้วย เอไอ (เอไอ (AI)) ฟรี $1 ครั้งต่อเดือนและติดตามโควตาของคุณ",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "ฟัง"
+  },
+  "t_24833610": {
+    "message": "บันทึกแล้ว"
+  },
+  "t_30a008cb": {
+    "message": "อ่านเพิ่มเติม &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "บันทึกไปยังสมุดคำศัพท์แล้ว!"
+  },
+  "t_2728e87f": {
+    "message": "ลบออกจากสมุดคำศัพท์แล้ว"
+  },
+  "t_6b8c66ce": {
+    "message": "อภิธานศัพท์ ($1 คำ)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "ลบหน่วยความจำสำหรับหน้านี้"
+  },
+  "t_8a49fe1a": {
+    "message": "ลบคำศัพท์"
+  },
+  "t_1534891c": {
+    "message": "ถอดรหัสคำศัพท์แล้ว $1 คำ",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "บันทึกลงสมุดบันทึก"
+  },
+  "t_150a2843": {
+    "message": "ล้างไฮไลต์"
+  },
+  "t_21ef939c": {
+    "message": "บันทึกลงสมุดบันทึกแล้ว!"
+  },
+  "t_8054da35": {
+    "message": "พจนานุกรมด่วน",
+    "description": "ส่วนหัวป๊อปอัปพจนานุกรมด่วน"
+  },
+  "t_4aeb2167": {
+    "message": "ไม่พบคำศัพท์",
+    "description": "ชื่อเรื่องสำรองของพจนานุกรม"
+  },
+  "t_272d0070": {
+    "message": "เราไม่พบ \"$1\" ในพจนานุกรมพื้นฐาน อาจเป็นคำสแลงสมัยใหม่ ตัวย่อ หรือศัพท์เฉพาะทางขั้นสูง",
+    "description": "คำอธิบายสำรองของพจนานุกรมพร้อมตัวยึดคำศัพท์",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "ถอดรหัสด้วย อีวี่ (Evie) เอไอ (เอไอ (AI))",
+    "description": "ปุ่มสำรองเพื่อถอดรหัสด้วย AI"
+  },
+  "t_14f1f972": {
+    "message": "ผ่าน",
+    "description": "คำนำหน้าแหล่งที่มาของพจนานุกรม"
+  },
+  "t_f2faf2f1": {
+    "message": "คำนาม",
+    "description": "คำนาม"
+  },
+  "t_b512ddf1": {
+    "message": "คำกริยา",
+    "description": "คำกริยา"
+  },
+  "t_d807ae6a": {
+    "message": "คำคุณศัพท์",
+    "description": "คำคุณศัพท์"
+  },
+  "t_1a607278": {
+    "message": "คำวิเศษณ์",
+    "description": "คำวิเศษณ์"
+  },
+  "t_02de720d": {
+    "message": "คำสรรพนาม",
+    "description": "คำสรรพนาม"
+  },
+  "t_4b7be2c3": {
+    "message": "คำบุพบท",
+    "description": "คำบุพบท"
+  },
+  "t_a3c1d30b": {
+    "message": "คำสันธาน",
+    "description": "คำสันธาน"
+  },
+  "t_e189f001": {
+    "message": "คำอุทาน",
+    "description": "คำอุทาน"
+  },
+  "t_96de90f8": {
+    "message": "คัดลอกข้อความที่ทำให้ง่ายขึ้น",
+    "description": "คำแนะนำเครื่องมือสำหรับคัดลอกข้อความที่ทำให้ง่ายขึ้น"
+  },
+  "t_44a6e288": {
+    "message": "อ่านหน้าเว็บ",
+    "description": "คำแนะนำเครื่องมือสำหรับอ่านทั้งหน้าผ่านระบบอ่านออกเสียง"
+  },
+  "t_7d70d73b": {
+    "message": "อ่านส่วนที่เลือก",
+    "description": "คำแนะนำเครื่องมือสำหรับอ่านสิ่งที่เลือกผ่านระบบอ่านออกเสียง"
+  },
+  "t_11936123": {
+    "message": "ลบโน้ตอย่างถาวร",
+    "description": "คำแนะนำเครื่องมือสำหรับลบบันทึกช่วยจำอย่างถาวร"
+  },
+  "t_d27532d9": {
+    "message": "ย่อ"
+  },
+  "t_2bd339d8": {
+    "message": "กู้คืน"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "อีซี่วิว"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "การแจ้งเตือนระบบ"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "การแจ้งเตือนของระบบ"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "เครื่องมือ\nอีซี่วิว (อีซี่วิว (EasyView))"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "ฟีเจอร์ในเครื่องยังคง\nใช้งานอยู่"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,580 +599,571 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "ประสบการณ์\nอีซี่วิว (อีซี่วิว (EasyView))"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "คุณใช้ อีซี่วิว (อีซี่วิว (EasyView)) มา ๑๒ ชั่วโมงแล้ว สร้างบัญชีฟรีเพื่อ\r\n                    บันทึก\r\n                    การตั้งค่าของคุณ รักษาโควตาของคุณ และปลดล็อกฟีเจอร์เพิ่มเติม"
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "เตือนฉันใน ๑๒ ชั่วโมง"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "สว่าง"
   },
   "t_7fc56270": {
-    "message": "A"
+    "message": "ก"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "แบบอักษร"
   },
   "t_5dbc98dc": {
-    "message": "S"
+    "message": "ส"
   },
   "t_69691c7b": {
-    "message": "M"
+    "message": "ข"
   },
   "t_d20caec3": {
-    "message": "L"
+    "message": "ค"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "คุณสมบัติ"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "ภาพ"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "ตัวแปลง"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "สมุดบันทึก"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "ถอดรหัสศัพท์เฉพาะ"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "ทำให้คำศัพท์ทางกฎหมายที่ซับซ้อนง่ายขึ้น"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "วิกิพีเดีย.ออร์ก/วิกิ/ความหลากหลายทางระบบประสาท"
   },
   "t_61e9c06e": {
-    "message": "W"
+    "message": "ง"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "ความหลากหลายทางระบบประสาท"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "ง่ายขึ้น\r\n                                                มาก"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "เกราะป้องกันสมาธิและความเป็นส่วนตัว"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "เบลอเนื้อหาส่วนตัวและเนื้อหาที่ละเอียดอ่อน"
   },
   "t_7f766191": {
-    "message": "mail.google.com/mail/u/0/"
+    "message": "เมลจุดกูเกิลดอทคอม/เมล/ยู/๐/"
   },
   "t_dfcf28d0": {
-    "message": "G"
+    "message": "จ"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "บัญชีกูเกิล"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "การแจ้งเตือนความปลอดภัย"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- มีการร้องขอรีเซ็ตรหัสผ่าน..."
   },
   "t_8d9c307c": {
-    "message": "N"
+    "message": "ฉ"
   },
   "t_170b1d36": {
-    "message": "Netflix"
+    "message": "เน็ตฟลิกซ์"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "ใหม่สัปดาห์นี้"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- ตรวจสอบ\r\n                                                    รุ่นล่าสุดของเรา..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "เทคนิคการป้องกัน"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "การเบลอเนื้อหาส่วนตัว"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "เบลอข้อมูล วอตส์แอปป์, จีเมล และช่องป้อนรหัสผ่าน\r\n                                            เพื่อความปลอดภัยทางสายตาทันที"
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "ป้องกันอัตโนมัติเมื่อแชร์หน้าจอ"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "ปกป้องหน้าจอของคุณทันทีเมื่อแชร์ออนไลน์"
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
-  },
-  "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "กำลังใช้\r\n                                                    โปรเจกเตอร์จริงอยู่ใช่ไหม?"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "ไฟฉายสำหรับการอ่าน"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "ติดตามเมาส์ของคุณด้วยสปอตไลต์ที่สว่างเพื่อกำจัดความยุ่งเหยิงทางสายตาโดยรอบอย่างสมบูรณ์"
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "๑.\r\n                                                            รูปร่างลำแสง"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "สปอตไลต์\r\n                                                            หรือไม้บรรทัด"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "๒.\r\n                                                                ขนาด / ความสูงของลำแสง"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "ความหนา\r\n                                                                ของพื้นที่การมองเห็น"
   },
   "t_f0cad41b": {
-    "message": "35px"
+    "message": "๓๕px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "๓.\r\n                                                            สีเลนส์ลำแสงโฟกัส"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "ย้อมสี\r\n                                                            ช่องว่างการอ่านอย่างนุ่มนวล"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "๔.\r\n                                                            เงาพื้นหลังโดยรอบ"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "ความมืด\r\n                                                            รอบเลนส์ของคุณ"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "เกราะป้องกันประสาทสัมผัส"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "หยุดภาพเคลื่อนไหวที่รบกวนสายตา"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "นิวส์เดลี่ดอทคอม/เบรกกิ้ง"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "ข่าวเด่น"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "กำลังอ่านบทความข่าวรายวัน..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "ชนะ!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "โหมดป้องกัน"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(ค่าเริ่มต้น)"
   },
   "t_9e3360ac": {
-    "message": "PRO"
+    "message": "โปร"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "หยุดเล่นอัตโนมัติ + จางลงอย่างนุ่มนวล\r\n                                                เมื่อนำทางด้วยตนเอง"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "โหมดการอ่านสำหรับผู้มีภาวะดิสเล็กเซีย"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "แบบอักษรและระยะห่างที่ปรับให้เหมาะสม"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "โปรไฟล์ความเข้มข้น"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "ต่ำ"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "ปานกลาง"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "สูง"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "วิกิพีเดียดอทออร์จี/วิกิ/รีดดิ้ง"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "การอ่าน"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "นี่คือตัวอย่างการตั้งค่าการอ่านของคุณ"
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "ตัวเลือกขั้นสูง"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "สไตล์ตัวอักษร"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "ค่าเริ่มต้น (ไม่มีการเปลี่ยนแปลง)"
   },
   "t_5d2967ef": {
-    "message": "OpenDyslexic"
+    "message": "โอเพนดิสเล็กซิก"
   },
   "t_1042daad": {
-    "message": "Lexend (ADHD Pro) 🔒"
+    "message": "เลกเซนด์ (เอดีเอชดี โปร) 🔒"
   },
   "t_bcec044a": {
-    "message": "Atkinson Hyperlegible 🔒"
+    "message": "แอทคินสัน ไฮเปอร์เลจิเบิล 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "ฟาสต์แซนส์"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "ฟาสต์เซริฟ"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "คอมิกนิว"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "คอมิกแซนส์"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "ระยะห่างระหว่างตัวอักษร"
   },
   "t_960b44c5": {
-    "message": "Normal"
+    "message": "ปกติ"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "ระยะห่างบรรทัด"
   },
   "t_60086472": {
-    "message": "1.5"
+    "message": "๑.๕"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "ระยะห่างระหว่างคำ"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "ขนาดตัวอักษร"
   },
   "t_30bd7ce7": {
-    "message": "100%"
+    "message": "๑๐๐%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "สีซ้อนทับ"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "ไม่มี"
   },
   "t_2bd8c63b": {
-    "message": "Beige"
+    "message": "สีเบจ"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "สีฟ้าอ่อน"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "สีเขียวอ่อน"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "สีเหลืองอ่อน"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "แปลงข้อความเป็นเสียง"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "อ่านออกเสียงพร้อมไฮไลต์"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "เล่น"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "พัก"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "หยุด"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "เลือกเสียง"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "อัตโนมัติ (คุณภาพดีที่สุด)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "ความเร็วในการอ่าน"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "ช้ามาก"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "ช้า"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "เร็ว"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "เร็วมาก"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "ระดับเสียง"
   },
   "t_f1943132": {
-    "message": "70%"
+    "message": "๗๐%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "หยุดพักเมื่อเจอเครื่องหมายวรรคตอน"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "การไฮไลต์คำ"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "เปิดใช้งาน"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "โหมด"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "มืด"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "วิกิพีเดียดอทออร์จี/วิกิ/ไลท์"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "ภาพที่สมบูรณ์แบบเพื่อความสบายตา แสงอาจเข้มข้นเกินไป"
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "ความสว่าง"
   },
   "t_c63ecd19": {
-    "message": "Contrast"
+    "message": "ความคมชัด"
   },
   "t_b84a9a38": {
-    "message": "Sepia"
+    "message": "สีซีเปีย"
   },
   "t_9f1ef078": {
-    "message": "0%"
+    "message": "๐%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "ระดับสีเทา"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "ค่าเริ่มต้น"
   },
   "t_b1166920": {
-    "message": "Lexend 🔒"
+    "message": "เลกเซนด์ 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "เส้นขอบข้อความ"
   },
   "t_cfcd2084": {
-    "message": "0"
+    "message": "๐"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "ตัวแปลงและโปรแกรมอ่านอัจฉริยะ"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "ไฟล์ปัจจุบัน"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "คลิกหรือลากไฟล์เพื่ออัปโหลด"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• พร้อม"
   },
   "t_4c4ad5fc": {
-    "message": "HTML"
+    "message": "เอชทีเอ็มแอล"
   },
   "t_5c31b30e": {
-    "message": "EPUB"
+    "message": "อีพับ"
   },
   "t_7cfd9a9f": {
-    "message": "DOCX"
+    "message": "ด็อกซ์"
   },
   "t_af97e960": {
     "message": "📌"
   },
   "t_4cc6684d": {
-    "message": "Global"
+    "message": "ทั่วไป"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "ไซต์/หน้า"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "สมุดโน้ตของฉัน"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "ล้างทั้งหมด"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "ยกเลิก"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "บันทึกคำ"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "ยังไม่มีคำที่บันทึกไว้"
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "วางเมาส์เหนือศัพท์เฉพาะบนหน้าใดก็ได้แล้วคลิกธงบุ๊กมาร์กเพื่อบันทึกไว้ที่นี่!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "จินตนาการอินเทอร์เฟซของเว็บไซต์ใหม่ อธิบายสิ่งที่คุณต้องการหรือเลือก\r\n                            ค่าที่ตั้งไว้ล่วงหน้า"
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "การแปลง\nที่ใช้"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "เลย์เอาต์ เอไอ (เอไอ (AI)) แบบกำหนดเอง\r\n                                กำลังทำงานบนไซต์นี้"
   },
   "t_e8a57cd1": {
-    "message": "0 /\r\n                                500"
+    "message": "๐ /\r\n                                ๕๐๐"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "รีเซ็ตหน้า"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "รูปแบบการแปลง"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "ค่าเริ่มต้น"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "ฮอร์เรอร์คาร์นิวัล"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "บรรยากาศงานคาร์นิวัลที่น่าขนลุกและข้อความสยองขวัญแบบเคลื่อนไหว"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "คอนโซลเมทริกซ์"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "ธีมเทอร์มินัลไซเบอร์พังก์"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "โฟกัสระบบประสาท"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "แบบอักษรที่เป็นมิตรต่อภาวะดิสเล็กเซียและสีที่ผ่อนคลาย"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "โหมดการอ่าน"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "เลย์เอาต์แบบมินิมอลที่ปรับให้เหมาะสมเพื่อสมาธิ"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "คำสั่งล่าสุด"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "ผู้ใช้งานทั่วไป"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "บัญชีฟรี"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "เข้าสู่ระบบ / จัดการ"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "ออกจากระบบ"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "การตั้งค่าเอพีไอ"
   },
   "t_766cc4dd": {
-    "message": "Gemini"
+    "message": "เจมินาย"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "ผู้ให้บริการเอไอ"
   },
   "t_222cf5ed": {
-    "message": "Google Gemini"
+    "message": "กูเกิลเจมินาย"
   },
   "t_a0607683": {
-    "message": "OpenRouter"
+    "message": "โอเพนเราเตอร์"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "คีย์เอพีไอเจมินาย"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "กูเกิลเอไอสตูดิโอ"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "คีย์เอพีไอโอเพนเราเตอร์"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "บันทึกคีย์เอพีไอ"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "อีซี่วิว (อีซี่วิว (EasyView))\r\n                                    ลำดับความสำคัญ เอไอ (เอไอ (AI))"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ คีย์เอพีไอของฉัน"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 เซิร์ฟเวอร์ อีซี่วิว (อีซี่วิว (EasyView))"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "เลือก\r\n                                สิ่งที่จะใช้ก่อนสำหรับฟีเจอร์ เอไอ (เอไอ (AI)) ทั้งหมด หากคีย์ของคุณหมด เซิร์ฟเวอร์ อีซี่วิว (อีซี่วิว (EasyView)) จะถูกใช้\r\n                                เป็นตัวสำรองเสมอ"
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "ความเป็นส่วนตัว\nและลำดับความสำคัญ"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "ลำดับความสำคัญ ๑:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "ลำดับความสำคัญ ๒:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "หมายเหตุเครื่องมือ\r\n                                            แปลง:"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "ไม่เคย"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "ช่วยเหลือและข้อเสนอแนะ"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "มีคำถาม พบข้อผิดพลาด หรือต้องการแนะนำฟีเจอร์ใช่ไหม? เราอยากได้ยินจากคุณ!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "รายงานข้อผิดพลาด / ให้ความคิดเห็น"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "พร้อมที่จะทำให้ง่ายขึ้น"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "ส่งออกการตั้งค่า"
   },
   "t_9d5ed678": {
-    "message": "B"
+    "message": "ตัวหนา"
   },
   "t_dd753679": {
-    "message": "I"
+    "message": "ตัวเอียง"
   },
   "t_20a1d47c": {
     "message": "✎"
   },
   "t_4c614360": {
-    "message": "U"
+    "message": "ขีดเส้นใต้"
   },
   "t_2f43b42f": {
     "message": "..."
@@ -615,25 +1172,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "ความเข้ม"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "ความทึบ"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "น้ำหนัก"
   },
   "t_18d80423": {
-    "message": "400"
+    "message": "๔๐๐"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "ความสูง\nบรรทัด"
   },
   "t_f522dede": {
-    "message": "1.7x"
+    "message": "๑.๗x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "ข้าม"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,88 +1199,88 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "ไฮไลต์"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "หมึก"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "จาง"
   },
   "t_e8bfe352": {
-    "message": "Lexend 👑"
+    "message": "เลกเซนด์ 👑"
   },
   "t_0cd4623c": {
-    "message": "Atkinson Hyperlegible 👑"
+    "message": "แอทคินสัน ไฮเปอร์เลจิเบิล 👑"
   },
   "t_6fbda3a3": {
-    "message": "Arial"
+    "message": "เอเรียล"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "เฮลเวติกา"
   },
   "t_207c3219": {
-    "message": "Verdana"
+    "message": "เวอร์ดานา"
   },
   "t_2bd141ae": {
-    "message": "Tahoma"
+    "message": "ทาโฮมา"
   },
   "t_720661ec": {
-    "message": "Trebuchet MS"
+    "message": "เทรบูเชต์เอ็มเอส"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "ซิสเต็มแซนส์"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "ไทมส์นิวโรมัน"
   },
   "t_eada8196": {
-    "message": "Georgia"
+    "message": "จอร์เจีย"
   },
   "t_96a78725": {
-    "message": "Garamond"
+    "message": "การามอนด์"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "ซิสเต็มเซริฟ"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "คอมิกแซนส์เอ็มเอส"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "คูเรียร์นิว"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "โมโนสเปซ"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "ขนาด\nแบบอักษร"
   },
   "t_f4f9f2f4": {
-    "message": "14px"
+    "message": "๑๔px"
   },
   "t_cf3c032c": {
-    "message": "16px"
+    "message": "๑๖px"
   },
   "t_d69f92af": {
-    "message": "18px"
+    "message": "๑๘px"
   },
   "t_865b4c0b": {
-    "message": "20px"
+    "message": "๒๐px"
   },
   "t_14cdf596": {
-    "message": "22px"
+    "message": "๒๒px"
   },
   "t_33f60d47": {
-    "message": "24px"
+    "message": "๒๔px"
   },
   "t_c7c6a7b0": {
-    "message": "28px"
+    "message": "๒๘px"
   },
   "t_4d3604fc": {
-    "message": "32px"
+    "message": "๓๒px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "เสร็จสิ้น"
   },
   "t_63922286": {
     "message": "×"
@@ -732,154 +1289,34 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "ส่งออกคลังธีม"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "บันทึกผลงานชิ้นเอกที่สร้างโดย เอไอ (เอไอ (AI))\r\n                ไว้ในเครื่อง"
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "ส่งออกคลังทั้งหมด"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
-  },
-  "t_ccca2ddf": {
-    "message": "EasyView Reader"
-  },
-  "t_8524de96": {
-    "message": "Loading..."
-  },
-  "t_25e8f2fd": {
-    "message": "Please wait..."
-  },
-  "t_ec9d785d": {
-    "message": "1.5x"
-  },
-  "t_dafd5f8f": {
-    "message": "Lexend"
-  },
-  "t_16d90a0b": {
-    "message": "Atkinson Hyperlegible"
-  },
-  "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
-  },
-  "t_f7cee5ea": {
-    "message": "Calibri"
-  },
-  "t_ccc0239e": {
-    "message": "Candara"
-  },
-  "t_2963521b": {
-    "message": "Corbel"
-  },
-  "t_37f1cc58": {
-    "message": "Cambria"
-  },
-  "t_c3d9d4bf": {
-    "message": "Constantia"
-  },
-  "t_5d1a5b35": {
-    "message": "Palatino Linotype"
-  },
-  "t_4dc386b6": {
-    "message": "Book Antiqua"
-  },
-  "t_03c461f6": {
-    "message": "Franklin Gothic"
-  },
-  "t_7b1ee3b6": {
-    "message": "Century Gothic"
-  },
-  "t_a3293302": {
-    "message": "Gill Sans"
-  },
-  "t_eb726908": {
-    "message": "Sitka Text"
-  },
-  "t_b5bdee2c": {
-    "message": "Sylfaen"
-  },
-  "t_1ec05249": {
-    "message": "Microsoft Sans Serif"
-  },
-  "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
-  },
-  "t_16507cdd": {
-    "message": "Consolas"
-  },
-  "t_391c5954": {
-    "message": "Lucida Console"
-  },
-  "t_9879efdf": {
-    "message": "Lucida Sans Typewriter"
-  },
-  "t_21f59b54": {
-    "message": "Impact"
-  },
-  "t_94a7bb97": {
-    "message": "Arial Black"
-  },
-  "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
-  },
-  "t_40885309": {
-    "message": "Berlin Sans FB"
-  },
-  "t_6d5566ba": {
-    "message": "Gabriola"
-  },
-  "t_edb42482": {
-    "message": "Ink Free"
-  },
-  "t_fa233799": {
-    "message": "Segoe Script"
-  },
-  "t_2f7bc407": {
-    "message": "Segoe Print"
-  },
-  "t_0095a9fa": {
-    "message": "Export"
-  },
-  "t_520d0db3": {
-    "message": "Format"
-  },
-  "t_5956a437": {
-    "message": "TXT"
-  },
-  "t_1351017a": {
-    "message": "Filename"
-  },
-  "t_6af8212e": {
-    "message": "EasyView Notes Board"
-  },
-  "t_d16da0f5": {
-    "message": "🌎"
-  },
-  "t_6df173ff": {
-    "message": "📍"
+    "message": ".เจสัน (ไฟล์ JSON (เจสัน))"
   },
   "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
-  },
-  "js_24833610": {
-    "message": "Saved"
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> จำเป็นต้องดำเนินการ</div>\n            <h2 class=\"ev-si-title\">บัญชี<br><span class=\"ev-si-gradient-text\">ถูกระงับ</span></h2>\n            <p class=\"ev-si-sub\">การเข้าถึง อีซี่วิว (อีซี่วิว (EasyView)) ของคุณถูกจำกัดเนื่องจากการละเมิดข้อกำหนดในการให้บริการของเรา</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                ติดต่อฝ่ายสนับสนุน\n            </a>\n          </div>\n        </div>\n      "
   },
   "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>โปรดอธิบายการแปลงของคุณก่อน</span>\n          </div>"
   },
   "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>กำลังแปลง...</span>\n      "
   },
   "js_138703dd": {
-    "message": "No Theme on Page"
+    "message": "ไม่มีธีมบนหน้าเว็บ"
   },
   "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>ส่งออกหน้าปัจจุบัน"
   },
   "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> กำลังคอมไพล์..."
   },
   "js_e541190e": {
     "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
@@ -891,30 +1328,1322 @@
     "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
   },
   "js_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "พร้อมที่จะทำให้ง่ายขึ้น"
   },
   "js_a18366b2": {
-    "message": "Dark"
+    "message": "มืด"
   },
   "js_9914a0ce": {
-    "message": "Light"
+    "message": "สว่าง"
   },
   "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+    "message": "<option value=\"auto\">อัตโนมัติ (คุณภาพดีที่สุด)</option>"
   },
   "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> กำลังถอดรหัส..."
   },
   "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+    "message": "สิ่งนี้ให้ความรู้สึก <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">ง่ายขึ้นมาก</span> ที่จะเข้าใจ"
   },
   "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+    "message": "สิ่งนี้ให้ความรู้สึกเข้าใจได้ยากขึ้น"
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_f05df71b": {
+    "message": "กำลังอัปเกรด"
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_78db2ae3": {
+    "message": "เซิร์ฟเวอร์เอไอของเรากำลังอยู่ระหว่างการอัปเกรด"
+  },
+  "t_bb2129c8": {
+    "message": "ปลดล็อกแบบเต็ม"
+  },
+  "t_aefee7cd": {
+    "message": "ความชัดเจนสำหรับทุกคน"
+  },
+  "t_c38beca1": {
+    "message": "ไฟร์ฟอกซ์ จำกัดการเข้าถึงส่วนต่อประสานการตรวจจับจอภาพจริง"
+  },
+  "t_f2fe1e79": {
+    "message": "ค่า\r\n                                    ที่ต่ำกว่า ๑.๐ อาจบีบอัดข้อความและทำให้เลย์เอาต์พังได้"
+  },
+  "t_ca677d53": {
+    "message": "การปรับแต่งภาพ"
+  },
+  "t_230b4522": {
+    "message": "กระดานโน้ต"
+  },
+  "t_596b54bf": {
+    "message": "เอไอเอเจนต์สำหรับแปลงเลย์เอาต์"
+  },
+  "t_47e79a17": {
+    "message": "รับคีย์ฟรีของคุณที่"
+  },
+  "t_42372184": {
+    "message": "ธีมถูกส่งออกเป็น"
+  },
+  "t_74fdc8a2": {
+    "message": "โปรดอธิบายการแปลงของคุณก่อน"
+  },
+  "t_245fd3b9": {
+    "message": "ล้างเค้าโครงที่แปลงแล้ว"
+  },
+  "t_172bd753": {
+    "message": "ส่งออกธีมสำเร็จแล้ว!"
+  },
+  "t_4c34daff": {
+    "message": "การเชื่อมต่อหมดเวลา ไม่สามารถเข้าถึงเซิร์ฟเวอร์ได้"
+  },
+  "t_0dd56117": {
+    "message": "ไม่พบธีมที่ใช้งานอยู่บนหน้านี้"
+  },
+  "t_cb5c0766": {
+    "message": "ส่งออกคลังสำเร็จแล้ว!"
+  },
+  "t_8adb392e": {
+    "message": "การเชื่อมต่อหมดเวลา ไม่สามารถเข้าถึงเซิร์ฟเวอร์ได้"
+  },
+  "t_ae94e0e4": {
+    "message": "คลังธีมของคุณว่างเปล่า"
+  },
+  "t_10a0c40b": {
+    "message": "โหลดธีมกำหนดเองสำเร็จแล้ว!"
+  },
+  "t_9b6007a8": {
+    "message": "ไม่สามารถอ่านไฟล์ธีมได้"
+  },
+  "t_d4fa051d": {
+    "message": "ล้มเหลว: $1 โปรดโหลดแท็บใหม่",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "ใช้แล้ว: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "กู้คืน $1 ธีมจากคลังแล้ว!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "การตั้งค่าภาษา"
+  },
+  "t_lang_updated_reload": {
+    "message": "อัปเดตภาษาแล้ว กำลังโหลดใหม่..."
+  },
+  "t_transformation_failed": {
+    "message": "การแปลงล้มเหลว"
+  },
+  "t_c8a59e71": {
+    "message": "ละทิ้ง"
+  },
+  "t_7764306b": {
+    "message": "บริการคลาวด์อยู่ระหว่างการบำรุงรักษา"
+  },
+  "t_248228de": {
+    "message": "สลับแบบอักษรสำหรับภาวะดิสเล็กเซียในป๊อปอัป"
+  },
+  "t_79a59320": {
+    "message": "เริ่มทัวร์แอป"
+  },
+  "t_533bff5b": {
+    "message": "ปักหมุดบันทึกช่วยจำบนหน้าเว็บ (อัลต์+เอ็น)"
+  },
+  "t_f4f70727": {
+    "message": "การตั้งค่า"
+  },
+  "t_4fd11104": {
+    "message": "สปอตไลท์วงกลม"
+  },
+  "t_0d063af1": {
+    "message": "ไม้บรรทัดเส้นแนวนอน 🔒"
+  },
+  "t_60d71580": {
+    "message": "เคลียร์ไลต์"
+  },
+  "t_efe48742": {
+    "message": "แอมเบอร์โฟกัส"
+  },
+  "t_610a09ca": {
+    "message": "คูลไซแอน"
+  },
+  "t_886f6b9e": {
+    "message": "เรสต์ฟูลกรีน"
+  },
+  "t_65e8194e": {
+    "message": "พิตช์แบล็ก"
+  },
+  "t_7243ed99": {
+    "message": "มิดไนท์สเลท"
+  },
+  "t_ec6d8325": {
+    "message": "ดีปฟอเรสต์"
+  },
+  "t_4af435e0": {
+    "message": "แวมไพร์ไวน์"
+  },
+  "t_2a7dbdf8": {
+    "message": "ฟีเจอร์โปร"
+  },
+  "t_fc4aec61": {
+    "message": "เปิดในโปรแกรมอ่าน"
+  },
+  "t_801ab246": {
+    "message": "ดาวน์โหลด"
+  },
+  "t_aa3880dc": {
+    "message": "ดาวน์โหลดเป็น HTML (เว็บเพจ)"
+  },
+  "t_e0781e81": {
+    "message": "ดาวน์โหลดเป็น EPUB (อีบุ๊ก)"
+  },
+  "t_442ff212": {
+    "message": "ดาวน์โหลดเป็น DOCX (ไฟล์เอกสาร)"
+  },
+  "t_6244ee7c": {
+    "message": "เพิ่มคำศัพท์ที่กำหนดเองด้วยตนเอง"
+  },
+  "t_6e7d015f": {
+    "message": "นำเข้าไฟล์ CSV (ตาราง)"
+  },
+  "t_edbc5415": {
+    "message": "ส่งออกสำหรับ อันกิ (อันกิ (Anki)) / ควิซเล็ต (ควิซเล็ต (Quizlet))"
+  },
+  "t_46c29f7a": {
+    "message": "โหลดธีม"
+  },
+  "t_2bd65c5d": {
+    "message": "ส่งออกธีม"
+  },
+  "t_c1c433ac": {
+    "message": "ผู้ให้บริการ เอไอ (เอไอ (AI)) ที่ใช้งานอยู่"
+  },
+  "t_90c09393": {
+    "message": "จุด"
+  },
+  "t_eb656e41": {
+    "message": "ขีด"
+  },
+  "t_0c99ddee": {
+    "message": "สีไฮไลต์"
+  },
+  "t_eaf63759": {
+    "message": "สีหมึก"
+  },
+  "t_a183c9f0": {
+    "message": "สีจาง"
+  },
+  "t_75e7422f": {
+    "message": "สีพื้นหลัง"
+  },
+  "t_42f9ceea": {
+    "message": "ค้นหาคำศัพท์ที่บันทึกไว้..."
+  },
+  "t_0e84a8cf": {
+    "message": "ป้อนคำหรือคำย่อ..."
+  },
+  "t_eea6890c": {
+    "message": "ความหมาย / คำแปล..."
+  },
+  "t_4480cf46": {
+    "message": "เทคนิคช่วยจำหรือบันทึกการเรียน (ไม่บังคับ)..."
+  },
+  "t_d8634fbf": {
+    "message": "เช่น เปลี่ยนเป็นธีมสไตล์อนิเมะสีชมพูพร้อมการ์ดขอบมน หรือเปลี่ยนเป็นคอนโซลเทอร์มินัลสีเขียวเข้มย้อนยุค..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "โน้ตแปะ"
+  },
+  "t_b097d277": {
+    "message": "เพิ่มคำ"
+  },
+  "t_1eeb67ee": {
+    "message": "ส่งออกหน้าปัจจุบัน"
+  },
+  "t_b62ded9a": {
+    "message": "บริการคลาวด์ออฟไลน์"
+  },
+  "t_263e00eb": {
+    "message": "ลงชื่อเข้าใช้ / สร้างบัญชี"
+  },
+  "t_7748eb3b": {
+    "message": "กำลังอัปเกรด"
+  },
+  "t_81a5d20b": {
+    "message": "หยุดทั้งหมด"
+  },
+  "t_e61146d9": {
+    "message": "สีจางแบบผ่อนคลาย"
+  },
+  "t_57323916": {
+    "message": "หยุดเล่นอัตโนมัติ"
+  },
+  "t_f50319ea": {
+    "message": "การป้องกันเต็มรูปแบบ"
+  },
+  "t_8e13f26d": {
+    "message": "คำถามด่วน"
+  },
+  "t_134b26da": {
+    "message": "คุณกำลังเพลิดเพลินกับ<br><span class=\"ev-si-gradient-text\">อีซี่วิว (อีซี่วิว (EasyView))?</span> อยู่ใช่ไหม"
+  },
+  "t_b75bdd9e": {
+    "message": "ความคิดเห็นของคุณช่วยให้เราปรับปรุงได้<br>คุณกำลังเพลิดเพลินกับประสบการณ์นี้อยู่ใช่ไหม?"
+  },
+  "t_396d1ff8": {
+    "message": "ใช่เลย!"
+  },
+  "t_7d0cacf3": {
+    "message": "ต้องปรับปรุง"
+  },
+  "t_815142c9": {
+    "message": "สนับสนุนเรา"
+  },
+  "t_abd9fa39": {
+    "message": "คุณจะรังเกียจไหมหาก<br><span class=\"ev-si-gradient-text\">ช่วยเขียนรีวิวให้เรา?</span>"
+  },
+  "t_02991e61": {
+    "message": "การให้คะแนนจากผู้ใช้เช่นคุณเป็นวิธีที่ดีที่สุดในการช่วยให้ อีซี่วิว (อีซี่วิว (EasyView)) เติบโต ใช้เวลาเพียงหนึ่งนาที!"
+  },
+  "t_db49c1f2": {
+    "message": "ให้คะแนนตอนนี้"
+  },
+  "t_7a4f0d12": {
+    "message": "เตือนฉันภายหลัง"
+  },
+  "t_fee6c0e9": {
+    "message": "ข้อเสนอแนะส่วนตัว"
+  },
+  "t_74393dde": {
+    "message": "เราจะ <span class=\"ev-si-gradient-text\">ปรับปรุงให้ดีขึ้นได้อย่างไร?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "บอกเราว่าเกิดอะไรขึ้น..."
+  },
+  "t_6f97affc": {
+    "message": "ส่งความคิดเห็น"
+  },
+  "t_b20871b3": {
+    "message": "โปรดป้อนความคิดเห็นของคุณ"
+  },
+  "t_7b0fee4d": {
+    "message": "กำลังส่ง..."
+  },
+  "t_fb631633": {
+    "message": "ขอบคุณสำหรับความคิดเห็นของคุณ"
+  },
+  "t_08727add": {
+    "message": "ดูเว็บในแบบของคุณ"
+  },
+  "t_15bbb9d0": {
+    "message": "เว็บไซต์"
+  },
+  "t_c5f29bb3": {
+    "message": "ความเป็นส่วนตัว"
+  },
+  "t_ad5b1a22": {
+    "message": "ผู้ก่อตั้ง"
+  },
+  "t_db496e03": {
+    "message": "คีย์ส่วนตัวสร้างการเชื่อมต่อโดยตรงที่เป็นส่วนตัว ๑๐๐% กับ เอไอ (เอไอ (AI)) ข้อความของคุณจะไม่ถูกส่งไปยังเซิร์ฟเวอร์ของ อีซี่วิว (อีซี่วิว (EasyView))"
+  },
+  "t_387c35b3": {
+    "message": "เซิร์ฟเวอร์ที่มีการจัดการของเรา (พรีเมียม) ทำหน้าที่เป็นข้อมูลสำรองที่เชื่อถือได้หากไม่มีคีย์หรือคีย์ของคุณล้มเหลว"
+  },
+  "t_98bc5a17": {
+    "message": "เพื่อปกป้องอัลกอริทึมที่เป็นกรรมสิทธิ์ คีย์ของคุณจะถูกส่งผ่านเซิร์ฟเวอร์ที่ปลอดภัยของเราชั่วคราวเพื่อตรวจสอบสิทธิ์กับ กูเกิล (กูเกิล) โดยคีย์ของคุณจะไม่"
+  },
+  "t_de47f1be": {
+    "message": "ถูกจัดเก็บหรือบันทึกไว้"
+  },
+  "t_25e02e7f": {
+    "message": "ใช้งานอยู่: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ สมาชิกพรีเมียม"
+  },
+  "t_df56cfae": {
+    "message": "⭐ สมาชิกตลอดชีพ"
+  },
+  "t_41cbc704": {
+    "message": " วันที่เหลือ"
+  },
+  "t_b194bd82": {
+    "message": "ไม่มีวันหมดอายุ"
+  },
+  "t_9f830444": {
+    "message": "⭐ โปร:"
+  },
+  "t_61b82be6": {
+    "message": " การแปลงที่เหลือ"
+  },
+  "t_c20e7ceb": {
+    "message": " การแปลงฟรีที่เหลือ"
+  },
+  "t_d7087930": {
+    "message": " การใช้งานฟรีที่เหลือ"
+  },
+  "t_4bbf11bd": {
+    "message": "ช่องคำศัพท์และความหมายไม่สามารถเว้นว่างไว้ได้!"
+  },
+  "t_08f09d38": {
+    "message": "อัปเดตรายละเอียดคำศัพท์สำเร็จแล้ว!"
+  },
+  "t_32001b52": {
+    "message": "โปรดป้อนทั้งคำศัพท์และความหมาย"
+  },
+  "t_b8115861": {
+    "message": "สมุดบันทึกการเรียนของคุณว่างเปล่า โปรดบุ๊กมาร์กคำศัพท์บนหน้าเว็บก่อน!"
+  },
+  "t_7114113b": {
+    "message": "โปรดลงชื่อเข้าใช้บัญชี อีซี่วิว (อีซี่วิว (EasyView)) ของคุณก่อนเพื่อยืนยันฟีเจอร์โปรของคุณ!"
+  },
+  "t_093f9fa0": {
+    "message": "โทเค็นเซสชันของคุณหายไป โปรดลงชื่อเข้าใช้ easyview.in อีกครั้งเพื่อกู้คืนการเข้าถึง"
+  },
+  "t_0e065596": {
+    "message": "นี่เป็นฟีเจอร์สำหรับพรีเมียมเท่านั้น อัปเกรดเป็นโปรเพื่อปลดล็อก!"
+  },
+  "t_c792a645": {
+    "message": "ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ส่งออกที่ปลอดภัยได้ โปรดลองใหม่อีกครั้งในไม่ช้า"
+  },
+  "t_8d1a2675": {
+    "message": "ไม่สามารถระบุรายการคำศัพท์ที่ถูกต้องในไฟล์ CSV (ตาราง) นั้นได้"
+  },
+  "t_a613ed90": {
+    "message": "การเขียนข้อมูลลงในที่เก็บข้อมูลเบราว์เซอร์ล้มเหลว! ไฟล์อาจมีขนาดใหญ่เกินไปสำหรับแคชในเครื่อง"
+  },
+  "t_8efe87ab": {
+    "message": "เบราว์เซอร์ไม่สามารถอ่านไฟล์ในเครื่องของคุณได้"
+  },
+  "t_50bf63aa": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการล้างคำที่บันทึกไว้ทั้งหมดออกจากสมุดบันทึกของคุณ?"
+  },
+  "t_ff252710": {
+    "message": "การนำเข้าเสร็จสิ้น: รายการ $1 รายการมีอยู่ในสมุดบันทึกของคุณแล้ว",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "ไม่สามารถแยกวิเคราะห์ไฟล์ CSV (ตาราง): $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "\"$1\" อยู่ในสมุดบันทึกของคุณแล้ว คุณต้องการเพิ่มคำจำกัดความอื่นสำหรับคำนี้หรือไม่?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "ออกจากระบบสำเร็จแล้ว"
+  },
+  "t_dbd35100": {
+    "message": "เครื่องมือแปลงกำลังทำงานอยู่..."
+  },
+  "t_2de4e55d": {
+    "message": "ล้างเค้าโครงที่แปลงแล้ว"
+  },
+  "t_1bb9196d": {
+    "message": "แปลงแล้ว: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "การแปลงล้มเหลว: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "ทริกเกอร์แล้ว: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 จัดระเบียบรายการ $1 รายการแล้ว",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "การดำเนินการนี้จะลบโน้ตนี้อย่างถาวรในทุกอุปกรณ์ที่ซิงค์กัน ดำเนินการต่อหรือไม่?"
+  },
+  "t_25abf697": {
+    "message": "การส่งออก EPUB (อีบุ๊ก) ต้องใช้ ไลบรารี JSZip"
+  },
+  "t_71609188": {
+    "message": "การส่งออก DOCX (ไฟล์เอกสาร) ต้องใช้ ไลบรารี html-docx"
+  },
+  "t_e1499766": {
+    "message": "ไม่ได้โหลดไฟล์"
+  },
+  "t_023b3355": {
+    "message": "เปิดใช้งานเกราะป้องกันความเป็นส่วนตัวแล้ว"
+  },
+  "t_9483a5da": {
+    "message": "ปิดใช้งานเกราะป้องกันความเป็นส่วนตัวแล้ว"
+  },
+  "t_a04202db": {
+    "message": "ซ่อนไฮไลต์ชั่วคราว"
+  },
+  "t_b3d6b264": {
+    "message": "กู้คืนไฮไลต์แล้ว"
+  },
+  "t_7485c55e": {
+    "message": "ยินดีต้อนรับสู่ อีซี่วิว (อีซี่วิว (EasyView))! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "สะพานเชื่อมทางปัญญาที่ขับเคลื่อนด้วย เอไอ (เอไอ (AI)) เพื่อการอ่านเว็บที่ง่ายขึ้น มาทัวร์ฟีเจอร์ต่างๆ กันอย่างรวดเร็ว"
+  },
+  "t_3a1fe637": {
+    "message": "ถอดรหัสศัพท์เฉพาะ 📖"
+  },
+  "t_89cec86e": {
+    "message": "ทำให้คำศัพท์ที่ซับซ้อนบนหน้าเว็บใดๆ ง่ายขึ้น"
+  },
+  "t_f8aefae7": {
+    "message": "เกราะป้องกันความเป็นส่วนตัว 🔐"
+  },
+  "t_aa860f86": {
+    "message": "เบลอข้อมูลที่ละเอียดอ่อนและรวมไม้บรรทัดโฟกัสสำหรับการอ่านที่ปราศจากสิ่งรบกวน"
+  },
+  "t_0681a3b6": {
+    "message": "เกราะป้องกันประสาทสัมผัส 🛡️"
+  },
+  "t_6118b864": {
+    "message": "หยุดภาพเคลื่อนไหวและ ภาพเคลื่อนไหว GIF ที่รบกวนสายตา"
+  },
+  "t_12ec6fc6": {
+    "message": "โหมดการอ่านสำหรับผู้มีภาวะดิสเล็กเซีย 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "แบบอักษรและระยะห่างที่ปรับให้เหมาะสมเพื่อการอ่านที่ง่ายขึ้น"
+  },
+  "t_18d9ce63": {
+    "message": "แปลงข้อความเป็นเสียง 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "ฟังหน้าเว็บใดก็ได้พร้อมไฮไลต์คำศัพท์"
+  },
+  "t_0019a700": {
+    "message": "เอ็นจิ้นการแปลง ✨"
+  },
+  "t_47c2535a": {
+    "message": "ใช้ เอไอ (เอไอ (AI)) เพื่อออกแบบเว็บไซต์ใหม่ให้เป็นธีมหรือเลย์เอาต์ที่คุณกำหนดเอง"
+  },
+  "t_2ed2f639": {
+    "message": "บันทึกช่วยจำ 📝"
+  },
+  "t_75025b5f": {
+    "message": "ปักหมุดบันทึกช่วยจำแบบลอยไว้บนหน้าเว็บใดก็ได้เพื่อบันทึกข้อมูลสำคัญ (อัลต์+เอ็น)"
+  },
+  "t_3ff2d7cc": {
+    "message": "การกำหนดค่า อินเทอร์เฟซ API (อินเทอร์เฟซ) ⚙️"
+  },
+  "t_0754e836": {
+    "message": "ลงชื่อเข้าใช้เพื่อซิงค์โควตาของคุณ หรือตั้งค่าคีย์ เจมินี (Gemini) อินเทอร์เฟซ API (อินเทอร์เฟซ) ฟรีของคุณเองที่นี่"
+  },
+  "t_7b6a2059": {
+    "message": "ขั้นตอนที่ $1 จาก $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "เริ่มต้นใช้งาน!"
+  },
+  "t_10ac3d04": {
+    "message": "ถัดไป"
+  },
+  "t_5c7a52b8": {
+    "message": "กด "
+  },
+  "t_a1b2c3d4": {
+    "message": " ได้ตลอดเวลาเพื่อเปิดใช้งานเกราะป้องกันอัตโนมัติด้วยตนเอง"
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ เปิดใช้งานเกราะป้องกันความเป็นส่วนตัวแล้ว"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 ปิดใช้งานเกราะป้องกันความเป็นส่วนตัวแล้ว"
+  },
+  "js_9b3e1a": {
+    "message": "อีซี่วิว (อีซี่วิว (EasyView)) กำลังวิเคราะห์เลย์เอาต์และแปลง..."
+  },
+  "js_4c8d2f": {
+    "message": "นิยาม"
+  },
+  "js_7a1e9b": {
+    "message": "ถอดรหัส"
+  },
+  "js_2d5f8c": {
+    "message": "ทำให้ง่าย"
+  },
+  "js_6e3a4d": {
+    "message": "บุ๊กมาร์ก"
+  },
+  "js_1f9b7c": {
+    "message": "ไฮไลต์"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "กำลังวิเคราะห์โครงสร้าง โครงสร้าง DOM..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "เค้าโครงไม่เป็นระเบียบ..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "กำลังปรับโครงสร้างให้เรียบง่าย..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[สัญญาณรบกวนเกินพิกัด]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "กำลังลบสิ่งรบกวนสายตา..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "โหนดที่ซับซ้อน"
+  },
+  "js_ldr_m4_cl": {
+    "message": "กำลังใช้กฎสำหรับภาวะดิสเล็กเซีย..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "กำลังแสดงผลส่วนติดต่อผู้ใช้ อีซี่วิว (อีซี่วิว (EasyView))..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "กำลังสแกนบล็อกข้อความ..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "คำมากเกินไป..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "กำลังสกัดความหมายหลัก..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "ภาระทางปัญญา"
+  },
+  "js_ldr_s3_cl": {
+    "message": "กำลังร่างภาษาอังกฤษที่ง่ายขึ้น..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "เอไอแบบละเอียด..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "กำลังปรับความสามารถในการอ่าน..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "กำลังขัดเกลาผลลัพธ์..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "กำลังแปลศัพท์เฉพาะ..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "ข้อผิดพลาด: เกิดความสับสน"
+  },
+  "js_ldr_j2_cl": {
+    "message": "กำลังค้นหาคำจำกัดความ..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[สัญญาณรบกวนเกินพิกัด]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "กำลังทำให้บริบทง่ายขึ้น..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "คำศัพท์ที่ไม่รู้จัก"
+  },
+  "js_ldr_j4_cl": {
+    "message": "กำลังปรับความชัดเจน..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "กำลังจัดรูปแบบผลลัพธ์..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "กำลังวิเคราะห์เชิงลึก..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "กำลังสรุปตรรกะของเอไอ..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "กำลังเรียกใช้เอไอ..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "ใกล้เสร็จแล้ว..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "การใช้งานหนาแน่น..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "ใช้เวลานานกว่าปกติเล็กน้อย..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "กำลังดำเนินการ..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "โปรดรอสักครู่..."
+  },
+  "t_b7012ab9": {
+    "message": "แปลง"
+  },
+  "t_c5e8b1d9": {
+    "message": "แบบอักษรระดับโปร"
+  },
+  "t_c8f2ba19": {
+    "message": "เปิดใช้งานการเบลอเนื้อหาส่วนตัวแล้ว"
+  },
+  "t_e2dae61a": {
+    "message": "ปิดใช้งานการเบลอเนื้อหาส่วนตัวแล้ว"
+  },
+  "t_c74de318": {
+    "message": "เปิดใช้งานการป้องกันอัตโนมัติเมื่อแชร์หน้าจอแล้ว"
+  },
+  "t_a5fd56f4": {
+    "message": "ปิดใช้งานการป้องกันอัตโนมัติเมื่อแชร์หน้าจอแล้ว"
+  },
+  "t_ab8d1f2a": {
+    "message": "เปิดใช้งานโหมดไฟฉายแล้ว"
+  },
+  "t_2bf5cc98": {
+    "message": "ปิดใช้งานโหมดไฟฉายแล้ว"
+  },
+  "t_513bb93f": {
+    "message": "การอ่านแบบไบโอนิก"
+  },
+  "t_5a8b2c1d": {
+    "message": "นี่คือตัวอย่างการตั้งค่าการอ่านของคุณ"
+  },
+  "t_ac1d4e5f": {
+    "message": "ไม่มี"
+  },
+  "t_b2e3f4a1": {
+    "message": "กว้าง"
+  },
+  "t_c3f4a5b2": {
+    "message": "กว้างพิเศษ"
+  },
+  "t_d1a3c901": {
+    "message": "คลิก"
+  },
+  "t_b4f2e891": {
+    "message": "ปักหมุดที่องค์ประกอบ"
+  },
+  "t_c9a1b302": {
+    "message": "เว้นวรรค"
+  },
+  "t_f6d4e203": {
+    "message": "โน้ตส่วนกลาง"
+  },
+  "t_e2b3f104": {
+    "message": "ออก"
+  },
+  "t_a7c0d905": {
+    "message": "ยกเลิก"
+  },
+  "t_e1b2c301": {
+    "message": "เฉพาะหน้านี้"
+  },
+  "t_f7a3b402": {
+    "message": "ไซต์นี้"
+  },
+  "t_a8c4d503": {
+    "message": "ทุกเว็บไซต์ (ทั่วไป)"
+  },
+  "t_b9d5e604": {
+    "message": "ซ่อนจนกว่าจะโหลดใหม่"
+  },
+  "t_c0e6f705": {
+    "message": "ปักหมุดโน้ตไว้ที่องค์ประกอบ"
+  },
+  "t_d1f7a806": {
+    "message": "เปลี่ยนสีโน้ต"
+  },
+  "t_e2a8b907": {
+    "message": "ยุบ/ขยายโน้ต"
+  },
+  "t_f3b9c008": {
+    "message": "คัดลอกเนื้อหาโน้ต"
+  },
+  "t_a4c0d109": {
+    "message": "การดำเนินการเพิ่มเติม"
+  },
+  "t_b5d1e200": {
+    "message": "ลบโน้ตนี้"
+  },
+  "t_e87033a2": {
+    "message": "อัลต์ + เอ็กซ์"
+  },
+  "t_4120201a": {
+    "message": "ช่วงทดลองใช้ฟรีเปิดใช้งานอยู่"
+  },
+  "t_6ed40ffb": {
+    "message": "ซิงค์การตั้งค่าระหว่างอุปกรณ์"
+  },
+  "t_f8b8a5fd": {
+    "message": "โควตาการใช้งานฟรีที่สูงขึ้น"
+  },
+  "t_440b106d": {
+    "message": "เข้าถึงฟีเจอร์โปรในอนาคต"
+  },
+  "t_3a99076c": {
+    "message": "ขีดจำกัดพรีเมียม"
+  },
+  "t_545f6c2f": {
+    "message": "ไม่จำกัด"
+  },
+  "t_ad23f4a0": {
+    "message": "บันทึกเชิงพื้นที่"
+  },
+  "t_04f2f045": {
+    "message": "คุณได้ปรับใช้โน้ตในระดับฟรีทั้ง ๑๕ รายการทั่วเว็บเรียบร้อยแล้ว อัปเกรดเป็น อีซี่วิว (อีซี่วิว (EasyView)) พรีเมียมเพื่อปลดล็อกหน่วยความจำเชิงพื้นที่ไม่จำกัดและสีที่กำหนดเอง"
+  },
+  "t_cf874b99": {
+    "message": "ปลดล็อกพรีเมียม"
+  },
+  "t_a6d36e2f": {
+    "message": "การควบคุมการเข้าถึงในเครื่องทั้งหมด (ใช้งานอยู่)"
+  },
+  "t_b0b69bc3": {
+    "message": "เครื่องมือแปลงข้อความเป็นเสียง (ใช้งานอยู่)"
+  },
+  "t_cc96c21a": {
+    "message": "ฟีเจอร์คลาวด์ เอไอ (เอไอ (AI)) (ออฟไลน์)"
+  },
+  "t_7af6f6e5": {
+    "message": "ฉันเข้าใจ"
+  },
+  "t_9bc7102e": {
+    "message": "สร้างบัญชี อีซี่วิว (อีซี่วิว (EasyView)) ฟรีเพื่อติดตามโควตาของคุณและปลดล็อกตัวถอดรหัสศัพท์เฉพาะ"
+  },
+  "t_ab7512fd": {
+    "message": "โทเค็นเซสชันของคุณหายไป โปรดลงชื่อเข้าใช้ easyview.in อีกครั้งเพื่อกู้คืนการเข้าถึง"
+  },
+  "t_1cd7820a": {
+    "message": "สำหรับผู้ใช้โปรเท่านั้น"
+  },
+  "t_8eb14032": {
+    "message": "ตัวถอดรหัสศัพท์เฉพาะ<br><span class=\"ev-si-gradient-text\">โควตาเต็มแล้ว</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "โควตาเต็ม"
+  },
+  "t_5ae983dc": {
+    "message": "คุณใช้ <strong>สิทธิ์ถอดรหัสฟรี ๕ ครั้ง</strong> ครบแล้วในเดือนนี้ ปลดล็อกการเข้าถึงไม่จำกัดในไม่กี่วินาที"
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> เป็นโปร — ถอดรหัสไม่จำกัด</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> ใช้คีย์ อินเทอร์เฟซ API (อินเทอร์เฟซ) ของคุณเอง</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 เพิ่มคีย์ อินเทอร์เฟซ API (อินเทอร์เฟซ) ในการตั้งค่า</button>"
+  },
+  "t_9be4129a": {
+    "message": "ตัวส่งออกสำรับการเรียน<br><span class=\"ev-si-gradient-text\">ระบบอัตโนมัติระดับโปร</span>"
+  },
+  "t_fac34185": {
+    "message": "ส่งออกสมุดบันทึกการเรียนแบบกำหนดเองทั้งหมดของคุณไปยัง <strong>อันกิ (อันกิ (Anki))</strong> และ <strong>ควิซเล็ต (ควิซเล็ต (Quizlet))</strong> ได้ทันที"
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> เลิกพิมพ์ด้วยตนเอง</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> ตัวคอมไพล์แฟลชการ์ด RFC-๔๑๘๐</div>"
+  },
+  "t_da12c30b": {
+    "message": "การเข้าถึงระดับโปร"
+  },
+  "t_4a9b2c01": {
+    "message": "ฟีเจอร์นี้"
+  },
+  "t_3be78c01": {
+    "message": "แบบอักษรสำหรับการอ่านสำหรับภาวะดิสเล็กเซียนี้"
+  },
+  "t_0ad4b971": {
+    "message": "แบบอักษรภาพนี้"
+  },
+  "t_9af42be8": {
+    "message": "แบบอักษรสำหรับการส่งออกระดับพรีเมียมนี้"
+  },
+  "t_cbae8349": {
+    "message": "อัปเกรดเพื่อปลดล็อกฟีเจอร์การเข้าถึงและเครื่องมือระดับสูงทั้งหมด"
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> การเข้าถึงขั้นสูง</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> การอัปเดตในอนาคตทั้งหมด</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ อัปเกรดเป็นโปร"
+  },
+  "t_5ef4c1a2": {
+    "message": "ไว้ทีหลัง"
+  },
+  "t_3b7a5e82": {
+    "message": "แต่ฟีเจอร์เอไออาจไม่สามารถใช้งานได้ชั่วคราว"
+  },
+  "t_c91d8e12": {
+    "message": "ทั่วไป"
+  },
+  "t_b42f3a9d": {
+    "message": "คำจำกัดความ"
+  },
+  "t_f1d4a8e6": {
+    "message": "พจนานุกรม"
+  },
+  "t_e398c71f": {
+    "message": "กำหนดเอง"
+  },
+  "t_a72df9e5": {
+    "message": "ทางการแพทย์"
+  },
+  "t_d8f2c61a": {
+    "message": "กฎหมาย"
+  },
+  "t_b3e1f5d2": {
+    "message": "การเงิน"
+  },
+  "t_c25d81f9": {
+    "message": "เทคโนโลยี"
+  },
+  "t_e1b3a4f6": {
+    "message": "วิชาการ"
+  },
+  "t_d5f9b4c1": {
+    "message": "คำศัพท์"
+  },
+  "t_f7a2e8ea": {
+    "message": "หมวดหมู่"
+  },
+  "t_e3b1c6d9": {
+    "message": "ความหมายแบบง่าย"
+  },
+  "t_a9d4e5f2": {
+    "message": "โน้ตการเรียนรู้ / บริบท"
+  },
+  "t_b4c5d6e7": {
+    "message": "ยกเลิก"
+  },
+  "t_c8f2a1b4": {
+    "message": "บันทึกการเปลี่ยนแปลง"
+  },
+  "t_8c17b5e6": {
+    "message": "โทเค็นเซสชันของคุณหายไป โปรดลงชื่อเข้าใช้ easyview.in อีกครั้งเพื่อกู้คืนการเข้าถึง"
+  },
+  "t_a43dc219": {
+    "message": "สร้างบัญชี อีซี่วิว (อีซี่วิว (EasyView)) ฟรีเพื่อติดตามโควตาการใช้งานของคุณและปลดล็อกเครื่องมือแปลง เอไอ (เอไอ (AI))"
+  },
+  "t_54c523fe": {
+    "message": "🎉 ยอดเยี่ยม! นำเข้าการ์ดการเรียนรู้ใหม่ $1 ใบสำเร็จแล้ว"
+  },
+  "t_a7d8be72": {
+    "message": "🎉 ยอดเยี่ยม! นำเข้าการ์ดใหม่ $1 ใบแล้ว (ข้ามรายการซ้ำ $2 ใบ)"
+  },
+  "t_14894d12": {
+    "message": "ส่งออกธีม"
+  },
+  "t_f27a2629": {
+    "message": "สำรองข้อมูลคลังธีม"
+  },
+  "t_9ad85e17": {
+    "message": "โหมดไม้บรรทัดอ่าน"
+  },
+  "t_b9d4e7a5": {
+    "message": "โหมดเกราะป้องกันประสาทสัมผัสขั้นสูง"
+  },
+  "t_94f4f7e4": {
+    "message": "กำลังแยกวิเคราะห์ไฟล์ DOCX (ไฟล์เอกสาร)...",
+    "description": "สถานะเมื่อแยกวิเคราะห์ไฟล์ DOCX ในโปรแกรมอ่าน"
+  },
+  "t_120adfc1": {
+    "message": "กำลังแยกวิเคราะห์ไฟล์ EPUB (อีบุ๊ก)...",
+    "description": "สถานะเมื่อแยกวิเคราะห์ไฟล์ EPUB ในโปรแกรมอ่าน"
+  },
+  "t_5d2a45b8": {
+    "message": "โหมดไม้บรรทัดการอ่านมีไว้สำหรับสมาชิกโปรเท่านั้น",
+    "description": "แจ้งเตือนเมื่อผู้ใช้ที่ไม่ใช่โปรเข้าถึงไม้บรรทัดการอ่าน"
+  },
+  "t_c1f29623": {
+    "message": "แก้ไขการ์ดทั้งหมด",
+    "description": "คำแนะนำเครื่องมือสำหรับแก้ไขการ์ดทั้งหมดในสมุดบันทึก"
+  },
+  "t_1063e38c": {
+    "message": "ลบ",
+    "description": "คำแนะนำเครื่องมือสำหรับลบการ์ดออกจากสมุดบันทึก"
+  },
+  "t_ccca2ddf": {
+    "message": "โปรแกรมอ่านอีซี่วิว"
+  },
+  "t_8524de96": {
+    "message": "กำลังโหลด..."
+  },
+  "t_25e8f2fd": {
+    "message": "โปรดรอ..."
+  },
+  "t_ec9d785d": {
+    "message": "๑.๕x"
+  },
+  "t_dafd5f8f": {
+    "message": "เลกเซนด์"
+  },
+  "t_16d90a0b": {
+    "message": "แอทคินสัน ไฮเปอร์เลจิเบิล"
+  },
+  "t_5c7db066": {
+    "message": "เซโกยูไอ (ค่าเริ่มต้นของวินโดวส์)"
+  },
+  "t_f7cee5ea": {
+    "message": "คาลิบรี"
+  },
+  "t_ccc0239e": {
+    "message": "แคนดารา"
+  },
+  "t_2963521b": {
+    "message": "คอร์เบล"
+  },
+  "t_37f1cc58": {
+    "message": "แคมเบรีย"
+  },
+  "t_c3d9d4bf": {
+    "message": "คอนสแตนเทีย"
+  },
+  "t_5d1a5b35": {
+    "message": "พาลาทิโนไลโนไทป์"
+  },
+  "t_4dc386b6": {
+    "message": "บุ๊กแอนทีกัว"
+  },
+  "t_03c461f6": {
+    "message": "แฟรงคลินโกธิค"
+  },
+  "t_7b1ee3b6": {
+    "message": "เซนจูรี่โกธิค"
+  },
+  "t_a3293302": {
+    "message": "กิลล์แซนส์"
+  },
+  "t_eb726908": {
+    "message": "ซิตก้าเท็กซ์"
+  },
+  "t_b5bdee2c": {
+    "message": "ซิลเฟน"
+  },
+  "t_1ec05249": {
+    "message": "ไมโครซอฟท์ แซนส์ เซอริฟ"
+  },
+  "t_ad4a300c": {
+    "message": "เซโกยูไอเซมิโบลด์"
+  },
+  "t_16507cdd": {
+    "message": "คอนโซลาส"
+  },
+  "t_391c5954": {
+    "message": "ลูซิด้าคอนโซล"
+  },
+  "t_9879efdf": {
+    "message": "ลูซิดา แซนส์ ไทป์ไรเตอร์"
+  },
+  "t_21f59b54": {
+    "message": "อิมแพ็ค"
+  },
+  "t_94a7bb97": {
+    "message": "เอเรียลแบล็ก"
+  },
+  "t_6e87c2cb": {
+    "message": "คอปเปอร์เพลทโกธิค"
+  },
+  "t_40885309": {
+    "message": "เบอร์ลินแซนส์เอฟบี"
+  },
+  "t_6d5566ba": {
+    "message": "กาบริโอลา"
+  },
+  "t_edb42482": {
+    "message": "อิงค์ฟรี"
+  },
+  "t_fa233799": {
+    "message": "เซโกสคริปต์"
+  },
+  "t_2f7bc407": {
+    "message": "เซโกพริ้นต์"
+  },
+  "t_0095a9fa": {
+    "message": "ส่งออก"
+  },
+  "t_520d0db3": {
+    "message": "รูปแบบ"
+  },
+  "t_5956a437": {
+    "message": "ข้อความ"
+  },
+  "t_1351017a": {
+    "message": "ชื่อไฟล์"
+  },
+  "t_d4c3c15b": {
+    "message": "ไม่ได้โหลดไฟล์"
+  },
+  "t_0ca5a078": {
+    "message": "โปรดใช้แท็บตัวแปลง (Converter) เพื่ออัปโหลดไฟล์"
+  },
+  "t_c9857e16": {
+    "message": "ไม่รองรับประเภทไฟล์นี้"
+  },
+  "t_6b447b91": {
+    "message": "เกิดข้อผิดพลาดขณะประมวลผลไฟล์: "
+  },
+  "t_7f4588be": {
+    "message": "อีพับ"
+  },
+  "t_12dc65c2": {
+    "message": "สลับโหมดสว่าง/มืด"
+  },
+  "t_d3d2e617": {
+    "message": "ปิด"
+  },
+  "t_6e8cfcb7": {
+    "message": "ส่งออกอย่างปลอดภัยไปยังเซิร์ฟเวอร์ (พรีเมียม)"
+  },
+  "t_2f9df658": {
+    "message": "แยกและลอยพื้นที่ทำงานไว้เหนือหน้าต่างทั้งหมด"
+  },
+  "t_72d6d7a1": {
+    "message": "นำเข้า"
+  },
+  "t_de93d5fd": {
+    "message": "ส่งออกโน้ต"
+  },
+  "t_a1aacca9": {
+    "message": "แยกหน้าต่างลอย"
+  },
+  "t_ac0b844f": {
+    "message": "โน้ตส่วนกลาง"
+  },
+  "t_15866f1d": {
+    "message": "โน้ตเฉพาะเว็บไซต์"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
+  },
+  "t_6af8212e": {
+    "message": "กระดานโน้ต อีซี่วิว (อีซี่วิว (EasyView))"
+  },
+  "t_d16da0f5": {
+    "message": "🌎"
+  },
+  "t_6df173ff": {
+    "message": "📍"
+  },
+  "t_22f58a00": {
+    "message": "🌎 โน้ตส่วนกลาง"
+  },
+  "t_5be8bbeb": {
+    "message": "🌐 โน้ตเฉพาะเว็บไซต์"
+  },
+  "t_59a56663": {
+    "message": "📍 โน้ตหน้า"
+  },
+  "t_c1843696": {
+    "message": "กำลังตรวจสอบโทเค็นความสมบูรณ์..."
+  },
+  "t_58038ee4": {
+    "message": "เมื่อสักครู่"
+  },
+  "t_e254e1a1": {
+    "message": "$1 นาทีที่แล้ว",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_121d4d02": {
+    "message": "$1 ชั่วโมงที่แล้ว",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_19d2b280": {
+    "message": "$1 วันที่แล้ว",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_d3d4311c": {
+    "message": "ลากโน้ต"
+  },
+  "t_7b32ea16": {
+    "message": "สลับไปที่ $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_11916b28": {
+    "message": "ขอบเขตการวาง"
+  },
+  "t_5463fe67": {
+    "message": "จานสี"
+  },
+  "t_d116d454": {
+    "message": "ย่อโน้ต"
+  },
+  "t_be9ba0e5": {
+    "message": "คัดลอกข้อความ"
+  },
+  "t_28471624": {
+    "message": "การดำเนินการเพิ่มเติม"
+  },
+  "t_90e467df": {
+    "message": "ปิดโน้ต"
+  },
+  "t_34494920": {
+    "message": "พิมพ์โน้ตของคุณที่นี่..."
+  },
+  "t_bdda0b60": {
+    "message": "คุณกำลังคิดอะไรอยู่..."
+  },
+  "t_8689de27": {
+    "message": "ใช้งานได้ทุกที่"
+  },
+  "t_c0cf9810": {
+    "message": "กลับไปยังหน้าต้นทาง"
+  },
+  "t_24a23176": {
+    "message": "บริบทเดิม"
+  },
+  "t_4c1c1e76": {
+    "message": "นำเข้าสมุดบันทึก"
+  },
+  "t_2736f644": {
+    "message": "รวมชุดการเรียนรู้และรายการคำศัพท์ภายนอกของคุณเข้ากับระบบ อีซีวิว ได้อย่างราบรื่น"
+  },
+  "t_ca4f038f": {
+    "message": "คอลัมน์ที่จำเป็น"
+  },
+  "t_7277de5f": {
+    "message": "ความหมาย"
+  },
+  "t_ce591bfa": {
+    "message": "คอลัมน์เพิ่มเติม"
+  },
+  "t_f4c6f851": {
+    "message": "บันทึก"
+  },
+  "t_c1fd81a6": {
+    "message": "เลือกหรือลากไฟล์ตารางข้อมูล"
+  },
+  "t_5c426600": {
+    "message": "รายการที่ซ้ำกันและคำที่มีอยู่แล้วจะถูกกรองออกโดยอัตโนมัติ"
+  },
+  "t_76e7183d": {
+    "message": "นำเข้าสำเร็จ!"
+  },
+  "t_3e17e02d": {
+    "message": "คำศัพท์ของคุณได้รับการอัปเดตแล้ว"
+  },
+  "t_3148d309": {
+    "message": "ปิดแท็บ"
+  },
+  "t_0e412fa1": {
+    "message": "การเฉลิมฉลองจะแสดงขึ้นเมื่อคุณกลับมาที่ป๊อปอัป"
+  },
+  "t_d29f6e6b": {
+    "message": "นำเข้าไม่สำเร็จ"
+  },
+  "t_e04efbcb": {
+    "message": "สถานะสมุดบันทึก"
+  },
+  "t_ed732761": {
+    "message": "นำเข้าธีม มอร์ฟ"
+  },
+  "t_e44db711": {
+    "message": "นำเข้าคลัง เอนจินมอร์ฟ แบบกำหนดเองของคุณเข้าสู่ อีซีวิว ได้อย่างปลอดภัย"
+  },
+  "t_c0bb7d43": {
+    "message": "เลือกหรือลากไฟล์โครงสร้างข้อมูล"
+  },
+  "t_36e9583e": {
+    "message": "นำเข้าเค้าโครงธีมที่คุณเคยส่งออกไว้ก่อนหน้านี้"
+  },
+  "t_21630184": {
+    "message": "กู้คืนธีมเรียบร้อยแล้ว!"
+  },
+  "t_d0c1ec75": {
+    "message": "เทมเพลต มอร์ฟ ของคุณได้รับการติดตั้งเรียบร้อยแล้ว"
+  },
+  "t_cd27a5c0": {
+    "message": "อีซีวิว — โปรแกรมอ่านเนื้อหา"
+  },
+  "t_b171ab1f": {
+    "message": "ยินดีต้อนรับสู่โปรแกรมอ่าน"
+  },
+  "t_4e07c284": {
+    "message": "อัปโหลดเอกสารของคุณที่นี่เพื่ออ่านด้วยรูปแบบตัวอักษรที่ปรับแต่งได้และเครื่องมือช่วยการเข้าถึงขั้นสูง"
+  },
+  "t_004621c0": {
+    "message": "รองรับไฟล์เอกสารข้อความ, หนังสืออิเล็กทรอนิกส์ และข้อความธรรมดา"
+  },
+  "t_23bb27a0": {
+    "message": "กำลังเริ่มต้นตัววิเคราะห์เอกสาร..."
+  },
+  "t_e1d5f16c": {
+    "message": "กำลังปรับแต่งเอกสารเพื่อให้อ่านง่ายขึ้น..."
+  },
+  "t_0e55c5d0": {
+    "message": "กำลังวิเคราะห์โครงสร้างหนังสืออิเล็กทรอนิกส์..."
   }
 }

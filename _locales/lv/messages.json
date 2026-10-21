@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "EasyView — skaidrība ikvienām smadzenēm"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "IzīVjū"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "Uzreiz pārveidojiet jebkuru vietni ar mākslīgā intelekta uzvednēm vai vienu klikšķi. Skatiet tīmekli savā veidā."
+  },
+  "t_68ba0232": {
+    "message": "Disleksijas režīms aktivizēts"
+  },
+  "t_85f47a25": {
+    "message": "Disleksijas režīms deaktivizēts"
+  },
+  "t_1cc1b64d": {
+    "message": "Nepietiek satura analīzei"
+  },
+  "t_cebe6412": {
+    "message": "Nav atrasti sarežģīti termini"
+  },
+  "t_b964aa0f": {
+    "message": "Kļūda, analizējot lapas saturu"
+  },
+  "t_956c104e": {
+    "message": "Lapas atmiņa notīrīta"
+  },
+  "t_1f4b0f3e": {
+    "message": "Glosārijs notīrīts"
+  },
+  "t_4bfeec37": {
+    "message": "Atlasē nav atrasti sarežģīti termini"
+  },
+  "t_1b5e8531": {
+    "message": "Atlasē nav atrasti sarežģīti termini"
+  },
+  "t_a1f781ec": {
+    "message": "Kļūda atšifrējot atlasi"
+  },
+  "t_7aae8122": {
+    "message": "Atlases izcēlumi notīrīti"
+  },
+  "t_58762fd6": {
+    "message": "Lūdzu, atlasiet vienu vārdu vai īsu frāzi, ko definēt."
+  },
+  "t_6838b119": {
+    "message": "Tīkla kļūda, meklējot definīciju."
+  },
+  "t_ea3ca1b5": {
+    "message": "Atšifrēti $1 termini (no kešatmiņas)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "Atšifrēti $1 termini (kešatmiņā)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "Šomēnes esat izmantojis visas bezmaksas žargona atšifrētāja reizes. Jauniniet uz Pro, lai iegūtu neierobežotu piekļuvi."
+  },
+  "t_cb3c5d3a": {
+    "message": "Atšifrēti $1 termini $2 kategorijās",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "Automātiski izcelti $1 jūsu atšifrētā vārdu krājuma termina gadījumi",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "Atjaunota $1 saglabātā žargona definīcija$2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "Šomēnes esat izmantojis visas bezmaksas žargona atšifrētāja reizes. Jauniniet uz Pro, lai iegūtu neierobežotu piekļuvi."
+  },
+  "t_0b841c82": {
+    "message": "Jau piezīmju grāmatiņā!"
+  },
+  "t_8901f3ab": {
+    "message": "Saglabāts piezīmju grāmatiņā!"
+  },
+  "t_eb8f5242": {
+    "message": "Kļūda saglabājot piezīmju grāmatiņā"
+  },
+  "t_bd15702b": {
+    "message": "Maņu vairogs aktivizēts"
+  },
+  "t_c28f3265": {
+    "message": "Maņu vairogs deaktivizēts"
+  },
+  "t_3f8910d9": {
+    "message": "IZĪVJŪ"
+  },
+  "t_8aafa613": {
+    "message": "Neizdevās vienkāršot šo tekstu"
+  },
+  "t_79d2dc85": {
+    "message": "Neizdevās vienkāršot šo tekstu"
+  },
+  "t_99684ba5": {
+    "message": "Kļūda vienkāršojot tekstu"
+  },
+  "t_f4362bde": {
+    "message": "Nokopēts starpliktuvē!"
+  },
+  "t_af07ef4b": {
+    "message": "Neizdevās kopēt"
+  },
+  "t_94e4d537": {
+    "message": "Teksts lapā aizstāts"
+  },
+  "t_14a04b67": {
+    "message": "Vienkāršošanas atmiņa izdzēsta"
+  },
+  "t_c444ff21": {
+    "message": "Oriģinālais teksts īslaicīgi atjaunots"
+  },
+  "t_55f1db14": {
+    "message": "Šomēnes esat izmantojis visas bezmaksas reizes. Jauniniet uz Pro, lai iegūtu neierobežotu piekļuvi."
+  },
+  "t_fde4e3f0": {
+    "message": "Atjaunoti $1 saglabātie vienkāršojumi šajā lapā",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "Automātiski atjaunots dinamiski ielādēts vienkāršojums!"
+  },
+  "t_dfa22e52": {
+    "message": "Teksta pārvēršana runā aktivizēta"
+  },
+  "t_ca153ad0": {
+    "message": "Teksta pārvēršana runā atspējota"
+  },
+  "t_dadbff09": {
+    "message": "Lūdzu, vispirms iespējojiet teksta pārvēršanu runā"
+  },
+  "t_47071c61": {
+    "message": "Turpina..."
+  },
+  "t_5516c48d": {
+    "message": "Šajā lapā nav atrasts lasāms saturs"
+  },
+  "t_c57f25c9": {
+    "message": "Nav atrasts lasāms saturs"
+  },
+  "t_2516997e": {
+    "message": "Lasīšana pabeigta"
+  },
+  "t_d3069aea": {
+    "message": "Teksta pārvēršana runā šajā pārlūkprogrammā netiek atbalstīta"
+  },
+  "t_53e6b8c6": {
+    "message": "Lūdzu, vispirms atlasiet tekstu"
+  },
+  "t_e932d0f7": {
+    "message": "Lasu atlasi..."
+  },
+  "t_1c50528d": {
+    "message": "Lasīšana pabeigta"
+  },
+  "t_594778a2": {
+    "message": "Pauzēts"
+  },
+  "t_4ded5f77": {
+    "message": "Runas atskaņošana apturēta"
+  },
+  "t_0a74758c": {
+    "message": "✨ Nodrošina personīgā atslēga"
+  },
+  "t_2fceddad": {
+    "message": "✨ Neierobežots"
+  },
+  "t_97627d80": {
+    "message": "✨ Nodrošina personīgā atslēga"
+  },
+  "t_fd7d5888": {
+    "message": "Pārvaldīt abonementu"
+  },
+  "t_df4657a5": {
+    "message": "Bezmaksas dalībnieks"
+  },
+  "t_22dfb2ec": {
+    "message": "Viesa lietotājs"
+  },
+  "t_bd9f2460": {
+    "message": "Bezmaksas konts"
+  },
+  "t_f5adda31": {
+    "message": "Pieteikties / Reģistrēties"
+  },
+  "t_d2439201": {
+    "message": "✨ Neierobežots"
+  },
+  "t_164442b7": {
+    "message": "Uzsilda pārveidotāja dzinēju..."
+  },
+  "t_1e7c3002": {
+    "message": "Gatavs failu parsēšanai."
+  },
+  "t_d30f78df": {
+    "message": "Tumšais režīms"
+  },
+  "t_6c68d8ce": {
+    "message": "Gaišais režīms"
+  },
+  "t_fcb68c2b": {
+    "message": "Nav atrastas līmlapiņas. Nav ko eksportēt!"
+  },
+  "t_2b75b2d9": {
+    "message": "Jūsu sesijas marķieris trūkst. Lūdzu, pierakstieties easyview.in vēlreiz, lai atjaunotu piekļuvi."
+  },
+  "t_291a4e34": {
+    "message": "Droša servera maršrutēšana neizdevās. Pārbaudiet savienojumu."
+  },
+  "t_2dcf62b3": {
+    "message": "Netika konstatētas trūkstošas piezīmes. Darbvieta ir atjaunināta."
+  },
+  "t_951bf3ae": {
+    "message": "Atšifrēšanas kļūda: Fails neatbilst EasyView robežām."
+  },
+  "t_817a4ba0": {
+    "message": "PiP API netiek atbalstīts. Lūdzu, atjauniniet Chrome."
+  },
+  "t_e8aa6e9a": {
+    "message": "Neizdevās inicializēt PiP dzinēju: "
+  },
+  "t_9feed9d5": {
+    "message": "Veiksmīgi atšifrētas un ievietotas $1 jaunas piezīmes.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "BETA"
+  },
+  "t_c289adbe": {
+    "message": "Atbalstiet mūs"
+  },
+  "t_60d5b12a": {
+    "message": "Novērtējiet mūs"
+  },
+  "js_eb82de4c": {
+    "message": "Pielāgota krāsa"
+  },
+  "js_8caef32b": {
+    "message": "Atiestatīt/Notīrīt (Atlasiet tekstu un noklikšķiniet, vai manuāli veiciet dubultklikšķi uz izcēluma)"
+  },
+  "t_823aeb91": {
+    "message": "EasyView darbvieta"
+  },
+  "t_fc42ed23": {
+    "message": "Jūsu darbvietā nav peldošu globālo piezīmju."
+  },
+  "t_12d7c58a": {
+    "message": "Nospiediet Atstarpi, kamēr līmlapiņu kursors ir aktīvs, lai ģenerētu vienu."
+  },
+  "t_ab983c11": {
+    "message": "Šeit nav atrastas vietnei specifiskas piezīmes."
+  },
+  "t_e22709e9": {
+    "message": "Noklikšķiniet uz jebkura fiziska elementa jebkurā vietnē, lai piesaistītu mērķētu piezīmi."
+  },
+  "t_34bdba45": {
+    "message": "Solis"
+  },
+  "t_9b2d88a1": {
+    "message": "no"
+  },
+  "t_8f44d852": {
+    "message": "Sākt darbu!"
+  },
+  "t_b45c2f91": {
+    "message": "Atbloķēt darbvietas eksportēšanu"
+  },
+  "t_88f91dc1": {
+    "message": "Droša visas jūsu globālās darbvietas piezīmju renderēšana un eksportēšana prasa verificētu Pro licenci. Jauniniet, lai neatgriezeniski atbloķētu šo funkciju."
+  },
+  "t_134dff88": {
+    "message": "Varbūt vēlāk"
+  },
+  "t_5b8c9d11": {
+    "message": "Jaunināt uz Pro"
+  },
+  "t_792bd8c9": {
+    "message": "Darbvieta peld!"
+  },
+  "t_e39f7dc2": {
+    "message": "Jūsu līmlapiņas tagad peld virs jūsu operētājsistēmas darbvirsmas."
+  },
+  "t_c83d6ec9": {
+    "message": "Atkārtoti noenkurot darbvietu"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtrē troksni...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Palaist fonā\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimizēt</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Apturēt dzinēju</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "Ģenerēšana apturēta"
+  },
+  "t_removed_from_notebook": {
+    "message": "Noņemts no piezīmju grāmatiņas"
+  },
+  "t_d1c58470": {
+    "message": "Veiciet dubultklikšķi, lai noņemtu izcēlumu"
+  },
+  "t_d4fdfb03": {
+    "message": "Pierakstieties EasyView, lai saņemtu $1 bezmaksas reizes mēnesī, vai pievienojiet savu API atslēgu iestatījumos.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "Ielādēju saglabātos rezultātus..."
+  },
+  "t_3a99733d": {
+    "message": "Inicializē žargona atšifrētāju..."
+  },
+  "t_b6dc9fc9": {
+    "message": "Izveidojiet bezmaksas EasyView kontu, lai saņemtu $1 bezmaksas mākslīgā intelekta atšifrējumus mēnesī un izsekotu savu kvotu.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "Izveidojiet bezmaksas EasyView kontu, lai saņemtu $1 bezmaksas mākslīgā intelekta definīcijas mēnesī un izsekotu savu kvotu.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "Izvelku galveno saturu..."
+  },
+  "t_0eeae2bf": {
+    "message": "Nosaku lapas kontekstu..."
+  },
+  "t_87f125d0": {
+    "message": "Analizēju terminoloģiju..."
+  },
+  "t_9ef6e70f": {
+    "message": "Izmantoju kešatmiņas rezultātus..."
+  },
+  "t_9afdc5e8": {
+    "message": "Analizēju ar AI..."
+  },
+  "t_7ecc3abe": {
+    "message": "AI atšifrēšana neizdevās"
+  },
+  "t_9220c8de": {
+    "message": "Lieto vienkāršojumus..."
+  },
+  "t_57f406b1": {
+    "message": "Atšifrēju atlasi..."
+  },
+  "t_c50f2b72": {
+    "message": "Skatīt glosāriju"
+  },
+  "t_49de9b11": {
+    "message": "Paslēpt izcēlumus lapā"
+  },
+  "t_3158774e": {
+    "message": "Atjaunot izcēlumus lapā"
+  },
+  "t_fc3ad42d": {
+    "message": "Saglabāt vārdnīcā"
+  },
+  "t_87e933b8": {
+    "message": "Meklēju definīciju..."
+  },
+  "t_56b79836": {
+    "message": "Vārda definīcija ielādēta."
+  },
+  "t_969b24ea": {
+    "message": "🔊 Noklikšķiniet jebkur, lai aktivizētu motīva audio"
+  },
+  "t_49337275": {
+    "message": "Manuāls izcēlums"
+  },
+  "t_93324bd5": {
+    "message": "Saglabāts tieši no tīmekļa lapas."
+  },
+  "t_82e413f3": {
+    "message": "Vienkāršoju tekstu..."
+  },
+  "t_86c4f6e5": {
+    "message": "Vienkāršoju ar AI..."
+  },
+  "t_c3e18edb": {
+    "message": "Vienkāršošana neizdevās"
+  },
+  "t_6398ab2c": {
+    "message": "Lasīšanas līmenis: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "Noklikšķiniet, lai īslaicīgi atjaunotu oriģinālo tekstu"
+  },
+  "t_9beea3e8": {
+    "message": "Dzēst no atmiņas neatgriezeniski"
+  },
+  "t_453bb8f7": {
+    "message": "Izveidojiet bezmaksas EasyView kontu, lai saņemtu $1 bezmaksas AI vienkāršošanas reizes mēnesī un izsekotu savu kvotu.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "Klausīties"
+  },
+  "t_24833610": {
+    "message": "Saglabāts"
+  },
+  "t_30a008cb": {
+    "message": "Lasīt vairāk &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "Saglabāts vārdnīcā!"
+  },
+  "t_2728e87f": {
+    "message": "Noņemts no vārdnīcas"
+  },
+  "t_6b8c66ce": {
+    "message": "Glosārijs ($1 termini)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "Noņemt atmiņu šai lapai"
+  },
+  "t_8a49fe1a": {
+    "message": "Noņemt terminu"
+  },
+  "t_1534891c": {
+    "message": "Atšifrēti $1 termini",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "Saglabāt piezīmju grāmatiņā"
+  },
+  "t_150a2843": {
+    "message": "Notīrīt izcēlumus"
+  },
+  "t_21ef939c": {
+    "message": "Saglabāts piezīmju grāmatiņā!"
+  },
+  "t_8054da35": {
+    "message": "Ātrā vārdnīca",
+    "description": "Ātrās vārdnīcas uznirstošā loga virsraksts"
+  },
+  "t_4aeb2167": {
+    "message": "Vārds nav atrasts",
+    "description": "Vārdnīcas rezerves virsraksts"
+  },
+  "t_272d0070": {
+    "message": "Mēs nevarējām atrast \"$1\" pamata vārdnīcā. Tas varētu būt mūsdienu slengs, saīsinājums vai ļoti tehnisks žargons.",
+    "description": "Vārdnīcas rezerves apraksts ar vārda vietturi",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "Atšifrēt ar Evie AI",
+    "description": "Rezerves poga atšifrēšanai ar AI"
+  },
+  "t_14f1f972": {
+    "message": "caur",
+    "description": "Vārdnīcas avota prefikss"
+  },
+  "t_f2faf2f1": {
+    "message": "Lietvārds",
+    "description": "Runas daļa: lietvārds"
+  },
+  "t_b512ddf1": {
+    "message": "Darbības vārds",
+    "description": "Runas daļa: darbības vārds"
+  },
+  "t_d807ae6a": {
+    "message": "Īpašības vārds",
+    "description": "Runas daļa: īpašības vārds"
+  },
+  "t_1a607278": {
+    "message": "Apstākļa vārds",
+    "description": "Runas daļa: apstākļa vārds"
+  },
+  "t_02de720d": {
+    "message": "Vietniekvārds",
+    "description": "Runas daļa: vietniekvārds"
+  },
+  "t_4b7be2c3": {
+    "message": "Prievārds",
+    "description": "Runas daļa: prievārds"
+  },
+  "t_a3c1d30b": {
+    "message": "Saiklis",
+    "description": "Runas daļa: saiklis"
+  },
+  "t_e189f001": {
+    "message": "Izsauksmes vārds",
+    "description": "Runas daļa: izsauksmes vārds"
+  },
+  "t_96de90f8": {
+    "message": "Kopēt vienkāršoto tekstu",
+    "description": "Rīka padoms vienkāršotā teksta kopēšanai"
+  },
+  "t_44a6e288": {
+    "message": "Lasīt lapu",
+    "description": "Rīka padoms visas lapas lasīšanai, izmantojot TTS"
+  },
+  "t_7d70d73b": {
+    "message": "Lasīt atlasi",
+    "description": "Rīka padoms atlases lasīšanai, izmantojot TTS"
+  },
+  "t_11936123": {
+    "message": "Neatgriezeniski izdzēst piezīmi",
+    "description": "Rīka padoms līmlapiņas neatgriezeniskai dzēšanai"
+  },
+  "t_d27532d9": {
+    "message": "Minimizēt"
+  },
+  "t_2bd339d8": {
+    "message": "Atjaunot"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "IzīVjū"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "Sistēmas brīdinājums"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "Sistēmas paziņojums"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "EasyView\r\n                        dzinējs"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "Vietējās funkcijas paliek\r\n                        aktīvas"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,382 +599,373 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "EasyView\r\n                        pieredze"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "Jūs izmantojat EasyView 12 stundas. Izveidojiet bezmaksas kontu, lai\r\n                    saglabātu savus\r\n                    iestatījumus, saglabātu savu kvotu un atbloķētu vairāk funkciju."
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "Atgādināt man pēc 12 stundām"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "Gaišs"
   },
   "t_7fc56270": {
     "message": "A"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "Fonts"
   },
   "t_5dbc98dc": {
-    "message": "S"
+    "message": "M"
   },
   "t_69691c7b": {
-    "message": "M"
+    "message": "V"
   },
   "t_d20caec3": {
     "message": "L"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "Funkcijas"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "Vizuālie elementi"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "Pārveidotājs"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "Piezīmju grāmata"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "Žargona atšifrētājs"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "Vienkāršot sarežģītus juridiskus terminus"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "wikipedia.org/wiki/Neirodažādība"
   },
   "t_61e9c06e": {
-    "message": "W"
+    "message": "P"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "Neirodažādība"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "daudz\r\n                                                vieglāk"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "Fokusa un privātuma vairogs"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "Aizmiglot privātu un sensitīvu saturu"
   },
   "t_7f766191": {
-    "message": "mail.google.com/mail/u/0/"
+    "message": "pasts.gūgle.com/pasts/u/0/"
   },
   "t_dfcf28d0": {
     "message": "G"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "Google konti"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "Drošības brīdinājums"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- Pieprasīta paroles atiestatīšana..."
   },
   "t_8d9c307c": {
     "message": "N"
   },
   "t_170b1d36": {
-    "message": "Netflix"
+    "message": "Netflikss"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "Jaunums šonedēļ"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- Apskatiet mūsu jaunākos\r\n                                                    laidienus..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "Aizsardzības metodes"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "Privātā satura aizmiglošana"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "Inteliģenti aizmiglo WhatsApp, Gmail un paroles\r\n                                            ievades tūlītējai vizuālajai drošībai."
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "Automātiskā aizsardzība ekrāna kopīgošanas laikā"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "Nekavējoties aizsedz ekrānu, kad kopīgojat to tiešsaistē."
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
-  },
-  "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "Vai izmantojat\r\n                                                    fizisku projektoru?"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "Lasīšanas lukturītis"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "Seko jūsu pelei ar spilgtu prožektoru, lai pilnībā novērstu apkārtējo\r\n                                            vizuālo jucekli."
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "1.\r\n                                                            Stara forma"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "Prožektors\r\n                                                            vai lineāls"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "2.\r\n                                                                Stara izmērs / augstums"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "Skatīšanas zonas\r\n                                                                biezums"
   },
   "t_f0cad41b": {
     "message": "35px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "3.\r\n                                                            Fokusa stara lēcas tonis"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "Maigi\r\n                                                            tonē lasīšanas spraugu"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "4.\r\n                                                            Apkārtējā fona ēna"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "Lēcas\r\n                                                            apkārtējā tumsība"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "Maņu vairogs"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "Iesaldēt uzmanību novēršošas animācijas"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "ziņudiena.lv/jaunumi"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "SVARĪGAS ZIŅAS"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "Lasu rakstu par ikdienas ziņām..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "UZVARA!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "Vairoga režīms"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(noklusējums)"
   },
   "t_9e3360ac": {
     "message": "PRO"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "Apturēt automātisko atskaņošanu + mierīgas\r\n                                                izbalēšanas manuālajā navigācijā"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "Disleksijas lasīšanas režīms"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "Optimizēti fonti un atstarpes"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "Intensitātes profils"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "Zems"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "Vidējs"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "Augsts"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "vikipēdija.org/wiki/Lasīšana"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "Lasīšana"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "Šeit ir jūsu lasīšanas iestatījumu priekšskatījums."
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "Papildu opcijas"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "Fonta stils"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "Noklusējums (bez izmaiņām)"
   },
   "t_5d2967ef": {
-    "message": "OpenDyslexic"
+    "message": "Atvērts disleksijas fonts"
   },
   "t_1042daad": {
-    "message": "Lexend (ADHD Pro) 🔒"
+    "message": "Leksends (ADHD Pro) 🔒"
   },
   "t_bcec044a": {
-    "message": "Atkinson Hyperlegible 🔒"
+    "message": "Etkinsons Hiperledžibls 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "Ātrs bezserifa fonts"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "Ātrs serifu fonts"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "Komiksu jauns"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "Komiksu bezserifa"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "Burtu atstarpes"
   },
   "t_960b44c5": {
-    "message": "Normal"
+    "message": "Normāls"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "Rindstarpa"
   },
   "t_60086472": {
     "message": "1.5"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "Vārdu atstarpes"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "Fonta izmērs"
   },
   "t_30bd7ce7": {
     "message": "100%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "Pārklājuma krāsa"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "Nav"
   },
   "t_2bd8c63b": {
-    "message": "Beige"
+    "message": "Bēšs"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "Gaiši zils"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "Gaiši zaļš"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "Gaiši dzeltens"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "Teksta pārvēršana runā (TTS)"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "Lasīt skaļi ar izcelšanu"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "Atskaņot"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "Pauze"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "Apturēt"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "Balss atlase"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "Automātiski (labākā kvalitāte)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "Lasīšanas ātrums"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "Ļoti lēns"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "Lēns"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "Ātrs"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "Ļoti ātrs"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "Skaļums"
   },
   "t_f1943132": {
     "message": "70%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "Pauze pie pieturzīmēm"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "Vārdu izcelšana"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "Iespējot"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "Režīms"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "Tumšs"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "vikipēdija.org/wiki/Gaisma"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "Ideāls vizuālais noformējums acu komfortam. Gaisma var būt intensīva."
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "Spilgtums"
   },
   "t_c63ecd19": {
-    "message": "Contrast"
+    "message": "Kontrasts"
   },
   "t_b84a9a38": {
-    "message": "Sepia"
+    "message": "Sēpija"
   },
   "t_9f1ef078": {
     "message": "0%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "Pelēktoņi"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "Noklusējums"
   },
   "t_b1166920": {
-    "message": "Lexend 🔒"
+    "message": "Leksends 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "Teksta kontūra"
   },
   "t_cfcd2084": {
     "message": "0"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "Viedais pārveidotājs un lasītājs"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "Pašreizējais fails"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "Noklikšķiniet vai velciet failu, lai augšupielādētu"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• Gatavs"
   },
   "t_4c4ad5fc": {
     "message": "HTML"
@@ -423,181 +980,181 @@
     "message": "📌"
   },
   "t_4cc6684d": {
-    "message": "Global"
+    "message": "Globāls"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "Vietne/Lapa"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "Mana piezīmju grāmata"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "Notīrīt visu"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "Atcelt"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "Saglabāt vārdu"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "Vēl nav saglabātu vārdu."
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "Novietojiet kursoru virs žargona jebkurā lapā un noklikšķiniet uz grāmatzīmes ikonas, lai saglabātu to šeit!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "Pārdomājiet jebkuras vietnes saskarni. Aprakstiet, ko vēlaties, vai izvēlieties\r\n                            sākotnējo iestatījumu."
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "Pārveidošana\r\n                                Lietota"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "Pielāgots mākslīgā intelekta izkārtojums\r\n                                ir aktīvs šajā vietnē."
   },
   "t_e8a57cd1": {
     "message": "0 /\r\n                                500"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "Atiestatīt lapu"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "Pārveidošanas izkārtojums"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "Noklusējuma iestatījumi"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "Šausmu karnevāls"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "Baisa karnevāla noskaņa un animēts šausmu teksts"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "Matricas konsole"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "Kiberpanka termināļa motīvs"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "Neiro fokuss"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "Disleksijai draudzīgi fonti un nomierinošas krāsas"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "Lasītāja režīms"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "Minimālistisks izkārtojums, kas optimizēts fokusam"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "Nesenas uzvednes"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "Viesa lietotājs"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "Bezmaksas konts"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "Pieteikties / Pārvaldīt"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "Izrakstīties"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "API iestatījumi"
   },
   "t_766cc4dd": {
-    "message": "Gemini"
+    "message": "Džemini"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "Mākslīgā intelekta nodrošinātājs"
   },
   "t_222cf5ed": {
-    "message": "Google Gemini"
+    "message": "Google Džemini"
   },
   "t_a0607683": {
-    "message": "OpenRouter"
+    "message": "Atvērtais maršrutētājs"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "Gemini API atslēga"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "Gūgles Mākslīgā Intelekta Studija"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "OpenRouter API atslēga"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "Saglabāt API atslēgu"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "EasyView\r\n                                    Mākslīgā intelekta prioritāte"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ Mana API atslēga"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 EasyView serveri"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "Izvēlieties\r\n                                kuru izmantot vispirms visām mākslīgā intelekta funkcijām. Ja jūsu atslēga beidzas, EasyView serveri tiek\r\n                                vienmēr izmantoti kā rezerves variants."
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "Privātums\r\n                                    & Prioritāte"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "Prioritāte 1:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "Prioritāte 2:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "Pārveidošanas dzinēja piezīme:"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "nekad"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "Palīdzība un atsauksmes"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "Vai jums ir jautājums, atradāt kļūdu vai vēlaties ieteikt funkciju? Mēs labprāt uzklausīsim jūs!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "Ziņot par kļūdu / sniegt atsauksmes"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Gatavs vienkāršot"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "Eksportēt iestatījumus"
   },
   "t_9d5ed678": {
-    "message": "B"
+    "message": "T"
   },
   "t_dd753679": {
     "message": "I"
@@ -615,25 +1172,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "Stiprums"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "Necaurredzamība"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "Svars"
   },
   "t_18d80423": {
     "message": "400"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "Rindstarpa"
   },
   "t_f522dede": {
     "message": "1.7x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "Izlaist"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,61 +1199,61 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "Izcelt"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "TINTE"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "IZBALĒŠANA"
   },
   "t_e8bfe352": {
-    "message": "Lexend 👑"
+    "message": "Leksends 👑"
   },
   "t_0cd4623c": {
-    "message": "Atkinson Hyperlegible 👑"
+    "message": "Etkinsons Hiperledžibls 👑"
   },
   "t_6fbda3a3": {
-    "message": "Arial"
+    "message": "Ariāls"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "Helvetika"
   },
   "t_207c3219": {
     "message": "Verdana"
   },
   "t_2bd141ae": {
-    "message": "Tahoma"
+    "message": "Tahoms"
   },
   "t_720661ec": {
-    "message": "Trebuchet MS"
+    "message": "Trebušē MS"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "Sistēmas bezserifa fonts"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "Taims Ņū Romāns"
   },
   "t_eada8196": {
-    "message": "Georgia"
+    "message": "Džordžija"
   },
   "t_96a78725": {
-    "message": "Garamond"
+    "message": "Garamonds"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "Sistēmas serifu fonts"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "Komiksu bezserifa MS"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "Kurjers jauns"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "Fiksēts platums"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "Fonta\n                            izmērs"
   },
   "t_f4f9f2f4": {
     "message": "14px"
@@ -723,7 +1280,7 @@
     "message": "32px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "Gatavs"
   },
   "t_63922286": {
     "message": "×"
@@ -732,154 +1289,34 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "Eksportēt motīvu bibliotēku"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "Saglabājiet savus ar mākslīgo intelektu ģenerētos šedevrus\r\n                lokāli."
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "Eksportēt visu bibliotēku"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
-  },
-  "t_ccca2ddf": {
-    "message": "EasyView Reader"
-  },
-  "t_8524de96": {
-    "message": "Loading..."
-  },
-  "t_25e8f2fd": {
-    "message": "Please wait..."
-  },
-  "t_ec9d785d": {
-    "message": "1.5x"
-  },
-  "t_dafd5f8f": {
-    "message": "Lexend"
-  },
-  "t_16d90a0b": {
-    "message": "Atkinson Hyperlegible"
-  },
-  "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
-  },
-  "t_f7cee5ea": {
-    "message": "Calibri"
-  },
-  "t_ccc0239e": {
-    "message": "Candara"
-  },
-  "t_2963521b": {
-    "message": "Corbel"
-  },
-  "t_37f1cc58": {
-    "message": "Cambria"
-  },
-  "t_c3d9d4bf": {
-    "message": "Constantia"
-  },
-  "t_5d1a5b35": {
-    "message": "Palatino Linotype"
-  },
-  "t_4dc386b6": {
-    "message": "Book Antiqua"
-  },
-  "t_03c461f6": {
-    "message": "Franklin Gothic"
-  },
-  "t_7b1ee3b6": {
-    "message": "Century Gothic"
-  },
-  "t_a3293302": {
-    "message": "Gill Sans"
-  },
-  "t_eb726908": {
-    "message": "Sitka Text"
-  },
-  "t_b5bdee2c": {
-    "message": "Sylfaen"
-  },
-  "t_1ec05249": {
-    "message": "Microsoft Sans Serif"
-  },
-  "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
-  },
-  "t_16507cdd": {
-    "message": "Consolas"
-  },
-  "t_391c5954": {
-    "message": "Lucida Console"
-  },
-  "t_9879efdf": {
-    "message": "Lucida Sans Typewriter"
-  },
-  "t_21f59b54": {
-    "message": "Impact"
-  },
-  "t_94a7bb97": {
-    "message": "Arial Black"
-  },
-  "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
-  },
-  "t_40885309": {
-    "message": "Berlin Sans FB"
-  },
-  "t_6d5566ba": {
-    "message": "Gabriola"
-  },
-  "t_edb42482": {
-    "message": "Ink Free"
-  },
-  "t_fa233799": {
-    "message": "Segoe Script"
-  },
-  "t_2f7bc407": {
-    "message": "Segoe Print"
-  },
-  "t_0095a9fa": {
-    "message": "Export"
-  },
-  "t_520d0db3": {
-    "message": "Format"
-  },
-  "t_5956a437": {
-    "message": "TXT"
-  },
-  "t_1351017a": {
-    "message": "Filename"
-  },
-  "t_6af8212e": {
-    "message": "EasyView Notes Board"
-  },
-  "t_d16da0f5": {
-    "message": "🌎"
-  },
-  "t_6df173ff": {
-    "message": "📍"
+    "message": ".json (JSON fails)"
   },
   "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
-  },
-  "js_24833610": {
-    "message": "Saved"
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Nepieciešama darbība</div>\n            <h2 class=\"ev-si-title\">Konts<br><span class=\"ev-si-gradient-text\">Apturēts</span></h2>\n            <p class=\"ev-si-sub\">Jūsu EasyView piekļuve ir ierobežota mūsu pakalpojumu sniegšanas noteikumu pārkāpuma dēļ.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Sazināties ar atbalsta dienestu\n            </a>\n          </div>\n        </div>\n      "
   },
   "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Lūdzu, vispirms aprakstiet savu pārveidojumu.</span>\n          </div>"
   },
   "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Pārveido...</span>\n      "
   },
   "js_138703dd": {
-    "message": "No Theme on Page"
+    "message": "Lapā nav tēmas"
   },
   "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>Eksportēt pašreizējo lapu"
   },
   "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Kompilē..."
   },
   "js_e541190e": {
     "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
@@ -891,30 +1328,1322 @@
     "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
   },
   "js_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Gatavs vienkāršot"
   },
   "js_a18366b2": {
-    "message": "Dark"
+    "message": "Tumšs"
   },
   "js_9914a0ce": {
-    "message": "Light"
+    "message": "Gaišs"
   },
   "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+    "message": "<option value=\"auto\">Automātiski (labākā kvalitāte)</option>"
   },
   "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Atšifrē..."
   },
   "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+    "message": "Šis šķiet <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">daudz vieglāk</span> saprotams."
   },
   "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+    "message": "Šo ir grūtāk saprast."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_f05df71b": {
+    "message": "Jaunina"
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_78db2ae3": {
+    "message": "Mūsu AI serveros notiek jauninājumi."
+  },
+  "t_bb2129c8": {
+    "message": "Atbloķēt pilno"
+  },
+  "t_aefee7cd": {
+    "message": "Skaidrība ikvienam prātam"
+  },
+  "t_c38beca1": {
+    "message": "Firefox ierobežo fizisko monitoru noteikšanas programmēšanas saskarnes (API). "
+  },
+  "t_f2fe1e79": {
+    "message": "Vērtības\r\n                                    zem 1.0 var saspiest tekstu un izjaukt izkārtojumus."
+  },
+  "t_ca677d53": {
+    "message": "Vizuālie pielāgojumi"
+  },
+  "t_230b4522": {
+    "message": "Piezīmju dēlis"
+  },
+  "t_596b54bf": {
+    "message": "Pārveidot AI aģentu"
+  },
+  "t_47e79a17": {
+    "message": "Saņemiet savu bezmaksas atslēgu šeit"
+  },
+  "t_42372184": {
+    "message": "Motīvi tiek eksportēti kā"
+  },
+  "t_74fdc8a2": {
+    "message": "Lūdzu, vispirms aprakstiet savu pārveidojumu."
+  },
+  "t_245fd3b9": {
+    "message": "Notīrīts pārveidotais izkārtojums."
+  },
+  "t_172bd753": {
+    "message": "Motīvs veiksmīgi eksportēts!"
+  },
+  "t_4c34daff": {
+    "message": "Savienojuma noildze. Serveris nav sasniedzams."
+  },
+  "t_0dd56117": {
+    "message": "Šajā lapā nav atrasts aktīvs motīvs."
+  },
+  "t_cb5c0766": {
+    "message": "Bibliotēka veiksmīgi eksportēta!"
+  },
+  "t_8adb392e": {
+    "message": "Savienojuma noildze. Serveris nav sasniedzams."
+  },
+  "t_ae94e0e4": {
+    "message": "Jūsu motīvu bibliotēka ir tukša."
+  },
+  "t_10a0c40b": {
+    "message": "Pielāgots motīvs veiksmīgi ielādēts!"
+  },
+  "t_9b6007a8": {
+    "message": "Neizdevās nolasīt motīva failu."
+  },
+  "t_d4fa051d": {
+    "message": "Neizdevās: $1. Lūdzu, pārlādējiet cilni.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "Piemērots: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "Atjaunoti $1 motīvi no bibliotēkas!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "Valodas izvēle"
+  },
+  "t_lang_updated_reload": {
+    "message": "Valoda atjaunināta. Pārlādē..."
+  },
+  "t_transformation_failed": {
+    "message": "Pārveidošana neizdevās."
+  },
+  "t_c8a59e71": {
+    "message": "Noraidīt"
+  },
+  "t_7764306b": {
+    "message": "Mākoņpakalpojumu apkope aktīva"
+  },
+  "t_248228de": {
+    "message": "Pārslēgt disleksijas fontu uznirstošajā logā"
+  },
+  "t_79a59320": {
+    "message": "Sākt lietotnes tūri"
+  },
+  "t_533bff5b": {
+    "message": "Piespraust līmlapiņu lapai (Alt+N)"
+  },
+  "t_f4f70727": {
+    "message": "Iestatījumi"
+  },
+  "t_4fd11104": {
+    "message": "Apļveida prožektors"
+  },
+  "t_0d063af1": {
+    "message": "Horizontālās līnijas lineāls 🔒"
+  },
+  "t_60d71580": {
+    "message": "Skaidra gaisma"
+  },
+  "t_efe48742": {
+    "message": "Dzintara fokuss"
+  },
+  "t_610a09ca": {
+    "message": "Vēss ciāns"
+  },
+  "t_886f6b9e": {
+    "message": "Atpūtinošs zaļš"
+  },
+  "t_65e8194e": {
+    "message": "Piķa melns"
+  },
+  "t_7243ed99": {
+    "message": "Pusnakts šīferis"
+  },
+  "t_ec6d8325": {
+    "message": "Dziļš mežs"
+  },
+  "t_4af435e0": {
+    "message": "Vampīra vīns"
+  },
+  "t_2a7dbdf8": {
+    "message": "Pro funkcija"
+  },
+  "t_fc4aec61": {
+    "message": "Atvērt lasītājā"
+  },
+  "t_801ab246": {
+    "message": "Lejupielādēt"
+  },
+  "t_aa3880dc": {
+    "message": "Lejupielādēt kā HTML"
+  },
+  "t_e0781e81": {
+    "message": "Lejupielādēt kā EPUB"
+  },
+  "t_442ff212": {
+    "message": "Lejupielādēt kā DOCX"
+  },
+  "t_6244ee7c": {
+    "message": "Pievienot pielāgotu terminu manuāli"
+  },
+  "t_6e7d015f": {
+    "message": "Importēt CSV failu"
+  },
+  "t_edbc5415": {
+    "message": "Eksportēt uz Anki / Quizlet"
+  },
+  "t_46c29f7a": {
+    "message": "Ielādēt tēmu"
+  },
+  "t_2bd65c5d": {
+    "message": "Eksportēt tēmu"
+  },
+  "t_c1c433ac": {
+    "message": "Aktīvais AI nodrošinātājs"
+  },
+  "t_90c09393": {
+    "message": "Punktēta"
+  },
+  "t_eb656e41": {
+    "message": "Pārtraukta"
+  },
+  "t_0c99ddee": {
+    "message": "Izcēluma krāsa"
+  },
+  "t_eaf63759": {
+    "message": "Tintes krāsa"
+  },
+  "t_a183c9f0": {
+    "message": "Izbalēšanas krāsa"
+  },
+  "t_75e7422f": {
+    "message": "Fona krāsa"
+  },
+  "t_42f9ceea": {
+    "message": "Meklēt saglabātajā leksikā..."
+  },
+  "t_0e84a8cf": {
+    "message": "Ievadiet vārdu vai akronīmu..."
+  },
+  "t_eea6890c": {
+    "message": "Nozīme / Tulkojums..."
+  },
+  "t_4480cf46": {
+    "message": "Atmiņas triks vai mācību piezīme (neobligāti)..."
+  },
+  "t_d8634fbf": {
+    "message": "piem., Pārvērst rozā anime stila tēmā ar noapaļotām kartītēm vai pārveidot par retro tumši zaļu termināļa konsoli..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "Lapiņas"
+  },
+  "t_b097d277": {
+    "message": "Pievienot vārdu"
+  },
+  "t_1eeb67ee": {
+    "message": "Eksportēt pašreizējo lapu"
+  },
+  "t_b62ded9a": {
+    "message": "Mākoņpakalpojumi bezsaistē"
+  },
+  "t_263e00eb": {
+    "message": "Pierakstīties / Izveidot kontu"
+  },
+  "t_7748eb3b": {
+    "message": "JAUNINĀŠANA"
+  },
+  "t_81a5d20b": {
+    "message": "Iesaldēt visu"
+  },
+  "t_e61146d9": {
+    "message": "Mierīga izbalēšana"
+  },
+  "t_57323916": {
+    "message": "Apturēt automātisko atskaņošanu"
+  },
+  "t_f50319ea": {
+    "message": "Pilna aizsardzība"
+  },
+  "t_8e13f26d": {
+    "message": "Ātrs jautājums"
+  },
+  "t_134b26da": {
+    "message": "Vai jums patīk<br><span class=\"ev-si-gradient-text\">EasyView?</span>"
+  },
+  "t_b75bdd9e": {
+    "message": "Jūsu atsauksmes palīdz mums pilnveidoties.<br>Vai jums patīk šī pieredze?"
+  },
+  "t_396d1ff8": {
+    "message": "Jā, esmu!"
+  },
+  "t_7d0cacf3": {
+    "message": "Nepieciešami uzlabojumi"
+  },
+  "t_815142c9": {
+    "message": "Atbalstiet mūs"
+  },
+  "t_abd9fa39": {
+    "message": "Vai jūs nevēlētos<br><span class=\"ev-si-gradient-text\">atstāt atsauksmi?</span>"
+  },
+  "t_02991e61": {
+    "message": "Lietotāju vērtējumi ir labākais veids, kā palīdzēt EasyView augt. Tas aizņem tikai minūti!"
+  },
+  "t_db49c1f2": {
+    "message": "Novērtēt"
+  },
+  "t_7a4f0d12": {
+    "message": "Atgādināt vēlāk"
+  },
+  "t_fee6c0e9": {
+    "message": "Privātas atsauksmes"
+  },
+  "t_74393dde": {
+    "message": "Ko mēs varam <span class=\"ev-si-gradient-text\">uzlabot?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "Pastāstiet mums, kas nogāja greizi..."
+  },
+  "t_6f97affc": {
+    "message": "Sūtīt atsauksmes"
+  },
+  "t_b20871b3": {
+    "message": "Lūdzu, ievadiet savas atsauksmes"
+  },
+  "t_7b0fee4d": {
+    "message": "Sūta..."
+  },
+  "t_fb631633": {
+    "message": "Paldies par jūsu atsauksmēm."
+  },
+  "t_08727add": {
+    "message": "Skatiet tīmekli savā veidā."
+  },
+  "t_15bbb9d0": {
+    "message": "Vietne"
+  },
+  "t_c5f29bb3": {
+    "message": "Privātums"
+  },
+  "t_ad5b1a22": {
+    "message": "Dibinātājs"
+  },
+  "t_db496e03": {
+    "message": "Personīgās atslēgas izveido tiešu, 100% privātu savienojumu ar mākslīgo intelektu. Jūsu teksts nekad nesasniedz EasyView serverus."
+  },
+  "t_387c35b3": {
+    "message": "Mūsu pārvaldītais serveris (Premium) darbojas kā uzticama dublējumkopija, ja atslēga nav pieejama vai ja jūsu atslēga neizdodas."
+  },
+  "t_98bc5a17": {
+    "message": "Lai aizsargātu patentētus algoritmus, jūsu atslēga tiek īslaicīgi novirzīta caur mūsu drošo serveri, lai autentificētos ar Google. Tā netiek"
+  },
+  "t_de47f1be": {
+    "message": "saglabāta vai reģistrēta."
+  },
+  "t_25e02e7f": {
+    "message": "Aktīvs: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ Premium biedrs"
+  },
+  "t_df56cfae": {
+    "message": "⭐ Mūža biedrs"
+  },
+  "t_41cbc704": {
+    "message": " dienas atlikušas"
+  },
+  "t_b194bd82": {
+    "message": "Nekad nebeidzas"
+  },
+  "t_9f830444": {
+    "message": "⭐ Pro:"
+  },
+  "t_61b82be6": {
+    "message": " atlikušas pārveides"
+  },
+  "t_c20e7ceb": {
+    "message": " atlikušas bezmaksas pārveides"
+  },
+  "t_d7087930": {
+    "message": " bezmaksas lietošanas reizes"
+  },
+  "t_4bbf11bd": {
+    "message": "Termina un nozīmes laukus nevar atstāt tukšus!"
+  },
+  "t_08f09d38": {
+    "message": "Vārda informācija veiksmīgi atjaunināta!"
+  },
+  "t_32001b52": {
+    "message": "Lūdzu, ievadiet gan vārdu, gan tā nozīmi."
+  },
+  "t_b8115861": {
+    "message": "Jūsu mācību piezīmju grāmatiņa ir tukša. Vispirms pievienojiet grāmatzīmēm dažus vārdus tīmekļa lapās!"
+  },
+  "t_7114113b": {
+    "message": "Lūdzu, vispirms pierakstieties savā EasyView kontā, lai verificētu savas Pro funkcijas!"
+  },
+  "t_093f9fa0": {
+    "message": "Jūsu sesijas marķieris trūkst. Lūdzu, pierakstieties easyview.in vēlreiz, lai atjaunotu piekļuvi."
+  },
+  "t_0e065596": {
+    "message": "Šī ir verificēta tikai Premium lietotājiem paredzēta funkcija. Jauniniet uz Pro, lai atbloķētu!"
+  },
+  "t_c792a645": {
+    "message": "Neizdevās izveidot savienojumu ar drošu eksportēšanas serveri. Mēģiniet vēlreiz pēc brīža."
+  },
+  "t_8d1a2675": {
+    "message": "Šajā CSV failā neizdevās identificēt nevienu derīgu vārdu krājuma vienumu."
+  },
+  "t_a613ed90": {
+    "message": "Pārlūkprogrammas krātuves rakstīšanas kļūda! Fails var būt pārāk liels lokālajai kešatmiņai."
+  },
+  "t_8efe87ab": {
+    "message": "Pārlūkprogrammai neizdevās nolasīt jūsu vietējo failu."
+  },
+  "t_50bf63aa": {
+    "message": "Vai esat pārliecināts, ka vēlaties notīrīt visus saglabātos vārdus no savas piezīmju grāmatiņas?"
+  },
+  "t_ff252710": {
+    "message": "Imports pabeigts: Visi $1 ieraksti jau pastāv jūsu piezīmju grāmatiņā.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "Neizdevās parsēt CSV: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "\"$1\" jau ir jūsu piezīmju grāmatiņā. Vai vēlaties pievienot vēl vienu definīciju tam?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "Veiksmīgi izrakstījāties"
+  },
+  "t_dbd35100": {
+    "message": "Pārveidošanas dzinējs jau darbojas..."
+  },
+  "t_2de4e55d": {
+    "message": "Pārveidotais izkārtojums notīrīts"
+  },
+  "t_1bb9196d": {
+    "message": "Pārveidots: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "Pārveidošana neizdevās: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "Aktivizēts: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 vienumi sakārtoti",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "Tas neatgriezeniski izdzēsīs šo piezīmi visās sinhronizētajās ierīcēs. Turpināt?"
+  },
+  "t_25abf697": {
+    "message": "EPUB eksportēšanai nepieciešams JSZip."
+  },
+  "t_71609188": {
+    "message": "DOCX eksportēšanai nepieciešams html-docx-js."
+  },
+  "t_e1499766": {
+    "message": "Nav ielādēts fails."
+  },
+  "t_023b3355": {
+    "message": "Privātuma vairogs aktivizēts"
+  },
+  "t_9483a5da": {
+    "message": "Privātuma vairogs deaktivizēts"
+  },
+  "t_a04202db": {
+    "message": "Izcēlumi īslaicīgi paslēpti"
+  },
+  "t_b3d6b264": {
+    "message": "Izcēlumi atjaunoti"
+  },
+  "t_7485c55e": {
+    "message": "Laipni lūdzam EasyView! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "Jūsu ar mākslīgo intelektu darbināmais kognitīvais tilts vieglākai tīmekļa lasīšanai. Dosimies ātrā ekskursijā pa funkcijām."
+  },
+  "t_3a1fe637": {
+    "message": "Žargona atšifrētājs 📖"
+  },
+  "t_89cec86e": {
+    "message": "Vienkāršo sarežģītu terminoloģiju jebkurā tīmekļa lapā."
+  },
+  "t_f8aefae7": {
+    "message": "Privātuma vairogs 🔐"
+  },
+  "t_aa860f86": {
+    "message": "Aizmiglo sensitīvus datus un ietver fokusa lineālu lasīšanai bez traucēkļiem."
+  },
+  "t_0681a3b6": {
+    "message": "Maņu vairogs 🛡️"
+  },
+  "t_6118b864": {
+    "message": "Iesaldē uzmanību novēršošus GIF un animācijas."
+  },
+  "t_12ec6fc6": {
+    "message": "Disleksijas lasīšanas režīms 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "Optimizēti fonti un atstarpes vieglākai lasīšanai."
+  },
+  "t_18d9ce63": {
+    "message": "Teksta pārvēršana runā 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "Klausieties jebkuru tīmekļa lapu ar vārdu izcelšanu."
+  },
+  "t_0019a700": {
+    "message": "Pārveides dzinējs ✨"
+  },
+  "t_47c2535a": {
+    "message": "Izmantojiet mākslīgo intelektu, lai pārveidotu jebkuru vietni pielāgotā tēmā vai izkārtojumā."
+  },
+  "t_2ed2f639": {
+    "message": "Lapiņas 📝"
+  },
+  "t_75025b5f": {
+    "message": "Piespraudiet peldošās līmlapiņas jebkurai tīmekļa lapai, lai saglabātu svarīgu informāciju (Alt+N)."
+  },
+  "t_3ff2d7cc": {
+    "message": "API konfigurācija ⚙️"
+  },
+  "t_0754e836": {
+    "message": "Pierakstieties, lai sinhronizētu savu kvotu, vai iestatiet savu bezmaksas Gemini API atslēgu šeit."
+  },
+  "t_7b6a2059": {
+    "message": "Solis $1 no $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "Sākt darbu!"
+  },
+  "t_10ac3d04": {
+    "message": "Nākamais"
+  },
+  "t_5c7a52b8": {
+    "message": "Nospiediet "
+  },
+  "t_a1b2c3d4": {
+    "message": " jebkurā laikā, lai manuāli aktivizētu automātiskās aizsardzības vairogu."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ Privātuma vairogs aktivizēts"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 Privātuma vairogs deaktivizēts"
+  },
+  "js_9b3e1a": {
+    "message": "EasyView analizē izkārtojumu un pārveido..."
+  },
+  "js_4c8d2f": {
+    "message": "Definēt"
+  },
+  "js_7a1e9b": {
+    "message": "Atšifrēt"
+  },
+  "js_2d5f8c": {
+    "message": "Vienkāršot"
+  },
+  "js_6e3a4d": {
+    "message": "Grāmatzīme"
+  },
+  "js_1f9b7c": {
+    "message": "Izcelt"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "Analizēju DOM koku..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "Nekārtīgs izkārtojums..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "Līdzinu struktūru..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[TROKŠŅA_PĀRSLODZE]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "Noņemu traucēkļus..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "Sarežģīti mezgli"
+  },
+  "js_ldr_m4_cl": {
+    "message": "Lietoju disleksijas noteikumus..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "Renderēju EasyView UI..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "Skenēju teksta bloku..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "Pārāk daudz vārdu..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "Izvelk galveno nozīmi..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "Kognitīvā slodze"
+  },
+  "js_ldr_s3_cl": {
+    "message": "Sagatavo vienkāršāku angļu valodu..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "Izvērsts mākslīgais intelekts..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "Piemēroju lasāmību..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "Pulēju izvadi..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "Tulkoju žargonu..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "Kļūda: Apjukums"
+  },
+  "js_ldr_j2_cl": {
+    "message": "Meklēju definīcijas..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[TROKŠŅA_PĀRSLODZE]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "Vienkāršoju kontekstu..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "Nezināmi termini"
+  },
+  "js_ldr_j4_cl": {
+    "message": "Piemēroju skaidrību..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "Formatēju rezultātus..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "Dziļa analīze..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "Pabeidzu AI loģiku..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "AI darbojas..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "Gandrīz pabeigts..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "Liela noslodze..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "Tas aizņem nedaudz ilgāk..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "Joprojām strādā..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "Uzgaidiet..."
+  },
+  "t_b7012ab9": {
+    "message": "Pārveidot"
+  },
+  "t_c5e8b1d9": {
+    "message": "Pro fonti"
+  },
+  "t_c8f2ba19": {
+    "message": "Privātā satura aizmiglošana iespējota"
+  },
+  "t_e2dae61a": {
+    "message": "Privātā satura aizmiglošana atspējota"
+  },
+  "t_c74de318": {
+    "message": "Automātiskā aizsardzība ekrāna kopīgošanas laikā iespējota"
+  },
+  "t_a5fd56f4": {
+    "message": "Automātiskā aizsardzība ekrāna kopīgošanas laikā atspējota"
+  },
+  "t_ab8d1f2a": {
+    "message": "Lukturīša režīms iespējots"
+  },
+  "t_2bf5cc98": {
+    "message": "Lukturīša režīms atspējots"
+  },
+  "t_513bb93f": {
+    "message": "Bioniskā lasīšana"
+  },
+  "t_5a8b2c1d": {
+    "message": "Šeit ir jūsu lasīšanas iestatījumu priekšskatījums."
+  },
+  "t_ac1d4e5f": {
+    "message": "Nav"
+  },
+  "t_b2e3f4a1": {
+    "message": "Plats"
+  },
+  "t_c3f4a5b2": {
+    "message": "Īpaši plats"
+  },
+  "t_d1a3c901": {
+    "message": "Klikšķis"
+  },
+  "t_b4f2e891": {
+    "message": "Piespraust elementam"
+  },
+  "t_c9a1b302": {
+    "message": "Atstarpe"
+  },
+  "t_f6d4e203": {
+    "message": "Globāla piezīme"
+  },
+  "t_e2b3f104": {
+    "message": "Iziet"
+  },
+  "t_a7c0d905": {
+    "message": "Atcelt"
+  },
+  "t_e1b2c301": {
+    "message": "Tikai šī lapa"
+  },
+  "t_f7a3b402": {
+    "message": "Šī vietne"
+  },
+  "t_a8c4d503": {
+    "message": "Visas vietnes (Globāli)"
+  },
+  "t_b9d5e604": {
+    "message": "Paslēpt līdz pārlādei"
+  },
+  "t_c0e6f705": {
+    "message": "Piespraust piezīmi elementam"
+  },
+  "t_d1f7a806": {
+    "message": "Mainīt piezīmes krāsu"
+  },
+  "t_e2a8b907": {
+    "message": "Sakļaut/izvērst piezīmi"
+  },
+  "t_f3b9c008": {
+    "message": "Kopēt piezīmes saturu"
+  },
+  "t_a4c0d109": {
+    "message": "Vairāk darbību"
+  },
+  "t_b5d1e200": {
+    "message": "Dzēst šo piezīmi"
+  },
+  "t_e87033a2": {
+    "message": "Alt + X"
+  },
+  "t_4120201a": {
+    "message": "Bezmaksas izmēģinājums aktīvs"
+  },
+  "t_6ed40ffb": {
+    "message": "Sinhronizēt iestatījumus starp ierīcēm"
+  },
+  "t_f8b8a5fd": {
+    "message": "Augstāka bezmaksas lietošanas kvota"
+  },
+  "t_440b106d": {
+    "message": "Piekļuve nākotnes Pro funkcijām"
+  },
+  "t_3a99076c": {
+    "message": "Premium limits"
+  },
+  "t_545f6c2f": {
+    "message": "Neierobežots"
+  },
+  "t_ad23f4a0": {
+    "message": "Telpiskās piezīmes"
+  },
+  "t_04f2f045": {
+    "message": "Jūs esat veiksmīgi izvietojis visas 15 bezmaksas līmeņa piezīmes visā tīmeklī. Jauniniet uz EasyView Premium, lai atbloķētu bezgalīgu telpisko atmiņu un pielāgotas krāsas."
+  },
+  "t_cf874b99": {
+    "message": "Atbloķēt Premium"
+  },
+  "t_a6d36e2f": {
+    "message": "Visas vietējās pieejamības vadīklas (aktīvas)"
+  },
+  "t_b0b69bc3": {
+    "message": "Teksta pārvēršanas runā dzinējs (aktīvs)"
+  },
+  "t_cc96c21a": {
+    "message": "Mākoņa AI funkcijas (bezsaistē)"
+  },
+  "t_7af6f6e5": {
+    "message": "Es saprotu"
+  },
+  "t_9bc7102e": {
+    "message": "Izveidojiet bezmaksas EasyView kontu, lai izsekotu savu kvotu un atbloķētu žargona atšifrētāju."
+  },
+  "t_ab7512fd": {
+    "message": "Jūsu sesijas marķieris trūkst. Lūdzu, pierakstieties easyview.in vēlreiz, lai atjaunotu piekļuvi."
+  },
+  "t_1cd7820a": {
+    "message": "TIKAI PRO PIEEJA"
+  },
+  "t_8eb14032": {
+    "message": "Žargona atšifrētājs<br><span class=\"ev-si-gradient-text\">Kvota sasniegta</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "KVOTA IZSMELTA"
+  },
+  "t_5ae983dc": {
+    "message": "Šomēnes esat izmantojis visas <strong>5 bezmaksas atšifrēšanas reizes</strong>. Atbloķējiet neierobežotu piekļuvi dažu sekunžu laikā."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> Kļūt par Pro — Neierobežoti atšifrējumi</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> Izmantojiet savu API atslēgu</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 Pievienot API atslēgu iestatījumos</button>"
+  },
+  "t_9be4129a": {
+    "message": "Mācību komplekta eksportētājs<br><span class=\"ev-si-gradient-text\">Pro automatizācija</span>"
+  },
+  "t_fac34185": {
+    "message": "Uzreiz eksportējiet visu savu pielāgoto mācību piezīmju grāmatiņu tieši uz <strong>Anki</strong> un <strong>Quizlet</strong>."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Nav nepieciešama manuāla ievade</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> RFC-4180 zibatmiņas karšu kompilators</div>"
+  },
+  "t_da12c30b": {
+    "message": "Pro piekļuve"
+  },
+  "t_4a9b2c01": {
+    "message": "Šī funkcija"
+  },
+  "t_3be78c01": {
+    "message": "Šis disleksijas lasīšanas fonts"
+  },
+  "t_0ad4b971": {
+    "message": "Šis vizuālais fonts"
+  },
+  "t_9af42be8": {
+    "message": "Šis premium eksportēšanas fonts"
+  },
+  "t_cbae8349": {
+    "message": "Jauniniet, lai atbloķētu visas pieejamības funkcijas un jaudīgus rīkus."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Uzlabota pieejamība</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Visi turpmākie atjauninājumi</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ Jaunināt uz Pro"
+  },
+  "t_5ef4c1a2": {
+    "message": "Varbūt vēlāk"
+  },
+  "t_3b7a5e82": {
+    "message": ", taču AI funkcijas var būt īslaicīgi nepieejamas."
+  },
+  "t_c91d8e12": {
+    "message": "Vispārīgi"
+  },
+  "t_b42f3a9d": {
+    "message": "Definīcija"
+  },
+  "t_f1d4a8e6": {
+    "message": "Vārdnīca"
+  },
+  "t_e398c71f": {
+    "message": "Pielāgots"
+  },
+  "t_a72df9e5": {
+    "message": "Medicīniski"
+  },
+  "t_d8f2c61a": {
+    "message": "Juridiski"
+  },
+  "t_b3e1f5d2": {
+    "message": "Finanšu"
+  },
+  "t_c25d81f9": {
+    "message": "Tehnoloģijas"
+  },
+  "t_e1b3a4f6": {
+    "message": "Akadēmisks"
+  },
+  "t_d5f9b4c1": {
+    "message": "Termins"
+  },
+  "t_f7a2e8ea": {
+    "message": "Kategorija"
+  },
+  "t_e3b1c6d9": {
+    "message": "Vienkāršota nozīme"
+  },
+  "t_a9d4e5f2": {
+    "message": "Studiju piezīmes / Konteksts"
+  },
+  "t_b4c5d6e7": {
+    "message": "Atcelt"
+  },
+  "t_c8f2a1b4": {
+    "message": "Saglabāt izmaiņas"
+  },
+  "t_8c17b5e6": {
+    "message": "Jūsu sesijas marķieris trūkst. Lūdzu, pierakstieties easyview.in vēlreiz, lai atjaunotu piekļuvi."
+  },
+  "t_a43dc219": {
+    "message": "Izveidojiet bezmaksas EasyView kontu, lai izsekotu savu lietošanas kvotu un atbloķētu mākslīgā intelekta pārveidošanas dzinēju."
+  },
+  "t_54c523fe": {
+    "message": "🎉 Nevainojami! Veiksmīgi importētas $1 jaunas mācību kartītes."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 Lieliski! Importētas $1 jaunas kartītes. ($2 dublikāti izlaisti.)"
+  },
+  "t_14894d12": {
+    "message": "Tēmas eksportēšana"
+  },
+  "t_f27a2629": {
+    "message": "Motīvu bibliotēkas dublējums"
+  },
+  "t_9ad85e17": {
+    "message": "Lasīšanas lineāla režīms"
+  },
+  "t_b9d4e7a5": {
+    "message": "Uzlaboti sensorā vairoga režīmi"
+  },
+  "t_94f4f7e4": {
+    "message": "Analizē DOCX...",
+    "description": "Statuss, analizējot DOCX lasītājā"
+  },
+  "t_120adfc1": {
+    "message": "Analizē EPUB...",
+    "description": "Statuss, analizējot EPUB lasītājā"
+  },
+  "t_5d2a45b8": {
+    "message": "Lasīšanas lineāla režīms ir pieejams tikai Pro abonementiem.",
+    "description": "Brīdinājums, kad ne-pro lietotājs piekļūst lasīšanas lineālam"
+  },
+  "t_c1f29623": {
+    "message": "Rediģēt visu kartīti",
+    "description": "Rīka padoms visas kartītes rediģēšanai piezīmju grāmatiņā"
+  },
+  "t_1063e38c": {
+    "message": "Noņemt",
+    "description": "Rīka padoms kartītes noņemšanai no piezīmju grāmatiņas"
+  },
+  "t_ccca2ddf": {
+    "message": "EasyView lasītājs"
+  },
+  "t_8524de96": {
+    "message": "Ielādē..."
+  },
+  "t_25e8f2fd": {
+    "message": "Lūdzu, uzgaidiet..."
+  },
+  "t_ec9d785d": {
+    "message": "1.5x"
+  },
+  "t_dafd5f8f": {
+    "message": "Leksends"
+  },
+  "t_16d90a0b": {
+    "message": "Etkinsons Hiperledžibls"
+  },
+  "t_5c7db066": {
+    "message": "Segoe UI (Windows noklusējums)"
+  },
+  "t_f7cee5ea": {
+    "message": "Kalibri"
+  },
+  "t_ccc0239e": {
+    "message": "Kandara"
+  },
+  "t_2963521b": {
+    "message": "Korbels"
+  },
+  "t_37f1cc58": {
+    "message": "Kambrija"
+  },
+  "t_c3d9d4bf": {
+    "message": "Konstantija"
+  },
+  "t_5d1a5b35": {
+    "message": "Palatīno Lainotaips"
+  },
+  "t_4dc386b6": {
+    "message": "Grāmatu antikva"
+  },
+  "t_03c461f6": {
+    "message": "Franklina Gotika"
+  },
+  "t_7b1ee3b6": {
+    "message": "Sentūri Gotiks"
+  },
+  "t_a3293302": {
+    "message": "Gila bezserifa"
+  },
+  "t_eb726908": {
+    "message": "Sitka teksts"
+  },
+  "t_b5bdee2c": {
+    "message": "Silfaens"
+  },
+  "t_1ec05249": {
+    "message": "Maikrosoft Sans Serifs"
+  },
+  "t_ad4a300c": {
+    "message": "Segoe UI pusslīpraksts"
+  },
+  "t_16507cdd": {
+    "message": "Konsolass"
+  },
+  "t_391c5954": {
+    "message": "Lusida Konsols"
+  },
+  "t_9879efdf": {
+    "message": "Lusida Sans Tipraiters"
+  },
+  "t_21f59b54": {
+    "message": "Impakts"
+  },
+  "t_94a7bb97": {
+    "message": "Ariāls melns"
+  },
+  "t_6e87c2cb": {
+    "message": "Koperpleita Gotika"
+  },
+  "t_40885309": {
+    "message": "Berlīnes Sans FB"
+  },
+  "t_6d5566ba": {
+    "message": "Gabriola"
+  },
+  "t_edb42482": {
+    "message": "Inks Frī"
+  },
+  "t_fa233799": {
+    "message": "Segoe raksts"
+  },
+  "t_2f7bc407": {
+    "message": "Segoe druka"
+  },
+  "t_0095a9fa": {
+    "message": "Eksportēt"
+  },
+  "t_520d0db3": {
+    "message": "Formāts"
+  },
+  "t_5956a437": {
+    "message": "TEKSTS"
+  },
+  "t_1351017a": {
+    "message": "Faila nosaukums"
+  },
+  "t_d4c3c15b": {
+    "message": "Nav ielādēts fails"
+  },
+  "t_0ca5a078": {
+    "message": "Lūdzu, izmantojiet pārveidotāja cilni, lai augšupielādētu failu."
+  },
+  "t_c9857e16": {
+    "message": "Neatbalstīts faila tips."
+  },
+  "t_6b447b91": {
+    "message": "Kļūda, parsējot failu: "
+  },
+  "t_7f4588be": {
+    "message": "EPUB"
+  },
+  "t_12dc65c2": {
+    "message": "Pārslēgt gaišo/tumšo"
+  },
+  "t_d3d2e617": {
+    "message": "Aizvērt"
+  },
+  "t_6e8cfcb7": {
+    "message": "Droša eksportēšana uz serveri (Premium)"
+  },
+  "t_2f9df658": {
+    "message": "Atvienot un novietot darbvietu virs visiem logiem"
+  },
+  "t_72d6d7a1": {
+    "message": "Importēt"
+  },
+  "t_de93d5fd": {
+    "message": "Eksportēt piezīmes"
+  },
+  "t_a1aacca9": {
+    "message": "Peldošā operētājsistēma"
+  },
+  "t_ac0b844f": {
+    "message": "Globālās piezīmes"
+  },
+  "t_15866f1d": {
+    "message": "Vietnei specifiskas piezīmes"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
+  },
+  "t_6af8212e": {
+    "message": "EasyView piezīmju dēlis"
+  },
+  "t_d16da0f5": {
+    "message": "🌎"
+  },
+  "t_6df173ff": {
+    "message": "📍"
+  },
+  "t_22f58a00": {
+    "message": "🌎 Globāla piezīme"
+  },
+  "t_5be8bbeb": {
+    "message": "🌐 Vietnes piezīme"
+  },
+  "t_59a56663": {
+    "message": "📍 Lapas piezīme"
+  },
+  "t_c1843696": {
+    "message": "Verificē integritātes pilnvaru..."
+  },
+  "t_58038ee4": {
+    "message": "Tikko"
+  },
+  "t_e254e1a1": {
+    "message": "pirms $1m",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_121d4d02": {
+    "message": "pirms $1h",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_19d2b280": {
+    "message": "pirms $1d",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_d3d4311c": {
+    "message": "Vilkt piezīmi"
+  },
+  "t_7b32ea16": {
+    "message": "Pārslēgties uz $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_11916b28": {
+    "message": "Izvietojuma tvērums"
+  },
+  "t_5463fe67": {
+    "message": "Krāsu palete"
+  },
+  "t_d116d454": {
+    "message": "Sakļaut piezīmi"
+  },
+  "t_be9ba0e5": {
+    "message": "Kopēt tekstu"
+  },
+  "t_28471624": {
+    "message": "Vairāk darbību"
+  },
+  "t_90e467df": {
+    "message": "Aizvērt piezīmi"
+  },
+  "t_34494920": {
+    "message": "Ierakstiet savu piezīmi šeit..."
+  },
+  "t_bdda0b60": {
+    "message": "Par ko jūs domājāt..."
+  },
+  "t_8689de27": {
+    "message": "Pieejams visur"
+  },
+  "t_c0cf9810": {
+    "message": "Teleportēties atpakaļ uz sākotnējo lapu"
+  },
+  "t_24a23176": {
+    "message": "Sākotnējais konteksts"
+  },
+  "t_4c1c1e76": {
+    "message": "Piezīmju grāmatiņas importēšana"
+  },
+  "t_2736f644": {
+    "message": "Nevainojami apvienojiet savus ārējos mācību komplektus un vārdu krājuma sarakstus savā EasyView ekosistēmā."
+  },
+  "t_ca4f038f": {
+    "message": "Obligātās kolonnas"
+  },
+  "t_7277de5f": {
+    "message": "Nozīme"
+  },
+  "t_ce591bfa": {
+    "message": "Izvēles kolonnas"
+  },
+  "t_f4c6f851": {
+    "message": "Piezīmes"
+  },
+  "t_c1fd81a6": {
+    "message": "Atlasiet vai velciet CSV tabulas failu"
+  },
+  "t_5c426600": {
+    "message": "Dublikāti un esošie vārdi tiek filtrēti automātiski"
+  },
+  "t_76e7183d": {
+    "message": "Importēšana veiksmīga!"
+  },
+  "t_3e17e02d": {
+    "message": "Jūsu vārdu krājums ir atjaunināts."
+  },
+  "t_3148d309": {
+    "message": "Aizvērt cilni"
+  },
+  "t_0e412fa1": {
+    "message": "Svinības tiks aktivizētas, atgriežoties uznirstošajā logā"
+  },
+  "t_d29f6e6b": {
+    "message": "Importēšana neizdevās"
+  },
+  "t_e04efbcb": {
+    "message": "Piezīmju grāmatiņas statuss"
+  },
+  "t_ed732761": {
+    "message": "Morph motīvu importēšana"
+  },
+  "t_e44db711": {
+    "message": "Droši importējiet savu pielāgoto „Morph“ dzinēja bibliotēku tieši programmā EasyView."
+  },
+  "t_c0bb7d43": {
+    "message": "Atlasiet vai velciet JSON datu failu"
+  },
+  "t_36e9583e": {
+    "message": "Importē jūsu iepriekš eksportētos motīvu izkārtojumus."
+  },
+  "t_21630184": {
+    "message": "Motīvi atjaunoti!"
+  },
+  "t_d0c1ec75": {
+    "message": "Jūsu morph veidnes ir veiksmīgi instalētas."
+  },
+  "t_cd27a5c0": {
+    "message": "EasyView — satura lasītājs"
+  },
+  "t_b171ab1f": {
+    "message": "Laipni lūdzam Lasītājā"
+  },
+  "t_4e07c284": {
+    "message": "Augšupielādējiet savus dokumentus šeit, lai lasītu tos ar pielāgotu tipogrāfiju un uzlabotiem pieejamības rīkiem."
+  },
+  "t_004621c0": {
+    "message": "Atbalsta dokumentus, e-grāmatas un .docx, .epub un .txt failus"
+  },
+  "t_23bb27a0": {
+    "message": "Inicializē dokumentu parsētāju..."
+  },
+  "t_e1d5f16c": {
+    "message": "Optimizē DOCX failu lasāmībai..."
+  },
+  "t_0e55c5d0": {
+    "message": "Analizē EPUB struktūru..."
   }
 }

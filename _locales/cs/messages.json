@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "EasyView — Jasnost pro každý mozek"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "SnadnéZobrazení"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "Okamžitě transformujte jakoukoli webovou stránku pomocí výzev AI nebo jediným kliknutím. Sledujte web po svém."
+  },
+  "t_68ba0232": {
+    "message": "Režim pro dyslexii aktivován"
+  },
+  "t_85f47a25": {
+    "message": "Režim pro dyslexii deaktivován"
+  },
+  "t_1cc1b64d": {
+    "message": "Nedostatek obsahu k analýze"
+  },
+  "t_cebe6412": {
+    "message": "Nenalezeny žádné složité termíny"
+  },
+  "t_b964aa0f": {
+    "message": "Chyba při analýze obsahu stránky"
+  },
+  "t_956c104e": {
+    "message": "Paměť stránky vymazána"
+  },
+  "t_1f4b0f3e": {
+    "message": "Slovník vymazán"
+  },
+  "t_4bfeec37": {
+    "message": "Ve výběru nebyly nalezeny žádné složité termíny"
+  },
+  "t_1b5e8531": {
+    "message": "Ve výběru nebyly nalezeny žádné složité termíny"
+  },
+  "t_a1f781ec": {
+    "message": "Chyba při dekódování výběru"
+  },
+  "t_7aae8122": {
+    "message": "Zvýraznění výběru vymazáno"
+  },
+  "t_58762fd6": {
+    "message": "Prosím, vyberte jedno slovo nebo krátkou frázi k definování."
+  },
+  "t_6838b119": {
+    "message": "Síťová chyba při vyhledávání definice."
+  },
+  "t_ea3ca1b5": {
+    "message": "Dekódováno $1 termínů (z mezipaměti)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "Dekódováno $1 termínů (z mezipaměti)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "Tento měsíc jste vyčerpali všechna bezplatná použití dekodéru žargonu. Upgradujte na Pro pro neomezený přístup."
+  },
+  "t_cb3c5d3a": {
+    "message": "Dekódováno $1 termínů v $2 kategoriích",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "Automaticky zvýrazněno $1 výskytů vašeho dekódovaného termínu slovní zásoby",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "Obnoveno $1 uložených definic žargonu$2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "Tento měsíc jste vyčerpali všechna bezplatná použití dekodéru žargonu. Upgradujte na Pro pro neomezený přístup."
+  },
+  "t_0b841c82": {
+    "message": "Již v poznámkovém bloku!"
+  },
+  "t_8901f3ab": {
+    "message": "Uloženo do poznámkového bloku!"
+  },
+  "t_eb8f5242": {
+    "message": "Chyba při ukládání do poznámkového bloku"
+  },
+  "t_bd15702b": {
+    "message": "Senzorický štít aktivován"
+  },
+  "t_c28f3265": {
+    "message": "Senzorický štít deaktivován"
+  },
+  "t_3f8910d9": {
+    "message": "SNADNÉZOBRAZENÍ"
+  },
+  "t_8aafa613": {
+    "message": "Tento text se nepodařilo zjednodušit"
+  },
+  "t_79d2dc85": {
+    "message": "Tento text se nepodařilo zjednodušit"
+  },
+  "t_99684ba5": {
+    "message": "Chyba při zjednodušování textu"
+  },
+  "t_f4362bde": {
+    "message": "Zkopírováno do schránky!"
+  },
+  "t_af07ef4b": {
+    "message": "Kopírování selhalo"
+  },
+  "t_94e4d537": {
+    "message": "Text na stránce nahrazen"
+  },
+  "t_14a04b67": {
+    "message": "Paměť zjednodušení smazána"
+  },
+  "t_c444ff21": {
+    "message": "Původní text dočasně obnoven"
+  },
+  "t_55f1db14": {
+    "message": "Tento měsíc jste vyčerpali všechna bezplatná použití. Upgradujte na Pro pro neomezený přístup."
+  },
+  "t_fde4e3f0": {
+    "message": "Obnoveno $1 uložených zjednodušení na této stránce",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "Automaticky obnoveno dynamicky načtené zjednodušení!"
+  },
+  "t_dfa22e52": {
+    "message": "Převod textu na řeč aktivován"
+  },
+  "t_ca153ad0": {
+    "message": "Převod textu na řeč zakázán"
+  },
+  "t_dadbff09": {
+    "message": "Nejprve prosím povolte převod textu na řeč"
+  },
+  "t_47071c61": {
+    "message": "Obnovování..."
+  },
+  "t_5516c48d": {
+    "message": "Na této stránce nebyl nalezen žádný čitelný obsah"
+  },
+  "t_c57f25c9": {
+    "message": "Nenalezen žádný čitelný obsah"
+  },
+  "t_2516997e": {
+    "message": "Čtení dokončeno"
+  },
+  "t_d3069aea": {
+    "message": "Převod textu na řeč není v tomto prohlížeči podporován"
+  },
+  "t_53e6b8c6": {
+    "message": "Nejprve prosím vyberte nějaký text"
+  },
+  "t_e932d0f7": {
+    "message": "Čtení výběru..."
+  },
+  "t_1c50528d": {
+    "message": "Čtení dokončeno"
+  },
+  "t_594778a2": {
+    "message": "Pozastaveno"
+  },
+  "t_4ded5f77": {
+    "message": "Řeč zastavena"
+  },
+  "t_0a74758c": {
+    "message": "✨ Poháněno osobním klíčem"
+  },
+  "t_2fceddad": {
+    "message": "✨ Neomezeno"
+  },
+  "t_97627d80": {
+    "message": "✨ Poháněno osobním klíčem"
+  },
+  "t_fd7d5888": {
+    "message": "Správa předplatného"
+  },
+  "t_df4657a5": {
+    "message": "Člen zdarma"
+  },
+  "t_22dfb2ec": {
+    "message": "Uživatel host"
+  },
+  "t_bd9f2460": {
+    "message": "Účet zdarma"
+  },
+  "t_f5adda31": {
+    "message": "Přihlášení / Registrace"
+  },
+  "t_d2439201": {
+    "message": "✨ Neomezeno"
+  },
+  "t_164442b7": {
+    "message": "Zahřívání konverzního enginu..."
+  },
+  "t_1e7c3002": {
+    "message": "Připraveno k analýze souborů."
+  },
+  "t_d30f78df": {
+    "message": "Tmavý režim"
+  },
+  "t_6c68d8ce": {
+    "message": "Světlý režim"
+  },
+  "t_fcb68c2b": {
+    "message": "Nebyly nalezeny žádné lepicí poznámky. Nic k exportu!"
+  },
+  "t_2b75b2d9": {
+    "message": "Váš token relace chybí. Prosím přihlaste se znovu na easyview.in pro obnovení přístupu."
+  },
+  "t_291a4e34": {
+    "message": "Směrování na zabezpečený server selhalo. Zkontrolujte připojení."
+  },
+  "t_2dcf62b3": {
+    "message": "Nebyly zjištěny žádné chybějící poznámky. Pracovní prostor je aktuální."
+  },
+  "t_951bf3ae": {
+    "message": "Chyba dešifrování: Soubor neodpovídá limitům EasyView."
+  },
+  "t_817a4ba0": {
+    "message": "rozhraní API obraz v obraze (PiP) není podporováno. Prosím, aktualizujte Chrome."
+  },
+  "t_e8aa6e9a": {
+    "message": "Nepodařilo se inicializovat engine obraz v obraze (PiP): "
+  },
+  "t_9feed9d5": {
+    "message": "Úspěšně dešifrováno a vloženo $1 nových poznámek.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "BETA"
+  },
+  "t_c289adbe": {
+    "message": "Podpořte nás"
+  },
+  "t_60d5b12a": {
+    "message": "Ohodnoťte nás"
+  },
+  "js_eb82de4c": {
+    "message": "Vlastní barva"
+  },
+  "js_8caef32b": {
+    "message": "Resetovat/Vymazat (Vyberte text a klikněte, nebo ručně dvakrát klikněte na zvýraznění)"
+  },
+  "t_823aeb91": {
+    "message": "Pracovní prostor EasyView"
+  },
+  "t_fc42ed23": {
+    "message": "Ve vašem pracovním prostoru nejsou žádné globální poznámky."
+  },
+  "t_12d7c58a": {
+    "message": "Stiskněte Mezerník, zatímco je aktivní kurzor lepicích poznámek, pro vygenerování jedné."
+  },
+  "t_ab983c11": {
+    "message": "Zde nebyly nalezeny žádné poznámky pro konkrétní web."
+  },
+  "t_e22709e9": {
+    "message": "Klikněte na fyzický prvek na jakékoli webové stránce pro ukotvení cílené poznámky."
+  },
+  "t_34bdba45": {
+    "message": "Krok"
+  },
+  "t_9b2d88a1": {
+    "message": "z"
+  },
+  "t_8f44d852": {
+    "message": "Začít!"
+  },
+  "t_b45c2f91": {
+    "message": "Odemknout exporty pracovního prostoru"
+  },
+  "t_88f91dc1": {
+    "message": "Bezpečné vykreslování a export celého vašeho globálního pracovního prostoru poznámek vyžaduje ověřenou licenci Pro. Upgradujte pro trvalé odemknutí této funkce."
+  },
+  "t_134dff88": {
+    "message": "Možná později"
+  },
+  "t_5b8c9d11": {
+    "message": "Přejít na Pro"
+  },
+  "t_792bd8c9": {
+    "message": "Plovoucí pracovní prostor!"
+  },
+  "t_e39f7dc2": {
+    "message": "Vaše lepicí poznámky nyní plavou nad vaší pracovní plochou OS."
+  },
+  "t_c83d6ec9": {
+    "message": "Znovu ukotvit pracovní prostor"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "Generování zastaveno"
+  },
+  "t_removed_from_notebook": {
+    "message": "Odstraněno z poznámkového bloku"
+  },
+  "t_d1c58470": {
+    "message": "Dvojitým kliknutím odstraníte zvýraznění"
+  },
+  "t_d4fdfb03": {
+    "message": "Přihlaste se do EasyView pro získání $1 bezplatných použití/měsíc, nebo přidejte svůj vlastní klíč rozhraní API v Nastavení.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "Načítání uložených výsledků..."
+  },
+  "t_3a99733d": {
+    "message": "Inicializace dekodéru žargonu..."
+  },
+  "t_b6dc9fc9": {
+    "message": "Vytvořte si bezplatný účet EasyView pro získání $1 bezplatných dekódování AI za měsíc a sledování svého limitu.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "Vytvořte si bezplatný účet EasyView pro získání $1 bezplatných definic AI za měsíc a sledování svého limitu.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "Extrakce hlavního obsahu..."
+  },
+  "t_0eeae2bf": {
+    "message": "Zjišťování kontextu stránky..."
+  },
+  "t_87f125d0": {
+    "message": "Analýza terminologie..."
+  },
+  "t_9ef6e70f": {
+    "message": "Používají se výsledky z mezipaměti..."
+  },
+  "t_9afdc5e8": {
+    "message": "Analýza pomocí AI..."
+  },
+  "t_7ecc3abe": {
+    "message": "Dekódování AI selhalo"
+  },
+  "t_9220c8de": {
+    "message": "Aplikují se zjednodušení..."
+  },
+  "t_57f406b1": {
+    "message": "Dekódování výběru..."
+  },
+  "t_c50f2b72": {
+    "message": "Zobrazit glosář"
+  },
+  "t_49de9b11": {
+    "message": "Skrýt zvýraznění na stránce"
+  },
+  "t_3158774e": {
+    "message": "Obnovit zvýraznění na stránce"
+  },
+  "t_fc3ad42d": {
+    "message": "Uložit do slovní zásoby"
+  },
+  "t_87e933b8": {
+    "message": "Vyhledávání definice..."
+  },
+  "t_56b79836": {
+    "message": "Definice slova načtena."
+  },
+  "t_969b24ea": {
+    "message": "🔊 Klikněte kamkoli pro aktivaci zvuku motivu"
+  },
+  "t_49337275": {
+    "message": "Ruční zvýraznění"
+  },
+  "t_93324bd5": {
+    "message": "Uloženo přímo z webové stránky."
+  },
+  "t_82e413f3": {
+    "message": "Zjednodušování textu..."
+  },
+  "t_86c4f6e5": {
+    "message": "Zjednodušování pomocí AI..."
+  },
+  "t_c3e18edb": {
+    "message": "Zjednodušení selhalo"
+  },
+  "t_6398ab2c": {
+    "message": "Úroveň čtení: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "Kliknutím dočasně obnovíte původní text"
+  },
+  "t_9beea3e8": {
+    "message": "Trvale odstranit z paměti"
+  },
+  "t_453bb8f7": {
+    "message": "Vytvořte si bezplatný účet EasyView pro získání $1 bezplatných zjednodušení AI za měsíc a sledování svého limitu.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "Poslouchat"
+  },
+  "t_24833610": {
+    "message": "Uloženo"
+  },
+  "t_30a008cb": {
+    "message": "Číst více &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "Uloženo do poznámkového bloku slovní zásoby!"
+  },
+  "t_2728e87f": {
+    "message": "Odstraněno z poznámkového bloku slovní zásoby"
+  },
+  "t_6b8c66ce": {
+    "message": "Slovník ($1 termínů)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "Odstranit paměť pro tuto stránku"
+  },
+  "t_8a49fe1a": {
+    "message": "Odstranit termín"
+  },
+  "t_1534891c": {
+    "message": "Dekódováno $1 termínů",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "Uložit do poznámkového bloku"
+  },
+  "t_150a2843": {
+    "message": "Vymazat zvýraznění"
+  },
+  "t_21ef939c": {
+    "message": "Uloženo do poznámkového bloku!"
+  },
+  "t_8054da35": {
+    "message": "Rychlý slovník",
+    "description": "Záhlaví vyskakovacího okna rychlého slovníku"
+  },
+  "t_4aeb2167": {
+    "message": "Slovo nenalezeno",
+    "description": "Náhradní název slovníku"
+  },
+  "t_272d0070": {
+    "message": "V základním slovníku jsme \"$1\" nenašli. Může to být moderní slang, zkratka nebo vysoce technický žargon.",
+    "description": "Popis záložního slovníku se zástupným symbolem pro slovo",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "Dekódovat pomocí Evie AI",
+    "description": "Záložní tlačítko pro dekódování pomocí AI"
+  },
+  "t_14f1f972": {
+    "message": "přes",
+    "description": "Předpona zdroje slovníku"
+  },
+  "t_f2faf2f1": {
+    "message": "Podstatné jméno",
+    "description": "Slovní druh podstatné jméno"
+  },
+  "t_b512ddf1": {
+    "message": "Sloveso",
+    "description": "Slovní druh sloveso"
+  },
+  "t_d807ae6a": {
+    "message": "Přídavné jméno",
+    "description": "Slovní druh přídavné jméno"
+  },
+  "t_1a607278": {
+    "message": "Příslovce",
+    "description": "Slovní druh příslovce"
+  },
+  "t_02de720d": {
+    "message": "Zájmeno",
+    "description": "Slovní druh zájmeno"
+  },
+  "t_4b7be2c3": {
+    "message": "Předložka",
+    "description": "Slovní druh předložka"
+  },
+  "t_a3c1d30b": {
+    "message": "Spojka",
+    "description": "Slovní druh spojka"
+  },
+  "t_e189f001": {
+    "message": "Citoslovce",
+    "description": "Slovní druh citoslovce"
+  },
+  "t_96de90f8": {
+    "message": "Kopírovat zjednodušený text",
+    "description": "Nástroj pro kopírování zjednodušeného textu"
+  },
+  "t_44a6e288": {
+    "message": "Číst stránku",
+    "description": "Nástroj pro čtení celé stránky přes TTS"
+  },
+  "t_7d70d73b": {
+    "message": "Číst výběr",
+    "description": "Nástroj pro čtení výběru přes TTS"
+  },
+  "t_11936123": {
+    "message": "Nenávratně smazat poznámku",
+    "description": "Nástroj pro trvalé odstranění lepicí poznámky"
+  },
+  "t_d27532d9": {
+    "message": "Minimalizovat"
+  },
+  "t_2bd339d8": {
+    "message": "Obnovit"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "SnadnéZobrazení"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "Systémové upozornění"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "Systémové oznámení"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "Engine\r\n                        EasyView"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "Místní funkce zůstávají\r\n                        aktivní"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,85 +599,82 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "Zážitek\r\n                        EasyView"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "EasyView používáte již dvanáct hodin. Vytvořte si bezplatný účet pro\r\n                    uložení svých\r\n                    nastavení, zachování limitu a odemknutí dalších funkcí."
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "Připomenout za dvanáct hodin"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "Světlý"
   },
   "t_7fc56270": {
     "message": "A"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "Písmo"
   },
   "t_5dbc98dc": {
-    "message": "S"
-  },
-  "t_69691c7b": {
     "message": "M"
   },
+  "t_69691c7b": {
+    "message": "S"
+  },
   "t_d20caec3": {
-    "message": "L"
+    "message": "V"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "Funkce"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "Vizuály"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "Převodník"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "Poznámkový blok"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "Dekodér žargonu"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "Zjednodušit složité právní termíny"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "cs.wikipedia.org/wiki/Neurodivergence"
   },
   "t_61e9c06e": {
-    "message": "W"
+    "message": "Š"
   },
   "t_e653da7d": {
     "message": "Neurodivergence"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "o\r\n                                                mnoho snazší"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "Štít soustředění a soukromí"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "Rozmazat soukromý a citlivý obsah"
   },
   "t_7f766191": {
     "message": "mail.google.com/mail/u/0/"
   },
   "t_dfcf28d0": {
-    "message": "G"
+    "message": "Z"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "Účty Google"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "Bezpečnostní upozornění"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- Požádáno o resetování hesla..."
   },
   "t_8d9c307c": {
     "message": "N"
@@ -120,133 +683,130 @@
     "message": "Netflix"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "Novinky tohoto týdne"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- Podívejte se na naše nejnovější\r\n                                                    vydání..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "Techniky ochrany"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "Rozmazání soukromého obsahu"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "Inteligentně rozmazává WhatsApp, Gmail a vstupy\r\n                                            hesel pro okamžité vizuální zabezpečení."
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "Automatická ochrana při sdílení obrazovky"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "Při sdílení online okamžitě skryje vaši obrazovku."
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
-  },
-  "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "Používáte\r\n                                                    fyzický projektor?"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "Čtecí svítilna"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "Sleduje vaši myš s jasným bodovým světlem pro úplné odstranění okolního\r\n                                            vizuálního nepořádku."
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "Za prvé.\r\n                                                            Tvar paprsku"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "Bodové světlo\r\n                                                            nebo pravítko"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "Za druhé.\r\n                                                                Velikost / Výška paprsku"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "Tloušťka\r\n                                                                oblasti zobrazení"
   },
   "t_f0cad41b": {
     "message": "35px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "Za třetí.\r\n                                                            Odstín čočky paprsku zaměření"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "Jemně\r\n                                                            obarví mezeru pro čtení"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "Za čtvrté.\r\n                                                            Stín okolního pozadí"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "Tmavost\r\n                                                            obklopující vaši čočku"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "Senzorický štít"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "Zmrazit rušivé animace"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "novinky.cz/zpravy"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "MIMOŘÁDNÁ ZPRÁVA"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "Čtení článku v denních zprávách..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "VÝHRA!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "Režim štítu"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(výchozí)"
   },
   "t_9e3360ac": {
     "message": "PRO"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "Zastavit automatické přehrávání + klidné\r\n                                                stmívání při ruční navigaci"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "Režim čtení pro dyslexii"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "Optimalizovaná písma a mezery"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "Profil intenzity"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "Nízká"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "Střední"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "Vysoká"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "cs.wikipedia.org/wiki/Čtení"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "Čtení"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "Zde je náhled vašeho nastavení čtení."
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "Pokročilé možnosti"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "Styl písma"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "Výchozí (beze změny)"
   },
   "t_5d2967ef": {
-    "message": "OpenDyslexic"
+    "message": "Otevřený Dyslektik"
   },
   "t_1042daad": {
     "message": "Lexend (ADHD Pro) 🔒"
@@ -255,160 +815,157 @@
     "message": "Atkinson Hyperlegible 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "Rychlé bezpatkové"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "Rychlé patkové"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "Komik Noje"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "Komik Sans"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "Mezery mezi písmeny"
   },
   "t_960b44c5": {
-    "message": "Normal"
+    "message": "Normální"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "Řádkování"
   },
   "t_60086472": {
     "message": "1.5"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "Mezery mezi slovy"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "Velikost písma"
   },
   "t_30bd7ce7": {
     "message": "100%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "Barva překrytí"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "Žádná"
   },
   "t_2bd8c63b": {
-    "message": "Beige"
+    "message": "Béžová"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "Světle modrá"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "Světle zelená"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "Světle žlutá"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "Převod textu na řeč"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "Číst nahlas se zvýrazňováním"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "Přehrát"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "Pozastavit"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "Zastavit"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "Výběr hlasu"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "Automaticky (nejlepší kvalita)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "Rychlost čtení"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "Velmi pomalá"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "Pomalá"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "Rychlá"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "Velmi rychlá"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "Hlasitost"
   },
   "t_f1943132": {
     "message": "70%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "Pozastavit u interpunkce"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "Zvýrazňování slov"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "Povolit"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "Režim"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "Tmavý"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "cs.wikipedia.org/wiki/Světlo"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "Dokonalé vizuály pro pohodlí očí. Světlo může být intenzivní."
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "Jas"
   },
   "t_c63ecd19": {
-    "message": "Contrast"
+    "message": "Kontrast"
   },
   "t_b84a9a38": {
-    "message": "Sepia"
+    "message": "Sépiová"
   },
   "t_9f1ef078": {
     "message": "0%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "Stupně šedi"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "Výchozí"
   },
   "t_b1166920": {
     "message": "Lexend 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "Obrys textu"
   },
   "t_cfcd2084": {
     "message": "0"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "Chytrý převodník a čtečka"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "Aktuální soubor"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "Klikněte nebo přetáhněte soubor pro nahrání"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• Připraveno"
   },
   "t_4c4ad5fc": {
     "message": "HTML"
@@ -423,190 +980,190 @@
     "message": "📌"
   },
   "t_4cc6684d": {
-    "message": "Global"
+    "message": "Globální"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "Web/stránka"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "Můj zápisník"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "Vymazat vše"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "Zrušit"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "Uložit slovo"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "Zatím žádná uložená slova."
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "Najeďte myší na žargon na jakékoli stránce a klikněte na vlajku záložky pro jejich uložení zde!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "Představte si rozhraní jakékoli webové stránky znovu. Popište, co chcete, nebo si vyberte\r\n                            předvolbu."
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "Morfování\r\n                                aplikováno"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "Vlastní rozvržení AI\r\n                                je na tomto webu aktivní."
   },
   "t_e8a57cd1": {
     "message": "0 /\r\n                                500"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "Resetovat stránku"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "Rozvržení morfování"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "Výchozí předvolby"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "Hororový karneval"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "Děsivá atmosféra karnevalu a animovaný hororový text"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "Konzole Matrix"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "Motiv kyberpunkového terminálu"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "Neuro soustředění"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "Písma vhodná pro dyslexii a uklidňující barvy"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "Režim čtení"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "Minimalistické rozvržení optimalizované pro soustředění"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "Nedávné dotazy"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "Uživatel host"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "Účet zdarma"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "Přihlášení / Správa"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "Odhlásit"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "Nastavení rozhraní API"
   },
   "t_766cc4dd": {
     "message": "Gemini"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "Poskytovatel AI"
   },
   "t_222cf5ed": {
-    "message": "Google Gemini"
+    "message": "Gůgl Blíženci"
   },
   "t_a0607683": {
-    "message": "OpenRouter"
+    "message": "Otevřený Směrovač"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "Klíč rozhraní API Gemini"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "Gůgl Ej-Aj Stúdio"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "Klíč rozhraní API OpenRouter"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "Uložit klíč rozhraní API"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "EasyView\r\n                                    Priorita AI"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ Můj klíč rozhraní API"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 Servery EasyView"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "Vyberte\r\n                                co se použije jako první pro všechny funkce AI. Pokud váš klíč vyprší, servery EasyView jsou\r\n                                vždy použity jako záloha."
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "Soukromí\r\n                                    a priorita"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "Priorita jedna:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "Priorita dva:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "Poznámka k enginu Morph:"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "nikdy"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "Nápověda a zpětná vazba"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "Máte dotaz, našli jste chybu nebo chcete navrhnout funkci? Rádi o vás uslyšíme!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "Nahlásit chybu / Poskytnout zpětnou vazbu"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Připraveno ke zjednodušení"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "Exportovat nastavení"
   },
   "t_9d5ed678": {
-    "message": "B"
+    "message": "T"
   },
   "t_dd753679": {
-    "message": "I"
+    "message": "K"
   },
   "t_20a1d47c": {
     "message": "✎"
   },
   "t_4c614360": {
-    "message": "U"
+    "message": "P"
   },
   "t_2f43b42f": {
     "message": "..."
@@ -615,25 +1172,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "Síla"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "Krytí"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "Tloušťka"
   },
   "t_18d80423": {
     "message": "400"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "Výška\r\n                                řádku"
   },
   "t_f522dede": {
     "message": "1.7x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "Přeskočit"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,13 +1199,13 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "Zvýraznění"
   },
   "t_25f26d63": {
     "message": "INK"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "STMÍVÁNÍ"
   },
   "t_e8bfe352": {
     "message": "Lexend 👑"
@@ -660,7 +1217,7 @@
     "message": "Arial"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "Helvetika"
   },
   "t_207c3219": {
     "message": "Verdana"
@@ -669,13 +1226,13 @@
     "message": "Tahoma"
   },
   "t_720661ec": {
-    "message": "Trebuchet MS"
+    "message": "Trebušet MS"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "Systémové bezpatkové"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "Tajms Nju Roman"
   },
   "t_eada8196": {
     "message": "Georgia"
@@ -684,19 +1241,19 @@
     "message": "Garamond"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "Systémové patkové"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "Komik Sans MS"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "Kurýr Nový"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "Neproporcionální"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "Velikost\r\n                            písma"
   },
   "t_f4f9f2f4": {
     "message": "14px"
@@ -723,7 +1280,7 @@
     "message": "32px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "Hotovo"
   },
   "t_63922286": {
     "message": "×"
@@ -732,25 +1289,1045 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "Exportovat knihovnu motivů"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "Ukládejte svá mistrovská díla vytvořená AI\r\n                lokálně."
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "Exportovat celou knihovnu"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
+    "message": ".json (Soubor JSON)"
+  },
+  "js_99537132": {
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Vyžadována akce</div>\n            <h2 class=\"ev-si-title\">Účet<br><span class=\"ev-si-gradient-text\">Pozastaven</span></h2>\n            <p class=\"ev-si-sub\">Váš přístup k EasyView byl omezen z důvodu porušení našich podmínek služby.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Kontaktovat podporu\n            </a>\n          </div>\n        </div>\n      "
+  },
+  "js_57b20c49": {
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Prosím nejprve popište svůj morf.</span>\n          </div>"
+  },
+  "js_7f34dbea": {
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morfování...</span>\n      "
+  },
+  "js_138703dd": {
+    "message": "Žádný motiv na stránce"
+  },
+  "js_cf3190a0": {
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>Exportovat aktuální stránku"
+  },
+  "js_ac5b17d0": {
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Kompilování..."
+  },
+  "js_e541190e": {
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
+  },
+  "js_d2e8056c": {
+    "message": "<path d=\"M9.88 9.88a3 3 0 1 0 4.24 4.24\"/><path d=\"M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68\"/><path d=\"M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61\"/><line x1=\"2\" x2=\"22\" y1=\"2\" y2=\"22\"/>"
+  },
+  "js_e2cb885d": {
+    "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
+  },
+  "js_8b86136c": {
+    "message": "Připraveno ke zjednodušení"
+  },
+  "js_a18366b2": {
+    "message": "Tmavý"
+  },
+  "js_9914a0ce": {
+    "message": "Světlý"
+  },
+  "js_872cc3ae": {
+    "message": "<option value=\"auto\">Auto (nejlepší kvalita)</option>"
+  },
+  "js_94fe16a8": {
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Dekódování..."
+  },
+  "js_be7141cc": {
+    "message": "Toto působí <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">mnohem srozumitelněji</span>."
+  },
+  "js_5d0ff3d0": {
+    "message": "Toto působí méně srozumitelně."
+  },
+  "t_f05df71b": {
+    "message": "Probíhá upgrade"
+  },
+  "t_78db2ae3": {
+    "message": "Naše servery AI procházejí údržbou."
+  },
+  "t_bb2129c8": {
+    "message": "Odemknout plný"
+  },
+  "t_aefee7cd": {
+    "message": "Srozumitelnost pro každý mozek"
+  },
+  "t_c38beca1": {
+    "message": "Firefox omezuje programovací rozhraní (API) pro detekci fyzických monitorů. "
+  },
+  "t_f2fe1e79": {
+    "message": "Hodnoty\r\n                                    pod 1.0 mohou komprimovat text a narušit rozvržení."
+  },
+  "t_ca677d53": {
+    "message": "Vizuální úpravy"
+  },
+  "t_230b4522": {
+    "message": "Nástěnka poznámek"
+  },
+  "t_596b54bf": {
+    "message": "Agent Morf AI"
+  },
+  "t_47e79a17": {
+    "message": "Získejte svůj bezplatný klíč na"
+  },
+  "t_42372184": {
+    "message": "Motivy jsou exportovány jako"
+  },
+  "t_74fdc8a2": {
+    "message": "Prosím, nejprve popište svou morfovací transformaci."
+  },
+  "t_245fd3b9": {
+    "message": "Morfované rozvržení vymazáno."
+  },
+  "t_172bd753": {
+    "message": "Motiv úspěšně exportován!"
+  },
+  "t_4c34daff": {
+    "message": "Časový limit připojení vypršel. Server je nedostupný."
+  },
+  "t_0dd56117": {
+    "message": "Na této stránce nebyl nalezen žádný aktivní motiv."
+  },
+  "t_cb5c0766": {
+    "message": "Knihovna úspěšně exportována!"
+  },
+  "t_8adb392e": {
+    "message": "Časový limit připojení vypršel. Server je nedostupný."
+  },
+  "t_ae94e0e4": {
+    "message": "Vaše knihovna motivů je prázdná."
+  },
+  "t_10a0c40b": {
+    "message": "Vlastní motiv úspěšně načten!"
+  },
+  "t_9b6007a8": {
+    "message": "Nepodařilo se přečíst soubor motivu."
+  },
+  "t_d4fa051d": {
+    "message": "Selhalo: $1. Prosím, znovu načtěte kartu.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "Aplikováno: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "Obnoveno $1 motivů z knihovny!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "Jazykové předvolby"
+  },
+  "t_lang_updated_reload": {
+    "message": "Jazyk aktualizován. Načítání..."
+  },
+  "t_transformation_failed": {
+    "message": "Transformace selhala."
+  },
+  "t_c8a59e71": {
+    "message": "Zahodit"
+  },
+  "t_7764306b": {
+    "message": "Údržba cloudových služeb aktivní"
+  },
+  "t_248228de": {
+    "message": "Přepnout písmo pro dyslexii ve vyskakovacím okně"
+  },
+  "t_79a59320": {
+    "message": "Spustit prohlídku aplikace"
+  },
+  "t_533bff5b": {
+    "message": "Připnout poznámku ke stránce (Alt+N)"
+  },
+  "t_f4f70727": {
+    "message": "Nastavení"
+  },
+  "t_4fd11104": {
+    "message": "Kruhové bodové světlo"
+  },
+  "t_0d063af1": {
+    "message": "Vodorovné pravítko 🔒"
+  },
+  "t_60d71580": {
+    "message": "Jasné světlo"
+  },
+  "t_efe48742": {
+    "message": "Jantarové soustředění"
+  },
+  "t_610a09ca": {
+    "message": "Chladná azurová"
+  },
+  "t_886f6b9e": {
+    "message": "Odpočinková zelená"
+  },
+  "t_65e8194e": {
+    "message": "Černá jako uhel"
+  },
+  "t_7243ed99": {
+    "message": "Půlnoční břidlice"
+  },
+  "t_ec6d8325": {
+    "message": "Hluboký les"
+  },
+  "t_4af435e0": {
+    "message": "Upíří víno"
+  },
+  "t_2a7dbdf8": {
+    "message": "Pro funkce"
+  },
+  "t_fc4aec61": {
+    "message": "Otevřít ve čtečce"
+  },
+  "t_801ab246": {
+    "message": "Stáhnout"
+  },
+  "t_aa3880dc": {
+    "message": "Stáhnout jako HTML"
+  },
+  "t_e0781e81": {
+    "message": "Stáhnout jako EPUB"
+  },
+  "t_442ff212": {
+    "message": "Stáhnout jako DOCX"
+  },
+  "t_6244ee7c": {
+    "message": "Přidat vlastní termín ručně"
+  },
+  "t_6e7d015f": {
+    "message": "Importovat soubor CSV"
+  },
+  "t_edbc5415": {
+    "message": "Export pro Anki / Quizlet"
+  },
+  "t_46c29f7a": {
+    "message": "Načíst motiv"
+  },
+  "t_2bd65c5d": {
+    "message": "Exportovat motiv"
+  },
+  "t_c1c433ac": {
+    "message": "Aktivní poskytovatel AI"
+  },
+  "t_90c09393": {
+    "message": "Tečkovaná"
+  },
+  "t_eb656e41": {
+    "message": "Čárkovaná"
+  },
+  "t_0c99ddee": {
+    "message": "Barva zvýraznění"
+  },
+  "t_eaf63759": {
+    "message": "Barva inkoustu"
+  },
+  "t_a183c9f0": {
+    "message": "Barva stmívání"
+  },
+  "t_75e7422f": {
+    "message": "Barva pozadí"
+  },
+  "t_42f9ceea": {
+    "message": "Hledat v uloženém lexikonu..."
+  },
+  "t_0e84a8cf": {
+    "message": "Zadejte slovo nebo zkratku..."
+  },
+  "t_eea6890c": {
+    "message": "Význam / Překlad..."
+  },
+  "t_4480cf46": {
+    "message": "Mnemotechnická pomůcka nebo studijní poznámka (volitelné)..."
+  },
+  "t_d8634fbf": {
+    "message": "např. Změnit na růžový anime styl se zaoblenými kartami, nebo transformovat na retro tmavě zelenou terminálovou konzoli..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "Lepicí poznámky"
+  },
+  "t_b097d277": {
+    "message": "Přidat slovo"
+  },
+  "t_1eeb67ee": {
+    "message": "Exportovat aktuální stránku"
+  },
+  "t_b62ded9a": {
+    "message": "Cloudové služby offline"
+  },
+  "t_263e00eb": {
+    "message": "Přihlásit se / Vytvořit účet"
+  },
+  "t_7748eb3b": {
+    "message": "POVYŠOVÁNÍ"
+  },
+  "t_81a5d20b": {
+    "message": "Zmrazit vše"
+  },
+  "t_e61146d9": {
+    "message": "Klidné stmívání"
+  },
+  "t_57323916": {
+    "message": "Zastavit automatické přehrávání"
+  },
+  "t_f50319ea": {
+    "message": "Plná ochrana"
+  },
+  "t_8e13f26d": {
+    "message": "Rychlá otázka"
+  },
+  "t_134b26da": {
+    "message": "Užíváte si<br><span class=\"ev-si-gradient-text\">EasyView?</span>"
+  },
+  "t_b75bdd9e": {
+    "message": "Vaše zpětná vazba nám pomáhá se zlepšovat.<br>Užíváte si tuto zkušenost?"
+  },
+  "t_396d1ff8": {
+    "message": "Ano, jsem!"
+  },
+  "t_7d0cacf3": {
+    "message": "Vyžaduje úpravy"
+  },
+  "t_815142c9": {
+    "message": "Podpořte nás"
+  },
+  "t_abd9fa39": {
+    "message": "Nevadilo by vám<br><span class=\"ev-si-gradient-text\">zanechat recenzi?</span>"
+  },
+  "t_02991e61": {
+    "message": "Hodnocení od uživatelů, jako jste vy, jsou nejlepším způsobem, jak pomoci EasyView růst. Trvá to jen minutu!"
+  },
+  "t_db49c1f2": {
+    "message": "Ohodnotit"
+  },
+  "t_7a4f0d12": {
+    "message": "Připomenout později"
+  },
+  "t_fee6c0e9": {
+    "message": "Soukromá zpětná vazba"
+  },
+  "t_74393dde": {
+    "message": "Co můžeme <span class=\"ev-si-gradient-text\">dělat lépe?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "Řekněte nám, co se pokazilo..."
+  },
+  "t_6f97affc": {
+    "message": "Poslat zpětnou vazbu"
+  },
+  "t_b20871b3": {
+    "message": "Prosím, zadejte svou zpětnou vazbu"
+  },
+  "t_7b0fee4d": {
+    "message": "Odesílání..."
+  },
+  "t_fb631633": {
+    "message": "Děkujeme za vaši zpětnou vazbu."
+  },
+  "t_08727add": {
+    "message": "Prohlížejte web podle svého."
+  },
+  "t_15bbb9d0": {
+    "message": "Webová stránka"
+  },
+  "t_c5f29bb3": {
+    "message": "Soukromí"
+  },
+  "t_ad5b1a22": {
+    "message": "Zakladatel"
+  },
+  "t_db496e03": {
+    "message": "Osobní klíče vytvářejí přímé, 100% soukromé spojení s AI. Váš text se nikdy nedotkne serverů EasyView."
+  },
+  "t_387c35b3": {
+    "message": "Náš spravovaný server (Premium) funguje jako spolehlivá záloha, pokud není přítomen žádný klíč nebo pokud váš klíč selže."
+  },
+  "t_98bc5a17": {
+    "message": "Pro ochranu proprietárních algoritmů je váš klíč krátce směrován přes náš zabezpečený server pro autentizaci u Google. Je"
+  },
+  "t_de47f1be": {
+    "message": "uloženo nebo zaznamenáno."
+  },
+  "t_25e02e7f": {
+    "message": "Aktivní: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ Člen Premium"
+  },
+  "t_df56cfae": {
+    "message": "⭐ Doživotní člen"
+  },
+  "t_41cbc704": {
+    "message": " zbývajících dní"
+  },
+  "t_b194bd82": {
+    "message": "Nikdy nevyprší"
+  },
+  "t_9f830444": {
+    "message": "⭐ Pro:"
+  },
+  "t_61b82be6": {
+    "message": " zbývajících morfů"
+  },
+  "t_c20e7ceb": {
+    "message": " zbývajících bezplatných morfů"
+  },
+  "t_d7087930": {
+    "message": " zbývajících bezplatných použití"
+  },
+  "t_4bbf11bd": {
+    "message": "Pole Termín a Význam nesmí zůstat prázdná!"
+  },
+  "t_08f09d38": {
+    "message": "Podrobnosti o slově úspěšně aktualizovány!"
+  },
+  "t_32001b52": {
+    "message": "Prosím, zadejte slovo i jeho význam."
+  },
+  "t_b8115861": {
+    "message": "Váš studijní zápisník je prázdný. Nejprve si uložte nějaká slova na webových stránkách!"
+  },
+  "t_7114113b": {
+    "message": "Nejprve se prosím přihlaste ke svému účtu EasyView pro ověření vašich funkcí Pro!"
+  },
+  "t_093f9fa0": {
+    "message": "Váš token relace chybí. Prosím přihlaste se znovu na easyview.in pro obnovení přístupu."
+  },
+  "t_0e065596": {
+    "message": "Toto je ověřená funkce pouze pro Premium. Upgradujte na Pro pro odemknutí!"
+  },
+  "t_c792a645": {
+    "message": "Nepodařilo se připojit k zabezpečenému exportnímu serveru. Zkuste to brzy znovu."
+  },
+  "t_8d1a2675": {
+    "message": "V tomto CSV se nepodařilo identifikovat žádné platné položky slovní zásoby."
+  },
+  "t_a613ed90": {
+    "message": "Chyba zápisu do úložiště prohlížeče! Soubor může být příliš velký pro místní mezipaměť."
+  },
+  "t_8efe87ab": {
+    "message": "Prohlížeči se nepodařilo přečíst váš místní soubor."
+  },
+  "t_50bf63aa": {
+    "message": "Opravdu chcete vymazat všechna uložená slova ze svého zápisníku?"
+  },
+  "t_ff252710": {
+    "message": "Import dokončen: Všech $1 položek již ve vašem zápisníku existuje.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "Chyba při analýze CSV: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "\"$1\" již ve vašem zápisníku je. Chcete pro něj přidat další definici?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "Úspěšně odhlášeno"
+  },
+  "t_dbd35100": {
+    "message": "Engine morfování již pracuje..."
+  },
+  "t_2de4e55d": {
+    "message": "Morfované rozvržení vymazáno"
+  },
+  "t_1bb9196d": {
+    "message": "Morfováno: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "Morfování selhalo: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "Spuštěno: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 položek uspořádáno",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "Tímto trvale roztříštíte tuto poznámku napříč všemi synchronizovanými zařízeními. Pokračovat?"
+  },
+  "t_25abf697": {
+    "message": "Export EPUB vyžaduje JSZip."
+  },
+  "t_71609188": {
+    "message": "Export DOCX vyžaduje html-docx-js."
+  },
+  "t_e1499766": {
+    "message": "Žádný soubor nebyl načten."
+  },
+  "t_023b3355": {
+    "message": "Štít soukromí aktivován"
+  },
+  "t_9483a5da": {
+    "message": "Štít soukromí deaktivován"
+  },
+  "t_a04202db": {
+    "message": "Zvýraznění dočasně skryto"
+  },
+  "t_b3d6b264": {
+    "message": "Zvýraznění obnoveno"
+  },
+  "t_7485c55e": {
+    "message": "Vítejte v EasyView! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "Váš kognitivní most poháněný AI pro snazší čtení na webu. Pojďme na rychlou prohlídku funkcí."
+  },
+  "t_3a1fe637": {
+    "message": "Dekodér žargonu 📖"
+  },
+  "t_89cec86e": {
+    "message": "Zjednodušuje složitou terminologii na jakékoli webové stránce."
+  },
+  "t_f8aefae7": {
+    "message": "Štít soukromí 🔐"
+  },
+  "t_aa860f86": {
+    "message": "Rozmazává citlivá data a obsahuje pravítko zaměření pro čtení bez rozptylování."
+  },
+  "t_0681a3b6": {
+    "message": "Senzorický štít 🛡️"
+  },
+  "t_6118b864": {
+    "message": "Zmrazuje rušivé GIFy a animace."
+  },
+  "t_12ec6fc6": {
+    "message": "Režim čtení pro dyslexii 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "Optimalizovaná písma a řádkování pro snazší čtení."
+  },
+  "t_18d9ce63": {
+    "message": "Převod textu na řeč 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "Poslouchejte jakoukoli webovou stránku se zvýrazňováním slov."
+  },
+  "t_0019a700": {
+    "message": "Morf Engine ✨"
+  },
+  "t_47c2535a": {
+    "message": "Použijte AI k přepracování jakékoli webové stránky na vlastní motiv nebo rozvržení."
+  },
+  "t_2ed2f639": {
+    "message": "Lepící poznámky 📝"
+  },
+  "t_75025b5f": {
+    "message": "Připněte plovoucí poznámky k jakékoli webové stránce a uložte si důležité informace (Alt+N)."
+  },
+  "t_3ff2d7cc": {
+    "message": "Konfigurace rozhraní API ⚙️"
+  },
+  "t_0754e836": {
+    "message": "Přihlaste se pro synchronizaci svého limitu, nebo si zde nastavte vlastní bezplatný klíč Gemini rozhraní API."
+  },
+  "t_7b6a2059": {
+    "message": "Krok $1 z $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "Začít!"
+  },
+  "t_10ac3d04": {
+    "message": "Další"
+  },
+  "t_5c7a52b8": {
+    "message": "Stiskněte "
+  },
+  "t_a1b2c3d4": {
+    "message": " kdykoli pro ruční aktivaci štítu automatické ochrany."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ Štít soukromí aktivován"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 Štít soukromí deaktivován"
+  },
+  "js_9b3e1a": {
+    "message": "EasyView analyzuje rozvržení a provádí morfování..."
+  },
+  "js_4c8d2f": {
+    "message": "Definovat"
+  },
+  "js_7a1e9b": {
+    "message": "Dekódovat"
+  },
+  "js_2d5f8c": {
+    "message": "Zjednodušit"
+  },
+  "js_6e3a4d": {
+    "message": "Záložka"
+  },
+  "js_1f9b7c": {
+    "message": "Zvýraznění"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "Analýza stromu DOM..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "Nepořádné rozvržení..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "Zplošťování struktury..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[PŘETÍŽENÍ_HLUKEM]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "Odstraňování rušivých vlivů..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "Složité uzly"
+  },
+  "js_ldr_m4_cl": {
+    "message": "Aplikují se pravidla pro dyslexii..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "Vykreslování uživatelského rozhraní EasyView..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "Skenování bloku textu..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "Příliš mnoho slov..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "Extrahuji hlavní význam..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "Kognitivní zátěž"
+  },
+  "js_ldr_s3_cl": {
+    "message": "Připravuje se jednodušší angličtina..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "Uprovovná AI..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "Aplikování čitelnosti..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "Zdokonalování výstupu..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "Překládání žargonu..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "Chyba: Zmatek"
+  },
+  "js_ldr_j2_cl": {
+    "message": "Hledání definic..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[PŘETÍŽENÍ_HLUKEM]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "Zjednodušování kontextu..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "Neznámé termíny"
+  },
+  "js_ldr_j4_cl": {
+    "message": "Aplikování srozumitelnosti..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "Formátování výsledků..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "Hloubková analýza..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "Dokončování logiky AI..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "Spouštím AI..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "Téměř hotovo..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "Vysoký provoz..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "Trvá to trochu déle..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "Stále pracuji..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "Vydržte..."
+  },
+  "t_b7012ab9": {
+    "message": "Morf"
+  },
+  "t_c5e8b1d9": {
+    "message": "Pro písma"
+  },
+  "t_c8f2ba19": {
+    "message": "Rozmazání soukromého obsahu povoleno"
+  },
+  "t_e2dae61a": {
+    "message": "Rozmazání soukromého obsahu zakázáno"
+  },
+  "t_c74de318": {
+    "message": "Automatická ochrana při sdílení obrazovky povolena"
+  },
+  "t_a5fd56f4": {
+    "message": "Automatická ochrana při sdílení obrazovky zakázána"
+  },
+  "t_ab8d1f2a": {
+    "message": "Režim svítilny povolen"
+  },
+  "t_2bf5cc98": {
+    "message": "Režim svítilny zakázán"
+  },
+  "t_513bb93f": {
+    "message": "Bionické čtení"
+  },
+  "t_5a8b2c1d": {
+    "message": "Zde je náhled vašeho nastavení čtení."
+  },
+  "t_ac1d4e5f": {
+    "message": "Žádná"
+  },
+  "t_b2e3f4a1": {
+    "message": "Široká"
+  },
+  "t_c3f4a5b2": {
+    "message": "Extra široká"
+  },
+  "t_d1a3c901": {
+    "message": "Kliknout"
+  },
+  "t_b4f2e891": {
+    "message": "Připnout k prvku"
+  },
+  "t_c9a1b302": {
+    "message": "Mezera"
+  },
+  "t_f6d4e203": {
+    "message": "Globální poznámka"
+  },
+  "t_e2b3f104": {
+    "message": "Únik"
+  },
+  "t_a7c0d905": {
+    "message": "Zrušit"
+  },
+  "t_e1b2c301": {
+    "message": "Pouze tato stránka"
+  },
+  "t_f7a3b402": {
+    "message": "Tato stránka"
+  },
+  "t_a8c4d503": {
+    "message": "Všechny stránky (Globální)"
+  },
+  "t_b9d5e604": {
+    "message": "Skrýt do opětovného načtení"
+  },
+  "t_c0e6f705": {
+    "message": "Připnout poznámku k prvku"
+  },
+  "t_d1f7a806": {
+    "message": "Změnit barvu poznámky"
+  },
+  "t_e2a8b907": {
+    "message": "Sbalit/rozbalit poznámku"
+  },
+  "t_f3b9c008": {
+    "message": "Kopírovat obsah poznámky"
+  },
+  "t_a4c0d109": {
+    "message": "Další akce"
+  },
+  "t_b5d1e200": {
+    "message": "Smazat tuto poznámku"
+  },
+  "t_e87033a2": {
+    "message": "Alt + X"
+  },
+  "t_4120201a": {
+    "message": "Bezplatná zkušební verze aktivní"
+  },
+  "t_6ed40ffb": {
+    "message": "Synchronizovat nastavení mezi zařízeními"
+  },
+  "t_f8b8a5fd": {
+    "message": "Vyšší kvóta bezplatného využití"
+  },
+  "t_440b106d": {
+    "message": "Přístup k budoucím funkcím Pro"
+  },
+  "t_3a99076c": {
+    "message": "Limit předplatného"
+  },
+  "t_545f6c2f": {
+    "message": "Neomezeno"
+  },
+  "t_ad23f4a0": {
+    "message": "Prostorové poznámky"
+  },
+  "t_04f2f045": {
+    "message": "Úspěšně jste nasadili všech patnáct poznámek bezplatné úrovně napříč webem. Upgradujte na EasyView Premium pro odemknutí nekonečné prostorové paměti a vlastních barev."
+  },
+  "t_cf874b99": {
+    "message": "Odemknout Premium"
+  },
+  "t_a6d36e2f": {
+    "message": "Všechny místní ovládací prvky přístupnosti (aktivní)"
+  },
+  "t_b0b69bc3": {
+    "message": "Engine převodu textu na řeč (aktivní)"
+  },
+  "t_cc96c21a": {
+    "message": "Cloudové funkce AI (offline)"
+  },
+  "t_7af6f6e5": {
+    "message": "Rozumím"
+  },
+  "t_9bc7102e": {
+    "message": "Vytvořte si bezplatný účet EasyView pro sledování svého limitu a odemknutí dekodéru žargonu."
+  },
+  "t_ab7512fd": {
+    "message": "Váš token relace chybí. Prosím přihlaste se znovu na easyview.in pro obnovení přístupu."
+  },
+  "t_1cd7820a": {
+    "message": "POUZE PRO PŘÍSTUP"
+  },
+  "t_8eb14032": {
+    "message": "Dekodér žargonu<br><span class=\"ev-si-gradient-text\">Limit dosažen</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "VYČERPÁN LIMIT"
+  },
+  "t_5ae983dc": {
+    "message": "Tento měsíc jste vyčerpali všech <strong>pět bezplatných dekódování</strong>. Odemkněte neomezený přístup během sekund."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> Přejít na Pro — Neomezená dekódování</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> Použijte svůj vlastní klíč rozhraní API</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 Přidat klíč rozhraní API v Nastavení</button>"
+  },
+  "t_9be4129a": {
+    "message": "Exportér studijního balíčku<br><span class=\"ev-si-gradient-text\">Pro automatizace</span>"
+  },
+  "t_fac34185": {
+    "message": "Okamžitě exportujte celý svůj vlastní studijní zápisník přímo do <strong>Anki</strong> a <strong>Quizlet</strong>."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Zbavte se ručního psaní</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Kompilátor kartiček RFC-4180</div>"
+  },
+  "t_da12c30b": {
+    "message": "Pro přístup"
+  },
+  "t_4a9b2c01": {
+    "message": "Tato funkce"
+  },
+  "t_3be78c01": {
+    "message": "Toto písmo pro čtení při dyslexii"
+  },
+  "t_0ad4b971": {
+    "message": "Toto vizuální písmo"
+  },
+  "t_9af42be8": {
+    "message": "Toto prémiové písmo pro export"
+  },
+  "t_cbae8349": {
+    "message": "Upgradujte pro odemknutí všech funkcí usnadnění a výkonných nástrojů."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Pokročilé usnadnění</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Všechny budoucí aktualizace</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ Přejít na Pro"
+  },
+  "t_5ef4c1a2": {
+    "message": "Možná později"
+  },
+  "t_3b7a5e82": {
+    "message": ", ale funkce AI mohou být dočasně nedostupné."
+  },
+  "t_c91d8e12": {
+    "message": "Obecné"
+  },
+  "t_b42f3a9d": {
+    "message": "Definice"
+  },
+  "t_f1d4a8e6": {
+    "message": "Slovník"
+  },
+  "t_e398c71f": {
+    "message": "Vlastní"
+  },
+  "t_a72df9e5": {
+    "message": "Lékařské"
+  },
+  "t_d8f2c61a": {
+    "message": "Právní"
+  },
+  "t_b3e1f5d2": {
+    "message": "Finanční"
+  },
+  "t_c25d81f9": {
+    "message": "Tech"
+  },
+  "t_e1b3a4f6": {
+    "message": "Akademické"
+  },
+  "t_d5f9b4c1": {
+    "message": "Termín"
+  },
+  "t_f7a2e8ea": {
+    "message": "Kategorie"
+  },
+  "t_e3b1c6d9": {
+    "message": "Zjednodušený význam"
+  },
+  "t_a9d4e5f2": {
+    "message": "Studijní poznámky / Kontext"
+  },
+  "t_b4c5d6e7": {
+    "message": "Zrušit"
+  },
+  "t_c8f2a1b4": {
+    "message": "Uložit změny"
+  },
+  "t_8c17b5e6": {
+    "message": "Váš token relace chybí. Prosím přihlaste se znovu na easyview.in pro obnovení přístupu."
+  },
+  "t_a43dc219": {
+    "message": "Vytvořte si bezplatný účet EasyView pro sledování svého limitu využití a odemknutí modulu Morf AI."
+  },
+  "t_54c523fe": {
+    "message": "🎉 Bezchybné! Úspěšně importováno $1 nových studijních karet."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 Bezchybné! Importováno $1 nových karet. ($2 duplicit bylo přeskočeno.)"
+  },
+  "t_14894d12": {
+    "message": "Export motivu"
+  },
+  "t_f27a2629": {
+    "message": "Záloha knihovny motivů"
+  },
+  "t_9ad85e17": {
+    "message": "Režim čtecího pravítka"
+  },
+  "t_b9d4e7a5": {
+    "message": "Pokročilé režimy senzorického štítu"
+  },
+  "t_94f4f7e4": {
+    "message": "Analyzuji DOCX...",
+    "description": "Stav při analýze DOCX ve čtečce"
+  },
+  "t_120adfc1": {
+    "message": "Analyzuji EPUB...",
+    "description": "Stav při analýze EPUB ve čtečce"
+  },
+  "t_5d2a45b8": {
+    "message": "Režim čtecího pravítka je exkluzivní pro předplatné Pro.",
+    "description": "Upozornění, když uživatel bez verze Pro přistoupí k čtecímu pravítku"
+  },
+  "t_c1f29623": {
+    "message": "Upravit celou kartu",
+    "description": "Nástroj pro úpravu celé karty v poznámkovém bloku"
+  },
+  "t_1063e38c": {
+    "message": "Odstranit",
+    "description": "Nástroj pro odstranění karty z poznámkového bloku"
   },
   "t_ccca2ddf": {
-    "message": "EasyView Reader"
+    "message": "Čtečka EasyView"
   },
   "t_8524de96": {
-    "message": "Loading..."
+    "message": "Načítání..."
   },
   "t_25e8f2fd": {
-    "message": "Please wait..."
+    "message": "Prosím čekejte..."
   },
   "t_ec9d785d": {
     "message": "1.5x"
@@ -762,7 +2339,7 @@
     "message": "Atkinson Hyperlegible"
   },
   "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
+    "message": "Segoe UI (výchozí pro Windows)"
   },
   "t_f7cee5ea": {
     "message": "Calibri"
@@ -777,25 +2354,25 @@
     "message": "Cambria"
   },
   "t_c3d9d4bf": {
-    "message": "Constantia"
+    "message": "Konstancie"
   },
   "t_5d1a5b35": {
-    "message": "Palatino Linotype"
+    "message": "Palatino Lajnotajp"
   },
   "t_4dc386b6": {
-    "message": "Book Antiqua"
+    "message": "Knižní Antikva"
   },
   "t_03c461f6": {
-    "message": "Franklin Gothic"
+    "message": "Franklin Gotik"
   },
   "t_7b1ee3b6": {
-    "message": "Century Gothic"
+    "message": "Sentury Gotik"
   },
   "t_a3293302": {
-    "message": "Gill Sans"
+    "message": "Gil Sans"
   },
   "t_eb726908": {
-    "message": "Sitka Text"
+    "message": "Písmo Sitka"
   },
   "t_b5bdee2c": {
     "message": "Sylfaen"
@@ -804,13 +2381,13 @@
     "message": "Microsoft Sans Serif"
   },
   "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
+    "message": "Segoj Jú-Áj Semibold"
   },
   "t_16507cdd": {
     "message": "Consolas"
   },
   "t_391c5954": {
-    "message": "Lucida Console"
+    "message": "Lusida Konsol"
   },
   "t_9879efdf": {
     "message": "Lucida Sans Typewriter"
@@ -819,13 +2396,13 @@
     "message": "Impact"
   },
   "t_94a7bb97": {
-    "message": "Arial Black"
+    "message": "Ariál Černý"
   },
   "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
+    "message": "Koprplejt Gotik"
   },
   "t_40885309": {
-    "message": "Berlin Sans FB"
+    "message": "Berlín Sans FB"
   },
   "t_6d5566ba": {
     "message": "Gabriola"
@@ -834,25 +2411,70 @@
     "message": "Ink Free"
   },
   "t_fa233799": {
-    "message": "Segoe Script"
+    "message": "Segoj Písmo"
   },
   "t_2f7bc407": {
-    "message": "Segoe Print"
+    "message": "Segoj Tisk"
   },
   "t_0095a9fa": {
-    "message": "Export"
+    "message": "Exportovat"
   },
   "t_520d0db3": {
-    "message": "Format"
+    "message": "Formát"
   },
   "t_5956a437": {
     "message": "TXT"
   },
   "t_1351017a": {
-    "message": "Filename"
+    "message": "Název souboru"
+  },
+  "t_d4c3c15b": {
+    "message": "Žádný soubor nebyl načten"
+  },
+  "t_0ca5a078": {
+    "message": "Pro nahrání souboru prosím použijte kartu Konvertor."
+  },
+  "t_c9857e16": {
+    "message": "Nepodporovaný typ souboru."
+  },
+  "t_6b447b91": {
+    "message": "Chyba při analýze souboru: "
+  },
+  "t_7f4588be": {
+    "message": "EPUB"
+  },
+  "t_12dc65c2": {
+    "message": "Přepnout světlý/tmavý"
+  },
+  "t_d3d2e617": {
+    "message": "Zavřít"
+  },
+  "t_6e8cfcb7": {
+    "message": "Bezpečný export na server (prémiová verze)"
+  },
+  "t_2f9df658": {
+    "message": "Odpojit a zobrazit pracovní prostor nad všemi okny"
+  },
+  "t_72d6d7a1": {
+    "message": "Importovat"
+  },
+  "t_de93d5fd": {
+    "message": "Exportovat poznámky"
+  },
+  "t_a1aacca9": {
+    "message": "Plovoucí pracovní prostor"
+  },
+  "t_ac0b844f": {
+    "message": "Globální poznámky"
+  },
+  "t_15866f1d": {
+    "message": "Poznámky specifické pro web"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
   },
   "t_6af8212e": {
-    "message": "EasyView Notes Board"
+    "message": "Nástěnka poznámek EasyView"
   },
   "t_d16da0f5": {
     "message": "🌎"
@@ -860,61 +2482,168 @@
   "t_6df173ff": {
     "message": "📍"
   },
-  "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
+  "t_22f58a00": {
+    "message": "🌎 Globální poznámka"
   },
-  "js_24833610": {
-    "message": "Saved"
+  "t_5be8bbeb": {
+    "message": "🌐 Poznámka k webu"
   },
-  "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+  "t_59a56663": {
+    "message": "📍 Poznámka ke stránce"
   },
-  "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+  "t_c1843696": {
+    "message": "Ověřuje se token integrity..."
   },
-  "js_138703dd": {
-    "message": "No Theme on Page"
+  "t_58038ee4": {
+    "message": "Právě teď"
   },
-  "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+  "t_e254e1a1": {
+    "message": "před $1 min",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+  "t_121d4d02": {
+    "message": "před $1 hod",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_e541190e": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
+  "t_19d2b280": {
+    "message": "před $1 dny",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_d2e8056c": {
-    "message": "<path d=\"M9.88 9.88a3 3 0 1 0 4.24 4.24\"/><path d=\"M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68\"/><path d=\"M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61\"/><line x1=\"2\" x2=\"22\" y1=\"2\" y2=\"22\"/>"
+  "t_d3d4311c": {
+    "message": "Přetáhnout poznámku"
   },
-  "js_e2cb885d": {
-    "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
+  "t_7b32ea16": {
+    "message": "Přepnout na $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_8b86136c": {
-    "message": "Ready to simplify"
+  "t_11916b28": {
+    "message": "Rozsah umístění"
   },
-  "js_a18366b2": {
-    "message": "Dark"
+  "t_5463fe67": {
+    "message": "Paleta barev"
   },
-  "js_9914a0ce": {
-    "message": "Light"
+  "t_d116d454": {
+    "message": "Sbalit poznámku"
   },
-  "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+  "t_be9ba0e5": {
+    "message": "Kopírovat text"
   },
-  "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+  "t_28471624": {
+    "message": "Další akce"
   },
-  "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+  "t_90e467df": {
+    "message": "Zavřít poznámku"
   },
-  "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+  "t_34494920": {
+    "message": "Zde napište svou poznámku..."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_bdda0b60": {
+    "message": "Na co jste mysleli..."
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_8689de27": {
+    "message": "Dostupné všude"
+  },
+  "t_c0cf9810": {
+    "message": "Teleportovat zpět na původní stránku"
+  },
+  "t_24a23176": {
+    "message": "Původní kontext"
+  },
+  "t_4c1c1e76": {
+    "message": "Import poznámkového bloku"
+  },
+  "t_2736f644": {
+    "message": "Plynule slučujte své externí studijní balíčky a seznamy slovní zásoby do ekosystému EasyView."
+  },
+  "t_ca4f038f": {
+    "message": "Povinné sloupce"
+  },
+  "t_7277de5f": {
+    "message": "Význam"
+  },
+  "t_ce591bfa": {
+    "message": "Volitelné sloupce"
+  },
+  "t_f4c6f851": {
+    "message": "Poznámky"
+  },
+  "t_c1fd81a6": {
+    "message": "Vyberte nebo přetáhněte tabulkový soubor CSV"
+  },
+  "t_5c426600": {
+    "message": "Duplicity a existující slova se automaticky odfiltrují."
+  },
+  "t_76e7183d": {
+    "message": "Import proběhl úspěšně!"
+  },
+  "t_3e17e02d": {
+    "message": "Vaše slovní zásoba byla aktualizována."
+  },
+  "t_3148d309": {
+    "message": "Zavřít kartu"
+  },
+  "t_0e412fa1": {
+    "message": "Oslava se spustí, jakmile se vrátíte do vyskakovacího okna."
+  },
+  "t_d29f6e6b": {
+    "message": "Import se nezdařil"
+  },
+  "t_e04efbcb": {
+    "message": "Stav poznámkového bloku"
+  },
+  "t_ed732761": {
+    "message": "Import motivů Morph"
+  },
+  "t_e44db711": {
+    "message": "Bezpečně importujte svou vlastní knihovnu jádra Morph přímo do EasyView."
+  },
+  "t_c0bb7d43": {
+    "message": "Vyberte nebo přetáhněte datový soubor JSON"
+  },
+  "t_36e9583e": {
+    "message": "Importuje vaše dříve exportovaná rozvržení motivů."
+  },
+  "t_21630184": {
+    "message": "Motivy obnoveny!"
+  },
+  "t_d0c1ec75": {
+    "message": "Vaše šablony Morph byly úspěšně nainstalovány."
+  },
+  "t_cd27a5c0": {
+    "message": "EasyView — Čtečka obsahu"
+  },
+  "t_b171ab1f": {
+    "message": "Vítejte ve čtečce"
+  },
+  "t_4e07c284": {
+    "message": "Nahrajte sem své dokumenty a čtěte je s upravenou typografií a pokročilými pomůckami pro usnadnění přístupu."
+  },
+  "t_004621c0": {
+    "message": "Podporuje dokumenty, elektronické knihy a soubory .docx, .epub a .txt"
+  },
+  "t_23bb27a0": {
+    "message": "Inicializuje se analyzátor dokumentů..."
+  },
+  "t_e1d5f16c": {
+    "message": "Optimalizuje se souborů DOCX pro čitelnost..."
+  },
+  "t_0e55c5d0": {
+    "message": "Analyzuje se struktura EPUB..."
   }
 }

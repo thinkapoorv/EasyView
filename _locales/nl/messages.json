@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "EasyView — Duidelijkheid voor elk brein"
   },
   "appShortName": {
     "message": "EasyView"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "Transformeer elke website direct met AI-prompts of enkele klikken. Bekijk het web op jouw manier."
+  },
+  "t_68ba0232": {
+    "message": "Dyslexiemodus geactiveerd"
+  },
+  "t_85f47a25": {
+    "message": "Dyslexiemodus gedeactiveerd"
+  },
+  "t_1cc1b64d": {
+    "message": "Niet genoeg inhoud om te analyseren"
+  },
+  "t_cebe6412": {
+    "message": "Geen complexe termen gevonden"
+  },
+  "t_b964aa0f": {
+    "message": "Fout bij het analyseren van pagina-inhoud"
+  },
+  "t_956c104e": {
+    "message": "Paginageheugen gewist"
+  },
+  "t_1f4b0f3e": {
+    "message": "Woordenlijst gewist"
+  },
+  "t_4bfeec37": {
+    "message": "Geen complexe termen gevonden in selectie"
+  },
+  "t_1b5e8531": {
+    "message": "Geen complexe termen gevonden in selectie"
+  },
+  "t_a1f781ec": {
+    "message": "Fout bij het decoderen van selectie"
+  },
+  "t_7aae8122": {
+    "message": "Selectiemarkeringen gewist"
+  },
+  "t_58762fd6": {
+    "message": "Selecteer een enkel woord of korte zin om te definiëren."
+  },
+  "t_6838b119": {
+    "message": "Netwerkfout bij het opzoeken van definitie."
+  },
+  "t_ea3ca1b5": {
+    "message": "$1 termen gedecodeerd (uit cache)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "$1 termen gedecodeerd (gecached)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "Je hebt deze maand alle gratis Jargon-decoder-beurten gebruikt. Upgrade naar Pro voor onbeperkte toegang."
+  },
+  "t_cb3c5d3a": {
+    "message": "$1 termen gedecodeerd in $2 categorieën",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "Automatisch $1 instanties van je gedecodeerde vocabulaireterm gemarkeerd",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "$1 opgeslagen jargondefinities hersteld$2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "Je hebt deze maand alle gratis Jargon-decoder-beurten gebruikt. Upgrade naar Pro voor onbeperkte toegang."
+  },
+  "t_0b841c82": {
+    "message": "Al in notitieblok!"
+  },
+  "t_8901f3ab": {
+    "message": "Opgeslagen in notitieblok!"
+  },
+  "t_eb8f5242": {
+    "message": "Fout bij opslaan in notitieblok"
+  },
+  "t_bd15702b": {
+    "message": "Sensorisch schild geactiveerd"
+  },
+  "t_c28f3265": {
+    "message": "Sensorisch schild gedeactiveerd"
+  },
+  "t_3f8910d9": {
+    "message": "EASYVIEW"
+  },
+  "t_8aafa613": {
+    "message": "Kon deze tekst niet vereenvoudigen"
+  },
+  "t_79d2dc85": {
+    "message": "Kon deze tekst niet vereenvoudigen"
+  },
+  "t_99684ba5": {
+    "message": "Fout bij het vereenvoudigen van tekst"
+  },
+  "t_f4362bde": {
+    "message": "Gekopieerd naar klembord!"
+  },
+  "t_af07ef4b": {
+    "message": "Kopiëren mislukt"
+  },
+  "t_94e4d537": {
+    "message": "Tekst op pagina vervangen"
+  },
+  "t_14a04b67": {
+    "message": "Vereenvoudigingsgeheugen verwijderd"
+  },
+  "t_c444ff21": {
+    "message": "Originele tekst tijdelijk hersteld"
+  },
+  "t_55f1db14": {
+    "message": "Je hebt deze maand alle gratis beurten gebruikt. Upgrade naar Pro voor onbeperkte toegang."
+  },
+  "t_fde4e3f0": {
+    "message": "$1 opgeslagen vereenvoudigingen op deze pagina hersteld",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "Automatisch herstelde dynamisch geladen vereenvoudiging!"
+  },
+  "t_dfa22e52": {
+    "message": "Tekst-naar-spraak geactiveerd"
+  },
+  "t_ca153ad0": {
+    "message": "Tekst-naar-spraak uitgeschakeld"
+  },
+  "t_dadbff09": {
+    "message": "Schakel eerst tekst-naar-spraak in"
+  },
+  "t_47071c61": {
+    "message": "Hervatten..."
+  },
+  "t_5516c48d": {
+    "message": "Geen leesbare inhoud gevonden op deze pagina"
+  },
+  "t_c57f25c9": {
+    "message": "Geen leesbare inhoud gevonden"
+  },
+  "t_2516997e": {
+    "message": "Lezen voltooid"
+  },
+  "t_d3069aea": {
+    "message": "Tekst-naar-spraak wordt niet ondersteund in deze browser"
+  },
+  "t_53e6b8c6": {
+    "message": "Selecteer eerst wat tekst"
+  },
+  "t_e932d0f7": {
+    "message": "Selectie lezen..."
+  },
+  "t_1c50528d": {
+    "message": "Lezen voltooid"
+  },
+  "t_594778a2": {
+    "message": "Gepauzeerd"
+  },
+  "t_4ded5f77": {
+    "message": "Spraak gestopt"
+  },
+  "t_0a74758c": {
+    "message": "✨ Mogelijk gemaakt door persoonlijke sleutel"
+  },
+  "t_2fceddad": {
+    "message": "✨ Onbeperkt"
+  },
+  "t_97627d80": {
+    "message": "✨ Mogelijk gemaakt door persoonlijke sleutel"
+  },
+  "t_fd7d5888": {
+    "message": "Abonnement beheren"
+  },
+  "t_df4657a5": {
+    "message": "Gratis lid"
+  },
+  "t_22dfb2ec": {
+    "message": "Gastgebruiker"
+  },
+  "t_bd9f2460": {
+    "message": "Gratis account"
+  },
+  "t_f5adda31": {
+    "message": "Inloggen / Aanmelden"
+  },
+  "t_d2439201": {
+    "message": "✨ Onbeperkt"
+  },
+  "t_164442b7": {
+    "message": "Converter-engine opwarmen..."
+  },
+  "t_1e7c3002": {
+    "message": "Klaar om bestanden te parseren."
+  },
+  "t_d30f78df": {
+    "message": "Donkere modus"
+  },
+  "t_6c68d8ce": {
+    "message": "Lichte modus"
+  },
+  "t_fcb68c2b": {
+    "message": "Geen plakbriefjes gevonden. Niets om te exporteren!"
+  },
+  "t_2b75b2d9": {
+    "message": "Je sessietoken ontbreekt. Meld je opnieuw aan bij easyview.in om de toegang te herstellen."
+  },
+  "t_291a4e34": {
+    "message": "Veilige serverroutering mislukt. Controleer uw verbinding."
+  },
+  "t_2dcf62b3": {
+    "message": "Er zijn geen ontbrekende notities gedetecteerd. Werkruimte is bijgewerkt."
+  },
+  "t_951bf3ae": {
+    "message": "Ontcijferingsfout: Bestand voldoet niet aan de EasyView-grenzen."
+  },
+  "t_817a4ba0": {
+    "message": "PiP API niet ondersteund. Update Chrome."
+  },
+  "t_e8aa6e9a": {
+    "message": "Initialiseren van PiP-engine mislukt: "
+  },
+  "t_9feed9d5": {
+    "message": "Succesvol ontsleuteld en $1 nieuwe notities geïnjecteerd.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "BÈTA"
+  },
+  "t_c289adbe": {
+    "message": "Steun ons"
+  },
+  "t_60d5b12a": {
+    "message": "Beoordeel ons"
+  },
+  "js_eb82de4c": {
+    "message": "Aangepaste kleur"
+  },
+  "js_8caef32b": {
+    "message": "Resetten/Wissen (Selecteer tekst & klik, of dubbelklik handmatig op markering)"
+  },
+  "t_823aeb91": {
+    "message": "EasyView-werkruimte"
+  },
+  "t_fc42ed23": {
+    "message": "Geen globale notities zwevend in uw werkruimte."
+  },
+  "t_12d7c58a": {
+    "message": "Druk op Spatie terwijl de cursor van de plaknotities actief is om er een te genereren."
+  },
+  "t_ab983c11": {
+    "message": "Geen site-specifieke notities gevonden hier."
+  },
+  "t_e22709e9": {
+    "message": "Klik op een fysiek element op een website om een gerichte notitie te verankeren."
+  },
+  "t_34bdba45": {
+    "message": "Stap"
+  },
+  "t_9b2d88a1": {
+    "message": "van"
+  },
+  "t_8f44d852": {
+    "message": "Aan de slag!"
+  },
+  "t_b45c2f91": {
+    "message": "Werkruimte-exports ontgrendelen"
+  },
+  "t_88f91dc1": {
+    "message": "Het veilig renderen en exporteren van je volledige globale werkruimtenotities vereist een geverifieerde Pro-licentie. Upgrade om deze functie permanent te ontgrendelen."
+  },
+  "t_134dff88": {
+    "message": "Misschien later"
+  },
+  "t_5b8c9d11": {
+    "message": "Upgrade naar Pro"
+  },
+  "t_792bd8c9": {
+    "message": "Werkruimte zwevend!"
+  },
+  "t_e39f7dc2": {
+    "message": "Je plaknotities zweven nu boven je bureaublad."
+  },
+  "t_c83d6ec9": {
+    "message": "Werkruimte opnieuw koppelen"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Ruis filteren...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Op de achtergrond uitvoeren\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimaliseren</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Engine stoppen</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "Generatie gestopt"
+  },
+  "t_removed_from_notebook": {
+    "message": "Verwijderd uit notitieblok"
+  },
+  "t_d1c58470": {
+    "message": "Dubbelklik om markering te verwijderen"
+  },
+  "t_d4fdfb03": {
+    "message": "Meld je aan bij EasyView om $1 gratis beurten/maand te krijgen, of voeg je eigen API-sleutel toe in Instellingen.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "Opgeslagen resultaten laden..."
+  },
+  "t_3a99733d": {
+    "message": "Jargon-decoder initialiseren..."
+  },
+  "t_b6dc9fc9": {
+    "message": "Maak een gratis EasyView-account aan om $1 gratis AI-ontcijferingen per maand te krijgen en je quotum bij te houden.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "Maak een gratis EasyView-account aan om $1 gratis AI-definities per maand te krijgen en je quotum bij te houden.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "Hoofdinhoud extraheren..."
+  },
+  "t_0eeae2bf": {
+    "message": "Pagina-context detecteren..."
+  },
+  "t_87f125d0": {
+    "message": "Terminologie analyseren..."
+  },
+  "t_9ef6e70f": {
+    "message": "Gecachte resultaten gebruiken..."
+  },
+  "t_9afdc5e8": {
+    "message": "Analyseren met AI..."
+  },
+  "t_7ecc3abe": {
+    "message": "AI-decodering mislukt"
+  },
+  "t_9220c8de": {
+    "message": "Vereenvoudigingen toepassen..."
+  },
+  "t_57f406b1": {
+    "message": "Selectie decoderen..."
+  },
+  "t_c50f2b72": {
+    "message": "Woordenlijst bekijken"
+  },
+  "t_49de9b11": {
+    "message": "Markeringen op pagina verbergen"
+  },
+  "t_3158774e": {
+    "message": "Markeringen op pagina herstellen"
+  },
+  "t_fc3ad42d": {
+    "message": "Opslaan in vocabulaire"
+  },
+  "t_87e933b8": {
+    "message": "Definitie opzoeken..."
+  },
+  "t_56b79836": {
+    "message": "Woorddefinitie geladen."
+  },
+  "t_969b24ea": {
+    "message": "🔊 Klik ergens om thema-audio te activeren"
+  },
+  "t_49337275": {
+    "message": "Handmatige markering"
+  },
+  "t_93324bd5": {
+    "message": "Direct opgeslagen vanaf webpagina."
+  },
+  "t_82e413f3": {
+    "message": "Tekst vereenvoudigen..."
+  },
+  "t_86c4f6e5": {
+    "message": "Vereenvoudigen met AI..."
+  },
+  "t_c3e18edb": {
+    "message": "Vereenvoudiging mislukt"
+  },
+  "t_6398ab2c": {
+    "message": "Leesniveau: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "Klik om originele tekst tijdelijk te herstellen"
+  },
+  "t_9beea3e8": {
+    "message": "Permanent uit geheugen verwijderen"
+  },
+  "t_453bb8f7": {
+    "message": "Maak een gratis EasyView-account aan om $1 gratis AI-vereenvoudigingen per maand te krijgen en je quotum bij te houden.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "Luisteren"
+  },
+  "t_24833610": {
+    "message": "Opgeslagen"
+  },
+  "t_30a008cb": {
+    "message": "Lees meer &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "Opgeslagen in woordenschatnotitieblok!"
+  },
+  "t_2728e87f": {
+    "message": "Verwijderd uit woordenschatnotitieblok"
+  },
+  "t_6b8c66ce": {
+    "message": "Woordenlijst ($1 termen)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "Geheugen voor deze pagina verwijderen"
+  },
+  "t_8a49fe1a": {
+    "message": "Term verwijderen"
+  },
+  "t_1534891c": {
+    "message": "$1 termen gedecodeerd",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "Opslaan in notitieblok"
+  },
+  "t_150a2843": {
+    "message": "Markeringen wissen"
+  },
+  "t_21ef939c": {
+    "message": "Opgeslagen in notitieblok!"
+  },
+  "t_8054da35": {
+    "message": "Snel woordenboek",
+    "description": "Snelle woordenboek-pop-upkop"
+  },
+  "t_4aeb2167": {
+    "message": "Woord niet gevonden",
+    "description": "Titel voor woordenboek-fallback"
+  },
+  "t_272d0070": {
+    "message": "We konden \"$1\" niet vinden in het basiswoordenboek. Het kan moderne straattaal, een afkorting of zeer technisch jargon zijn.",
+    "description": "Woordenboek-fallback-beschrijving met woord-placeholder",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "Decoderen met Evie AI",
+    "description": "Fallback-knop om met AI te decoderen"
+  },
+  "t_14f1f972": {
+    "message": "via",
+    "description": "Voorvoegsel voor woordenboekbron"
+  },
+  "t_f2faf2f1": {
+    "message": "Zelfstandig naamwoord",
+    "description": "Woordsoort zelfstandig naamwoord"
+  },
+  "t_b512ddf1": {
+    "message": "Werkwoord",
+    "description": "Woordsoort werkwoord"
+  },
+  "t_d807ae6a": {
+    "message": "Bijvoeglijk naamwoord",
+    "description": "Woordsoort bijvoeglijk naamwoord"
+  },
+  "t_1a607278": {
+    "message": "Bijwoord",
+    "description": "Woordsoort bijwoord"
+  },
+  "t_02de720d": {
+    "message": "Voornaamwoord",
+    "description": "Woordsoort voornaamwoord"
+  },
+  "t_4b7be2c3": {
+    "message": "Voorzetsel",
+    "description": "Woordsoort voorzetsel"
+  },
+  "t_a3c1d30b": {
+    "message": "Voegwoord",
+    "description": "Woordsoort voegwoord"
+  },
+  "t_e189f001": {
+    "message": "Tussenwerpsel",
+    "description": "Woordsoort tussenwerpsel"
+  },
+  "t_96de90f8": {
+    "message": "Vereenvoudigde tekst kopiëren",
+    "description": "Knopinfo om vereenvoudigde tekst te kopiëren"
+  },
+  "t_44a6e288": {
+    "message": "Pagina lezen",
+    "description": "Knopinfo om hele pagina via TTS te lezen"
+  },
+  "t_7d70d73b": {
+    "message": "Selectie voorlezen",
+    "description": "Knopinfo om selectie via TTS te lezen"
+  },
+  "t_11936123": {
+    "message": "Notitie onherroepelijk verwijderen",
+    "description": "Knopinfo om plakbriefje permanent te verwijderen"
+  },
+  "t_d27532d9": {
+    "message": "Minimaliseren"
+  },
+  "t_2bd339d8": {
+    "message": "Herstellen"
   },
   "t_df13eb31": {
     "message": "EasyView"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "Systeemwaarschuwing"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "Systeemmelding"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "EasyView\r\n                        Motor"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "Lokale functies blijven\r\n                        actief"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,70 +599,67 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "EasyView\r\n                        ervaring"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "Je gebruikt EasyView al 12 uur. Maak een gratis account aan om\r\n                    je instellingen op te slaan,\r\n                    je quotum te behouden en meer functies te ontgrendelen."
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "Herinner me over 12 uur"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "Licht"
   },
   "t_7fc56270": {
     "message": "A"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "Lettertype"
   },
   "t_5dbc98dc": {
-    "message": "S"
+    "message": "K"
   },
   "t_69691c7b": {
     "message": "M"
   },
   "t_d20caec3": {
-    "message": "L"
+    "message": "G"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "Functies"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "Visueel"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "Omzetter"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "Notitieblok"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "Jargon decoder"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "Complexe juridische termen vereenvoudigen"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "wikipedia.org/wiki/Neurodiversiteit"
   },
   "t_61e9c06e": {
     "message": "W"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "Neurodiversiteit"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "een\r\n                                                stuk makkelijker"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "Focus- en privacyschild"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "Privé en gevoelige inhoud vervagen"
   },
   "t_7f766191": {
     "message": "mail.google.com/mail/u/0/"
@@ -105,13 +668,13 @@
     "message": "G"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "Google-accounts"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "Beveiligingswaarschuwing"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- Wachtwoordherstel aangevraagd..."
   },
   "t_8d9c307c": {
     "message": "N"
@@ -120,133 +683,130 @@
     "message": "Netflix"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "Nieuw deze week"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- Bekijk onze nieuwste\r\n                                                    releases..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "Beschermingstechnieken"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "Privé-inhoud vervagen"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "Vervaagt op intelligente wijze WhatsApp, Gmail en wachtwoordinvoer\r\n                                            voor directe visuele beveiliging."
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "Automatische bescherming bij scherm delen"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "Beschermt direct je scherm wanneer je dit online deelt."
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
-  },
-  "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "Gebruik je\r\n                                                    een fysieke projector?"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "Lees-zaklamp"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "Volgt je muis met een heldere spotlight om visuele rommel eromheen\r\n                                            volledig te elimineren."
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "1.\r\n                                                            Straalvorm"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "Spotlight\r\n                                                            of liniaal"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "2.\r\n                                                                Straalgrootte / Hoogte"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "Dikte\r\n                                                                van het weergavegebied"
   },
   "t_f0cad41b": {
     "message": "35px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "3.\r\n                                                            Focusstraal-lenstint"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "Vlekt de leesopening zachtjes"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "4.\r\n                                                            Omgevingsachtergrondschaduw"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "Dofheid rondom je lens"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "Zintuiglijk schild"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "Afleidende animaties bevriezen"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "nieuwsdagelijks.nl/breaking"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "LAATSTE NIEUWS"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "Een artikel lezen in het dagelijks nieuws..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "WINST!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "Schildmodus"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(standaard)"
   },
   "t_9e3360ac": {
     "message": "PRO"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "Stop automatisch afspelen + rustige\r\n                                                vervagingen bij handmatige navigatie"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "Dyslexie-leesmodus"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "Geoptimaliseerde lettertypes en spatiëring"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "Intensiteitsprofiel"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "Laag"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "Gemiddeld"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "Hoog"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "wikipedia.org/wiki/Lezen"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "Lezen"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "Hier is een voorbeeld van uw leesinstellingen."
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "Geavanceerde opties"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "Lettertypestijl"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "Standaard (Geen wijziging)"
   },
   "t_5d2967ef": {
-    "message": "OpenDyslexic"
+    "message": "OpenDyslexisch"
   },
   "t_1042daad": {
     "message": "Lexend (ADHD Pro) 🔒"
@@ -255,94 +815,91 @@
     "message": "Atkinson Hyperlegible 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "Snel Sans"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "Snel Serif"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "Komiek Nieuw"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "Komiek Zonder"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "Letterafstand"
   },
   "t_960b44c5": {
-    "message": "Normal"
+    "message": "Normaal"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "Regelhoogte"
   },
   "t_60086472": {
     "message": "1.5"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "Woordafstand"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "Lettergrootte"
   },
   "t_30bd7ce7": {
     "message": "100%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "Overlay-kleur"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "Geen"
   },
   "t_2bd8c63b": {
     "message": "Beige"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "Lichtblauw"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "Lichtgroen"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "Lichtgeel"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "Tekst-naar-spraak"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "Hardop voorlezen met markering"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "Afspelen"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "Pauzeren"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "Stoppen"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "Stemselectie"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "Auto (Beste kwaliteit)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "Leessnelheid"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "Zeer langzaam"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "Langzaam"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "Snel"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "Zeer snel"
   },
   "t_bd7a9717": {
     "message": "Volume"
@@ -351,28 +908,28 @@
     "message": "70%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "Pauzeren bij leestekens"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "Woordmarkering"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "Inschakelen"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "Modus"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "Donker"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "wikipedia.org/wiki/Light_(optics)"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "Perfecte beelden voor oogcomfort. Licht kan intens zijn."
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "Helderheid"
   },
   "t_c63ecd19": {
     "message": "Contrast"
@@ -384,31 +941,31 @@
     "message": "0%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "Grijstinten"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "Standaard"
   },
   "t_b1166920": {
     "message": "Lexend 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "Tekstomtrek"
   },
   "t_cfcd2084": {
     "message": "0"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "Slimme converter en lezer"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "Huidig bestand"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "Klik of sleep bestand om te uploaden"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• Gereed"
   },
   "t_4c4ad5fc": {
     "message": "HTML"
@@ -423,181 +980,181 @@
     "message": "📌"
   },
   "t_4cc6684d": {
-    "message": "Global"
+    "message": "Globaal"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "Site/Pagina"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "Mijn notitieblok"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "Alles wissen"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "Annuleren"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "Woord opslaan"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "Nog geen woorden opgeslagen."
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "Beweeg over jargon op een pagina en klik op de bladwijzervlag om ze hier op te slaan!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "Stel de interface van elke website opnieuw voor. Beschrijf wat je wilt of kies een\r\n                            voorinstelling."
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "Morph toegepast"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "Aangepaste AI-lay-out\r\n                                is actief op deze site."
   },
   "t_e8a57cd1": {
     "message": "0 /\r\n                                500"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "Pagina resetten"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "Morph-indeling"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "Standaard voorinstellingen"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "Horror carnaval"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "Griezelige kermisvibes & geanimeerde horror-tekst"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "Matrix console"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "Cyberpunk-terminalthema"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "Neurofocus"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "Dyslexievriendelijke lettertypes & rustgevende kleuren"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "Leesmodus"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "Minimalistische lay-out geoptimaliseerd voor focus"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "Recente prompts"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "Gastgebruiker"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "Gratis account"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "Inloggen / Beheren"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "Afmelden"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "API-instellingen"
   },
   "t_766cc4dd": {
     "message": "Gemini"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "AI-provider"
   },
   "t_222cf5ed": {
-    "message": "Google Gemini"
+    "message": "Google Tweeling"
   },
   "t_a0607683": {
     "message": "OpenRouter"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "Gemini API-sleutel"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "Goegel AI Stoe-die-o"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "OpenRouter API-sleutel"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "API-sleutel opslaan"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "EasyView\r\n                                    AI-prioriteit"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ Mijn API-sleutel"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 EasyView-servers"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "Kies\r\n                                wat als eerste wordt gebruikt voor alle AI-functies. Als je sleutel opraakt, worden EasyView-servers\r\n                                altijd als fallback gebruikt."
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "Privacy\r\n                                    & Prioriteit"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "Prioriteit 1:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "Prioriteit 2:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "Morph Engine-notitie:"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "nooit"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "Hulp & Feedback"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "Heb je een vraag, een bug gevonden of wil je een functie voorstellen? We horen graag van je!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "Meld een bug / Geef feedback"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Klaar om te vereenvoudigen"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "Instellingen exporteren"
   },
   "t_9d5ed678": {
-    "message": "B"
+    "message": "V"
   },
   "t_dd753679": {
     "message": "I"
@@ -606,7 +1163,7 @@
     "message": "✎"
   },
   "t_4c614360": {
-    "message": "U"
+    "message": "O"
   },
   "t_2f43b42f": {
     "message": "..."
@@ -615,25 +1172,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "Sterkte"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "Dekking"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "Dikte"
   },
   "t_18d80423": {
     "message": "400"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "Regel\r\n                                Hoogte"
   },
   "t_f522dede": {
     "message": "1.7x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "Overslaan"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,13 +1199,13 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "Markeren"
   },
   "t_25f26d63": {
     "message": "INK"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "VERVAGEN"
   },
   "t_e8bfe352": {
     "message": "Lexend 👑"
@@ -660,7 +1217,7 @@
     "message": "Arial"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "Helvetika"
   },
   "t_207c3219": {
     "message": "Verdana"
@@ -672,10 +1229,10 @@
     "message": "Trebuchet MS"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "Systeem Sans"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "Times Nieuw Romeins"
   },
   "t_eada8196": {
     "message": "Georgia"
@@ -684,19 +1241,19 @@
     "message": "Garamond"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "Systeem Serif"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "Komiek Zonder MS"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "Koerier Nieuw"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "Enkelspatiëring"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "Lettertype\r\n                            Grootte"
   },
   "t_f4f9f2f4": {
     "message": "14px"
@@ -723,7 +1280,7 @@
     "message": "32px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "Klaar"
   },
   "t_63922286": {
     "message": "×"
@@ -732,25 +1289,1045 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "Themabibliotheek exporteren"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "Sla je door AI gegenereerde meesterwerken\r\n                lokaal op."
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "Volledige bibliotheek exporteren"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
+    "message": ".json (JSON-bestand)"
+  },
+  "js_99537132": {
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Actie vereist</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Geschorst</span></h2>\n            <p class=\"ev-si-sub\">Je EasyView-toegang is beperkt vanwege een schending van onze servicevoorwaarden.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact opnemen met ondersteuning\n            </a>\n          </div>\n        </div>\n      "
+  },
+  "js_57b20c49": {
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Beschrijf eerst je morph.</span>\n          </div>"
+  },
+  "js_7f34dbea": {
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Vormen...</span>\n      "
+  },
+  "js_138703dd": {
+    "message": "Geen thema op pagina"
+  },
+  "js_cf3190a0": {
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>Huidige pagina exporteren"
+  },
+  "js_ac5b17d0": {
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compileren..."
+  },
+  "js_e541190e": {
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
+  },
+  "js_d2e8056c": {
+    "message": "<path d=\"M9.88 9.88a3 3 0 1 0 4.24 4.24\"/><path d=\"M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68\"/><path d=\"M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61\"/><line x1=\"2\" x2=\"22\" y1=\"2\" y2=\"22\"/>"
+  },
+  "js_e2cb885d": {
+    "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
+  },
+  "js_8b86136c": {
+    "message": "Klaar om te vereenvoudigen"
+  },
+  "js_a18366b2": {
+    "message": "Donker"
+  },
+  "js_9914a0ce": {
+    "message": "Licht"
+  },
+  "js_872cc3ae": {
+    "message": "<option value=\"auto\">Auto (Beste kwaliteit)</option>"
+  },
+  "js_94fe16a8": {
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Ontcijferen..."
+  },
+  "js_be7141cc": {
+    "message": "Dit voelt <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">een stuk makkelijker</span> om te begrijpen."
+  },
+  "js_5d0ff3d0": {
+    "message": "Dit voelt minder eenduidig om te begrijpen."
+  },
+  "t_f05df71b": {
+    "message": "Upgraden van de"
+  },
+  "t_78db2ae3": {
+    "message": "Onze AI-servers ondergaan upgrades."
+  },
+  "t_bb2129c8": {
+    "message": "Ontgrendel de volledige"
+  },
+  "t_aefee7cd": {
+    "message": "Helderheid voor elk brein"
+  },
+  "t_c38beca1": {
+    "message": "Firefox beperkt programmeerinterfaces (API's) voor fysieke monitordetectie. "
+  },
+  "t_f2fe1e79": {
+    "message": "Waarden\r\n                                    onder 1.0 kunnen tekst comprimeren en lay-outs verbreken."
+  },
+  "t_ca677d53": {
+    "message": "Visuele aanpassingen"
+  },
+  "t_230b4522": {
+    "message": "Notitiebord"
+  },
+  "t_596b54bf": {
+    "message": "Morph AI-agent"
+  },
+  "t_47e79a17": {
+    "message": "Ontvang uw gratis sleutel op"
+  },
+  "t_42372184": {
+    "message": "Thema's worden geëxporteerd als"
+  },
+  "t_74fdc8a2": {
+    "message": "Beschrijf eerst je morph-transformatie."
+  },
+  "t_245fd3b9": {
+    "message": "Gevormde lay-out gewist."
+  },
+  "t_172bd753": {
+    "message": "Thema succesvol geëxporteerd!"
+  },
+  "t_4c34daff": {
+    "message": "Verbinding verbroken. Server onbereikbaar."
+  },
+  "t_0dd56117": {
+    "message": "Geen actief thema gevonden op deze pagina."
+  },
+  "t_cb5c0766": {
+    "message": "Bibliotheek succesvol geëxporteerd!"
+  },
+  "t_8adb392e": {
+    "message": "Verbinding verbroken. Server onbereikbaar."
+  },
+  "t_ae94e0e4": {
+    "message": "Uw themabibliotheek is leeg."
+  },
+  "t_10a0c40b": {
+    "message": "Aangepast thema succesvol geladen!"
+  },
+  "t_9b6007a8": {
+    "message": "Fout bij het lezen van themabestand."
+  },
+  "t_d4fa051d": {
+    "message": "Mislukt: $1. Laad het tabblad opnieuw.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "Toegepast: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "$1 thema's uit bibliotheek hersteld!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "Taalvoorkeur"
+  },
+  "t_lang_updated_reload": {
+    "message": "Taal bijgewerkt. Opnieuw laden..."
+  },
+  "t_transformation_failed": {
+    "message": "Transformatie mislukt."
+  },
+  "t_c8a59e71": {
+    "message": "Sluiten"
+  },
+  "t_7764306b": {
+    "message": "Onderhoud cloudservices actief"
+  },
+  "t_248228de": {
+    "message": "Dyslexie-lettertype in pop-up schakelen"
+  },
+  "t_79a59320": {
+    "message": "App-tour starten"
+  },
+  "t_533bff5b": {
+    "message": "Plaknotitie aan pagina vastmaken (Alt+N)"
+  },
+  "t_f4f70727": {
+    "message": "Instellingen"
+  },
+  "t_4fd11104": {
+    "message": "Cirkelvormige spotlight"
+  },
+  "t_0d063af1": {
+    "message": "Horizontale lijnliniaal 🔒"
+  },
+  "t_60d71580": {
+    "message": "Helder licht"
+  },
+  "t_efe48742": {
+    "message": "Amberfocus"
+  },
+  "t_610a09ca": {
+    "message": "Koel cyaan"
+  },
+  "t_886f6b9e": {
+    "message": "Rustgevend groen"
+  },
+  "t_65e8194e": {
+    "message": "Gitzwart"
+  },
+  "t_7243ed99": {
+    "message": "Middernacht leisteen"
+  },
+  "t_ec6d8325": {
+    "message": "Diep bos"
+  },
+  "t_4af435e0": {
+    "message": "Vampierwijn"
+  },
+  "t_2a7dbdf8": {
+    "message": "Pro-functie"
+  },
+  "t_fc4aec61": {
+    "message": "Openen in lezer"
+  },
+  "t_801ab246": {
+    "message": "Downloaden"
+  },
+  "t_aa3880dc": {
+    "message": "Downloaden als HTML"
+  },
+  "t_e0781e81": {
+    "message": "Downloaden als EPUB"
+  },
+  "t_442ff212": {
+    "message": "Downloaden als DOCX"
+  },
+  "t_6244ee7c": {
+    "message": "Handmatig aangepaste term toevoegen"
+  },
+  "t_6e7d015f": {
+    "message": "CSV-bestand importeren"
+  },
+  "t_edbc5415": {
+    "message": "Exporteren voor Anki / Quizlet"
+  },
+  "t_46c29f7a": {
+    "message": "Thema laden"
+  },
+  "t_2bd65c5d": {
+    "message": "Thema exporteren"
+  },
+  "t_c1c433ac": {
+    "message": "Actieve AI-provider"
+  },
+  "t_90c09393": {
+    "message": "Gestippeld"
+  },
+  "t_eb656e41": {
+    "message": "Gestreepte"
+  },
+  "t_0c99ddee": {
+    "message": "Markeringskleur"
+  },
+  "t_eaf63759": {
+    "message": "Inktkleur"
+  },
+  "t_a183c9f0": {
+    "message": "Vervaagkleur"
+  },
+  "t_75e7422f": {
+    "message": "Achtergrondkleur"
+  },
+  "t_42f9ceea": {
+    "message": "Zoek in opgeslagen lexicon..."
+  },
+  "t_0e84a8cf": {
+    "message": "Voer woord of acroniem in..."
+  },
+  "t_eea6890c": {
+    "message": "Betekenis / Vertaling..."
+  },
+  "t_4480cf46": {
+    "message": "Geheugensteuntje of studienotitie (optioneel)..."
+  },
+  "t_d8634fbf": {
+    "message": "bijv. Verander in een roze thema in anime-stijl met afgeronde kaarten, of transformeer in een retro donkergroene terminalconsole..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "Plaknotities"
+  },
+  "t_b097d277": {
+    "message": "Woord toevoegen"
+  },
+  "t_1eeb67ee": {
+    "message": "Huidige pagina exporteren"
+  },
+  "t_b62ded9a": {
+    "message": "Cloudservices offline"
+  },
+  "t_263e00eb": {
+    "message": "Inloggen / Account aanmaken"
+  },
+  "t_7748eb3b": {
+    "message": "UPGRADEN"
+  },
+  "t_81a5d20b": {
+    "message": "Alles bevriezen"
+  },
+  "t_e61146d9": {
+    "message": "Rustige vervaging"
+  },
+  "t_57323916": {
+    "message": "Automatisch afspelen stoppen"
+  },
+  "t_f50319ea": {
+    "message": "Volledige bescherming"
+  },
+  "t_8e13f26d": {
+    "message": "Snelle vraag"
+  },
+  "t_134b26da": {
+    "message": "Geniet je van<br><span class=\"ev-si-gradient-text\">EasyView?</span>"
+  },
+  "t_b75bdd9e": {
+    "message": "Jouw feedback helpt ons verbeteren.<br>Geniet je van de ervaring?"
+  },
+  "t_396d1ff8": {
+    "message": "Ja, dat doe ik!"
+  },
+  "t_7d0cacf3": {
+    "message": "Moet verbeterd worden"
+  },
+  "t_815142c9": {
+    "message": "Steun ons"
+  },
+  "t_abd9fa39": {
+    "message": "Zou je<br><span class=\"ev-si-gradient-text\">een beoordeling willen achterlaten?</span>"
+  },
+  "t_02991e61": {
+    "message": "Beoordelingen van gebruikers zoals jij zijn de beste manier om EasyView te helpen groeien. Het duurt maar een minuut!"
+  },
+  "t_db49c1f2": {
+    "message": "Beoordeel nu"
+  },
+  "t_7a4f0d12": {
+    "message": "Herinner me later"
+  },
+  "t_fee6c0e9": {
+    "message": "Privé feedback"
+  },
+  "t_74393dde": {
+    "message": "Wat kunnen we <span class=\"ev-si-gradient-text\">beter doen?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "Vertel ons wat er misging..."
+  },
+  "t_6f97affc": {
+    "message": "Feedback verzenden"
+  },
+  "t_b20871b3": {
+    "message": "Voer uw feedback in"
+  },
+  "t_7b0fee4d": {
+    "message": "Verzenden..."
+  },
+  "t_fb631633": {
+    "message": "Bedankt voor uw feedback."
+  },
+  "t_08727add": {
+    "message": "Bekijk het web op uw manier."
+  },
+  "t_15bbb9d0": {
+    "message": "Website"
+  },
+  "t_c5f29bb3": {
+    "message": "Privacy"
+  },
+  "t_ad5b1a22": {
+    "message": "Oprichter"
+  },
+  "t_db496e03": {
+    "message": "Persoonlijke sleutels creëren een directe, 100% privéverbinding met de AI. Je tekst raakt nooit EasyView-servers aan."
+  },
+  "t_387c35b3": {
+    "message": "Onze beheerde server (Premium) fungeert als een betrouwbare back-up als er geen sleutel aanwezig is of als je sleutel faalt."
+  },
+  "t_98bc5a17": {
+    "message": "Om eigen algoritmen te beschermen, wordt je sleutel kort via onze beveiligde server geleid om te verifiëren bij Google. Deze wordt niet"
+  },
+  "t_de47f1be": {
+    "message": "opgeslagen of gelogd."
+  },
+  "t_25e02e7f": {
+    "message": "Actief: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ Premium lid"
+  },
+  "t_df56cfae": {
+    "message": "⭐ Levenslang lid"
+  },
+  "t_41cbc704": {
+    "message": " dagen resterend"
+  },
+  "t_b194bd82": {
+    "message": "Verloopt nooit"
+  },
+  "t_9f830444": {
+    "message": "⭐ Pro:"
+  },
+  "t_61b82be6": {
+    "message": " morphs over"
+  },
+  "t_c20e7ceb": {
+    "message": " gratis morphs over"
+  },
+  "t_d7087930": {
+    "message": " gratis gebruik over"
+  },
+  "t_4bbf11bd": {
+    "message": "Term- en betekenisvelden mogen niet leeg blijven!"
+  },
+  "t_08f09d38": {
+    "message": "Woorddetails succesvol bijgewerkt!"
+  },
+  "t_32001b52": {
+    "message": "Voer zowel een woord als de betekenis in."
+  },
+  "t_b8115861": {
+    "message": "Je studienotitieblok is leeg. Maak eerst bladwijzers van woorden op webpagina's!"
+  },
+  "t_7114113b": {
+    "message": "Meld je eerst aan bij je EasyView-account om je Pro-functies te verifiëren!"
+  },
+  "t_093f9fa0": {
+    "message": "Je sessietoken ontbreekt. Meld je opnieuw aan bij easyview.in om de toegang te herstellen."
+  },
+  "t_0e065596": {
+    "message": "Dit is een geverifieerde functie die alleen voor Premium is. Upgrade naar Pro om te ontgrendelen!"
+  },
+  "t_c792a645": {
+    "message": "Verbinding met beveiligde exportserver mislukt. Probeer het zo opnieuw."
+  },
+  "t_8d1a2675": {
+    "message": "Kon geen geldige vocabulaire-items identificeren in dat CSV-bestand."
+  },
+  "t_a613ed90": {
+    "message": "Schrijffout in browseropslag! Bestand is mogelijk te groot voor lokale cache."
+  },
+  "t_8efe87ab": {
+    "message": "De browser kon uw lokale bestand niet lezen."
+  },
+  "t_50bf63aa": {
+    "message": "Weet je zeker dat je alle opgeslagen woorden uit je notitieblok wilt wissen?"
+  },
+  "t_ff252710": {
+    "message": "Import voltooid: Alle $1 items bestaan al in je notitieblok.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "Fout bij het parseren van CSV: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "\"$1\" staat al in je notitieblok. Wil je er nog een definitie aan toevoegen?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "Succesvol afgemeld"
+  },
+  "t_dbd35100": {
+    "message": "Morph-engine werkt al..."
+  },
+  "t_2de4e55d": {
+    "message": "Gemorphte lay-out gewist"
+  },
+  "t_1bb9196d": {
+    "message": "Gemorpht: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "Morphen mislukt: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "Geactiveerd: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 items georganiseerd",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "Dit zal deze notitie permanent verwijderen van alle gesynchroniseerde apparaten. Doorgaan?"
+  },
+  "t_25abf697": {
+    "message": "EPUB-export vereist JSZip."
+  },
+  "t_71609188": {
+    "message": "DOCX-export vereist html-docx-js."
+  },
+  "t_e1499766": {
+    "message": "Geen bestand geladen."
+  },
+  "t_023b3355": {
+    "message": "Privacyschild geactiveerd"
+  },
+  "t_9483a5da": {
+    "message": "Privacy-schild gedeactiveerd"
+  },
+  "t_a04202db": {
+    "message": "Markeringen tijdelijk verborgen"
+  },
+  "t_b3d6b264": {
+    "message": "Markeringen hersteld"
+  },
+  "t_7485c55e": {
+    "message": "Welkom bij EasyView! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "Je AI-aangedreven cognitieve brug voor makkelijker lezen op het web. Laten we een korte rondleiding door de functies maken."
+  },
+  "t_3a1fe637": {
+    "message": "Jargon decoder 📖"
+  },
+  "t_89cec86e": {
+    "message": "Vereenvoudigt complexe terminologie op elke webpagina."
+  },
+  "t_f8aefae7": {
+    "message": "Privacyschild 🔐"
+  },
+  "t_aa860f86": {
+    "message": "Vervaagt gevoelige gegevens en bevat een focusliniaal voor afleidingsvrij lezen."
+  },
+  "t_0681a3b6": {
+    "message": "Zintuiglijk schild 🛡️"
+  },
+  "t_6118b864": {
+    "message": "Bevriest afleidende GIF's en animaties."
+  },
+  "t_12ec6fc6": {
+    "message": "Dyslexie-leesmodus 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "Geoptimaliseerde lettertypes en spatiëring voor makkelijker lezen."
+  },
+  "t_18d9ce63": {
+    "message": "Tekst-naar-spraak 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "Luister naar elke webpagina met woordmarkering."
+  },
+  "t_0019a700": {
+    "message": "Morph-engine ✨"
+  },
+  "t_47c2535a": {
+    "message": "Gebruik AI om elke website opnieuw te ontwerpen naar een aangepast thema of lay-out."
+  },
+  "t_2ed2f639": {
+    "message": "Plaknotities 📝"
+  },
+  "t_75025b5f": {
+    "message": "Maak zwevende plaknotities vast aan een webpagina om belangrijke informatie op te slaan (Alt+N)."
+  },
+  "t_3ff2d7cc": {
+    "message": "API-configuratie ⚙️"
+  },
+  "t_0754e836": {
+    "message": "Meld je aan om je quotum te synchroniseren, of stel hier je eigen gratis Gemini API-sleutel in."
+  },
+  "t_7b6a2059": {
+    "message": "Stap $1 van $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "Aan de slag!"
+  },
+  "t_10ac3d04": {
+    "message": "Volgende"
+  },
+  "t_5c7a52b8": {
+    "message": "Druk op "
+  },
+  "t_a1b2c3d4": {
+    "message": " op elk gewenst moment om handmatig het Auto-Protect-schild in te schakelen."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ Privacy-schild geactiveerd"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 Privacy-schild gedeactiveerd"
+  },
+  "js_9b3e1a": {
+    "message": "EasyView analyseert lay-out en morpht..."
+  },
+  "js_4c8d2f": {
+    "message": "Definiëren"
+  },
+  "js_7a1e9b": {
+    "message": "Decoderen"
+  },
+  "js_2d5f8c": {
+    "message": "Vereenvoudigen"
+  },
+  "js_6e3a4d": {
+    "message": "Bladwijzer"
+  },
+  "js_1f9b7c": {
+    "message": "Markeren"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "DOM-boomstructuur analyseren..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "Rommelige lay-out..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "Structuur afvlakken..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[RUIS_OVERBELASTING]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "Afleidingen verwijderen..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "Complexe knooppunten"
+  },
+  "js_ldr_m4_cl": {
+    "message": "Dyslexie-regels toepassen..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "EasyView UI renderen..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "Tekstblok scannen..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "Te veel woorden..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "Kernbetekenis extraheren..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "Cognitieve belasting"
+  },
+  "js_ldr_s3_cl": {
+    "message": "Eenvoudiger Engels opstellen..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "Uitgebreide AI..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "Leesbaarheid toepassen..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "Uitvoer verfijnen..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "Jargon vertalen..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "Fout: Verwarring"
+  },
+  "js_ldr_j2_cl": {
+    "message": "Definities zoeken..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[RUIS_OVERBELASTING]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "Context vereenvoudigen..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "Onbekende termen"
+  },
+  "js_ldr_j4_cl": {
+    "message": "Helderheid toepassen..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "Resultaten opmaken..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "Diepe analyse..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "AI-logica afronden..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "AI uitvoeren..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "Bijna klaar..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "Druk verkeer..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "Duurt iets langer..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "Nog steeds bezig..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "Even geduld..."
+  },
+  "t_b7012ab9": {
+    "message": "Vorm"
+  },
+  "t_c5e8b1d9": {
+    "message": "Pro-lettertypen"
+  },
+  "t_c8f2ba19": {
+    "message": "Vervaging van privé-inhoud ingeschakeld"
+  },
+  "t_e2dae61a": {
+    "message": "Vervaging van privé-inhoud uitgeschakeld"
+  },
+  "t_c74de318": {
+    "message": "Automatische bescherming bij scherm delen ingeschakeld"
+  },
+  "t_a5fd56f4": {
+    "message": "Automatische bescherming bij scherm delen uitgeschakeld"
+  },
+  "t_ab8d1f2a": {
+    "message": "Zaklampmodus ingeschakeld"
+  },
+  "t_2bf5cc98": {
+    "message": "Zaklampmodus uitgeschakeld"
+  },
+  "t_513bb93f": {
+    "message": "Bionisch lezen"
+  },
+  "t_5a8b2c1d": {
+    "message": "Hier is een voorbeeld van uw leesinstellingen."
+  },
+  "t_ac1d4e5f": {
+    "message": "Geen"
+  },
+  "t_b2e3f4a1": {
+    "message": "Breed"
+  },
+  "t_c3f4a5b2": {
+    "message": "Extra breed"
+  },
+  "t_d1a3c901": {
+    "message": "Klik"
+  },
+  "t_b4f2e891": {
+    "message": "Vastmaken aan element"
+  },
+  "t_c9a1b302": {
+    "message": "Spatie"
+  },
+  "t_f6d4e203": {
+    "message": "Globale notitie"
+  },
+  "t_e2b3f104": {
+    "message": "Esc"
+  },
+  "t_a7c0d905": {
+    "message": "Annuleren"
+  },
+  "t_e1b2c301": {
+    "message": "Alleen deze pagina"
+  },
+  "t_f7a3b402": {
+    "message": "Deze site"
+  },
+  "t_a8c4d503": {
+    "message": "Alle sites (Globaal)"
+  },
+  "t_b9d5e604": {
+    "message": "Verbergen tot herladen"
+  },
+  "t_c0e6f705": {
+    "message": "Notitie vastmaken aan element"
+  },
+  "t_d1f7a806": {
+    "message": "Notitiekleur wijzigen"
+  },
+  "t_e2a8b907": {
+    "message": "Notitie inklappen/uitklappen"
+  },
+  "t_f3b9c008": {
+    "message": "Notitie-inhoud kopiëren"
+  },
+  "t_a4c0d109": {
+    "message": "Meer acties"
+  },
+  "t_b5d1e200": {
+    "message": "Deze notitie verwijderen"
+  },
+  "t_e87033a2": {
+    "message": "Alt + X"
+  },
+  "t_4120201a": {
+    "message": "Gratis proefperiode actief"
+  },
+  "t_6ed40ffb": {
+    "message": "Instellingen synchroniseren tussen apparaten"
+  },
+  "t_f8b8a5fd": {
+    "message": "Hogere gratis gebruikslimiet"
+  },
+  "t_440b106d": {
+    "message": "Toegang tot toekomstige Pro-functies"
+  },
+  "t_3a99076c": {
+    "message": "Premium limiet"
+  },
+  "t_545f6c2f": {
+    "message": "Onbeperkt"
+  },
+  "t_ad23f4a0": {
+    "message": "Ruimtelijke notities"
+  },
+  "t_04f2f045": {
+    "message": "Je hebt met succes alle 15 gratis notities op het web geplaatst. Upgrade naar EasyView Premium om onbeperkt ruimtelijk geheugen en aangepaste kleuren te ontgrendelen."
+  },
+  "t_cf874b99": {
+    "message": "Premium ontgrendelen"
+  },
+  "t_a6d36e2f": {
+    "message": "Alle lokale toegankelijkheidsbedieningen (Actief)"
+  },
+  "t_b0b69bc3": {
+    "message": "Tekst-naar-spraak-engine (Actief)"
+  },
+  "t_cc96c21a": {
+    "message": "Cloud AI-functies (Offline)"
+  },
+  "t_7af6f6e5": {
+    "message": "Ik begrijp het"
+  },
+  "t_9bc7102e": {
+    "message": "Maak een gratis EasyView-account aan om je quotum bij te houden en de Jargon-decoder te ontgrendelen."
+  },
+  "t_ab7512fd": {
+    "message": "Je sessietoken ontbreekt. Meld je opnieuw aan bij easyview.in om de toegang te herstellen."
+  },
+  "t_1cd7820a": {
+    "message": "ALLEEN PRO-TOEGANG"
+  },
+  "t_8eb14032": {
+    "message": "Jargon-decoder<br><span class=\"ev-si-gradient-text\">Quotum bereikt</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "QUOTA BEREIKT"
+  },
+  "t_5ae983dc": {
+    "message": "Je hebt alle <strong>5 gratis ontcijferingen</strong> van deze maand gebruikt. Ontgrendel onbeperkte toegang in seconden."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> Ga Pro — Onbeperkte ontcijferingen</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> Gebruik je eigen API-sleutel</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 API-sleutel toevoegen in Instellingen</button>"
+  },
+  "t_9be4129a": {
+    "message": "Studiedek-exporteur<br><span class=\"ev-si-gradient-text\">Pro-automatisering</span>"
+  },
+  "t_fac34185": {
+    "message": "Exporteer direct je volledige aangepaste studienotitieblok naar <strong>Anki</strong> en <strong>Quizlet</strong>."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Geen handmatig typen</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> RFC-4180 flashcard-compiler</div>"
+  },
+  "t_da12c30b": {
+    "message": "Pro-toegang"
+  },
+  "t_4a9b2c01": {
+    "message": "Deze functie"
+  },
+  "t_3be78c01": {
+    "message": "Dit dyslexie-leeslettertype"
+  },
+  "t_0ad4b971": {
+    "message": "Dit visuele lettertype"
+  },
+  "t_9af42be8": {
+    "message": "Dit premium export-lettertype"
+  },
+  "t_cbae8349": {
+    "message": "Upgrade om alle toegankelijkheidsfuncties en krachtige tools te ontgrendelen."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Geavanceerde toegankelijkheid</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Alle toekomstige updates</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ Upgrade naar Pro"
+  },
+  "t_5ef4c1a2": {
+    "message": "Misschien later"
+  },
+  "t_3b7a5e82": {
+    "message": ", maar AI-functies zijn mogelijk tijdelijk niet beschikbaar."
+  },
+  "t_c91d8e12": {
+    "message": "Algemeen"
+  },
+  "t_b42f3a9d": {
+    "message": "Definitie"
+  },
+  "t_f1d4a8e6": {
+    "message": "Woordenboek"
+  },
+  "t_e398c71f": {
+    "message": "Aangepast"
+  },
+  "t_a72df9e5": {
+    "message": "Medisch"
+  },
+  "t_d8f2c61a": {
+    "message": "Juridisch"
+  },
+  "t_b3e1f5d2": {
+    "message": "Financieel"
+  },
+  "t_c25d81f9": {
+    "message": "Technisch"
+  },
+  "t_e1b3a4f6": {
+    "message": "Academisch"
+  },
+  "t_d5f9b4c1": {
+    "message": "Term"
+  },
+  "t_f7a2e8ea": {
+    "message": "Categorie"
+  },
+  "t_e3b1c6d9": {
+    "message": "Vereenvoudigde betekenis"
+  },
+  "t_a9d4e5f2": {
+    "message": "Studienotities / Context"
+  },
+  "t_b4c5d6e7": {
+    "message": "Annuleren"
+  },
+  "t_c8f2a1b4": {
+    "message": "Wijzigingen opslaan"
+  },
+  "t_8c17b5e6": {
+    "message": "Je sessietoken ontbreekt. Meld je opnieuw aan bij easyview.in om de toegang te herstellen."
+  },
+  "t_a43dc219": {
+    "message": "Maak een gratis EasyView-account aan om je gebruiksquotum bij te houden en de AI Morph Engine te ontgrendelen."
+  },
+  "t_54c523fe": {
+    "message": "🎉 Perfect! Succesvol $1 nieuwe studiekaarten geïmporteerd."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 Perfect! $1 nieuwe kaarten geïmporteerd. ($2 duplicaten overgeslagen.)"
+  },
+  "t_14894d12": {
+    "message": "Thema-export"
+  },
+  "t_f27a2629": {
+    "message": "Back-up van themabibliotheek"
+  },
+  "t_9ad85e17": {
+    "message": "Leesliniaal-modus"
+  },
+  "t_b9d4e7a5": {
+    "message": "Geavanceerde sensorische schildmodi"
+  },
+  "t_94f4f7e4": {
+    "message": "DOCX parseren...",
+    "description": "Status bij het parseren van DOCX in lezer"
+  },
+  "t_120adfc1": {
+    "message": "EPUB parseren...",
+    "description": "Status bij het parseren van EPUB in lezer"
+  },
+  "t_5d2a45b8": {
+    "message": "Leesliniaal-modus is exclusief voor Pro-abonnementen.",
+    "description": "Waarschuwing wanneer niet-pro gebruiker leesliniaal opent"
+  },
+  "t_c1f29623": {
+    "message": "Hele kaart bewerken",
+    "description": "Knopinfo om hele kaart in notitieblok te bewerken"
+  },
+  "t_1063e38c": {
+    "message": "Verwijderen",
+    "description": "Knopinfo om kaart uit notitieblok te verwijderen"
   },
   "t_ccca2ddf": {
-    "message": "EasyView Reader"
+    "message": "EasyView-lezer"
   },
   "t_8524de96": {
-    "message": "Loading..."
+    "message": "Laden..."
   },
   "t_25e8f2fd": {
-    "message": "Please wait..."
+    "message": "Even geduld..."
   },
   "t_ec9d785d": {
     "message": "1.5x"
@@ -762,7 +2339,7 @@
     "message": "Atkinson Hyperlegible"
   },
   "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
+    "message": "Segoe UI (Windows-standaard)"
   },
   "t_f7cee5ea": {
     "message": "Calibri"
@@ -777,25 +2354,25 @@
     "message": "Cambria"
   },
   "t_c3d9d4bf": {
-    "message": "Constantia"
+    "message": "Konstantia"
   },
   "t_5d1a5b35": {
-    "message": "Palatino Linotype"
+    "message": "Palatino Lainotaip"
   },
   "t_4dc386b6": {
-    "message": "Book Antiqua"
+    "message": "Boek Antiqua"
   },
   "t_03c461f6": {
-    "message": "Franklin Gothic"
+    "message": "Franklin Gothisch"
   },
   "t_7b1ee3b6": {
-    "message": "Century Gothic"
+    "message": "Century Gothisch"
   },
   "t_a3293302": {
-    "message": "Gill Sans"
+    "message": "Gil Sans"
   },
   "t_eb726908": {
-    "message": "Sitka Text"
+    "message": "Sitka Tekst"
   },
   "t_b5bdee2c": {
     "message": "Sylfaen"
@@ -804,13 +2381,13 @@
     "message": "Microsoft Sans Serif"
   },
   "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
+    "message": "Segoe UI Halfvet"
   },
   "t_16507cdd": {
     "message": "Consolas"
   },
   "t_391c5954": {
-    "message": "Lucida Console"
+    "message": "Lusida Konsol"
   },
   "t_9879efdf": {
     "message": "Lucida Sans Typewriter"
@@ -819,13 +2396,13 @@
     "message": "Impact"
   },
   "t_94a7bb97": {
-    "message": "Arial Black"
+    "message": "Ariël Zwart"
   },
   "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
+    "message": "Copperplate Gothisch"
   },
   "t_40885309": {
-    "message": "Berlin Sans FB"
+    "message": "Berlijn Sans FB"
   },
   "t_6d5566ba": {
     "message": "Gabriola"
@@ -834,25 +2411,70 @@
     "message": "Ink Free"
   },
   "t_fa233799": {
-    "message": "Segoe Script"
+    "message": "Segee Script"
   },
   "t_2f7bc407": {
-    "message": "Segoe Print"
+    "message": "Segee Afdruk"
   },
   "t_0095a9fa": {
-    "message": "Export"
+    "message": "Exporteren"
   },
   "t_520d0db3": {
-    "message": "Format"
+    "message": "Indeling"
   },
   "t_5956a437": {
     "message": "TXT"
   },
   "t_1351017a": {
-    "message": "Filename"
+    "message": "Bestandsnaam"
+  },
+  "t_d4c3c15b": {
+    "message": "Geen bestand geladen"
+  },
+  "t_0ca5a078": {
+    "message": "Gebruik het tabblad Converter om een bestand te uploaden."
+  },
+  "t_c9857e16": {
+    "message": "Niet-ondersteund bestandstype."
+  },
+  "t_6b447b91": {
+    "message": "Fout bij het parseren van bestand: "
+  },
+  "t_7f4588be": {
+    "message": "EPUB"
+  },
+  "t_12dc65c2": {
+    "message": "Schakelen tussen licht/donker"
+  },
+  "t_d3d2e617": {
+    "message": "Sluiten"
+  },
+  "t_6e8cfcb7": {
+    "message": "Veilige export naar server (Premium)"
+  },
+  "t_2f9df658": {
+    "message": "Werkruimte losmaken en boven alle vensters zweven"
+  },
+  "t_72d6d7a1": {
+    "message": "Importeren"
+  },
+  "t_de93d5fd": {
+    "message": "Notities exporteren"
+  },
+  "t_a1aacca9": {
+    "message": "Zwevend venster"
+  },
+  "t_ac0b844f": {
+    "message": "Globale notities"
+  },
+  "t_15866f1d": {
+    "message": "Site-specifieke notities"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
   },
   "t_6af8212e": {
-    "message": "EasyView Notes Board"
+    "message": "EasyView notitiebord"
   },
   "t_d16da0f5": {
     "message": "🌎"
@@ -860,61 +2482,168 @@
   "t_6df173ff": {
     "message": "📍"
   },
-  "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
+  "t_22f58a00": {
+    "message": "🌎 Globale notitie"
   },
-  "js_24833610": {
-    "message": "Saved"
+  "t_5be8bbeb": {
+    "message": "🌐 Sitenotitie"
   },
-  "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+  "t_59a56663": {
+    "message": "📍 Paginanotitie"
   },
-  "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+  "t_c1843696": {
+    "message": "Integriteitstoken verifiëren..."
   },
-  "js_138703dd": {
-    "message": "No Theme on Page"
+  "t_58038ee4": {
+    "message": "Zojuist"
   },
-  "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+  "t_e254e1a1": {
+    "message": "$1m geleden",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+  "t_121d4d02": {
+    "message": "$1u geleden",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_e541190e": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
+  "t_19d2b280": {
+    "message": "$1d geleden",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_d2e8056c": {
-    "message": "<path d=\"M9.88 9.88a3 3 0 1 0 4.24 4.24\"/><path d=\"M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68\"/><path d=\"M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61\"/><line x1=\"2\" x2=\"22\" y1=\"2\" y2=\"22\"/>"
+  "t_d3d4311c": {
+    "message": "Notitie slepen"
   },
-  "js_e2cb885d": {
-    "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
+  "t_7b32ea16": {
+    "message": "Overschakelen naar $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_8b86136c": {
-    "message": "Ready to simplify"
+  "t_11916b28": {
+    "message": "Plaatsingsbereik"
   },
-  "js_a18366b2": {
-    "message": "Dark"
+  "t_5463fe67": {
+    "message": "Kleurenpalet"
   },
-  "js_9914a0ce": {
-    "message": "Light"
+  "t_d116d454": {
+    "message": "Notitie inklappen"
   },
-  "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+  "t_be9ba0e5": {
+    "message": "Tekst kopiëren"
   },
-  "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+  "t_28471624": {
+    "message": "Meer acties"
   },
-  "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+  "t_90e467df": {
+    "message": "Notitie sluiten"
   },
-  "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+  "t_34494920": {
+    "message": "Typ hier uw notitie..."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_bdda0b60": {
+    "message": "Waar dacht u aan..."
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_8689de27": {
+    "message": "Overal beschikbaar"
+  },
+  "t_c0cf9810": {
+    "message": "Terugkeren naar de oorspronkelijke pagina"
+  },
+  "t_24a23176": {
+    "message": "Originele context"
+  },
+  "t_4c1c1e76": {
+    "message": "Notitieblok importeren"
+  },
+  "t_2736f644": {
+    "message": "Voeg naadloos je externe studiedecks en woordenlijsten samen in je EasyView-ecosysteem."
+  },
+  "t_ca4f038f": {
+    "message": "Verplichte kolommen"
+  },
+  "t_7277de5f": {
+    "message": "Betekenis"
+  },
+  "t_ce591bfa": {
+    "message": "Optionele kolommen"
+  },
+  "t_f4c6f851": {
+    "message": "Notities"
+  },
+  "t_c1fd81a6": {
+    "message": "Selecteer of sleep CSV-tabelbestand"
+  },
+  "t_5c426600": {
+    "message": "Dubbele en bestaande woorden worden automatisch gefilterd"
+  },
+  "t_76e7183d": {
+    "message": "Importeren gelukt!"
+  },
+  "t_3e17e02d": {
+    "message": "Je woordenschat is bijgewerkt."
+  },
+  "t_3148d309": {
+    "message": "Tabblad sluiten"
+  },
+  "t_0e412fa1": {
+    "message": "De viering wordt geactiveerd zodra je terugkeert naar de pop-up"
+  },
+  "t_d29f6e6b": {
+    "message": "Importeren mislukt"
+  },
+  "t_e04efbcb": {
+    "message": "Status notitieblok"
+  },
+  "t_ed732761": {
+    "message": "Morph-thema's importeren"
+  },
+  "t_e44db711": {
+    "message": "Importeer veilig je aangepaste Morph-engine-bibliotheek rechtstreeks in EasyView."
+  },
+  "t_c0bb7d43": {
+    "message": "Selecteer of sleep JSON-databestand"
+  },
+  "t_36e9583e": {
+    "message": "Importeert je eerder geëxporteerde thema-indelingen."
+  },
+  "t_21630184": {
+    "message": "Thema's hersteld!"
+  },
+  "t_d0c1ec75": {
+    "message": "Je morph-sjablonen zijn succesvol geïnstalleerd."
+  },
+  "t_cd27a5c0": {
+    "message": "EasyView — Inhoudslezer"
+  },
+  "t_b171ab1f": {
+    "message": "Welkom bij de Lezer"
+  },
+  "t_4e07c284": {
+    "message": "Upload hier je documenten om ze te lezen met aangepaste typografie en geavanceerde toegankelijkheidshulpmiddelen."
+  },
+  "t_004621c0": {
+    "message": "Ondersteunt documenten, e-boeken en bestanden van het type .docx, .epub en .txt"
+  },
+  "t_23bb27a0": {
+    "message": "Documentparser wordt geïnitialiseerd..."
+  },
+  "t_e1d5f16c": {
+    "message": "DOCX-bestanden wordt geoptimaliseerd voor leesbaarheid..."
+  },
+  "t_0e55c5d0": {
+    "message": "structuur van EPUB-bestanden wordt geanalyseerd..."
   }
 }

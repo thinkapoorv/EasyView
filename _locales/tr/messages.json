@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "EasyView — Her Beyin İçin Netlik"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "KolayGörünüm"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "Yapay zeka komutları veya tek tıklamalarla herhangi bir web sitesini anında dönüştürün. Web'i kendi yönteminizle görün."
+  },
+  "t_68ba0232": {
+    "message": "Disleksi modu etkinleştirildi"
+  },
+  "t_85f47a25": {
+    "message": "Disleksi modu devre dışı bırakıldı"
+  },
+  "t_1cc1b64d": {
+    "message": "Analiz edilecek yeterli içerik yok"
+  },
+  "t_cebe6412": {
+    "message": "Karmaşık terim bulunamadı"
+  },
+  "t_b964aa0f": {
+    "message": "Sayfa içeriği analiz edilirken hata oluştu"
+  },
+  "t_956c104e": {
+    "message": "Sayfa belleği temizlendi"
+  },
+  "t_1f4b0f3e": {
+    "message": "Sözlük temizlendi"
+  },
+  "t_4bfeec37": {
+    "message": "Seçimde karmaşık terim bulunamadı"
+  },
+  "t_1b5e8531": {
+    "message": "Seçimde karmaşık terim bulunamadı"
+  },
+  "t_a1f781ec": {
+    "message": "Seçim çözümleme hatası"
+  },
+  "t_7aae8122": {
+    "message": "Seçim vurguları temizlendi"
+  },
+  "t_58762fd6": {
+    "message": "Lütfen tanımlamak için tek bir kelime veya kısa bir ifade seçin."
+  },
+  "t_6838b119": {
+    "message": "Tanım aranırken ağ hatası oluştu."
+  },
+  "t_ea3ca1b5": {
+    "message": "$1 terim çözümlendi (önbellekten)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "$1 terim çözümlendi (önbellekten)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "Bu ayki tüm ücretsiz Jargon Çözücü kullanımlarınızı tükettiniz. Sınırsız erişim için Profesyonel sürüme yükseltin."
+  },
+  "t_cb3c5d3a": {
+    "message": "$2 kategori genelinde $1 terim çözümlendi",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "Çözümlenen kelime teriminizin $1 örneği otomatik olarak vurgulandı",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "$1 kayıtlı jargon tanımı geri yüklendi$2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "Bu ayki tüm ücretsiz Jargon Çözücü kullanımlarınızı tükettiniz. Sınırsız erişim için Profesyonel sürüme yükseltin."
+  },
+  "t_0b841c82": {
+    "message": "Zaten Not Defterinde!"
+  },
+  "t_8901f3ab": {
+    "message": "Not Defterine Kaydedildi!"
+  },
+  "t_eb8f5242": {
+    "message": "Not Defterine kaydetme hatası"
+  },
+  "t_bd15702b": {
+    "message": "Duyusal Kalkan etkinleştirildi"
+  },
+  "t_c28f3265": {
+    "message": "Duyusal Kalkan devre dışı bırakıldı"
+  },
+  "t_3f8910d9": {
+    "message": "KOLAYGÖRÜNÜM"
+  },
+  "t_8aafa613": {
+    "message": "Bu metin basitleştirilemedi"
+  },
+  "t_79d2dc85": {
+    "message": "Bu metin basitleştirilemedi"
+  },
+  "t_99684ba5": {
+    "message": "Metin basitleştirme hatası"
+  },
+  "t_f4362bde": {
+    "message": "Panoya kopyalandı!"
+  },
+  "t_af07ef4b": {
+    "message": "Kopyalanamadı"
+  },
+  "t_94e4d537": {
+    "message": "Sayfadaki metin değiştirildi"
+  },
+  "t_14a04b67": {
+    "message": "Basitleştirme belleği silindi"
+  },
+  "t_c444ff21": {
+    "message": "Orijinal metin geçici olarak geri yüklendi"
+  },
+  "t_55f1db14": {
+    "message": "Bu ayki tüm ücretsiz kullanımlarınızı tükettiniz. Sınırsız erişim için Profesyonel sürüme yükseltin."
+  },
+  "t_fde4e3f0": {
+    "message": "Bu sayfada $1 kayıtlı basitleştirme geri yüklendi",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "Dinamik olarak yüklenen basitleştirme otomatik olarak geri yüklendi!"
+  },
+  "t_dfa22e52": {
+    "message": "Metin Okuma etkinleştirildi"
+  },
+  "t_ca153ad0": {
+    "message": "Metin Okuma devre dışı"
+  },
+  "t_dadbff09": {
+    "message": "Lütfen önce Metin-Ses özelliğini etkinleştirin"
+  },
+  "t_47071c61": {
+    "message": "Devam ediliyor..."
+  },
+  "t_5516c48d": {
+    "message": "Bu sayfada okunabilir içerik bulunamadı"
+  },
+  "t_c57f25c9": {
+    "message": "Okunabilir içerik bulunamadı"
+  },
+  "t_2516997e": {
+    "message": "Okuma tamamlandı"
+  },
+  "t_d3069aea": {
+    "message": "Metin-Ses bu tarayıcıda desteklenmiyor"
+  },
+  "t_53e6b8c6": {
+    "message": "Lütfen önce bir metin seçin"
+  },
+  "t_e932d0f7": {
+    "message": "Seçim okunuyor..."
+  },
+  "t_1c50528d": {
+    "message": "Okuma tamamlandı"
+  },
+  "t_594778a2": {
+    "message": "Duraklatıldı"
+  },
+  "t_4ded5f77": {
+    "message": "Konuşma durduruldu"
+  },
+  "t_0a74758c": {
+    "message": "✨ Kişisel Anahtar ile desteklenir"
+  },
+  "t_2fceddad": {
+    "message": "✨ Sınırsız"
+  },
+  "t_97627d80": {
+    "message": "✨ Kişisel Anahtar ile desteklenir"
+  },
+  "t_fd7d5888": {
+    "message": "Aboneliği Yönet"
+  },
+  "t_df4657a5": {
+    "message": "Ücretsiz Üye"
+  },
+  "t_22dfb2ec": {
+    "message": "Misafir Kullanıcı"
+  },
+  "t_bd9f2460": {
+    "message": "Ücretsiz Hesap"
+  },
+  "t_f5adda31": {
+    "message": "Giriş Yap / Kaydol"
+  },
+  "t_d2439201": {
+    "message": "✨ Sınırsız"
+  },
+  "t_164442b7": {
+    "message": "Dönüştürücü Motoru ısıtılıyor..."
+  },
+  "t_1e7c3002": {
+    "message": "Dosyaları ayrıştırmaya hazır."
+  },
+  "t_d30f78df": {
+    "message": "Koyu Mod"
+  },
+  "t_6c68d8ce": {
+    "message": "Açık Mod"
+  },
+  "t_fcb68c2b": {
+    "message": "Yapışkan not bulunamadı. Dışa aktarılacak bir şey yok!"
+  },
+  "t_2b75b2d9": {
+    "message": "Oturum belirteciniz eksik. Erişimi geri yüklemek için lütfen tekrar easyview.in adresine giriş yapın."
+  },
+  "t_291a4e34": {
+    "message": "Güvenli sunucu yönlendirmesi başarısız oldu. Bağlantınızı kontrol edin."
+  },
+  "t_2dcf62b3": {
+    "message": "Eksik not algılanmadı. Çalışma alanı güncel."
+  },
+  "t_951bf3ae": {
+    "message": "Şifre çözme hatası: Dosya EasyView sınırlarına uymuyor."
+  },
+  "t_817a4ba0": {
+    "message": "Resim İçinde Resim API'si desteklenmiyor. Lütfen Chrome'u güncelleyin."
+  },
+  "t_e8aa6e9a": {
+    "message": "Resim İçinde Resim motoru başlatılamadı: "
+  },
+  "t_9feed9d5": {
+    "message": "$1 yeni not başarıyla şifresi çözülerek eklendi.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "DENEME SÜRÜMÜ"
+  },
+  "t_c289adbe": {
+    "message": "Bizi Destekle"
+  },
+  "t_60d5b12a": {
+    "message": "Bizi Değerlendir"
+  },
+  "js_eb82de4c": {
+    "message": "Özel Renk"
+  },
+  "js_8caef32b": {
+    "message": "Sıfırla/Temizle (Metni seçin ve tıklayın veya vurguyu manuel olarak çift tıklayın)"
+  },
+  "t_823aeb91": {
+    "message": "KolayGörünüm Çalışma Alanı"
+  },
+  "t_fc42ed23": {
+    "message": "Çalışma alanınızda yüzen genel not bulunmuyor."
+  },
+  "t_12d7c58a": {
+    "message": "Bir tane oluşturmak için Yapışkan Notlar imleci etkinken Boşluk tuşuna basın."
+  },
+  "t_ab983c11": {
+    "message": "Burada siteye özel not bulunamadı."
+  },
+  "t_e22709e9": {
+    "message": "Hedefli bir not sabitlemek için herhangi bir web sitesindeki fiziksel bir öğeye tıklayın."
+  },
+  "t_34bdba45": {
+    "message": "Adım"
+  },
+  "t_9b2d88a1": {
+    "message": "ile"
+  },
+  "t_8f44d852": {
+    "message": "Başlayalım!"
+  },
+  "t_b45c2f91": {
+    "message": "Çalışma Alanı Dışa Aktarımlarının kilidini aç"
+  },
+  "t_88f91dc1": {
+    "message": "Tüm Genel Çalışma Alanı notlarınızı güvenli bir şekilde oluşturmak ve dışa aktarmak doğrulanmış bir Profesyonel lisans gerektirir. Bu özelliğin kilidini kalıcı olarak açmak için yükseltin."
+  },
+  "t_134dff88": {
+    "message": "Belki Sonra"
+  },
+  "t_5b8c9d11": {
+    "message": "Profesyonel Sürüme Geç"
+  },
+  "t_792bd8c9": {
+    "message": "Çalışma Alanı Yüzer durumda!"
+  },
+  "t_e39f7dc2": {
+    "message": "Yapışkan notlarınız artık işletim sistemi masaüstünüzün üzerinde yüzüyor."
+  },
+  "t_c83d6ec9": {
+    "message": "Çalışma Alanını Yeniden Yerleştir"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "Oluşturma durduruldu"
+  },
+  "t_removed_from_notebook": {
+    "message": "Not Defterinden kaldırıldı"
+  },
+  "t_d1c58470": {
+    "message": "Vurguyu kaldırmak için çift tıkla"
+  },
+  "t_d4fdfb03": {
+    "message": "$1 ücretsiz kullanım/ay almak için EasyView'a giriş yapın veya Ayarlar'dan kendi API anahtarınızı ekleyin.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "Kaydedilmiş sonuçlar yükleniyor..."
+  },
+  "t_3a99733d": {
+    "message": "Jargon Çözücü başlatılıyor..."
+  },
+  "t_b6dc9fc9": {
+    "message": "Ayda $1 ücretsiz yapay zeka çözümü almak ve kotanızı takip etmek için ücretsiz bir EasyView hesabı oluşturun.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "Ayda $1 ücretsiz yapay zeka tanımı almak ve kotanızı takip etmek için ücretsiz bir EasyView hesabı oluşturun.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "Ana içerik çıkarılıyor..."
+  },
+  "t_0eeae2bf": {
+    "message": "Sayfa bağlamı algılanıyor..."
+  },
+  "t_87f125d0": {
+    "message": "Terminoloji analiz ediliyor..."
+  },
+  "t_9ef6e70f": {
+    "message": "Önbelleğe alınmış sonuçlar kullanılıyor..."
+  },
+  "t_9afdc5e8": {
+    "message": "Yapay Zeka ile analiz ediliyor..."
+  },
+  "t_7ecc3abe": {
+    "message": "Yapay zeka çözümlemesi başarısız"
+  },
+  "t_9220c8de": {
+    "message": "Basitleştirmeler uygulanıyor..."
+  },
+  "t_57f406b1": {
+    "message": "Seçim çözümleniyor..."
+  },
+  "t_c50f2b72": {
+    "message": "Sözlüğü Görüntüle"
+  },
+  "t_49de9b11": {
+    "message": "Sayfadaki Vurguları Gizle"
+  },
+  "t_3158774e": {
+    "message": "Sayfadaki Vurguları Geri Yükle"
+  },
+  "t_fc3ad42d": {
+    "message": "Kelime Bilgisine Kaydet"
+  },
+  "t_87e933b8": {
+    "message": "Tanım aranıyor..."
+  },
+  "t_56b79836": {
+    "message": "Kelime tanımı yüklendi."
+  },
+  "t_969b24ea": {
+    "message": "🔊 Tema sesini etkinleştirmek için herhangi bir yere tıklayın"
+  },
+  "t_49337275": {
+    "message": "Manuel vurgu"
+  },
+  "t_93324bd5": {
+    "message": "Doğrudan internet sayfasından kaydedildi."
+  },
+  "t_82e413f3": {
+    "message": "Metin basitleştiriliyor..."
+  },
+  "t_86c4f6e5": {
+    "message": "Yapay Zeka ile basitleştiriliyor..."
+  },
+  "t_c3e18edb": {
+    "message": "Basitleştirme başarısız oldu"
+  },
+  "t_6398ab2c": {
+    "message": "Okuma seviyesi: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "Orijinal metni geçici olarak geri yüklemek için tıklayın"
+  },
+  "t_9beea3e8": {
+    "message": "Bellekten kalıcı olarak sil"
+  },
+  "t_453bb8f7": {
+    "message": "Ayda $1 ücretsiz yapay zeka basitleştirmesi almak ve kotanızı takip etmek için ücretsiz bir EasyView hesabı oluşturun.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "Dinle"
+  },
+  "t_24833610": {
+    "message": "Kaydedildi"
+  },
+  "t_30a008cb": {
+    "message": "Daha fazla oku &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "Kelime Bilgisi Not Defterine kaydedildi!"
+  },
+  "t_2728e87f": {
+    "message": "Kelime Bilgisi Not Defterinden kaldırıldı"
+  },
+  "t_6b8c66ce": {
+    "message": "Sözlük ($1 terim)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "Bu sayfa için belleği kaldır"
+  },
+  "t_8a49fe1a": {
+    "message": "Terimi kaldır"
+  },
+  "t_1534891c": {
+    "message": "$1 terim çözümlendi",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "Not Defterine Kaydet"
+  },
+  "t_150a2843": {
+    "message": "Vurguları temizle"
+  },
+  "t_21ef939c": {
+    "message": "Not Defterine Kaydedildi!"
+  },
+  "t_8054da35": {
+    "message": "Hızlı Sözlük",
+    "description": "Hızlı Sözlük açılır pencere başlığı"
+  },
+  "t_4aeb2167": {
+    "message": "Kelime Bulunamadı",
+    "description": "Sözlük yedek başlığı"
+  },
+  "t_272d0070": {
+    "message": "\"$1\" ifadesini temel sözlükte bulamadık. Modern bir argo, kısaltma veya oldukça teknik bir jargon olabilir.",
+    "description": "Kelime yer tutuculu sözlük yedek açıklaması",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "Evie Yapay Zeka ile çözümle",
+    "description": "Yapay Zeka ile çözümlemek için yedek düğme"
+  },
+  "t_14f1f972": {
+    "message": "aracılığıyla",
+    "description": "Sözlük kaynak öneki"
+  },
+  "t_f2faf2f1": {
+    "message": "İsim",
+    "description": "İsim"
+  },
+  "t_b512ddf1": {
+    "message": "Fiil",
+    "description": "Fiil"
+  },
+  "t_d807ae6a": {
+    "message": "Sıfat",
+    "description": "Sıfat"
+  },
+  "t_1a607278": {
+    "message": "Zarf",
+    "description": "Zarf"
+  },
+  "t_02de720d": {
+    "message": "Zamir",
+    "description": "Zamir"
+  },
+  "t_4b7be2c3": {
+    "message": "Edat",
+    "description": "Edat"
+  },
+  "t_a3c1d30b": {
+    "message": "Bağlaç",
+    "description": "Bağlaç"
+  },
+  "t_e189f001": {
+    "message": "Ünlem",
+    "description": "Zamir türü"
+  },
+  "t_96de90f8": {
+    "message": "Basitleştirilmiş metni kopyala",
+    "description": "Basitleştirilmiş metni kopyalamak için araç ipucu"
+  },
+  "t_44a6e288": {
+    "message": "Sayfayı Oku",
+    "description": "Tüm sayfayı Metin-Ses ile okumak için araç ipucu"
+  },
+  "t_7d70d73b": {
+    "message": "Seçimi Oku",
+    "description": "Seçimi Metin-Ses ile okumak için araç ipucu"
+  },
+  "t_11936123": {
+    "message": "Notu kalıcı olarak sil",
+    "description": "Yapışkan notu kalıcı olarak silmek için araç ipucu"
+  },
+  "t_d27532d9": {
+    "message": "Küçült"
+  },
+  "t_2bd339d8": {
+    "message": "Geri Yükle"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "KolayGörünüm"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "Sistem Uyarısı"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "Sistem bildirimi"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "EasyView\r\n                        Motoru"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "Yerel özellikler\r\n                        etkin kalır"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,580 +599,571 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "EasyView\r\n                        deneyimi"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "12 saattir EasyView kullanıyorsunuz. Ayarlarınızı kaydetmek,\r\n                    kotanızı korumak ve daha fazla özelliğin kilidini açmak için\r\n                    ücretsiz bir hesap oluşturun."
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "Bana 12 saat içinde hatırlat"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "Açık"
   },
   "t_7fc56270": {
-    "message": "A"
+    "message": "Küçük"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "Yazı Tipi"
   },
   "t_5dbc98dc": {
-    "message": "S"
+    "message": "K"
   },
   "t_69691c7b": {
-    "message": "M"
+    "message": "O"
   },
   "t_d20caec3": {
-    "message": "L"
+    "message": "B"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "Özellikler"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "Görseller"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "Dönüştürücü"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "Not Defteri"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "Jargon Çözücü"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "Karmaşık yasal terimleri basitleştir"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "wikipedia.org/wiki/Nöroçeşitlilik"
   },
   "t_61e9c06e": {
-    "message": "W"
-  },
-  "t_e653da7d": {
-    "message": "Neurodivergence"
-  },
-  "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
-  },
-  "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
-  },
-  "t_e86f8066": {
-    "message": "Blur private and sensitive content"
-  },
-  "t_7f766191": {
-    "message": "mail.google.com/mail/u/0/"
-  },
-  "t_dfcf28d0": {
     "message": "G"
   },
+  "t_e653da7d": {
+    "message": "Nöroçeşitlilik"
+  },
+  "t_d621fb54": {
+    "message": "çok\r\n                                                daha kolay"
+  },
+  "t_1f5b14d4": {
+    "message": "Odaklanma ve Gizlilik Kalkanı"
+  },
+  "t_e86f8066": {
+    "message": "Özel ve hassas içeriği bulanıklaştır"
+  },
+  "t_7f766191": {
+    "message": "posta.gugıl.com/posta/u/0/"
+  },
+  "t_dfcf28d0": {
+    "message": "Genel"
+  },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "Google Hesapları"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "Güvenlik uyarısı"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- Parola sıfırlama istendi..."
   },
   "t_8d9c307c": {
-    "message": "N"
+    "message": "Normal"
   },
   "t_170b1d36": {
-    "message": "Netflix"
+    "message": "Netfliks"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "Bu hafta yeni"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- En son\r\n                                                    sürümlerimize göz atın..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "Koruma Teknikleri"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "Özel İçerik Bulanıklaştırma"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "Anında görsel güvenlik için WhatsApp, Gmail ve şifre\r\n                                            girişlerini bulanıklaştırır."
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "Ekran Paylaşımında Otomatik Koru"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "Çevrimiçi paylaşım yaparken ekranınızı anında korumaya alır."
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
-  },
-  "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "Fiziksel bir\r\n                                                    Projektör mü kullanıyorsunuz?"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "Okuma El Feneri"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "Çevredeki görsel dağınıklığı tamamen ortadan kaldırmak için parlak bir spot ışığıyla farenizi takip eder."
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "1.\r\n                                                            Işın Şekli"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "Spot Işığı\r\n                                                            veya Cetvel"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "2.\r\n                                                                Işın Boyutu / Yüksekliği"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "Görüntüleme alanı\r\n                                                                kalınlığı"
   },
   "t_f0cad41b": {
     "message": "35px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "3.\r\n                                                            Odak Işını Lens Tonu"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "Okuma boşluğunu nazikçe renklendirir"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "4.\r\n                                                            Ortam Arka Plan Gölgesi"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "Lensinizi çevreleyen\r\n                                                            karartma"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "Duyusal Kalkan"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "Dikkat dağıtıcı animasyonları dondur"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "habergunluk.com/son-dakika"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "SON DAKİKA"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "Günlük haberlerden bir makale okunuyor..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "KAZANDIN!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "Kalkan Modu"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(varsayılan)"
   },
   "t_9e3360ac": {
-    "message": "PRO"
+    "message": "PROFESYONEL"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "Otomatik oynatmayı durdur + manuel gezinmede sakin\r\n                                                solmalar"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "Disleksi Okuma Modu"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "Optimize edilmiş yazı tipleri ve boşluklar"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "Yoğunluk Profili"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "Düşük"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "Orta"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "Yüksek"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "wikipedia.org/wiki/Okuma"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "Okuma"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "İşte okuma ayarlarınızın bir önizlemesi."
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "Gelişmiş Seçenekler"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "Yazı Tipi Stili"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "Varsayılan (Değişiklik Yok)"
   },
   "t_5d2967ef": {
-    "message": "OpenDyslexic"
+    "message": "Açık Disleksik"
   },
   "t_1042daad": {
-    "message": "Lexend (ADHD Pro) 🔒"
+    "message": "Leksend (Dikkat Eksikliği ve Hiperaktivite Bozukluğu Profesyonel) 🔒"
   },
   "t_bcec044a": {
-    "message": "Atkinson Hyperlegible 🔒"
+    "message": "Atkinson Hiperokunabilir 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "Hızlı Sans"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "Hızlı Serif"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "Komik Yeni"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "Komik Sans"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "Harf Aralığı"
   },
   "t_960b44c5": {
-    "message": "Normal"
+    "message": "Standart"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "Satır Yüksekliği"
   },
   "t_60086472": {
     "message": "1.5"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "Kelime Aralığı"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "Yazı Tipi Boyutu"
   },
   "t_30bd7ce7": {
     "message": "100%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "Kaplama Rengi"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "Hiçbiri"
   },
   "t_2bd8c63b": {
-    "message": "Beige"
+    "message": "Bej"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "Açık Mavi"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "Açık Yeşil"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "Açık Sarı"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "Metinden Sese"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "Vurgulayarak sesli oku"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "Oynat"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "Duraklat"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "Durdur"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "Ses Seçimi"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "Otomatik (En İyi Kalite)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "Okuma Hızı"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "Çok Yavaş"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "Yavaş"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "Hızlı"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "Çok Hızlı"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "Ses Düzeyi"
   },
   "t_f1943132": {
     "message": "70%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "Noktalama işaretlerinde duraklat"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "Kelime Vurgulama"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "Etkinleştir"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "Mod"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "Koyu"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "vikipedi.org/wiki/Işık"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "Göz konforu için mükemmel görseller. Işık yoğun olabilir."
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "Parlaklık"
   },
   "t_c63ecd19": {
-    "message": "Contrast"
+    "message": "Kontrast"
   },
   "t_b84a9a38": {
-    "message": "Sepia"
+    "message": "Sepya"
   },
   "t_9f1ef078": {
     "message": "0%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "Gri Tonlama"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "Varsayılan"
   },
   "t_b1166920": {
-    "message": "Lexend 🔒"
+    "message": "Leksend 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "Metin Konturu"
   },
   "t_cfcd2084": {
     "message": "0"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "Akıllı Dönüştürücü ve Okuyucu"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "Mevcut Dosya"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "Yüklemek için dosyaya tıklayın veya sürükleyin"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• Hazır"
   },
   "t_4c4ad5fc": {
-    "message": "HTML"
+    "message": "İnternet Sayfası"
   },
   "t_5c31b30e": {
-    "message": "EPUB"
+    "message": "Elektronik Kitap"
   },
   "t_7cfd9a9f": {
-    "message": "DOCX"
+    "message": "Belge"
   },
   "t_af97e960": {
     "message": "📌"
   },
   "t_4cc6684d": {
-    "message": "Global"
+    "message": "Genel"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "Site/Sayfa"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "Not Defterim"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "Hepsini Temizle"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "İptal"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "Kelimeyi Kaydet"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "Henüz kaydedilmiş kelime yok."
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "Herhangi bir sayfadaki jargonun üzerine gelin ve buraya kaydetmek için yer imi bayrağına tıklayın!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "Herhangi bir web sitesinin arayüzünü yeniden hayal edin. Ne istediğinizi tanımlayın veya bir\r\n                            hazır ayar seçin."
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "Dönüştürme\r\n                                Uygulandı"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "Özel yapay zeka düzeni\r\n                                bu sitede aktif."
   },
   "t_e8a57cd1": {
     "message": "0 /\r\n                                500"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "Sayfayı Sıfırla"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "Düzeni Dönüştür"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "Varsayılan Ön Ayarlar"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "Korku Karnavalı"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "Ürkütücü karnaval havası ve animasyonlu korku metni"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "Matris Konsolu"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "Siberpunk terminal teması"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "Nöro Odak"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "Disleksi dostu yazı tipleri ve sakinleştirici renkler"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "Okuyucu Modu"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "Odaklanma için optimize edilmiş minimalist düzen"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "Son İstemi"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "Misafir Kullanıcı"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "Ücretsiz Hesap"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "Giriş Yap / Yönet"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "Çıkış Yap"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "API Ayarları"
   },
   "t_766cc4dd": {
-    "message": "Gemini"
+    "message": "Ceminay"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "Yapay Zeka Sağlayıcısı"
   },
   "t_222cf5ed": {
-    "message": "Google Gemini"
+    "message": "Google İkizler"
   },
   "t_a0607683": {
-    "message": "OpenRouter"
+    "message": "Açık Yönlendirici"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "Gemini API Anahtarı"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "Google Yapay Zeka Stüdyosu"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "OpenRouter API Anahtarı"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "API Anahtarını Kaydet"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "EasyView\r\n                                    Yapay Zeka Önceliği"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ API Anahtarım"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "EasyView Sunucuları"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "Tüm yapay zeka özellikleri için hangisinin önce kullanılacağını\r\n                                seçin. Anahtarınız biterse, EasyView sunucuları\r\n                                her zaman yedek olarak kullanılır."
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "Gizlilik\r\n                                    & Öncelik"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "Öncelik 1:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "Öncelik 2:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "Dönüştürme\r\n                                            Motoru Notu:"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "asla"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "Yardım ve Geri Bildirim"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "Bir sorunuz mu var, bir hata mı buldunuz veya bir özellik mi önermek istiyorsunuz? Sizden haber almayı çok isteriz!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "Hata Bildir / Geri Bildirim Ver"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Basitleştirmeye hazır"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "Ayarları Dışa Aktar"
   },
   "t_9d5ed678": {
-    "message": "B"
+    "message": "Kalın"
   },
   "t_dd753679": {
-    "message": "I"
+    "message": "İtalik"
   },
   "t_20a1d47c": {
     "message": "✎"
   },
   "t_4c614360": {
-    "message": "U"
+    "message": "Altı Çizili"
   },
   "t_2f43b42f": {
     "message": "..."
@@ -615,25 +1172,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "Güç"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "Opaklık"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "Ağırlık"
   },
   "t_18d80423": {
     "message": "400"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "Satır\r\n                                Yüksekliği"
   },
   "t_f522dede": {
     "message": "1.7x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "Atla"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,25 +1199,25 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "Vurgula"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "MÜREKKEP"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "SOLMA"
   },
   "t_e8bfe352": {
-    "message": "Lexend 👑"
+    "message": "Leksend 👑"
   },
   "t_0cd4623c": {
-    "message": "Atkinson Hyperlegible 👑"
+    "message": "Atkinson Hiperokunabilir 👑"
   },
   "t_6fbda3a3": {
-    "message": "Arial"
+    "message": "Aryal"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "Helvetika"
   },
   "t_207c3219": {
     "message": "Verdana"
@@ -669,34 +1226,34 @@
     "message": "Tahoma"
   },
   "t_720661ec": {
-    "message": "Trebuchet MS"
+    "message": "Trebuşe MS"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "Sistem Sans"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "Tayms Nyu Roman"
   },
   "t_eada8196": {
-    "message": "Georgia"
+    "message": "Corciya"
   },
   "t_96a78725": {
     "message": "Garamond"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "Sistem Serif"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "Komik Sans MS"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "Kurye Yeni"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "Eş Aralıklı"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "Yazı Tipi\r\n                            Boyutu"
   },
   "t_f4f9f2f4": {
     "message": "14px"
@@ -723,7 +1280,7 @@
     "message": "32px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "Tamam"
   },
   "t_63922286": {
     "message": "×"
@@ -732,154 +1289,34 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "Tema Kitaplığını Dışa Aktar"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "Yapay zeka tarafından oluşturulan şaheserlerinizi\r\n                yerel olarak kaydedin."
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "Tüm Kitaplığı Dışa Aktar"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
-  },
-  "t_ccca2ddf": {
-    "message": "EasyView Reader"
-  },
-  "t_8524de96": {
-    "message": "Loading..."
-  },
-  "t_25e8f2fd": {
-    "message": "Please wait..."
-  },
-  "t_ec9d785d": {
-    "message": "1.5x"
-  },
-  "t_dafd5f8f": {
-    "message": "Lexend"
-  },
-  "t_16d90a0b": {
-    "message": "Atkinson Hyperlegible"
-  },
-  "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
-  },
-  "t_f7cee5ea": {
-    "message": "Calibri"
-  },
-  "t_ccc0239e": {
-    "message": "Candara"
-  },
-  "t_2963521b": {
-    "message": "Corbel"
-  },
-  "t_37f1cc58": {
-    "message": "Cambria"
-  },
-  "t_c3d9d4bf": {
-    "message": "Constantia"
-  },
-  "t_5d1a5b35": {
-    "message": "Palatino Linotype"
-  },
-  "t_4dc386b6": {
-    "message": "Book Antiqua"
-  },
-  "t_03c461f6": {
-    "message": "Franklin Gothic"
-  },
-  "t_7b1ee3b6": {
-    "message": "Century Gothic"
-  },
-  "t_a3293302": {
-    "message": "Gill Sans"
-  },
-  "t_eb726908": {
-    "message": "Sitka Text"
-  },
-  "t_b5bdee2c": {
-    "message": "Sylfaen"
-  },
-  "t_1ec05249": {
-    "message": "Microsoft Sans Serif"
-  },
-  "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
-  },
-  "t_16507cdd": {
-    "message": "Consolas"
-  },
-  "t_391c5954": {
-    "message": "Lucida Console"
-  },
-  "t_9879efdf": {
-    "message": "Lucida Sans Typewriter"
-  },
-  "t_21f59b54": {
-    "message": "Impact"
-  },
-  "t_94a7bb97": {
-    "message": "Arial Black"
-  },
-  "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
-  },
-  "t_40885309": {
-    "message": "Berlin Sans FB"
-  },
-  "t_6d5566ba": {
-    "message": "Gabriola"
-  },
-  "t_edb42482": {
-    "message": "Ink Free"
-  },
-  "t_fa233799": {
-    "message": "Segoe Script"
-  },
-  "t_2f7bc407": {
-    "message": "Segoe Print"
-  },
-  "t_0095a9fa": {
-    "message": "Export"
-  },
-  "t_520d0db3": {
-    "message": "Format"
-  },
-  "t_5956a437": {
-    "message": "TXT"
-  },
-  "t_1351017a": {
-    "message": "Filename"
-  },
-  "t_6af8212e": {
-    "message": "EasyView Notes Board"
-  },
-  "t_d16da0f5": {
-    "message": "🌎"
-  },
-  "t_6df173ff": {
-    "message": "📍"
+    "message": ".json (JSON Dosyası)"
   },
   "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
-  },
-  "js_24833610": {
-    "message": "Saved"
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> İşlem Gerekli</div>\n            <h2 class=\"ev-si-title\">Hesap<br><span class=\"ev-si-gradient-text\">Askıya Alındı</span></h2>\n            <p class=\"ev-si-sub\">EasyView erişiminiz, hizmet şartlarımızın ihlali nedeniyle kısıtlanmıştır.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Destek ile İletişime Geçin\n            </a>\n          </div>\n        </div>\n      "
   },
   "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Lütfen önce dönüştürme işleminizi tanımlayın.</span>\n          </div>"
   },
   "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Dönüştürülüyor...</span>\n      "
   },
   "js_138703dd": {
-    "message": "No Theme on Page"
+    "message": "Sayfada Tema Yok"
   },
   "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>Mevcut Sayfayı Dışa Aktar"
   },
   "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Derleniyor..."
   },
   "js_e541190e": {
     "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
@@ -891,30 +1328,1322 @@
     "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
   },
   "js_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Basitleştirmeye hazır"
   },
   "js_a18366b2": {
-    "message": "Dark"
+    "message": "Koyu"
   },
   "js_9914a0ce": {
-    "message": "Light"
+    "message": "Açık"
   },
   "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+    "message": "<option value=\"auto\">Otomatik (En İyi Kalite)</option>"
   },
   "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Çözümleniyor..."
   },
   "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+    "message": "Bu, anlaması <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">çok daha kolay</span> hissettiriyor."
   },
   "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+    "message": "Bunu kavramak daha az belirsiz hissettiriyor."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_f05df71b": {
+    "message": "Yükseltiliyor"
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_78db2ae3": {
+    "message": "Yapay Zeka sunucularımız yükseltmeden geçiyor."
+  },
+  "t_bb2129c8": {
+    "message": "Tamamının kilidini aç"
+  },
+  "t_aefee7cd": {
+    "message": "Her beyin için netlik"
+  },
+  "t_c38beca1": {
+    "message": "Firefox, fiziksel monitör algılama programlama arayüzlerini (API) kısıtlar. "
+  },
+  "t_f2fe1e79": {
+    "message": "1.0'ın altındaki değerler\r\n                                    metni sıkıştırabilir ve düzenleri bozabilir."
+  },
+  "t_ca677d53": {
+    "message": "Görsel Ayarlamalar"
+  },
+  "t_230b4522": {
+    "message": "Not Panosu"
+  },
+  "t_596b54bf": {
+    "message": "Morph Yapay Zeka Aracısı"
+  },
+  "t_47e79a17": {
+    "message": "Ücretsiz anahtarını şuradan al:"
+  },
+  "t_42372184": {
+    "message": "Temalar şu formatta dışa aktarılır:"
+  },
+  "t_74fdc8a2": {
+    "message": "Lütfen önce dönüştürme işleminizi tanımlayın."
+  },
+  "t_245fd3b9": {
+    "message": "Dönüştürülmüş düzen temizlendi."
+  },
+  "t_172bd753": {
+    "message": "Tema başarıyla dışa aktarıldı!"
+  },
+  "t_4c34daff": {
+    "message": "Bağlantı zaman aşımına uğradı. Sunucuya ulaşılamıyor."
+  },
+  "t_0dd56117": {
+    "message": "Bu sayfada etkin tema bulunamadı."
+  },
+  "t_cb5c0766": {
+    "message": "Kitaplık başarıyla dışa aktarıldı!"
+  },
+  "t_8adb392e": {
+    "message": "Bağlantı zaman aşımına uğradı. Sunucuya ulaşılamıyor."
+  },
+  "t_ae94e0e4": {
+    "message": "Tema kitaplığınız boş."
+  },
+  "t_10a0c40b": {
+    "message": "Özel tema başarıyla yüklendi!"
+  },
+  "t_9b6007a8": {
+    "message": "Tema dosyası okunamadı."
+  },
+  "t_d4fa051d": {
+    "message": "Başarısız: $1. Lütfen sekmeyi yeniden yükleyin.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "Uygulandı: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "Kitaplıktan $1 tema geri yüklendi!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "Dil Tercihi"
+  },
+  "t_lang_updated_reload": {
+    "message": "Dil güncellendi. Yeniden yükleniyor..."
+  },
+  "t_transformation_failed": {
+    "message": "Dönüştürme başarısız."
+  },
+  "t_c8a59e71": {
+    "message": "Kapat"
+  },
+  "t_7764306b": {
+    "message": "Bulut Hizmetleri Bakımı Etkin"
+  },
+  "t_248228de": {
+    "message": "Açılır Pencerede Disleksi Yazı Tipini Değiştir"
+  },
+  "t_79a59320": {
+    "message": "Uygulama Turunu Başlat"
+  },
+  "t_533bff5b": {
+    "message": "Yapışkan Notu Sayfaya Sabitle (Alt+N)"
+  },
+  "t_f4f70727": {
+    "message": "Ayarlar"
+  },
+  "t_4fd11104": {
+    "message": "Dairesel Spot Işığı"
+  },
+  "t_0d063af1": {
+    "message": "Yatay Çizgi Cetveli 🔒"
+  },
+  "t_60d71580": {
+    "message": "Açık Işık"
+  },
+  "t_efe48742": {
+    "message": "Kehribar Odak"
+  },
+  "t_610a09ca": {
+    "message": "Havalı Camgöbeği"
+  },
+  "t_886f6b9e": {
+    "message": "Huzurlu Yeşil"
+  },
+  "t_65e8194e": {
+    "message": "Zifiri Siyah"
+  },
+  "t_7243ed99": {
+    "message": "Gece Yarısı Kayrak"
+  },
+  "t_ec6d8325": {
+    "message": "Derin Orman"
+  },
+  "t_4af435e0": {
+    "message": "Vampir Şarabı"
+  },
+  "t_2a7dbdf8": {
+    "message": "Profesyonel özellik"
+  },
+  "t_fc4aec61": {
+    "message": "Okuyucuda Aç"
+  },
+  "t_801ab246": {
+    "message": "İndir"
+  },
+  "t_aa3880dc": {
+    "message": "İnternet Sayfası olarak indir"
+  },
+  "t_e0781e81": {
+    "message": "Elektronik Kitap olarak indir"
+  },
+  "t_442ff212": {
+    "message": "Belge olarak indir"
+  },
+  "t_6244ee7c": {
+    "message": "Özel terimi manuel ekle"
+  },
+  "t_6e7d015f": {
+    "message": "CSV Dosyasını İçe Aktar"
+  },
+  "t_edbc5415": {
+    "message": "Anki / Quizlet için dışa aktar"
+  },
+  "t_46c29f7a": {
+    "message": "Temayı Yükle"
+  },
+  "t_2bd65c5d": {
+    "message": "Temayı Dışa Aktar"
+  },
+  "t_c1c433ac": {
+    "message": "Aktif Yapay Zeka Sağlayıcısı"
+  },
+  "t_90c09393": {
+    "message": "Noktalı"
+  },
+  "t_eb656e41": {
+    "message": "Kesikli"
+  },
+  "t_0c99ddee": {
+    "message": "Vurgu Rengi"
+  },
+  "t_eaf63759": {
+    "message": "Mürekkep Rengi"
+  },
+  "t_a183c9f0": {
+    "message": "Solma Rengi"
+  },
+  "t_75e7422f": {
+    "message": "Arka Plan Rengi"
+  },
+  "t_42f9ceea": {
+    "message": "Kaydedilmiş sözlüğü ara..."
+  },
+  "t_0e84a8cf": {
+    "message": "Kelime veya kısaltma gir..."
+  },
+  "t_eea6890c": {
+    "message": "Anlam / Çeviri..."
+  },
+  "t_4480cf46": {
+    "message": "Hafıza tüyosu veya çalışma notu (isteğe bağlı)..."
+  },
+  "t_d8634fbf": {
+    "message": "Örn: Yuvarlatılmış kartlarla pembe bir anime tarzı temaya dönüştürün veya retro koyu yeşil bir terminal konsoluna dönüştürün..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "Yapışkan Notlar"
+  },
+  "t_b097d277": {
+    "message": "Kelime Ekle"
+  },
+  "t_1eeb67ee": {
+    "message": "Mevcut Sayfayı Dışa Aktar"
+  },
+  "t_b62ded9a": {
+    "message": "Bulut Hizmetleri Çevrimdışı"
+  },
+  "t_263e00eb": {
+    "message": "Giriş Yap / Hesap Oluştur"
+  },
+  "t_7748eb3b": {
+    "message": "YÜKSELTİLİYOR"
+  },
+  "t_81a5d20b": {
+    "message": "Hepsini Dondur"
+  },
+  "t_e61146d9": {
+    "message": "Sakinleştirici Geçişler"
+  },
+  "t_57323916": {
+    "message": "Otomatik Oynatmayı Durdur"
+  },
+  "t_f50319ea": {
+    "message": "Tam Koruma"
+  },
+  "t_8e13f26d": {
+    "message": "Hızlı Soru"
+  },
+  "t_134b26da": {
+    "message": "EasyView'dan<br><span class=\"ev-si-gradient-text\">memnun musunuz?</span>"
+  },
+  "t_b75bdd9e": {
+    "message": "Geri bildiriminiz gelişmemize yardımcı olur.<br>Deneyimden memnun musunuz?"
+  },
+  "t_396d1ff8": {
+    "message": "Evet, memnunum!"
+  },
+  "t_7d0cacf3": {
+    "message": "Geliştirilmesi gerekiyor"
+  },
+  "t_815142c9": {
+    "message": "Bizi Destekle"
+  },
+  "t_abd9fa39": {
+    "message": "Bir değerlendirme<br><span class=\"ev-si-gradient-text\">bırakır mısınız?</span>"
+  },
+  "t_02991e61": {
+    "message": "Sizin gibi kullanıcılardan gelen puanlar, EasyView'un büyümesine yardımcı olmanın en iyi yoludur. Sadece bir dakika sürer!"
+  },
+  "t_db49c1f2": {
+    "message": "Şimdi Puanla"
+  },
+  "t_7a4f0d12": {
+    "message": "Bana daha sonra hatırlat"
+  },
+  "t_fee6c0e9": {
+    "message": "Özel Geri Bildirim"
+  },
+  "t_74393dde": {
+    "message": "Neyi <span class=\"ev-si-gradient-text\">daha iyi yapabiliriz?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "Neyin yanlış gittiğini bize bildirin..."
+  },
+  "t_6f97affc": {
+    "message": "Geri Bildirim Gönder"
+  },
+  "t_b20871b3": {
+    "message": "Lütfen geri bildiriminizi girin"
+  },
+  "t_7b0fee4d": {
+    "message": "Gönderiliyor..."
+  },
+  "t_fb631633": {
+    "message": "Geri bildiriminiz için teşekkürler."
+  },
+  "t_08727add": {
+    "message": "İnterneti kendi tarzında gör."
+  },
+  "t_15bbb9d0": {
+    "message": "Web Sitesi"
+  },
+  "t_c5f29bb3": {
+    "message": "Gizlilik"
+  },
+  "t_ad5b1a22": {
+    "message": "Kurucu"
+  },
+  "t_db496e03": {
+    "message": "Kişisel anahtarlar, yapay zekaya doğrudan, %100 özel bir bağlantı oluşturur. Metniniz asla EasyView sunucularına ulaşmaz."
+  },
+  "t_387c35b3": {
+    "message": "Yönetilen sunucumuz (Premium), hiçbir anahtar mevcut değilse veya anahtarınız başarısız olursa güvenilir bir yedekleme görevi görür."
+  },
+  "t_98bc5a17": {
+    "message": "Özel algoritmaları korumak için anahtarınız, Google ile kimlik doğrulaması yapmak üzere kısa süreliğine güvenli sunucumuz üzerinden yönlendirilir. Bu, asla"
+  },
+  "t_de47f1be": {
+    "message": "saklanmaz veya kaydedilmez."
+  },
+  "t_25e02e7f": {
+    "message": "Etkin: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ Premium Üye"
+  },
+  "t_df56cfae": {
+    "message": "⭐ Ömür Boyu Üye"
+  },
+  "t_41cbc704": {
+    "message": " gün kaldı"
+  },
+  "t_b194bd82": {
+    "message": "Asla süresi dolmaz"
+  },
+  "t_9f830444": {
+    "message": "⭐ Profesyonel:"
+  },
+  "t_61b82be6": {
+    "message": " dönüştürme hakkı kaldı"
+  },
+  "t_c20e7ceb": {
+    "message": " ücretsiz dönüştürme hakkı kaldı"
+  },
+  "t_d7087930": {
+    "message": " ücretsiz kullanım hakkı kaldı"
+  },
+  "t_4bbf11bd": {
+    "message": "Terim ve Anlam alanları boş bırakılamaz!"
+  },
+  "t_08f09d38": {
+    "message": "Kelime ayrıntıları başarıyla güncellendi!"
+  },
+  "t_32001b52": {
+    "message": "Lütfen hem bir kelime hem de anlamını girin."
+  },
+  "t_b8115861": {
+    "message": "Çalışma Not Defteriniz boş. Önce web sayfalarındaki bazı kelimeleri yer imlerine ekleyin!"
+  },
+  "t_7114113b": {
+    "message": "Profesyonel özelliklerinizi doğrulamak için lütfen önce EasyView hesabınıza giriş yapın!"
+  },
+  "t_093f9fa0": {
+    "message": "Oturum belirteciniz eksik. Erişimi geri yüklemek için lütfen tekrar easyview.in adresine giriş yapın."
+  },
+  "t_0e065596": {
+    "message": "Bu, doğrulanmış bir Premium özelliğidir. Kilidi açmak için Profesyonel sürüme yükseltin!"
+  },
+  "t_c792a645": {
+    "message": "Güvenli dışa aktarma sunucusuna bağlanılamadı. Kısa süre sonra tekrar deneyin."
+  },
+  "t_8d1a2675": {
+    "message": "Bu CSV dosyasında geçerli bir kelime öğesi tanımlanamadı."
+  },
+  "t_a613ed90": {
+    "message": "Tarayıcı depolama yazma hatası! Dosya yerel önbellek için çok büyük olabilir."
+  },
+  "t_8efe87ab": {
+    "message": "Tarayıcı yerel dosyanızı okuyamadı."
+  },
+  "t_50bf63aa": {
+    "message": "Not defterinizden kaydedilen tüm kelimeleri temizlemek istediğinizden emin misiniz?"
+  },
+  "t_ff252710": {
+    "message": "İçe aktarma tamamlandı: $1 girdinin tamamı zaten Not Defterinizde mevcut.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "CSV ayrıştırılamadı: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "\"$1\" zaten not defterinizde var. Bunun için başka bir tanım eklemek ister misiniz?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "Başarıyla çıkış yapıldı"
+  },
+  "t_dbd35100": {
+    "message": "Dönüştürme motoru zaten çalışıyor..."
+  },
+  "t_2de4e55d": {
+    "message": "Dönüştürülmüş düzen temizlendi"
+  },
+  "t_1bb9196d": {
+    "message": "Dönüştürüldü: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "Dönüştürme başarısız: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "Tetiklendi: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 öğe düzenlendi",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "Bu, bu notu tüm senkronize edilmiş cihazlarda kalıcı olarak silecektir. Devam edilsin mi?"
+  },
+  "t_25abf697": {
+    "message": "Elektronik Kitap dışa aktarımı için JSZip gereklidir."
+  },
+  "t_71609188": {
+    "message": "Belge dışa aktarımı için html-docx-js gereklidir."
+  },
+  "t_e1499766": {
+    "message": "Dosya yüklenmedi."
+  },
+  "t_023b3355": {
+    "message": "Gizlilik Kalkanı Etkinleştirildi"
+  },
+  "t_9483a5da": {
+    "message": "Gizlilik Kalkanı Devre Dışı"
+  },
+  "t_a04202db": {
+    "message": "Vurgular geçici olarak gizlendi"
+  },
+  "t_b3d6b264": {
+    "message": "Vurgular geri yüklendi"
+  },
+  "t_7485c55e": {
+    "message": "EasyView'a hoş geldiniz! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "Daha kolay web okuması için yapay zeka destekli bilişsel köprünüz. Özelliklere hızlı bir tur atalım."
+  },
+  "t_3a1fe637": {
+    "message": "Jargon Çözücü 📖"
+  },
+  "t_89cec86e": {
+    "message": "Herhangi bir internet sayfasındaki karmaşık terminolojiyi basitleştirir."
+  },
+  "t_f8aefae7": {
+    "message": "Gizlilik Kalkanı 🔐"
+  },
+  "t_aa860f86": {
+    "message": "Hassas verileri bulanıklaştırır ve dikkat dağıtmayan bir okuma için Odak Cetveli içerir."
+  },
+  "t_0681a3b6": {
+    "message": "Duyusal Kalkan 🛡️"
+  },
+  "t_6118b864": {
+    "message": "Dikkat dağıtıcı GIF'leri ve animasyonları dondurur."
+  },
+  "t_12ec6fc6": {
+    "message": "Disleksi Okuma Modu 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "Daha kolay okuma için optimize edilmiş yazı tipleri ve boşluklar."
+  },
+  "t_18d9ce63": {
+    "message": "Metinden Sese 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "Kelime vurgulama ile herhangi bir internet sayfasını dinleyin."
+  },
+  "t_0019a700": {
+    "message": "Dönüştürme Motoru ✨"
+  },
+  "t_47c2535a": {
+    "message": "Herhangi bir web sitesini özel bir tema veya düzene göre yeniden tasarlamak için yapay zekayı kullanın."
+  },
+  "t_2ed2f639": {
+    "message": "Yapışkan Notlar 📝"
+  },
+  "t_75025b5f": {
+    "message": "Önemli bilgileri kaydetmek için yüzen yapışkan notları herhangi bir web sayfasına sabitleyin (Alt+N)."
+  },
+  "t_3ff2d7cc": {
+    "message": "API Yapılandırması ⚙️"
+  },
+  "t_0754e836": {
+    "message": "Kotanızı senkronize etmek için giriş yapın veya kendi ücretsiz Gemini API anahtarınızı buradan ayarlayın."
+  },
+  "t_7b6a2059": {
+    "message": "Adım $1 / $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "Başlayalım!"
+  },
+  "t_10ac3d04": {
+    "message": "İleri"
+  },
+  "t_5c7a52b8": {
+    "message": "Bas: "
+  },
+  "t_a1b2c3d4": {
+    "message": " Otomatik Koruma kalkanını manuel olarak devreye almak için istediğiniz zaman basın."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ Gizlilik Kalkanı etkinleştirildi"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 Gizlilik Kalkanı devre dışı bırakıldı"
+  },
+  "js_9b3e1a": {
+    "message": "EasyView düzeni analiz ediyor ve dönüştürüyor..."
+  },
+  "js_4c8d2f": {
+    "message": "Tanımla"
+  },
+  "js_7a1e9b": {
+    "message": "Çözümle"
+  },
+  "js_2d5f8c": {
+    "message": "Basitleştir"
+  },
+  "js_6e3a4d": {
+    "message": "Yer İşareti"
+  },
+  "js_1f9b7c": {
+    "message": "Vurgula"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "DOM Ağacı analiz ediliyor..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "Dağınık Düzen..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "Yapı düzleştiriliyor..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[GÜRÜLTÜ_AŞIRI_YÜKLEME]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "Dikkat Dağıtıcılar kaldırılıyor..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "Karmaşık Düğümler"
+  },
+  "js_ldr_m4_cl": {
+    "message": "Disleksi Kuralları Uygulanıyor..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "EasyView arayüzü oluşturuluyor..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "Metin Bloğu taranıyor..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "Çok fazla kelime..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "Temel Anlam Çıkarılıyor..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "Bilişsel Yük"
+  },
+  "js_ldr_s3_cl": {
+    "message": "Daha Basit İngilizce Hazırlanıyor..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "Ayrıntılı Yapay Zeka..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "Okunabilirlik uygulanıyor..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "Çıktı düzenleniyor..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "Jargon çevriliyor..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "Hata: Karışıklık"
+  },
+  "js_ldr_j2_cl": {
+    "message": "Tanımlar bulunuyor..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[GÜRÜLTÜ_AŞIRI_YÜKLEME]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "Bağlam basitleştiriliyor..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "Bilinmeyen Terimler"
+  },
+  "js_ldr_j4_cl": {
+    "message": "Netlik uygulanıyor..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "Sonuçlar biçimlendiriliyor..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "Derin analiz..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "Yapay Zeka mantığı tamamlanıyor..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "Yapay Zeka çalışıyor..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "Neredeyse Bitti..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "Yoğun Trafik..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "Biraz daha uzun sürüyor..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "Hala Çalışıyor..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "Beklemede kal..."
+  },
+  "t_b7012ab9": {
+    "message": "Dönüştür"
+  },
+  "t_c5e8b1d9": {
+    "message": "Profesyonel Yazı Tipleri"
+  },
+  "t_c8f2ba19": {
+    "message": "Özel İçerik Bulanıklaştırma etkinleştirildi"
+  },
+  "t_e2dae61a": {
+    "message": "Özel İçerik Bulanıklaştırma devre dışı bırakıldı"
+  },
+  "t_c74de318": {
+    "message": "Ekran Paylaşımında Otomatik Koru etkinleştirildi"
+  },
+  "t_a5fd56f4": {
+    "message": "Ekran Paylaşımında Otomatik Koru devre dışı bırakıldı"
+  },
+  "t_ab8d1f2a": {
+    "message": "El feneri modu etkin"
+  },
+  "t_2bf5cc98": {
+    "message": "El feneri modu devre dışı"
+  },
+  "t_513bb93f": {
+    "message": "Biyonik Okuma"
+  },
+  "t_5a8b2c1d": {
+    "message": "İşte okuma ayarlarınızın bir önizlemesi."
+  },
+  "t_ac1d4e5f": {
+    "message": "Hiçbiri"
+  },
+  "t_b2e3f4a1": {
+    "message": "Geniş"
+  },
+  "t_c3f4a5b2": {
+    "message": "Ekstra Geniş"
+  },
+  "t_d1a3c901": {
+    "message": "Tıkla"
+  },
+  "t_b4f2e891": {
+    "message": "Ögeye Sabitle"
+  },
+  "t_c9a1b302": {
+    "message": "Boşluk"
+  },
+  "t_f6d4e203": {
+    "message": "Genel Not"
+  },
+  "t_e2b3f104": {
+    "message": "Çıkış"
+  },
+  "t_a7c0d905": {
+    "message": "İptal"
+  },
+  "t_e1b2c301": {
+    "message": "Sadece bu sayfa"
+  },
+  "t_f7a3b402": {
+    "message": "Bu site"
+  },
+  "t_a8c4d503": {
+    "message": "Tüm siteler (Genel)"
+  },
+  "t_b9d5e604": {
+    "message": "Yeniden yükleyene kadar gizle"
+  },
+  "t_c0e6f705": {
+    "message": "Notu öğeye sabitle"
+  },
+  "t_d1f7a806": {
+    "message": "Not rengini değiştir"
+  },
+  "t_e2a8b907": {
+    "message": "Notu daralt/genişlet"
+  },
+  "t_f3b9c008": {
+    "message": "Not içeriğini kopyala"
+  },
+  "t_a4c0d109": {
+    "message": "Daha fazla eylem"
+  },
+  "t_b5d1e200": {
+    "message": "Bu notu sil"
+  },
+  "t_e87033a2": {
+    "message": "Alt + X"
+  },
+  "t_4120201a": {
+    "message": "Ücretsiz Deneme Aktif"
+  },
+  "t_6ed40ffb": {
+    "message": "Ayarları cihazlar arasında eşitle"
+  },
+  "t_f8b8a5fd": {
+    "message": "Daha yüksek ücretsiz kullanım kotası"
+  },
+  "t_440b106d": {
+    "message": "Gelecekteki Pro özelliklere erişim"
+  },
+  "t_3a99076c": {
+    "message": "Premium Sınırı"
+  },
+  "t_545f6c2f": {
+    "message": "Sınırsız"
+  },
+  "t_ad23f4a0": {
+    "message": "Konumsal Notlar"
+  },
+  "t_04f2f045": {
+    "message": "Web genelinde 15 Ücretsiz Katman notunun tamamını başarıyla dağıttınız. Sonsuz uzamsal belleğin ve özel renklerin kilidini açmak için EasyView Premium'a yükseltin."
+  },
+  "t_cf874b99": {
+    "message": "Premium Kilidini Aç"
+  },
+  "t_a6d36e2f": {
+    "message": "Tüm Yerel Erişilebilirlik Kontrolleri (Etkin)"
+  },
+  "t_b0b69bc3": {
+    "message": "Metin-Ses Motoru (Etkin)"
+  },
+  "t_cc96c21a": {
+    "message": "Bulut Yapay Zeka Özellikleri (Çevrimdışı)"
+  },
+  "t_7af6f6e5": {
+    "message": "Anlıyorum"
+  },
+  "t_9bc7102e": {
+    "message": "Kotanızı takip etmek ve Jargon Çözücünün kilidini açmak için ücretsiz bir EasyView hesabı oluşturun."
+  },
+  "t_ab7512fd": {
+    "message": "Oturum belirteciniz eksik. Erişimi geri yüklemek için lütfen tekrar easyview.in adresine giriş yapın."
+  },
+  "t_1cd7820a": {
+    "message": "SADECE PRO ERİŞİM"
+  },
+  "t_8eb14032": {
+    "message": "Jargon Çözücü<br><span class=\"ev-si-gradient-text\">Kotaya Ulaşıldı</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "KOTA DOLDU"
+  },
+  "t_5ae983dc": {
+    "message": "Bu ayki <strong>5 ücretsiz çözümün</strong> tamamını kullandınız. Saniyeler içinde sınırsız erişimin kilidini açın."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> Profesyonel Olun — Sınırsız çözüm</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> Kendi API anahtarınızı kullanın</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 Ayarlar'dan API Anahtarı Ekle</button>"
+  },
+  "t_9be4129a": {
+    "message": "Çalışma Destesi Dışa Aktarıcı<br><span class=\"ev-si-gradient-text\">Profesyonel Otomasyon</span>"
+  },
+  "t_fac34185": {
+    "message": "Tüm özel Çalışma Not Defterinizi anında doğrudan <strong>Anki</strong> ve <strong>Quizlet</strong>'e aktarın."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Manuel yazmayı bırakın</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> RFC-4180 bilgi kartı derleyicisi</div>"
+  },
+  "t_da12c30b": {
+    "message": "Pro Erişim"
+  },
+  "t_4a9b2c01": {
+    "message": "Bu özellik"
+  },
+  "t_3be78c01": {
+    "message": "Bu Disleksi Okuma yazı tipi"
+  },
+  "t_0ad4b971": {
+    "message": "Bu Görsel yazı tipi"
+  },
+  "t_9af42be8": {
+    "message": "Bu premium Dışa Aktarma yazı tipi"
+  },
+  "t_cbae8349": {
+    "message": "Tüm erişilebilirlik özelliklerinin ve güçlü araçların kilidini açmak için yükseltin."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Gelişmiş Erişilebilirlik</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Tüm Gelecek Güncellemeler</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ Pro Sürüme Geç"
+  },
+  "t_5ef4c1a2": {
+    "message": "Belki Sonra"
+  },
+  "t_3b7a5e82": {
+    "message": ", ancak Yapay Zeka özellikleri geçici olarak kullanılamayabilir."
+  },
+  "t_c91d8e12": {
+    "message": "Genel"
+  },
+  "t_b42f3a9d": {
+    "message": "Tanım"
+  },
+  "t_f1d4a8e6": {
+    "message": "Sözlük"
+  },
+  "t_e398c71f": {
+    "message": "Özel"
+  },
+  "t_a72df9e5": {
+    "message": "Tıbbi"
+  },
+  "t_d8f2c61a": {
+    "message": "Yasal"
+  },
+  "t_b3e1f5d2": {
+    "message": "Finansal"
+  },
+  "t_c25d81f9": {
+    "message": "Teknik"
+  },
+  "t_e1b3a4f6": {
+    "message": "Akademik"
+  },
+  "t_d5f9b4c1": {
+    "message": "Terim"
+  },
+  "t_f7a2e8ea": {
+    "message": "Kategori"
+  },
+  "t_e3b1c6d9": {
+    "message": "Basitleştirilmiş Anlam"
+  },
+  "t_a9d4e5f2": {
+    "message": "Çalışma Notları / Bağlam"
+  },
+  "t_b4c5d6e7": {
+    "message": "İptal"
+  },
+  "t_c8f2a1b4": {
+    "message": "Değişiklikleri Kaydet"
+  },
+  "t_8c17b5e6": {
+    "message": "Oturum belirteciniz eksik. Erişimi geri yüklemek için lütfen tekrar easyview.in adresine giriş yapın."
+  },
+  "t_a43dc219": {
+    "message": "Kullanım kotanızı takip etmek ve Yapay Zeka Dönüştürme Motorunun kilidini açmak için ücretsiz bir EasyView hesabı oluşturun."
+  },
+  "t_54c523fe": {
+    "message": "🎉 Kusursuz! $1 yeni çalışma kartı başarıyla içe aktarıldı."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 Kusursuz! $1 yeni kart içe aktarıldı. ($2 kopya atlandı.)"
+  },
+  "t_14894d12": {
+    "message": "Tema Dışa Aktarımı"
+  },
+  "t_f27a2629": {
+    "message": "Tema Kitaplığı Yedekleme"
+  },
+  "t_9ad85e17": {
+    "message": "Okuma Cetveli Modu"
+  },
+  "t_b9d4e7a5": {
+    "message": "Gelişmiş Duyusal Kalkan modları"
+  },
+  "t_94f4f7e4": {
+    "message": "DOCX ayrıştırılıyor...",
+    "description": "Okuyucuda Belge ayrıştırılırken durum"
+  },
+  "t_120adfc1": {
+    "message": "EPUB ayrıştırılıyor...",
+    "description": "Okuyucuda Elektronik Kitap ayrıştırılırken durum"
+  },
+  "t_5d2a45b8": {
+    "message": "Okuma Cetveli Modu, Profesyonel aboneliklere özeldir.",
+    "description": "Profesyonel olmayan kullanıcı okuma cetveline eriştiğinde uyar"
+  },
+  "t_c1f29623": {
+    "message": "Tüm Kartı Düzenle",
+    "description": "Not defterindeki kartın tamamını düzenlemek için araç ipucu"
+  },
+  "t_1063e38c": {
+    "message": "Kaldır",
+    "description": "Kartı not defterinden kaldırmak için araç ipucu"
+  },
+  "t_ccca2ddf": {
+    "message": "KolayGörünüm Okuyucu"
+  },
+  "t_8524de96": {
+    "message": "Yükleniyor..."
+  },
+  "t_25e8f2fd": {
+    "message": "Lütfen bekleyin..."
+  },
+  "t_ec9d785d": {
+    "message": "1.5x"
+  },
+  "t_dafd5f8f": {
+    "message": "Leksend"
+  },
+  "t_16d90a0b": {
+    "message": "Atkinson Hiperokunabilir"
+  },
+  "t_5c7db066": {
+    "message": "Segoe UI (Windows Varsayılanı)"
+  },
+  "t_f7cee5ea": {
+    "message": "Kalibri"
+  },
+  "t_ccc0239e": {
+    "message": "Kandara"
+  },
+  "t_2963521b": {
+    "message": "Korbel"
+  },
+  "t_37f1cc58": {
+    "message": "Kambriya"
+  },
+  "t_c3d9d4bf": {
+    "message": "Konstantia"
+  },
+  "t_5d1a5b35": {
+    "message": "Palatino Laynotayp"
+  },
+  "t_4dc386b6": {
+    "message": "Kitap Antika"
+  },
+  "t_03c461f6": {
+    "message": "Franklin Gotik"
+  },
+  "t_7b1ee3b6": {
+    "message": "Sençuri Gotik"
+  },
+  "t_a3293302": {
+    "message": "Gil Sans"
+  },
+  "t_eb726908": {
+    "message": "Sitka Metni"
+  },
+  "t_b5bdee2c": {
+    "message": "Silfaen"
+  },
+  "t_1ec05249": {
+    "message": "Maykrosoft Sans Serif"
+  },
+  "t_ad4a300c": {
+    "message": "Segoy Yu Ay Semibold"
+  },
+  "t_16507cdd": {
+    "message": "Konsolas"
+  },
+  "t_391c5954": {
+    "message": "Lusida Konsol"
+  },
+  "t_9879efdf": {
+    "message": "Lusida Sans Taypraytır"
+  },
+  "t_21f59b54": {
+    "message": "İmpakt"
+  },
+  "t_94a7bb97": {
+    "message": "Aryal Siyah"
+  },
+  "t_6e87c2cb": {
+    "message": "Kopperpleyt Gotik"
+  },
+  "t_40885309": {
+    "message": "Berlin Sans Ef Bi"
+  },
+  "t_6d5566ba": {
+    "message": "Gabriyola"
+  },
+  "t_edb42482": {
+    "message": "Mürekkep Serbest"
+  },
+  "t_fa233799": {
+    "message": "Segoe Komut Dosyası"
+  },
+  "t_2f7bc407": {
+    "message": "Segoe Yazı"
+  },
+  "t_0095a9fa": {
+    "message": "Dışa Aktar"
+  },
+  "t_520d0db3": {
+    "message": "Biçim"
+  },
+  "t_5956a437": {
+    "message": "METİN"
+  },
+  "t_1351017a": {
+    "message": "Dosya Adı"
+  },
+  "t_d4c3c15b": {
+    "message": "Dosya yüklenmedi"
+  },
+  "t_0ca5a078": {
+    "message": "Lütfen dosya yüklemek için Dönüştürücü sekmesini kullanın."
+  },
+  "t_c9857e16": {
+    "message": "Desteklenmeyen dosya türü."
+  },
+  "t_6b447b91": {
+    "message": "Dosya ayrıştırma hatası: "
+  },
+  "t_7f4588be": {
+    "message": "Elektronik Kitap"
+  },
+  "t_12dc65c2": {
+    "message": "Açık/Koyu Modu Değiştir"
+  },
+  "t_d3d2e617": {
+    "message": "Kapat"
+  },
+  "t_6e8cfcb7": {
+    "message": "Sunucuya Güvenli Dışa Aktarım (Premium)"
+  },
+  "t_2f9df658": {
+    "message": "Çalışma alanını ayır ve tüm pencerelerin üzerinde tut"
+  },
+  "t_72d6d7a1": {
+    "message": "İçe Aktar"
+  },
+  "t_de93d5fd": {
+    "message": "Notları Dışa Aktar"
+  },
+  "t_a1aacca9": {
+    "message": "Yüzen Çalışma Alanı"
+  },
+  "t_ac0b844f": {
+    "message": "Genel Notlar"
+  },
+  "t_15866f1d": {
+    "message": "Siteye Özel Notlar"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
+  },
+  "t_6af8212e": {
+    "message": "EasyView Not Panosu"
+  },
+  "t_d16da0f5": {
+    "message": "🌎"
+  },
+  "t_6df173ff": {
+    "message": "📍"
+  },
+  "t_22f58a00": {
+    "message": "🌎 Genel Not"
+  },
+  "t_5be8bbeb": {
+    "message": "🌐 Site Notu"
+  },
+  "t_59a56663": {
+    "message": "📍 Sayfa Notu"
+  },
+  "t_c1843696": {
+    "message": "Bütünlük Simgesi Doğrulanıyor..."
+  },
+  "t_58038ee4": {
+    "message": "Az önce"
+  },
+  "t_e254e1a1": {
+    "message": "$1 dk önce",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_121d4d02": {
+    "message": "$1 sa önce",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_19d2b280": {
+    "message": "$1 gün önce",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_d3d4311c": {
+    "message": "Notu Sürükle"
+  },
+  "t_7b32ea16": {
+    "message": "$1 öğesine geç",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_11916b28": {
+    "message": "Yerleştirme kapsamı"
+  },
+  "t_5463fe67": {
+    "message": "Renk Paleti"
+  },
+  "t_d116d454": {
+    "message": "Notu Daralt"
+  },
+  "t_be9ba0e5": {
+    "message": "Metni Kopyala"
+  },
+  "t_28471624": {
+    "message": "Daha fazla eylem"
+  },
+  "t_90e467df": {
+    "message": "Notu Kapat"
+  },
+  "t_34494920": {
+    "message": "Notunu buraya yaz..."
+  },
+  "t_bdda0b60": {
+    "message": "Ne düşünüyordun..."
+  },
+  "t_8689de27": {
+    "message": "Her yerde kullanılabilir"
+  },
+  "t_c0cf9810": {
+    "message": "Orijinal sayfaya geri dön"
+  },
+  "t_24a23176": {
+    "message": "Orijinal Bağlam"
+  },
+  "t_4c1c1e76": {
+    "message": "Not Defteri İçe Aktarma"
+  },
+  "t_2736f644": {
+    "message": "Harici çalışma destelerinizi ve kelime listelerinizi EasyView ekosisteminize sorunsuz bir şekilde entegre edin."
+  },
+  "t_ca4f038f": {
+    "message": "Zorunlu Sütunlar"
+  },
+  "t_7277de5f": {
+    "message": "Anlam"
+  },
+  "t_ce591bfa": {
+    "message": "İsteğe Bağlı Sütunlar"
+  },
+  "t_f4c6f851": {
+    "message": "Notlar"
+  },
+  "t_c1fd81a6": {
+    "message": "CSV Tablo Dosyası Seçin veya Sürükleyin"
+  },
+  "t_5c426600": {
+    "message": "Yinelenen ve mevcut kelimeler otomatik olarak filtrelenir."
+  },
+  "t_76e7183d": {
+    "message": "İçe Aktarma Başarılı!"
+  },
+  "t_3e17e02d": {
+    "message": "Kelime dağarcığınız güncellendi."
+  },
+  "t_3148d309": {
+    "message": "Sekmeyi Kapat"
+  },
+  "t_0e412fa1": {
+    "message": "Açılır pencereye döndüğünüzde kutlama başlatılacaktır."
+  },
+  "t_d29f6e6b": {
+    "message": "İçe Aktarma Başarısız"
+  },
+  "t_e04efbcb": {
+    "message": "Not Defteri Durumu"
+  },
+  "t_ed732761": {
+    "message": "Morph Temaları İçe Aktarma"
+  },
+  "t_e44db711": {
+    "message": "Özel Morph Motoru kütüphanenizi doğrudan EasyView'a güvenle aktarın."
+  },
+  "t_c0bb7d43": {
+    "message": "JSON Veri Dosyası Seçin veya Sürükleyin"
+  },
+  "t_36e9583e": {
+    "message": "Daha önce dışa aktardığınız tema düzenlerini içe aktarır."
+  },
+  "t_21630184": {
+    "message": "Temalar Geri Yüklendi!"
+  },
+  "t_d0c1ec75": {
+    "message": "Morph şablonlarınız başarıyla yüklendi."
+  },
+  "t_cd27a5c0": {
+    "message": "EasyView — İçerik Okuyucu"
+  },
+  "t_b171ab1f": {
+    "message": "Okuyucuya Hoş Geldiniz"
+  },
+  "t_4e07c284": {
+    "message": "Belgelerinizi özelleştirilmiş tipografi ve gelişmiş erişilebilirlik araçlarıyla okumak için buraya yükleyin."
+  },
+  "t_004621c0": {
+    "message": "Belgeleri, e-kitapları ve .docx, .epub, .txt dosyalarını destekler"
+  },
+  "t_23bb27a0": {
+    "message": "Belge ayrıştırıcı başlatılıyor..."
+  },
+  "t_e1d5f16c": {
+    "message": "DOCX belgeleri okunabilirlik için optimize ediliyor..."
+  },
+  "t_0e55c5d0": {
+    "message": "EPUB dosya yapısı ayrıştırılıyor..."
   }
 }

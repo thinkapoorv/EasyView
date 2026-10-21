@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "EasyView — Kalinawan para sa Bawat Isipan"
   },
   "appShortName": {
     "message": "EasyView"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "Baguhin agad ang anumang website gamit ang mga AI prompt o isang click lang. Tingnan ang web sa paraang gusto mo."
+  },
+  "t_68ba0232": {
+    "message": "Na-activate ang dyslexia mode"
+  },
+  "t_85f47a25": {
+    "message": "Na-deactivate ang dyslexia mode"
+  },
+  "t_1cc1b64d": {
+    "message": "Hindi sapat ang nilalaman para suriin"
+  },
+  "t_cebe6412": {
+    "message": "Walang nakitang mga kumplikadong termino"
+  },
+  "t_b964aa0f": {
+    "message": "Error sa pagsusuri ng nilalaman ng pahina"
+  },
+  "t_956c104e": {
+    "message": "Na-clear ang memorya ng pahina"
+  },
+  "t_1f4b0f3e": {
+    "message": "Na-clear ang glossary"
+  },
+  "t_4bfeec37": {
+    "message": "Walang nakitang mga kumplikadong termino sa pinili"
+  },
+  "t_1b5e8531": {
+    "message": "Walang nakitang mga kumplikadong termino sa pinili"
+  },
+  "t_a1f781ec": {
+    "message": "Error sa pag-decode ng pinili"
+  },
+  "t_7aae8122": {
+    "message": "Na-clear ang mga highlight ng pagpili"
+  },
+  "t_58762fd6": {
+    "message": "Mangyaring pumili ng isang salita o maikling parirala para bigyang-kahulugan."
+  },
+  "t_6838b119": {
+    "message": "Network error sa paghahanap ng kahulugan."
+  },
+  "t_ea3ca1b5": {
+    "message": "Na-decode ang $1 na termino (mula sa cache)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "Na-decode ang $1 termino (naka-cache)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "Nagamit mo na ang lahat ng libreng gamit sa Jargon Decoder ngayong buwan. Mag-upgrade sa Pro para sa walang limitasyong access."
+  },
+  "t_cb3c5d3a": {
+    "message": "Na-decode ang $1 na termino sa $2 na kategorya",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "Awtomatikong na-highlight ang $1 pagkakataon ng iyong na-decode na termino",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "Na-restore ang $1 na naka-save na kahulugan ng jargon$2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "Nagamit mo na ang lahat ng libreng gamit sa Jargon Decoder ngayong buwan. Mag-upgrade sa Pro para sa walang limitasyong access."
+  },
+  "t_0b841c82": {
+    "message": "Nasa Notebook na!"
+  },
+  "t_8901f3ab": {
+    "message": "Nai-save sa Notebook!"
+  },
+  "t_eb8f5242": {
+    "message": "Error sa pag-save sa Notebook"
+  },
+  "t_bd15702b": {
+    "message": "Na-activate ang Sensory Shield"
+  },
+  "t_c28f3265": {
+    "message": "Na-deactivate ang Sensory Shield"
+  },
+  "t_3f8910d9": {
+    "message": "EASYVIEW"
+  },
+  "t_8aafa613": {
+    "message": "Hindi mapadali ang tekstong ito"
+  },
+  "t_79d2dc85": {
+    "message": "Hindi mapadali ang tekstong ito"
+  },
+  "t_99684ba5": {
+    "message": "Error sa pagpapasimple ng teksto"
+  },
+  "t_f4362bde": {
+    "message": "Kinopya sa clipboard!"
+  },
+  "t_af07ef4b": {
+    "message": "Nabigong kopyahin"
+  },
+  "t_94e4d537": {
+    "message": "Napalitan ang teksto sa pahina"
+  },
+  "t_14a04b67": {
+    "message": "Nabura ang memorya ng pagpapadali"
+  },
+  "t_c444ff21": {
+    "message": "Pansamantalang na-restore ang orihinal na teksto"
+  },
+  "t_55f1db14": {
+    "message": "Nagamit mo na ang lahat ng libreng gamit ngayong buwan. Mag-upgrade sa Pro para sa walang limitasyong access."
+  },
+  "t_fde4e3f0": {
+    "message": "Na-restore ang $1 na naka-save na pagpapadali sa pahinang ito",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "Auto-restored na dynamically loaded na pagpapadali!"
+  },
+  "t_dfa22e52": {
+    "message": "Na-activate ang Text-to-Speech"
+  },
+  "t_ca153ad0": {
+    "message": "Naka-disable ang Text-to-Speech"
+  },
+  "t_dadbff09": {
+    "message": "Mangyaring i-enable muna ang Text-to-Speech"
+  },
+  "t_47071c61": {
+    "message": "Nagpapatuloy..."
+  },
+  "t_5516c48d": {
+    "message": "Walang nakitang nababasang nilalaman sa pahinang ito"
+  },
+  "t_c57f25c9": {
+    "message": "Walang nakitang nababasang nilalaman"
+  },
+  "t_2516997e": {
+    "message": "Tapos na ang pagbabasa"
+  },
+  "t_d3069aea": {
+    "message": "Hindi suportado ang Text-to-Speech sa browser na ito"
+  },
+  "t_53e6b8c6": {
+    "message": "Mangyaring pumili muna ng ilang teksto"
+  },
+  "t_e932d0f7": {
+    "message": "Binabasa ang pinili..."
+  },
+  "t_1c50528d": {
+    "message": "Tapos na ang pagbabasa"
+  },
+  "t_594778a2": {
+    "message": "Naka-pause"
+  },
+  "t_4ded5f77": {
+    "message": "Itinigil ang pagsasalita"
+  },
+  "t_0a74758c": {
+    "message": "✨ Pinapatakbo ng Personal Key"
+  },
+  "t_2fceddad": {
+    "message": "✨ Walang limitasyon"
+  },
+  "t_97627d80": {
+    "message": "✨ Pinapatakbo ng Personal Key"
+  },
+  "t_fd7d5888": {
+    "message": "Pamahalaan ang Subscription"
+  },
+  "t_df4657a5": {
+    "message": "Libreng Miyembro"
+  },
+  "t_22dfb2ec": {
+    "message": "Bisita"
+  },
+  "t_bd9f2460": {
+    "message": "Libreng Account"
+  },
+  "t_f5adda31": {
+    "message": "Mag-login / Mag-sign Up"
+  },
+  "t_d2439201": {
+    "message": "✨ Walang limitasyon"
+  },
+  "t_164442b7": {
+    "message": "Pinapainit ang Converter Engine..."
+  },
+  "t_1e7c3002": {
+    "message": "Handa nang mag-parse ng mga file."
+  },
+  "t_d30f78df": {
+    "message": "Dark Mode"
+  },
+  "t_6c68d8ce": {
+    "message": "Maliwanag na Modo"
+  },
+  "t_fcb68c2b": {
+    "message": "Walang nakitang mga sticky note. Walang ma-export!"
+  },
+  "t_2b75b2d9": {
+    "message": "Nawawala ang iyong session token. Mangyaring mag-sign in muli sa easyview.in upang ibalik ang access."
+  },
+  "t_291a4e34": {
+    "message": "Nabigo ang secure server routing. Suriin ang iyong koneksyon."
+  },
+  "t_2dcf62b3": {
+    "message": "Walang nakitang nawawalang mga tala. Ang workspace ay updated."
+  },
+  "t_951bf3ae": {
+    "message": "Pagkabigo sa decryption: Ang file ay hindi sumusunod sa mga hangganan ng EasyView."
+  },
+  "t_817a4ba0": {
+    "message": "Hindi suportado ang PiP API. Pakia-update ang Chrome."
+  },
+  "t_e8aa6e9a": {
+    "message": "Nabigong i-initialize ang PiP engine: "
+  },
+  "t_9feed9d5": {
+    "message": "Matagumpay na na-decrypt at na-inject ang $1 na bagong note.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "BETA"
+  },
+  "t_c289adbe": {
+    "message": "Suportahan Kami"
+  },
+  "t_60d5b12a": {
+    "message": "I-review Kami"
+  },
+  "js_eb82de4c": {
+    "message": "Pasadyang Kulay"
+  },
+  "js_8caef32b": {
+    "message": "I-reset/I-clear (Piliin ang teksto at i-click, o i-double click ang highlight nang manu-mano)"
+  },
+  "t_823aeb91": {
+    "message": "Workspace ng EasyView"
+  },
+  "t_fc42ed23": {
+    "message": "Walang mga global note na lumulutang sa iyong workspace."
+  },
+  "t_12d7c58a": {
+    "message": "Pindutin ang Space habang aktibo ang cursor ng Sticky Notes upang makagawa ng isa."
+  },
+  "t_ab983c11": {
+    "message": "Walang nakitang mga note na partikular sa site dito."
+  },
+  "t_e22709e9": {
+    "message": "Mag-click sa isang pisikal na elemento sa anumang website upang mag-angkla ng target na note."
+  },
+  "t_34bdba45": {
+    "message": "Hakbang"
+  },
+  "t_9b2d88a1": {
+    "message": "ng"
+  },
+  "t_8f44d852": {
+    "message": "Magsimula!"
+  },
+  "t_b45c2f91": {
+    "message": "I-unlock ang mga Workspace Export"
+  },
+  "t_88f91dc1": {
+    "message": "Ang secure na pag-render at pag-export ng iyong buong Global Workspace notes ay nangangailangan ng beripikadong Pro license. Mag-upgrade upang i-unlock ang feature na ito nang permanente."
+  },
+  "t_134dff88": {
+    "message": "Siguro Mamaya"
+  },
+  "t_5b8c9d11": {
+    "message": "Mag-upgrade sa Pro"
+  },
+  "t_792bd8c9": {
+    "message": "Lumulutang ang Workspace!"
+  },
+  "t_e39f7dc2": {
+    "message": "Ang iyong mga sticky note ay lumulutang na ngayon sa ibabaw ng iyong OS desktop."
+  },
+  "t_c83d6ec9": {
+    "message": "I-re-dock ang Workspace"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Sinasala ang Ingay...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Patakbuhin sa background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>I-minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Itigil ang Engine</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "Itinigil ang pag-generate"
+  },
+  "t_removed_from_notebook": {
+    "message": "Inalis mula sa Notebook"
+  },
+  "t_d1c58470": {
+    "message": "I-double click para alisin ang highlight"
+  },
+  "t_d4fdfb03": {
+    "message": "Mag-sign in sa EasyView upang makakuha ng $1 libreng gamit/buwan, o idagdag ang sarili mong API key sa Mga Setting.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "Naglo-load ng mga naka-save na resulta..."
+  },
+  "t_3a99733d": {
+    "message": "Ino-initialize ang Jargon Decoder..."
+  },
+  "t_b6dc9fc9": {
+    "message": "Gumawa ng libreng EasyView account upang makakuha ng $1 libreng AI decode bawat buwan at subaybayan ang iyong quota.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "Gumawa ng libreng EasyView account upang makakuha ng $1 libreng AI definition bawat buwan at subaybayan ang iyong quota.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "Kinukuha ang pangunahing nilalaman..."
+  },
+  "t_0eeae2bf": {
+    "message": "Natutukoy ang konteksto ng pahina..."
+  },
+  "t_87f125d0": {
+    "message": "Sinusuri ang terminolohiya..."
+  },
+  "t_9ef6e70f": {
+    "message": "Ginagamit ang mga naka-cache na resulta..."
+  },
+  "t_9afdc5e8": {
+    "message": "Sinusuri gamit ang AI..."
+  },
+  "t_7ecc3abe": {
+    "message": "Nabigo ang pag-decode ng AI"
+  },
+  "t_9220c8de": {
+    "message": "Inilalapat ang mga pagpapadali..."
+  },
+  "t_57f406b1": {
+    "message": "I-de-decode ang pinili..."
+  },
+  "t_c50f2b72": {
+    "message": "Tingnan ang Glossary"
+  },
+  "t_49de9b11": {
+    "message": "Itago ang mga Highlight sa Pahina"
+  },
+  "t_3158774e": {
+    "message": "I-restore ang mga Highlight sa Pahina"
+  },
+  "t_fc3ad42d": {
+    "message": "I-save sa Vocab"
+  },
+  "t_87e933b8": {
+    "message": "Hinahanap ang kahulugan..."
+  },
+  "t_56b79836": {
+    "message": "Na-load ang kahulugan ng salita."
+  },
+  "t_969b24ea": {
+    "message": "🔊 I-click kahit saan para i-activate ang audio ng tema"
+  },
+  "t_49337275": {
+    "message": "Manual na highlight"
+  },
+  "t_93324bd5": {
+    "message": "Nai-save nang direkta mula sa web page."
+  },
+  "t_82e413f3": {
+    "message": "Pinapasimple ang teksto..."
+  },
+  "t_86c4f6e5": {
+    "message": "Pinapasimple gamit ang AI..."
+  },
+  "t_c3e18edb": {
+    "message": "Nabigo ang pagpapasimple"
+  },
+  "t_6398ab2c": {
+    "message": "Antas ng pagbabasa: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "I-click para pansamantalang i-restore ang orihinal na teksto"
+  },
+  "t_9beea3e8": {
+    "message": "Permanenteng burahin mula sa memorya"
+  },
+  "t_453bb8f7": {
+    "message": "Gumawa ng libreng EasyView account upang makakuha ng $1 libreng AI simplification bawat buwan at subaybayan ang iyong quota.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "Makinig"
+  },
+  "t_24833610": {
+    "message": "Nai-save"
+  },
+  "t_30a008cb": {
+    "message": "Magbasa pa &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "Nai-save sa Vocabulary Notebook!"
+  },
+  "t_2728e87f": {
+    "message": "Inalis mula sa Vocabulary Notebook"
+  },
+  "t_6b8c66ce": {
+    "message": "Glossary ($1 termino)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "Alisin ang memorya para sa pahinang ito"
+  },
+  "t_8a49fe1a": {
+    "message": "Alisin ang termino"
+  },
+  "t_1534891c": {
+    "message": "Na-decode ang $1 termino",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "I-save sa Notebook"
+  },
+  "t_150a2843": {
+    "message": "I-clear ang mga highlight"
+  },
+  "t_21ef939c": {
+    "message": "Nai-save sa Notebook!"
+  },
+  "t_8054da35": {
+    "message": "Mabilis na Diksyonaryo",
+    "description": "Header ng popup ng Mabilis na Diksyonaryo"
+  },
+  "t_4aeb2167": {
+    "message": "Hindi nahanap ang salita",
+    "description": "Pamagat ng fallback ng diksyunaryo"
+  },
+  "t_272d0070": {
+    "message": "Hindi namin mahanap ang \"$1\" sa pangunahing diksyunaryo. Maaaring ito ay modernong slang, pagdadaglat, o napaka-teknikal na jargon.",
+    "description": "Paglalarawan ng fallback ng diksyunaryo na may placeholder ng salita",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "I-decode gamit ang Evie AI",
+    "description": "Fallback na button para mag-decode gamit ang AI"
+  },
+  "t_14f1f972": {
+    "message": "sa pamamagitan ng",
+    "description": "Prefix ng source ng diksyunaryo"
+  },
+  "t_f2faf2f1": {
+    "message": "Pangngalan",
+    "description": "Pangngalan"
+  },
+  "t_b512ddf1": {
+    "message": "Pandiwa",
+    "description": "Pandiwa"
+  },
+  "t_d807ae6a": {
+    "message": "Pang-uri",
+    "description": "Pang-uri"
+  },
+  "t_1a607278": {
+    "message": "Pang-abay",
+    "description": "Pang-abay"
+  },
+  "t_02de720d": {
+    "message": "Panghalip",
+    "description": "Panghalip"
+  },
+  "t_4b7be2c3": {
+    "message": "Pang-ukol",
+    "description": "Pang-ukol"
+  },
+  "t_a3c1d30b": {
+    "message": "Pangatnig",
+    "description": "Pangatnig"
+  },
+  "t_e189f001": {
+    "message": "Padamdam",
+    "description": "Bahagi ng pananalita na padamdam"
+  },
+  "t_96de90f8": {
+    "message": "Kopyahin ang pinasimpleng teksto",
+    "description": "Tooltip para kopyahin ang pinadaling teksto"
+  },
+  "t_44a6e288": {
+    "message": "Basahin ang Pahina",
+    "description": "Tooltip para basahin ang buong pahina sa pamamagitan ng TTS"
+  },
+  "t_7d70d73b": {
+    "message": "Basahin ang Pinili",
+    "description": "Tooltip para basahin ang pinili sa pamamagitan ng TTS"
+  },
+  "t_11936123": {
+    "message": "Permanenteng burahin ang tala",
+    "description": "Tooltip para permanenteng burahin ang sticky note"
+  },
+  "t_d27532d9": {
+    "message": "I-minimize"
+  },
+  "t_2bd339d8": {
+    "message": "I-restore"
   },
   "t_df13eb31": {
     "message": "EasyView"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "Alerto ng System"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "Notipikasyon ng system"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "Makina ng\r\n                        EasyView"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "Mananatiling aktibo ang\r\n                        mga lokal na tampok"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,22 +599,22 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "Karanasan sa\r\n                        EasyView"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "Gumagamit ka na ng EasyView sa loob ng 12 oras. Gumawa ng libreng account upang\r\n                    i-save ang iyong\r\n                    mga setting, panatilihin ang iyong quota, at i-unlock ang higit pang mga feature."
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "Paalalahanan ako sa loob ng 12 oras"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "Maliwanag"
   },
   "t_7fc56270": {
     "message": "A"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "Uri"
   },
   "t_5dbc98dc": {
     "message": "S"
@@ -60,25 +626,22 @@
     "message": "L"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "Mga Tampok"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "Biswal"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "Tagapagsalin"
   },
   "t_3a4f8d88": {
     "message": "Notebook"
   },
-  "t_36b84f8e": {
-    "message": "BETA"
-  },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "Decoder ng Jargon"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "Padaliin ang mga kumplikadong legal na termino"
   },
   "t_ed196831": {
     "message": "wikipedia.org/wiki/Neurodivergence"
@@ -87,31 +650,31 @@
     "message": "W"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "Neurodiverhensya"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "mas\r\n                                                madali"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "Panangga sa Pokus at Pagkapribado"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "I-blur ang pribado at sensitibong nilalaman"
   },
   "t_7f766191": {
-    "message": "mail.google.com/mail/u/0/"
+    "message": "meyl.gugol.kom/meyl/u/0/"
   },
   "t_dfcf28d0": {
     "message": "G"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "Mga Google Account"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "Alerto sa seguridad"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- Hiniling ang pag-reset ng password..."
   },
   "t_8d9c307c": {
     "message": "N"
@@ -120,85 +683,82 @@
     "message": "Netflix"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "Bago ngayong linggo"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- Tingnan ang aming pinakabagong\r\n                                                    mga release..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "Mga Teknik sa Proteksyon"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "Pag-blur ng Pribadong Nilalaman"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "Intelihenteng nilalabo ang WhatsApp, Gmail, at mga input ng password\r\n                                            para sa agarang visual na seguridad."
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "Auto-Protect sa Screen Share"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "Agad na tinatakpan ang iyong screen kapag nagbabahagi online."
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
-  },
-  "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "Gumagamit\r\n                                                    ng Pisikal na Projector?"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "Flashlight sa Pagbabasa"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "Sumusunod sa iyong mouse gamit ang maliwanag na spotlight upang lubos na maalis ang nakapaligid na\r\n                                            visual na kalat."
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "1.\r\n                                                            Hugis ng Beam"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "Spotlight\r\n                                                            o Ruler"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "2.\r\n                                                                Laki / Taas ng Beam"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "Kapal\r\n                                                                ng view area"
   },
   "t_f0cad41b": {
     "message": "35px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "3.\r\n                                                            Tint ng Focus Beam Lens"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "Dahan-dahang\r\n                                                            nilalagyan ng kulay ang puwang sa pagbabasa"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "4.\r\n                                                            Anino ng Ambient na Background"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "Kadiliman\r\n                                                            sa paligid ng iyong lens"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "Pananggalang sa Pandama"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "I-freeze ang mga nakakaabalang animation"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "balitang-araw.kom/nagbabagang-balita"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "NAGBABAGANG BALITA"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "Nagbabasa ng artikulo sa pang-araw-araw na balita..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "PANALO!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "Modo ng Pananggalang"
   },
   "t_6f8d1b93": {
     "message": "(default)"
@@ -207,172 +767,169 @@
     "message": "PRO"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "Itigil ang auto-play + kalmadong\r\n                                                paglaho sa manual na nabigasyon"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "Modo sa Pagbabasa para sa Dyslexia"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "Mga optimized na font at spacing"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "Profile ng Intensity"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "Mababa"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "Katamtaman"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "Mataas"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "wikipidiya.org/wiki/Pagbabasa"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "Pagbabasa"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "Narito ang preview ng iyong mga setting sa pagbabasa."
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "Mga Advanced na Opsyon"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "Estilo ng Font"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "Default (Walang Pagbabago)"
   },
   "t_5d2967ef": {
     "message": "OpenDyslexic"
   },
   "t_1042daad": {
-    "message": "Lexend (ADHD Pro) 🔒"
+    "message": "Lexend (Pro para sa ADHD) 🔒"
   },
   "t_bcec044a": {
-    "message": "Atkinson Hyperlegible 🔒"
+    "message": "Atkinson Hayperlehibol 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "Mabilis na Sans"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "Mabilis na Serif"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "Komik Neue"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "Komik Sans"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "Espasyo ng Titik"
   },
   "t_960b44c5": {
     "message": "Normal"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "Taas ng Linya"
   },
   "t_60086472": {
     "message": "1.5"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "Espasyo ng Salita"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "Laki ng Font"
   },
   "t_30bd7ce7": {
     "message": "100%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "Kulay ng Overlay"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "Wala"
   },
   "t_2bd8c63b": {
     "message": "Beige"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "Maliwanag na Asul"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "Maliwanag na Berde"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "Maliwanag na Dilaw"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "Teksto-sa-Pananalita"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "Basahin nang malakas na may pag-highlight"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "I-play"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "I-pause"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "Itigil"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "Pagpili ng Boses"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "Auto (Pinakamahusay na Kalidad)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "Bilis ng Pagbabasa"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "Napakabagal"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "Mabagal"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "Mabilis"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "Napakabilis"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "Lakas"
   },
   "t_f1943132": {
     "message": "70%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "I-pause sa Bantas"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "Pag-highlight ng Salita"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "I-enable"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "Modo"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "Madilim"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "wikipidiya.org/wiki/Maliwanag"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "Perpektong biswal para sa ginhawa ng mata. Maaaring nakakasilaw ang liwanag."
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "Liwanag"
   },
   "t_c63ecd19": {
     "message": "Contrast"
@@ -384,7 +941,7 @@
     "message": "0%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "Gris"
   },
   "t_7a1920d6": {
     "message": "Default"
@@ -393,22 +950,22 @@
     "message": "Lexend 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "Stroke ng Teksto"
   },
   "t_cfcd2084": {
     "message": "0"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "Matalinong Converter at Reader"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "Kasalukuyang File"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "I-click o i-drag ang file para i-upload"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• Handa na"
   },
   "t_4c4ad5fc": {
     "message": "HTML"
@@ -423,115 +980,115 @@
     "message": "📌"
   },
   "t_4cc6684d": {
-    "message": "Global"
+    "message": "Pangkalahatan"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "Site/Pahina"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "Aking Notebook"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "I-clear Lahat"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "Kanselahin"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "I-save ang Salita"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "Wala pang nai-save na mga salita."
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "I-hover ang mouse sa jargon sa anumang pahina at i-click ang bookmark flag upang i-save ang mga ito dito!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "Baguhin ang interface ng anumang website. Ilarawan ang gusto mo o pumili ng\r\n                            preset."
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "Inilapat ang\r\n                                Morph"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "Aktibo ang pasadyang AI layout\r\n                                sa site na ito."
   },
   "t_e8a57cd1": {
     "message": "0 /\r\n                                500"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "I-reset ang Pahina"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "Layout na Morph"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "Mga Default na Preset"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "Karnabal ng Katatakutan"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "Nakakatakot na carnival vibes at animated na horror text"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "Konsola ng Matrix"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "Tema ng Cyberpunk terminal"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "Pokus sa Neuro"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "Mga font na friendly sa dyslexia at mga nakaka-relax na kulay"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "Modo ng Mambabasa"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "Minimalist na layout na na-optimize para sa pokus"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "Mga Kamakailang Prompt"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "Bisita"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "Libreng Account"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "Mag-login / Pamahalaan"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "Mag-logout"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "Mga Setting ng API"
   },
   "t_766cc4dd": {
     "message": "Gemini"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "Tagapagbigay ng AI"
   },
   "t_222cf5ed": {
     "message": "Google Gemini"
@@ -540,61 +1097,61 @@
     "message": "OpenRouter"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "Susi ng Gemini API"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "Gugol AI Estudyo"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "Susi ng OpenRouter API"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "I-save ang API Key"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "EasyView\r\n                                    Prayoridad ng AI"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ Aking API Key"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 Mga Server ng EasyView"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "Piliin\r\n                                kung alin ang unang gagamitin para sa lahat ng AI feature. Kung maubusan ang iyong key, ang mga server ng EasyView ang\r\n                                laging gagamitin bilang fallback."
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "Pagkapribado\r\n                                    & Prayoridad"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "Prayoridad 1:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "Prayoridad 2:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "Tala ng Morph\r\n                                            Engine:"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "hindi kailanman"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "Tulong at Feedback"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "May tanong, nakakita ng bug, o gustong magmungkahi ng feature? Gusto naming makarinig mula sa iyo!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "Mag-ulat ng Bug / Magbigay ng Feedback"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Handa nang gawing simple"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "I-export ang mga Setting"
   },
   "t_9d5ed678": {
     "message": "B"
@@ -615,25 +1172,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "Lakas"
   },
   "t_bad6a5dd": {
     "message": "Opacity"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "Bigat"
   },
   "t_18d80423": {
     "message": "400"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "Taas ng\r\n                                Linya"
   },
   "t_f522dede": {
     "message": "1.7x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "Laktawan"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,25 +1199,25 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "I-highlight"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "TINTA"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "PAGLALAHO"
   },
   "t_e8bfe352": {
     "message": "Lexend 👑"
   },
   "t_0cd4623c": {
-    "message": "Atkinson Hyperlegible 👑"
+    "message": "Atkinson Hayperlehibol 👑"
   },
   "t_6fbda3a3": {
     "message": "Arial"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "Helbetika"
   },
   "t_207c3219": {
     "message": "Verdana"
@@ -675,7 +1232,7 @@
     "message": "System Sans"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "Tayms Nyu Roman"
   },
   "t_eada8196": {
     "message": "Georgia"
@@ -687,16 +1244,16 @@
     "message": "System Serif"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "Komik Sans MS"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "Kuryer na Bago"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "Monospasyo"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "Laki ng\r\n                            Font"
   },
   "t_f4f9f2f4": {
     "message": "14px"
@@ -723,7 +1280,7 @@
     "message": "32px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "Tapos na"
   },
   "t_63922286": {
     "message": "×"
@@ -732,25 +1289,1045 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "I-export ang Library ng Tema"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "I-save ang iyong mga obra na gawa ng AI\r\n                nang lokal."
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "I-export ang Buong Library"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
+    "message": ".json (JSON File)"
+  },
+  "js_99537132": {
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Kinakailangan ng Aksyon</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspindido</span></h2>\n            <p class=\"ev-si-sub\">Ang iyong access sa EasyView ay pinigilan dahil sa paglabag sa aming mga tuntunin ng serbisyo.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Makipag-ugnayan sa Support\n            </a>\n          </div>\n        </div>\n      "
+  },
+  "js_57b20c49": {
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Mangyaring ilarawan muna ang iyong morph.</span>\n          </div>"
+  },
+  "js_7f34dbea": {
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Nag-mo-morph...</span>\n      "
+  },
+  "js_138703dd": {
+    "message": "Walang Tema sa Pahina"
+  },
+  "js_cf3190a0": {
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>I-export ang Kasalukuyang Pahina"
+  },
+  "js_ac5b17d0": {
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Kino-compile..."
+  },
+  "js_e541190e": {
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
+  },
+  "js_d2e8056c": {
+    "message": "<path d=\"M9.88 9.88a3 3 0 1 0 4.24 4.24\"/><path d=\"M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68\"/><path d=\"M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61\"/><line x1=\"2\" x2=\"22\" y1=\"2\" y2=\"22\"/>"
+  },
+  "js_e2cb885d": {
+    "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
+  },
+  "js_8b86136c": {
+    "message": "Handa nang gawing simple"
+  },
+  "js_a18366b2": {
+    "message": "Madilim"
+  },
+  "js_9914a0ce": {
+    "message": "Maliwanag"
+  },
+  "js_872cc3ae": {
+    "message": "<option value=\"auto\">Auto (Pinakamahusay na Kalidad)</option>"
+  },
+  "js_94fe16a8": {
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Kino-decode..."
+  },
+  "js_be7141cc": {
+    "message": "Ito ay <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">mas madaling</span> intindihin."
+  },
+  "js_5d0ff3d0": {
+    "message": "Mas madali itong intindihin."
+  },
+  "t_f05df71b": {
+    "message": "Ina-upgrade ang"
+  },
+  "t_78db2ae3": {
+    "message": "Ang aming mga AI server ay sumasailalim sa mga upgrade."
+  },
+  "t_bb2129c8": {
+    "message": "I-unlock ang buong"
+  },
+  "t_aefee7cd": {
+    "message": "Kalinawan para sa bawat utak"
+  },
+  "t_c38beca1": {
+    "message": "Nililimitahan ng Firefox ang mga API para sa pagtukoy ng pisikal na monitor. "
+  },
+  "t_f2fe1e79": {
+    "message": "Ang mga halagang\r\n                                    mas mababa sa 1.0 ay maaaring mag-compress ng teksto at sumira sa mga layout."
+  },
+  "t_ca677d53": {
+    "message": "Mga Biswal na Pagsasaayos"
+  },
+  "t_230b4522": {
+    "message": "Board ng mga Tala"
+  },
+  "t_596b54bf": {
+    "message": "Ahente ng Morph AI"
+  },
+  "t_47e79a17": {
+    "message": "Kunin ang iyong libreng key sa"
+  },
+  "t_42372184": {
+    "message": "Ang mga tema ay ini-export bilang"
+  },
+  "t_74fdc8a2": {
+    "message": "Mangyaring ilarawan muna ang iyong morph transformation."
+  },
+  "t_245fd3b9": {
+    "message": "Na-clear ang morphed layout."
+  },
+  "t_172bd753": {
+    "message": "Matagumpay na na-export ang tema!"
+  },
+  "t_4c34daff": {
+    "message": "Nag-timeout ang koneksyon. Hindi maabot ang server."
+  },
+  "t_0dd56117": {
+    "message": "Walang nakitang aktibong tema sa pahinang ito."
+  },
+  "t_cb5c0766": {
+    "message": "Matagumpay na na-export ang library!"
+  },
+  "t_8adb392e": {
+    "message": "Nag-timeout ang koneksyon. Hindi maabot ang server."
+  },
+  "t_ae94e0e4": {
+    "message": "Ang iyong library ng tema ay walang laman."
+  },
+  "t_10a0c40b": {
+    "message": "Matagumpay na na-load ang pasadyang tema!"
+  },
+  "t_9b6007a8": {
+    "message": "Nabigong basahin ang file ng tema."
+  },
+  "t_d4fa051d": {
+    "message": "Nabigo: $1. Mangyaring i-reload ang tab.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "Inilapat: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "Na-restore ang $1 na tema mula sa library!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "Kagustuhan sa Wika"
+  },
+  "t_lang_updated_reload": {
+    "message": "Na-update ang wika. Nagre-reload..."
+  },
+  "t_transformation_failed": {
+    "message": "Nabigo ang pagbabago."
+  },
+  "t_c8a59e71": {
+    "message": "I-dismiss"
+  },
+  "t_7764306b": {
+    "message": "Aktibo ang Maintenance ng Cloud Services"
+  },
+  "t_248228de": {
+    "message": "I-toggle ang Dyslexia Font sa popup"
+  },
+  "t_79a59320": {
+    "message": "Simulan ang App Tour"
+  },
+  "t_533bff5b": {
+    "message": "I-pin ang Sticky Note sa Page (Alt+N)"
+  },
+  "t_f4f70727": {
+    "message": "Mga Setting"
+  },
+  "t_4fd11104": {
+    "message": "Bilog na Spotlight"
+  },
+  "t_0d063af1": {
+    "message": "Pahalang na Ruler 🔒"
+  },
+  "t_60d71580": {
+    "message": "Malinaw na Liwanag"
+  },
+  "t_efe48742": {
+    "message": "Pokus na Amber"
+  },
+  "t_610a09ca": {
+    "message": "Malamig na Cyan"
+  },
+  "t_886f6b9e": {
+    "message": "Nakakarelaks na Berde"
+  },
+  "t_65e8194e": {
+    "message": "Itim na Itim"
+  },
+  "t_7243ed99": {
+    "message": "Hatinggabi na Slate"
+  },
+  "t_ec6d8325": {
+    "message": "Malalim na Kagubatan"
+  },
+  "t_4af435e0": {
+    "message": "Alak na Bampira"
+  },
+  "t_2a7dbdf8": {
+    "message": "Pro na feature"
+  },
+  "t_fc4aec61": {
+    "message": "Buksan sa Reader"
+  },
+  "t_801ab246": {
+    "message": "I-download"
+  },
+  "t_aa3880dc": {
+    "message": "I-download bilang HTML"
+  },
+  "t_e0781e81": {
+    "message": "I-download bilang EPUB"
+  },
+  "t_442ff212": {
+    "message": "I-download bilang DOCX"
+  },
+  "t_6244ee7c": {
+    "message": "Magdagdag ng pasadyang termino nang manu-mano"
+  },
+  "t_6e7d015f": {
+    "message": "I-import ang CSV File"
+  },
+  "t_edbc5415": {
+    "message": "I-export para sa Anki / Quizlet"
+  },
+  "t_46c29f7a": {
+    "message": "I-load ang Tema"
+  },
+  "t_2bd65c5d": {
+    "message": "I-export ang Tema"
+  },
+  "t_c1c433ac": {
+    "message": "Aktibong AI Provider"
+  },
+  "t_90c09393": {
+    "message": "May tuldok"
+  },
+  "t_eb656e41": {
+    "message": "May gitling"
+  },
+  "t_0c99ddee": {
+    "message": "Kulay ng Highlight"
+  },
+  "t_eaf63759": {
+    "message": "Kulay ng Tinta"
+  },
+  "t_a183c9f0": {
+    "message": "Kulay ng Paglaho"
+  },
+  "t_75e7422f": {
+    "message": "Kulay ng Background"
+  },
+  "t_42f9ceea": {
+    "message": "Maghanap sa naka-save na lexicon..."
+  },
+  "t_0e84a8cf": {
+    "message": "Ilagay ang salita o acronym..."
+  },
+  "t_eea6890c": {
+    "message": "Kahulugan / Salin..."
+  },
+  "t_4480cf46": {
+    "message": "Memory trick o study note (opsyonal)..."
+  },
+  "t_d8634fbf": {
+    "message": "hal., Gawing pink na anime style na tema na may mga bilugang card, o gawing retro dark green terminal console..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "Mga Sticky Note"
+  },
+  "t_b097d277": {
+    "message": "Magdagdag ng Salita"
+  },
+  "t_1eeb67ee": {
+    "message": "I-export ang Kasalukuyang Pahina"
+  },
+  "t_b62ded9a": {
+    "message": "Offline ang mga Cloud Service"
+  },
+  "t_263e00eb": {
+    "message": "Mag-sign In / Gumawa ng Account"
+  },
+  "t_7748eb3b": {
+    "message": "NAG-U-UPGRADE"
+  },
+  "t_81a5d20b": {
+    "message": "I-freeze Lahat"
+  },
+  "t_e61146d9": {
+    "message": "Mahinahong Paglaho"
+  },
+  "t_57323916": {
+    "message": "Itigil ang Auto-Play"
+  },
+  "t_f50319ea": {
+    "message": "Buong Proteksyon"
+  },
+  "t_8e13f26d": {
+    "message": "Mabilis na Tanong"
+  },
+  "t_134b26da": {
+    "message": "Nasisiyahan ka ba sa<br><span class=\"ev-si-gradient-text\">EasyView?</span>"
+  },
+  "t_b75bdd9e": {
+    "message": "Ang iyong feedback ay nakakatulong sa amin na mag-improve.<br>Nasisiyahan ka ba sa karanasan?"
+  },
+  "t_396d1ff8": {
+    "message": "Oo, gusto ko!"
+  },
+  "t_7d0cacf3": {
+    "message": "Kailangan ng pagpapabuti"
+  },
+  "t_815142c9": {
+    "message": "Suportahan Kami"
+  },
+  "t_abd9fa39": {
+    "message": "Gusto mo bang<br><span class=\"ev-si-gradient-text\">mag-iwan ng review?</span>"
+  },
+  "t_02991e61": {
+    "message": "Ang mga rating mula sa mga user na tulad mo ang pinakamahusay na paraan upang matulungan ang EasyView na lumago. Isang minuto lang ito!"
+  },
+  "t_db49c1f2": {
+    "message": "I-rate Ngayon"
+  },
+  "t_7a4f0d12": {
+    "message": "Paalalahanan ako mamaya"
+  },
+  "t_fee6c0e9": {
+    "message": "Pribadong Feedback"
+  },
+  "t_74393dde": {
+    "message": "Ano ang maaari naming <span class=\"ev-si-gradient-text\">gawing mas mahusay?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "Sabihin sa amin kung ano ang mali..."
+  },
+  "t_6f97affc": {
+    "message": "Magpadala ng Feedback"
+  },
+  "t_b20871b3": {
+    "message": "Mangyaring ilagay ang iyong feedback"
+  },
+  "t_7b0fee4d": {
+    "message": "Nagpapadala..."
+  },
+  "t_fb631633": {
+    "message": "Salamat sa iyong feedback."
+  },
+  "t_08727add": {
+    "message": "Tingnan ang web sa iyong paraan."
+  },
+  "t_15bbb9d0": {
+    "message": "Website"
+  },
+  "t_c5f29bb3": {
+    "message": "Privacy"
+  },
+  "t_ad5b1a22": {
+    "message": "Tagapagtatag"
+  },
+  "t_db496e03": {
+    "message": "Ang mga personal na key ay lumilikha ng direkta, 100% pribadong koneksyon sa AI. Ang iyong teksto ay hindi kailanman napupunta sa mga server ng EasyView."
+  },
+  "t_387c35b3": {
+    "message": "Ang aming managed server (Premium) ay nagsisilbing maaasahang backup kung walang key o kung nabigo ang iyong key."
+  },
+  "t_98bc5a17": {
+    "message": "Upang protektahan ang mga proprietary algorithm, ang iyong key ay panandaliang idinadaan sa aming secure na server upang mag-authenticate sa Google. Ito ay"
+  },
+  "t_de47f1be": {
+    "message": "naka-store o naka-log."
+  },
+  "t_25e02e7f": {
+    "message": "Aktibo: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ Premium na Miyembro"
+  },
+  "t_df56cfae": {
+    "message": "⭐ Lifetime na Miyembro"
+  },
+  "t_41cbc704": {
+    "message": " araw ang natitira"
+  },
+  "t_b194bd82": {
+    "message": "Hindi kailanman mag-e-expire"
+  },
+  "t_9f830444": {
+    "message": "⭐ Pro:"
+  },
+  "t_61b82be6": {
+    "message": " morph ang natitira"
+  },
+  "t_c20e7ceb": {
+    "message": " libreng morph ang natitira"
+  },
+  "t_d7087930": {
+    "message": " libreng gamit ang natitira"
+  },
+  "t_4bbf11bd": {
+    "message": "Ang mga field ng Termino at Kahulugan ay hindi maaaring iwanang blangko!"
+  },
+  "t_08f09d38": {
+    "message": "Matagumpay na na-update ang mga detalye ng salita!"
+  },
+  "t_32001b52": {
+    "message": "Mangyaring maglagay ng salita at ang kahulugan nito."
+  },
+  "t_b8115861": {
+    "message": "Ang iyong Study Notebook ay walang laman. Mag-bookmark muna ng ilang salita sa mga webpage!"
+  },
+  "t_7114113b": {
+    "message": "Mangyaring mag-sign in muna sa iyong EasyView account upang i-verify ang iyong mga Pro feature!"
+  },
+  "t_093f9fa0": {
+    "message": "Nawawala ang iyong session token. Mangyaring mag-sign in muli sa easyview.in upang ibalik ang access."
+  },
+  "t_0e065596": {
+    "message": "Ito ay isang beripikadong feature para sa Premium lamang. Mag-upgrade sa Pro upang i-unlock!"
+  },
+  "t_c792a645": {
+    "message": "Nabigong kumonekta sa secure na export server. Subukan muli sa ilang sandali."
+  },
+  "t_8d1a2675": {
+    "message": "Hindi matukoy ang anumang wastong item ng bokabularyo sa CSV na iyon."
+  },
+  "t_a613ed90": {
+    "message": "Pagkabigo sa pagsulat sa storage ng browser! Maaaring masyadong malaki ang file para sa lokal na cache."
+  },
+  "t_8efe87ab": {
+    "message": "Nabigo ang browser na basahin ang iyong lokal na file."
+  },
+  "t_50bf63aa": {
+    "message": "Sigurado ka bang gusto mong burahin ang lahat ng naka-save na salita mula sa iyong notebook?"
+  },
+  "t_ff252710": {
+    "message": "Tapos na ang pag-import: Ang lahat ng $1 entry ay nasa iyong Notebook na.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "Nabigong i-parse ang CSV: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "Ang \"$1\" ay nasa iyong notebook na. Gusto mo bang magdagdag ng isa pang kahulugan para dito?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "Matagumpay na naka-logout"
+  },
+  "t_dbd35100": {
+    "message": "Gumagana na ang morph engine..."
+  },
+  "t_2de4e55d": {
+    "message": "Na-clear ang morphed layout"
+  },
+  "t_1bb9196d": {
+    "message": "Na-morph: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "Nabigo ang pag-morph: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "Na-trigger: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 na mga item ang na-organisa",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "Permanenteng mabubura nito ang note na ito sa lahat ng naka-synchronize na device. Magpatuloy?"
+  },
+  "t_25abf697": {
+    "message": "Ang pag-export ng EPUB ay nangangailangan ng JSZip."
+  },
+  "t_71609188": {
+    "message": "Ang pag-export ng DOCX ay nangangailangan ng html-docx-js."
+  },
+  "t_e1499766": {
+    "message": "Walang na-load na file."
+  },
+  "t_023b3355": {
+    "message": "Na-activate ang Privacy Shield"
+  },
+  "t_9483a5da": {
+    "message": "Naka-deactivate ang Privacy Shield"
+  },
+  "t_a04202db": {
+    "message": "Pansamantalang nakatago ang mga highlight"
+  },
+  "t_b3d6b264": {
+    "message": "Na-restore ang mga highlight"
+  },
+  "t_7485c55e": {
+    "message": "Maligayang pagdating sa EasyView! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "Ang iyong AI-powered cognitive bridge para sa mas madaling pagbabasa sa web. Mag-tour tayo nang mabilis sa mga feature."
+  },
+  "t_3a1fe637": {
+    "message": "Decoder ng Jargon 📖"
+  },
+  "t_89cec86e": {
+    "message": "Pinapadali ang mga kumplikadong terminolohiya sa anumang webpage."
+  },
+  "t_f8aefae7": {
+    "message": "Pananggalang sa Privacy 🔐"
+  },
+  "t_aa860f86": {
+    "message": "Nilalabo ang sensitibong data at may kasamang Focus Ruler para sa pagbabasang walang abala."
+  },
+  "t_0681a3b6": {
+    "message": "Pananggalang sa Pandama 🛡️"
+  },
+  "t_6118b864": {
+    "message": "I-freeze ang mga nakakaabalang GIF at animation."
+  },
+  "t_12ec6fc6": {
+    "message": "Modo sa Pagbabasa para sa Dyslexia 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "Mga na-optimize na font at spacing para sa mas madaling pagbabasa."
+  },
+  "t_18d9ce63": {
+    "message": "Teksto-sa-Pananalita 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "Makinig sa anumang webpage na may pag-highlight ng salita."
+  },
+  "t_0019a700": {
+    "message": "Makina ng Morph ✨"
+  },
+  "t_47c2535a": {
+    "message": "Gumamit ng AI upang baguhin ang anumang website sa isang pasadyang tema o layout."
+  },
+  "t_2ed2f639": {
+    "message": "Mga Sticky Note 📝"
+  },
+  "t_75025b5f": {
+    "message": "I-pin ang mga lumulutang na sticky note sa anumang webpage para i-save ang mahahalagang impormasyon (Alt+N)."
+  },
+  "t_3ff2d7cc": {
+    "message": "Konpigurasyon ng API ⚙️"
+  },
+  "t_0754e836": {
+    "message": "Mag-sign in upang i-sync ang iyong quota, o i-set up ang sarili mong libreng Gemini API key dito."
+  },
+  "t_7b6a2059": {
+    "message": "Hakbang $1 ng $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "Magsimula!"
+  },
+  "t_10ac3d04": {
+    "message": "Susunod"
+  },
+  "t_5c7a52b8": {
+    "message": "Pindutin ang "
+  },
+  "t_a1b2c3d4": {
+    "message": " anumang oras upang manu-manong gamitin ang Auto-Protect shield."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ Naka-activate ang Privacy Shield"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 Naka-deactivate ang Privacy Shield"
+  },
+  "js_9b3e1a": {
+    "message": "Sinusuri ng EasyView ang layout at nag-mo-morph..."
+  },
+  "js_4c8d2f": {
+    "message": "Bigyang-kahulugan"
+  },
+  "js_7a1e9b": {
+    "message": "I-decode"
+  },
+  "js_2d5f8c": {
+    "message": "I-simplify"
+  },
+  "js_6e3a4d": {
+    "message": "Bookmark"
+  },
+  "js_1f9b7c": {
+    "message": "I-highlight"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "Sinusuri ang DOM Tree..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "Magulong Layout..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "Pinapatag ang istruktura..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[SOBRANG_INGAY]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "Inaalis ang mga distraksyon..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "Mga Komplikadong Node"
+  },
+  "js_ldr_m4_cl": {
+    "message": "Inilalapat ang mga panuntunan sa Dyslexia..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "Ina-render ang EasyView UI..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "Ini-scan ang text block..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "Masyadong maraming salita..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "Kinukuha ang Pangunahing Kahulugan..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "Kargang Kognitibo"
+  },
+  "js_ldr_s3_cl": {
+    "message": "Gumagawa ng mas simpleng Ingles..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "Verbose na AI..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "Inilalapat ang readability..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "Pinapakinis ang output..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "Isinasalin ang jargon..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "Error: Kalituhan"
+  },
+  "js_ldr_j2_cl": {
+    "message": "Hinahanap ang mga Kahulugan..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[SOBRANG_INGAY]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "Pinapasimple ang Konteksto..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "Mga Hindi Kilalang Termino"
+  },
+  "js_ldr_j4_cl": {
+    "message": "Inilalapat ang kalinawan..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "Ifino-format ang mga resulta..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "Malalim na pagsusuri..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "Tinatapos ang AI logic..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "Pinapatakbo ang AI..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "Halos Tapos na..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "Mabigat na Trapiko..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "Medyo matagal ito..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "Gumagana pa rin..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "Sandali lang..."
+  },
+  "t_b7012ab9": {
+    "message": "Morph"
+  },
+  "t_c5e8b1d9": {
+    "message": "Pro na Font"
+  },
+  "t_c8f2ba19": {
+    "message": "Naka-enable ang Private Content Blurring"
+  },
+  "t_e2dae61a": {
+    "message": "Naka-disable ang Private Content Blurring"
+  },
+  "t_c74de318": {
+    "message": "Naka-enable ang Auto-Protect sa Screen Share"
+  },
+  "t_a5fd56f4": {
+    "message": "Naka-disable ang Auto-Protect sa Screen Share"
+  },
+  "t_ab8d1f2a": {
+    "message": "Na-enable ang flashlight mode"
+  },
+  "t_2bf5cc98": {
+    "message": "Naka-disable ang flashlight mode"
+  },
+  "t_513bb93f": {
+    "message": "Bionic na Pagbabasa"
+  },
+  "t_5a8b2c1d": {
+    "message": "Narito ang preview ng iyong mga setting sa pagbabasa."
+  },
+  "t_ac1d4e5f": {
+    "message": "Wala"
+  },
+  "t_b2e3f4a1": {
+    "message": "Malapad"
+  },
+  "t_c3f4a5b2": {
+    "message": "Sobrang Lapad"
+  },
+  "t_d1a3c901": {
+    "message": "I-click"
+  },
+  "t_b4f2e891": {
+    "message": "I-pin sa Elemento"
+  },
+  "t_c9a1b302": {
+    "message": "Espasyo"
+  },
+  "t_f6d4e203": {
+    "message": "Pangkalahatang Tala"
+  },
+  "t_e2b3f104": {
+    "message": "Esc"
+  },
+  "t_a7c0d905": {
+    "message": "Kanselahin"
+  },
+  "t_e1b2c301": {
+    "message": "Pahinang ito lamang"
+  },
+  "t_f7a3b402": {
+    "message": "Ang site na ito"
+  },
+  "t_a8c4d503": {
+    "message": "Lahat ng site (Pangkalahatan)"
+  },
+  "t_b9d5e604": {
+    "message": "Itago hanggang sa mag-reload"
+  },
+  "t_c0e6f705": {
+    "message": "I-pin ang note sa elemento"
+  },
+  "t_d1f7a806": {
+    "message": "Baguhin ang kulay ng tala"
+  },
+  "t_e2a8b907": {
+    "message": "I-collapse/i-expand ang note"
+  },
+  "t_f3b9c008": {
+    "message": "Kopyahin ang nilalaman ng tala"
+  },
+  "t_a4c0d109": {
+    "message": "Higit pang mga aksyon"
+  },
+  "t_b5d1e200": {
+    "message": "Burahin ang talang ito"
+  },
+  "t_e87033a2": {
+    "message": "Alt + X"
+  },
+  "t_4120201a": {
+    "message": "Aktibo ang Libreng Trial"
+  },
+  "t_6ed40ffb": {
+    "message": "I-sync ang mga setting sa lahat ng device"
+  },
+  "t_f8b8a5fd": {
+    "message": "Mas mataas na libreng quota sa paggamit"
+  },
+  "t_440b106d": {
+    "message": "Access sa mga susunod na tampok na Pro"
+  },
+  "t_3a99076c": {
+    "message": "Limitasyon ng Premium"
+  },
+  "t_545f6c2f": {
+    "message": "Walang limitasyon"
+  },
+  "t_ad23f4a0": {
+    "message": "Mga Spatial na Tala"
+  },
+  "t_04f2f045": {
+    "message": "Matagumpay mong na-deploy ang lahat ng 15 Free Tier note sa buong web. Mag-upgrade sa EasyView Premium upang i-unlock ang walang hanggang spatial memory at mga pasadyang kulay."
+  },
+  "t_cf874b99": {
+    "message": "I-unlock ang Premium"
+  },
+  "t_a6d36e2f": {
+    "message": "Lahat ng Lokal na Accessibility Controls (Aktibo)"
+  },
+  "t_b0b69bc3": {
+    "message": "Text-to-Speech Engine (Aktibo)"
+  },
+  "t_cc96c21a": {
+    "message": "Mga Tampok ng Cloud AI (Offline)"
+  },
+  "t_7af6f6e5": {
+    "message": "Naiintindihan Ko"
+  },
+  "t_9bc7102e": {
+    "message": "Gumawa ng libreng EasyView account upang subaybayan ang iyong quota at i-unlock ang Jargon Decoder."
+  },
+  "t_ab7512fd": {
+    "message": "Nawawala ang iyong session token. Mangyaring mag-sign in muli sa easyview.in upang ibalik ang access."
+  },
+  "t_1cd7820a": {
+    "message": "PRO ACCESS LAMANG"
+  },
+  "t_8eb14032": {
+    "message": "Jargon Decoder<br><span class=\"ev-si-gradient-text\">Naabot na ang Quota</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "WALA NA SA QUOTA"
+  },
+  "t_5ae983dc": {
+    "message": "Nagamit mo na ang lahat ng <strong>5 libreng decode</strong> ngayong buwan. I-unlock ang walang limitasyong access sa loob ng ilang segundo."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> Mag-Pro — Walang limitasyong decode</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> Gamitin ang sarili mong API key</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 Idagdag ang API Key sa Mga Setting</button>"
+  },
+  "t_9be4129a": {
+    "message": "Exporter ng Study Deck<br><span class=\"ev-si-gradient-text\">Pro Automation</span>"
+  },
+  "t_fac34185": {
+    "message": "I-export agad ang iyong buong pasadyang Study Notebook nang direkta sa <strong>Anki</strong> at <strong>Quizlet</strong>."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Iwasan ang manu-manong pag-type</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> RFC-4180 flashcard compiler</div>"
+  },
+  "t_da12c30b": {
+    "message": "Pro na Access"
+  },
+  "t_4a9b2c01": {
+    "message": "Ang tampok na ito"
+  },
+  "t_3be78c01": {
+    "message": "Ang font na ito para sa Pagbabasa ng Dyslexia"
+  },
+  "t_0ad4b971": {
+    "message": "Ang Biswal na font na ito"
+  },
+  "t_9af42be8": {
+    "message": "Ang premium Export font na ito"
+  },
+  "t_cbae8349": {
+    "message": "Mag-upgrade upang i-unlock ang lahat ng feature sa accessibility at mga power tool."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Advanced na Accessibility</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Lahat ng mga susunod na update</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ Mag-upgrade sa Pro"
+  },
+  "t_5ef4c1a2": {
+    "message": "Siguro Mamaya"
+  },
+  "t_3b7a5e82": {
+    "message": ", ngunit maaaring pansamantalang hindi available ang mga tampok ng AI."
+  },
+  "t_c91d8e12": {
+    "message": "Pangkalahatan"
+  },
+  "t_b42f3a9d": {
+    "message": "Kahulugan"
+  },
+  "t_f1d4a8e6": {
+    "message": "Diksyonaryo"
+  },
+  "t_e398c71f": {
+    "message": "Pasadya"
+  },
+  "t_a72df9e5": {
+    "message": "Medikal"
+  },
+  "t_d8f2c61a": {
+    "message": "Legal"
+  },
+  "t_b3e1f5d2": {
+    "message": "Pinansyal"
+  },
+  "t_c25d81f9": {
+    "message": "Teknolohiya"
+  },
+  "t_e1b3a4f6": {
+    "message": "Akademiko"
+  },
+  "t_d5f9b4c1": {
+    "message": "Termino"
+  },
+  "t_f7a2e8ea": {
+    "message": "Kategorya"
+  },
+  "t_e3b1c6d9": {
+    "message": "Pinapayak na Kahulugan"
+  },
+  "t_a9d4e5f2": {
+    "message": "Mga Study Note / Konteksto"
+  },
+  "t_b4c5d6e7": {
+    "message": "Kanselahin"
+  },
+  "t_c8f2a1b4": {
+    "message": "I-save ang mga Pagbabago"
+  },
+  "t_8c17b5e6": {
+    "message": "Nawawala ang iyong session token. Mangyaring mag-sign in muli sa easyview.in upang ibalik ang access."
+  },
+  "t_a43dc219": {
+    "message": "Gumawa ng libreng EasyView account upang subaybayan ang iyong quota sa paggamit at i-unlock ang AI Morph Engine."
+  },
+  "t_54c523fe": {
+    "message": "🎉 Perpekto! Matagumpay na na-import ang $1 bagong study card."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 Perpekto! Na-import ang $1 bagong card. (Nilaktawan ang $2 duplicate.)"
+  },
+  "t_14894d12": {
+    "message": "Export ng Tema"
+  },
+  "t_f27a2629": {
+    "message": "Backup ng Library ng Tema"
+  },
+  "t_9ad85e17": {
+    "message": "Mode ng Reading Ruler"
+  },
+  "t_b9d4e7a5": {
+    "message": "Mga advanced na mode ng Sensory Shield"
+  },
+  "t_94f4f7e4": {
+    "message": "Pinapa-parse ang DOCX...",
+    "description": "Status kapag nagpa-parse ng DOCX sa reader"
+  },
+  "t_120adfc1": {
+    "message": "Pinapa-parse ang EPUB...",
+    "description": "Status kapag nagpa-parse ng EPUB sa reader"
+  },
+  "t_5d2a45b8": {
+    "message": "Ang Reading Ruler Mode ay eksklusibo para sa mga Pro subscription.",
+    "description": "Alert kapag ang non-pro user ay nag-access sa reading ruler"
+  },
+  "t_c1f29623": {
+    "message": "I-edit ang Buong Card",
+    "description": "Tooltip para i-edit ang buong card sa notebook"
+  },
+  "t_1063e38c": {
+    "message": "Alisin",
+    "description": "Tooltip para alisin ang card mula sa notebook"
   },
   "t_ccca2ddf": {
-    "message": "EasyView Reader"
+    "message": "Mambabasa ng EasyView"
   },
   "t_8524de96": {
-    "message": "Loading..."
+    "message": "Naglo-load..."
   },
   "t_25e8f2fd": {
-    "message": "Please wait..."
+    "message": "Mangyaring maghintay..."
   },
   "t_ec9d785d": {
     "message": "1.5x"
@@ -759,10 +2336,10 @@
     "message": "Lexend"
   },
   "t_16d90a0b": {
-    "message": "Atkinson Hyperlegible"
+    "message": "Atkinson Hayperlehibol"
   },
   "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
+    "message": "Segoe UI (Default ng Windows)"
   },
   "t_f7cee5ea": {
     "message": "Calibri"
@@ -777,52 +2354,52 @@
     "message": "Cambria"
   },
   "t_c3d9d4bf": {
-    "message": "Constantia"
+    "message": "Konstantia"
   },
   "t_5d1a5b35": {
-    "message": "Palatino Linotype"
+    "message": "Palatino Laynotayp"
   },
   "t_4dc386b6": {
     "message": "Book Antiqua"
   },
   "t_03c461f6": {
-    "message": "Franklin Gothic"
+    "message": "Franklin Gotiko"
   },
   "t_7b1ee3b6": {
-    "message": "Century Gothic"
+    "message": "Sentury Gotiko"
   },
   "t_a3293302": {
-    "message": "Gill Sans"
+    "message": "Gil Sans"
   },
   "t_eb726908": {
-    "message": "Sitka Text"
+    "message": "Sitka na Teksto"
   },
   "t_b5bdee2c": {
     "message": "Sylfaen"
   },
   "t_1ec05249": {
-    "message": "Microsoft Sans Serif"
+    "message": "Maykrosoft Sans Serip"
   },
   "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
+    "message": "Segoy UI Semibold"
   },
   "t_16507cdd": {
     "message": "Consolas"
   },
   "t_391c5954": {
-    "message": "Lucida Console"
+    "message": "Lusida Konsol"
   },
   "t_9879efdf": {
-    "message": "Lucida Sans Typewriter"
+    "message": "Lusida Sans Tayprayter"
   },
   "t_21f59b54": {
     "message": "Impact"
   },
   "t_94a7bb97": {
-    "message": "Arial Black"
+    "message": "Arial na Itim"
   },
   "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
+    "message": "Koperpleyt Gotiko"
   },
   "t_40885309": {
     "message": "Berlin Sans FB"
@@ -834,25 +2411,70 @@
     "message": "Ink Free"
   },
   "t_fa233799": {
-    "message": "Segoe Script"
+    "message": "Segoe na Script"
   },
   "t_2f7bc407": {
-    "message": "Segoe Print"
+    "message": "Segoe na Print"
   },
   "t_0095a9fa": {
-    "message": "Export"
+    "message": "I-export"
   },
   "t_520d0db3": {
     "message": "Format"
   },
   "t_5956a437": {
-    "message": "TXT"
+    "message": "TEKSTO"
   },
   "t_1351017a": {
     "message": "Filename"
   },
+  "t_d4c3c15b": {
+    "message": "Walang na-load na file"
+  },
+  "t_0ca5a078": {
+    "message": "Mangyaring gamitin ang tab na Converter para mag-upload ng file."
+  },
+  "t_c9857e16": {
+    "message": "Hindi suportadong uri ng file."
+  },
+  "t_6b447b91": {
+    "message": "Error sa pag-parse ng file: "
+  },
+  "t_7f4588be": {
+    "message": "EPUB"
+  },
+  "t_12dc65c2": {
+    "message": "I-toggle ang Maliwanag/Madilim"
+  },
+  "t_d3d2e617": {
+    "message": "Isara"
+  },
+  "t_6e8cfcb7": {
+    "message": "Secure na Pag-export sa Server (Premium)"
+  },
+  "t_2f9df658": {
+    "message": "I-detach at palutangin ang Workspace sa itaas ng lahat ng window"
+  },
+  "t_72d6d7a1": {
+    "message": "I-import"
+  },
+  "t_de93d5fd": {
+    "message": "I-export ang mga Tala"
+  },
+  "t_a1aacca9": {
+    "message": "Float OS"
+  },
+  "t_ac0b844f": {
+    "message": "Pangkalahatang mga Tala"
+  },
+  "t_15866f1d": {
+    "message": "Mga Tala na Partikular sa Site"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
+  },
   "t_6af8212e": {
-    "message": "EasyView Notes Board"
+    "message": "Lupon ng mga Tala ng Madaling Pagtingin"
   },
   "t_d16da0f5": {
     "message": "🌎"
@@ -860,61 +2482,168 @@
   "t_6df173ff": {
     "message": "📍"
   },
-  "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
+  "t_22f58a00": {
+    "message": "🌎 Pandaigdigang Tala"
   },
-  "js_24833610": {
-    "message": "Saved"
+  "t_5be8bbeb": {
+    "message": "🌐 Tala sa Site"
   },
-  "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+  "t_59a56663": {
+    "message": "📍 Tala sa Pahina"
   },
-  "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+  "t_c1843696": {
+    "message": "Bine-verify ang Integrity Token..."
   },
-  "js_138703dd": {
-    "message": "No Theme on Page"
+  "t_58038ee4": {
+    "message": "Ngayon lang"
   },
-  "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+  "t_e254e1a1": {
+    "message": "$1m ang nakalipas",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+  "t_121d4d02": {
+    "message": "$1h ang nakalipas",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_e541190e": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
+  "t_19d2b280": {
+    "message": "$1d ang nakalipas",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_d2e8056c": {
-    "message": "<path d=\"M9.88 9.88a3 3 0 1 0 4.24 4.24\"/><path d=\"M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68\"/><path d=\"M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61\"/><line x1=\"2\" x2=\"22\" y1=\"2\" y2=\"22\"/>"
+  "t_d3d4311c": {
+    "message": "I-drag ang Tala"
   },
-  "js_e2cb885d": {
-    "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
+  "t_7b32ea16": {
+    "message": "Lumipat sa $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_8b86136c": {
-    "message": "Ready to simplify"
+  "t_11916b28": {
+    "message": "Saklaw ng paglalagay"
   },
-  "js_a18366b2": {
-    "message": "Dark"
+  "t_5463fe67": {
+    "message": "Paleta ng Kulay"
   },
-  "js_9914a0ce": {
-    "message": "Light"
+  "t_d116d454": {
+    "message": "I-collapse ang Tala"
   },
-  "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+  "t_be9ba0e5": {
+    "message": "Kopyahin ang Teksto"
   },
-  "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+  "t_28471624": {
+    "message": "Higit pang mga aksyon"
   },
-  "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+  "t_90e467df": {
+    "message": "Isara ang Tala"
   },
-  "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+  "t_34494920": {
+    "message": "I-type ang iyong tala dito..."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_bdda0b60": {
+    "message": "Ano ang iniisip mo..."
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_8689de27": {
+    "message": "Available kahit saan"
+  },
+  "t_c0cf9810": {
+    "message": "Mag-teleport pabalik sa pinagmulang pahina"
+  },
+  "t_24a23176": {
+    "message": "Orihinal na Konteksto"
+  },
+  "t_4c1c1e76": {
+    "message": "Pag-import ng Notebook"
+  },
+  "t_2736f644": {
+    "message": "Walang putol na pagsamahin ang iyong mga external study deck at listahan ng bokabularyo sa iyong EasyView ecosystem."
+  },
+  "t_ca4f038f": {
+    "message": "Mga Kinakailangang Column"
+  },
+  "t_7277de5f": {
+    "message": "Kahulugan"
+  },
+  "t_ce591bfa": {
+    "message": "Mga Opsyonal na Column"
+  },
+  "t_f4c6f851": {
+    "message": "Mga Tala"
+  },
+  "t_c1fd81a6": {
+    "message": "Pumili o I-drag ang CSV File"
+  },
+  "t_5c426600": {
+    "message": "Awtomatikong sinasala ang mga duplicate at umiiral na salita"
+  },
+  "t_76e7183d": {
+    "message": "Matagumpay ang Pag-import!"
+  },
+  "t_3e17e02d": {
+    "message": "Na-update na ang iyong bokabularyo."
+  },
+  "t_3148d309": {
+    "message": "Isara ang Tab"
+  },
+  "t_0e412fa1": {
+    "message": "Magaganap ang selebrasyon kapag bumalik ka sa popup"
+  },
+  "t_d29f6e6b": {
+    "message": "Nabigong Mag-import"
+  },
+  "t_e04efbcb": {
+    "message": "Status ng Notebook"
+  },
+  "t_ed732761": {
+    "message": "Pag-import ng Morph Themes"
+  },
+  "t_e44db711": {
+    "message": "Ligtas na i-import ang iyong custom na makina ng Morph library nang direkta sa EasyView."
+  },
+  "t_c0bb7d43": {
+    "message": "Pumili o I-drag ang JSON File"
+  },
+  "t_36e9583e": {
+    "message": "Ina-import ang iyong mga dating na-export na layout ng tema."
+  },
+  "t_21630184": {
+    "message": "Naibalik na ang mga Tema!"
+  },
+  "t_d0c1ec75": {
+    "message": "Matagumpay na na-install ang iyong mga morph template."
+  },
+  "t_cd27a5c0": {
+    "message": "EasyView — Mambabasa ng Nilalaman"
+  },
+  "t_b171ab1f": {
+    "message": "Maligayang pagdating sa Tagabasa"
+  },
+  "t_4e07c284": {
+    "message": "I-upload ang iyong mga dokumento rito para basahin ang mga ito gamit ang customized na typography at mga advanced na tool sa accessibility."
+  },
+  "t_004621c0": {
+    "message": "Sumusuporta sa .docx, .epub, at .txt"
+  },
+  "t_23bb27a0": {
+    "message": "Ina-initialize ang document parser..."
+  },
+  "t_e1d5f16c": {
+    "message": "Ino-optimize ang mga dokumentong DOCX para sa pagbabasa..."
+  },
+  "t_0e55c5d0": {
+    "message": "Pinoproseso ang istruktura ng mga file na EPUB..."
   }
 }

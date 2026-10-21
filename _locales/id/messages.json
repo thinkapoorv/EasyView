@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "EasyView — Kejelasan untuk Setiap Otak"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "Tampilan Mudah"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "Ubah situs web apa pun secara instan dengan perintah AI atau sekali klik. Lihat web sesuai keinginan Anda."
+  },
+  "t_68ba0232": {
+    "message": "Mode disleksia diaktifkan"
+  },
+  "t_85f47a25": {
+    "message": "Mode disleksia dinonaktifkan"
+  },
+  "t_1cc1b64d": {
+    "message": "Tidak cukup konten untuk dianalisis"
+  },
+  "t_cebe6412": {
+    "message": "Tidak ada istilah kompleks ditemukan"
+  },
+  "t_b964aa0f": {
+    "message": "Kesalahan saat menganalisis konten halaman"
+  },
+  "t_956c104e": {
+    "message": "Memori halaman dibersihkan"
+  },
+  "t_1f4b0f3e": {
+    "message": "Glosarium dibersihkan"
+  },
+  "t_4bfeec37": {
+    "message": "Tidak ada istilah rumit yang ditemukan dalam pilihan"
+  },
+  "t_1b5e8531": {
+    "message": "Tidak ada istilah rumit yang ditemukan dalam pilihan"
+  },
+  "t_a1f781ec": {
+    "message": "Kesalahan mendekode pilihan"
+  },
+  "t_7aae8122": {
+    "message": "Sorotan pilihan dihapus"
+  },
+  "t_58762fd6": {
+    "message": "Mohon pilih satu kata atau frasa pendek untuk didefinisikan."
+  },
+  "t_6838b119": {
+    "message": "Kesalahan jaringan saat mencari definisi."
+  },
+  "t_ea3ca1b5": {
+    "message": "Mendekode $1 istilah (dari cache)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "Mendekode $1 istilah (cache)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "Anda telah menggunakan semua penggunaan Dekoder Jargon gratis bulan ini. Tingkatkan ke Pro untuk akses tak terbatas."
+  },
+  "t_cb3c5d3a": {
+    "message": "Mendekode $1 istilah di $2 kategori",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "Menyoroti otomatis $1 contoh istilah kosakata Anda yang didekode",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "Memulihkan $1 definisi jargon yang disimpan$2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "Anda telah menggunakan semua penggunaan Dekoder Jargon gratis bulan ini. Tingkatkan ke Pro untuk akses tak terbatas."
+  },
+  "t_0b841c82": {
+    "message": "Sudah ada di Buku Catatan!"
+  },
+  "t_8901f3ab": {
+    "message": "Disimpan ke Buku Catatan!"
+  },
+  "t_eb8f5242": {
+    "message": "Kesalahan menyimpan ke Buku Catatan"
+  },
+  "t_bd15702b": {
+    "message": "Perisai Sensorik diaktifkan"
+  },
+  "t_c28f3265": {
+    "message": "Perisai Sensorik dinonaktifkan"
+  },
+  "t_3f8910d9": {
+    "message": "TAMPILAN MUDAH"
+  },
+  "t_8aafa613": {
+    "message": "Tidak dapat menyederhanakan teks ini"
+  },
+  "t_79d2dc85": {
+    "message": "Tidak dapat menyederhanakan teks ini"
+  },
+  "t_99684ba5": {
+    "message": "Kesalahan menyederhanakan teks"
+  },
+  "t_f4362bde": {
+    "message": "Disalin ke papan klip!"
+  },
+  "t_af07ef4b": {
+    "message": "Gagal menyalin"
+  },
+  "t_94e4d537": {
+    "message": "Teks diganti pada halaman"
+  },
+  "t_14a04b67": {
+    "message": "Memori penyederhanaan dihapus"
+  },
+  "t_c444ff21": {
+    "message": "Teks asli dipulihkan sementara"
+  },
+  "t_55f1db14": {
+    "message": "Anda telah menggunakan semua penggunaan gratis bulan ini. Tingkatkan ke Pro untuk akses tak terbatas."
+  },
+  "t_fde4e3f0": {
+    "message": "Memulihkan $1 penyederhanaan yang disimpan di halaman ini",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "Penyederhanaan yang dimuat secara dinamis dipulihkan otomatis!"
+  },
+  "t_dfa22e52": {
+    "message": "Text-to-Speech diaktifkan"
+  },
+  "t_ca153ad0": {
+    "message": "Text-to-Speech dinonaktifkan"
+  },
+  "t_dadbff09": {
+    "message": "Mohon aktifkan Teks-ke-Ucapan terlebih dahulu"
+  },
+  "t_47071c61": {
+    "message": "Melanjutkan..."
+  },
+  "t_5516c48d": {
+    "message": "Tidak ada konten yang dapat dibaca ditemukan di halaman ini"
+  },
+  "t_c57f25c9": {
+    "message": "Tidak ada konten yang dapat dibaca ditemukan"
+  },
+  "t_2516997e": {
+    "message": "Membaca selesai"
+  },
+  "t_d3069aea": {
+    "message": "Teks-ke-Ucapan tidak didukung di peramban ini"
+  },
+  "t_53e6b8c6": {
+    "message": "Mohon pilih teks terlebih dahulu"
+  },
+  "t_e932d0f7": {
+    "message": "Membaca pilihan..."
+  },
+  "t_1c50528d": {
+    "message": "Membaca selesai"
+  },
+  "t_594778a2": {
+    "message": "Dijeda"
+  },
+  "t_4ded5f77": {
+    "message": "Suara dihentikan"
+  },
+  "t_0a74758c": {
+    "message": "✨ Didukung oleh Kunci Pribadi"
+  },
+  "t_2fceddad": {
+    "message": "✨ Tanpa Batas"
+  },
+  "t_97627d80": {
+    "message": "✨ Didukung oleh Kunci Pribadi"
+  },
+  "t_fd7d5888": {
+    "message": "Kelola Langganan"
+  },
+  "t_df4657a5": {
+    "message": "Anggota Gratis"
+  },
+  "t_22dfb2ec": {
+    "message": "Pengguna Tamu"
+  },
+  "t_bd9f2460": {
+    "message": "Akun Gratis"
+  },
+  "t_f5adda31": {
+    "message": "Masuk / Daftar"
+  },
+  "t_d2439201": {
+    "message": "✨ Tanpa Batas"
+  },
+  "t_164442b7": {
+    "message": "Memanaskan Mesin Konverter..."
+  },
+  "t_1e7c3002": {
+    "message": "Siap untuk mengurai file."
+  },
+  "t_d30f78df": {
+    "message": "Mode Gelap"
+  },
+  "t_6c68d8ce": {
+    "message": "Mode Terang"
+  },
+  "t_fcb68c2b": {
+    "message": "Tidak ada catatan tempel ditemukan. Tidak ada yang bisa diekspor!"
+  },
+  "t_2b75b2d9": {
+    "message": "Token sesi Anda hilang. Harap masuk ke easyview.in lagi untuk memulihkan akses."
+  },
+  "t_291a4e34": {
+    "message": "Perutean server aman gagal. Periksa koneksi Anda."
+  },
+  "t_2dcf62b3": {
+    "message": "Tidak ada catatan yang hilang terdeteksi. Ruang kerja sudah diperbarui."
+  },
+  "t_951bf3ae": {
+    "message": "Kegagalan dekripsi: File tidak sesuai dengan batasan EasyView."
+  },
+  "t_817a4ba0": {
+    "message": "API PiP tidak didukung. Mohon perbarui Chrome."
+  },
+  "t_e8aa6e9a": {
+    "message": "Gagal menginisialisasi mesin PiP: "
+  },
+  "t_9feed9d5": {
+    "message": "Berhasil mendekripsi dan menyuntikkan $1 catatan baru.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "BETA"
+  },
+  "t_c289adbe": {
+    "message": "Dukung Kami"
+  },
+  "t_60d5b12a": {
+    "message": "Ulas Kami"
+  },
+  "js_eb82de4c": {
+    "message": "Warna Kustom"
+  },
+  "js_8caef32b": {
+    "message": "Atur Ulang/Hapus (Pilih teks & klik, atau klik dua kali sorotan secara manual)"
+  },
+  "t_823aeb91": {
+    "message": "Ruang Kerja EasyView"
+  },
+  "t_fc42ed23": {
+    "message": "Tidak ada catatan global yang mengambang di ruang kerja Anda."
+  },
+  "t_12d7c58a": {
+    "message": "Tekan Spasi saat kursor Catatan Tempel aktif untuk membuat satu catatan."
+  },
+  "t_ab983c11": {
+    "message": "Tidak ada catatan khusus situs yang ditemukan di sini."
+  },
+  "t_e22709e9": {
+    "message": "Klik pada elemen fisik di situs web mana pun untuk menambatkan catatan yang ditargetkan."
+  },
+  "t_34bdba45": {
+    "message": "Langkah"
+  },
+  "t_9b2d88a1": {
+    "message": "dari"
+  },
+  "t_8f44d852": {
+    "message": "Mulai!"
+  },
+  "t_b45c2f91": {
+    "message": "Buka Kunci Ekspor Ruang Kerja"
+  },
+  "t_88f91dc1": {
+    "message": "Merender dan mengekspor seluruh catatan Ruang Kerja Global Anda dengan aman memerlukan lisensi Pro terverifikasi. Tingkatkan untuk membuka fitur ini secara permanen."
+  },
+  "t_134dff88": {
+    "message": "Mungkin Nanti"
+  },
+  "t_5b8c9d11": {
+    "message": "Tingkatkan ke Pro"
+  },
+  "t_792bd8c9": {
+    "message": "Ruang Kerja Mengapung!"
+  },
+  "t_e39f7dc2": {
+    "message": "Catatan tempel Anda sekarang melayang di atas desktop OS Anda."
+  },
+  "t_c83d6ec9": {
+    "message": "Pasang Kembali Ruang Kerja"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Menyaring Kebisingan...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Jalankan di latar belakang\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimalkan</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Hentikan Mesin</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "Pembuatan dihentikan"
+  },
+  "t_removed_from_notebook": {
+    "message": "Dihapus dari Buku Catatan"
+  },
+  "t_d1c58470": {
+    "message": "Klik dua kali untuk menghapus sorotan"
+  },
+  "t_d4fdfb03": {
+    "message": "Masuk ke EasyView untuk mendapatkan $1 penggunaan gratis/bulan, atau tambahkan kunci API Anda sendiri di Pengaturan.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "Memuat hasil tersimpan..."
+  },
+  "t_3a99733d": {
+    "message": "Menginisialisasi Dekoder Jargon..."
+  },
+  "t_b6dc9fc9": {
+    "message": "Buat akun EasyView gratis untuk mendapatkan $1 dekode AI gratis per bulan dan melacak kuota Anda.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "Buat akun EasyView gratis untuk mendapatkan $1 definisi AI gratis per bulan dan melacak kuota Anda.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "Mengekstrak konten utama..."
+  },
+  "t_0eeae2bf": {
+    "message": "Mendeteksi konteks halaman..."
+  },
+  "t_87f125d0": {
+    "message": "Menganalisis terminologi..."
+  },
+  "t_9ef6e70f": {
+    "message": "Menggunakan hasil cache..."
+  },
+  "t_9afdc5e8": {
+    "message": "Menganalisis dengan AI..."
+  },
+  "t_7ecc3abe": {
+    "message": "Dekode AI gagal"
+  },
+  "t_9220c8de": {
+    "message": "Menerapkan penyederhanaan..."
+  },
+  "t_57f406b1": {
+    "message": "Mendekode pilihan..."
+  },
+  "t_c50f2b72": {
+    "message": "Lihat Glosarium"
+  },
+  "t_49de9b11": {
+    "message": "Sembunyikan Sorotan di Halaman"
+  },
+  "t_3158774e": {
+    "message": "Pulihkan Sorotan di Halaman"
+  },
+  "t_fc3ad42d": {
+    "message": "Simpan ke Kosakata"
+  },
+  "t_87e933b8": {
+    "message": "Mencari definisi..."
+  },
+  "t_56b79836": {
+    "message": "Definisi kata dimuat."
+  },
+  "t_969b24ea": {
+    "message": "🔊 Klik di mana saja untuk mengaktifkan audio tema"
+  },
+  "t_49337275": {
+    "message": "Sorotan manual"
+  },
+  "t_93324bd5": {
+    "message": "Disimpan langsung dari halaman web."
+  },
+  "t_82e413f3": {
+    "message": "Menyederhanakan teks..."
+  },
+  "t_86c4f6e5": {
+    "message": "Menyederhanakan dengan AI..."
+  },
+  "t_c3e18edb": {
+    "message": "Penyederhanaan gagal"
+  },
+  "t_6398ab2c": {
+    "message": "Tingkat membaca: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "Klik untuk memulihkan teks asli sementara"
+  },
+  "t_9beea3e8": {
+    "message": "Hapus dari memori secara permanen"
+  },
+  "t_453bb8f7": {
+    "message": "Buat akun EasyView gratis untuk mendapatkan $1 penyederhanaan AI gratis per bulan dan melacak kuota Anda.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "Dengarkan"
+  },
+  "t_24833610": {
+    "message": "Disimpan"
+  },
+  "t_30a008cb": {
+    "message": "Baca selengkapnya &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "Disimpan ke Buku Catatan Kosakata!"
+  },
+  "t_2728e87f": {
+    "message": "Dihapus dari Buku Catatan Kosakata"
+  },
+  "t_6b8c66ce": {
+    "message": "Glosarium ($1 istilah)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "Hapus memori untuk halaman ini"
+  },
+  "t_8a49fe1a": {
+    "message": "Hapus istilah"
+  },
+  "t_1534891c": {
+    "message": "Mendekode $1 istilah",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "Simpan ke Buku Catatan"
+  },
+  "t_150a2843": {
+    "message": "Hapus sorotan"
+  },
+  "t_21ef939c": {
+    "message": "Disimpan ke Buku Catatan!"
+  },
+  "t_8054da35": {
+    "message": "Kamus Singkat",
+    "description": "Header sembulan Kamus Cepat"
+  },
+  "t_4aeb2167": {
+    "message": "Kata Tidak Ditemukan",
+    "description": "Judul cadangan kamus"
+  },
+  "t_272d0070": {
+    "message": "Kami tidak dapat menemukan \"$1\" di kamus dasar. Mungkin itu bahasa gaul modern, singkatan, atau jargon yang sangat teknis.",
+    "description": "Deskripsi cadangan kamus dengan penampung kata",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "Dekode dengan Evie AI",
+    "description": "Tombol cadangan untuk mendekode dengan AI"
+  },
+  "t_14f1f972": {
+    "message": "melalui",
+    "description": "Awalan sumber kamus"
+  },
+  "t_f2faf2f1": {
+    "message": "Kata Benda",
+    "description": "Kata benda"
+  },
+  "t_b512ddf1": {
+    "message": "Kata Kerja",
+    "description": "Kata kerja"
+  },
+  "t_d807ae6a": {
+    "message": "Kata Sifat",
+    "description": "Kata sifat"
+  },
+  "t_1a607278": {
+    "message": "Kata Keterangan",
+    "description": "Kata keterangan"
+  },
+  "t_02de720d": {
+    "message": "Kata Ganti",
+    "description": "Kata ganti"
+  },
+  "t_4b7be2c3": {
+    "message": "Kata Depan",
+    "description": "Kata depan"
+  },
+  "t_a3c1d30b": {
+    "message": "Kata Sambung",
+    "description": "Kata hubung"
+  },
+  "t_e189f001": {
+    "message": "Kata Seru",
+    "description": "Kata seru"
+  },
+  "t_96de90f8": {
+    "message": "Salin teks yang disederhanakan",
+    "description": "Tip alat untuk menyalin teks yang disederhanakan"
+  },
+  "t_44a6e288": {
+    "message": "Baca Halaman",
+    "description": "Tip alat untuk membaca seluruh halaman melalui TTS"
+  },
+  "t_7d70d73b": {
+    "message": "Baca Pilihan",
+    "description": "Tip alat untuk membaca pilihan melalui TTS"
+  },
+  "t_11936123": {
+    "message": "Hapus catatan secara permanen",
+    "description": "Tip alat untuk menghapus catatan tempel secara permanen"
+  },
+  "t_d27532d9": {
+    "message": "Minimalkan"
+  },
+  "t_2bd339d8": {
+    "message": "Pulihkan"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "Tampilan Mudah"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "Peringatan Sistem"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "Notifikasi sistem"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "Mesin\r\n                        EasyView"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "Fitur lokal tetap\r\n                        aktif"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,316 +599,307 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "Pengalaman\r\n                        EasyView"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "Anda telah menggunakan EasyView selama 12 jam. Buat akun gratis untuk\r\n                    menyimpan\r\n                    pengaturan Anda, menjaga kuota Anda, dan membuka lebih banyak fitur."
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "Ingatkan saya dalam 12 jam"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "Terang"
   },
   "t_7fc56270": {
     "message": "A"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "Jenis Huruf"
   },
   "t_5dbc98dc": {
-    "message": "S"
+    "message": "K"
   },
   "t_69691c7b": {
-    "message": "M"
+    "message": "S"
   },
   "t_d20caec3": {
-    "message": "L"
+    "message": "B"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "Fitur"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "Visual"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "Konverter"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "Buku catatan"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "Dekoder Jargon"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "Sederhanakan istilah hukum yang rumit"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "wikipedia.org/wiki/Neurodivergensi"
   },
   "t_61e9c06e": {
-    "message": "W"
+    "message": "L"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "Neurodivergensi"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "jauh\r\n                                                lebih mudah"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "Perisai Fokus & Privasi"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "Buramkan konten pribadi dan sensitif"
   },
   "t_7f766191": {
-    "message": "mail.google.com/mail/u/0/"
+    "message": "surat.google.com/surat/u/0/"
   },
   "t_dfcf28d0": {
     "message": "G"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "Akun Google"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "Peringatan keamanan"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- Atur ulang kata sandi diminta..."
   },
   "t_8d9c307c": {
     "message": "N"
   },
   "t_170b1d36": {
-    "message": "Netflix"
+    "message": "Netfliks"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "Baru minggu ini"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- Lihat rilis terbaru kami\r\n                                                    ..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "Teknik Perlindungan"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "Pengaburan Konten Pribadi"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "Mengaburkan WhatsApp, Gmail, dan input kata sandi secara cerdas\r\n                                            untuk keamanan visual instan."
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "Perlindungan Otomatis saat Berbagi Layar"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "Melindungi layar Anda secara instan saat berbagi daring."
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
-  },
-  "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "Menggunakan\r\n                                                    Proyektor Fisik?"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "Senter Membaca"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "Mengikuti mouse Anda dengan sorotan terang untuk sepenuhnya menghilangkan\r\n                                            kekacauan visual di sekitarnya."
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "1.\r\n                                                            Bentuk Berkas Cahaya"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "Sorotan\r\n                                                            atau Penggaris"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "2.\r\n                                                                Ukuran / Tinggi Berkas Cahaya"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "Ketebalan\r\n                                                                area tampilan"
   },
   "t_f0cad41b": {
     "message": "35px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "3.\n                                                            Warna Lensa Berkas Fokus"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "Secara lembut\n                                                            memberi warna pada celah bacaan"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "4.\r\n                                                            Bayangan Latar Belakang Sekitar"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "Keredupan\r\n                                                            di sekitar lensa Anda"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "Perisai Sensorik"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "Bekukan animasi yang mengganggu"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "beritaharian.com/terkini"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "BERITA TERKINI"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "Membaca artikel di berita harian..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "MENANG!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "Mode Perisai"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(bawaan)"
   },
   "t_9e3360ac": {
     "message": "PRO"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "Hentikan putar otomatis + pudar\r\n                                                tenang pada navigasi manual"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "Mode Membaca Disleksia"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "Jenis huruf & spasi dioptimalkan"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "Profil Intensitas"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "Rendah"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "Sedang"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "Tinggi"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "wikipedia.org/wiki/Membaca"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "Membaca"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "Berikut adalah pratinjau pengaturan membaca Anda."
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "Opsi Lanjutan"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "Gaya Huruf"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "Bawaan (Tanpa Perubahan)"
   },
   "t_5d2967ef": {
-    "message": "OpenDyslexic"
+    "message": "OpenDisleksik"
   },
   "t_1042daad": {
-    "message": "Lexend (ADHD Pro) 🔒"
+    "message": "Leksend (ADHD Pro) 🔒"
   },
   "t_bcec044a": {
-    "message": "Atkinson Hyperlegible 🔒"
+    "message": "Atkinson Hiperlejibel 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "Sans Cepat"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "Serif Cepat"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "Komik Neue"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "Komik Sans"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "Spasi Huruf"
   },
   "t_960b44c5": {
     "message": "Normal"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "Tinggi Baris"
   },
   "t_60086472": {
     "message": "1.5"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "Spasi Kata"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "Ukuran Huruf"
   },
   "t_30bd7ce7": {
     "message": "100%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "Warna Hamparan"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "Tidak ada"
   },
   "t_2bd8c63b": {
-    "message": "Beige"
+    "message": "Krem"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "Biru Muda"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "Hijau Muda"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "Kuning Muda"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "Teks-ke-Suara"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "Baca dengan lantang dengan penyorotan"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "Putar"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "Jeda"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "Berhenti"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "Pemilihan Suara"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "Otomatis (Kualitas Terbaik)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "Kecepatan Membaca"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "Sangat Lambat"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "Lambat"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "Cepat"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "Sangat Cepat"
   },
   "t_bd7a9717": {
     "message": "Volume"
@@ -351,31 +908,31 @@
     "message": "70%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "Jeda pada Tanda Baca"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "Penyorotan Kata"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "Aktifkan"
   },
   "t_650be618": {
     "message": "Mode"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "Gelap"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "wikipedia.org/wiki/Terang"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "Visual sempurna untuk kenyamanan mata. Cahaya bisa terasa intens."
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "Kecerahan"
   },
   "t_c63ecd19": {
-    "message": "Contrast"
+    "message": "Kontras"
   },
   "t_b84a9a38": {
     "message": "Sepia"
@@ -384,31 +941,31 @@
     "message": "0%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "Skala Abu-abu"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "Bawaan"
   },
   "t_b1166920": {
-    "message": "Lexend 🔒"
+    "message": "Leksend 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "Goresan Teks"
   },
   "t_cfcd2084": {
     "message": "0"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "Konverter & Pembaca Cerdas"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "Berkas Saat Ini"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "Klik atau seret file untuk mengunggah"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• Siap"
   },
   "t_4c4ad5fc": {
     "message": "HTML"
@@ -426,181 +983,181 @@
     "message": "Global"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "Situs/Halaman"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "Buku Catatan Saya"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "Hapus Semua"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "Batal"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "Simpan Kata"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "Belum ada kata yang disimpan."
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "Arahkan kursor ke jargon di halaman mana pun dan klik bendera penanda untuk menyimpannya di sini!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "Bayangkan kembali antarmuka situs web mana pun. Jelaskan apa yang Anda inginkan atau pilih\r\n                            preset."
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "Morf\r\n                                Diterapkan"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "Tata letak AI kustom\r\n                                aktif di situs ini."
   },
   "t_e8a57cd1": {
     "message": "0 /\r\n                                500"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "Atur Ulang Halaman"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "Tata Letak Morf"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "Prasetel Bawaan"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "Karnaval Horor"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "Suasana karnaval menyeramkan & teks horor animasi"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "Konsol Matriks"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "Tema terminal Cyberpunk"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "Fokus Neuro"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "Jenis huruf ramah disleksia & warna menenangkan"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "Mode Pembaca"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "Tata letak minimalis yang dioptimalkan untuk fokus"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "Perintah Terkini"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "Pengguna Tamu"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "Akun Gratis"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "Masuk / Kelola"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "Keluar"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "Pengaturan API"
   },
   "t_766cc4dd": {
     "message": "Gemini"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "Penyedia AI"
   },
   "t_222cf5ed": {
-    "message": "Google Gemini"
+    "message": "Google Jemini"
   },
   "t_a0607683": {
-    "message": "OpenRouter"
+    "message": "Router Terbuka"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "Kunci API Gemini"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "Studio AI Google"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "Kunci API OpenRouter"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "Simpan Kunci API"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "Prioritas AI\r\n                                    EasyView"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ Kunci API Saya"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 Server EasyView"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "Pilih\r\n                                mana yang digunakan terlebih dahulu untuk semua fitur AI. Jika kunci Anda habis, server EasyView\r\n                                selalu digunakan sebagai cadangan."
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "Privasi\r\n                                    & Prioritas"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "Prioritas 1:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "Prioritas 2:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "Catatan Mesin Morph:"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "tidak pernah"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "Bantuan & Umpan Balik"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "Punya pertanyaan, menemukan bug, atau ingin menyarankan fitur? Kami ingin mendengar dari Anda!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "Laporkan Bug / Berikan Masukan"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Siap untuk menyederhanakan"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "Ekspor Pengaturan"
   },
   "t_9d5ed678": {
-    "message": "B"
+    "message": "T"
   },
   "t_dd753679": {
-    "message": "I"
+    "message": "M"
   },
   "t_20a1d47c": {
     "message": "✎"
@@ -615,25 +1172,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "Kekuatan"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "Opasitas"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "Ketebalan"
   },
   "t_18d80423": {
     "message": "400"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "Tinggi\r\n                                Baris"
   },
   "t_f522dede": {
     "message": "1.7x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "Lewati"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,25 +1199,25 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "Sorotan"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "TINTA"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "PUDAR"
   },
   "t_e8bfe352": {
-    "message": "Lexend 👑"
+    "message": "Leksend 👑"
   },
   "t_0cd4623c": {
-    "message": "Atkinson Hyperlegible 👑"
+    "message": "Atkinson Hiperlejibel 👑"
   },
   "t_6fbda3a3": {
     "message": "Arial"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "Helvetika"
   },
   "t_207c3219": {
     "message": "Verdana"
@@ -669,34 +1226,34 @@
     "message": "Tahoma"
   },
   "t_720661ec": {
-    "message": "Trebuchet MS"
+    "message": "Trebuset MS"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "Sans Sistem"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "Taims Nyu Roman"
   },
   "t_eada8196": {
-    "message": "Georgia"
+    "message": "Jorjia"
   },
   "t_96a78725": {
-    "message": "Garamond"
+    "message": "Garamon"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "Serif Sistem"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "Komik Sans MS"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "Kurir Baru"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "Monospasi"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "Ukuran\r\n                            Jenis Huruf"
   },
   "t_f4f9f2f4": {
     "message": "14px"
@@ -723,7 +1280,7 @@
     "message": "32px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "Selesai"
   },
   "t_63922286": {
     "message": "×"
@@ -732,154 +1289,34 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "Ekspor Pustaka Tema"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "Simpan karya agung buatan AI Anda\r\n                secara lokal."
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "Ekspor Seluruh Pustaka"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
-  },
-  "t_ccca2ddf": {
-    "message": "EasyView Reader"
-  },
-  "t_8524de96": {
-    "message": "Loading..."
-  },
-  "t_25e8f2fd": {
-    "message": "Please wait..."
-  },
-  "t_ec9d785d": {
-    "message": "1.5x"
-  },
-  "t_dafd5f8f": {
-    "message": "Lexend"
-  },
-  "t_16d90a0b": {
-    "message": "Atkinson Hyperlegible"
-  },
-  "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
-  },
-  "t_f7cee5ea": {
-    "message": "Calibri"
-  },
-  "t_ccc0239e": {
-    "message": "Candara"
-  },
-  "t_2963521b": {
-    "message": "Corbel"
-  },
-  "t_37f1cc58": {
-    "message": "Cambria"
-  },
-  "t_c3d9d4bf": {
-    "message": "Constantia"
-  },
-  "t_5d1a5b35": {
-    "message": "Palatino Linotype"
-  },
-  "t_4dc386b6": {
-    "message": "Book Antiqua"
-  },
-  "t_03c461f6": {
-    "message": "Franklin Gothic"
-  },
-  "t_7b1ee3b6": {
-    "message": "Century Gothic"
-  },
-  "t_a3293302": {
-    "message": "Gill Sans"
-  },
-  "t_eb726908": {
-    "message": "Sitka Text"
-  },
-  "t_b5bdee2c": {
-    "message": "Sylfaen"
-  },
-  "t_1ec05249": {
-    "message": "Microsoft Sans Serif"
-  },
-  "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
-  },
-  "t_16507cdd": {
-    "message": "Consolas"
-  },
-  "t_391c5954": {
-    "message": "Lucida Console"
-  },
-  "t_9879efdf": {
-    "message": "Lucida Sans Typewriter"
-  },
-  "t_21f59b54": {
-    "message": "Impact"
-  },
-  "t_94a7bb97": {
-    "message": "Arial Black"
-  },
-  "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
-  },
-  "t_40885309": {
-    "message": "Berlin Sans FB"
-  },
-  "t_6d5566ba": {
-    "message": "Gabriola"
-  },
-  "t_edb42482": {
-    "message": "Ink Free"
-  },
-  "t_fa233799": {
-    "message": "Segoe Script"
-  },
-  "t_2f7bc407": {
-    "message": "Segoe Print"
-  },
-  "t_0095a9fa": {
-    "message": "Export"
-  },
-  "t_520d0db3": {
-    "message": "Format"
-  },
-  "t_5956a437": {
-    "message": "TXT"
-  },
-  "t_1351017a": {
-    "message": "Filename"
-  },
-  "t_6af8212e": {
-    "message": "EasyView Notes Board"
-  },
-  "t_d16da0f5": {
-    "message": "🌎"
-  },
-  "t_6df173ff": {
-    "message": "📍"
+    "message": ".json (Berkas JSON)"
   },
   "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
-  },
-  "js_24833610": {
-    "message": "Saved"
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Tindakan Diperlukan</div>\n            <h2 class=\"ev-si-title\">Akun<br><span class=\"ev-si-gradient-text\">Ditangguhkan</span></h2>\n            <p class=\"ev-si-sub\">Akses EasyView Anda telah dibatasi karena pelanggaran ketentuan layanan kami.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Hubungi Dukungan\n            </a>\n          </div>\n        </div>\n      "
   },
   "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Harap jelaskan morf Anda terlebih dahulu.</span>\n          </div>"
   },
   "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Memorfing...</span>\n      "
   },
   "js_138703dd": {
-    "message": "No Theme on Page"
+    "message": "Tidak Ada Tema di Halaman"
   },
   "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>Ekspor Halaman Saat Ini"
   },
   "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Mengompilasi..."
   },
   "js_e541190e": {
     "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
@@ -891,30 +1328,1322 @@
     "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
   },
   "js_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Siap untuk menyederhanakan"
   },
   "js_a18366b2": {
-    "message": "Dark"
+    "message": "Gelap"
   },
   "js_9914a0ce": {
-    "message": "Light"
+    "message": "Terang"
   },
   "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+    "message": "<option value=\"auto\">Otomatis (Kualitas Terbaik)</option>"
   },
   "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Mendekode..."
   },
   "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+    "message": "Ini terasa <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">jauh lebih mudah</span> untuk dipahami."
   },
   "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+    "message": "Ini terasa lebih mudah dipahami."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_f05df71b": {
+    "message": "Meningkatkan"
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_78db2ae3": {
+    "message": "Server AI kami sedang menjalani peningkatan."
+  },
+  "t_bb2129c8": {
+    "message": "Buka potensi penuh"
+  },
+  "t_aefee7cd": {
+    "message": "Kejelasan untuk setiap otak"
+  },
+  "t_c38beca1": {
+    "message": "Firefox membatasi API deteksi monitor fisik. "
+  },
+  "t_f2fe1e79": {
+    "message": "Nilai\r\n                                    di bawah 1.0 dapat memampatkan teks dan merusak tata letak."
+  },
+  "t_ca677d53": {
+    "message": "Penyesuaian Visual"
+  },
+  "t_230b4522": {
+    "message": "Papan Catatan"
+  },
+  "t_596b54bf": {
+    "message": "Agen AI Morph"
+  },
+  "t_47e79a17": {
+    "message": "Dapatkan kunci gratis Anda di"
+  },
+  "t_42372184": {
+    "message": "Tema diekspor sebagai"
+  },
+  "t_74fdc8a2": {
+    "message": "Mohon jelaskan transformasi morph Anda terlebih dahulu."
+  },
+  "t_245fd3b9": {
+    "message": "Tata letak morph dibersihkan."
+  },
+  "t_172bd753": {
+    "message": "Tema berhasil diekspor!"
+  },
+  "t_4c34daff": {
+    "message": "Koneksi habis waktu. Server tidak dapat dijangkau."
+  },
+  "t_0dd56117": {
+    "message": "Tidak ada tema aktif yang ditemukan di halaman ini."
+  },
+  "t_cb5c0766": {
+    "message": "Pustaka berhasil diekspor!"
+  },
+  "t_8adb392e": {
+    "message": "Koneksi habis waktu. Server tidak dapat dijangkau."
+  },
+  "t_ae94e0e4": {
+    "message": "Pustaka tema Anda kosong."
+  },
+  "t_10a0c40b": {
+    "message": "Tema kustom berhasil dimuat!"
+  },
+  "t_9b6007a8": {
+    "message": "Gagal membaca file tema."
+  },
+  "t_d4fa051d": {
+    "message": "Gagal: $1. Mohon muat ulang tab.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "Diterapkan: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "Memulihkan $1 tema dari pustaka!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "Preferensi Bahasa"
+  },
+  "t_lang_updated_reload": {
+    "message": "Bahasa diperbarui. Memuat ulang..."
+  },
+  "t_transformation_failed": {
+    "message": "Transformasi gagal."
+  },
+  "t_c8a59e71": {
+    "message": "Abaikan"
+  },
+  "t_7764306b": {
+    "message": "Pemeliharaan Layanan Cloud Aktif"
+  },
+  "t_248228de": {
+    "message": "Alihkan Jenis Huruf Disleksia di Sembulan"
+  },
+  "t_79a59320": {
+    "message": "Mulai Tur Aplikasi"
+  },
+  "t_533bff5b": {
+    "message": "Sematkan Catatan Tempel ke Halaman (Alt+N)"
+  },
+  "t_f4f70727": {
+    "message": "Pengaturan"
+  },
+  "t_4fd11104": {
+    "message": "Sorotan Melingkar"
+  },
+  "t_0d063af1": {
+    "message": "Penggaris Garis Horizontal 🔒"
+  },
+  "t_60d71580": {
+    "message": "Terang Jernih"
+  },
+  "t_efe48742": {
+    "message": "Fokus Amber"
+  },
+  "t_610a09ca": {
+    "message": "Sian Keren"
+  },
+  "t_886f6b9e": {
+    "message": "Hijau Santai"
+  },
+  "t_65e8194e": {
+    "message": "Hitam Pekat"
+  },
+  "t_7243ed99": {
+    "message": "Batu Tulis Tengah Malam"
+  },
+  "t_ec6d8325": {
+    "message": "Hutan Dalam"
+  },
+  "t_4af435e0": {
+    "message": "Anggur Vampir"
+  },
+  "t_2a7dbdf8": {
+    "message": "Fitur pro"
+  },
+  "t_fc4aec61": {
+    "message": "Buka di Pembaca"
+  },
+  "t_801ab246": {
+    "message": "Unduh"
+  },
+  "t_aa3880dc": {
+    "message": "Unduh sebagai HTML"
+  },
+  "t_e0781e81": {
+    "message": "Unduh sebagai EPUB"
+  },
+  "t_442ff212": {
+    "message": "Unduh sebagai DOCX"
+  },
+  "t_6244ee7c": {
+    "message": "Tambahkan istilah kustom secara manual"
+  },
+  "t_6e7d015f": {
+    "message": "Impor Berkas CSV"
+  },
+  "t_edbc5415": {
+    "message": "Ekspor untuk Anki / Quizlet"
+  },
+  "t_46c29f7a": {
+    "message": "Muat Tema"
+  },
+  "t_2bd65c5d": {
+    "message": "Ekspor Tema"
+  },
+  "t_c1c433ac": {
+    "message": "Penyedia AI Aktif"
+  },
+  "t_90c09393": {
+    "message": "Titik-titik"
+  },
+  "t_eb656e41": {
+    "message": "Garis putus-putus"
+  },
+  "t_0c99ddee": {
+    "message": "Warna Sorotan"
+  },
+  "t_eaf63759": {
+    "message": "Warna Tinta"
+  },
+  "t_a183c9f0": {
+    "message": "Warna Pudar"
+  },
+  "t_75e7422f": {
+    "message": "Warna Latar Belakang"
+  },
+  "t_42f9ceea": {
+    "message": "Cari leksikon tersimpan..."
+  },
+  "t_0e84a8cf": {
+    "message": "Masukkan kata atau akronim..."
+  },
+  "t_eea6890c": {
+    "message": "Arti / Terjemahan..."
+  },
+  "t_4480cf46": {
+    "message": "Trik memori atau catatan belajar (opsional)..."
+  },
+  "t_d8634fbf": {
+    "message": "contohnya, Ubah menjadi tema gaya anime merah muda dengan kartu bulat, atau ubah menjadi konsol terminal hijau tua retro..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "Catatan Tempel"
+  },
+  "t_b097d277": {
+    "message": "Tambah Kata"
+  },
+  "t_1eeb67ee": {
+    "message": "Ekspor Halaman Saat Ini"
+  },
+  "t_b62ded9a": {
+    "message": "Layanan Cloud Offline"
+  },
+  "t_263e00eb": {
+    "message": "Masuk / Buat Akun"
+  },
+  "t_7748eb3b": {
+    "message": "MENINGKATKAN KE PRO"
+  },
+  "t_81a5d20b": {
+    "message": "Bekukan Semua"
+  },
+  "t_e61146d9": {
+    "message": "Pudar Tenang"
+  },
+  "t_57323916": {
+    "message": "Berhenti Putar Otomatis"
+  },
+  "t_f50319ea": {
+    "message": "Perlindungan Penuh"
+  },
+  "t_8e13f26d": {
+    "message": "Pertanyaan Singkat"
+  },
+  "t_134b26da": {
+    "message": "Apakah Anda menikmati<br><span class=\"ev-si-gradient-text\">EasyView?</span>"
+  },
+  "t_b75bdd9e": {
+    "message": "Masukan Anda membantu kami berkembang.<br>Apakah Anda menikmati pengalaman ini?"
+  },
+  "t_396d1ff8": {
+    "message": "Ya, saya!"
+  },
+  "t_7d0cacf3": {
+    "message": "Perlu perbaikan"
+  },
+  "t_815142c9": {
+    "message": "Dukung Kami"
+  },
+  "t_abd9fa39": {
+    "message": "Apakah Anda bersedia<br><span class=\"ev-si-gradient-text\">meninggalkan ulasan?</span>"
+  },
+  "t_02991e61": {
+    "message": "Peringkat dari pengguna seperti Anda adalah cara terbaik untuk membantu EasyView berkembang. Hanya butuh satu menit!"
+  },
+  "t_db49c1f2": {
+    "message": "Beri Nilai Sekarang"
+  },
+  "t_7a4f0d12": {
+    "message": "Ingatkan saya nanti"
+  },
+  "t_fee6c0e9": {
+    "message": "Umpan Balik Pribadi"
+  },
+  "t_74393dde": {
+    "message": "Apa yang bisa kami <span class=\"ev-si-gradient-text\">lakukan lebih baik?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "Beri tahu kami apa yang salah..."
+  },
+  "t_6f97affc": {
+    "message": "Kirim Umpan Balik"
+  },
+  "t_b20871b3": {
+    "message": "Mohon masukkan masukan Anda"
+  },
+  "t_7b0fee4d": {
+    "message": "Mengirim..."
+  },
+  "t_fb631633": {
+    "message": "Terima kasih atas masukan Anda."
+  },
+  "t_08727add": {
+    "message": "Lihat web sesuai keinginan Anda."
+  },
+  "t_15bbb9d0": {
+    "message": "Situs web"
+  },
+  "t_c5f29bb3": {
+    "message": "Privasi"
+  },
+  "t_ad5b1a22": {
+    "message": "Pendiri"
+  },
+  "t_db496e03": {
+    "message": "Kunci pribadi membuat koneksi langsung, 100% pribadi ke AI. Teks Anda tidak pernah menyentuh server EasyView."
+  },
+  "t_387c35b3": {
+    "message": "Server terkelola kami (Premium) bertindak sebagai cadangan yang andal jika tidak ada kunci atau jika kunci Anda gagal."
+  },
+  "t_98bc5a17": {
+    "message": "Untuk melindungi algoritma kepemilikan, kunci Anda dirutekan secara singkat melalui server aman kami untuk mengautentikasi dengan Google. Kunci ini tidak"
+  },
+  "t_de47f1be": {
+    "message": "disimpan atau dicatat."
+  },
+  "t_25e02e7f": {
+    "message": "Aktif: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ Anggota Premium"
+  },
+  "t_df56cfae": {
+    "message": "⭐ Anggota Seumur Hidup"
+  },
+  "t_41cbc704": {
+    "message": " hari tersisa"
+  },
+  "t_b194bd82": {
+    "message": "Tidak pernah kedaluwarsa"
+  },
+  "t_9f830444": {
+    "message": "⭐ Pro:"
+  },
+  "t_61b82be6": {
+    "message": " morf tersisa"
+  },
+  "t_c20e7ceb": {
+    "message": " morf gratis tersisa"
+  },
+  "t_d7087930": {
+    "message": " penggunaan gratis tersisa"
+  },
+  "t_4bbf11bd": {
+    "message": "Kolom Istilah dan Makna tidak boleh dibiarkan kosong!"
+  },
+  "t_08f09d38": {
+    "message": "Detail kata berhasil diperbarui!"
+  },
+  "t_32001b52": {
+    "message": "Mohon masukkan kata dan maknanya."
+  },
+  "t_b8115861": {
+    "message": "Buku Catatan Belajar Anda kosong. Tandai beberapa kata di halaman web terlebih dahulu!"
+  },
+  "t_7114113b": {
+    "message": "Harap masuk ke akun EasyView Anda terlebih dahulu untuk memverifikasi fitur Pro Anda!"
+  },
+  "t_093f9fa0": {
+    "message": "Token sesi Anda hilang. Harap masuk ke easyview.in lagi untuk memulihkan akses."
+  },
+  "t_0e065596": {
+    "message": "Ini adalah fitur khusus Premium yang terverifikasi. Tingkatkan ke Pro untuk membuka!"
+  },
+  "t_c792a645": {
+    "message": "Gagal terhubung ke server ekspor aman. Coba lagi sebentar lagi."
+  },
+  "t_8d1a2675": {
+    "message": "Tidak dapat mengidentifikasi item kosakata yang valid dalam CSV tersebut."
+  },
+  "t_a613ed90": {
+    "message": "Kegagalan penulisan penyimpanan peramban! File mungkin terlalu besar untuk cache lokal."
+  },
+  "t_8efe87ab": {
+    "message": "Peramban gagal membaca file lokal Anda."
+  },
+  "t_50bf63aa": {
+    "message": "Apakah Anda yakin ingin menghapus semua kata yang disimpan dari buku catatan Anda?"
+  },
+  "t_ff252710": {
+    "message": "Impor selesai: Semua $1 entri sudah ada di Buku Catatan Anda.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "Gagal mengurai CSV: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "\"$1\" sudah ada di buku catatan Anda. Apakah Anda ingin menambahkan definisi lain untuknya?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "Berhasil keluar"
+  },
+  "t_dbd35100": {
+    "message": "Mesin morph sudah bekerja..."
+  },
+  "t_2de4e55d": {
+    "message": "Tata letak morph dibersihkan"
+  },
+  "t_1bb9196d": {
+    "message": "Dimorph: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "Morph gagal: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "Terpicu: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 item diatur",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "Ini akan menghapus catatan ini secara permanen di semua perangkat yang disinkronkan. Lanjutkan?"
+  },
+  "t_25abf697": {
+    "message": "Ekspor EPUB memerlukan JSZip."
+  },
+  "t_71609188": {
+    "message": "Ekspor DOCX memerlukan html-docx-js."
+  },
+  "t_e1499766": {
+    "message": "Tidak ada berkas dimuat."
+  },
+  "t_023b3355": {
+    "message": "Perisai Privasi Diaktifkan"
+  },
+  "t_9483a5da": {
+    "message": "Perisai Privasi Dinonaktifkan"
+  },
+  "t_a04202db": {
+    "message": "Sorotan disembunyikan sementara"
+  },
+  "t_b3d6b264": {
+    "message": "Sorotan dipulihkan"
+  },
+  "t_7485c55e": {
+    "message": "Selamat datang di EasyView! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "Jembatan kognitif bertenaga AI Anda untuk membaca web yang lebih mudah. Mari kita ikuti tur singkat fitur-fiturnya."
+  },
+  "t_3a1fe637": {
+    "message": "Dekoder Jargon 📖"
+  },
+  "t_89cec86e": {
+    "message": "Menyederhanakan terminologi rumit di halaman web mana pun."
+  },
+  "t_f8aefae7": {
+    "message": "Perisai Privasi 🔐"
+  },
+  "t_aa860f86": {
+    "message": "Mengaburkan data sensitif dan menyertakan Penggaris Fokus untuk membaca tanpa gangguan."
+  },
+  "t_0681a3b6": {
+    "message": "Perisai Sensorik 🛡️"
+  },
+  "t_6118b864": {
+    "message": "Membekukan GIF dan animasi yang mengganggu."
+  },
+  "t_12ec6fc6": {
+    "message": "Mode Membaca Disleksia 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "Jenis huruf dan spasi yang dioptimalkan untuk membaca lebih mudah."
+  },
+  "t_18d9ce63": {
+    "message": "Teks-ke-Suara 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "Dengarkan halaman web apa pun dengan penyorotan kata."
+  },
+  "t_0019a700": {
+    "message": "Mesin Morf ✨"
+  },
+  "t_47c2535a": {
+    "message": "Gunakan AI untuk mendesain ulang situs web apa pun menjadi tema atau tata letak kustom."
+  },
+  "t_2ed2f639": {
+    "message": "Catatan Tempel 📝"
+  },
+  "t_75025b5f": {
+    "message": "Sematkan catatan tempel mengambang ke halaman web mana pun untuk menyimpan informasi penting (Alt+N)."
+  },
+  "t_3ff2d7cc": {
+    "message": "Konfigurasi API ⚙️"
+  },
+  "t_0754e836": {
+    "message": "Masuk untuk menyinkronkan kuota Anda, atau atur kunci API Gemini gratis Anda sendiri di sini."
+  },
+  "t_7b6a2059": {
+    "message": "Langkah $1 dari $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "Mulai!"
+  },
+  "t_10ac3d04": {
+    "message": "Berikutnya"
+  },
+  "t_5c7a52b8": {
+    "message": "Tekan "
+  },
+  "t_a1b2c3d4": {
+    "message": " kapan saja untuk mengaktifkan perisai Perlindungan Otomatis secara manual."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ Perisai Privasi diaktifkan"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 Perisai Privasi dinonaktifkan"
+  },
+  "js_9b3e1a": {
+    "message": "EasyView sedang menganalisis tata letak dan melakukan morf..."
+  },
+  "js_4c8d2f": {
+    "message": "Definisikan"
+  },
+  "js_7a1e9b": {
+    "message": "Dekode"
+  },
+  "js_2d5f8c": {
+    "message": "Sederhanakan"
+  },
+  "js_6e3a4d": {
+    "message": "Penanda"
+  },
+  "js_1f9b7c": {
+    "message": "Sorotan"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "Menganalisis Pohon DOM..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "Tata Letak Berantakan..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "Meratakan Struktur..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[KELEBIHAN_BEBAN_KEBISINGAN]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "Menghapus Gangguan..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "Node Kompleks"
+  },
+  "js_ldr_m4_cl": {
+    "message": "Menerapkan Aturan Disleksia..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "Merender UI EasyView..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "Memindai Blok Teks..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "Terlalu banyak kata..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "Mengekstrak Makna Inti..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "Beban Kognitif"
+  },
+  "js_ldr_s3_cl": {
+    "message": "Menyusun Bahasa Inggris yang Lebih Sederhana..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "AI Bertele-tele..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "Menerapkan Keterbacaan..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "Memoles Output..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "Menerjemahkan Jargon..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "Kesalahan: Kebingungan"
+  },
+  "js_ldr_j2_cl": {
+    "message": "Mencari Definisi..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[KELEBIHAN_BEBAN_KEBISINGAN]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "Menyederhanakan Konteks..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "Istilah Tidak Dikenal"
+  },
+  "js_ldr_j4_cl": {
+    "message": "Menerapkan Kejelasan..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "Memformat Hasil..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "Analisis mendalam..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "Menyelesaikan Logika AI..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "Menjalankan AI..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "Hampir Selesai..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "Lalu Lintas Padat..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "Membutuhkan waktu sedikit lebih lama..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "Masih Bekerja..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "Tunggu sebentar..."
+  },
+  "t_b7012ab9": {
+    "message": "Morf"
+  },
+  "t_c5e8b1d9": {
+    "message": "Font Pro"
+  },
+  "t_c8f2ba19": {
+    "message": "Pengaburan Konten Pribadi diaktifkan"
+  },
+  "t_e2dae61a": {
+    "message": "Pengaburan Konten Pribadi dinonaktifkan"
+  },
+  "t_c74de318": {
+    "message": "Perlindungan Otomatis saat Berbagi Layar diaktifkan"
+  },
+  "t_a5fd56f4": {
+    "message": "Perlindungan Otomatis saat Berbagi Layar dinonaktifkan"
+  },
+  "t_ab8d1f2a": {
+    "message": "Mode senter diaktifkan"
+  },
+  "t_2bf5cc98": {
+    "message": "Mode senter dinonaktifkan"
+  },
+  "t_513bb93f": {
+    "message": "Membaca Bionik"
+  },
+  "t_5a8b2c1d": {
+    "message": "Berikut adalah pratinjau pengaturan membaca Anda."
+  },
+  "t_ac1d4e5f": {
+    "message": "Tidak ada"
+  },
+  "t_b2e3f4a1": {
+    "message": "Lebar"
+  },
+  "t_c3f4a5b2": {
+    "message": "Ekstra Lebar"
+  },
+  "t_d1a3c901": {
+    "message": "Klik"
+  },
+  "t_b4f2e891": {
+    "message": "Sematkan ke Elemen"
+  },
+  "t_c9a1b302": {
+    "message": "Spasi"
+  },
+  "t_f6d4e203": {
+    "message": "Catatan Global"
+  },
+  "t_e2b3f104": {
+    "message": "Keluar"
+  },
+  "t_a7c0d905": {
+    "message": "Batal"
+  },
+  "t_e1b2c301": {
+    "message": "Halaman ini saja"
+  },
+  "t_f7a3b402": {
+    "message": "Situs ini"
+  },
+  "t_a8c4d503": {
+    "message": "Semua situs (Global)"
+  },
+  "t_b9d5e604": {
+    "message": "Sembunyikan hingga muat ulang"
+  },
+  "t_c0e6f705": {
+    "message": "Sematkan catatan ke elemen"
+  },
+  "t_d1f7a806": {
+    "message": "Ubah warna catatan"
+  },
+  "t_e2a8b907": {
+    "message": "Tutup/buka catatan"
+  },
+  "t_f3b9c008": {
+    "message": "Salin isi catatan"
+  },
+  "t_a4c0d109": {
+    "message": "Tindakan lainnya"
+  },
+  "t_b5d1e200": {
+    "message": "Hapus catatan ini"
+  },
+  "t_e87033a2": {
+    "message": "Alt + X"
+  },
+  "t_4120201a": {
+    "message": "Uji Coba Gratis Aktif"
+  },
+  "t_6ed40ffb": {
+    "message": "Sinkronkan pengaturan di seluruh perangkat"
+  },
+  "t_f8b8a5fd": {
+    "message": "Kuota penggunaan gratis lebih tinggi"
+  },
+  "t_440b106d": {
+    "message": "Akses ke fitur Pro masa depan"
+  },
+  "t_3a99076c": {
+    "message": "Batas Premium"
+  },
+  "t_545f6c2f": {
+    "message": "Tanpa Batas"
+  },
+  "t_ad23f4a0": {
+    "message": "Catatan Spasial"
+  },
+  "t_04f2f045": {
+    "message": "Anda telah berhasil menyebarkan semua 15 catatan Tingkat Gratis di seluruh web. Tingkatkan ke EasyView Premium untuk membuka memori spasial tak terbatas dan warna kustom."
+  },
+  "t_cf874b99": {
+    "message": "Buka Kunci Premium"
+  },
+  "t_a6d36e2f": {
+    "message": "Semua Kontrol Aksesibilitas Lokal (Aktif)"
+  },
+  "t_b0b69bc3": {
+    "message": "Mesin Teks-ke-Suara (Aktif)"
+  },
+  "t_cc96c21a": {
+    "message": "Fitur AI Cloud (Luring)"
+  },
+  "t_7af6f6e5": {
+    "message": "Saya Mengerti"
+  },
+  "t_9bc7102e": {
+    "message": "Buat akun EasyView gratis untuk melacak kuota Anda dan membuka Dekoder Jargon."
+  },
+  "t_ab7512fd": {
+    "message": "Token sesi Anda hilang. Harap masuk ke easyview.in lagi untuk memulihkan akses."
+  },
+  "t_1cd7820a": {
+    "message": "KHUSUS AKSES PRO"
+  },
+  "t_8eb14032": {
+    "message": "Dekoder Jargon<br><span class=\"ev-si-gradient-text\">Kuota Tercapai</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "KUOTA HABIS"
+  },
+  "t_5ae983dc": {
+    "message": "Anda telah menggunakan semua <strong>5 dekode gratis</strong> bulan ini. Buka akses tak terbatas dalam hitungan detik."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> Jadi Pro — Dekode tak terbatas</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> Gunakan kunci API Anda sendiri</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 Tambahkan Kunci API di Pengaturan</button>"
+  },
+  "t_9be4129a": {
+    "message": "Ekspor Dek Belajar<br><span class=\"ev-si-gradient-text\">Otomatisasi Pro</span>"
+  },
+  "t_fac34185": {
+    "message": "Ekspor seluruh Buku Catatan Belajar kustom Anda secara instan langsung ke <strong>Anki</strong> dan <strong>Quizlet</strong>."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Tidak perlu mengetik manual</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Kompilator kartu flash RFC-4180</div>"
+  },
+  "t_da12c30b": {
+    "message": "Akses Pro"
+  },
+  "t_4a9b2c01": {
+    "message": "Fitur ini"
+  },
+  "t_3be78c01": {
+    "message": "Jenis huruf Membaca Disleksia ini"
+  },
+  "t_0ad4b971": {
+    "message": "Jenis huruf Visual ini"
+  },
+  "t_9af42be8": {
+    "message": "Jenis huruf Ekspor premium ini"
+  },
+  "t_cbae8349": {
+    "message": "Tingkatkan untuk membuka semua fitur aksesibilitas dan alat canggih."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Aksesibilitas Lanjutan</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Semua Pembaruan Mendatang</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ Tingkatkan ke Pro"
+  },
+  "t_5ef4c1a2": {
+    "message": "Mungkin Nanti"
+  },
+  "t_3b7a5e82": {
+    "message": ", namun fitur AI mungkin tidak tersedia untuk sementara."
+  },
+  "t_c91d8e12": {
+    "message": "Umum"
+  },
+  "t_b42f3a9d": {
+    "message": "Definisi"
+  },
+  "t_f1d4a8e6": {
+    "message": "Kamus"
+  },
+  "t_e398c71f": {
+    "message": "Kustom"
+  },
+  "t_a72df9e5": {
+    "message": "Medis"
+  },
+  "t_d8f2c61a": {
+    "message": "Hukum"
+  },
+  "t_b3e1f5d2": {
+    "message": "Keuangan"
+  },
+  "t_c25d81f9": {
+    "message": "Teknologi"
+  },
+  "t_e1b3a4f6": {
+    "message": "Akademik"
+  },
+  "t_d5f9b4c1": {
+    "message": "Istilah"
+  },
+  "t_f7a2e8ea": {
+    "message": "Kategori"
+  },
+  "t_e3b1c6d9": {
+    "message": "Makna Sederhana"
+  },
+  "t_a9d4e5f2": {
+    "message": "Catatan Belajar / Konteks"
+  },
+  "t_b4c5d6e7": {
+    "message": "Batal"
+  },
+  "t_c8f2a1b4": {
+    "message": "Simpan Perubahan"
+  },
+  "t_8c17b5e6": {
+    "message": "Token sesi Anda hilang. Harap masuk ke easyview.in lagi untuk memulihkan akses."
+  },
+  "t_a43dc219": {
+    "message": "Buat akun EasyView gratis untuk melacak kuota penggunaan Anda dan membuka Mesin Morf AI."
+  },
+  "t_54c523fe": {
+    "message": "🎉 Sempurna! Berhasil mengimpor $1 kartu belajar baru."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 Sempurna! Mengimpor $1 kartu baru. ($2 duplikat dilewati.)"
+  },
+  "t_14894d12": {
+    "message": "Ekspor Tema"
+  },
+  "t_f27a2629": {
+    "message": "Cadangan Pustaka Tema"
+  },
+  "t_9ad85e17": {
+    "message": "Mode Penggaris Membaca"
+  },
+  "t_b9d4e7a5": {
+    "message": "Mode Perisai Sensorik Lanjutan"
+  },
+  "t_94f4f7e4": {
+    "message": "Mengurai DOCX...",
+    "description": "Status saat mengurai DOCX di pembaca"
+  },
+  "t_120adfc1": {
+    "message": "Mengurai EPUB...",
+    "description": "Status saat mengurai EPUB di pembaca"
+  },
+  "t_5d2a45b8": {
+    "message": "Mode Penggaris Baca eksklusif untuk langganan Pro.",
+    "description": "Peringatan saat pengguna non-pro mengakses penggaris baca"
+  },
+  "t_c1f29623": {
+    "message": "Edit Seluruh Kartu",
+    "description": "Tip alat untuk mengedit seluruh kartu di buku catatan"
+  },
+  "t_1063e38c": {
+    "message": "Hapus",
+    "description": "Tip alat untuk menghapus kartu dari buku catatan"
+  },
+  "t_ccca2ddf": {
+    "message": "Pembaca IziViu"
+  },
+  "t_8524de96": {
+    "message": "Memuat..."
+  },
+  "t_25e8f2fd": {
+    "message": "Mohon tunggu..."
+  },
+  "t_ec9d785d": {
+    "message": "1.5x"
+  },
+  "t_dafd5f8f": {
+    "message": "Leksend"
+  },
+  "t_16d90a0b": {
+    "message": "Atkinson Hiperlejibel"
+  },
+  "t_5c7db066": {
+    "message": "Segoe UI (Default Windows)"
+  },
+  "t_f7cee5ea": {
+    "message": "Kalibri"
+  },
+  "t_ccc0239e": {
+    "message": "Kandara"
+  },
+  "t_2963521b": {
+    "message": "Korbel"
+  },
+  "t_37f1cc58": {
+    "message": "Kambria"
+  },
+  "t_c3d9d4bf": {
+    "message": "Konstantia"
+  },
+  "t_5d1a5b35": {
+    "message": "Palatino Linotaip"
+  },
+  "t_4dc386b6": {
+    "message": "Buku Antik"
+  },
+  "t_03c461f6": {
+    "message": "Franklin Gotik"
+  },
+  "t_7b1ee3b6": {
+    "message": "Senturi Gotik"
+  },
+  "t_a3293302": {
+    "message": "Gil Sans"
+  },
+  "t_eb726908": {
+    "message": "Sitka Teks"
+  },
+  "t_b5bdee2c": {
+    "message": "Silfaen"
+  },
+  "t_1ec05249": {
+    "message": "Mikrosoft Sans Serif"
+  },
+  "t_ad4a300c": {
+    "message": "Segoe UI Semibold"
+  },
+  "t_16507cdd": {
+    "message": "Konsolas"
+  },
+  "t_391c5954": {
+    "message": "Lusida Konsol"
+  },
+  "t_9879efdf": {
+    "message": "Lusida Sans Tipewriter"
+  },
+  "t_21f59b54": {
+    "message": "Impak"
+  },
+  "t_94a7bb97": {
+    "message": "Arial Hitam"
+  },
+  "t_6e87c2cb": {
+    "message": "Copperplate Gotik"
+  },
+  "t_40885309": {
+    "message": "Berlin Sans FB"
+  },
+  "t_6d5566ba": {
+    "message": "Gabriola"
+  },
+  "t_edb42482": {
+    "message": "Ink Fri"
+  },
+  "t_fa233799": {
+    "message": "Segoe Skrip"
+  },
+  "t_2f7bc407": {
+    "message": "Segoe Cetak"
+  },
+  "t_0095a9fa": {
+    "message": "Ekspor"
+  },
+  "t_520d0db3": {
+    "message": "Format"
+  },
+  "t_5956a437": {
+    "message": "TEKS"
+  },
+  "t_1351017a": {
+    "message": "Nama file"
+  },
+  "t_d4c3c15b": {
+    "message": "Tidak ada berkas yang dimuat"
+  },
+  "t_0ca5a078": {
+    "message": "Mohon gunakan tab Konverter untuk mengunggah file."
+  },
+  "t_c9857e16": {
+    "message": "Tipe file tidak didukung."
+  },
+  "t_6b447b91": {
+    "message": "Kesalahan mengurai file: "
+  },
+  "t_7f4588be": {
+    "message": "EPUB"
+  },
+  "t_12dc65c2": {
+    "message": "Alihkan Terang/Gelap"
+  },
+  "t_d3d2e617": {
+    "message": "Tutup"
+  },
+  "t_6e8cfcb7": {
+    "message": "Ekspor Aman ke Server (Premium)"
+  },
+  "t_2f9df658": {
+    "message": "Lepaskan dan apungkan Ruang Kerja di atas semua jendela"
+  },
+  "t_72d6d7a1": {
+    "message": "Impor"
+  },
+  "t_de93d5fd": {
+    "message": "Ekspor Catatan"
+  },
+  "t_a1aacca9": {
+    "message": "Sistem Apung"
+  },
+  "t_ac0b844f": {
+    "message": "Catatan Global"
+  },
+  "t_15866f1d": {
+    "message": "Catatan Khusus Situs"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
+  },
+  "t_6af8212e": {
+    "message": "Papan Catatan EasyView"
+  },
+  "t_d16da0f5": {
+    "message": "🌎"
+  },
+  "t_6df173ff": {
+    "message": "📍"
+  },
+  "t_22f58a00": {
+    "message": "🌎 Catatan Global"
+  },
+  "t_5be8bbeb": {
+    "message": "🌐 Catatan Situs"
+  },
+  "t_59a56663": {
+    "message": "📍 Catatan Halaman"
+  },
+  "t_c1843696": {
+    "message": "Memverifikasi Token Integritas..."
+  },
+  "t_58038ee4": {
+    "message": "Baru saja"
+  },
+  "t_e254e1a1": {
+    "message": "$1 menit lalu",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_121d4d02": {
+    "message": "$1 jam lalu",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_19d2b280": {
+    "message": "$1 hari lalu",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_d3d4311c": {
+    "message": "Seret Catatan"
+  },
+  "t_7b32ea16": {
+    "message": "Beralih ke $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_11916b28": {
+    "message": "Cakupan penempatan"
+  },
+  "t_5463fe67": {
+    "message": "Palet Warna"
+  },
+  "t_d116d454": {
+    "message": "Tutup Catatan"
+  },
+  "t_be9ba0e5": {
+    "message": "Salin Teks"
+  },
+  "t_28471624": {
+    "message": "Tindakan lainnya"
+  },
+  "t_90e467df": {
+    "message": "Tutup Catatan"
+  },
+  "t_34494920": {
+    "message": "Ketik catatan Anda di sini..."
+  },
+  "t_bdda0b60": {
+    "message": "Apa yang sedang Anda pikirkan..."
+  },
+  "t_8689de27": {
+    "message": "Tersedia di mana saja"
+  },
+  "t_c0cf9810": {
+    "message": "Teleportasi kembali ke halaman asal"
+  },
+  "t_24a23176": {
+    "message": "Konteks Asli"
+  },
+  "t_4c1c1e76": {
+    "message": "Impor Buku Catatan"
+  },
+  "t_2736f644": {
+    "message": "Gabungkan dek belajar dan daftar kosakata eksternal Anda ke dalam ekosistem EasyView dengan mulus."
+  },
+  "t_ca4f038f": {
+    "message": "Kolom Wajib"
+  },
+  "t_7277de5f": {
+    "message": "Arti"
+  },
+  "t_ce591bfa": {
+    "message": "Kolom Opsional"
+  },
+  "t_f4c6f851": {
+    "message": "Catatan"
+  },
+  "t_c1fd81a6": {
+    "message": "Pilih atau Seret File CSV"
+  },
+  "t_5c426600": {
+    "message": "Duplikat dan kata yang sudah ada disaring secara otomatis"
+  },
+  "t_76e7183d": {
+    "message": "Impor Berhasil!"
+  },
+  "t_3e17e02d": {
+    "message": "Kosakata Anda telah diperbarui."
+  },
+  "t_3148d309": {
+    "message": "Tutup Tab"
+  },
+  "t_0e412fa1": {
+    "message": "Perayaan akan dipicu saat Anda kembali ke jendela sembul"
+  },
+  "t_d29f6e6b": {
+    "message": "Impor Gagal"
+  },
+  "t_e04efbcb": {
+    "message": "Status Buku Catatan"
+  },
+  "t_ed732761": {
+    "message": "Impor Tema Morph"
+  },
+  "t_e44db711": {
+    "message": "Impor pustaka mesin Morph kustom Anda dengan aman langsung ke EasyView."
+  },
+  "t_c0bb7d43": {
+    "message": "Pilih atau Seret File JSON"
+  },
+  "t_36e9583e": {
+    "message": "Mengimpor tata letak tema yang Anda ekspor sebelumnya."
+  },
+  "t_21630184": {
+    "message": "Tema Berhasil Dipulihkan!"
+  },
+  "t_d0c1ec75": {
+    "message": "Templat morph Anda telah berhasil dipasang."
+  },
+  "t_cd27a5c0": {
+    "message": "EasyView — Pembaca Konten"
+  },
+  "t_b171ab1f": {
+    "message": "Selamat Datang di Pembaca"
+  },
+  "t_4e07c284": {
+    "message": "Unggah dokumen Anda di sini untuk membacanya dengan tipografi yang disesuaikan dan alat bantu aksesibilitas tingkat lanjut."
+  },
+  "t_004621c0": {
+    "message": "Mendukung .docx, .epub, dan .txt"
+  },
+  "t_23bb27a0": {
+    "message": "Menginisialisasi pengurai dokumen..."
+  },
+  "t_e1d5f16c": {
+    "message": "Mengoptimalkan dokumen DOCX agar mudah dibaca..."
+  },
+  "t_0e55c5d0": {
+    "message": "Mengurai struktur berkas EPUB..."
   }
 }

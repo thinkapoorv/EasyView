@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "EasyView — Selkeyttä jokaiselle aivolle"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "HelppoNäkymä"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "Muunna mikä tahansa verkkosivusto välittömästi tekoälykehotteilla tai yhdellä klikkauksella. Näe verkko omalla tavallasi."
+  },
+  "t_68ba0232": {
+    "message": "Dysleksia-tila aktivoitu"
+  },
+  "t_85f47a25": {
+    "message": "Dysleksia-tila deaktivoitu"
+  },
+  "t_1cc1b64d": {
+    "message": "Ei tarpeeksi sisältöä analysoitavaksi"
+  },
+  "t_cebe6412": {
+    "message": "Monimutkaisia termejä ei löytynyt"
+  },
+  "t_b964aa0f": {
+    "message": "Virhe sivun sisällön analysoinnissa"
+  },
+  "t_956c104e": {
+    "message": "Sivun muisti tyhjennetty"
+  },
+  "t_1f4b0f3e": {
+    "message": "Sanasto tyhjennetty"
+  },
+  "t_4bfeec37": {
+    "message": "Valinnasta ei löytynyt monimutkaisia termejä"
+  },
+  "t_1b5e8531": {
+    "message": "Valinnasta ei löytynyt monimutkaisia termejä"
+  },
+  "t_a1f781ec": {
+    "message": "Virhe valinnan purkamisessa"
+  },
+  "t_7aae8122": {
+    "message": "Valinnan korostukset tyhjennetty"
+  },
+  "t_58762fd6": {
+    "message": "Ole hyvä ja valitse yksi sana tai lyhyt lause määritettäväksi."
+  },
+  "t_6838b119": {
+    "message": "Verkkovirhe määritelmää haettaessa."
+  },
+  "t_ea3ca1b5": {
+    "message": "Purettu $1 termiä (välimuistista)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "Purettu $1 termiä (välimuistista)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "Olet käyttänyt kaikki tämän kuukauden ilmaiset Jargon Decoder -käyttökerrat. Päivitä Pro-versioon saadaksesi rajoittamattoman pääsyn."
+  },
+  "t_cb3c5d3a": {
+    "message": "Purettu $1 termiä $2 kategoriasta",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "Automaattisesti korostettu $1 kpl purettua sanastotermiäsi",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "Palautettu $1 tallennettua ammattisanaston määritelmää$2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "Olet käyttänyt kaikki tämän kuukauden ilmaiset Jargon Decoder -käyttökerrat. Päivitä Pro-versioon saadaksesi rajoittamattoman pääsyn."
+  },
+  "t_0b841c82": {
+    "message": "Jo muistikirjassa!"
+  },
+  "t_8901f3ab": {
+    "message": "Tallennettu muistikirjaan!"
+  },
+  "t_eb8f5242": {
+    "message": "Virhe muistikirjaan tallentamisessa"
+  },
+  "t_bd15702b": {
+    "message": "Aistisuoja aktivoitu"
+  },
+  "t_c28f3265": {
+    "message": "Aistisuoja deaktivoitu"
+  },
+  "t_3f8910d9": {
+    "message": "HELVONÄKYMÄ"
+  },
+  "t_8aafa613": {
+    "message": "Tätä tekstiä ei voitu yksinkertaistaa"
+  },
+  "t_79d2dc85": {
+    "message": "Tätä tekstiä ei voitu yksinkertaistaa"
+  },
+  "t_99684ba5": {
+    "message": "Virhe tekstin yksinkertaistamisessa"
+  },
+  "t_f4362bde": {
+    "message": "Kopioitu leikepöydälle!"
+  },
+  "t_af07ef4b": {
+    "message": "Kopiointi epäonnistui"
+  },
+  "t_94e4d537": {
+    "message": "Teksti korvattu sivulla"
+  },
+  "t_14a04b67": {
+    "message": "Yksinkertaistusmuisti poistettu"
+  },
+  "t_c444ff21": {
+    "message": "Alkuperäinen teksti palautettu väliaikaisesti"
+  },
+  "t_55f1db14": {
+    "message": "Olet käyttänyt kaikki tämän kuukauden ilmaiset kerrat. Päivitä Pro-versioon saadaksesi rajoittamattoman pääsyn."
+  },
+  "t_fde4e3f0": {
+    "message": "Palautettu $1 tallennettua yksinkertaistusta tällä sivulla",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "Automaattisesti palautettu dynaamisesti ladattu yksinkertaistus!"
+  },
+  "t_dfa22e52": {
+    "message": "Tekstistä puheeksi -toiminto aktivoitu"
+  },
+  "t_ca153ad0": {
+    "message": "Tekstistä puheeksi -toiminto pois käytöstä"
+  },
+  "t_dadbff09": {
+    "message": "Ole hyvä ja ota ensin puhesynteesi käyttöön"
+  },
+  "t_47071c61": {
+    "message": "Jatketaan..."
+  },
+  "t_5516c48d": {
+    "message": "Tältä sivulta ei löytynyt luettavaa sisältöä"
+  },
+  "t_c57f25c9": {
+    "message": "Luettavaa sisältöä ei löytynyt"
+  },
+  "t_2516997e": {
+    "message": "Lukeminen valmis"
+  },
+  "t_d3069aea": {
+    "message": "Puhesynteesiä ei tueta tässä selaimessa"
+  },
+  "t_53e6b8c6": {
+    "message": "Ole hyvä ja valitse ensin tekstiä"
+  },
+  "t_e932d0f7": {
+    "message": "Luetaan valintaa..."
+  },
+  "t_1c50528d": {
+    "message": "Lukeminen valmis"
+  },
+  "t_594778a2": {
+    "message": "Tauotettu"
+  },
+  "t_4ded5f77": {
+    "message": "Puhe pysäytetty"
+  },
+  "t_0a74758c": {
+    "message": "✨ Käyttää henkilökohtaista avainta"
+  },
+  "t_2fceddad": {
+    "message": "✨ Rajoittamaton"
+  },
+  "t_97627d80": {
+    "message": "✨ Käyttää henkilökohtaista avainta"
+  },
+  "t_fd7d5888": {
+    "message": "Hallitse tilausta"
+  },
+  "t_df4657a5": {
+    "message": "Ilmaisjäsen"
+  },
+  "t_22dfb2ec": {
+    "message": "Vieraskäyttäjä"
+  },
+  "t_bd9f2460": {
+    "message": "Ilmaistili"
+  },
+  "t_f5adda31": {
+    "message": "Kirjaudu sisään / Rekisteröidy"
+  },
+  "t_d2439201": {
+    "message": "✨ Rajoittamaton"
+  },
+  "t_164442b7": {
+    "message": "Lämmitetään muunninmoottoria..."
+  },
+  "t_1e7c3002": {
+    "message": "Valmis jäsentämään tiedostoja."
+  },
+  "t_d30f78df": {
+    "message": "Tumma tila"
+  },
+  "t_6c68d8ce": {
+    "message": "Vaalea tila"
+  },
+  "t_fcb68c2b": {
+    "message": "Muistilappuja ei löytynyt. Ei mitään vietävää!"
+  },
+  "t_2b75b2d9": {
+    "message": "Istuntotunnuksesi puuttuu. Kirjaudu uudelleen osoitteeseen easyview.in palauttaaksesi pääsyn."
+  },
+  "t_291a4e34": {
+    "message": "Suojattu palvelinreititys epäonnistui. Tarkista yhteytesi."
+  },
+  "t_2dcf62b3": {
+    "message": "Puuttuvia muistiinpanoja ei löytynyt. Työtila on ajan tasalla."
+  },
+  "t_951bf3ae": {
+    "message": "Salauksen purku epäonnistui: Tiedosto ei vastaa EasyView-rajoja."
+  },
+  "t_817a4ba0": {
+    "message": "PiP-rajapintaa ei tueta. Ole hyvä ja päivitä Chrome."
+  },
+  "t_e8aa6e9a": {
+    "message": "PiP-moottorin alustus epäonnistui: "
+  },
+  "t_9feed9d5": {
+    "message": "Purettu ja lisätty onnistuneesti $1 uutta muistiinpanoa.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "KOKEILUVERSIO"
+  },
+  "t_c289adbe": {
+    "message": "Tue meitä"
+  },
+  "t_60d5b12a": {
+    "message": "Arvostele meidät"
+  },
+  "js_eb82de4c": {
+    "message": "Mukautettu väri"
+  },
+  "js_8caef32b": {
+    "message": "Nollaa/Tyhjennä (Valitse teksti ja klikkaa, tai kaksoisklikkaa korostusta manuaalisesti)"
+  },
+  "t_823aeb91": {
+    "message": "EasyView-työtila"
+  },
+  "t_fc42ed23": {
+    "message": "Työtilassasi ei ole kelluvia yleisiä muistiinpanoja."
+  },
+  "t_12d7c58a": {
+    "message": "Paina Välilyöntiä muistilappujen kohdistimen ollessa aktiivinen luodaksesi uuden."
+  },
+  "t_ab983c11": {
+    "message": "Sivukohtaisia muistiinpanoja ei löytynyt."
+  },
+  "t_e22709e9": {
+    "message": "Klikkaa mitä tahansa verkkosivun fyysistä elementtiä kiinnittääksesi kohdistetun muistiinpanon."
+  },
+  "t_34bdba45": {
+    "message": "Vaihe"
+  },
+  "t_9b2d88a1": {
+    "message": "jostakin"
+  },
+  "t_8f44d852": {
+    "message": "Aloita!"
+  },
+  "t_b45c2f91": {
+    "message": "Avaa työtilan viennit"
+  },
+  "t_88f91dc1": {
+    "message": "Koko yleisen työtilan muistiinpanojen turvallinen renderöinti ja vienti vaatii vahvistetun Pro-lisenssin. Päivitä avataksesi tämän ominaisuuden pysyvästi."
+  },
+  "t_134dff88": {
+    "message": "Ehkä myöhemmin"
+  },
+  "t_5b8c9d11": {
+    "message": "Päivitä Pro-versioon"
+  },
+  "t_792bd8c9": {
+    "message": "Työtila kelluu!"
+  },
+  "t_e39f7dc2": {
+    "message": "Muistilappusi leijuvat nyt käyttöjärjestelmäsi työpöydän yläpuolella."
+  },
+  "t_c83d6ec9": {
+    "message": "Telakoi työtila uudelleen"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "Generointi pysäytetty"
+  },
+  "t_removed_from_notebook": {
+    "message": "Poistettu muistikirjasta"
+  },
+  "t_d1c58470": {
+    "message": "Kaksoisklikkaa poistaaksesi korostuksen"
+  },
+  "t_d4fdfb03": {
+    "message": "Kirjaudu EasyView-palveluun saadaksesi $1 ilmaista käyttökertaa/kk, tai lisää oma API-avaimesi Asetuksissa.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "Ladataan tallennettuja tuloksia..."
+  },
+  "t_3a99733d": {
+    "message": "Alustetaan ammattisanaston purkaja..."
+  },
+  "t_b6dc9fc9": {
+    "message": "Luo ilmainen EasyView-tili saadaksesi $1 ilmaista tekoälypurkua kuukaudessa ja seurataksesi kiintiötäsi.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "Luo ilmainen EasyView-tili saadaksesi $1 ilmaista tekoälymääritelmää kuukaudessa ja seurataksesi kiintiötäsi.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "Puretaan pääsisältöä..."
+  },
+  "t_0eeae2bf": {
+    "message": "Tunnistetaan sivun asiayhteyttä..."
+  },
+  "t_87f125d0": {
+    "message": "Analysoidaan terminologiaa..."
+  },
+  "t_9ef6e70f": {
+    "message": "Käytetään välimuistituloksia..."
+  },
+  "t_9afdc5e8": {
+    "message": "Analysoidaan tekoälyllä..."
+  },
+  "t_7ecc3abe": {
+    "message": "Tekoälyn purku epäonnistui"
+  },
+  "t_9220c8de": {
+    "message": "Sovelletaan yksinkertaistuksia..."
+  },
+  "t_57f406b1": {
+    "message": "Puretaan valintaa..."
+  },
+  "t_c50f2b72": {
+    "message": "Näytä sanasto"
+  },
+  "t_49de9b11": {
+    "message": "Piilota sivun korostukset"
+  },
+  "t_3158774e": {
+    "message": "Palauta sivun korostukset"
+  },
+  "t_fc3ad42d": {
+    "message": "Tallenna sanastoon"
+  },
+  "t_87e933b8": {
+    "message": "Etsitään määritelmää..."
+  },
+  "t_56b79836": {
+    "message": "Sanan määritelmä ladattu."
+  },
+  "t_969b24ea": {
+    "message": "🔊 Klikkaa mitä tahansa aktivoidaksesi teeman äänet"
+  },
+  "t_49337275": {
+    "message": "Manuaalinen korostus"
+  },
+  "t_93324bd5": {
+    "message": "Tallennettu suoraan verkkosivulta."
+  },
+  "t_82e413f3": {
+    "message": "Yksinkertaistetaan tekstiä..."
+  },
+  "t_86c4f6e5": {
+    "message": "Yksinkertaistetaan tekoälyllä..."
+  },
+  "t_c3e18edb": {
+    "message": "Yksinkertaistaminen epäonnistui"
+  },
+  "t_6398ab2c": {
+    "message": "Lukutaso: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "Klikkaa palauttaaksesi alkuperäisen tekstin väliaikaisesti"
+  },
+  "t_9beea3e8": {
+    "message": "Poista muistista pysyvästi"
+  },
+  "t_453bb8f7": {
+    "message": "Luo ilmainen EasyView-tili saadaksesi $1 ilmaista tekoälyyksinkertaistusta kuukaudessa ja seurataksesi kiintiötäsi.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "Kuuntele"
+  },
+  "t_24833610": {
+    "message": "Tallennettu"
+  },
+  "t_30a008cb": {
+    "message": "Lue lisää &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "Tallennettu sanastovihkoon!"
+  },
+  "t_2728e87f": {
+    "message": "Poistettu sanastovihkosta"
+  },
+  "t_6b8c66ce": {
+    "message": "Sanasto ($1 termiä)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "Poista tämän sivun muisti"
+  },
+  "t_8a49fe1a": {
+    "message": "Poista termi"
+  },
+  "t_1534891c": {
+    "message": "Purettu $1 termiä",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "Tallenna muistikirjaan"
+  },
+  "t_150a2843": {
+    "message": "Tyhjennä korostukset"
+  },
+  "t_21ef939c": {
+    "message": "Tallennettu muistikirjaan!"
+  },
+  "t_8054da35": {
+    "message": "Pikasanakirja",
+    "description": "Pikasanakirjan ponnahdusikkunan otsikko"
+  },
+  "t_4aeb2167": {
+    "message": "Sanaa ei löytynyt",
+    "description": "Sanakirjan varavaihtoehdon otsikko"
+  },
+  "t_272d0070": {
+    "message": "Emme löytäneet \"$1\" perussanakirjasta. Se voi olla modernia slangia, lyhenne tai erittäin teknistä jargonia.",
+    "description": "Sanakirjan varakuvaus sanapaikkamerkillä",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "Pura koodi Evie AI:lla",
+    "description": "Varapainike tekoälyllä purkamiseen"
+  },
+  "t_14f1f972": {
+    "message": "kautta",
+    "description": "Sanakirjan lähteen etuliite"
+  },
+  "t_f2faf2f1": {
+    "message": "Substantiivi",
+    "description": "Sanaluokka: substantiivi"
+  },
+  "t_b512ddf1": {
+    "message": "Verbi",
+    "description": "Sanaluokka: verbi"
+  },
+  "t_d807ae6a": {
+    "message": "Adjektiivi",
+    "description": "Sanaluokka: adjektiivi"
+  },
+  "t_1a607278": {
+    "message": "Adverbi",
+    "description": "Sanaluokka: adverbi"
+  },
+  "t_02de720d": {
+    "message": "Pronomini",
+    "description": "Pronomini sanaluokkana"
+  },
+  "t_4b7be2c3": {
+    "message": "Prepositio",
+    "description": "Prepositio sanaluokkana"
+  },
+  "t_a3c1d30b": {
+    "message": "Konjunktio",
+    "description": "Konjunktio sanaluokkana"
+  },
+  "t_e189f001": {
+    "message": "Interjektio",
+    "description": "Interjektio sanaluokkana"
+  },
+  "t_96de90f8": {
+    "message": "Kopioi yksinkertaistettu teksti",
+    "description": "Työkalu yksinkertaistetun tekstin kopioimiseen"
+  },
+  "t_44a6e288": {
+    "message": "Lue sivu",
+    "description": "Työkalu koko sivun lukemiseen puhesynteesillä"
+  },
+  "t_7d70d73b": {
+    "message": "Lue valinta",
+    "description": "Työkalu valinnan lukemiseen puhesynteesillä"
+  },
+  "t_11936123": {
+    "message": "Poista muistiinpano pysyvästi",
+    "description": "Työkalu muistilapun pysyvään poistamiseen"
+  },
+  "t_d27532d9": {
+    "message": "Pienennä"
+  },
+  "t_2bd339d8": {
+    "message": "Palauta"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "HelppoNäkymä"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "Järjestelmän hälytys"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "Järjestelmäilmoitus"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "EasyView\r\n                        -moottori"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "Paikalliset toiminnot pysyvät\r\n                        aktiivisina"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,580 +599,574 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "EasyView\r\n                        -kokemus"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "Olet käyttänyt EasyView-palvelua 12 tuntia. Luo ilmainen tili\r\n                    tallentaaksesi\r\n                    asetuksesi, säilyttääksesi kiintiösi ja avataksesi lisää ominaisuuksia."
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "Muistuta minua 12 tunnin kuluttua"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "Vaalea"
   },
   "t_7fc56270": {
-    "message": "A"
+    "message": "Aa"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "Fontti"
   },
   "t_5dbc98dc": {
-    "message": "S"
+    "message": "P"
   },
   "t_69691c7b": {
-    "message": "M"
+    "message": "K"
   },
   "t_d20caec3": {
-    "message": "L"
+    "message": "S"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "Ominaisuudet"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "Visuaalit"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "Muunnin"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "Muistikirja"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "Jargonin purkaja"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "Yksinkertaista monimutkaiset lakitermit"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "wikipedia.org/wiki/Neurokirjo"
   },
   "t_61e9c06e": {
-    "message": "W"
+    "message": "L"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "Neurokirjo"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "paljon\r\n                                                helpompaa"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "Keskittymis- ja yksityisyyssuoja"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "Sumenna yksityinen ja arkaluontoinen sisältö"
   },
   "t_7f766191": {
-    "message": "mail.google.com/mail/u/0/"
+    "message": "posti.google.com/posti/u/0/"
   },
   "t_dfcf28d0": {
-    "message": "G"
+    "message": "V"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "Google-tilit"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "Tietoturvahälytys"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- Salasanan nollausta pyydetty..."
   },
   "t_8d9c307c": {
-    "message": "N"
+    "message": "Nn"
   },
   "t_170b1d36": {
-    "message": "Netflix"
+    "message": "Netfliksi"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "Uutta tällä viikolla"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- Tutustu uusimpiin\r\n                                                    julkaisuihimme..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "Suojaustekniikat"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "Yksityisen sisällön sumentaminen"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "Sumentaa älykkäästi WhatsApp-, Gmail- ja salasana-\r\n                                            syötteet välitöntä visuaalista turvallisuutta varten."
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "Automaattinen suojaus näytön jaossa"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "Suojaa näyttösi välittömästi, kun jaat verkossa tai yhdistät \"Laajenna\"-näyttöön."
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
+    "message": "Käytätkö\r\n                                                    fyysistä projektoria?"
   },
   "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "Kopiointitila"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "Lukutaskulamppu"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "Seuraa hiirtäsi kirkkaalla valokeilalla poistaaksesi ympäröivän\r\n                                            visuaalisen hälyn kokonaan."
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "1.\r\n                                                            Säteen muoto"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "Valokeila\r\n                                                            tai viivain"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "2.\r\n                                                                Säteen koko / korkeus"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "Näkymäalueen\r\n                                                                paksuus"
   },
   "t_f0cad41b": {
     "message": "35px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "3.\r\n                                                            Tarkennussäteen linssin sävy"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "Värjää hellävaraisesti\r\n                                                            lukuvälin"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "4.\r\n                                                            Ympäröivä taustavarjo"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "Linssiä ympäröivä\r\n                                                            hämäryys"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "Aistisuoja"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "Pysäytä häiritsevät animaatiot"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "uutispäivä.fi/tuoreimmat"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "TUOREET UUTISET"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "Luetaan artikkelia päivän uutisista..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "VOITTO!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "Suojaustila"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(oletus)"
   },
   "t_9e3360ac": {
-    "message": "PRO"
+    "message": "AMMATTILAINEN"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "Pysäytä automaattinen toisto + rauhalliset\r\n                                                häivytykset manuaalisessa navigoinnissa"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "Dysleksia-lukutila"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "Optimoidut fontit ja välistys"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "Intensiteettiprofiili"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "Matala"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "Keskikokoinen"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "Korkea"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "wikipedia.org/wiki/Lukeminen"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "Lukeminen"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "Tässä on esikatselu lukemisen asetuksistasi."
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "Lisäasetukset"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "Fonttityyli"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "Oletus (ei muutosta)"
   },
   "t_5d2967ef": {
-    "message": "OpenDyslexic"
+    "message": "AvaaDysleksia"
   },
   "t_1042daad": {
-    "message": "Lexend (ADHD Pro) 🔒"
+    "message": "Lexend (ADHD Ammattilainen) 🔒"
   },
   "t_bcec044a": {
     "message": "Atkinson Hyperlegible 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "Nopea Sans"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "Nopea Serif"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "Komik Neue"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "Komik Sans"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "Kirjainvälistys"
   },
   "t_960b44c5": {
-    "message": "Normal"
+    "message": "Normaali"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "Riviväli"
   },
   "t_60086472": {
     "message": "1.5"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "Sanaväli"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "Fontin koko"
   },
   "t_30bd7ce7": {
     "message": "100%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "Peittoväri"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "Ei mitään"
   },
   "t_2bd8c63b": {
-    "message": "Beige"
+    "message": "Beessi"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "Vaaleansininen"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "Vaaleanvihreä"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "Vaaleankeltainen"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "Tekstistä puheeksi"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "Lue ääneen korostuksella"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "Toista"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "Tauko"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "Pysäytä"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "Äänen valinta"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "Automaattinen (paras laatu)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "Lukunopeus"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "Erittäin hidas"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "Hidas"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "Nopea"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "Erittäin nopea"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "Äänenvoimakkuus"
   },
   "t_f1943132": {
     "message": "70%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "Tauota välimerkeissä"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "Sanojen korostus"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "Ota käyttöön"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "Tila"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "Tumma"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "wikipedia.org/wiki/Valo"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "Täydellinen visuaalisuus silmien mukavuudelle. Valo voi olla voimakasta."
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "Kirkkaus"
   },
   "t_c63ecd19": {
-    "message": "Contrast"
+    "message": "Kontrasti"
   },
   "t_b84a9a38": {
-    "message": "Sepia"
+    "message": "Seepia"
   },
   "t_9f1ef078": {
     "message": "0%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "Harmaasävy"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "Oletus"
   },
   "t_b1166920": {
-    "message": "Lexend 🔒"
+    "message": "Leksenti 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "Tekstin reunaviiva"
   },
   "t_cfcd2084": {
     "message": "0"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "Älykäs muunnin ja lukija"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "Nykyinen tiedosto"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "Klikkaa tai raahaa tiedosto ladataksesi"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• Valmis"
   },
   "t_4c4ad5fc": {
-    "message": "HTML"
+    "message": "Hyperteksti"
   },
   "t_5c31b30e": {
-    "message": "EPUB"
+    "message": "Sähkökirja"
   },
   "t_7cfd9a9f": {
-    "message": "DOCX"
+    "message": "Word-asiakirja"
   },
   "t_af97e960": {
     "message": "📌"
   },
   "t_4cc6684d": {
-    "message": "Global"
+    "message": "Yleinen"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "Sivusto/sivu"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "Muistikirjani"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "Tyhjennä kaikki"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "Peruuta"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "Tallenna sana"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "Ei vielä tallennettuja sanoja."
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "Vie hiiri jargonin päälle millä tahansa sivulla ja klikkaa kirjanmerkkilippua tallentaaksesi ne tänne!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "Kuvittele minkä tahansa verkkosivuston käyttöliittymä uudelleen. Kuvaile mitä haluat tai valitse\r\n                            esiasetus."
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "Muotoilu\r\n                                käytössä"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "Mukautettu tekoälyasettelu\r\n                                on käytössä tällä sivustolla."
   },
   "t_e8a57cd1": {
     "message": "0 /\r\n                                500"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "Nollaa sivu"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "Muotoilun asettelu"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "Oletusesiasetukset"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "Kauhu-karnevaali"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "Aavemainen tivolitunnelma ja animoitu kauhukirjasin"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "Matriisikonsoli"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "Kyberpunk-pääte-teema"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "Neuro-keskitys"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "Lukivaikeusystävälliset fontit ja rauhoittavat värit"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "Lukutila"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "Minimalistinen asettelu optimoitu keskittymiseen"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "Viimeisimmät kehotteet"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "Vieraskäyttäjä"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "Ilmaistili"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "Kirjaudu / Hallitse"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "Kirjaudu ulos"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "API-asetukset"
   },
   "t_766cc4dd": {
     "message": "Gemini"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "Tekoälyn tarjoaja"
   },
   "t_222cf5ed": {
-    "message": "Google Gemini"
+    "message": "Google Kaksoset"
   },
   "t_a0607683": {
-    "message": "OpenRouter"
+    "message": "AvaaReititin"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "Gemini API-avain"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "Kuukeli Tekoäly Studio"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "OpenRouter API-avain"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "Tallenna API-avain"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "EasyView\r\n                                    Tekoälyn prioriteetti"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ Oma API-avain"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 EasyView-palvelimet"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "Valitse\r\n                                mitä käytetään ensin kaikissa tekoälyominaisuuksissa. Jos avaimesi loppuu, EasyView-palvelimia\r\n                                käytetään aina varavaihtoehtona."
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "Yksityisyys\r\n                                    & Prioriteetti"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "Prioriteetti 1:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "Prioriteetti 2:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "Muotoilumoottorin\r\n                                            huomautus:"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "ei koskaan"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "Ohje ja palaute"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "Onko sinulla kysyttävää, löysitkö virheen tai haluatko ehdottaa ominaisuutta? Kuulemme sinusta mielellämme!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "Ilmoita virheestä / Anna palautetta"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Valmis yksinkertaistamaan"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "Vie asetukset"
   },
   "t_9d5ed678": {
-    "message": "B"
+    "message": "L"
   },
   "t_dd753679": {
-    "message": "I"
+    "message": "K"
   },
   "t_20a1d47c": {
     "message": "✎"
   },
   "t_4c614360": {
-    "message": "U"
+    "message": "A"
   },
   "t_2f43b42f": {
     "message": "..."
@@ -615,25 +1175,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "Voimakkuus"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "Peittävyys"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "Paino"
   },
   "t_18d80423": {
     "message": "400"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "Rivin\r\n                                korkeus"
   },
   "t_f522dede": {
     "message": "1.7x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "Ohita"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,61 +1202,61 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "Korosta"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "MUSTE"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "HÄIVYTYS"
   },
   "t_e8bfe352": {
-    "message": "Lexend 👑"
+    "message": "Leksenti 👑"
   },
   "t_0cd4623c": {
     "message": "Atkinson Hyperlegible 👑"
   },
   "t_6fbda3a3": {
-    "message": "Arial"
+    "message": "Ariaali"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "Helvetika"
   },
   "t_207c3219": {
     "message": "Verdana"
   },
   "t_2bd141ae": {
-    "message": "Tahoma"
+    "message": "Tahomi"
   },
   "t_720661ec": {
-    "message": "Trebuchet MS"
+    "message": "Trebušetti-MS"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "Järjestelmän sans-serif"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "Taims Njuu Roman"
   },
   "t_eada8196": {
     "message": "Georgia"
   },
   "t_96a78725": {
-    "message": "Garamond"
+    "message": "Garamondi"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "Järjestelmän serif"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "Komik Sans MS"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "Kuriiri Uusi"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "Tasalevyinen"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "Fontin\r\n                            koko"
   },
   "t_f4f9f2f4": {
     "message": "14px"
@@ -723,7 +1283,7 @@
     "message": "32px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "Valmis"
   },
   "t_63922286": {
     "message": "×"
@@ -732,154 +1292,34 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "Vie teemakirjasto"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "Tallenna tekoälyllä luodut mestariteoksesi\r\n                paikallisesti."
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "Vie koko kirjasto"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
-  },
-  "t_ccca2ddf": {
-    "message": "EasyView Reader"
-  },
-  "t_8524de96": {
-    "message": "Loading..."
-  },
-  "t_25e8f2fd": {
-    "message": "Please wait..."
-  },
-  "t_ec9d785d": {
-    "message": "1.5x"
-  },
-  "t_dafd5f8f": {
-    "message": "Lexend"
-  },
-  "t_16d90a0b": {
-    "message": "Atkinson Hyperlegible"
-  },
-  "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
-  },
-  "t_f7cee5ea": {
-    "message": "Calibri"
-  },
-  "t_ccc0239e": {
-    "message": "Candara"
-  },
-  "t_2963521b": {
-    "message": "Corbel"
-  },
-  "t_37f1cc58": {
-    "message": "Cambria"
-  },
-  "t_c3d9d4bf": {
-    "message": "Constantia"
-  },
-  "t_5d1a5b35": {
-    "message": "Palatino Linotype"
-  },
-  "t_4dc386b6": {
-    "message": "Book Antiqua"
-  },
-  "t_03c461f6": {
-    "message": "Franklin Gothic"
-  },
-  "t_7b1ee3b6": {
-    "message": "Century Gothic"
-  },
-  "t_a3293302": {
-    "message": "Gill Sans"
-  },
-  "t_eb726908": {
-    "message": "Sitka Text"
-  },
-  "t_b5bdee2c": {
-    "message": "Sylfaen"
-  },
-  "t_1ec05249": {
-    "message": "Microsoft Sans Serif"
-  },
-  "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
-  },
-  "t_16507cdd": {
-    "message": "Consolas"
-  },
-  "t_391c5954": {
-    "message": "Lucida Console"
-  },
-  "t_9879efdf": {
-    "message": "Lucida Sans Typewriter"
-  },
-  "t_21f59b54": {
-    "message": "Impact"
-  },
-  "t_94a7bb97": {
-    "message": "Arial Black"
-  },
-  "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
-  },
-  "t_40885309": {
-    "message": "Berlin Sans FB"
-  },
-  "t_6d5566ba": {
-    "message": "Gabriola"
-  },
-  "t_edb42482": {
-    "message": "Ink Free"
-  },
-  "t_fa233799": {
-    "message": "Segoe Script"
-  },
-  "t_2f7bc407": {
-    "message": "Segoe Print"
-  },
-  "t_0095a9fa": {
-    "message": "Export"
-  },
-  "t_520d0db3": {
-    "message": "Format"
-  },
-  "t_5956a437": {
-    "message": "TXT"
-  },
-  "t_1351017a": {
-    "message": "Filename"
-  },
-  "t_6af8212e": {
-    "message": "EasyView Notes Board"
-  },
-  "t_d16da0f5": {
-    "message": "🌎"
-  },
-  "t_6df173ff": {
-    "message": "📍"
+    "message": ".json (JSON-tiedosto)"
   },
   "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
-  },
-  "js_24833610": {
-    "message": "Saved"
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Toimenpide vaaditaan</div>\n            <h2 class=\"ev-si-title\">Tili<br><span class=\"ev-si-gradient-text\">Jäädytetty</span></h2>\n            <p class=\"ev-si-sub\">EasyView-pääsysi on rajoitettu käyttöehtojemme rikkomisen vuoksi.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Ota yhteyttä tukeen\n            </a>\n          </div>\n        </div>\n      "
   },
   "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Kuvaile muotoilusi ensin.</span>\n          </div>"
   },
   "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Muotoilee...</span>\n      "
   },
   "js_138703dd": {
-    "message": "No Theme on Page"
+    "message": "Ei teemaa sivulla"
   },
   "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>Vie nykyinen sivu"
   },
   "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Kääntää..."
   },
   "js_e541190e": {
     "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
@@ -891,30 +1331,1241 @@
     "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
   },
   "js_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Valmis yksinkertaistamaan"
   },
   "js_a18366b2": {
-    "message": "Dark"
+    "message": "Tumma"
   },
   "js_9914a0ce": {
-    "message": "Light"
+    "message": "Vaalea"
   },
   "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+    "message": "<option value=\"auto\">Automaattinen (paras laatu)</option>"
   },
   "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Purkaa koodia..."
   },
   "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+    "message": "Tämä tuntuu <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">paljon helpommalta</span> ymmärtää."
   },
   "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+    "message": "Tämä tuntuu vaikeammalta ymmärtää."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_f05df71b": {
+    "message": "Päivitetään"
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_78db2ae3": {
+    "message": "Tekoälypalvelimemme ovat päivitettävinä."
+  },
+  "t_bb2129c8": {
+    "message": "Avaa koko"
+  },
+  "t_aefee7cd": {
+    "message": "Selkeyttä jokaiselle"
+  },
+  "t_c38beca1": {
+    "message": "Windows piilottaa näytöt kohdassa"
+  },
+  "t_f2fe1e79": {
+    "message": "Arvot\r\n                                    alle 1.0 voivat tiivistää tekstiä ja rikkoa asetteluja."
+  },
+  "t_ca677d53": {
+    "message": "Visuaaliset säädöt"
+  },
+  "t_230b4522": {
+    "message": "Muistiinpanotaulu"
+  },
+  "t_596b54bf": {
+    "message": "Morph AI-agentti"
+  },
+  "t_47e79a17": {
+    "message": "Hae ilmainen avain osoitteesta"
+  },
+  "t_42372184": {
+    "message": "Teemat viedään muodossa"
+  },
+  "t_74fdc8a2": {
+    "message": "Ole hyvä ja kuvaile ensin muotoilumuutoksesi."
+  },
+  "t_245fd3b9": {
+    "message": "Muotoiltu asettelu tyhjennetty."
+  },
+  "t_172bd753": {
+    "message": "Teema viety onnistuneesti!"
+  },
+  "t_4c34daff": {
+    "message": "Yhteys aikakatkaistiin. Palvelin ei tavoitettavissa."
+  },
+  "t_0dd56117": {
+    "message": "Tältä sivulta ei löytynyt aktiivista teemaa."
+  },
+  "t_cb5c0766": {
+    "message": "Kirjasto viety onnistuneesti!"
+  },
+  "t_8adb392e": {
+    "message": "Yhteys aikakatkaistiin. Palvelin ei tavoitettavissa."
+  },
+  "t_ae94e0e4": {
+    "message": "Teemakirjastosi on tyhjä."
+  },
+  "t_10a0c40b": {
+    "message": "Mukautettu teema ladattu onnistuneesti!"
+  },
+  "t_9b6007a8": {
+    "message": "Teematiedoston lukeminen epäonnistui."
+  },
+  "t_d4fa051d": {
+    "message": "Epäonnistui: $1. Ole hyvä ja lataa välilehti uudelleen.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "Käytetty: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "Palautettu $1 teemaa kirjastosta!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "Kieliasetus"
+  },
+  "t_lang_updated_reload": {
+    "message": "Kieli päivitetty. Ladataan uudelleen..."
+  },
+  "t_transformation_failed": {
+    "message": "Muunnos epäonnistui."
+  },
+  "t_c8a59e71": {
+    "message": "Hylkää"
+  },
+  "t_7764306b": {
+    "message": "Pilvipalveluiden huolto käynnissä"
+  },
+  "t_248228de": {
+    "message": "Vaihda lukivaikeusfonttia ponnahdusikkunassa"
+  },
+  "t_79a59320": {
+    "message": "Aloita sovelluskierros"
+  },
+  "t_533bff5b": {
+    "message": "Kiinnitä muistilappu sivulle (Alt+S)"
+  },
+  "t_f4f70727": {
+    "message": "Asetukset"
+  },
+  "t_4fd11104": {
+    "message": "Pyöreä kohdevalo"
+  },
+  "t_0d063af1": {
+    "message": "Vaakasuora viivain 🔒"
+  },
+  "t_60d71580": {
+    "message": "Kirkas vaalea"
+  },
+  "t_efe48742": {
+    "message": "Meripihkanvärinen keskitys"
+  },
+  "t_610a09ca": {
+    "message": "Viileä syaani"
+  },
+  "t_886f6b9e": {
+    "message": "Rentouttava vihreä"
+  },
+  "t_65e8194e": {
+    "message": "Piki-musta"
+  },
+  "t_7243ed99": {
+    "message": "Keskiyön liuskekivi"
+  },
+  "t_ec6d8325": {
+    "message": "Syvä metsä"
+  },
+  "t_4af435e0": {
+    "message": "Vampyyrinpunainen"
+  },
+  "t_2a7dbdf8": {
+    "message": "Ammattilaisominaisuus"
+  },
+  "t_fc4aec61": {
+    "message": "Avaa lukijassa"
+  },
+  "t_801ab246": {
+    "message": "Lataa"
+  },
+  "t_aa3880dc": {
+    "message": "Lataa HTML-muodossa"
+  },
+  "t_e0781e81": {
+    "message": "Lataa EPUB-muodossa"
+  },
+  "t_442ff212": {
+    "message": "Lataa DOCX-muodossa"
+  },
+  "t_6244ee7c": {
+    "message": "Lisää mukautettu termi manuaalisesti"
+  },
+  "t_6e7d015f": {
+    "message": "Tuo CSV-tiedosto"
+  },
+  "t_edbc5415": {
+    "message": "Vie Ankiin / Quizletiin"
+  },
+  "t_46c29f7a": {
+    "message": "Lataa teema"
+  },
+  "t_2bd65c5d": {
+    "message": "Vie teema"
+  },
+  "t_c1c433ac": {
+    "message": "Aktiivinen tekoälypalveluntarjoaja"
+  },
+  "t_90c09393": {
+    "message": "Pisteviiva"
+  },
+  "t_eb656e41": {
+    "message": "Katkoviiva"
+  },
+  "t_0c99ddee": {
+    "message": "Korostusväri"
+  },
+  "t_eaf63759": {
+    "message": "Musteen väri"
+  },
+  "t_a183c9f0": {
+    "message": "Häivytyksen väri"
+  },
+  "t_75e7422f": {
+    "message": "Taustaväri"
+  },
+  "t_42f9ceea": {
+    "message": "Etsi tallennettua sanastoa..."
+  },
+  "t_0e84a8cf": {
+    "message": "Kirjoita sana tai lyhenne..."
+  },
+  "t_eea6890c": {
+    "message": "Merkitys / käännös..."
+  },
+  "t_4480cf46": {
+    "message": "Muistisääntö tai opiskelumuistiinpano (valinnainen)..."
+  },
+  "t_d8634fbf": {
+    "message": "esim. Muuta vaaleanpunaiseksi anime-tyyliseksi teemaksi pyöristetyillä korteilla tai retroksi tummanvihreäksi terminaalikonsoliksi..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "Muistilaput"
+  },
+  "t_b097d277": {
+    "message": "Lisää sana"
+  },
+  "t_1eeb67ee": {
+    "message": "Vie nykyinen sivu"
+  },
+  "t_b62ded9a": {
+    "message": "Pilvipalvelut offline-tilassa"
+  },
+  "t_263e00eb": {
+    "message": "Kirjaudu sisään / Luo tili"
+  },
+  "t_7748eb3b": {
+    "message": "PÄIVITETÄÄN"
+  },
+  "t_81a5d20b": {
+    "message": "Jäädytä kaikki"
+  },
+  "t_e61146d9": {
+    "message": "Rauhoittavat häivytykset"
+  },
+  "t_57323916": {
+    "message": "Pysäytä automaattinen toisto"
+  },
+  "t_f50319ea": {
+    "message": "Täysi suojaus"
+  },
+  "t_8e13f26d": {
+    "message": "Nopea kysymys"
+  },
+  "t_134b26da": {
+    "message": "Pidätkö<br><span class=\"ev-si-gradient-text\">EasyView-palvelusta?</span>"
+  },
+  "t_b75bdd9e": {
+    "message": "Palautteesi auttaa meitä kehittymään.<br>Pidätkö kokemuksesta?"
+  },
+  "t_396d1ff8": {
+    "message": "Kyllä!"
+  },
+  "t_7d0cacf3": {
+    "message": "Vaatii työtä"
+  },
+  "t_815142c9": {
+    "message": "Tue meitä"
+  },
+  "t_abd9fa39": {
+    "message": "Haluaisitko<br><span class=\"ev-si-gradient-text\">jättää arvostelun?</span>"
+  },
+  "t_02991e61": {
+    "message": "Kaltaistesi käyttäjien arviot ovat paras tapa auttaa EasyView-palvelua kasvamaan. Se vie vain minuutin!"
+  },
+  "t_db49c1f2": {
+    "message": "Arvioi nyt"
+  },
+  "t_7a4f0d12": {
+    "message": "Muistuta myöhemmin"
+  },
+  "t_fee6c0e9": {
+    "message": "Yksityinen palaute"
+  },
+  "t_74393dde": {
+    "message": "Mitä voimme <span class=\"ev-si-gradient-text\">tehdä paremmin?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "Kerro meille, mikä meni vikaan..."
+  },
+  "t_6f97affc": {
+    "message": "Lähetä palautetta"
+  },
+  "t_b20871b3": {
+    "message": "Ole hyvä ja anna palautetta"
+  },
+  "t_7b0fee4d": {
+    "message": "Lähetetään..."
+  },
+  "t_fb631633": {
+    "message": "Kiitos palautteestasi."
+  },
+  "t_08727add": {
+    "message": "Katso verkkoa omalla tavallasi."
+  },
+  "t_15bbb9d0": {
+    "message": "Verkkosivusto"
+  },
+  "t_c5f29bb3": {
+    "message": "Yksityisyys"
+  },
+  "t_ad5b1a22": {
+    "message": "Perustaja"
+  },
+  "t_db496e03": {
+    "message": "Henkilökohtaiset avaimet luovat suoran, 100 % yksityisen yhteyden tekoälyyn. Tekstisi ei koskaan kosketa EasyView-palvelimia."
+  },
+  "t_387c35b3": {
+    "message": "Hallinnoitu palvelimemme (Premium) toimii luotettavana varmuuskopiona, jos avainta ei ole tai avain epäonnistuu."
+  },
+  "t_98bc5a17": {
+    "message": "Omistusoikeudellisten algoritmien suojaamiseksi avaimesi reititetään lyhyesti suojatun palvelimemme kautta Googlen todentamiseksi. Se on"
+  },
+  "t_de47f1be": {
+    "message": "tallennettu tai kirjattu."
+  },
+  "t_25e02e7f": {
+    "message": "Aktiivinen: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ Premium-jäsen"
+  },
+  "t_df56cfae": {
+    "message": "⭐ Elinikäinen jäsen"
+  },
+  "t_41cbc704": {
+    "message": " päivää jäljellä"
+  },
+  "t_b194bd82": {
+    "message": "Ei vanhene koskaan"
+  },
+  "t_9f830444": {
+    "message": "⭐ Ammattilainen:"
+  },
+  "t_61b82be6": {
+    "message": " muotoilua jäljellä"
+  },
+  "t_c20e7ceb": {
+    "message": " ilmaista muotoilua jäljellä"
+  },
+  "t_d7087930": {
+    "message": " ilmaista käyttökertaa jäljellä"
+  },
+  "t_4bbf11bd": {
+    "message": "Termi- ja merkityskenttiä ei voi jättää tyhjiksi!"
+  },
+  "t_08f09d38": {
+    "message": "Sanatiedot päivitetty onnistuneesti!"
+  },
+  "t_32001b52": {
+    "message": "Ole hyvä ja syötä sekä sana että sen merkitys."
+  },
+  "t_b8115861": {
+    "message": "Opiskelumuistikirjasi on tyhjä. Lisää ensin sanoja kirjanmerkkeihin verkkosivuilta!"
+  },
+  "t_7114113b": {
+    "message": "Kirjaudu ensin EasyView-tilillesi vahvistaaksesi Pro-ominaisuutesi!"
+  },
+  "t_093f9fa0": {
+    "message": "Istuntotunnuksesi puuttuu. Kirjaudu uudelleen osoitteeseen easyview.in palauttaaksesi pääsyn."
+  },
+  "t_0e065596": {
+    "message": "Tämä on vahvistettu Premium-ominaisuus. Päivitä Pro-versioon avataksesi sen!"
+  },
+  "t_c792a645": {
+    "message": "Yhteys suojattuun vientipalvelimeen epäonnistui. Yritä pian uudelleen."
+  },
+  "t_8d1a2675": {
+    "message": "CSV-tiedostosta ei löytynyt yhtään kelvollista sanastokohdetta."
+  },
+  "t_a613ed90": {
+    "message": "Selaimen tallennusvirhe! Tiedosto saattaa olla liian suuri paikalliseen välimuistiin."
+  },
+  "t_8efe87ab": {
+    "message": "Selain ei pystynyt lukemaan paikallista tiedostoasi."
+  },
+  "t_50bf63aa": {
+    "message": "Haluatko varmasti tyhjentää kaikki tallennetut sanat muistikirjastasi?"
+  },
+  "t_ff252710": {
+    "message": "Tuonti valmis: Kaikki $1 merkintää ovat jo muistikirjassasi.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "CSV-tiedoston jäsentäminen epäonnistui: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "\"$1\" on jo muistikirjassasi. Haluatko lisätä sille toisen määritelmän?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "Kirjauduttu ulos onnistuneesti"
+  },
+  "t_dbd35100": {
+    "message": "Muotoilumoottori on jo käynnissä..."
+  },
+  "t_2de4e55d": {
+    "message": "Muotoiltu asettelu tyhjennetty"
+  },
+  "t_1bb9196d": {
+    "message": "Muotoiltu: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "Muotoilu epäonnistui: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "Laukaistu: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 kohdetta järjestetty",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "Tämä poistaa muistiinpanon pysyvästi kaikilta synkronoiduilta laitteilta. Jatka?"
+  },
+  "t_25abf697": {
+    "message": "Sähkökirjan vienti vaatii JSZip-kirjaston."
+  },
+  "t_71609188": {
+    "message": "Word-asiakirjan vienti vaatii html-docx-js-kirjaston."
+  },
+  "t_e1499766": {
+    "message": "Tiedostoa ei ladattu."
+  },
+  "t_023b3355": {
+    "message": "Yksityisyyssuoja aktivoitu"
+  },
+  "t_9483a5da": {
+    "message": "Yksityisyydensuoja poistettu käytöstä"
+  },
+  "t_a04202db": {
+    "message": "Korostukset piilotettu väliaikaisesti"
+  },
+  "t_b3d6b264": {
+    "message": "Korostukset palautettu"
+  },
+  "t_7485c55e": {
+    "message": "Tervetuloa EasyView-palveluun! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "Tekoälypohjainen kognitiivinen siltasi helpompaan verkkolukemiseen. Tehdään nopea kierros ominaisuuksien parissa."
+  },
+  "t_3a1fe637": {
+    "message": "Jargonin purkaja 📖"
+  },
+  "t_89cec86e": {
+    "message": "Yksinkertaistaa monimutkaista terminologiaa millä tahansa verkkosivulla."
+  },
+  "t_f8aefae7": {
+    "message": "Yksityisyyssuoja 🔐"
+  },
+  "t_aa860f86": {
+    "message": "Sumentaa arkaluontoiset tiedot ja sisältää tarkennusviivaimen häiriöttömään lukemiseen."
+  },
+  "t_0681a3b6": {
+    "message": "Aistisuoja 🛡️"
+  },
+  "t_6118b864": {
+    "message": "Pysäyttää häiritsevät GIF-kuvat ja animaatiot."
+  },
+  "t_12ec6fc6": {
+    "message": "Dysleksia-lukutila 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "Optimoidut fontit ja välistys helpompaa lukemista varten."
+  },
+  "t_18d9ce63": {
+    "message": "Tekstistä puheeksi 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "Kuuntele mitä tahansa verkkosivua sanakorostuksella."
+  },
+  "t_0019a700": {
+    "message": "Morph-moottori ✨"
+  },
+  "t_47c2535a": {
+    "message": "Käytä tekoälyä minkä tahansa verkkosivuston uudelleensuunnitteluun mukautetulla teemalla tai asettelulla."
+  },
+  "t_2ed2f639": {
+    "message": "Muistilaput 📝"
+  },
+  "t_75025b5f": {
+    "message": "Kiinnitä leijuvia muistilappuja mille tahansa verkkosivulle tallentaaksesi tärkeitä tietoja (Alt+S)."
+  },
+  "t_3ff2d7cc": {
+    "message": "API-määritykset ⚙️"
+  },
+  "t_0754e836": {
+    "message": "Kirjaudu sisään synkronoidaksesi kiintiösi tai määritä oma ilmainen Gemini API-avain tästä."
+  },
+  "t_7b6a2059": {
+    "message": "Vaihe $1 / $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "Aloita!"
+  },
+  "t_10ac3d04": {
+    "message": "Seuraava"
+  },
+  "t_5c7a52b8": {
+    "message": "Paina "
+  },
+  "t_a1b2c3d4": {
+    "message": " milloin tahansa ottaaksesi automaattisen suojauskilven käyttöön manuaalisesti."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ Yksityisyydensuoja aktivoitu"
+  },
+  "js_7c8d9e0f": {
+    "message": "Yksityisyydensuoja poistettu käytöstä"
+  },
+  "js_9b3e1a": {
+    "message": "EasyView analysoi asettelua ja muotoilee..."
+  },
+  "js_4c8d2f": {
+    "message": "Määritä"
+  },
+  "js_7a1e9b": {
+    "message": "Pura koodi"
+  },
+  "js_2d5f8c": {
+    "message": "Yksinkertaista"
+  },
+  "js_6e3a4d": {
+    "message": "Kirjanmerkki"
+  },
+  "js_1f9b7c": {
+    "message": "Korosta"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "Analysoidaan DOM-puuta..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "Sotkuinen asettelu..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "Litistetään rakennetta..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[MELU_YLIKUORMITUS]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "Poistetaan häiriötekijöitä..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "Monimutkaiset solmut"
+  },
+  "js_ldr_m4_cl": {
+    "message": "Sovelletaan lukivaikeussääntöjä..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "Renderöidään EasyView-käyttöliittymää..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "Skannataan tekstilohkoa..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "Liikaa sanoja..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "Puretaan ydinsanomaa..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "Kognitiivinen kuormitus"
+  },
+  "js_ldr_s3_cl": {
+    "message": "Luonnostellaan yksinkertaisempaa englantia..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "Sanavalmis tekoäly..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "Käytetään luettavuutta..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "Viimeistellään tulosta..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "Käännetään ammattikieltä..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "Virhe: Hämmennys"
+  },
+  "js_ldr_j2_cl": {
+    "message": "Etsitään määritelmiä..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[MELU_YLIKUORMITUS]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "Yksinkertaistetaan asiayhteyttä..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "Tuntemattomat termit"
+  },
+  "js_ldr_j4_cl": {
+    "message": "Käytetään selkeyttä..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "Muotoillaan tuloksia..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "Syväanalyysi..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "Viimeistellään tekoälylogiikkaa..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "Tekoäly suorittaa..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "Melkein valmis..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "Raskas liikenne..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "Tämä kestää hetken..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "Työskentelee yhä..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "Odota hetki..."
+  },
+  "t_b7012ab9": {
+    "message": "Muotoile"
+  },
+  "t_c5e8b1d9": {
+    "message": "Ammattilaisfontit"
+  },
+  "t_c8f2ba19": {
+    "message": "Yksityisen sisällön sumentaminen käytössä"
+  },
+  "t_e2dae61a": {
+    "message": "Yksityisen sisällön sumentaminen pois käytöstä"
+  },
+  "t_c74de318": {
+    "message": "Automaattinen suojaus näytön jaossa käytössä"
+  },
+  "t_a5fd56f4": {
+    "message": "Automaattinen suojaus näytön jaossa pois käytöstä"
+  },
+  "t_ab8d1f2a": {
+    "message": "Taskulampputila käytössä"
+  },
+  "t_2bf5cc98": {
+    "message": "Taskulampputila pois käytöstä"
+  },
+  "t_513bb93f": {
+    "message": "Bioninen lukeminen"
+  },
+  "t_5a8b2c1d": {
+    "message": "Tässä on esikatselu lukemisen asetuksistasi."
+  },
+  "t_ac1d4e5f": {
+    "message": "Ei mitään"
+  },
+  "t_b2e3f4a1": {
+    "message": "Leveä"
+  },
+  "t_c3f4a5b2": {
+    "message": "Erittäin leveä"
+  },
+  "t_d1a3c901": {
+    "message": "Klikkaa"
+  },
+  "t_b4f2e891": {
+    "message": "Kiinnitä elementtiin"
+  },
+  "t_c9a1b302": {
+    "message": "Välilyönti"
+  },
+  "t_f6d4e203": {
+    "message": "Yleinen muistiinpano"
+  },
+  "t_e2b3f104": {
+    "message": "Poistu"
+  },
+  "t_a7c0d905": {
+    "message": "Peruuta"
+  },
+  "t_e1b2c301": {
+    "message": "Vain tämä sivu"
+  },
+  "t_f7a3b402": {
+    "message": "Tämä sivusto"
+  },
+  "t_a8c4d503": {
+    "message": "Kaikki sivustot (Yleinen)"
+  },
+  "t_b9d5e604": {
+    "message": "Piilota uudelleenlataukseen asti"
+  },
+  "t_c0e6f705": {
+    "message": "Kiinnitä muistiinpano elementtiin"
+  },
+  "t_d1f7a806": {
+    "message": "Muuta muistiinpanon väriä"
+  },
+  "t_e2a8b907": {
+    "message": "Tiivistä/laajenna muistiinpano"
+  },
+  "t_f3b9c008": {
+    "message": "Kopioi muistiinpanon sisältö"
+  },
+  "t_a4c0d109": {
+    "message": "Lisää toimintoja"
+  },
+  "t_b5d1e200": {
+    "message": "Poista tämä muistiinpano"
+  },
+  "t_e87033a2": {
+    "message": "Alt + P"
+  },
+  "t_4120201a": {
+    "message": "Ilmainen kokeilu aktiivinen"
+  },
+  "t_6ed40ffb": {
+    "message": "Synkronoi asetukset laitteiden välillä"
+  },
+  "t_f8b8a5fd": {
+    "message": "Korkeampi ilmainen käyttökiintiö"
+  },
+  "t_440b106d": {
+    "message": "Pääsy tuleviin ammattilaistoimintoihin"
+  },
+  "t_3a99076c": {
+    "message": "Premium-raja"
+  },
+  "t_545f6c2f": {
+    "message": "Rajoittamaton"
+  },
+  "t_ad23f4a0": {
+    "message": "Paikkasidonnaiset muistiinpanot"
+  },
+  "t_04f2f045": {
+    "message": "Olet onnistuneesti ottanut käyttöön kaikki 15 ilmaisen tason muistiinpanoa. Päivitä EasyView Premium -versioon avataksesi rajattoman tilamuistin ja mukautetut värit."
+  },
+  "t_cf874b99": {
+    "message": "Avaa Premium"
+  },
+  "t_a6d36e2f": {
+    "message": "Kaikki paikalliset saavutettavuusohjaimet (aktiiviset)"
+  },
+  "t_b0b69bc3": {
+    "message": "Puhesynteesi (aktiivinen)"
+  },
+  "t_cc96c21a": {
+    "message": "Pilvitekoälyominaisuudet (offline-tilassa)"
+  },
+  "t_7af6f6e5": {
+    "message": "Ymmärrän"
+  },
+  "t_9bc7102e": {
+    "message": "Luo ilmainen EasyView-tili seurataksesi kiintiötäsi ja avataksesi jargonin purkajan."
+  },
+  "t_ab7512fd": {
+    "message": "Istuntotunnuksesi puuttuu. Kirjaudu uudelleen osoitteeseen easyview.in palauttaaksesi pääsyn."
+  },
+  "t_1cd7820a": {
+    "message": "VAIN AMMATTILAISILLE"
+  },
+  "t_8eb14032": {
+    "message": "Jargonin purkaja<br><span class=\"ev-si-gradient-text\">Kiintiö täynnä</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "KIINTIÖ TÄYNNÄ"
+  },
+  "t_5ae983dc": {
+    "message": "Olet käyttänyt kaikki <strong>5 ilmaista purkua</strong> tässä kuussa. Avaa rajoittamaton pääsy sekunneissa."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> Siirry Pro-versioon — Rajoittamattomat purut</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> Käytä omaa API-avaintasi</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 Lisää API-avain Asetuksissa</button>"
+  },
+  "t_9be4129a": {
+    "message": "Opiskelumuistikirjan vienti<br><span class=\"ev-si-gradient-text\">Pro-automaatio</span>"
+  },
+  "t_fac34185": {
+    "message": "Vie koko mukautettu opiskelumuistikirjasi välittömästi suoraan <strong>Anki</strong>- ja <strong>Quizlet</strong>-palveluihin."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Vältä manuaalista kirjoittamista</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> RFC-4180-muistikorttikääntäjä</div>"
+  },
+  "t_da12c30b": {
+    "message": "Ammattilaiskäyttö"
+  },
+  "t_4a9b2c01": {
+    "message": "Tämä ominaisuus"
+  },
+  "t_3be78c01": {
+    "message": "Tämä lukivaikeusystävällinen fontti"
+  },
+  "t_0ad4b971": {
+    "message": "Tämä visuaalinen fontti"
+  },
+  "t_9af42be8": {
+    "message": "Tämä premium-vientifontti"
+  },
+  "t_cbae8349": {
+    "message": "Päivitä avataksesi kaikki saavutettavuusominaisuudet ja tehotyökalut."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Edistynyt saavutettavuus</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Kaikki tulevat päivitykset</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ Päivitä ammattilaiseksi"
+  },
+  "t_5ef4c1a2": {
+    "message": "Ehkä myöhemmin"
+  },
+  "t_3b7a5e82": {
+    "message": ", mutta tekoälyominaisuudet voivat olla väliaikaisesti poissa käytöstä."
+  },
+  "t_c91d8e12": {
+    "message": "Yleiset"
+  },
+  "t_b42f3a9d": {
+    "message": "Määritelmä"
+  },
+  "t_f1d4a8e6": {
+    "message": "Sanakirja"
+  },
+  "t_e398c71f": {
+    "message": "Mukautettu"
+  },
+  "t_a72df9e5": {
+    "message": "Lääketieteellinen"
+  },
+  "t_d8f2c61a": {
+    "message": "Oikeudellinen"
+  },
+  "t_b3e1f5d2": {
+    "message": "Taloudellinen"
+  },
+  "t_c25d81f9": {
+    "message": "Tekninen"
+  },
+  "t_e1b3a4f6": {
+    "message": "Akateeminen"
+  },
+  "t_d5f9b4c1": {
+    "message": "Termi"
+  },
+  "t_f7a2e8ea": {
+    "message": "Luokka"
+  },
+  "t_e3b1c6d9": {
+    "message": "Yksinkertaistettu merkitys"
+  },
+  "t_a9d4e5f2": {
+    "message": "Opiskelumuistiinpanot / asiayhteys"
+  },
+  "t_b4c5d6e7": {
+    "message": "Peruuta"
+  },
+  "t_c8f2a1b4": {
+    "message": "Tallenna muutokset"
+  },
+  "t_8c17b5e6": {
+    "message": "Istuntotunnuksesi puuttuu. Kirjaudu uudelleen osoitteeseen easyview.in palauttaaksesi pääsyn."
+  },
+  "t_a43dc219": {
+    "message": "Luo ilmainen EasyView-tili seurataksesi käyttökiintiötäsi ja avataksesi tekoälyn muotoilumoottorin."
+  },
+  "t_54c523fe": {
+    "message": "🎉 Virheetöntä! Tuotu onnistuneesti $1 uutta opiskelukorttia."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 Virheetöntä! Tuotu $1 uutta korttia. ($2 kaksoiskappaletta ohitettu.)"
+  },
+  "t_14894d12": {
+    "message": "Teeman vienti"
+  },
+  "t_f27a2629": {
+    "message": "Teemakirjaston varmuuskopio"
+  },
+  "t_9ad85e17": {
+    "message": "Lukeviivaintila"
+  },
+  "t_b9d4e7a5": {
+    "message": "Edistyneet aistisuojaustilat"
+  },
+  "t_94f4f7e4": {
+    "message": "Jäsennetään DOCX...",
+    "description": "Tila luettaessa Word-asiakirjaa lukijassa"
+  },
+  "t_120adfc1": {
+    "message": "Jäsennetään EPUB...",
+    "description": "Tila luettaessa sähkökirjaa lukijassa"
+  },
+  "t_5d2a45b8": {
+    "message": "Lukeviivaintila on vain Pro-tilaajien käytettävissä.",
+    "description": "Hälytys, kun ei-Pro-käyttäjä yrittää käyttää lukeviivainta"
+  },
+  "t_c1f29623": {
+    "message": "Muokkaa koko korttia",
+    "description": "Työkaluvihje koko kortin muokkaamiseen muistikirjassa"
+  },
+  "t_1063e38c": {
+    "message": "Poista",
+    "description": "Työkaluvihje kortin poistamiseen muistikirjasta"
+  },
+  "t_ccca2ddf": {
+    "message": "EasyView-lukija"
+  },
+  "t_8524de96": {
+    "message": "Ladataan..."
+  },
+  "t_25e8f2fd": {
+    "message": "Odota..."
+  },
+  "t_ec9d785d": {
+    "message": "1.5x"
+  },
+  "t_dafd5f8f": {
+    "message": "Leksenti"
+  },
+  "t_16d90a0b": {
+    "message": "Atkinson Hyperlegible"
+  },
+  "t_5c7db066": {
+    "message": "Segoe UI (Windowsin oletus)"
+  },
+  "t_f7cee5ea": {
+    "message": "Kalibri"
+  },
+  "t_ccc0239e": {
+    "message": "Kandara"
+  },
+  "t_2963521b": {
+    "message": "Korbeli"
+  },
+  "t_37f1cc58": {
+    "message": "Kambria"
+  },
+  "t_c3d9d4bf": {
+    "message": "Konstantia"
+  },
+  "t_5d1a5b35": {
+    "message": "Palatino Lainotaippi"
+  },
+  "t_4dc386b6": {
+    "message": "Kirja Antiikki"
+  },
+  "t_03c461f6": {
+    "message": "Franklin Gootiikka"
+  },
+  "t_7b1ee3b6": {
+    "message": "Senturi Gootiikka"
+  },
+  "t_a3293302": {
+    "message": "Gill Sansi"
+  },
+  "t_eb726908": {
+    "message": "Sitka Teksti"
+  },
+  "t_b5bdee2c": {
+    "message": "Sylfaeni"
+  },
+  "t_1ec05249": {
+    "message": "Mikrosofti Sans Serif"
+  },
+  "t_ad4a300c": {
+    "message": "Segooj Uuai Semiboldi"
+  },
+  "t_16507cdd": {
+    "message": "Konsolasi"
+  },
+  "t_391c5954": {
+    "message": "Lusida Konsoli"
+  },
+  "t_9879efdf": {
+    "message": "Lusida Sans Kirjoituskone"
+  },
+  "t_21f59b54": {
+    "message": "Impakti"
+  },
+  "t_94a7bb97": {
+    "message": "Ariaali Musta"
+  },
+  "t_6e87c2cb": {
+    "message": "Kopperpleit Gootiikka"
+  },
+  "t_40885309": {
+    "message": "Berliini Sans FB"
+  },
+  "t_6d5566ba": {
+    "message": "Gabriola"
+  },
+  "t_edb42482": {
+    "message": "MusteVapaa"
+  },
+  "t_fa233799": {
+    "message": "Segoe Käsikirjoitus"
+  },
+  "t_2f7bc407": {
+    "message": "Segoe Tuloste"
+  },
+  "t_0095a9fa": {
+    "message": "Vie"
+  },
+  "t_520d0db3": {
+    "message": "Muoto"
+  },
+  "t_5956a437": {
+    "message": "TEKSTI"
+  },
+  "t_1351017a": {
+    "message": "Tiedostonimi"
+  },
+  "t_d4c3c15b": {
+    "message": "Tiedostoa ei ole ladattu"
+  },
+  "t_0ca5a078": {
+    "message": "Ole hyvä ja käytä Muunnin-välilehteä tiedoston lataamiseen."
+  },
+  "t_c9857e16": {
+    "message": "Tukematon tiedostotyyppi."
+  },
+  "t_6b447b91": {
+    "message": "Virhe tiedoston jäsentämisessä: "
+  },
+  "t_7f4588be": {
+    "message": "Sähkökirja"
+  },
+  "t_12dc65c2": {
+    "message": "Vaihda vaalean/tumman tilan välillä"
+  },
+  "t_d3d2e617": {
+    "message": "Sulje"
+  },
+  "t_6e8cfcb7": {
+    "message": "Suojattu vienti palvelimelle (Premium)"
+  },
+  "t_2f9df658": {
+    "message": "Irrota työtila ja aseta se kaikkien ikkunoiden päälle"
+  },
+  "t_72d6d7a1": {
+    "message": "Tuo"
+  },
+  "t_de93d5fd": {
+    "message": "Vie muistiinpanot"
+  },
+  "t_a1aacca9": {
+    "message": "Kelluva käyttöliittymä"
+  },
+  "t_ac0b844f": {
+    "message": "Yleiset muistiinpanot"
+  },
+  "t_15866f1d": {
+    "message": "Sivustokohtaiset muistiinpanot"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
+  },
+  "t_6af8212e": {
+    "message": "EasyView-muistiinpanotaulu"
+  },
+  "t_d16da0f5": {
+    "message": "🌎"
+  },
+  "t_6df173ff": {
+    "message": "📍"
+  },
+  "t_22f58a00": {
+    "message": "🌎 Yleinen muistiinpano"
+  },
+  "t_5be8bbeb": {
+    "message": "Sivustokohtainen muistiinpano"
+  },
+  "t_59a56663": {
+    "message": "📍 Sivun muistiinpano"
+  },
+  "t_c1843696": {
+    "message": "Vahvistetaan eheystunnistetta..."
+  },
+  "t_58038ee4": {
+    "message": "Juuri nyt"
+  },
+  "t_e254e1a1": {
+    "message": "$1 min sitten",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_121d4d02": {
+    "message": "$1 t sitten",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_19d2b280": {
+    "message": "$1 pv sitten",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_d3d4311c": {
+    "message": "Vedä muistiinpano"
+  },
+  "t_7b32ea16": {
+    "message": "Vaihda tilaan $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_11916b28": {
+    "message": "Sijoittelun laajuus"
+  },
+  "t_5463fe67": {
+    "message": "Väripaletti"
+  },
+  "t_d116d454": {
+    "message": "Tiivistä muistiinpano"
+  },
+  "t_be9ba0e5": {
+    "message": "Kopioi teksti"
+  },
+  "t_28471624": {
+    "message": "Lisää toimintoja"
+  },
+  "t_90e467df": {
+    "message": "Sulje muistiinpano"
+  },
+  "t_34494920": {
+    "message": "Kirjoita muistiinpanosi tähän..."
+  },
+  "t_bdda0b60": {
+    "message": "Mitä ajattelit..."
+  },
+  "t_8689de27": {
+    "message": "Saatavilla kaikkialla"
+  },
+  "t_c0cf9810": {
+    "message": "Siirry takaisin alkuperäiselle sivulle"
+  },
+  "t_24a23176": {
+    "message": "Alkuperäinen asiayhteys"
   }
 }

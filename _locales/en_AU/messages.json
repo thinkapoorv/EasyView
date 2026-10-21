@@ -8,6 +8,572 @@
   "appDesc": {
     "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
   },
+  "t_68ba0232": {
+    "message": "Dyslexia mode activated"
+  },
+  "t_85f47a25": {
+    "message": "Dyslexia mode deactivated"
+  },
+  "t_1cc1b64d": {
+    "message": "Not enough content to analyze"
+  },
+  "t_cebe6412": {
+    "message": "No complex terms found"
+  },
+  "t_b964aa0f": {
+    "message": "Error analyzing page content"
+  },
+  "t_956c104e": {
+    "message": "Page memory cleared"
+  },
+  "t_1f4b0f3e": {
+    "message": "Glossary cleared"
+  },
+  "t_4bfeec37": {
+    "message": "No complex terms found in selection"
+  },
+  "t_1b5e8531": {
+    "message": "No complex terms found in selection"
+  },
+  "t_a1f781ec": {
+    "message": "Error decoding selection"
+  },
+  "t_7aae8122": {
+    "message": "Selection highlights cleared"
+  },
+  "t_58762fd6": {
+    "message": "Please select a single word or short phrase to define."
+  },
+  "t_6838b119": {
+    "message": "Network error looking up definition."
+  },
+  "t_ea3ca1b5": {
+    "message": "Decoded $1 terms (from cache)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "Decoded $1 terms (cached)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "You've used all free Jargon Decoder uses this month. Upgrade to Pro for unlimited access."
+  },
+  "t_cb3c5d3a": {
+    "message": "Decoded $1 terms across $2 categories",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "Auto-highlighted $1 instances of your decoded vocabulary term",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "Restored $1 saved jargon definition$2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "You've used all free Jargon Decoder uses this month. Upgrade to Pro for unlimited access."
+  },
+  "t_0b841c82": {
+    "message": "Already in Notebook!"
+  },
+  "t_8901f3ab": {
+    "message": "Saved to Notebook!"
+  },
+  "t_eb8f5242": {
+    "message": "Error saving to Notebook"
+  },
+  "t_bd15702b": {
+    "message": "Sensory Shield activated"
+  },
+  "t_c28f3265": {
+    "message": "Sensory Shield deactivated"
+  },
+  "t_3f8910d9": {
+    "message": "EASYVIEW"
+  },
+  "t_8aafa613": {
+    "message": "Could not simplify this text"
+  },
+  "t_79d2dc85": {
+    "message": "Could not simplify this text"
+  },
+  "t_99684ba5": {
+    "message": "Error simplifying text"
+  },
+  "t_f4362bde": {
+    "message": "Copied to clipboard!"
+  },
+  "t_af07ef4b": {
+    "message": "Failed to copy"
+  },
+  "t_94e4d537": {
+    "message": "Text replaced on page"
+  },
+  "t_14a04b67": {
+    "message": "Simplification memory deleted"
+  },
+  "t_c444ff21": {
+    "message": "Original text temporarily restored"
+  },
+  "t_55f1db14": {
+    "message": "You've used all free uses this month. Upgrade to Pro for unlimited access."
+  },
+  "t_fde4e3f0": {
+    "message": "Restored $1 saved simplifications on this page",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "Auto-restored dynamically loaded simplification!"
+  },
+  "t_dfa22e52": {
+    "message": "Text-to-Speech activated"
+  },
+  "t_ca153ad0": {
+    "message": "Text-to-Speech disabled"
+  },
+  "t_dadbff09": {
+    "message": "Please enable Text-to-Speech first"
+  },
+  "t_47071c61": {
+    "message": "Resuming..."
+  },
+  "t_5516c48d": {
+    "message": "No readable content found on this page"
+  },
+  "t_c57f25c9": {
+    "message": "No readable content found"
+  },
+  "t_2516997e": {
+    "message": "Reading complete"
+  },
+  "t_d3069aea": {
+    "message": "Text-to-Speech is not supported in this browser"
+  },
+  "t_53e6b8c6": {
+    "message": "Please select some text first"
+  },
+  "t_e932d0f7": {
+    "message": "Reading selection..."
+  },
+  "t_1c50528d": {
+    "message": "Reading complete"
+  },
+  "t_594778a2": {
+    "message": "Paused"
+  },
+  "t_4ded5f77": {
+    "message": "Speech stopped"
+  },
+  "t_0a74758c": {
+    "message": "✨ Powered by Personal Key"
+  },
+  "t_2fceddad": {
+    "message": "✨ Unlimited"
+  },
+  "t_97627d80": {
+    "message": "✨ Powered by Personal Key"
+  },
+  "t_fd7d5888": {
+    "message": "Manage Subscription"
+  },
+  "t_df4657a5": {
+    "message": "Free Member"
+  },
+  "t_22dfb2ec": {
+    "message": "Guest User"
+  },
+  "t_bd9f2460": {
+    "message": "Free Account"
+  },
+  "t_f5adda31": {
+    "message": "Login / Sign Up"
+  },
+  "t_d2439201": {
+    "message": "✨ Unlimited"
+  },
+  "t_164442b7": {
+    "message": "Warming up Converter Engine..."
+  },
+  "t_1e7c3002": {
+    "message": "Ready to parse files."
+  },
+  "t_d30f78df": {
+    "message": "Dark Mode"
+  },
+  "t_6c68d8ce": {
+    "message": "Light Mode"
+  },
+  "t_fcb68c2b": {
+    "message": "No sticky notes found. Nothing to export!"
+  },
+  "t_2b75b2d9": {
+    "message": "Your session token is missing. Please sign in to easyview.in again to restore access."
+  },
+  "t_291a4e34": {
+    "message": "Secure server routing failed. Check your connection."
+  },
+  "t_2dcf62b3": {
+    "message": "No missing notes were detected. Workspace is up to date."
+  },
+  "t_951bf3ae": {
+    "message": "Decryption failure: File does not conform to EasyView bounds."
+  },
+  "t_817a4ba0": {
+    "message": "PiP API not supported. Please update Chrome."
+  },
+  "t_e8aa6e9a": {
+    "message": "Failed to initialize PiP engine: "
+  },
+  "t_9feed9d5": {
+    "message": "Successfully decrypted and injected $1 new notes.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "BETA"
+  },
+  "t_c289adbe": {
+    "message": "Support Us"
+  },
+  "t_60d5b12a": {
+    "message": "Review Us"
+  },
+  "js_eb82de4c": {
+    "message": "Custom Colour"
+  },
+  "js_8caef32b": {
+    "message": "Reset/Clear (Select text & click, or double-click highlight manually)"
+  },
+  "t_823aeb91": {
+    "message": "EasyView Workspace"
+  },
+  "t_fc42ed23": {
+    "message": "No global notes floating in your workspace."
+  },
+  "t_12d7c58a": {
+    "message": "Press Space while the Sticky Notes cursor is active to generate one."
+  },
+  "t_ab983c11": {
+    "message": "No site-specific notes found here."
+  },
+  "t_e22709e9": {
+    "message": "Click on a physical element on any website to anchor a targeted note."
+  },
+  "t_34bdba45": {
+    "message": "Step"
+  },
+  "t_9b2d88a1": {
+    "message": "of"
+  },
+  "t_8f44d852": {
+    "message": "Get Started!"
+  },
+  "t_b45c2f91": {
+    "message": "Unlock Workspace Exports"
+  },
+  "t_88f91dc1": {
+    "message": "Securely rendering and exporting your entire Global Workspace notes requires a verified Pro license. Upgrade to unlock this feature permanently."
+  },
+  "t_134dff88": {
+    "message": "Maybe Later"
+  },
+  "t_5b8c9d11": {
+    "message": "Upgrade to Pro"
+  },
+  "t_792bd8c9": {
+    "message": "Workspace Floating!"
+  },
+  "t_e39f7dc2": {
+    "message": "Your sticky notes are now floating above your OS desktop."
+  },
+  "t_c83d6ec9": {
+    "message": "Re-Dock Workspace"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "Generation stopped"
+  },
+  "t_removed_from_notebook": {
+    "message": "Removed from Notebook"
+  },
+  "t_d1c58470": {
+    "message": "Double-click to remove highlight"
+  },
+  "t_d4fdfb03": {
+    "message": "Sign in to EasyView to get $1 free uses/month, or add your own API key in Settings.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "Loading saved results..."
+  },
+  "t_3a99733d": {
+    "message": "Initializing Jargon Decoder..."
+  },
+  "t_b6dc9fc9": {
+    "message": "Create a free EasyView account to get $1 free AI decodes per month and track your quota.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "Create a free EasyView account to get $1 free AI definitions per month and track your quota.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "Extracting main content..."
+  },
+  "t_0eeae2bf": {
+    "message": "Detecting page context..."
+  },
+  "t_87f125d0": {
+    "message": "Analyzing terminology..."
+  },
+  "t_9ef6e70f": {
+    "message": "Using cached results..."
+  },
+  "t_9afdc5e8": {
+    "message": "Analyzing with AI..."
+  },
+  "t_7ecc3abe": {
+    "message": "AI decoding failed"
+  },
+  "t_9220c8de": {
+    "message": "Applying simplifications..."
+  },
+  "t_57f406b1": {
+    "message": "Decoding selection..."
+  },
+  "t_c50f2b72": {
+    "message": "View Glossary"
+  },
+  "t_49de9b11": {
+    "message": "Hide Highlights on Page"
+  },
+  "t_3158774e": {
+    "message": "Restore Highlights on Page"
+  },
+  "t_fc3ad42d": {
+    "message": "Save to Vocab"
+  },
+  "t_87e933b8": {
+    "message": "Looking up definition..."
+  },
+  "t_56b79836": {
+    "message": "Word definition loaded."
+  },
+  "t_969b24ea": {
+    "message": "🔊 Click anywhere to activate theme audio"
+  },
+  "t_49337275": {
+    "message": "Manual highlight"
+  },
+  "t_93324bd5": {
+    "message": "Saved directly from web page."
+  },
+  "t_82e413f3": {
+    "message": "Simplifying text..."
+  },
+  "t_86c4f6e5": {
+    "message": "Simplifying with AI..."
+  },
+  "t_c3e18edb": {
+    "message": "Simplification failed"
+  },
+  "t_6398ab2c": {
+    "message": "Reading level: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "Click to temporarily restore original text"
+  },
+  "t_9beea3e8": {
+    "message": "Delete from memory permanently"
+  },
+  "t_453bb8f7": {
+    "message": "Create a free EasyView account to get $1 free AI simplifications per month and track your quota.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "Listen"
+  },
+  "t_24833610": {
+    "message": "Saved"
+  },
+  "t_30a008cb": {
+    "message": "Read more &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "Saved to Vocabulary Notebook!"
+  },
+  "t_2728e87f": {
+    "message": "Removed from Vocabulary Notebook"
+  },
+  "t_6b8c66ce": {
+    "message": "Glossary ($1 terms)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "Remove memory for this page"
+  },
+  "t_8a49fe1a": {
+    "message": "Remove term"
+  },
+  "t_1534891c": {
+    "message": "Decoded $1 terms",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "Save to Notebook"
+  },
+  "t_150a2843": {
+    "message": "Clear highlights"
+  },
+  "t_21ef939c": {
+    "message": "Saved to Notebook!"
+  },
+  "t_8054da35": {
+    "message": "Quick Dictionary",
+    "description": "Quick Dictionary popup header"
+  },
+  "t_4aeb2167": {
+    "message": "Word Not Found",
+    "description": "Dictionary fallback title"
+  },
+  "t_272d0070": {
+    "message": "We couldn't find \"$1\" in the basic dictionary. It might be modern slang, an abbreviation, or highly technical jargon.",
+    "description": "Dictionary fallback description with word placeholder",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "Decode with Evie AI",
+    "description": "Fallback button to decode with AI"
+  },
+  "t_14f1f972": {
+    "message": "via",
+    "description": "Dictionary source prefix"
+  },
+  "t_f2faf2f1": {
+    "message": "Noun",
+    "description": "Part of speech noun"
+  },
+  "t_b512ddf1": {
+    "message": "Verb",
+    "description": "Part of speech verb"
+  },
+  "t_d807ae6a": {
+    "message": "Adjective",
+    "description": "Part of speech adjective"
+  },
+  "t_1a607278": {
+    "message": "Adverb",
+    "description": "Part of speech adverb"
+  },
+  "t_02de720d": {
+    "message": "Pronoun",
+    "description": "Part of speech pronoun"
+  },
+  "t_4b7be2c3": {
+    "message": "Preposition",
+    "description": "Part of speech preposition"
+  },
+  "t_a3c1d30b": {
+    "message": "Conjunction",
+    "description": "Part of speech conjunction"
+  },
+  "t_e189f001": {
+    "message": "Interjection",
+    "description": "Part of speech interjection"
+  },
+  "t_96de90f8": {
+    "message": "Copy simplified text",
+    "description": "Tooltip to copy simplified text"
+  },
+  "t_44a6e288": {
+    "message": "Read Page",
+    "description": "Tooltip to read entire page via TTS"
+  },
+  "t_7d70d73b": {
+    "message": "Read Selection",
+    "description": "Tooltip to read selection via TTS"
+  },
+  "t_11936123": {
+    "message": "Irreversibly delete note",
+    "description": "Tooltip to permanently delete sticky note"
+  },
+  "t_d27532d9": {
+    "message": "Minimize"
+  },
+  "t_2bd339d8": {
+    "message": "Restore"
+  },
   "t_df13eb31": {
     "message": "EasyView"
   },
@@ -70,9 +636,6 @@
   },
   "t_3a4f8d88": {
     "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
   },
   "t_2f200cdc": {
     "message": "Jargon Decoder"
@@ -213,7 +776,7 @@
     "message": "Dyslexia Reading Mode"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "Optimised fonts & spacing"
   },
   "t_8ba9894e": {
     "message": "Intensity Profile"
@@ -288,7 +851,7 @@
     "message": "100%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "Overlay Colour"
   },
   "t_6adf97f8": {
     "message": "None"
@@ -304,9 +867,6 @@
   },
   "t_3b6a0a37": {
     "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
   },
   "t_7dd3aef2": {
     "message": "Text-to-Speech"
@@ -495,7 +1055,7 @@
     "message": "Neuro Focus"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "Dyslexia-friendly fonts & calming colours"
   },
   "t_1a393cc2": {
     "message": "📖"
@@ -741,7 +1301,1027 @@
     "message": "Export Entire Library"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
+    "message": ".json (JSON file)"
+  },
+  "js_99537132": {
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
+  },
+  "js_57b20c49": {
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+  },
+  "js_7f34dbea": {
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+  },
+  "js_138703dd": {
+    "message": "No Theme on Page"
+  },
+  "js_cf3190a0": {
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+  },
+  "js_ac5b17d0": {
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+  },
+  "js_e541190e": {
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
+  },
+  "js_d2e8056c": {
+    "message": "<path d=\"M9.88 9.88a3 3 0 1 0 4.24 4.24\"/><path d=\"M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68\"/><path d=\"M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61\"/><line x1=\"2\" x2=\"22\" y1=\"2\" y2=\"22\"/>"
+  },
+  "js_e2cb885d": {
+    "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
+  },
+  "js_8b86136c": {
+    "message": "Ready to simplify"
+  },
+  "js_a18366b2": {
+    "message": "Dark"
+  },
+  "js_9914a0ce": {
+    "message": "Light"
+  },
+  "js_872cc3ae": {
+    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+  },
+  "js_94fe16a8": {
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+  },
+  "js_be7141cc": {
+    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+  },
+  "js_5d0ff3d0": {
+    "message": "This feels less unambiguous to comprehend."
+  },
+  "t_f05df71b": {
+    "message": "Upgrading the"
+  },
+  "t_78db2ae3": {
+    "message": "Our AI servers are undergoing upgrades."
+  },
+  "t_bb2129c8": {
+    "message": "Unlock the full"
+  },
+  "t_aefee7cd": {
+    "message": "Clarity for every brain"
+  },
+  "t_c38beca1": {
+    "message": "Windows hides displays in"
+  },
+  "t_f2fe1e79": {
+    "message": "Values\r\n                                    below 1.0 may compress text and break layouts."
+  },
+  "t_ca677d53": {
+    "message": "Visual Adjustments"
+  },
+  "t_230b4522": {
+    "message": "Notes Board"
+  },
+  "t_596b54bf": {
+    "message": "Morph AI Agent"
+  },
+  "t_47e79a17": {
+    "message": "Get your free key at"
+  },
+  "t_42372184": {
+    "message": "Themes are exported as"
+  },
+  "t_74fdc8a2": {
+    "message": "Please describe your morph transformation first."
+  },
+  "t_245fd3b9": {
+    "message": "Cleared morphed layout."
+  },
+  "t_172bd753": {
+    "message": "Theme exported successfully!"
+  },
+  "t_4c34daff": {
+    "message": "Connection timed out. Server unreachable."
+  },
+  "t_0dd56117": {
+    "message": "No active theme found on this page."
+  },
+  "t_cb5c0766": {
+    "message": "Library exported successfully!"
+  },
+  "t_8adb392e": {
+    "message": "Connection timed out. Server unreachable."
+  },
+  "t_ae94e0e4": {
+    "message": "Your theme library is empty."
+  },
+  "t_10a0c40b": {
+    "message": "Custom theme loaded successfully!"
+  },
+  "t_9b6007a8": {
+    "message": "Failed to read theme file."
+  },
+  "t_d4fa051d": {
+    "message": "Failed: $1. Please reload the tab.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "Applied: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "Restored $1 themes from library!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "Language Preference"
+  },
+  "t_lang_updated_reload": {
+    "message": "Language updated. Reloading..."
+  },
+  "t_transformation_failed": {
+    "message": "Transformation failed."
+  },
+  "t_c8a59e71": {
+    "message": "Dismiss"
+  },
+  "t_7764306b": {
+    "message": "Cloud Services Maintenance Active"
+  },
+  "t_248228de": {
+    "message": "Toggle Dyslexia Font in Popup"
+  },
+  "t_79a59320": {
+    "message": "Start App Tour"
+  },
+  "t_533bff5b": {
+    "message": "Pin Sticky Note to Page (Alt+S)"
+  },
+  "t_f4f70727": {
+    "message": "Settings"
+  },
+  "t_4fd11104": {
+    "message": "Circular Spotlight"
+  },
+  "t_0d063af1": {
+    "message": "Horizontal Line Ruler 🔒"
+  },
+  "t_60d71580": {
+    "message": "Clear Light"
+  },
+  "t_efe48742": {
+    "message": "Amber Focus"
+  },
+  "t_610a09ca": {
+    "message": "Cool Cyan"
+  },
+  "t_886f6b9e": {
+    "message": "Restful Green"
+  },
+  "t_65e8194e": {
+    "message": "Pitch Black"
+  },
+  "t_7243ed99": {
+    "message": "Midnight Slate"
+  },
+  "t_ec6d8325": {
+    "message": "Deep Forest"
+  },
+  "t_4af435e0": {
+    "message": "Vampire Wine"
+  },
+  "t_2a7dbdf8": {
+    "message": "Pro feature"
+  },
+  "t_fc4aec61": {
+    "message": "Open in Reader"
+  },
+  "t_801ab246": {
+    "message": "Download"
+  },
+  "t_aa3880dc": {
+    "message": "Download as HTML"
+  },
+  "t_e0781e81": {
+    "message": "Download as EPUB"
+  },
+  "t_442ff212": {
+    "message": "Download as DOCX"
+  },
+  "t_6244ee7c": {
+    "message": "Add custom term manually"
+  },
+  "t_6e7d015f": {
+    "message": "Import CSV File"
+  },
+  "t_edbc5415": {
+    "message": "Export for Anki / Quizlet"
+  },
+  "t_46c29f7a": {
+    "message": "Load Theme"
+  },
+  "t_2bd65c5d": {
+    "message": "Export Theme"
+  },
+  "t_c1c433ac": {
+    "message": "Active AI Provider"
+  },
+  "t_90c09393": {
+    "message": "Dotted"
+  },
+  "t_eb656e41": {
+    "message": "Dashed"
+  },
+  "t_0c99ddee": {
+    "message": "Highlight Colour"
+  },
+  "t_eaf63759": {
+    "message": "Ink Colour"
+  },
+  "t_a183c9f0": {
+    "message": "Fade Colour"
+  },
+  "t_75e7422f": {
+    "message": "Background Colour"
+  },
+  "t_42f9ceea": {
+    "message": "Search saved lexicon..."
+  },
+  "t_0e84a8cf": {
+    "message": "Enter word or acronym..."
+  },
+  "t_eea6890c": {
+    "message": "Meaning / Translation..."
+  },
+  "t_4480cf46": {
+    "message": "Memory trick or study note (optional)..."
+  },
+  "t_d8634fbf": {
+    "message": "e.g., Turn into a pink anime style theme with rounded cards, or transform into a retro dark green terminal console..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "Sticky Notes"
+  },
+  "t_b097d277": {
+    "message": "Add Word"
+  },
+  "t_1eeb67ee": {
+    "message": "Export Current Page"
+  },
+  "t_b62ded9a": {
+    "message": "Cloud Services Offline"
+  },
+  "t_263e00eb": {
+    "message": "Sign In / Create Account"
+  },
+  "t_7748eb3b": {
+    "message": "UPGRADING"
+  },
+  "t_81a5d20b": {
+    "message": "Freeze All"
+  },
+  "t_e61146d9": {
+    "message": "Calm Fades"
+  },
+  "t_57323916": {
+    "message": "Stop Auto-Play"
+  },
+  "t_f50319ea": {
+    "message": "Full Protection"
+  },
+  "t_8e13f26d": {
+    "message": "Quick Question"
+  },
+  "t_134b26da": {
+    "message": "Are you enjoying<br><span class=\"ev-si-gradient-text\">EasyView?</span>"
+  },
+  "t_b75bdd9e": {
+    "message": "Your feedback helps us improve.<br>Are you enjoying the experience?"
+  },
+  "t_396d1ff8": {
+    "message": "Yes, I am!"
+  },
+  "t_7d0cacf3": {
+    "message": "Needs work"
+  },
+  "t_815142c9": {
+    "message": "Support Us"
+  },
+  "t_abd9fa39": {
+    "message": "Would you mind<br><span class=\"ev-si-gradient-text\">leaving a review?</span>"
+  },
+  "t_02991e61": {
+    "message": "Ratings from users like you are the best way to help EasyView grow. It only takes a minute!"
+  },
+  "t_db49c1f2": {
+    "message": "Rate Now"
+  },
+  "t_7a4f0d12": {
+    "message": "Remind me later"
+  },
+  "t_fee6c0e9": {
+    "message": "Private Feedback"
+  },
+  "t_74393dde": {
+    "message": "What can we <span class=\"ev-si-gradient-text\">do better?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "Tell us what went wrong..."
+  },
+  "t_6f97affc": {
+    "message": "Send Feedback"
+  },
+  "t_b20871b3": {
+    "message": "Please enter your feedback"
+  },
+  "t_7b0fee4d": {
+    "message": "Sending..."
+  },
+  "t_fb631633": {
+    "message": "Thank you for your feedback."
+  },
+  "t_08727add": {
+    "message": "See the web your way."
+  },
+  "t_15bbb9d0": {
+    "message": "Website"
+  },
+  "t_c5f29bb3": {
+    "message": "Privacy"
+  },
+  "t_ad5b1a22": {
+    "message": "Founder"
+  },
+  "t_db496e03": {
+    "message": "Personal keys create a direct, 100% private connection to the AI. Your text never touches EasyView servers."
+  },
+  "t_387c35b3": {
+    "message": "Our managed server (Premium) acts as a reliable backup if no key is present or if your key fails."
+  },
+  "t_98bc5a17": {
+    "message": "To protect proprietary algorithms, your key is briefly routed through our secure server to authenticate with Google. It is"
+  },
+  "t_de47f1be": {
+    "message": "stored or logged."
+  },
+  "t_25e02e7f": {
+    "message": "Active: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ Premium Member"
+  },
+  "t_df56cfae": {
+    "message": "⭐ Lifetime Member"
+  },
+  "t_41cbc704": {
+    "message": " days remaining"
+  },
+  "t_b194bd82": {
+    "message": "Never expires"
+  },
+  "t_9f830444": {
+    "message": "⭐ Pro:"
+  },
+  "t_61b82be6": {
+    "message": " morphs left"
+  },
+  "t_c20e7ceb": {
+    "message": " free morphs left"
+  },
+  "t_d7087930": {
+    "message": " free uses left"
+  },
+  "t_4bbf11bd": {
+    "message": "Term and Meaning fields cannot be left blank!"
+  },
+  "t_08f09d38": {
+    "message": "Word details updated successfully!"
+  },
+  "t_32001b52": {
+    "message": "Please enter both a word and its meaning."
+  },
+  "t_b8115861": {
+    "message": "Your Study Notebook is empty. Bookmark some words on webpages first!"
+  },
+  "t_7114113b": {
+    "message": "Please sign in to your EasyView account first to verify your Pro features!"
+  },
+  "t_093f9fa0": {
+    "message": "Your session token is missing. Please sign in to easyview.in again to restore access."
+  },
+  "t_0e065596": {
+    "message": "This is a verified Premium-only feature. Upgrade to Pro to unlock!"
+  },
+  "t_c792a645": {
+    "message": "Failed to connect to secure export server. Try again shortly."
+  },
+  "t_8d1a2675": {
+    "message": "Could not identify any valid vocabulary items in that CSV."
+  },
+  "t_a613ed90": {
+    "message": "Browser storage write failure! File might be too large for local cache."
+  },
+  "t_8efe87ab": {
+    "message": "The browser failed to read your local file."
+  },
+  "t_50bf63aa": {
+    "message": "Are you sure you want to clear all saved words from your notebook?"
+  },
+  "t_ff252710": {
+    "message": "Import concluded: All $1 entries already exist in your Notebook.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "Failed to parse CSV: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "\"$1\" is already in your notebook. Do you want to add another definition for it?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "Logged out successfully"
+  },
+  "t_dbd35100": {
+    "message": "Morph engine is already working..."
+  },
+  "t_2de4e55d": {
+    "message": "Morphed layout cleared"
+  },
+  "t_1bb9196d": {
+    "message": "Morphed: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "Morphing failed: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "Triggered: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 items organised",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "This will permanently shatter this note across all synchronised devices. Proceed?"
+  },
+  "t_25abf697": {
+    "message": "EPUB export requires JSZip."
+  },
+  "t_71609188": {
+    "message": "DOCX export requires html-docx-js."
+  },
+  "t_e1499766": {
+    "message": "No file loaded."
+  },
+  "t_023b3355": {
+    "message": "Privacy Shield Activated"
+  },
+  "t_9483a5da": {
+    "message": "Privacy Shield Deactivated"
+  },
+  "t_a04202db": {
+    "message": "Highlights hidden temporarily"
+  },
+  "t_b3d6b264": {
+    "message": "Highlights restored"
+  },
+  "t_7485c55e": {
+    "message": "Welcome to EasyView! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "Your AI-powered cognitive bridge for easier web reading. Let's take a quick tour of the features."
+  },
+  "t_3a1fe637": {
+    "message": "Jargon Decoder 📖"
+  },
+  "t_89cec86e": {
+    "message": "Simplifies complex terminology on any webpage."
+  },
+  "t_f8aefae7": {
+    "message": "Privacy Shield 🔐"
+  },
+  "t_aa860f86": {
+    "message": "Blurs sensitive data and includes a Focus Ruler for distraction-free reading."
+  },
+  "t_0681a3b6": {
+    "message": "Sensory Shield 🛡️"
+  },
+  "t_6118b864": {
+    "message": "Freezes distracting GIFs and animations."
+  },
+  "t_12ec6fc6": {
+    "message": "Dyslexia Reading Mode 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "Optimised fonts and spacing for easier reading."
+  },
+  "t_18d9ce63": {
+    "message": "Text-to-Speech 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "Listen to any webpage with word highlighting."
+  },
+  "t_0019a700": {
+    "message": "Morph Engine ✨"
+  },
+  "t_47c2535a": {
+    "message": "Use AI to redesign any website into a custom theme or layout."
+  },
+  "t_2ed2f639": {
+    "message": "Sticky Notes 📝"
+  },
+  "t_75025b5f": {
+    "message": "Pin floating sticky notes to any webpage to save important information (Alt+S)."
+  },
+  "t_3ff2d7cc": {
+    "message": "API Configuration ⚙️"
+  },
+  "t_0754e836": {
+    "message": "Sign in to sync your quota, or set up your own free Gemini API key here."
+  },
+  "t_7b6a2059": {
+    "message": "Step $1 of $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "Get Started!"
+  },
+  "t_10ac3d04": {
+    "message": "Next"
+  },
+  "t_5c7a52b8": {
+    "message": "Press "
+  },
+  "t_a1b2c3d4": {
+    "message": " at any time to manually engage the Auto-Protect shield."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ Privacy Shield activated"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 Privacy Shield deactivated"
+  },
+  "js_9b3e1a": {
+    "message": "EasyView is analyzing layout and morphing..."
+  },
+  "js_4c8d2f": {
+    "message": "Define"
+  },
+  "js_7a1e9b": {
+    "message": "Decode"
+  },
+  "js_2d5f8c": {
+    "message": "Simplify"
+  },
+  "js_6e3a4d": {
+    "message": "Bookmark"
+  },
+  "js_1f9b7c": {
+    "message": "Highlight"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "Analyzing DOM Tree..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "Messy Layout..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "Flattening Structure..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[NOISE_OVERLOAD]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "Removing Distractions..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "Complex Nodes"
+  },
+  "js_ldr_m4_cl": {
+    "message": "Applying Dyslexia Rules..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "Rendering EasyView UI..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "Scanning Text Block..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "Too many words..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "Extracting Core Meaning..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "Cognitive Load"
+  },
+  "js_ldr_s3_cl": {
+    "message": "Drafting Simpler English..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "Verbose AI..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "Applying Readability..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "Polishing Output..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "Translating Jargon..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "Error: Confusion"
+  },
+  "js_ldr_j2_cl": {
+    "message": "Finding Definitions..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[NOISE_OVERLOAD]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "Simplifying Context..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "Unknown Terms"
+  },
+  "js_ldr_j4_cl": {
+    "message": "Applying Clarity..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "Formatting Results..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "Deep analysis..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "Finalizing AI Logic..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "Running AI..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "Almost Finished..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "Heavy Traffic..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "Taking a bit longer..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "Still Working..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "Hold tight..."
+  },
+  "t_b7012ab9": {
+    "message": "Morph"
+  },
+  "t_c5e8b1d9": {
+    "message": "Pro Fonts"
+  },
+  "t_c8f2ba19": {
+    "message": "Private Content Blurring enabled"
+  },
+  "t_e2dae61a": {
+    "message": "Private Content Blurring disabled"
+  },
+  "t_c74de318": {
+    "message": "Auto-Protect on Screen Share enabled"
+  },
+  "t_a5fd56f4": {
+    "message": "Auto-Protect on Screen Share disabled"
+  },
+  "t_ab8d1f2a": {
+    "message": "Flashlight mode enabled"
+  },
+  "t_2bf5cc98": {
+    "message": "Flashlight mode disabled"
+  },
+  "t_513bb93f": {
+    "message": "Bionic Reading"
+  },
+  "t_5a8b2c1d": {
+    "message": "Here is a preview of your reading settings."
+  },
+  "t_ac1d4e5f": {
+    "message": "None"
+  },
+  "t_b2e3f4a1": {
+    "message": "Wide"
+  },
+  "t_c3f4a5b2": {
+    "message": "Extra Wide"
+  },
+  "t_d1a3c901": {
+    "message": "Click"
+  },
+  "t_b4f2e891": {
+    "message": "Pin to Element"
+  },
+  "t_c9a1b302": {
+    "message": "Space"
+  },
+  "t_f6d4e203": {
+    "message": "Global Note"
+  },
+  "t_e2b3f104": {
+    "message": "Esc"
+  },
+  "t_a7c0d905": {
+    "message": "Cancel"
+  },
+  "t_e1b2c301": {
+    "message": "This page only"
+  },
+  "t_f7a3b402": {
+    "message": "This site"
+  },
+  "t_a8c4d503": {
+    "message": "All sites (Global)"
+  },
+  "t_b9d5e604": {
+    "message": "Hide until reload"
+  },
+  "t_c0e6f705": {
+    "message": "Pin note to element"
+  },
+  "t_d1f7a806": {
+    "message": "Change note colour"
+  },
+  "t_e2a8b907": {
+    "message": "Collapse/expand note"
+  },
+  "t_f3b9c008": {
+    "message": "Copy note content"
+  },
+  "t_a4c0d109": {
+    "message": "More actions"
+  },
+  "t_b5d1e200": {
+    "message": "Delete this note"
+  },
+  "t_e87033a2": {
+    "message": "Alt + P"
+  },
+  "t_4120201a": {
+    "message": "Free Trial Active"
+  },
+  "t_6ed40ffb": {
+    "message": "Sync settings across devices"
+  },
+  "t_f8b8a5fd": {
+    "message": "Higher free usage quota"
+  },
+  "t_440b106d": {
+    "message": "Access to future Pro features"
+  },
+  "t_3a99076c": {
+    "message": "Premium Limit"
+  },
+  "t_545f6c2f": {
+    "message": "Unlimited"
+  },
+  "t_ad23f4a0": {
+    "message": "Spatial Notes"
+  },
+  "t_04f2f045": {
+    "message": "You have successfully deployed all 15 Free Tier notes across the web. Upgrade to EasyView Premium to unlock infinite spatial memory and custom colours."
+  },
+  "t_cf874b99": {
+    "message": "Unlock Premium"
+  },
+  "t_a6d36e2f": {
+    "message": "All Local Accessibility Controls (Active)"
+  },
+  "t_b0b69bc3": {
+    "message": "Text-to-Speech Engine (Active)"
+  },
+  "t_cc96c21a": {
+    "message": "Cloud AI Features (Offline)"
+  },
+  "t_7af6f6e5": {
+    "message": "I Understand"
+  },
+  "t_9bc7102e": {
+    "message": "Create a free EasyView account to track your quota and unlock the Jargon Decoder."
+  },
+  "t_ab7512fd": {
+    "message": "Your session token is missing. Please sign in to easyview.in again to restore access."
+  },
+  "t_1cd7820a": {
+    "message": "PRO ACCESS ONLY"
+  },
+  "t_8eb14032": {
+    "message": "Jargon Decoder<br><span class=\"ev-si-gradient-text\">Quota Reached</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "OUT OF QUOTA"
+  },
+  "t_5ae983dc": {
+    "message": "You've used all <strong>5 free decodes</strong> this month. Unlock unlimited access in seconds."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> Go Pro — Unlimited decodes</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> Use your own API key</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 Add API Key in Settings</button>"
+  },
+  "t_9be4129a": {
+    "message": "Study Deck Exporter<br><span class=\"ev-si-gradient-text\">Pro Automation</span>"
+  },
+  "t_fac34185": {
+    "message": "Instantly export your entire custom Study Notebook directly to <strong>Anki</strong> and <strong>Quizlet</strong>."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Ditch manual typing</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> RFC-4180 flashcard compiler</div>"
+  },
+  "t_da12c30b": {
+    "message": "Pro Access"
+  },
+  "t_4a9b2c01": {
+    "message": "This feature"
+  },
+  "t_3be78c01": {
+    "message": "This Dyslexia Reading font"
+  },
+  "t_0ad4b971": {
+    "message": "This Visual font"
+  },
+  "t_9af42be8": {
+    "message": "This premium Export font"
+  },
+  "t_cbae8349": {
+    "message": "Upgrade to unlock all accessibility features and power tools."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Advanced Accessibility</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> All Future Updates</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ Upgrade to Pro"
+  },
+  "t_5ef4c1a2": {
+    "message": "Maybe Later"
+  },
+  "t_3b7a5e82": {
+    "message": ", but AI features may be temporarily unavailable."
+  },
+  "t_c91d8e12": {
+    "message": "General"
+  },
+  "t_b42f3a9d": {
+    "message": "Definition"
+  },
+  "t_f1d4a8e6": {
+    "message": "Dictionary"
+  },
+  "t_e398c71f": {
+    "message": "Custom"
+  },
+  "t_a72df9e5": {
+    "message": "Medical"
+  },
+  "t_d8f2c61a": {
+    "message": "Legal"
+  },
+  "t_b3e1f5d2": {
+    "message": "Financial"
+  },
+  "t_c25d81f9": {
+    "message": "Tech"
+  },
+  "t_e1b3a4f6": {
+    "message": "Academic"
+  },
+  "t_d5f9b4c1": {
+    "message": "Term"
+  },
+  "t_f7a2e8ea": {
+    "message": "Category"
+  },
+  "t_e3b1c6d9": {
+    "message": "Simplified Meaning"
+  },
+  "t_a9d4e5f2": {
+    "message": "Study Notes / Context"
+  },
+  "t_b4c5d6e7": {
+    "message": "Cancel"
+  },
+  "t_c8f2a1b4": {
+    "message": "Save Changes"
+  },
+  "t_8c17b5e6": {
+    "message": "Your session token is missing. Please sign in to easyview.in again to restore access."
+  },
+  "t_a43dc219": {
+    "message": "Create a free EasyView account to track your usage quota and unlock the AI Morph Engine."
+  },
+  "t_54c523fe": {
+    "message": "🎉 Flawless! Successfully imported $1 new study cards."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 Flawless! Imported $1 new cards. ($2 duplicates skipped.)"
+  },
+  "t_14894d12": {
+    "message": "Theme Export"
+  },
+  "t_f27a2629": {
+    "message": "Theme Library Backup"
+  },
+  "t_9ad85e17": {
+    "message": "Reading Ruler Mode"
+  },
+  "t_b9d4e7a5": {
+    "message": "Advanced Sensory Shield modes"
+  },
+  "t_94f4f7e4": {
+    "message": "Parsing DOCX...",
+    "description": "Status when parsing DOCX in reader"
+  },
+  "t_120adfc1": {
+    "message": "Parsing EPUB...",
+    "description": "Status when parsing EPUB in reader"
+  },
+  "t_5d2a45b8": {
+    "message": "Reading Ruler Mode is exclusive to Pro subscriptions.",
+    "description": "Alert when non-pro user accesses reading ruler"
+  },
+  "t_c1f29623": {
+    "message": "Edit Entire Card",
+    "description": "Tooltip to edit entire card in notebook"
+  },
+  "t_1063e38c": {
+    "message": "Remove",
+    "description": "Tooltip to remove card from notebook"
   },
   "t_ccca2ddf": {
     "message": "EasyView Reader"
@@ -851,6 +2431,51 @@
   "t_1351017a": {
     "message": "Filename"
   },
+  "t_d4c3c15b": {
+    "message": "No file loaded"
+  },
+  "t_0ca5a078": {
+    "message": "Please use the Converter tab to upload a file."
+  },
+  "t_c9857e16": {
+    "message": "Unsupported file type."
+  },
+  "t_6b447b91": {
+    "message": "Error parsing file: "
+  },
+  "t_7f4588be": {
+    "message": "EPUB"
+  },
+  "t_12dc65c2": {
+    "message": "Toggle Light/Dark"
+  },
+  "t_d3d2e617": {
+    "message": "Close"
+  },
+  "t_6e8cfcb7": {
+    "message": "Secure Export to Server (Premium)"
+  },
+  "t_2f9df658": {
+    "message": "Detach and float Workspace above all windows"
+  },
+  "t_72d6d7a1": {
+    "message": "Import"
+  },
+  "t_de93d5fd": {
+    "message": "Export Notes"
+  },
+  "t_a1aacca9": {
+    "message": "Float OS"
+  },
+  "t_ac0b844f": {
+    "message": "Global Notes"
+  },
+  "t_15866f1d": {
+    "message": "Site-Specific Notes"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
+  },
   "t_6af8212e": {
     "message": "EasyView Notes Board"
   },
@@ -860,61 +2485,87 @@
   "t_6df173ff": {
     "message": "📍"
   },
-  "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
+  "t_22f58a00": {
+    "message": "🌎 Global Note"
   },
-  "js_24833610": {
-    "message": "Saved"
+  "t_5be8bbeb": {
+    "message": "🌐 Site Note"
   },
-  "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+  "t_59a56663": {
+    "message": "📍 Page Note"
   },
-  "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+  "t_c1843696": {
+    "message": "Verifying Integrity Token..."
   },
-  "js_138703dd": {
-    "message": "No Theme on Page"
+  "t_58038ee4": {
+    "message": "Just now"
   },
-  "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+  "t_e254e1a1": {
+    "message": "$1m ago",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+  "t_121d4d02": {
+    "message": "$1h ago",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_e541190e": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
+  "t_19d2b280": {
+    "message": "$1d ago",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_d2e8056c": {
-    "message": "<path d=\"M9.88 9.88a3 3 0 1 0 4.24 4.24\"/><path d=\"M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68\"/><path d=\"M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61\"/><line x1=\"2\" x2=\"22\" y1=\"2\" y2=\"22\"/>"
+  "t_d3d4311c": {
+    "message": "Drag Note"
   },
-  "js_e2cb885d": {
-    "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
+  "t_7b32ea16": {
+    "message": "Switch to $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
-  "js_8b86136c": {
-    "message": "Ready to simplify"
+  "t_11916b28": {
+    "message": "Placement scope"
   },
-  "js_a18366b2": {
-    "message": "Dark"
+  "t_5463fe67": {
+    "message": "Colour Palette"
   },
-  "js_9914a0ce": {
-    "message": "Light"
+  "t_d116d454": {
+    "message": "Collapse Note"
   },
-  "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+  "t_be9ba0e5": {
+    "message": "Copy Text"
   },
-  "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+  "t_28471624": {
+    "message": "More actions"
   },
-  "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+  "t_90e467df": {
+    "message": "Close Note"
   },
-  "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+  "t_34494920": {
+    "message": "Type your note here..."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_bdda0b60": {
+    "message": "What were you thinking..."
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_8689de27": {
+    "message": "Available everywhere"
+  },
+  "t_c0cf9810": {
+    "message": "Teleport back to the origin page"
+  },
+  "t_24a23176": {
+    "message": "Original Context"
   }
 }

@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "איזי-ויו — בהירות לכל מוח"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "תצוגה קלה"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "שנה כל אתר אינטרנט באופן מיידי עם הנחיות בינה מלאכותית או לחיצות בודדות. ראה את האינטרנט בדרך שלך."
+  },
+  "t_68ba0232": {
+    "message": "מצב דיסלקציה הופעל"
+  },
+  "t_85f47a25": {
+    "message": "מצב דיסלקציה הושבת"
+  },
+  "t_1cc1b64d": {
+    "message": "אין מספיק תוכן לניתוח"
+  },
+  "t_cebe6412": {
+    "message": "לא נמצאו מונחים מורכבים"
+  },
+  "t_b964aa0f": {
+    "message": "שגיאה בניתוח תוכן הדף"
+  },
+  "t_956c104e": {
+    "message": "זיכרון הדף נוקה"
+  },
+  "t_1f4b0f3e": {
+    "message": "מילון מונחים נוקה"
+  },
+  "t_4bfeec37": {
+    "message": "לא נמצאו מונחים מורכבים בבחירה"
+  },
+  "t_1b5e8531": {
+    "message": "לא נמצאו מונחים מורכבים בבחירה"
+  },
+  "t_a1f781ec": {
+    "message": "שגיאה בפענוח בחירה"
+  },
+  "t_7aae8122": {
+    "message": "סימוני בחירה נוקו"
+  },
+  "t_58762fd6": {
+    "message": "אנא בחר מילה בודדת או ביטוי קצר להגדרה."
+  },
+  "t_6838b119": {
+    "message": "שגיאת רשת בחיפוש הגדרה."
+  },
+  "t_ea3ca1b5": {
+    "message": "פוענחו $1 מונחים (מהמטמון)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "פוענחו $1 מונחים (מהמטמון)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "ניצלת את כל השימושים החינמיים במפענח הז'רגון החודש. שדרג לפרו לגישה ללא הגבלה."
+  },
+  "t_cb3c5d3a": {
+    "message": "פוענחו $1 מונחים ב-$2 קטגוריות",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "הודגשו אוטומטית $1 מופעים של מונח אוצר המילים המפוענח שלך",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "שוחזרו $1 הגדרות ז'רגון שמורות$2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "ניצלת את כל השימושים החינמיים במפענח הז'רגון החודש. שדרג לפרו לגישה ללא הגבלה."
+  },
+  "t_0b841c82": {
+    "message": "כבר במחברת!"
+  },
+  "t_8901f3ab": {
+    "message": "נשמר למחברת!"
+  },
+  "t_eb8f5242": {
+    "message": "שגיאה בשמירה למחברת"
+  },
+  "t_bd15702b": {
+    "message": "מגן חושי הופעל"
+  },
+  "t_c28f3265": {
+    "message": "מגן חושי הושבת"
+  },
+  "t_3f8910d9": {
+    "message": "תצוגה קלה"
+  },
+  "t_8aafa613": {
+    "message": "לא ניתן היה לפשט טקסט זה"
+  },
+  "t_79d2dc85": {
+    "message": "לא ניתן היה לפשט טקסט זה"
+  },
+  "t_99684ba5": {
+    "message": "שגיאה בפישוט טקסט"
+  },
+  "t_f4362bde": {
+    "message": "הועתק ללוח!"
+  },
+  "t_af07ef4b": {
+    "message": "העתקה נכשלה"
+  },
+  "t_94e4d537": {
+    "message": "טקסט הוחלף בדף"
+  },
+  "t_14a04b67": {
+    "message": "זיכרון פישוט נמחק"
+  },
+  "t_c444ff21": {
+    "message": "טקסט מקורי שוחזר זמנית"
+  },
+  "t_55f1db14": {
+    "message": "ניצלת את כל השימושים החינמיים החודש. שדרג לפרו לגישה ללא הגבלה."
+  },
+  "t_fde4e3f0": {
+    "message": "שוחזרו $1 פישוטים שמורים בדף זה",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "שוחזר אוטומטית פישוט שנטען דינמית!"
+  },
+  "t_dfa22e52": {
+    "message": "טקסט לדיבור הופעל"
+  },
+  "t_ca153ad0": {
+    "message": "טקסט לדיבור מושבת"
+  },
+  "t_dadbff09": {
+    "message": "אנא הפעל טקסט-לדיבור תחילה"
+  },
+  "t_47071c61": {
+    "message": "ממשיך..."
+  },
+  "t_5516c48d": {
+    "message": "לא נמצא תוכן קריא בדף זה"
+  },
+  "t_c57f25c9": {
+    "message": "לא נמצא תוכן קריא"
+  },
+  "t_2516997e": {
+    "message": "הקריאה הושלמה"
+  },
+  "t_d3069aea": {
+    "message": "טקסט-לדיבור אינו נתמך בדפדפן זה"
+  },
+  "t_53e6b8c6": {
+    "message": "אנא בחר טקסט תחילה"
+  },
+  "t_e932d0f7": {
+    "message": "קורא בחירה..."
+  },
+  "t_1c50528d": {
+    "message": "הקריאה הושלמה"
+  },
+  "t_594778a2": {
+    "message": "מושהה"
+  },
+  "t_4ded5f77": {
+    "message": "הדיבור נעצר"
+  },
+  "t_0a74758c": {
+    "message": "✨ מופעל על ידי מפתח אישי"
+  },
+  "t_2fceddad": {
+    "message": "✨ ללא הגבלה"
+  },
+  "t_97627d80": {
+    "message": "✨ מופעל על ידי מפתח אישי"
+  },
+  "t_fd7d5888": {
+    "message": "נהל מנוי"
+  },
+  "t_df4657a5": {
+    "message": "חבר חינמי"
+  },
+  "t_22dfb2ec": {
+    "message": "משתמש אורח"
+  },
+  "t_bd9f2460": {
+    "message": "חשבון חינמי"
+  },
+  "t_f5adda31": {
+    "message": "התחבר / הירשם"
+  },
+  "t_d2439201": {
+    "message": "✨ ללא הגבלה"
+  },
+  "t_164442b7": {
+    "message": "מחמם מנוע המרה..."
+  },
+  "t_1e7c3002": {
+    "message": "מוכן לניתוח קבצים."
+  },
+  "t_d30f78df": {
+    "message": "מצב כהה"
+  },
+  "t_6c68d8ce": {
+    "message": "מצב בהיר"
+  },
+  "t_fcb68c2b": {
+    "message": "לא נמצאו פתקים דביקים. אין מה לייצא!"
+  },
+  "t_2b75b2d9": {
+    "message": "אסימון ההפעלה שלך חסר. אנא התחבר שוב ל-easyview.in כדי לשחזר את הגישה."
+  },
+  "t_291a4e34": {
+    "message": "ניתוב שרת מאובטח נכשל. בדוק את החיבור שלך."
+  },
+  "t_2dcf62b3": {
+    "message": "לא זוהו הערות חסרות. סביבת העבודה מעודכנת."
+  },
+  "t_951bf3ae": {
+    "message": "כשל בפענוח: הקובץ אינו תואם לגבולות איזי-ויו."
+  },
+  "t_817a4ba0": {
+    "message": "ממשק תמונה בתוך תמונה (תמונה בתוך תמונה (PiP)) אינו נתמך. אנא עדכן את כרום."
+  },
+  "t_e8aa6e9a": {
+    "message": "נכשל באתחול מנוע תמונה בתוך תמונה (תמונה בתוך תמונה (PiP)): "
+  },
+  "t_9feed9d5": {
+    "message": "פוענחו והוזרקו בהצלחה $1 הערות חדשות.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "בטא"
+  },
+  "t_c289adbe": {
+    "message": "תמכו בנו"
+  },
+  "t_60d5b12a": {
+    "message": "דרגו אותנו"
+  },
+  "js_eb82de4c": {
+    "message": "צבע מותאם אישית"
+  },
+  "js_8caef32b": {
+    "message": "איפוס/ניקוי (בחר טקסט ולחץ, או לחץ פעמיים על הדגשה ידנית)"
+  },
+  "t_823aeb91": {
+    "message": "סביבת עבודה איזי-ויו"
+  },
+  "t_fc42ed23": {
+    "message": "אין הערות גלובליות צפות בסביבת העבודה שלך."
+  },
+  "t_12d7c58a": {
+    "message": "לחץ על רווח בזמן שסמן הפתקיות הדביקות פעיל כדי ליצור אחת."
+  },
+  "t_ab983c11": {
+    "message": "לא נמצאו הערות ספציפיות לאתר כאן."
+  },
+  "t_e22709e9": {
+    "message": "לחץ על אלמנט פיזי בכל אתר אינטרנט כדי לעגן הערה ממוקדת."
+  },
+  "t_34bdba45": {
+    "message": "שלב"
+  },
+  "t_9b2d88a1": {
+    "message": "של"
+  },
+  "t_8f44d852": {
+    "message": "בואו נתחיל!"
+  },
+  "t_b45c2f91": {
+    "message": "בטל נעילת ייצוא סביבת עבודה"
+  },
+  "t_88f91dc1": {
+    "message": "עיבוד וייצוא מאובטח של כל הערות סביבת העבודה הגלובלית שלך דורש רישיון פרו מאומת. שדרג כדי לפתוח תכונה זו לצמיתות."
+  },
+  "t_134dff88": {
+    "message": "אולי מאוחר יותר"
+  },
+  "t_5b8c9d11": {
+    "message": "שדרג לפרו"
+  },
+  "t_792bd8c9": {
+    "message": "סביבת עבודה צפה!"
+  },
+  "t_e39f7dc2": {
+    "message": "הפתקיות הדביקות שלך מרחפות כעת מעל שולחן העבודה של מערכת ההפעלה."
+  },
+  "t_c83d6ec9": {
+    "message": "עגן מחדש את סביבת העבודה"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">איזי-ויו בינה מלאכותית</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "היצירה נעצרה"
+  },
+  "t_removed_from_notebook": {
+    "message": "הוסר מהמחברת"
+  },
+  "t_d1c58470": {
+    "message": "לחץ פעמיים להסרת הדגשה"
+  },
+  "t_d4fdfb03": {
+    "message": "התחבר ל-איזי-ויו כדי לקבל $1 שימושים בחינם לחודש, או הוסף מפתח ממשק ממשק API משלך בהגדרות.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "טוען תוצאות שמורות..."
+  },
+  "t_3a99733d": {
+    "message": "מאתחל מפענח ז'רגון..."
+  },
+  "t_b6dc9fc9": {
+    "message": "צור חשבון איזי-ויו בחינם כדי לקבל $1 פענוחי בינה מלאכותית בחינם לחודש ולעקוב אחר המכסה שלך.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "צור חשבון איזי-ויו בחינם כדי לקבל $1 הגדרות בינה מלאכותית בחינם לחודש ולעקוב אחר המכסה שלך.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "מחלץ תוכן ראשי..."
+  },
+  "t_0eeae2bf": {
+    "message": "מזהה הקשר דף..."
+  },
+  "t_87f125d0": {
+    "message": "מנתח טרמינולוגיה..."
+  },
+  "t_9ef6e70f": {
+    "message": "משתמש בתוצאות שמורות במטמון..."
+  },
+  "t_9afdc5e8": {
+    "message": "מנתח עם בינה מלאכותית..."
+  },
+  "t_7ecc3abe": {
+    "message": "פענוח בינה מלאכותית נכשל"
+  },
+  "t_9220c8de": {
+    "message": "מחיל פישוטים..."
+  },
+  "t_57f406b1": {
+    "message": "מפענח בחירה..."
+  },
+  "t_c50f2b72": {
+    "message": "צפה במילון מונחים"
+  },
+  "t_49de9b11": {
+    "message": "הסתר הדגשות בדף"
+  },
+  "t_3158774e": {
+    "message": "שחזר הדגשות בדף"
+  },
+  "t_fc3ad42d": {
+    "message": "שמור לאוצר מילים"
+  },
+  "t_87e933b8": {
+    "message": "מחפש הגדרה..."
+  },
+  "t_56b79836": {
+    "message": "הגדרת מילה נטענה."
+  },
+  "t_969b24ea": {
+    "message": "🔊 לחץ בכל מקום להפעלת שמע של ערכת הנושא"
+  },
+  "t_49337275": {
+    "message": "הדגשה ידנית"
+  },
+  "t_93324bd5": {
+    "message": "נשמר ישירות מדף האינטרנט."
+  },
+  "t_82e413f3": {
+    "message": "מפשט טקסט..."
+  },
+  "t_86c4f6e5": {
+    "message": "מפשט עם בינה מלאכותית..."
+  },
+  "t_c3e18edb": {
+    "message": "פישוט נכשל"
+  },
+  "t_6398ab2c": {
+    "message": "רמת קריאה: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "לחץ כדי לשחזר זמנית טקסט מקורי"
+  },
+  "t_9beea3e8": {
+    "message": "מחק מהזיכרון לצמיתות"
+  },
+  "t_453bb8f7": {
+    "message": "צור חשבון איזי-ויו בחינם כדי לקבל $1 פישוטי בינה מלאכותית בחודש ולעקוב אחר המכסה שלך.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "האזן"
+  },
+  "t_24833610": {
+    "message": "נשמר"
+  },
+  "t_30a008cb": {
+    "message": "קרא עוד &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "נשמר למחברת אוצר מילים!"
+  },
+  "t_2728e87f": {
+    "message": "הוסר ממחברת אוצר מילים"
+  },
+  "t_6b8c66ce": {
+    "message": "מילון מונחים ($1 מונחים)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "הסר זיכרון עבור דף זה"
+  },
+  "t_8a49fe1a": {
+    "message": "הסר מונח"
+  },
+  "t_1534891c": {
+    "message": "פוענחו $1 מונחים",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "שמור למחברת"
+  },
+  "t_150a2843": {
+    "message": "נקה הדגשות"
+  },
+  "t_21ef939c": {
+    "message": "נשמר למחברת!"
+  },
+  "t_8054da35": {
+    "message": "מילון מהיר",
+    "description": "כותרת קופצת של מילון מהיר"
+  },
+  "t_4aeb2167": {
+    "message": "מילה לא נמצאה",
+    "description": "כותרת חלופית למילון"
+  },
+  "t_272d0070": {
+    "message": "לא הצלחנו למצוא את \"$1\" במילון הבסיסי. זה עשוי להיות סלנג מודרני, קיצור, או ז'רגון טכני מאוד.",
+    "description": "תיאור חלופי למילון עם מציין מיקום למילה",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "פענוח באמצעות בינה מלאכותית של איבי",
+    "description": "כפתור חלופי לפענוח עם בינה מלאכותית"
+  },
+  "t_14f1f972": {
+    "message": "דרך",
+    "description": "קידומת מקור מילון"
+  },
+  "t_f2faf2f1": {
+    "message": "שם עצם",
+    "description": "חלק דיבר: שם עצם"
+  },
+  "t_b512ddf1": {
+    "message": "פועל",
+    "description": "חלק דיבר: פועל"
+  },
+  "t_d807ae6a": {
+    "message": "שם תואר",
+    "description": "חלק דיבר: תואר"
+  },
+  "t_1a607278": {
+    "message": "תואר הפועל",
+    "description": "חלק דיבר: תואר הפועל"
+  },
+  "t_02de720d": {
+    "message": "כינוי גוף",
+    "description": "חלק דיבר: כינוי גוף"
+  },
+  "t_4b7be2c3": {
+    "message": "מילת יחס",
+    "description": "חלק דיבר: מילת יחס"
+  },
+  "t_a3c1d30b": {
+    "message": "מילת קישור",
+    "description": "חלק דיבר: מילת קישור"
+  },
+  "t_e189f001": {
+    "message": "מילת קריאה",
+    "description": "חלק דיבר: מילת קריאה"
+  },
+  "t_96de90f8": {
+    "message": "העתק טקסט מפושט",
+    "description": "תיאור להעתקת טקסט מפושט"
+  },
+  "t_44a6e288": {
+    "message": "קרא דף",
+    "description": "תיאור לקריאת כל הדף באמצעות TTS"
+  },
+  "t_7d70d73b": {
+    "message": "קרא בחירה",
+    "description": "תיאור לקריאת בחירה באמצעות TTS"
+  },
+  "t_11936123": {
+    "message": "מחק הערה לצמיתות",
+    "description": "תיאור למחיקה לצמיתות של פתק דביק"
+  },
+  "t_d27532d9": {
+    "message": "מזער"
+  },
+  "t_2bd339d8": {
+    "message": "שחזר"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "תצוגה קלה"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "התראת מערכת"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "התראת מערכת"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "מנוע\nאיזי-ויו"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "תכונות מקומיות נשארות\nפעילות"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,580 +599,574 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "חוויית\nאיזי-ויו"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "אתה משתמש ב-איזי-ויו במשך 12 שעות. צור חשבון בחינם כדי\n                    לשמור את\n                    ההגדרות שלך, לשמור על המכסה שלך ולפתוח תכונות נוספות."
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "הזכר לי בעוד 12 שעות"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "בהיר"
   },
   "t_7fc56270": {
-    "message": "A"
+    "message": "א"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "גופן"
   },
   "t_5dbc98dc": {
-    "message": "S"
+    "message": "ס"
   },
   "t_69691c7b": {
-    "message": "M"
+    "message": "מ"
   },
   "t_d20caec3": {
-    "message": "L"
+    "message": "ג"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "תכונות"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "חזותי"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "ממיר"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "מחברת"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "מפענח ז'רגון"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "פשט מונחים משפטיים מורכבים"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "wikipedia.org/wiki/נוירודייברגנטיות"
   },
   "t_61e9c06e": {
-    "message": "W"
+    "message": "ר"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "נוירו-גיוון"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "הרבה\r\n                                                יותר קל"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "מגן מיקוד ופרטיות"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "טשטש תוכן פרטי ורגיש"
   },
   "t_7f766191": {
-    "message": "mail.google.com/mail/u/0/"
+    "message": "מייל.גוגל.קום/מייל/יו/0/"
   },
   "t_dfcf28d0": {
-    "message": "G"
+    "message": "ת"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "חשבונות גוגל"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "התראת אבטחה"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- התבקש איפוס סיסמה..."
   },
   "t_8d9c307c": {
-    "message": "N"
+    "message": "נ"
   },
   "t_170b1d36": {
-    "message": "Netflix"
+    "message": "נטפליקס"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "חדש השבוע"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- בדוק את\r\n                                                    הגרסאות האחרונות שלנו..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "טכניקות הגנה"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "טשטוש תוכן פרטי"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "מטשטש בצורה חכמה את וואטסאפ, ג'ימייל, וקלט\r\n                                            סיסמאות לאבטחה ויזואלית מיידית."
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "הגנה אוטומטית בשיתוף מסך"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "מגן על המסך שלך באופן מיידי בעת שיתוף מקוון או חיבור לתצוגת\n                                            \"הרחבה\"."
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
+    "message": "משתמש\r\n                                                    במקרן פיזי?"
   },
   "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "מצב כפול"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "פנס קריאה"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "עוקב אחר העכבר שלך עם זרקור בהיר כדי לחסל לחלוטין עומס\r\n                                            ויזואלי מסביב."
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "1.\r\n                                                            צורת קרן"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "זרקור\r\n                                                            או סרגל"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "2.\r\n                                                                גודל / גובה קרן"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "עובי\r\n                                                                אזור התצוגה"
   },
   "t_f0cad41b": {
     "message": "35px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "3.\r\n                                                            גוון עדשת קרן מיקוד"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "צובע בעדינות\n                                                            את אזור הקריאה"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "4.\r\n                                                            צל רקע סביבתי"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "עמימות\r\n                                                            סביב העדשה"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "מגן חושי"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "הקפא אנימציות מסיחות דעת"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "ניוזדיילי.קום/ברייקינג"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "חדשות מתפרצות"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "קורא מאמר בחדשות היומיות..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "ניצחון!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "מצב מגן"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(ברירת מחדל)"
   },
   "t_9e3360ac": {
-    "message": "PRO"
+    "message": "פרו"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "עצור הפעלה אוטומטית + עמעום\r\n                                                רגוע בניווט ידני"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "מצב קריאה לדיסלקציה"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "גופנים ומרווחים מותאמים"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "פרופיל עוצמה"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "נמוך"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "בינוני"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "גבוה"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "ויקיפדיה.אורג/ויקי/קריאה"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "קריאה"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "הנה תצוגה מקדימה של הגדרות הקריאה שלך."
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "אפשרויות מתקדמות"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "סגנון גופן"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "ברירת מחדל (ללא שינוי)"
   },
   "t_5d2967ef": {
-    "message": "OpenDyslexic"
+    "message": "אופן דיסלקסיק"
   },
   "t_1042daad": {
-    "message": "Lexend (ADHD Pro) 🔒"
+    "message": "לקסנד (הפרעת קשב (ADHD) פרו (Pro)) 🔒"
   },
   "t_bcec044a": {
-    "message": "Atkinson Hyperlegible 🔒"
+    "message": "אטקינסון היפרלג'יבל 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "סאנס מהיר"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "סריף מהיר"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "קומיק נוי"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "קומיק סאנס"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "מרווח אותיות"
   },
   "t_960b44c5": {
-    "message": "Normal"
+    "message": "רגיל"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "גובה שורה"
   },
   "t_60086472": {
     "message": "1.5"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "מרווח בין מילים"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "גודל גופן"
   },
   "t_30bd7ce7": {
     "message": "100%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "צבע שכבת-על"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "ללא"
   },
   "t_2bd8c63b": {
-    "message": "Beige"
+    "message": "בז'"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "כחול בהיר"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "ירוק בהיר"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "צהוב בהיר"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "טקסט לדיבור"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "קרא בקול עם הדגשה"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "נגן"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "השהה"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "עצור"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "בחירת קול"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "אוטומטי (איכות מיטבית)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "מהירות קריאה"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "איטי מאוד"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "איטי"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "מהיר"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "מהיר מאוד"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "עוצמת קול"
   },
   "t_f1943132": {
     "message": "70%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "השהיה בסימני פיסוק"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "הדגשת מילים"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "הפעל"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "מצב"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "כהה"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "ויקיפדיה.אורג/ויקי/אור"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "ויזואליה מושלמת לנוחות העין. אור יכול להיות אינטנסיבי."
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "בהירות"
   },
   "t_c63ecd19": {
-    "message": "Contrast"
+    "message": "ניגודיות"
   },
   "t_b84a9a38": {
-    "message": "Sepia"
+    "message": "ספיה"
   },
   "t_9f1ef078": {
     "message": "0%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "גווני אפור"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "ברירת מחדל"
   },
   "t_b1166920": {
-    "message": "Lexend 🔒"
+    "message": "לקסנד 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "קו מתאר טקסט"
   },
   "t_cfcd2084": {
     "message": "0"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "ממיר וקורא חכם"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "קובץ נוכחי"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "לחץ או גרור קובץ להעלאה"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• מוכן"
   },
   "t_4c4ad5fc": {
-    "message": "HTML"
+    "message": "שפת סימון היפר-טקסט"
   },
   "t_5c31b30e": {
-    "message": "EPUB"
+    "message": "פורמט ספר אלקטרוני"
   },
   "t_7cfd9a9f": {
-    "message": "DOCX"
+    "message": "מסמך וורד"
   },
   "t_af97e960": {
     "message": "📌"
   },
   "t_4cc6684d": {
-    "message": "Global"
+    "message": "גלובלי"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "אתר/דף"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "המחברת שלי"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "נקה הכל"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "ביטול"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "שמור מילה"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "אין עדיין מילים שמורות."
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "רחף מעל ז'רגון בכל דף ולחץ על דגל הסימניה כדי לשמור אותם כאן!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "דמיין מחדש את הממשק של כל אתר אינטרנט. תאר מה אתה רוצה או בחר\r\n                            הגדרה מראש."
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "השינוי\nיושם"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "פריסת בינה מלאכותית מותאמת אישית\r\n                                פעילה באתר זה."
   },
   "t_e8a57cd1": {
     "message": "0 /\r\n                                500"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "אפס דף"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "שינוי פריסה"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "הגדרות ברירת מחדל"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "קרנבל אימה"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "אווירת קרנבל מצמררת וטקסט אימה מונפש"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "קונסולת מטריקס"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "ערכת נושא של טרמינל סייברפאנק"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "מיקוד נוירו"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "גופנים ידידותיים לדיסלקציה וצבעים מרגיעים"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "מצב קריאה"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "פריסה מינימליסטית מותאמת למיקוד"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "הנחיות אחרונות"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "משתמש אורח"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "חשבון חינמי"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "התחבר / נהל"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "התנתק"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "הגדרות ממשק תכנות"
   },
   "t_766cc4dd": {
-    "message": "Gemini"
+    "message": "ג'מיני"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "ספק בינה מלאכותית"
   },
   "t_222cf5ed": {
-    "message": "Google Gemini"
+    "message": "גוגל ג'מיני"
   },
   "t_a0607683": {
-    "message": "OpenRouter"
+    "message": "אופן ראוטר"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "מפתח ממשק ממשק API של ג'מיני (Gemini)"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "סטודיו בינה מלאכותית של גוגל"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "מפתח ממשק ממשק API של OpenRouter"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "שמור מפתח ממשק ממשק API"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "איזי-ויו\r\n                                    עדיפות בינה מלאכותית"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ מפתח ה-ממשק ממשק API שלי"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 שרתי איזי-ויו"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "בחר\r\n                                מה משמש ראשון עבור כל תכונות הבינה המלאכותית. אם המפתח שלך נגמר, שרתי איזי-ויו\r\n                                משמשים תמיד כגיבוי."
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "פרטיות\r\nועדיפות"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "עדיפות 1:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "עדיפות 2:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "הערת מנוע\nהשינוי:"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "לעולם לא"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "עזרה ומשוב"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "יש לך שאלה, מצאת באג, או רוצה להציע תכונה? נשמח לשמוע ממך!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "דווח על באג / תן משוב"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "מוכן לפישוט"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "ייצוא הגדרות"
   },
   "t_9d5ed678": {
-    "message": "B"
+    "message": "ב"
   },
   "t_dd753679": {
-    "message": "I"
+    "message": "נ"
   },
   "t_20a1d47c": {
     "message": "✎"
   },
   "t_4c614360": {
-    "message": "U"
+    "message": "ק"
   },
   "t_2f43b42f": {
     "message": "..."
@@ -615,25 +1175,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "חוזק"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "אטימות"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "משקל"
   },
   "t_18d80423": {
     "message": "400"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "גובה\r\nשורה"
   },
   "t_f522dede": {
     "message": "1.7x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "דלג"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,61 +1202,61 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "הדגשה"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "דיו"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "עמעום"
   },
   "t_e8bfe352": {
-    "message": "Lexend 👑"
+    "message": "לקסנד 👑"
   },
   "t_0cd4623c": {
-    "message": "Atkinson Hyperlegible 👑"
+    "message": "אטקינסון היפרלג'יבל 👑"
   },
   "t_6fbda3a3": {
-    "message": "Arial"
+    "message": "אריאל"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "הלווטיקה"
   },
   "t_207c3219": {
-    "message": "Verdana"
+    "message": "ורדנה"
   },
   "t_2bd141ae": {
-    "message": "Tahoma"
+    "message": "טהומה"
   },
   "t_720661ec": {
-    "message": "Trebuchet MS"
+    "message": "טרבושה אם-אס"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "סאנס מערכת"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "טיימס ניו רומן"
   },
   "t_eada8196": {
-    "message": "Georgia"
+    "message": "ג'ורג'יה"
   },
   "t_96a78725": {
-    "message": "Garamond"
+    "message": "גאראמונד"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "סריף מערכת"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "קומיק סאנס אם-אס"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "קורייר ניו"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "גופן ברוחב קבוע"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "גודל\r\nגופן"
   },
   "t_f4f9f2f4": {
     "message": "14px"
@@ -723,7 +1283,7 @@
     "message": "32px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "בוצע"
   },
   "t_63922286": {
     "message": "×"
@@ -732,154 +1292,34 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "ייצוא ספריית ערכות נושא"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "שמור את יצירות המופת שנוצרו על ידי בינה מלאכותית\r\n                באופן מקומי."
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "ייצוא כל הספרייה"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
-  },
-  "t_ccca2ddf": {
-    "message": "EasyView Reader"
-  },
-  "t_8524de96": {
-    "message": "Loading..."
-  },
-  "t_25e8f2fd": {
-    "message": "Please wait..."
-  },
-  "t_ec9d785d": {
-    "message": "1.5x"
-  },
-  "t_dafd5f8f": {
-    "message": "Lexend"
-  },
-  "t_16d90a0b": {
-    "message": "Atkinson Hyperlegible"
-  },
-  "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
-  },
-  "t_f7cee5ea": {
-    "message": "Calibri"
-  },
-  "t_ccc0239e": {
-    "message": "Candara"
-  },
-  "t_2963521b": {
-    "message": "Corbel"
-  },
-  "t_37f1cc58": {
-    "message": "Cambria"
-  },
-  "t_c3d9d4bf": {
-    "message": "Constantia"
-  },
-  "t_5d1a5b35": {
-    "message": "Palatino Linotype"
-  },
-  "t_4dc386b6": {
-    "message": "Book Antiqua"
-  },
-  "t_03c461f6": {
-    "message": "Franklin Gothic"
-  },
-  "t_7b1ee3b6": {
-    "message": "Century Gothic"
-  },
-  "t_a3293302": {
-    "message": "Gill Sans"
-  },
-  "t_eb726908": {
-    "message": "Sitka Text"
-  },
-  "t_b5bdee2c": {
-    "message": "Sylfaen"
-  },
-  "t_1ec05249": {
-    "message": "Microsoft Sans Serif"
-  },
-  "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
-  },
-  "t_16507cdd": {
-    "message": "Consolas"
-  },
-  "t_391c5954": {
-    "message": "Lucida Console"
-  },
-  "t_9879efdf": {
-    "message": "Lucida Sans Typewriter"
-  },
-  "t_21f59b54": {
-    "message": "Impact"
-  },
-  "t_94a7bb97": {
-    "message": "Arial Black"
-  },
-  "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
-  },
-  "t_40885309": {
-    "message": "Berlin Sans FB"
-  },
-  "t_6d5566ba": {
-    "message": "Gabriola"
-  },
-  "t_edb42482": {
-    "message": "Ink Free"
-  },
-  "t_fa233799": {
-    "message": "Segoe Script"
-  },
-  "t_2f7bc407": {
-    "message": "Segoe Print"
-  },
-  "t_0095a9fa": {
-    "message": "Export"
-  },
-  "t_520d0db3": {
-    "message": "Format"
-  },
-  "t_5956a437": {
-    "message": "TXT"
-  },
-  "t_1351017a": {
-    "message": "Filename"
-  },
-  "t_6af8212e": {
-    "message": "EasyView Notes Board"
-  },
-  "t_d16da0f5": {
-    "message": "🌎"
-  },
-  "t_6df173ff": {
-    "message": "📍"
+    "message": ".ג'ייסון (קובץ קובץ JSON)"
   },
   "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
-  },
-  "js_24833610": {
-    "message": "Saved"
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> נדרשת פעולה</div>\n            <h2 class=\"ev-si-title\">חשבון<br><span class=\"ev-si-gradient-text\">מושעה</span></h2>\n            <p class=\"ev-si-sub\">גישת ה-איזי-ויו שלך הוגבלה עקב הפרה של תנאי השירות שלנו.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                צור קשר עם התמיכה\n            </a>\n          </div>\n        </div>\n      "
   },
   "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>אנא תאר את השינוי שלך תחילה.</span>\n          </div>"
   },
   "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>משנה צורה...</span>\n      "
   },
   "js_138703dd": {
-    "message": "No Theme on Page"
+    "message": "אין ערכת נושא בדף"
   },
   "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>ייצוא דף נוכחי"
   },
   "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> מהדר..."
   },
   "js_e541190e": {
     "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
@@ -891,30 +1331,1241 @@
     "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
   },
   "js_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "מוכן לפישוט"
   },
   "js_a18366b2": {
-    "message": "Dark"
+    "message": "כהה"
   },
   "js_9914a0ce": {
-    "message": "Light"
+    "message": "בהיר"
   },
   "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+    "message": "<option value=\"auto\">אוטומטי (איכות מיטבית)</option>"
   },
   "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> מפענח..."
   },
   "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+    "message": "זה מרגיש <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">הרבה יותר קל</span> להבנה."
   },
   "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+    "message": "זה מרגיש פחות ברור להבנה."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_f05df71b": {
+    "message": "משדרג את"
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_78db2ae3": {
+    "message": "שרתי הבינה המלאכותית שלנו עוברים שדרוגים."
+  },
+  "t_bb2129c8": {
+    "message": "פתח את מלוא"
+  },
+  "t_aefee7cd": {
+    "message": "בהירות לכל מוח"
+  },
+  "t_c38beca1": {
+    "message": "ווינדוס (ווינדוס) מסתיר תצוגות ב-"
+  },
+  "t_f2fe1e79": {
+    "message": "ערכים\r\n                                    מתחת ל-1.0 עלולים לדחוס טקסט ולשבור פריסות."
+  },
+  "t_ca677d53": {
+    "message": "התאמות ויזואליות"
+  },
+  "t_230b4522": {
+    "message": "לוח פתקים"
+  },
+  "t_596b54bf": {
+    "message": "סוכן בינה מלאכותית מורף"
+  },
+  "t_47e79a17": {
+    "message": "קבל את המפתח החינמי שלך ב-"
+  },
+  "t_42372184": {
+    "message": "ערכות נושא מיוצאות כ-"
+  },
+  "t_74fdc8a2": {
+    "message": "אנא תאר את טרנספורמציית השינוי שלך תחילה."
+  },
+  "t_245fd3b9": {
+    "message": "פריסת המורפינג נוקתה."
+  },
+  "t_172bd753": {
+    "message": "ערכת נושא יוצאה בהצלחה!"
+  },
+  "t_4c34daff": {
+    "message": "זמן החיבור פג. השרת אינו נגיש."
+  },
+  "t_0dd56117": {
+    "message": "לא נמצאה ערכת נושא פעילה בדף זה."
+  },
+  "t_cb5c0766": {
+    "message": "ספרייה יוצאה בהצלחה!"
+  },
+  "t_8adb392e": {
+    "message": "זמן החיבור פג. השרת אינו נגיש."
+  },
+  "t_ae94e0e4": {
+    "message": "ספריית ערכות הנושא שלך ריקה."
+  },
+  "t_10a0c40b": {
+    "message": "ערכת נושא מותאמת אישית נטענה בהצלחה!"
+  },
+  "t_9b6007a8": {
+    "message": "נכשל בקריאת קובץ ערכת נושא."
+  },
+  "t_d4fa051d": {
+    "message": "נכשל: $1. אנא טען מחדש את הלשונית.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "הוחל: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "שוחזרו $1 ערכות נושא מהספרייה!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "העדפת שפה"
+  },
+  "t_lang_updated_reload": {
+    "message": "שפה עודכנה. טוען מחדש..."
+  },
+  "t_transformation_failed": {
+    "message": "טרנספורמציה נכשלה."
+  },
+  "t_c8a59e71": {
+    "message": "בטל"
+  },
+  "t_7764306b": {
+    "message": "תחזוקת שירותי ענן פעילה"
+  },
+  "t_248228de": {
+    "message": "הפעל/כבה גופן לדיסלקציה בחלון הקופץ"
+  },
+  "t_79a59320": {
+    "message": "התחל סיור באפליקציה"
+  },
+  "t_533bff5b": {
+    "message": "הצמד פתק דביק לדף (Alt+S)"
+  },
+  "t_f4f70727": {
+    "message": "הגדרות"
+  },
+  "t_4fd11104": {
+    "message": "זרקור מעגלי"
+  },
+  "t_0d063af1": {
+    "message": "סרגל קו אופקי 🔒"
+  },
+  "t_60d71580": {
+    "message": "בהיר נקי"
+  },
+  "t_efe48742": {
+    "message": "מיקוד ענברי"
+  },
+  "t_610a09ca": {
+    "message": "ציאן קריר"
+  },
+  "t_886f6b9e": {
+    "message": "ירוק מרגיע"
+  },
+  "t_65e8194e": {
+    "message": "שחור משחור"
+  },
+  "t_7243ed99": {
+    "message": "צפחה חצות"
+  },
+  "t_ec6d8325": {
+    "message": "יער עמוק"
+  },
+  "t_4af435e0": {
+    "message": "יין ערפדי"
+  },
+  "t_2a7dbdf8": {
+    "message": "תכונת פרו"
+  },
+  "t_fc4aec61": {
+    "message": "פתח בקורא"
+  },
+  "t_801ab246": {
+    "message": "הורד"
+  },
+  "t_aa3880dc": {
+    "message": "הורד כ-דף HTML"
+  },
+  "t_e0781e81": {
+    "message": "הורד כ-ספר EPUB"
+  },
+  "t_442ff212": {
+    "message": "הורד כ-מסמך DOCX"
+  },
+  "t_6244ee7c": {
+    "message": "הוסף מונח מותאם אישית ידנית"
+  },
+  "t_6e7d015f": {
+    "message": "ייבוא קובץ קובץ CSV"
+  },
+  "t_edbc5415": {
+    "message": "ייצוא עבור אנקי (אנקי (Anki)) / קוויזלט (קוויזלט (Quizlet))"
+  },
+  "t_46c29f7a": {
+    "message": "טען ערכת נושא"
+  },
+  "t_2bd65c5d": {
+    "message": "ייצוא ערכת נושא"
+  },
+  "t_c1c433ac": {
+    "message": "ספק בינה מלאכותית פעיל"
+  },
+  "t_90c09393": {
+    "message": "מנוקד"
+  },
+  "t_eb656e41": {
+    "message": "מקווקו"
+  },
+  "t_0c99ddee": {
+    "message": "צבע הדגשה"
+  },
+  "t_eaf63759": {
+    "message": "צבע דיו"
+  },
+  "t_a183c9f0": {
+    "message": "צבע עמעום"
+  },
+  "t_75e7422f": {
+    "message": "צבע רקע"
+  },
+  "t_42f9ceea": {
+    "message": "חפש בלקסיקון השמור..."
+  },
+  "t_0e84a8cf": {
+    "message": "הזן מילה או ראשי תיבות..."
+  },
+  "t_eea6890c": {
+    "message": "משמעות / תרגום..."
+  },
+  "t_4480cf46": {
+    "message": "טריק זיכרון או הערת לימוד (אופציונלי)..."
+  },
+  "t_d8634fbf": {
+    "message": "למשל, הפוך לערכת נושא בסגנון אנימה ורוד עם כרטיסים מעוגלים, או הפוך למסוף טרמינל ירוק כהה רטרו..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "פתקיות דביקות"
+  },
+  "t_b097d277": {
+    "message": "הוסף מילה"
+  },
+  "t_1eeb67ee": {
+    "message": "ייצוא דף נוכחי"
+  },
+  "t_b62ded9a": {
+    "message": "שירותי ענן לא מקוונים"
+  },
+  "t_263e00eb": {
+    "message": "התחבר / צור חשבון"
+  },
+  "t_7748eb3b": {
+    "message": "משדרג"
+  },
+  "t_81a5d20b": {
+    "message": "הקפא הכל"
+  },
+  "t_e61146d9": {
+    "message": "עמעום רגוע"
+  },
+  "t_57323916": {
+    "message": "עצור ניגון אוטומטי"
+  },
+  "t_f50319ea": {
+    "message": "הגנה מלאה"
+  },
+  "t_8e13f26d": {
+    "message": "שאלה מהירה"
+  },
+  "t_134b26da": {
+    "message": "האם אתה נהנה מ-<br><span class=\"ev-si-gradient-text\">איזי-ויו?</span>"
+  },
+  "t_b75bdd9e": {
+    "message": "המשוב שלך עוזר לנו להשתפר.<br>האם אתה נהנה מהחוויה?"
+  },
+  "t_396d1ff8": {
+    "message": "כן, אני!"
+  },
+  "t_7d0cacf3": {
+    "message": "דורש שיפור"
+  },
+  "t_815142c9": {
+    "message": "תמכו בנו"
+  },
+  "t_abd9fa39": {
+    "message": "האם תסכים<br><span class=\"ev-si-gradient-text\">להשאיר ביקורת?</span>"
+  },
+  "t_02991e61": {
+    "message": "דירוגים ממשתמשים כמוך הם הדרך הטובה ביותר לעזור ל-איזי-ויו לצמוח. זה לוקח רק דקה!"
+  },
+  "t_db49c1f2": {
+    "message": "דרג עכשיו"
+  },
+  "t_7a4f0d12": {
+    "message": "הזכר לי מאוחר יותר"
+  },
+  "t_fee6c0e9": {
+    "message": "משוב פרטי"
+  },
+  "t_74393dde": {
+    "message": "מה אנחנו יכולים <span class=\"ev-si-gradient-text\">לעשות טוב יותר?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "ספר לנו מה השתבש..."
+  },
+  "t_6f97affc": {
+    "message": "שלח משוב"
+  },
+  "t_b20871b3": {
+    "message": "אנא הזן את המשוב שלך"
+  },
+  "t_7b0fee4d": {
+    "message": "שולח..."
+  },
+  "t_fb631633": {
+    "message": "תודה על המשוב שלך."
+  },
+  "t_08727add": {
+    "message": "ראה את האינטרנט בדרך שלך."
+  },
+  "t_15bbb9d0": {
+    "message": "אתר אינטרנט"
+  },
+  "t_c5f29bb3": {
+    "message": "פרטיות"
+  },
+  "t_ad5b1a22": {
+    "message": "מייסד"
+  },
+  "t_db496e03": {
+    "message": "מפתחות אישיים יוצרים חיבור ישיר ופרטי ב-100% לבינה המלאכותית. הטקסט שלך לעולם לא מגיע לשרתי איזי-ויו."
+  },
+  "t_387c35b3": {
+    "message": "השרת המנוהל שלנו (פרימיום) משמש כגיבוי אמין אם לא קיים מפתח או אם המפתח שלך נכשל."
+  },
+  "t_98bc5a17": {
+    "message": "כדי להגן על אלגוריתמים קנייניים, המפתח שלך מנותב בקצרה דרך השרת המאובטח שלנו כדי לאמת מול גוגל. הוא"
+  },
+  "t_de47f1be": {
+    "message": "מאוחסן או מתועד."
+  },
+  "t_25e02e7f": {
+    "message": "פעיל: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ חבר פרימיום"
+  },
+  "t_df56cfae": {
+    "message": "⭐ חבר לכל החיים"
+  },
+  "t_41cbc704": {
+    "message": " ימים נותרו"
+  },
+  "t_b194bd82": {
+    "message": "לעולם לא פג תוקף"
+  },
+  "t_9f830444": {
+    "message": "⭐ פרו:"
+  },
+  "t_61b82be6": {
+    "message": " שינויים נותרו"
+  },
+  "t_c20e7ceb": {
+    "message": " שינויים חינמיים נותרו"
+  },
+  "t_d7087930": {
+    "message": " שימושים חינמיים נותרו"
+  },
+  "t_4bbf11bd": {
+    "message": "שדות מונח ומשמעות לא יכולים להישאר ריקים!"
+  },
+  "t_08f09d38": {
+    "message": "פרטי מילה עודכנו בהצלחה!"
+  },
+  "t_32001b52": {
+    "message": "אנא הזן גם מילה וגם את משמעותה."
+  },
+  "t_b8115861": {
+    "message": "מחברת הלימוד שלך ריקה. הוסף תחילה סימניות למילים בדפי אינטרנט!"
+  },
+  "t_7114113b": {
+    "message": "אנא התחבר תחילה לחשבון איזי-ויו שלך כדי לאמת את תכונות הפרו שלך!"
+  },
+  "t_093f9fa0": {
+    "message": "אסימון ההפעלה שלך חסר. אנא התחבר שוב ל-easyview.in כדי לשחזר את הגישה."
+  },
+  "t_0e065596": {
+    "message": "זוהי תכונת פרימיום מאומתת בלבד. שדרג לפרו כדי לפתוח!"
+  },
+  "t_c792a645": {
+    "message": "החיבור לשרת הייצוא המאובטח נכשל. נסה שוב בקרוב."
+  },
+  "t_8d1a2675": {
+    "message": "לא ניתן היה לזהות פריטי אוצר מילים תקפים ב-קובץ CSV הזה."
+  },
+  "t_a613ed90": {
+    "message": "כשל בכתיבה לאחסון הדפדפן! הקובץ עשוי להיות גדול מדי עבור המטמון המקומי."
+  },
+  "t_8efe87ab": {
+    "message": "הדפדפן נכשל בקריאת הקובץ המקומי שלך."
+  },
+  "t_50bf63aa": {
+    "message": "האם אתה בטוח שברצונך למחוק את כל המילים השמורות מהמחברת שלך?"
+  },
+  "t_ff252710": {
+    "message": "הייבוא הסתיים: כל $1 הערכים כבר קיימים במחברת שלך.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "נכשל בניתוח קובץ CSV: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "\"$1\" כבר נמצא במחברת שלך. האם ברצונך להוסיף לו הגדרה נוספת?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "ההתנתקות בוצעה בהצלחה"
+  },
+  "t_dbd35100": {
+    "message": "מנוע ה-עיצוב מחדש (Morph) כבר עובד..."
+  },
+  "t_2de4e55d": {
+    "message": "פריסת ה-עיצוב מחדש (Morph) נוקתה"
+  },
+  "t_1bb9196d": {
+    "message": "שונה: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "ה-Morphing נכשל: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "הופעל: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 פריטים מאורגנים",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "פעולה זו תמחק לצמיתות את ההערה הזו מכל המכשירים המסונכרנים. להמשיך?"
+  },
+  "t_25abf697": {
+    "message": "ייצוא ספר EPUB דורש ספריית JSZip."
+  },
+  "t_71609188": {
+    "message": "ייצוא מסמך DOCX דורש ספריית html-docx-js."
+  },
+  "t_e1499766": {
+    "message": "לא נטען קובץ."
+  },
+  "t_023b3355": {
+    "message": "מגן פרטיות הופעל"
+  },
+  "t_9483a5da": {
+    "message": "מגן פרטיות מושבת"
+  },
+  "t_a04202db": {
+    "message": "הדגשות מוסתרות זמנית"
+  },
+  "t_b3d6b264": {
+    "message": "הדגשות שוחזרו"
+  },
+  "t_7485c55e": {
+    "message": "ברוכים הבאים ל-איזי-ויו! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "גשר קוגניטיבי מבוסס בינה מלאכותית לקריאת אינטרנט קלה יותר. בוא נצא לסיור מהיר בתכונות."
+  },
+  "t_3a1fe637": {
+    "message": "מפענח ז'רגון 📖"
+  },
+  "t_89cec86e": {
+    "message": "מפשט טרמינולוגיה מורכבת בכל דף אינטרנט."
+  },
+  "t_f8aefae7": {
+    "message": "מגן פרטיות 🔐"
+  },
+  "t_aa860f86": {
+    "message": "מטשטש נתונים רגישים וכולל סרגל מיקוד לקריאה ללא הסחות דעת."
+  },
+  "t_0681a3b6": {
+    "message": "מגן חושי 🛡️"
+  },
+  "t_6118b864": {
+    "message": "מקפיא קובצי אנימציות GIF ואנימציות מסיחי דעת."
+  },
+  "t_12ec6fc6": {
+    "message": "מצב קריאה לדיסלקציה 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "גופנים ומרווחים מותאמים לקריאה קלה יותר."
+  },
+  "t_18d9ce63": {
+    "message": "טקסט לדיבור 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "האזן לכל דף אינטרנט עם הדגשת מילים."
+  },
+  "t_0019a700": {
+    "message": "מנוע עיצוב מחדש (Morph) ✨"
+  },
+  "t_47c2535a": {
+    "message": "השתמש בבינה מלאכותית כדי לעצב מחדש כל אתר אינטרנט לערכת נושא או פריסה מותאמת אישית."
+  },
+  "t_2ed2f639": {
+    "message": "פתקיות דביקות 📝"
+  },
+  "t_75025b5f": {
+    "message": "הצמד פתקיות דביקות צפות לכל דף אינטרנט כדי לשמור מידע חשוב (Alt+S)."
+  },
+  "t_3ff2d7cc": {
+    "message": "הגדרות ממשק ממשק API ⚙️"
+  },
+  "t_0754e836": {
+    "message": "התחבר כדי לסנכרן את המכסה שלך, או הגדר מפתח ממשק ממשק API של ג'מיני בחינם כאן."
+  },
+  "t_7b6a2059": {
+    "message": "שלב $1 מתוך $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "בואו נתחיל!"
+  },
+  "t_10ac3d04": {
+    "message": "הבא"
+  },
+  "t_5c7a52b8": {
+    "message": "לחץ על "
+  },
+  "t_a1b2c3d4": {
+    "message": " בכל עת כדי להפעיל ידנית את מגן ההגנה האוטומטית."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ מגן פרטיות מופעל"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 מגן פרטיות מושבת"
+  },
+  "js_9b3e1a": {
+    "message": "איזי-ויו מנתח פריסה ומבצע עיצוב מחדש (Morph)..."
+  },
+  "js_4c8d2f": {
+    "message": "הגדר"
+  },
+  "js_7a1e9b": {
+    "message": "פענח"
+  },
+  "js_2d5f8c": {
+    "message": "פשט"
+  },
+  "js_6e3a4d": {
+    "message": "סימניה"
+  },
+  "js_1f9b7c": {
+    "message": "הדגשה"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "מנתח עץ עץ DOM..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "פריסה מבולגנת..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "משטח מבנה..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[עומס_רעש]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "מסיר הסחות דעת..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "צמתים מורכבים"
+  },
+  "js_ldr_m4_cl": {
+    "message": "מחיל כללי דיסלקציה..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "מרנדר ממשק איזי-ויו..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "סורק בלוק טקסט..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "יותר מדי מילים..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "מחלץ משמעות ליבה..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "עומס קוגניטיבי"
+  },
+  "js_ldr_s3_cl": {
+    "message": "מנסח אנגלית פשוטה יותר..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "בינה מלאכותית מפורטת..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "מחיל קריאות..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "מלטש פלט..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "מתרגם ז'רגון..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "שגיאה: בלבול"
+  },
+  "js_ldr_j2_cl": {
+    "message": "מוצא הגדרות..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[עומס_רעש]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "מפשט הקשר..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "מונחים לא ידועים"
+  },
+  "js_ldr_j4_cl": {
+    "message": "מחיל בהירות..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "מעצב תוצאות..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "ניתוח עמוק..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "מסיים לוגיקת בינה מלאכותית..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "מריץ בינה מלאכותית..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "כמעט סיימנו..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "תעבורה כבדה..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "זה לוקח קצת יותר זמן..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "עדיין עובד..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "המתן רגע..."
+  },
+  "t_b7012ab9": {
+    "message": "שינוי צורה"
+  },
+  "t_c5e8b1d9": {
+    "message": "גופני פרו"
+  },
+  "t_c8f2ba19": {
+    "message": "טשטוש תוכן פרטי מופעל"
+  },
+  "t_e2dae61a": {
+    "message": "טשטוש תוכן פרטי מושבת"
+  },
+  "t_c74de318": {
+    "message": "הגנה אוטומטית בשיתוף מסך מופעלת"
+  },
+  "t_a5fd56f4": {
+    "message": "הגנה אוטומטית בשיתוף מסך מושבתת"
+  },
+  "t_ab8d1f2a": {
+    "message": "מצב פנס הופעל"
+  },
+  "t_2bf5cc98": {
+    "message": "מצב פנס מושבת"
+  },
+  "t_513bb93f": {
+    "message": "קריאה ביונית"
+  },
+  "t_5a8b2c1d": {
+    "message": "הנה תצוגה מקדימה של הגדרות הקריאה שלך."
+  },
+  "t_ac1d4e5f": {
+    "message": "ללא"
+  },
+  "t_b2e3f4a1": {
+    "message": "רחב"
+  },
+  "t_c3f4a5b2": {
+    "message": "רחב במיוחד"
+  },
+  "t_d1a3c901": {
+    "message": "לחיצה"
+  },
+  "t_b4f2e891": {
+    "message": "הצמד לאלמנט"
+  },
+  "t_c9a1b302": {
+    "message": "רווח"
+  },
+  "t_f6d4e203": {
+    "message": "הערה גלובלית"
+  },
+  "t_e2b3f104": {
+    "message": "יציאה"
+  },
+  "t_a7c0d905": {
+    "message": "ביטול"
+  },
+  "t_e1b2c301": {
+    "message": "דף זה בלבד"
+  },
+  "t_f7a3b402": {
+    "message": "אתר זה"
+  },
+  "t_a8c4d503": {
+    "message": "כל האתרים (גלובלי)"
+  },
+  "t_b9d5e604": {
+    "message": "הסתר עד רענון"
+  },
+  "t_c0e6f705": {
+    "message": "הצמד הערה לרכיב"
+  },
+  "t_d1f7a806": {
+    "message": "שנה צבע הערה"
+  },
+  "t_e2a8b907": {
+    "message": "כווץ/הרחב הערה"
+  },
+  "t_f3b9c008": {
+    "message": "העתק תוכן הערה"
+  },
+  "t_a4c0d109": {
+    "message": "פעולות נוספות"
+  },
+  "t_b5d1e200": {
+    "message": "מחק הערה זו"
+  },
+  "t_e87033a2": {
+    "message": "Alt+P"
+  },
+  "t_4120201a": {
+    "message": "תקופת ניסיון פעילה"
+  },
+  "t_6ed40ffb": {
+    "message": "סנכרן הגדרות בין מכשירים"
+  },
+  "t_f8b8a5fd": {
+    "message": "מכסת שימוש חינמית גבוהה יותר"
+  },
+  "t_440b106d": {
+    "message": "גישה לתכונות פרו עתידיות"
+  },
+  "t_3a99076c": {
+    "message": "מגבלת פרימיום"
+  },
+  "t_545f6c2f": {
+    "message": "ללא הגבלה"
+  },
+  "t_ad23f4a0": {
+    "message": "הערות מרחביות"
+  },
+  "t_04f2f045": {
+    "message": "פרסת בהצלחה את כל 15 ההערות של השכבה החינמית ברחבי האינטרנט. שדרג ל-איזי-ויו פרימיום כדי לפתוח זיכרון מרחבי אינסופי וצבעים מותאמים אישית."
+  },
+  "t_cf874b99": {
+    "message": "פתח פרימיום"
+  },
+  "t_a6d36e2f": {
+    "message": "כל בקרות הנגישות המקומיות (פעיל)"
+  },
+  "t_b0b69bc3": {
+    "message": "מנוע טקסט-לדיבור (פעיל)"
+  },
+  "t_cc96c21a": {
+    "message": "תכונות ענן בינה מלאכותית (לא מקוון)"
+  },
+  "t_7af6f6e5": {
+    "message": "אני מבין"
+  },
+  "t_9bc7102e": {
+    "message": "צור חשבון איזי-ויו בחינם כדי לעקוב אחר המכסה שלך ולפתוח את מפענח הז'רגון."
+  },
+  "t_ab7512fd": {
+    "message": "אסימון ההפעלה שלך חסר. אנא התחבר שוב ל-easyview.in כדי לשחזר את הגישה."
+  },
+  "t_1cd7820a": {
+    "message": "גישת פרו בלבד"
+  },
+  "t_8eb14032": {
+    "message": "מפענח ז'רגון<br><span class=\"ev-si-gradient-text\">המכסה נוצלה</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "המכסה נוצלה"
+  },
+  "t_5ae983dc": {
+    "message": "ניצלת את כל <strong>5 הפענוחים החינמיים</strong> החודש. פתח גישה ללא הגבלה בשניות."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> עבור לפרו — פענוחים ללא הגבלה</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> השתמש במפתח ממשק ממשק API משלך</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 הוסף מפתח ממשק ממשק API בהגדרות</button>"
+  },
+  "t_9be4129a": {
+    "message": "מייצא חפיסת לימוד<br><span class=\"ev-si-gradient-text\">אוטומציית פרו</span>"
+  },
+  "t_fac34185": {
+    "message": "ייצא באופן מיידי את כל מחברת הלימוד המותאמת אישית שלך ישירות ל-<strong>אנקי (אנקי (Anki))</strong> ו-<strong>קוויזלט (קוויזלט (Quizlet))</strong>."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> היפטר מהקלדה ידנית</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> מהדר כרטיסיות בתקן RFC-4180</div>"
+  },
+  "t_da12c30b": {
+    "message": "גישת פרו"
+  },
+  "t_4a9b2c01": {
+    "message": "תכונה זו"
+  },
+  "t_3be78c01": {
+    "message": "גופן קריאה לדיסלקציה זה"
+  },
+  "t_0ad4b971": {
+    "message": "גופן ויזואלי זה"
+  },
+  "t_9af42be8": {
+    "message": "גופן ייצוא פרימיום זה"
+  },
+  "t_cbae8349": {
+    "message": "שדרג כדי לפתוח את כל תכונות הנגישות וכלי העוצמה."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> נגישות מתקדמת</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> כל העדכונים העתידיים</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ שדרג לפרו"
+  },
+  "t_5ef4c1a2": {
+    "message": "אולי מאוחר יותר"
+  },
+  "t_3b7a5e82": {
+    "message": ", אך תכונות בינה מלאכותית עשויות להיות לא זמינות זמנית."
+  },
+  "t_c91d8e12": {
+    "message": "כללי"
+  },
+  "t_b42f3a9d": {
+    "message": "הגדרה"
+  },
+  "t_f1d4a8e6": {
+    "message": "מילון"
+  },
+  "t_e398c71f": {
+    "message": "מותאם אישית"
+  },
+  "t_a72df9e5": {
+    "message": "רפואי"
+  },
+  "t_d8f2c61a": {
+    "message": "משפטי"
+  },
+  "t_b3e1f5d2": {
+    "message": "פיננסי"
+  },
+  "t_c25d81f9": {
+    "message": "טכני"
+  },
+  "t_e1b3a4f6": {
+    "message": "אקדמי"
+  },
+  "t_d5f9b4c1": {
+    "message": "מונח"
+  },
+  "t_f7a2e8ea": {
+    "message": "קטגוריה"
+  },
+  "t_e3b1c6d9": {
+    "message": "משמעות מפושטת"
+  },
+  "t_a9d4e5f2": {
+    "message": "הערות לימוד / הקשר"
+  },
+  "t_b4c5d6e7": {
+    "message": "ביטול"
+  },
+  "t_c8f2a1b4": {
+    "message": "שמור שינויים"
+  },
+  "t_8c17b5e6": {
+    "message": "אסימון ההפעלה שלך חסר. אנא התחבר שוב ל-easyview.in כדי לשחזר את הגישה."
+  },
+  "t_a43dc219": {
+    "message": "צור חשבון איזי-ויו בחינם כדי לעקוב אחר מכסת השימוש שלך ולפתוח את מנוע ה-עיצוב מחדש (Morph) של הבינה המלאכותית."
+  },
+  "t_54c523fe": {
+    "message": "🎉 ללא רבב! יובאו בהצלחה $1 כרטיסי לימוד חדשים."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 ללא רבב! יובאו $1 כרטיסים חדשים. (דילגנו על $2 כפילויות.)"
+  },
+  "t_14894d12": {
+    "message": "ייצוא ערכת נושא"
+  },
+  "t_f27a2629": {
+    "message": "גיבוי ספריית ערכות נושא"
+  },
+  "t_9ad85e17": {
+    "message": "מצב סרגל קריאה"
+  },
+  "t_b9d4e7a5": {
+    "message": "מצבי מגן חושי מתקדמים"
+  },
+  "t_94f4f7e4": {
+    "message": "מנתח מסמך DOCX...",
+    "description": "סטטוס בעת ניתוח DOCX בקורא"
+  },
+  "t_120adfc1": {
+    "message": "מנתח ספר EPUB...",
+    "description": "סטטוס בעת ניתוח EPUB בקורא"
+  },
+  "t_5d2a45b8": {
+    "message": "מצב סרגל קריאה בלעדי למנויי פרו.",
+    "description": "התראה כאשר משתמש שאינו פרו ניגש לסרגל קריאה"
+  },
+  "t_c1f29623": {
+    "message": "ערוך כרטיס שלם",
+    "description": "תיאור כלי לעריכת כל הכרטיס במחברת"
+  },
+  "t_1063e38c": {
+    "message": "הסר",
+    "description": "תיאור כלי להסרת כרטיס מהמחברת"
+  },
+  "t_ccca2ddf": {
+    "message": "קורא איזי-ויו"
+  },
+  "t_8524de96": {
+    "message": "טוען..."
+  },
+  "t_25e8f2fd": {
+    "message": "אנא המתן..."
+  },
+  "t_ec9d785d": {
+    "message": "1.5x"
+  },
+  "t_dafd5f8f": {
+    "message": "לקסנד"
+  },
+  "t_16d90a0b": {
+    "message": "אטקינסון היפרלג'יבל"
+  },
+  "t_5c7db066": {
+    "message": "Segoe ממשק משתמש (ברירת מחדל של ווינדוס (ווינדוס))"
+  },
+  "t_f7cee5ea": {
+    "message": "קליברי"
+  },
+  "t_ccc0239e": {
+    "message": "קנדרה"
+  },
+  "t_2963521b": {
+    "message": "קורבל"
+  },
+  "t_37f1cc58": {
+    "message": "קמבריה"
+  },
+  "t_c3d9d4bf": {
+    "message": "קונסטנטיה"
+  },
+  "t_5d1a5b35": {
+    "message": "פלאטינו לינוטייפ"
+  },
+  "t_4dc386b6": {
+    "message": "בוק אנטיקווה"
+  },
+  "t_03c461f6": {
+    "message": "פרנקלין גותיק"
+  },
+  "t_7b1ee3b6": {
+    "message": "סנטורי גותיק"
+  },
+  "t_a3293302": {
+    "message": "גיל סאנס"
+  },
+  "t_eb726908": {
+    "message": "סיטקה טקסט"
+  },
+  "t_b5bdee2c": {
+    "message": "סילפן"
+  },
+  "t_1ec05249": {
+    "message": "מיקרוסופט סאנס סריף"
+  },
+  "t_ad4a300c": {
+    "message": "סגו ממשק משתמש סמיבולד"
+  },
+  "t_16507cdd": {
+    "message": "קונסולאס"
+  },
+  "t_391c5954": {
+    "message": "לוסידה קונסול"
+  },
+  "t_9879efdf": {
+    "message": "לוסידה סאנס טייפ-רייטר"
+  },
+  "t_21f59b54": {
+    "message": "אימפקט"
+  },
+  "t_94a7bb97": {
+    "message": "אריאל בלאק"
+  },
+  "t_6e87c2cb": {
+    "message": "קופרפלייט גותיק"
+  },
+  "t_40885309": {
+    "message": "ברלין סאנס FB"
+  },
+  "t_6d5566ba": {
+    "message": "גבריאלה"
+  },
+  "t_edb42482": {
+    "message": "דיו חופשי"
+  },
+  "t_fa233799": {
+    "message": "סגוי סקריפט"
+  },
+  "t_2f7bc407": {
+    "message": "סגוי פרינט"
+  },
+  "t_0095a9fa": {
+    "message": "ייצוא"
+  },
+  "t_520d0db3": {
+    "message": "תבנית"
+  },
+  "t_5956a437": {
+    "message": "טקסט"
+  },
+  "t_1351017a": {
+    "message": "שם קובץ"
+  },
+  "t_d4c3c15b": {
+    "message": "לא נטען קובץ"
+  },
+  "t_0ca5a078": {
+    "message": "אנא השתמש בלשונית הממיר כדי להעלות קובץ."
+  },
+  "t_c9857e16": {
+    "message": "סוג קובץ לא נתמך."
+  },
+  "t_6b447b91": {
+    "message": "שגיאה בניתוח קובץ: "
+  },
+  "t_7f4588be": {
+    "message": "פורמט ספר אלקטרוני"
+  },
+  "t_12dc65c2": {
+    "message": "החלף מצב בהיר/כהה"
+  },
+  "t_d3d2e617": {
+    "message": "סגור"
+  },
+  "t_6e8cfcb7": {
+    "message": "ייצוא מאובטח לשרת (פרימיום)"
+  },
+  "t_2f9df658": {
+    "message": "נתק והצף את סביבת העבודה מעל כל החלונות"
+  },
+  "t_72d6d7a1": {
+    "message": "ייבוא"
+  },
+  "t_de93d5fd": {
+    "message": "ייצוא הערות"
+  },
+  "t_a1aacca9": {
+    "message": "מצב צף"
+  },
+  "t_ac0b844f": {
+    "message": "הערות גלובליות"
+  },
+  "t_15866f1d": {
+    "message": "הערות ספציפיות לאתר"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
+  },
+  "t_6af8212e": {
+    "message": "לוח הערות איזי-ויו"
+  },
+  "t_d16da0f5": {
+    "message": "🌎"
+  },
+  "t_6df173ff": {
+    "message": "📍"
+  },
+  "t_22f58a00": {
+    "message": "🌎 הערה גלובלית"
+  },
+  "t_5be8bbeb": {
+    "message": "🌐 הערת אתר"
+  },
+  "t_59a56663": {
+    "message": "📍 הערת דף"
+  },
+  "t_c1843696": {
+    "message": "מאמת אסימון תקינות..."
+  },
+  "t_58038ee4": {
+    "message": "כרגע"
+  },
+  "t_e254e1a1": {
+    "message": "לפני $1 דקות",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_121d4d02": {
+    "message": "לפני $1 שעות",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_19d2b280": {
+    "message": "לפני $1 ימים",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_d3d4311c": {
+    "message": "גרור הערה"
+  },
+  "t_7b32ea16": {
+    "message": "עבור אל $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_11916b28": {
+    "message": "טווח מיקום"
+  },
+  "t_5463fe67": {
+    "message": "פלטת צבעים"
+  },
+  "t_d116d454": {
+    "message": "כווץ הערה"
+  },
+  "t_be9ba0e5": {
+    "message": "העתק טקסט"
+  },
+  "t_28471624": {
+    "message": "פעולות נוספות"
+  },
+  "t_90e467df": {
+    "message": "סגור הערה"
+  },
+  "t_34494920": {
+    "message": "הקלד את ההערה שלך כאן..."
+  },
+  "t_bdda0b60": {
+    "message": "מה חשבת לעצמך..."
+  },
+  "t_8689de27": {
+    "message": "זמין בכל מקום"
+  },
+  "t_c0cf9810": {
+    "message": "חזור לדף המקור"
+  },
+  "t_24a23176": {
+    "message": "הקשר מקורי"
   }
 }

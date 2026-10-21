@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "EasyView — Jasnosť pre každý mozog"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "JednoduchéZobrazenie"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "Okamžite premeňte akúkoľvek webovú stránku pomocou AI výziev alebo jediným kliknutím. Prezerajte si web po svojom."
+  },
+  "t_68ba0232": {
+    "message": "Režim pre dyslexiu aktivovaný"
+  },
+  "t_85f47a25": {
+    "message": "Režim pre dyslexiu deaktivovaný"
+  },
+  "t_1cc1b64d": {
+    "message": "Nedostatok obsahu na analýzu"
+  },
+  "t_cebe6412": {
+    "message": "Nenašli sa žiadne zložité termíny"
+  },
+  "t_b964aa0f": {
+    "message": "Chyba pri analýze obsahu stránky"
+  },
+  "t_956c104e": {
+    "message": "Pamäť stránky vymazaná"
+  },
+  "t_1f4b0f3e": {
+    "message": "Slovník vymazaný"
+  },
+  "t_4bfeec37": {
+    "message": "Vo výbere sa nenašli žiadne zložité termíny"
+  },
+  "t_1b5e8531": {
+    "message": "Vo výbere sa nenašli žiadne zložité termíny"
+  },
+  "t_a1f781ec": {
+    "message": "Chyba pri dekódovaní výberu"
+  },
+  "t_7aae8122": {
+    "message": "Zvýraznenia výberu vymazané"
+  },
+  "t_58762fd6": {
+    "message": "Prosím, vyberte jedno slovo alebo krátku frázu na definovanie."
+  },
+  "t_6838b119": {
+    "message": "Sieťová chyba pri vyhľadávaní definície."
+  },
+  "t_ea3ca1b5": {
+    "message": "Dekódovaných $1 termínov (z vyrovnávacej pamäte)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "Dekódovaných $1 termínov (z vyrovnávacej pamäte)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "Tento mesiac ste vyčerpali všetky bezplatné použitia Dekodéra žargónu. Prejdite na verziu Pro a získajte neobmedzený prístup."
+  },
+  "t_cb3c5d3a": {
+    "message": "Dekódovaných $1 termínov v $2 kategóriách",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "Automaticky zvýraznených $1 výskytov vášho dekódovaného termínu slovnej zásoby",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "Obnovených $1 uložených definícií žargónu$2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "Tento mesiac ste vyčerpali všetky bezplatné použitia Dekodéra žargónu. Prejdite na verziu Pro a získajte neobmedzený prístup."
+  },
+  "t_0b841c82": {
+    "message": "Už je v zápisníku!"
+  },
+  "t_8901f3ab": {
+    "message": "Uložené do zápisníka!"
+  },
+  "t_eb8f5242": {
+    "message": "Chyba pri ukladaní do zápisníka"
+  },
+  "t_bd15702b": {
+    "message": "Zmyslový štít aktivovaný"
+  },
+  "t_c28f3265": {
+    "message": "Zmyslový štít deaktivovaný"
+  },
+  "t_3f8910d9": {
+    "message": "JEDNODUCHÉZOBRAZENIE"
+  },
+  "t_8aafa613": {
+    "message": "Tento text sa nepodarilo zjednodušiť"
+  },
+  "t_79d2dc85": {
+    "message": "Tento text sa nepodarilo zjednodušiť"
+  },
+  "t_99684ba5": {
+    "message": "Chyba pri zjednodušovaní textu"
+  },
+  "t_f4362bde": {
+    "message": "Skopírované do schránky!"
+  },
+  "t_af07ef4b": {
+    "message": "Kopírovanie zlyhalo"
+  },
+  "t_94e4d537": {
+    "message": "Text na stránke nahradený"
+  },
+  "t_14a04b67": {
+    "message": "Pamäť zjednodušení vymazaná"
+  },
+  "t_c444ff21": {
+    "message": "Pôvodný text dočasne obnovený"
+  },
+  "t_55f1db14": {
+    "message": "Tento mesiac ste vyčerpali všetky bezplatné použitia. Prejdite na verziu Pro a získajte neobmedzený prístup."
+  },
+  "t_fde4e3f0": {
+    "message": "Obnovených $1 uložených zjednodušení na tejto stránke",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "Automaticky obnovené dynamicky načítané zjednodušenie!"
+  },
+  "t_dfa22e52": {
+    "message": "Prevod textu na reč aktivovaný"
+  },
+  "t_ca153ad0": {
+    "message": "Prevod textu na reč vypnutý"
+  },
+  "t_dadbff09": {
+    "message": "Najprv prosím povoľte prevod textu na reč"
+  },
+  "t_47071c61": {
+    "message": "Obnovovanie..."
+  },
+  "t_5516c48d": {
+    "message": "Na tejto stránke sa nenašiel žiadny čitateľný obsah"
+  },
+  "t_c57f25c9": {
+    "message": "Nenašiel sa žiadny čitateľný obsah"
+  },
+  "t_2516997e": {
+    "message": "Čítanie dokončené"
+  },
+  "t_d3069aea": {
+    "message": "Prevod textu na reč nie je v tomto prehliadači podporovaný"
+  },
+  "t_53e6b8c6": {
+    "message": "Najprv prosím vyberte nejaký text"
+  },
+  "t_e932d0f7": {
+    "message": "Čítam výber..."
+  },
+  "t_1c50528d": {
+    "message": "Čítanie dokončené"
+  },
+  "t_594778a2": {
+    "message": "Pozastavené"
+  },
+  "t_4ded5f77": {
+    "message": "Reč zastavená"
+  },
+  "t_0a74758c": {
+    "message": "✨ Poháňané osobným kľúčom"
+  },
+  "t_2fceddad": {
+    "message": "✨ Neobmedzené"
+  },
+  "t_97627d80": {
+    "message": "✨ Poháňané osobným kľúčom"
+  },
+  "t_fd7d5888": {
+    "message": "Spravovať predplatné"
+  },
+  "t_df4657a5": {
+    "message": "Bezplatný člen"
+  },
+  "t_22dfb2ec": {
+    "message": "Hosť"
+  },
+  "t_bd9f2460": {
+    "message": "Bezplatný účet"
+  },
+  "t_f5adda31": {
+    "message": "Prihlásiť / Registrovať"
+  },
+  "t_d2439201": {
+    "message": "✨ Neobmedzené"
+  },
+  "t_164442b7": {
+    "message": "Zahrieva sa konverzný modul..."
+  },
+  "t_1e7c3002": {
+    "message": "Pripravené na analýzu súborov."
+  },
+  "t_d30f78df": {
+    "message": "Tmavý režim"
+  },
+  "t_6c68d8ce": {
+    "message": "Svetlý režim"
+  },
+  "t_fcb68c2b": {
+    "message": "Nenašli sa žiadne lepiace poznámky. Nič na export!"
+  },
+  "t_2b75b2d9": {
+    "message": "Váš token relácie chýba. Prosím, prihláste sa znova na easyview.in, aby ste obnovili prístup."
+  },
+  "t_291a4e34": {
+    "message": "Smerovanie na zabezpečený server zlyhalo. Skontrolujte svoje pripojenie."
+  },
+  "t_2dcf62b3": {
+    "message": "Neboli zistené žiadne chýbajúce poznámky. Pracovný priestor je aktuálny."
+  },
+  "t_951bf3ae": {
+    "message": "Zlyhanie dešifrovania: Súbor nezodpovedá limitom EasyView."
+  },
+  "t_817a4ba0": {
+    "message": "PiP API nie je podporované. Prosím, aktualizujte Chrome."
+  },
+  "t_e8aa6e9a": {
+    "message": "Nepodarilo sa inicializovať modul PiP: "
+  },
+  "t_9feed9d5": {
+    "message": "Úspešne dešifrovaných a vložených $1 nových poznámok.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "BETA"
+  },
+  "t_c289adbe": {
+    "message": "Podporte nás"
+  },
+  "t_60d5b12a": {
+    "message": "Ohodnoťte nás"
+  },
+  "js_eb82de4c": {
+    "message": "Vlastná farba"
+  },
+  "js_8caef32b": {
+    "message": "Resetovať/Vymazať (Vyberte text a kliknite, alebo manuálne dvakrát kliknite na zvýraznenie)"
+  },
+  "t_823aeb91": {
+    "message": "Pracovný priestor EasyView"
+  },
+  "t_fc42ed23": {
+    "message": "Vo vašom pracovnom priestore nie sú žiadne globálne poznámky."
+  },
+  "t_12d7c58a": {
+    "message": "Stlačte medzerník, kým je aktívny kurzor lepiacich poznámok, a vygenerujte jednu."
+  },
+  "t_ab983c11": {
+    "message": "Tu sa nenašli žiadne poznámky špecifické pre stránku."
+  },
+  "t_e22709e9": {
+    "message": "Kliknite na fyzický prvok na akejkoľvek webovej stránke, aby ste ukotvili cielenú poznámku."
+  },
+  "t_34bdba45": {
+    "message": "Krok"
+  },
+  "t_9b2d88a1": {
+    "message": "z"
+  },
+  "t_8f44d852": {
+    "message": "Začať!"
+  },
+  "t_b45c2f91": {
+    "message": "Odomknúť exporty pracovného priestoru"
+  },
+  "t_88f91dc1": {
+    "message": "Bezpečné vykresľovanie a exportovanie celého vášho globálneho pracovného priestoru poznámok vyžaduje overenú licenciu Pro. Inovujte na trvalé odomknutie tejto funkcie."
+  },
+  "t_134dff88": {
+    "message": "Možno neskôr"
+  },
+  "t_5b8c9d11": {
+    "message": "Prejsť na Pro"
+  },
+  "t_792bd8c9": {
+    "message": "Pracovný priestor pláva!"
+  },
+  "t_e39f7dc2": {
+    "message": "Vaše lepiace poznámky sa teraz vznášajú nad vašou pracovnou plochou OS."
+  },
+  "t_c83d6ec9": {
+    "message": "Znova ukotviť pracovný priestor"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtruje sa šum...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimalizovať</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Zastaviť modul</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "Generovanie zastavené"
+  },
+  "t_removed_from_notebook": {
+    "message": "Odstránené zo zápisníka"
+  },
+  "t_d1c58470": {
+    "message": "Dvakrát kliknite pre odstránenie zvýraznenia"
+  },
+  "t_d4fdfb03": {
+    "message": "Prihláste sa do EasyView a získajte $1 bezplatných použití mesačne, alebo pridajte svoj vlastný API kľúč v Nastaveniach.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "Načítavam uložené výsledky..."
+  },
+  "t_3a99733d": {
+    "message": "Inicializuje sa dekodér žargónu..."
+  },
+  "t_b6dc9fc9": {
+    "message": "Vytvorte si bezplatný účet EasyView a získajte $1 bezplatných AI dekódovaní mesačne a sledujte svoju kvótu.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "Vytvorte si bezplatný účet EasyView a získajte $1 bezplatných AI definícií mesačne a sledujte svoju kvótu.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "Extrahujem hlavný obsah..."
+  },
+  "t_0eeae2bf": {
+    "message": "Detegujem kontext stránky..."
+  },
+  "t_87f125d0": {
+    "message": "Analyzujem terminológiu..."
+  },
+  "t_9ef6e70f": {
+    "message": "Používam výsledky z vyrovnávacej pamäte..."
+  },
+  "t_9afdc5e8": {
+    "message": "Analyzujem s AI..."
+  },
+  "t_7ecc3abe": {
+    "message": "Dekódovanie AI zlyhalo"
+  },
+  "t_9220c8de": {
+    "message": "Aplikujú sa zjednodušenia..."
+  },
+  "t_57f406b1": {
+    "message": "Dekódujem výber..."
+  },
+  "t_c50f2b72": {
+    "message": "Zobraziť glosár"
+  },
+  "t_49de9b11": {
+    "message": "Skryť zvýraznenia na stránke"
+  },
+  "t_3158774e": {
+    "message": "Obnoviť zvýraznenia na stránke"
+  },
+  "t_fc3ad42d": {
+    "message": "Uložiť do slovnej zásoby"
+  },
+  "t_87e933b8": {
+    "message": "Vyhľadávam definíciu..."
+  },
+  "t_56b79836": {
+    "message": "Definícia slova načítaná."
+  },
+  "t_969b24ea": {
+    "message": "🔊 Kliknite kdekoľvek na aktiváciu zvuku témy"
+  },
+  "t_49337275": {
+    "message": "Manuálne zvýraznenie"
+  },
+  "t_93324bd5": {
+    "message": "Uložené priamo z webovej stránky."
+  },
+  "t_82e413f3": {
+    "message": "Zjednodušujem text..."
+  },
+  "t_86c4f6e5": {
+    "message": "Zjednodušujem s AI..."
+  },
+  "t_c3e18edb": {
+    "message": "Zjednodušenie zlyhalo"
+  },
+  "t_6398ab2c": {
+    "message": "Úroveň čítania: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "Kliknite pre dočasné obnovenie pôvodného textu"
+  },
+  "t_9beea3e8": {
+    "message": "Natrvalo odstrániť z pamäte"
+  },
+  "t_453bb8f7": {
+    "message": "Vytvorte si bezplatný účet EasyView a získajte $1 bezplatných AI zjednodušení mesačne a sledujte svoju kvótu.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "Počúvať"
+  },
+  "t_24833610": {
+    "message": "Uložené"
+  },
+  "t_30a008cb": {
+    "message": "Čítať viac &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "Uložené do zápisníka slovnej zásoby!"
+  },
+  "t_2728e87f": {
+    "message": "Odstránené zo zápisníka slovnej zásoby"
+  },
+  "t_6b8c66ce": {
+    "message": "Slovník ($1 termínov)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "Odstrániť pamäť pre túto stránku"
+  },
+  "t_8a49fe1a": {
+    "message": "Odstrániť termín"
+  },
+  "t_1534891c": {
+    "message": "Dekódovaných $1 termínov",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "Uložiť do poznámkového bloku"
+  },
+  "t_150a2843": {
+    "message": "Vymazať zvýraznenia"
+  },
+  "t_21ef939c": {
+    "message": "Uložené do zápisníka!"
+  },
+  "t_8054da35": {
+    "message": "Rýchly slovník",
+    "description": "Záhlavie vyskakovacieho okna rýchleho slovníka"
+  },
+  "t_4aeb2167": {
+    "message": "Slovo nenájdené",
+    "description": "Záložný názov slovníka"
+  },
+  "t_272d0070": {
+    "message": "V základnom slovníku sme nenašli \"$1\". Môže to byť moderný slang, skratka alebo vysoko technický žargón.",
+    "description": "Popis záložného slovníka so zástupným symbolom slova",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "Dekódovať s Evie AI",
+    "description": "Záložné tlačidlo na dekódovanie pomocou AI"
+  },
+  "t_14f1f972": {
+    "message": "cez",
+    "description": "Predpona zdroja slovníka"
+  },
+  "t_f2faf2f1": {
+    "message": "Podstatné meno",
+    "description": "Slovný druh: podstatné meno"
+  },
+  "t_b512ddf1": {
+    "message": "Sloveso",
+    "description": "Slovný druh: sloveso"
+  },
+  "t_d807ae6a": {
+    "message": "Prídavné meno",
+    "description": "Slovný druh: prídavné meno"
+  },
+  "t_1a607278": {
+    "message": "Príslovka",
+    "description": "Slovný druh: príslovka"
+  },
+  "t_02de720d": {
+    "message": "Zámeno",
+    "description": "Slovný druh: zámeno"
+  },
+  "t_4b7be2c3": {
+    "message": "Predložka",
+    "description": "Slovný druh: predložka"
+  },
+  "t_a3c1d30b": {
+    "message": "Spojka",
+    "description": "Slovný druh: spojka"
+  },
+  "t_e189f001": {
+    "message": "Citoslovce",
+    "description": "Slovný druh: citoslovce"
+  },
+  "t_96de90f8": {
+    "message": "Kopírovať zjednodušený text",
+    "description": "Nástroj na kopírovanie zjednodušeného textu"
+  },
+  "t_44a6e288": {
+    "message": "Čítať stránku",
+    "description": "Nástroj na čítanie celej stránky cez prevod textu na reč"
+  },
+  "t_7d70d73b": {
+    "message": "Čítať výber",
+    "description": "Nástroj na čítanie výberu cez prevod textu na reč"
+  },
+  "t_11936123": {
+    "message": "Nenávratne odstrániť poznámku",
+    "description": "Nástroj na trvalé odstránenie poznámky"
+  },
+  "t_d27532d9": {
+    "message": "Minimalizovať"
+  },
+  "t_2bd339d8": {
+    "message": "Obnoviť"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "JednoduchéZobrazenie"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "Systémové upozornenie"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "Systémové oznámenie"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "Modul\r\n                        EasyView"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "Lokálne funkcie zostávajú\r\n                        aktívne"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,382 +599,376 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "Zážitok\r\n                        EasyView"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "EasyView používate už dvanásť hodín. Vytvorte si bezplatný účet na\r\n                    uloženie svojich\r\n                    nastavení, zachovanie kvóty a odomknutie ďalších funkcií."
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "Pripomenúť o dvanásť hodín"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "Svetlý"
   },
   "t_7fc56270": {
-    "message": "A"
+    "message": "Á"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "Písmo"
   },
   "t_5dbc98dc": {
-    "message": "S"
-  },
-  "t_69691c7b": {
     "message": "M"
   },
+  "t_69691c7b": {
+    "message": "S"
+  },
   "t_d20caec3": {
-    "message": "L"
+    "message": "V"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "Funkcie"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "Vizuály"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "Konvertor"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "Zápisník"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "Dekodér žargónu"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "Zjednodušiť zložité právne termíny"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "wikipedia.org/wiki/Neurodivergencia"
   },
   "t_61e9c06e": {
-    "message": "W"
+    "message": "Š"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "Neurodivergencia"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "o\r\n                                                veľa jednoduchšie"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "Štít sústredenia a súkromia"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "Rozmazať súkromný a citlivý obsah"
   },
   "t_7f766191": {
-    "message": "mail.google.com/mail/u/0/"
+    "message": "mejl.gúgl.kom/mejl/u/0/"
   },
   "t_dfcf28d0": {
     "message": "G"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "Účty Google"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "Bezpečnostné upozornenie"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- Vyžiadané obnovenie hesla..."
   },
   "t_8d9c307c": {
     "message": "N"
   },
   "t_170b1d36": {
-    "message": "Netflix"
+    "message": "Netfliks"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "Nové tento týždeň"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- Pozrite si naše najnovšie\r\n                                                    vydania..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "Techniky ochrany"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "Rozmazanie súkromného obsahu"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "Inteligentne rozmazáva WhatsApp, Gmail a vstupy pre heslá\r\n                                            pre okamžitú vizuálnu bezpečnosť."
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "Automatická ochrana pri zdieľaní obrazovky"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "Okamžite chráni vašu obrazovku pri zdieľaní online alebo pripojení k\r\n                                            displeju \"Rozšíriť\"."
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
+    "message": "Používate\r\n                                                    fyzický projektor?"
   },
   "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "Režim duplikácie"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "Baterka na čítanie"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "Sleduje vašu myš s jasným reflektorom, aby úplne eliminoval okolité\r\n                                            vizuálne rušenie."
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "Po prvé.\r\n                                                            Tvar lúča"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "Reflektor\r\n                                                            alebo pravítko"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "Po druhé.\r\n                                                                Veľkosť / Výška lúča"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "Hrúbka\r\n                                                                oblasti zobrazenia"
   },
   "t_f0cad41b": {
     "message": "35px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "Po tretie.\r\n                                                            Odtieň šošovky zaostrovacieho lúča"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "Jemne zafarbí medzeru na čítanie"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "Po štvrté.\r\n                                                            Tieň okolitého pozadia"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "Stmavenie\r\n                                                            okolo vašej šošovky"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "Zmyslový štít"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "Zmraziť rušivé animácie"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "ňúzdeli.kom/brejking"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "PRELOMOVÉ SPRÁVY"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "Čítanie článku o denných správach..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "VÝHRA!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "Režim štítu"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(predvolené)"
   },
   "t_9e3360ac": {
-    "message": "PRO"
+    "message": "PROFESIONÁL"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "Zastaviť automatické prehrávanie + pokojné\r\n                                                stmievacie efekty pri manuálnej navigácii"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "Režim čítania pre dyslexiu"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "Optimalizované písma a riadkovanie"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "Profil intenzity"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "Nízka"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "Stredná"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "Vysoká"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "vikipédia.org/viki/Čítanie"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "Čítanie"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "Tu je ukážka vašich nastavení čítania."
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "Rozšírené možnosti"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "Štýl písma"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "Predvolené (bez zmeny)"
   },
   "t_5d2967ef": {
-    "message": "OpenDyslexic"
+    "message": "Otvorený Dyslexik"
   },
   "t_1042daad": {
-    "message": "Lexend (ADHD Pro) 🔒"
+    "message": "Lexend (ADHD Profesionál) 🔒"
   },
   "t_bcec044a": {
-    "message": "Atkinson Hyperlegible 🔒"
+    "message": "Atkinson Hiperledžibl 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "Rýchly bezpätkový"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "Rýchly pätkový"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "Komik Nój"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "Komik Sans"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "Rozostupy písmen"
   },
   "t_960b44c5": {
-    "message": "Normal"
+    "message": "Normálne"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "Výška riadku"
   },
   "t_60086472": {
     "message": "1.5"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "Medzery medzi slovami"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "Veľkosť písma"
   },
   "t_30bd7ce7": {
     "message": "100%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "Farba prekrytia"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "Žiadne"
   },
   "t_2bd8c63b": {
-    "message": "Beige"
+    "message": "Béžová"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "Svetlomodrá"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "Svetlozelená"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "Svetložltá"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "Prevod textu na reč"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "Čítať nahlas so zvýrazňovaním"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "Prehrať"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "Pozastaviť"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "Zastaviť"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "Výber hlasu"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "Automaticky (najlepšia kvalita)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "Rýchlosť čítania"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "Veľmi pomaly"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "Pomaly"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "Rýchlo"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "Veľmi rýchlo"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "Hlasitosť"
   },
   "t_f1943132": {
     "message": "70%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "Pozastaviť na interpunkcii"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "Zvýrazňovanie slov"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "Povoliť"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "Režim"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "Tmavý"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "vikipédia.org/viki/Svetlo"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "Dokonalé vizuály pre pohodlie očí. Svetlo môže byť intenzívne."
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "Jas"
   },
   "t_c63ecd19": {
-    "message": "Contrast"
+    "message": "Kontrast"
   },
   "t_b84a9a38": {
-    "message": "Sepia"
+    "message": "Sépia"
   },
   "t_9f1ef078": {
     "message": "0%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "Stupne šedej"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "Predvolené"
   },
   "t_b1166920": {
     "message": "Lexend 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "Obrys textu"
   },
   "t_cfcd2084": {
     "message": "0"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "Inteligentný konvertor a čítačka"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "Aktuálny súbor"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "Kliknite alebo potiahnite súbor na nahranie"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• Pripravené"
   },
   "t_4c4ad5fc": {
     "message": "HTML"
@@ -423,181 +983,181 @@
     "message": "📌"
   },
   "t_4cc6684d": {
-    "message": "Global"
+    "message": "Globálne"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "Stránka/Web"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "Môj zápisník"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "Vymazať všetko"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "Zrušiť"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "Uložiť slovo"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "Zatiaľ žiadne uložené slová."
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "Prejdite myšou nad odborný výraz na akejkoľvek stránke a kliknite na ikonu záložky, aby ste si ho uložili sem!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "Prepracujte rozhranie akejkoľvek webovej stránky. Opíšte, čo chcete, alebo si vyberte\r\n                            predvoľbu."
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "Morf\r\n                                aplikovaný"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "Vlastné rozloženie AI\r\n                                je na tejto stránke aktívne."
   },
   "t_e8a57cd1": {
     "message": "0 /\r\n                                500"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "Resetovať stránku"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "Morf rozloženie"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "Predvolené nastavenia"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "Hororový karneval"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "Strašidelné karnevalové vibrácie a animovaný hororový text"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "Maticová konzola"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "Kyberpunková téma terminálu"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "Neuro zaostrenie"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "Písma vhodné pre dyslexiu a upokojujúce farby"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "Režim čítačky"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "Minimalistické rozloženie optimalizované pre sústredenie"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "Nedávne výzvy"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "Hosť"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "Bezplatný účet"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "Prihlásiť / Spravovať"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "Odhlásiť"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "Nastavenia API"
   },
   "t_766cc4dd": {
-    "message": "Gemini"
+    "message": "Džemini"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "Poskytovateľ umelej inteligencie"
   },
   "t_222cf5ed": {
-    "message": "Google Gemini"
+    "message": "Google Džemini"
   },
   "t_a0607683": {
-    "message": "OpenRouter"
+    "message": "Otvorený smerovač"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "Kľúč API Gemini"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "Gúgl Ej-Áj Štúdio"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "Kľúč API OpenRouter"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "Uložiť API kľúč"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "EasyView\r\n                                    Priorita AI"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ Môj API kľúč"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 Servery EasyView"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "Vyberte\r\n                                čo sa použije ako prvé pre všetky funkcie AI. Ak sa váš kľúč minie, servery EasyView sa\r\n                                vždy použijú ako záloha."
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "Súkromie\r\n                                    a priorita"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "Priorita jedna:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "Priorita dva:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "Poznámka k enginu Morph:"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "nikdy"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "Pomocník a spätná väzba"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "Máte otázku, našli ste chybu alebo chcete navrhnúť funkciu? Radi si vypočujeme váš názor!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "Nahlásiť chybu / Poslať spätnú väzbu"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Pripravené na zjednodušenie"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "Exportovať nastavenia"
   },
   "t_9d5ed678": {
-    "message": "B"
+    "message": "T"
   },
   "t_dd753679": {
     "message": "I"
@@ -615,25 +1175,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "Sila"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "Nepriehľadnosť"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "Hrúbka"
   },
   "t_18d80423": {
     "message": "400"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "Výška\r\n                                riadku"
   },
   "t_f522dede": {
     "message": "1.7x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "Preskočiť"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,61 +1202,61 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "Zvýraznenie"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "ATRAMENT"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "STMIEVANIE"
   },
   "t_e8bfe352": {
     "message": "Lexend 👑"
   },
   "t_0cd4623c": {
-    "message": "Atkinson Hyperlegible 👑"
+    "message": "Atkinson Hiperledžibl 👑"
   },
   "t_6fbda3a3": {
-    "message": "Arial"
+    "message": "Ariál"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "Helvetika"
   },
   "t_207c3219": {
-    "message": "Verdana"
+    "message": "Verdána"
   },
   "t_2bd141ae": {
-    "message": "Tahoma"
+    "message": "Tahóma"
   },
   "t_720661ec": {
-    "message": "Trebuchet MS"
+    "message": "Trebúšet MS"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "Systémový bezpätkový"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "Tajms Ňú Róman"
   },
   "t_eada8196": {
-    "message": "Georgia"
+    "message": "Džórdžia"
   },
   "t_96a78725": {
-    "message": "Garamond"
+    "message": "Garamónd"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "Systémový pätkový"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "Komik Sans MS"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "Kuriér Nový"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "Neproporcionálne písmo"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "Veľkosť\r\n                            písma"
   },
   "t_f4f9f2f4": {
     "message": "14px"
@@ -723,7 +1283,7 @@
     "message": "32px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "Hotovo"
   },
   "t_63922286": {
     "message": "×"
@@ -732,154 +1292,34 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "Exportovať knižnicu tém"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "Uložte si svoje majstrovské diela vytvorené AI\r\n                lokálne."
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "Exportovať celú knižnicu"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
-  },
-  "t_ccca2ddf": {
-    "message": "EasyView Reader"
-  },
-  "t_8524de96": {
-    "message": "Loading..."
-  },
-  "t_25e8f2fd": {
-    "message": "Please wait..."
-  },
-  "t_ec9d785d": {
-    "message": "1.5x"
-  },
-  "t_dafd5f8f": {
-    "message": "Lexend"
-  },
-  "t_16d90a0b": {
-    "message": "Atkinson Hyperlegible"
-  },
-  "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
-  },
-  "t_f7cee5ea": {
-    "message": "Calibri"
-  },
-  "t_ccc0239e": {
-    "message": "Candara"
-  },
-  "t_2963521b": {
-    "message": "Corbel"
-  },
-  "t_37f1cc58": {
-    "message": "Cambria"
-  },
-  "t_c3d9d4bf": {
-    "message": "Constantia"
-  },
-  "t_5d1a5b35": {
-    "message": "Palatino Linotype"
-  },
-  "t_4dc386b6": {
-    "message": "Book Antiqua"
-  },
-  "t_03c461f6": {
-    "message": "Franklin Gothic"
-  },
-  "t_7b1ee3b6": {
-    "message": "Century Gothic"
-  },
-  "t_a3293302": {
-    "message": "Gill Sans"
-  },
-  "t_eb726908": {
-    "message": "Sitka Text"
-  },
-  "t_b5bdee2c": {
-    "message": "Sylfaen"
-  },
-  "t_1ec05249": {
-    "message": "Microsoft Sans Serif"
-  },
-  "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
-  },
-  "t_16507cdd": {
-    "message": "Consolas"
-  },
-  "t_391c5954": {
-    "message": "Lucida Console"
-  },
-  "t_9879efdf": {
-    "message": "Lucida Sans Typewriter"
-  },
-  "t_21f59b54": {
-    "message": "Impact"
-  },
-  "t_94a7bb97": {
-    "message": "Arial Black"
-  },
-  "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
-  },
-  "t_40885309": {
-    "message": "Berlin Sans FB"
-  },
-  "t_6d5566ba": {
-    "message": "Gabriola"
-  },
-  "t_edb42482": {
-    "message": "Ink Free"
-  },
-  "t_fa233799": {
-    "message": "Segoe Script"
-  },
-  "t_2f7bc407": {
-    "message": "Segoe Print"
-  },
-  "t_0095a9fa": {
-    "message": "Export"
-  },
-  "t_520d0db3": {
-    "message": "Format"
-  },
-  "t_5956a437": {
-    "message": "TXT"
-  },
-  "t_1351017a": {
-    "message": "Filename"
-  },
-  "t_6af8212e": {
-    "message": "EasyView Notes Board"
-  },
-  "t_d16da0f5": {
-    "message": "🌎"
-  },
-  "t_6df173ff": {
-    "message": "📍"
+    "message": ".json (Súbor JSON)"
   },
   "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
-  },
-  "js_24833610": {
-    "message": "Saved"
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Vyžaduje sa akcia</div>\n            <h2 class=\"ev-si-title\">Účet<br><span class=\"ev-si-gradient-text\">Pozastavený</span></h2>\n            <p class=\"ev-si-sub\">Váš prístup k EasyView bol obmedzený z dôvodu porušenia našich podmienok používania.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Kontaktovať podporu\n            </a>\n          </div>\n        </div>\n      "
   },
   "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Najprv opíšte svoj morf.</span>\n          </div>"
   },
   "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morfovanie...</span>\n      "
   },
   "js_138703dd": {
-    "message": "No Theme on Page"
+    "message": "Žiadna téma na stránke"
   },
   "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>Exportovať aktuálnu stránku"
   },
   "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Kompilovanie..."
   },
   "js_e541190e": {
     "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
@@ -891,30 +1331,1241 @@
     "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
   },
   "js_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Pripravené na zjednodušenie"
   },
   "js_a18366b2": {
-    "message": "Dark"
+    "message": "Tmavý"
   },
   "js_9914a0ce": {
-    "message": "Light"
+    "message": "Svetlý"
   },
   "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+    "message": "<option value=\"auto\">Auto (Najlepšia kvalita)</option>"
   },
   "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Dekódovanie..."
   },
   "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+    "message": "Toto pôsobí <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">o veľa jednoduchšie</span> na pochopenie."
   },
   "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+    "message": "Toto pôsobí menej jednoznačne na pochopenie."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_f05df71b": {
+    "message": "Aktualizácia"
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_78db2ae3": {
+    "message": "Naše AI servery prechádzajú aktualizáciami."
+  },
+  "t_bb2129c8": {
+    "message": "Odomknúť plný"
+  },
+  "t_aefee7cd": {
+    "message": "Jasnosť pre každý mozog"
+  },
+  "t_c38beca1": {
+    "message": "Windows skrýva zobrazenia v"
+  },
+  "t_f2fe1e79": {
+    "message": "Hodnoty\r\n                                    pod 1.0 môžu komprimovať text a narušiť rozloženie."
+  },
+  "t_ca677d53": {
+    "message": "Vizuálne úpravy"
+  },
+  "t_230b4522": {
+    "message": "Tabuľa poznámok"
+  },
+  "t_596b54bf": {
+    "message": "Morfovací AI agent"
+  },
+  "t_47e79a17": {
+    "message": "Získajte svoj bezplatný kľúč na"
+  },
+  "t_42372184": {
+    "message": "Témy sa exportujú ako"
+  },
+  "t_74fdc8a2": {
+    "message": "Prosím, najprv opíšte svoju morfovaciu transformáciu."
+  },
+  "t_245fd3b9": {
+    "message": "Morfované rozloženie vymazané."
+  },
+  "t_172bd753": {
+    "message": "Téma úspešne exportovaná!"
+  },
+  "t_4c34daff": {
+    "message": "Časový limit spojenia vypršal. Server je nedostupný."
+  },
+  "t_0dd56117": {
+    "message": "Na tejto stránke sa nenašla žiadna aktívna téma."
+  },
+  "t_cb5c0766": {
+    "message": "Knižnica úspešne exportovaná!"
+  },
+  "t_8adb392e": {
+    "message": "Časový limit spojenia vypršal. Server je nedostupný."
+  },
+  "t_ae94e0e4": {
+    "message": "Vaša knižnica tém je prázdna."
+  },
+  "t_10a0c40b": {
+    "message": "Vlastná téma úspešne načítaná!"
+  },
+  "t_9b6007a8": {
+    "message": "Nepodarilo sa prečítať súbor témy."
+  },
+  "t_d4fa051d": {
+    "message": "Zlyhalo: $1. Prosím, obnovte kartu.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "Aplikované: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "Obnovených $1 tém z knižnice!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "Jazykové preferencie"
+  },
+  "t_lang_updated_reload": {
+    "message": "Jazyk aktualizovaný. Obnovuje sa..."
+  },
+  "t_transformation_failed": {
+    "message": "Transformácia zlyhala."
+  },
+  "t_c8a59e71": {
+    "message": "Zahodiť"
+  },
+  "t_7764306b": {
+    "message": "Údržba cloudových služieb aktívna"
+  },
+  "t_248228de": {
+    "message": "Prepnúť písmo pre dyslexiu vo vyskakovacom okne"
+  },
+  "t_79a59320": {
+    "message": "Spustiť prehliadku aplikácie"
+  },
+  "t_533bff5b": {
+    "message": "Pripnúť lepiaci štítok na stránku (Alt+S)"
+  },
+  "t_f4f70727": {
+    "message": "Nastavenia"
+  },
+  "t_4fd11104": {
+    "message": "Kruhový reflektor"
+  },
+  "t_0d063af1": {
+    "message": "Horizontálne pravítko 🔒"
+  },
+  "t_60d71580": {
+    "message": "Jasná svetlá"
+  },
+  "t_efe48742": {
+    "message": "Jantárové zaostrenie"
+  },
+  "t_610a09ca": {
+    "message": "Chladná azúrová"
+  },
+  "t_886f6b9e": {
+    "message": "Pokojná zelená"
+  },
+  "t_65e8194e": {
+    "message": "Uhľovo čierna"
+  },
+  "t_7243ed99": {
+    "message": "Polnočná bridlica"
+  },
+  "t_ec6d8325": {
+    "message": "Hlboký les"
+  },
+  "t_4af435e0": {
+    "message": "Upírske víno"
+  },
+  "t_2a7dbdf8": {
+    "message": "PROFESIONÁLNA funkcia"
+  },
+  "t_fc4aec61": {
+    "message": "Otvoriť v čítačke"
+  },
+  "t_801ab246": {
+    "message": "Stiahnuť"
+  },
+  "t_aa3880dc": {
+    "message": "Stiahnuť ako HTML"
+  },
+  "t_e0781e81": {
+    "message": "Stiahnuť ako EPUB"
+  },
+  "t_442ff212": {
+    "message": "Stiahnuť ako DOCX"
+  },
+  "t_6244ee7c": {
+    "message": "Pridať vlastný termín manuálne"
+  },
+  "t_6e7d015f": {
+    "message": "Importovať súbor CSV"
+  },
+  "t_edbc5415": {
+    "message": "Exportovať pre Anki / Quizlet"
+  },
+  "t_46c29f7a": {
+    "message": "Načítať tému"
+  },
+  "t_2bd65c5d": {
+    "message": "Exportovať tému"
+  },
+  "t_c1c433ac": {
+    "message": "Aktívny poskytovateľ AI"
+  },
+  "t_90c09393": {
+    "message": "Bodkované"
+  },
+  "t_eb656e41": {
+    "message": "Čiarkované"
+  },
+  "t_0c99ddee": {
+    "message": "Farba zvýraznenia"
+  },
+  "t_eaf63759": {
+    "message": "Farba atramentu"
+  },
+  "t_a183c9f0": {
+    "message": "Farba stmievania"
+  },
+  "t_75e7422f": {
+    "message": "Farba pozadia"
+  },
+  "t_42f9ceea": {
+    "message": "Prehľadať uložený lexikón..."
+  },
+  "t_0e84a8cf": {
+    "message": "Zadajte slovo alebo skratku..."
+  },
+  "t_eea6890c": {
+    "message": "Význam / preklad..."
+  },
+  "t_4480cf46": {
+    "message": "Pamäťová pomôcka alebo študijná poznámka (voliteľné)..."
+  },
+  "t_d8634fbf": {
+    "message": "napr. Zmeňte na ružovú anime tému so zaoblenými kartami, alebo premeňte na retro tmavozelenú terminálovú konzolu..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "Lepiace poznámky"
+  },
+  "t_b097d277": {
+    "message": "Pridať slovo"
+  },
+  "t_1eeb67ee": {
+    "message": "Exportovať aktuálnu stránku"
+  },
+  "t_b62ded9a": {
+    "message": "Cloudové služby offline"
+  },
+  "t_263e00eb": {
+    "message": "Prihlásiť sa / vytvoriť účet"
+  },
+  "t_7748eb3b": {
+    "message": "AKTUALIZUJE SA"
+  },
+  "t_81a5d20b": {
+    "message": "Zmraziť všetko"
+  },
+  "t_e61146d9": {
+    "message": "Pokojné stmievanie"
+  },
+  "t_57323916": {
+    "message": "Zastaviť automatické prehrávanie"
+  },
+  "t_f50319ea": {
+    "message": "Plná ochrana"
+  },
+  "t_8e13f26d": {
+    "message": "Rýchla otázka"
+  },
+  "t_134b26da": {
+    "message": "Páči sa vám<br><span class=\"ev-si-gradient-text\">EasyView?</span>"
+  },
+  "t_b75bdd9e": {
+    "message": "Vaša spätná väzba nám pomáha zlepšovať sa.<br>Páči sa vám táto skúsenosť?"
+  },
+  "t_396d1ff8": {
+    "message": "Áno, som!"
+  },
+  "t_7d0cacf3": {
+    "message": "Vyžaduje úpravy"
+  },
+  "t_815142c9": {
+    "message": "Podporte nás"
+  },
+  "t_abd9fa39": {
+    "message": "Chceli by ste<br><span class=\"ev-si-gradient-text\">napísať recenziu?</span>"
+  },
+  "t_02991e61": {
+    "message": "Hodnotenia od používateľov, ako ste vy, sú najlepším spôsobom, ako pomôcť EasyView rásť. Trvá to len minútu!"
+  },
+  "t_db49c1f2": {
+    "message": "Ohodnotiť"
+  },
+  "t_7a4f0d12": {
+    "message": "Pripomenúť neskôr"
+  },
+  "t_fee6c0e9": {
+    "message": "Súkromná spätná väzba"
+  },
+  "t_74393dde": {
+    "message": "Čo môžeme <span class=\"ev-si-gradient-text\">robiť lepšie?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "Povedzte nám, čo sa pokazilo..."
+  },
+  "t_6f97affc": {
+    "message": "Odoslať spätnú väzbu"
+  },
+  "t_b20871b3": {
+    "message": "Prosím, zadajte svoju spätnú väzbu"
+  },
+  "t_7b0fee4d": {
+    "message": "Odosielanie..."
+  },
+  "t_fb631633": {
+    "message": "Ďakujeme za vašu spätnú väzbu."
+  },
+  "t_08727add": {
+    "message": "Prezerajte web podľa seba."
+  },
+  "t_15bbb9d0": {
+    "message": "Webstránka"
+  },
+  "t_c5f29bb3": {
+    "message": "Súkromie"
+  },
+  "t_ad5b1a22": {
+    "message": "Zakladateľ"
+  },
+  "t_db496e03": {
+    "message": "Osobné kľúče vytvárajú priame, 100% súkromné spojenie s AI. Váš text sa nikdy nedotkne serverov EasyView."
+  },
+  "t_387c35b3": {
+    "message": "Náš spravovaný server (Prémiový) funguje ako spoľahlivá záloha, ak nie je prítomný žiadny kľúč alebo ak váš kľúč zlyhá."
+  },
+  "t_98bc5a17": {
+    "message": "Na ochranu proprietárnych algoritmov je váš kľúč krátko smerovaný cez náš zabezpečený server na autentifikáciu pomocou Google. Nie je"
+  },
+  "t_de47f1be": {
+    "message": "uložený ani zaznamenaný."
+  },
+  "t_25e02e7f": {
+    "message": "Aktívne: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ Prémiový člen"
+  },
+  "t_df56cfae": {
+    "message": "⭐ Doživotný člen"
+  },
+  "t_41cbc704": {
+    "message": " zostávajúcich dní"
+  },
+  "t_b194bd82": {
+    "message": "Nikdy nevyprší"
+  },
+  "t_9f830444": {
+    "message": "⭐ Profesionál:"
+  },
+  "t_61b82be6": {
+    "message": " zostávajúcich morfov"
+  },
+  "t_c20e7ceb": {
+    "message": " zostávajúcich bezplatných morfov"
+  },
+  "t_d7087930": {
+    "message": " zostávajúcich bezplatných použití"
+  },
+  "t_4bbf11bd": {
+    "message": "Polia Termín a Význam nemôžu zostať prázdne!"
+  },
+  "t_08f09d38": {
+    "message": "Podrobnosti o slove úspešne aktualizované!"
+  },
+  "t_32001b52": {
+    "message": "Prosím, zadajte slovo aj jeho význam."
+  },
+  "t_b8115861": {
+    "message": "Váš študijný zápisník je prázdny. Najprv si uložte nejaké slová z webových stránok!"
+  },
+  "t_7114113b": {
+    "message": "Najprv sa prihláste do svojho účtu EasyView, aby ste si overili svoje funkcie Pro!"
+  },
+  "t_093f9fa0": {
+    "message": "Váš token relácie chýba. Prosím, prihláste sa znova na easyview.in, aby ste obnovili prístup."
+  },
+  "t_0e065596": {
+    "message": "Toto je overená funkcia iba pre prémiových používateľov. Inovujte na Profesionál a odomknite ju!"
+  },
+  "t_c792a645": {
+    "message": "Nepodarilo sa pripojiť k zabezpečenému exportnému serveru. Skúste to znova o chvíľu."
+  },
+  "t_8d1a2675": {
+    "message": "V tomto CSV sa nepodarilo identifikovať žiadne platné položky slovnej zásoby."
+  },
+  "t_a613ed90": {
+    "message": "Zlyhanie zápisu do úložiska prehliadača! Súbor môže byť príliš veľký pre lokálnu vyrovnávaciu pamäť."
+  },
+  "t_8efe87ab": {
+    "message": "Prehliadač nedokázal prečítať váš lokálny súbor."
+  },
+  "t_50bf63aa": {
+    "message": "Naozaj chcete vymazať všetky uložené slová zo svojho zápisníka?"
+  },
+  "t_ff252710": {
+    "message": "Import dokončený: Všetkých $1 záznamov už existuje vo vašom zápisníku.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "Nepodarilo sa analyzovať CSV: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "\"$1\" už je vo vašom zápisníku. Chcete preň pridať ďalšiu definíciu?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "Úspešne odhlásené"
+  },
+  "t_dbd35100": {
+    "message": "Morfovací modul už pracuje..."
+  },
+  "t_2de4e55d": {
+    "message": "Morfované rozloženie vymazané"
+  },
+  "t_1bb9196d": {
+    "message": "Morfované: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "Morfovanie zlyhalo: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "Spustené: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 položiek usporiadaných",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "Táto akcia natrvalo odstráni túto poznámku zo všetkých synchronizovaných zariadení. Pokračovať?"
+  },
+  "t_25abf697": {
+    "message": "Export EPUB vyžaduje JSZip."
+  },
+  "t_71609188": {
+    "message": "Export DOCX vyžaduje html-docx-js."
+  },
+  "t_e1499766": {
+    "message": "Žiadny súbor nie je načítaný."
+  },
+  "t_023b3355": {
+    "message": "Štít súkromia aktivovaný"
+  },
+  "t_9483a5da": {
+    "message": "Štít ochrany súkromia deaktivovaný"
+  },
+  "t_a04202db": {
+    "message": "Zvýraznenia dočasne skryté"
+  },
+  "t_b3d6b264": {
+    "message": "Zvýraznenia obnovené"
+  },
+  "t_7485c55e": {
+    "message": "Vitajte v EasyView! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "Váš kognitívny most poháňaný AI pre jednoduchšie čítanie na webe. Poďme na rýchlu prehliadku funkcií."
+  },
+  "t_3a1fe637": {
+    "message": "Dekodér žargónu 📖"
+  },
+  "t_89cec86e": {
+    "message": "Zjednodušuje zložitú terminológiu na akejkoľvek webovej stránke."
+  },
+  "t_f8aefae7": {
+    "message": "Štít súkromia 🔐"
+  },
+  "t_aa860f86": {
+    "message": "Rozmazáva citlivé údaje a obsahuje pravítko zaostrenia pre čítanie bez rozptyľovania."
+  },
+  "t_0681a3b6": {
+    "message": "Zmyslový štít 🛡️"
+  },
+  "t_6118b864": {
+    "message": "Zmrazuje rušivé GIFy a animácie."
+  },
+  "t_12ec6fc6": {
+    "message": "Režim čítania pre dyslexiu 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "Optimalizované písma a medzery pre ľahšie čítanie."
+  },
+  "t_18d9ce63": {
+    "message": "Prevod textu na reč 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "Počúvajte akúkoľvek webovú stránku so zvýrazňovaním slov."
+  },
+  "t_0019a700": {
+    "message": "Morf motor ✨"
+  },
+  "t_47c2535a": {
+    "message": "Použite AI na prepracovanie akejkoľvek webovej stránky na vlastnú tému alebo rozloženie."
+  },
+  "t_2ed2f639": {
+    "message": "Prilepné poznámky 📝"
+  },
+  "t_75025b5f": {
+    "message": "Pripnite plávajúce lepiace poznámky na akúkoľvek webovú stránku, aby ste si uložili dôležité informácie (Alt+S)."
+  },
+  "t_3ff2d7cc": {
+    "message": "Konfigurácia API ⚙️"
+  },
+  "t_0754e836": {
+    "message": "Prihláste sa na synchronizáciu svojej kvóty alebo si tu nastavte vlastný bezplatný kľúč Gemini API."
+  },
+  "t_7b6a2059": {
+    "message": "Krok $1 z $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "Začať!"
+  },
+  "t_10ac3d04": {
+    "message": "Ďalej"
+  },
+  "t_5c7a52b8": {
+    "message": "Stlačte "
+  },
+  "t_a1b2c3d4": {
+    "message": " kedykoľvek na manuálne zapnutie štítu automatickej ochrany."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ Štít ochrany súkromia aktivovaný"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 Štít ochrany súkromia deaktivovaný"
+  },
+  "js_9b3e1a": {
+    "message": "EasyView analyzuje rozloženie a upravuje vzhľad..."
+  },
+  "js_4c8d2f": {
+    "message": "Definovať"
+  },
+  "js_7a1e9b": {
+    "message": "Dekódovať"
+  },
+  "js_2d5f8c": {
+    "message": "Zjednodušiť"
+  },
+  "js_6e3a4d": {
+    "message": "Záložka"
+  },
+  "js_1f9b7c": {
+    "message": "Zvýraznenie"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "Analyzujem strom DOM..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "Neprehľadné rozloženie..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "Splošťujem štruktúru..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[PREŤAŽENIE_ŠUMOM]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "Odstraňujem rušivé vplyvy..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "Komplexné uzly"
+  },
+  "js_ldr_m4_cl": {
+    "message": "Aplikujú sa pravidlá pre dyslexiu..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "Vykresľujem používateľské rozhranie EasyView..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "Skenujem blok textu..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "Príliš veľa slov..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "Extrahuje sa hlavný význam..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "Kognitívna záťaž"
+  },
+  "js_ldr_s3_cl": {
+    "message": "Pripravuje sa jednoduchšia angličtina..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "Podrobná umelá inteligencia..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "Aplikujem čitateľnosť..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "Leštím výstup..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "Prekladám žargón..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "Chyba: Zmätenie"
+  },
+  "js_ldr_j2_cl": {
+    "message": "Hľadám definície..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[PREŤAŽENIE_ŠUMOM]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "Zjednodušujem kontext..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "Neznáme termíny"
+  },
+  "js_ldr_j4_cl": {
+    "message": "Aplikujem jasnosť..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "Formátujem výsledky..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "Hĺbková analýza..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "Finalizujem logiku AI..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "Spúšťam AI..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "Takmer hotovo..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "Vysoká prevádzka..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "Trvá to o niečo dlhšie..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "Stále pracujem..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "Vydržte..."
+  },
+  "t_b7012ab9": {
+    "message": "Morfovať"
+  },
+  "t_c5e8b1d9": {
+    "message": "PROFESIONÁLNE písma"
+  },
+  "t_c8f2ba19": {
+    "message": "Rozmazanie súkromného obsahu povolené"
+  },
+  "t_e2dae61a": {
+    "message": "Rozmazanie súkromného obsahu zakázané"
+  },
+  "t_c74de318": {
+    "message": "Automatická ochrana pri zdieľaní obrazovky povolená"
+  },
+  "t_a5fd56f4": {
+    "message": "Automatická ochrana pri zdieľaní obrazovky zakázaná"
+  },
+  "t_ab8d1f2a": {
+    "message": "Režim baterky povolený"
+  },
+  "t_2bf5cc98": {
+    "message": "Režim baterky zakázaný"
+  },
+  "t_513bb93f": {
+    "message": "Bionické čítanie"
+  },
+  "t_5a8b2c1d": {
+    "message": "Tu je ukážka vašich nastavení čítania."
+  },
+  "t_ac1d4e5f": {
+    "message": "Žiadne"
+  },
+  "t_b2e3f4a1": {
+    "message": "Široké"
+  },
+  "t_c3f4a5b2": {
+    "message": "Extra široké"
+  },
+  "t_d1a3c901": {
+    "message": "Kliknúť"
+  },
+  "t_b4f2e891": {
+    "message": "Pripnúť k prvku"
+  },
+  "t_c9a1b302": {
+    "message": "Medzera"
+  },
+  "t_f6d4e203": {
+    "message": "Globálna poznámka"
+  },
+  "t_e2b3f104": {
+    "message": "Únik"
+  },
+  "t_a7c0d905": {
+    "message": "Zrušiť"
+  },
+  "t_e1b2c301": {
+    "message": "Iba táto stránka"
+  },
+  "t_f7a3b402": {
+    "message": "Táto stránka"
+  },
+  "t_a8c4d503": {
+    "message": "Všetky stránky (Globálne)"
+  },
+  "t_b9d5e604": {
+    "message": "Skryť do opätovného načítania"
+  },
+  "t_c0e6f705": {
+    "message": "Pripnúť poznámku k prvku"
+  },
+  "t_d1f7a806": {
+    "message": "Zmeniť farbu poznámky"
+  },
+  "t_e2a8b907": {
+    "message": "Zbaliť/rozbaliť poznámku"
+  },
+  "t_f3b9c008": {
+    "message": "Kopírovať obsah poznámky"
+  },
+  "t_a4c0d109": {
+    "message": "Viac akcií"
+  },
+  "t_b5d1e200": {
+    "message": "Odstrániť túto poznámku"
+  },
+  "t_e87033a2": {
+    "message": "Alt + P"
+  },
+  "t_4120201a": {
+    "message": "Bezplatná skúšobná verzia aktívna"
+  },
+  "t_6ed40ffb": {
+    "message": "Synchronizovať nastavenia medzi zariadeniami"
+  },
+  "t_f8b8a5fd": {
+    "message": "Vyššia kvóta bezplatného využitia"
+  },
+  "t_440b106d": {
+    "message": "Prístup k budúcim funkciám Profesionál"
+  },
+  "t_3a99076c": {
+    "message": "Limit predplatného"
+  },
+  "t_545f6c2f": {
+    "message": "Neobmedzené"
+  },
+  "t_ad23f4a0": {
+    "message": "Priestorové poznámky"
+  },
+  "t_04f2f045": {
+    "message": "Úspešne ste nasadili všetkých pätnásť poznámok bezplatnej úrovne na webe. Inovujte na EasyView Premium a odomknite nekonečnú priestorovú pamäť a vlastné farby."
+  },
+  "t_cf874b99": {
+    "message": "Odomknúť Premium"
+  },
+  "t_a6d36e2f": {
+    "message": "Všetky lokálne ovládacie prvky prístupnosti (Aktívne)"
+  },
+  "t_b0b69bc3": {
+    "message": "Modul prevodu textu na reč (Aktívny)"
+  },
+  "t_cc96c21a": {
+    "message": "Funkcie cloudovej AI (Offline)"
+  },
+  "t_7af6f6e5": {
+    "message": "Rozumiem"
+  },
+  "t_9bc7102e": {
+    "message": "Vytvorte si bezplatný účet EasyView na sledovanie svojej kvóty a odomknutie Dekodéra žargónu."
+  },
+  "t_ab7512fd": {
+    "message": "Váš token relácie chýba. Prosím, prihláste sa znova na easyview.in, aby ste obnovili prístup."
+  },
+  "t_1cd7820a": {
+    "message": "IBA PRE PROFESIONÁLOV"
+  },
+  "t_8eb14032": {
+    "message": "Dekodér žargónu<br><span class=\"ev-si-gradient-text\">Kvóta dosiahnutá</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "VYČERPANÁ KVÓTA"
+  },
+  "t_5ae983dc": {
+    "message": "Tento mesiac ste vyčerpali všetkých <strong>päť bezplatných dekódovaní</strong>. Odomknite neobmedzený prístup v priebehu niekoľkých sekúnd."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> Prejsť na Profesionál — Neobmedzené dekódovanie</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> Použite vlastný API kľúč</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 Pridať API kľúč v Nastaveniach</button>"
+  },
+  "t_9be4129a": {
+    "message": "Exportér študijných balíčkov<br><span class=\"ev-si-gradient-text\">Automatizácia Profesionál</span>"
+  },
+  "t_fac34185": {
+    "message": "Okamžite exportujte celý svoj vlastný študijný zápisník priamo do <strong>Anki</strong> a <strong>Quizlet</strong>."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Zabudnite na manuálne písanie</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Kompilátor kartičiek RFC-4180</div>"
+  },
+  "t_da12c30b": {
+    "message": "PROFESIONÁLNY prístup"
+  },
+  "t_4a9b2c01": {
+    "message": "Táto funkcia"
+  },
+  "t_3be78c01": {
+    "message": "Toto písmo na čítanie pre dyslexiu"
+  },
+  "t_0ad4b971": {
+    "message": "Toto vizuálne písmo"
+  },
+  "t_9af42be8": {
+    "message": "Toto prémiové písmo na export"
+  },
+  "t_cbae8349": {
+    "message": "Inovujte na odomknutie všetkých funkcií prístupnosti a výkonných nástrojov."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Pokročilá prístupnosť</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Všetky budúce aktualizácie</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ Prejsť na Profesionál"
+  },
+  "t_5ef4c1a2": {
+    "message": "Možno neskôr"
+  },
+  "t_3b7a5e82": {
+    "message": ", ale funkcie AI môžu byť dočasne nedostupné."
+  },
+  "t_c91d8e12": {
+    "message": "Všeobecné"
+  },
+  "t_b42f3a9d": {
+    "message": "Definícia"
+  },
+  "t_f1d4a8e6": {
+    "message": "Slovník"
+  },
+  "t_e398c71f": {
+    "message": "Vlastné"
+  },
+  "t_a72df9e5": {
+    "message": "Lekárske"
+  },
+  "t_d8f2c61a": {
+    "message": "Právne"
+  },
+  "t_b3e1f5d2": {
+    "message": "Finančné"
+  },
+  "t_c25d81f9": {
+    "message": "Technológie"
+  },
+  "t_e1b3a4f6": {
+    "message": "Akademické"
+  },
+  "t_d5f9b4c1": {
+    "message": "Termín"
+  },
+  "t_f7a2e8ea": {
+    "message": "Kategória"
+  },
+  "t_e3b1c6d9": {
+    "message": "Zjednodušený význam"
+  },
+  "t_a9d4e5f2": {
+    "message": "Študijné poznámky / kontext"
+  },
+  "t_b4c5d6e7": {
+    "message": "Zrušiť"
+  },
+  "t_c8f2a1b4": {
+    "message": "Uložiť zmeny"
+  },
+  "t_8c17b5e6": {
+    "message": "Váš token relácie chýba. Prosím, prihláste sa znova na easyview.in, aby ste obnovili prístup."
+  },
+  "t_a43dc219": {
+    "message": "Vytvorte si bezplatný účet EasyView na sledovanie svojej kvóty používania a odomknutie AI Morph Engine."
+  },
+  "t_54c523fe": {
+    "message": "🎉 Bezchybné! Úspešne importovaných $1 nových študijných kariet."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 Bezchybné! Importovaných $1 nových kariet. ($2 duplikáty boli preskočené.)"
+  },
+  "t_14894d12": {
+    "message": "Export témy"
+  },
+  "t_f27a2629": {
+    "message": "Záloha knižnice tém"
+  },
+  "t_9ad85e17": {
+    "message": "Režim pravítka na čítanie"
+  },
+  "t_b9d4e7a5": {
+    "message": "Pokročilé režimy senzorického štítu"
+  },
+  "t_94f4f7e4": {
+    "message": "Analyzujem DOCX...",
+    "description": "Stav pri analýze DOCX v čítačke"
+  },
+  "t_120adfc1": {
+    "message": "Analyzujem EPUB...",
+    "description": "Stav pri analýze EPUB v čítačke"
+  },
+  "t_5d2a45b8": {
+    "message": "Režim čítacieho pravítka je exkluzívny pre predplatné Profesionál.",
+    "description": "Upozornenie, keď používateľ bez verzie Profesionál pristupuje k čítaciemu pravítku"
+  },
+  "t_c1f29623": {
+    "message": "Upraviť celú kartu",
+    "description": "Nástroj na úpravu celej karty v zápisníku"
+  },
+  "t_1063e38c": {
+    "message": "Odstrániť",
+    "description": "Nástroj na odstránenie karty zo zápisníka"
+  },
+  "t_ccca2ddf": {
+    "message": "Čítačka EasyView"
+  },
+  "t_8524de96": {
+    "message": "Načítavanie..."
+  },
+  "t_25e8f2fd": {
+    "message": "Prosím čakajte..."
+  },
+  "t_ec9d785d": {
+    "message": "1.5x"
+  },
+  "t_dafd5f8f": {
+    "message": "Lexend"
+  },
+  "t_16d90a0b": {
+    "message": "Atkinson Hiperledžibl"
+  },
+  "t_5c7db066": {
+    "message": "Segoe UI (predvolené pre Windows)"
+  },
+  "t_f7cee5ea": {
+    "message": "Kalíbri"
+  },
+  "t_ccc0239e": {
+    "message": "Kándara"
+  },
+  "t_2963521b": {
+    "message": "Kórbel"
+  },
+  "t_37f1cc58": {
+    "message": "Kámbria"
+  },
+  "t_c3d9d4bf": {
+    "message": "Konštantia"
+  },
+  "t_5d1a5b35": {
+    "message": "Palatíno Lajnotajp"
+  },
+  "t_4dc386b6": {
+    "message": "Knižná Antikva"
+  },
+  "t_03c461f6": {
+    "message": "Franklin Gotik"
+  },
+  "t_7b1ee3b6": {
+    "message": "Senčury Gotik"
+  },
+  "t_a3293302": {
+    "message": "Gil Sans"
+  },
+  "t_eb726908": {
+    "message": "Sitka TEXT"
+  },
+  "t_b5bdee2c": {
+    "message": "Silfáen"
+  },
+  "t_1ec05249": {
+    "message": "Majkrosoft Sans Serif"
+  },
+  "t_ad4a300c": {
+    "message": "Segój Jú-Áj Semibóld"
+  },
+  "t_16507cdd": {
+    "message": "Konsólas"
+  },
+  "t_391c5954": {
+    "message": "Lusida Konsól"
+  },
+  "t_9879efdf": {
+    "message": "Lusida Sans Tajpraiter"
+  },
+  "t_21f59b54": {
+    "message": "Impakt"
+  },
+  "t_94a7bb97": {
+    "message": "Ariál čierny"
+  },
+  "t_6e87c2cb": {
+    "message": "Kóperplejt Gotik"
+  },
+  "t_40885309": {
+    "message": "Berlín Sans FB"
+  },
+  "t_6d5566ba": {
+    "message": "Gabrióla"
+  },
+  "t_edb42482": {
+    "message": "Ink Frí"
+  },
+  "t_fa233799": {
+    "message": "Segój Skript"
+  },
+  "t_2f7bc407": {
+    "message": "Segój Tlač"
+  },
+  "t_0095a9fa": {
+    "message": "Exportovať"
+  },
+  "t_520d0db3": {
+    "message": "Formát"
+  },
+  "t_5956a437": {
+    "message": "TEXT"
+  },
+  "t_1351017a": {
+    "message": "Názov súboru"
+  },
+  "t_d4c3c15b": {
+    "message": "Žiadny súbor nie je načítaný"
+  },
+  "t_0ca5a078": {
+    "message": "Prosím, použite kartu Konvertor na nahranie súboru."
+  },
+  "t_c9857e16": {
+    "message": "Nepodporovaný typ súboru."
+  },
+  "t_6b447b91": {
+    "message": "Chyba pri analýze súboru: "
+  },
+  "t_7f4588be": {
+    "message": "EPUB"
+  },
+  "t_12dc65c2": {
+    "message": "Prepnúť svetlý/tmavý"
+  },
+  "t_d3d2e617": {
+    "message": "Zavrieť"
+  },
+  "t_6e8cfcb7": {
+    "message": "Bezpečný export na server (Prémiové)"
+  },
+  "t_2f9df658": {
+    "message": "Odpojiť pracovný priestor a nechať ho plávať nad všetkými oknami"
+  },
+  "t_72d6d7a1": {
+    "message": "Importovať"
+  },
+  "t_de93d5fd": {
+    "message": "Exportovať poznámky"
+  },
+  "t_a1aacca9": {
+    "message": "Plávajúci OS"
+  },
+  "t_ac0b844f": {
+    "message": "Globálne poznámky"
+  },
+  "t_15866f1d": {
+    "message": "Poznámky špecifické pre lokalitu"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
+  },
+  "t_6af8212e": {
+    "message": "Tabuľa poznámok EasyView"
+  },
+  "t_d16da0f5": {
+    "message": "🌎"
+  },
+  "t_6df173ff": {
+    "message": "📍"
+  },
+  "t_22f58a00": {
+    "message": "🌎 Globálna poznámka"
+  },
+  "t_5be8bbeb": {
+    "message": "🌐 Poznámka k lokalite"
+  },
+  "t_59a56663": {
+    "message": "📍 Poznámka k stránke"
+  },
+  "t_c1843696": {
+    "message": "Overuje sa token integrity..."
+  },
+  "t_58038ee4": {
+    "message": "Práve teraz"
+  },
+  "t_e254e1a1": {
+    "message": "pred $1 min.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_121d4d02": {
+    "message": "pred $1 hod.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_19d2b280": {
+    "message": "pred $1 dňom",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_d3d4311c": {
+    "message": "Presunúť poznámku"
+  },
+  "t_7b32ea16": {
+    "message": "Prepnúť na $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_11916b28": {
+    "message": "Rozsah umiestnenia"
+  },
+  "t_5463fe67": {
+    "message": "Farebná paleta"
+  },
+  "t_d116d454": {
+    "message": "Zbaliť poznámku"
+  },
+  "t_be9ba0e5": {
+    "message": "Kopírovať text"
+  },
+  "t_28471624": {
+    "message": "Viac akcií"
+  },
+  "t_90e467df": {
+    "message": "Zavrieť poznámku"
+  },
+  "t_34494920": {
+    "message": "Sem napíšte svoju poznámku..."
+  },
+  "t_bdda0b60": {
+    "message": "Na čo ste mysleli..."
+  },
+  "t_8689de27": {
+    "message": "Dostupné všade"
+  },
+  "t_c0cf9810": {
+    "message": "Teleportovať späť na pôvodnú stránku"
+  },
+  "t_24a23176": {
+    "message": "Pôvodný kontext"
   }
 }

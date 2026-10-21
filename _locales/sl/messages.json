@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "EasyView — Jasnost za vsak možgan"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "LahkiPogled"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "Takoj preoblikujte katero koli spletno mesto z ukazi AI ali enim klikom. Glejte splet po svoje."
+  },
+  "t_68ba0232": {
+    "message": "Način za disleksijo aktiviran"
+  },
+  "t_85f47a25": {
+    "message": "Način za disleksijo deaktiviran"
+  },
+  "t_1cc1b64d": {
+    "message": "Premalo vsebine za analizo"
+  },
+  "t_cebe6412": {
+    "message": "Ni najdenih zapletenih izrazov"
+  },
+  "t_b964aa0f": {
+    "message": "Napaka pri analizi vsebine strani"
+  },
+  "t_956c104e": {
+    "message": "Pomnilnik strani počiščen"
+  },
+  "t_1f4b0f3e": {
+    "message": "Slovar počiščen"
+  },
+  "t_4bfeec37": {
+    "message": "V izboru ni najdenih zapletenih izrazov"
+  },
+  "t_1b5e8531": {
+    "message": "V izboru ni najdenih zapletenih izrazov"
+  },
+  "t_a1f781ec": {
+    "message": "Napaka pri dekodiranju izbora"
+  },
+  "t_7aae8122": {
+    "message": "Oznake izbora so počiščene"
+  },
+  "t_58762fd6": {
+    "message": "Prosimo, izberite eno besedo ali kratko besedno zvezo za definicijo."
+  },
+  "t_6838b119": {
+    "message": "Omrežna napaka pri iskanju definicije."
+  },
+  "t_ea3ca1b5": {
+    "message": "Dekodiranih $1 izrazov (iz predpomnilnika)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "Dekodiranih $1 izrazov (predpomnjeno)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "Ta mesec ste porabili vse brezplačne uporabe dekoderja žargona. Nadgradite na Pro za neomejen dostop."
+  },
+  "t_cb3c5d3a": {
+    "message": "Dekodiranih $1 izrazov v $2 kategorijah",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "Samodejno označenih $1 pojavitev vašega dekodiranega besednega izraza",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "Obnovljenih $1 shranjenih definicij žargona$2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "Ta mesec ste porabili vse brezplačne uporabe dekoderja žargona. Nadgradite na Pro za neomejen dostop."
+  },
+  "t_0b841c82": {
+    "message": "Že v beležnici!"
+  },
+  "t_8901f3ab": {
+    "message": "Shranjeno v beležnico!"
+  },
+  "t_eb8f5242": {
+    "message": "Napaka pri shranjevanju v beležnico"
+  },
+  "t_bd15702b": {
+    "message": "Senzorični ščit aktiviran"
+  },
+  "t_c28f3265": {
+    "message": "Senzorični ščit deaktiviran"
+  },
+  "t_3f8910d9": {
+    "message": "LAHKIPOGLED"
+  },
+  "t_8aafa613": {
+    "message": "Tega besedila ni bilo mogoče poenostaviti"
+  },
+  "t_79d2dc85": {
+    "message": "Tega besedila ni bilo mogoče poenostaviti"
+  },
+  "t_99684ba5": {
+    "message": "Napaka pri poenostavljanju besedila"
+  },
+  "t_f4362bde": {
+    "message": "Kopirano v odložišče!"
+  },
+  "t_af07ef4b": {
+    "message": "Kopiranje ni uspelo"
+  },
+  "t_94e4d537": {
+    "message": "Besedilo na strani zamenjano"
+  },
+  "t_14a04b67": {
+    "message": "Pomnilnik poenostavitev izbrisan"
+  },
+  "t_c444ff21": {
+    "message": "Izvirno besedilo začasno obnovljeno"
+  },
+  "t_55f1db14": {
+    "message": "Ta mesec ste porabili vse brezplačne uporabe. Nadgradite na Pro za neomejen dostop."
+  },
+  "t_fde4e3f0": {
+    "message": "Obnovljenih $1 shranjenih poenostavitev na tej strani",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "Samodejno obnovljena dinamično naložena poenostavitev!"
+  },
+  "t_dfa22e52": {
+    "message": "Pretvorba besedila v govor aktivirana"
+  },
+  "t_ca153ad0": {
+    "message": "Pretvorba besedila v govor onemogočena"
+  },
+  "t_dadbff09": {
+    "message": "Najprej omogočite pretvorbo besedila v govor"
+  },
+  "t_47071c61": {
+    "message": "Nadaljevanje..."
+  },
+  "t_5516c48d": {
+    "message": "Na tej strani ni najdene berljive vsebine"
+  },
+  "t_c57f25c9": {
+    "message": "Ni najdene berljive vsebine"
+  },
+  "t_2516997e": {
+    "message": "Branje končano"
+  },
+  "t_d3069aea": {
+    "message": "Pretvorba besedila v govor v tem brskalniku ni podprta"
+  },
+  "t_53e6b8c6": {
+    "message": "Najprej izberite besedilo"
+  },
+  "t_e932d0f7": {
+    "message": "Branje izbora..."
+  },
+  "t_1c50528d": {
+    "message": "Branje končano"
+  },
+  "t_594778a2": {
+    "message": "V premoru"
+  },
+  "t_4ded5f77": {
+    "message": "Govor ustavljen"
+  },
+  "t_0a74758c": {
+    "message": "✨ Poganja osebni ključ"
+  },
+  "t_2fceddad": {
+    "message": "✨ Neomejeno"
+  },
+  "t_97627d80": {
+    "message": "✨ Poganja osebni ključ"
+  },
+  "t_fd7d5888": {
+    "message": "Upravljanje naročnine"
+  },
+  "t_df4657a5": {
+    "message": "Brezplačni član"
+  },
+  "t_22dfb2ec": {
+    "message": "Gostujoči uporabnik"
+  },
+  "t_bd9f2460": {
+    "message": "Brezplačni račun"
+  },
+  "t_f5adda31": {
+    "message": "Prijava / Registracija"
+  },
+  "t_d2439201": {
+    "message": "✨ Neomejeno"
+  },
+  "t_164442b7": {
+    "message": "Priprava pogona za pretvorbo..."
+  },
+  "t_1e7c3002": {
+    "message": "Pripravljeno na razčlenjevanje datotek."
+  },
+  "t_d30f78df": {
+    "message": "Temni način"
+  },
+  "t_6c68d8ce": {
+    "message": "Svetel način"
+  },
+  "t_fcb68c2b": {
+    "message": "Ni najdenih lepljivih listkov. Ničesar za izvoz!"
+  },
+  "t_2b75b2d9": {
+    "message": "Vaš žeton seje manjka. Prosimo, prijavite se znova na easyview.in, da obnovite dostop."
+  },
+  "t_291a4e34": {
+    "message": "Varno usmerjanje strežnika ni uspelo. Preverite povezavo."
+  },
+  "t_2dcf62b3": {
+    "message": "Zaznanih ni bilo nobenih manjkajočih opomb. Delovni prostor je posodobljen."
+  },
+  "t_951bf3ae": {
+    "message": "Napaka pri dekodiranju: Datoteka ni v skladu z mejami EasyView."
+  },
+  "t_817a4ba0": {
+    "message": "API PiP ni podprt. Prosimo, posodobite Chrome."
+  },
+  "t_e8aa6e9a": {
+    "message": "Inicializacija pogona PiP ni uspela: "
+  },
+  "t_9feed9d5": {
+    "message": "Uspešno dekodirano in vstavljenih $1 novih opomb.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "PREIZKUSNA"
+  },
+  "t_c289adbe": {
+    "message": "Podprite nas"
+  },
+  "t_60d5b12a": {
+    "message": "Ocenite nas"
+  },
+  "js_eb82de4c": {
+    "message": "Barva po meri"
+  },
+  "js_8caef32b": {
+    "message": "Ponastavi/Počisti (Izberite besedilo in kliknite ali ročno dvokliknite označeno)"
+  },
+  "t_823aeb91": {
+    "message": "Delovni prostor EasyView"
+  },
+  "t_fc42ed23": {
+    "message": "V vašem delovnem prostoru ni lebdečih globalnih opomb."
+  },
+  "t_12d7c58a": {
+    "message": "Pritisnite presledek, ko je kazalec za lepljive listke aktiven, da ustvarite enega."
+  },
+  "t_ab983c11": {
+    "message": "Na tej strani ni najdenih opomb za spletno mesto."
+  },
+  "t_e22709e9": {
+    "message": "Kliknite na fizični element na katerem koli spletnem mestu, da zasidrate ciljno opombo."
+  },
+  "t_34bdba45": {
+    "message": "Korak"
+  },
+  "t_9b2d88a1": {
+    "message": "od"
+  },
+  "t_8f44d852": {
+    "message": "Začnite!"
+  },
+  "t_b45c2f91": {
+    "message": "Odkleni izvoze delovnega prostora"
+  },
+  "t_88f91dc1": {
+    "message": "Varno upodabljanje in izvoz vseh opomb globalnega delovnega prostora zahteva preverjeno licenco Pro. Nadgradite za trajno odklepanje te funkcije."
+  },
+  "t_134dff88": {
+    "message": "Morda kasneje"
+  },
+  "t_5b8c9d11": {
+    "message": "Nadgradi na profesionalno"
+  },
+  "t_792bd8c9": {
+    "message": "Delovni prostor lebdi!"
+  },
+  "t_e39f7dc2": {
+    "message": "Vaši lepljivi listki zdaj lebdijo nad vašim namizjem operacijskega sistema."
+  },
+  "t_c83d6ec9": {
+    "message": "Ponovno priklopi delovni prostor"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "Ustvarjanje ustavljeno"
+  },
+  "t_removed_from_notebook": {
+    "message": "Odstranjeno iz beležnice"
+  },
+  "t_d1c58470": {
+    "message": "Dvakrat kliknite za odstranitev poudarka"
+  },
+  "t_d4fdfb03": {
+    "message": "Prijavite se v EasyView, da dobite $1 brezplačnih uporab na mesec, ali dodajte svoj ključ API v nastavitvah.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "Nalaganje shranjenih rezultatov..."
+  },
+  "t_3a99733d": {
+    "message": "Inicializacija dekodirnika žargona..."
+  },
+  "t_b6dc9fc9": {
+    "message": "Ustvarite brezplačen račun EasyView, da dobite $1 brezplačnih dekodiranj AI na mesec in spremljate svojo kvoto.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "Ustvarite brezplačen račun EasyView, da dobite $1 brezplačnih definicij AI na mesec in spremljate svojo kvoto.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "Izvleček glavne vsebine..."
+  },
+  "t_0eeae2bf": {
+    "message": "Zaznavanje konteksta strani..."
+  },
+  "t_87f125d0": {
+    "message": "Analiziranje terminologije..."
+  },
+  "t_9ef6e70f": {
+    "message": "Uporaba predpomnjenih rezultatov..."
+  },
+  "t_9afdc5e8": {
+    "message": "Analiziranje z umetno inteligenco..."
+  },
+  "t_7ecc3abe": {
+    "message": "Dekodiranje z AI ni uspelo"
+  },
+  "t_9220c8de": {
+    "message": "Uporaba poenostavitev..."
+  },
+  "t_57f406b1": {
+    "message": "Dekodiranje izbora..."
+  },
+  "t_c50f2b72": {
+    "message": "Poglej glosar"
+  },
+  "t_49de9b11": {
+    "message": "Skrij označbe na strani"
+  },
+  "t_3158774e": {
+    "message": "Obnovi označbe na strani"
+  },
+  "t_fc3ad42d": {
+    "message": "Shrani v besedišče"
+  },
+  "t_87e933b8": {
+    "message": "Iskanje definicije..."
+  },
+  "t_56b79836": {
+    "message": "Definicija besede naložena."
+  },
+  "t_969b24ea": {
+    "message": "🔊 Kliknite kamor koli za vklop zvoka teme"
+  },
+  "t_49337275": {
+    "message": "Ročno označevanje"
+  },
+  "t_93324bd5": {
+    "message": "Shranjeno neposredno s spletne strani."
+  },
+  "t_82e413f3": {
+    "message": "Poenostavljanje besedila..."
+  },
+  "t_86c4f6e5": {
+    "message": "Poenostavljanje z umetno inteligenco..."
+  },
+  "t_c3e18edb": {
+    "message": "Poenostavitev ni uspela"
+  },
+  "t_6398ab2c": {
+    "message": "Raven branja: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "Kliknite za začasno obnovitev izvirnega besedila"
+  },
+  "t_9beea3e8": {
+    "message": "Trajno izbriši iz pomnilnika"
+  },
+  "t_453bb8f7": {
+    "message": "Ustvarite brezplačen račun EasyView, da prejmete $1 brezplačnih poenostavitev z umetno inteligenco na mesec in spremljate svojo kvoto.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "Poslušaj"
+  },
+  "t_24833610": {
+    "message": "Shranjeno"
+  },
+  "t_30a008cb": {
+    "message": "Preberi več &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "Shranjeno v beležnico besedišča!"
+  },
+  "t_2728e87f": {
+    "message": "Odstranjeno iz beležnice besedišča"
+  },
+  "t_6b8c66ce": {
+    "message": "Glosar ($1 izrazov)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "Odstrani pomnilnik za to stran"
+  },
+  "t_8a49fe1a": {
+    "message": "Odstrani izraz"
+  },
+  "t_1534891c": {
+    "message": "Dekodiranih $1 izrazov",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "Shrani v beležnico"
+  },
+  "t_150a2843": {
+    "message": "Počisti označbe"
+  },
+  "t_21ef939c": {
+    "message": "Shranjeno v beležnico!"
+  },
+  "t_8054da35": {
+    "message": "Hitri slovar",
+    "description": "Naslov pojavnega okna hitrega slovarja"
+  },
+  "t_4aeb2167": {
+    "message": "Beseda ni najdena",
+    "description": "Naslov nadomestnega slovarja"
+  },
+  "t_272d0070": {
+    "message": "V osnovnem slovarju nismo našli \"$1\". Morda gre za sodoben sleng, okrajšavo ali zelo tehničen žargon.",
+    "description": "Opis nadomestnega slovarja z označevalcem besede",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "Dekodiraj z Evie AI",
+    "description": "Nadomestni gumb za dekodiranje z umetno inteligenco"
+  },
+  "t_14f1f972": {
+    "message": "prek",
+    "description": "Predpona vira slovarja"
+  },
+  "t_f2faf2f1": {
+    "message": "Samostalnik",
+    "description": "Samostalnik"
+  },
+  "t_b512ddf1": {
+    "message": "Glagol",
+    "description": "Glagol"
+  },
+  "t_d807ae6a": {
+    "message": "Pridevnik",
+    "description": "Pridevnik"
+  },
+  "t_1a607278": {
+    "message": "Prislov",
+    "description": "Prislov"
+  },
+  "t_02de720d": {
+    "message": "Zaimek",
+    "description": "Zaimek"
+  },
+  "t_4b7be2c3": {
+    "message": "Predlog",
+    "description": "Predlog"
+  },
+  "t_a3c1d30b": {
+    "message": "Veznik",
+    "description": "Veznik"
+  },
+  "t_e189f001": {
+    "message": "Medmet",
+    "description": "Medmet"
+  },
+  "t_96de90f8": {
+    "message": "Kopiraj poenostavljeno besedilo",
+    "description": "Orodje za kopiranje poenostavljenega besedila"
+  },
+  "t_44a6e288": {
+    "message": "Preberi stran",
+    "description": "Orodje za branje celotne strani prek TTS"
+  },
+  "t_7d70d73b": {
+    "message": "Preberi izbrano",
+    "description": "Orodje za branje izbora prek TTS"
+  },
+  "t_11936123": {
+    "message": "Nepovratno izbriši opombo",
+    "description": "Orodje za trajni izbris lepljivega listka"
+  },
+  "t_d27532d9": {
+    "message": "Pomanjšaj"
+  },
+  "t_2bd339d8": {
+    "message": "Obnovi"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "LahkiPogled"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "Sistemsko opozorilo"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "Sistemsko obvestilo"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "Pogon\r\n                        EasyView"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "Lokalne funkcije ostajajo\r\n                        aktivne"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,580 +599,574 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "Izkušnja\r\n                        EasyView"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "EasyView uporabljate že 12 ur. Ustvarite brezplačen račun za\r\n                    shranjevanje svojih\r\n                    nastavitev, ohranitev kvote in odklepanje več funkcij."
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "Opomni me čez 12 ur"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "Svetel"
   },
   "t_7fc56270": {
-    "message": "A"
-  },
-  "t_194f5394": {
-    "message": "Font"
-  },
-  "t_5dbc98dc": {
-    "message": "S"
-  },
-  "t_69691c7b": {
     "message": "M"
   },
+  "t_194f5394": {
+    "message": "Pisava"
+  },
+  "t_5dbc98dc": {
+    "message": "M"
+  },
+  "t_69691c7b": {
+    "message": "S"
+  },
   "t_d20caec3": {
-    "message": "L"
+    "message": "V"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "Funkcije"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "Vizualno"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "Pretvornik"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "Beležnica"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "Dekoder žargona"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "Poenostavi zapletene pravne izraze"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "wikipedia.org/wiki/Nevrodivergentnost"
   },
   "t_61e9c06e": {
-    "message": "W"
+    "message": "Š"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "Nevrodivergentnost"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "veliko\r\n                                                lažje"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "Ščit za fokus in zasebnost"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "Zamegli zasebno in občutljivo vsebino"
   },
   "t_7f766191": {
-    "message": "mail.google.com/mail/u/0/"
+    "message": "posta.gugl.si/posta/u/0/"
   },
   "t_dfcf28d0": {
     "message": "G"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "Google računi"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "Varnostno opozorilo"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- Zahtevana ponastavitev gesla..."
   },
   "t_8d9c307c": {
     "message": "N"
   },
   "t_170b1d36": {
-    "message": "Netflix"
+    "message": "Netfliks"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "Novo ta teden"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- Oglejte si naše najnovejše\r\n                                                    izdaje..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "Tehnike zaščite"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "Zameglitev zasebne vsebine"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "Inteligentno zamegli WhatsApp, Gmail in vnose\r\n                                            gesel za takojšnjo vizualno varnost."
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "Samodejna zaščita pri deljenju zaslona"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "Takoj zaščiti vaš zaslon pri skupni rabi na spletu ali povezovanju z\r\n                                            zaslonom \"Extend\"."
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
+    "message": "Uporabljate\r\n                                                    fizični projektor?"
   },
   "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "Način podvajanja"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "Bralna svetilka"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "Sledi vaši miški s svetlim žarometom, ki popolnoma odpravi vizualno navlako v okolici."
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "1.\r\n                                                            Oblika žarka"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "Žaromet\r\n                                                            ali ravnalo"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "2.\r\n                                                                Velikost / Višina žarka"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "Debelina\r\n                                                                območja pogleda"
   },
   "t_f0cad41b": {
     "message": "35px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "3.\r\n                                                            Odtenek leče fokusnega žarka"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "Nežno obarva vrzel za branje"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "4.\r\n                                                            Senca ambientalnega ozadja"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "Zatemnitev okoli vaše leče"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "Senzorični ščit"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "Zamrzni moteče animacije"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "novicedneva.si/zadnje"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "UDARNA NOVICA"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "Branje članka o dnevnih novicah..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "ZMAGA!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "Način ščita"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(privzeto)"
   },
   "t_9e3360ac": {
-    "message": "PRO"
+    "message": "PROFESIONALNA"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "Ustavi samodejno predvajanje + umiri prehode pri ročni navigaciji"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "Način branja za disleksijo"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "Optimizirane pisave in razmiki"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "Profil intenzivnosti"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "Nizka"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "Srednje"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "Visoka"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "vikipedija.org/wiki/Branje"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "Branje"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "Tukaj je predogled vaših nastavitev branja."
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "Napredne možnosti"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "Slog pisave"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "Privzeto (brez sprememb)"
   },
   "t_5d2967ef": {
-    "message": "OpenDyslexic"
+    "message": "Odprto Disleksično"
   },
   "t_1042daad": {
-    "message": "Lexend (ADHD Pro) 🔒"
+    "message": "Lexend (ADHD PRO) 🔒"
   },
   "t_bcec044a": {
-    "message": "Atkinson Hyperlegible 🔒"
+    "message": "Atkinson Hiperledžibl 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "Hitri Sans"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "Hitri Serif"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "Komik Noje"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "Komik Sans"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "Razmik med črkami"
   },
   "t_960b44c5": {
-    "message": "Normal"
+    "message": "Običajno"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "Višina vrstice"
   },
   "t_60086472": {
     "message": "1.5"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "Razmik med besedami"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "Velikost pisave"
   },
   "t_30bd7ce7": {
     "message": "100%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "Barva prekrivanja"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "Brez"
   },
   "t_2bd8c63b": {
-    "message": "Beige"
+    "message": "Bež"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "Svetlo modra"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "Svetlo zelena"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "Svetlo rumena"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "Pretvorba besedila v govor"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "Glasno branje s poudarjanjem"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "Predvajaj"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "Premor"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "Ustavi"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "Izbira glasu"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "Samodejno (najboljša kakovost)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "Hitrost branja"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "Zelo počasi"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "Počasno"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "Hitro"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "Zelo hitro"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "Glasnost"
   },
   "t_f1943132": {
     "message": "70%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "Premor pri ločilih"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "Označevanje besed"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "Omogoči"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "Način"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "Temen"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "vikipedija.org/wiki/Svetloba"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "Popolna vizualna izkušnja za udobje oči. Svetloba je lahko intenzivna."
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "Svetlost"
   },
   "t_c63ecd19": {
-    "message": "Contrast"
+    "message": "Kontrast"
   },
   "t_b84a9a38": {
-    "message": "Sepia"
+    "message": "Sepija"
   },
   "t_9f1ef078": {
     "message": "0%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "Sivine"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "Privzeto"
   },
   "t_b1166920": {
-    "message": "Lexend 🔒"
+    "message": "Leksend 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "Obris besedila"
   },
   "t_cfcd2084": {
     "message": "0"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "Pametni pretvornik in bralnik"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "Trenutna datoteka"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "Kliknite ali povlecite datoteko za nalaganje"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• Pripravljeno"
   },
   "t_4c4ad5fc": {
-    "message": "HTML"
+    "message": "Spletna stran"
   },
   "t_5c31b30e": {
-    "message": "EPUB"
+    "message": "Elektronska knjiga"
   },
   "t_7cfd9a9f": {
-    "message": "DOCX"
+    "message": "Dokument"
   },
   "t_af97e960": {
     "message": "📌"
   },
   "t_4cc6684d": {
-    "message": "Global"
+    "message": "Globalno"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "Stran/spletno mesto"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "Moj zvezek"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "Počisti vse"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "Prekliči"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "Shrani besedo"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "Še ni shranjenih besed."
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "Pomaknite se nad žargon na kateri koli strani in kliknite zastavico zaznamka, da jih shranite tukaj!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "Na novo si zamislite vmesnik katerega koli spletnega mesta. Opišite, kaj želite, ali izberite\r\n                            prednastavitev."
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "Preoblikovanje\r\n                                uporabljeno"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "Postavitev AI po meri\r\n                                je aktivna na tem mestu."
   },
   "t_e8a57cd1": {
     "message": "0 /\r\n                                500"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "Ponastavi stran"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "Postavitev preoblikovanja"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "Privzete nastavitve"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "Grozljiv karneval"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "Srhljivo vzdušje karnevala in animirano grozljivo besedilo"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "Matrična konzola"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "Tema terminala Cyberpunk"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "Nevro fokus"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "Pisave, prijazne do disleksije, in pomirjujoče barve"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "Bralni način"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "Minimalistična postavitev, optimizirana za fokus"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "Nedavni pozivi"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "Gostujoči uporabnik"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "Brezplačni račun"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "Prijava / Upravljanje"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "Odjava"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "Nastavitve API-ja"
   },
   "t_766cc4dd": {
-    "message": "Gemini"
+    "message": "Dvojčka"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "Ponudnik umetne inteligence"
   },
   "t_222cf5ed": {
-    "message": "Google Gemini"
+    "message": "Gugl Džemini"
   },
   "t_a0607683": {
-    "message": "OpenRouter"
+    "message": "Odprti Usmerjevalnik"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "Ključ API za Gemini"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "Gugl AI Studio"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "Ključ API za OpenRouter"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "Shrani ključ API"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "EasyView\r\n                                    Prednost AI"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ Moj ključ API"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 Strežniki EasyView"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "Izberite,\r\n                                kaj se najprej uporabi za vse funkcije AI. Če vašega ključa zmanjka, se strežniki EasyView\r\n                                vedno uporabijo kot rezerva."
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "Zasebnost\r\n                                    & Prednost"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "Prednostna naloga 1:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "Prednostna naloga 2:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "Opomba motorja za\r\n                                            preoblikovanje:"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "nikoli"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "Pomoč in povratne informacije"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "Imate vprašanje, našli napako ali želite predlagati funkcijo? Radi bi slišali vaše mnenje!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "Prijavi napako / podaj povratne informacije"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Pripravljen na poenostavitev"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "Izvozi nastavitve"
   },
   "t_9d5ed678": {
-    "message": "B"
+    "message": "K"
   },
   "t_dd753679": {
-    "message": "I"
+    "message": "P"
   },
   "t_20a1d47c": {
     "message": "✎"
   },
   "t_4c614360": {
-    "message": "U"
+    "message": "P"
   },
   "t_2f43b42f": {
     "message": "..."
@@ -615,25 +1175,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "Moč"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "Motnost"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "Teža"
   },
   "t_18d80423": {
     "message": "400"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "Višina\r\n                                vrstice"
   },
   "t_f522dede": {
     "message": "1.7x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "Preskoči"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,25 +1202,25 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "Označi"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "ČRNILO"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "ZATEMNITEV"
   },
   "t_e8bfe352": {
-    "message": "Lexend 👑"
+    "message": "Leksend 👑"
   },
   "t_0cd4623c": {
-    "message": "Atkinson Hyperlegible 👑"
+    "message": "Atkinson Hiperledžibl 👑"
   },
   "t_6fbda3a3": {
-    "message": "Arial"
+    "message": "Arijal"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "Helvetika"
   },
   "t_207c3219": {
     "message": "Verdana"
@@ -669,34 +1229,34 @@
     "message": "Tahoma"
   },
   "t_720661ec": {
-    "message": "Trebuchet MS"
+    "message": "Trebušet MS"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "Sistemski Sans"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "Tajms Nju Roman"
   },
   "t_eada8196": {
-    "message": "Georgia"
+    "message": "Džordžija"
   },
   "t_96a78725": {
     "message": "Garamond"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "Sistemski Serif"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "Komik Sans MS"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "Kurir Novo"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "Enakomerni razmik"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "Velikost\r\n                            pisave"
   },
   "t_f4f9f2f4": {
     "message": "14px"
@@ -723,7 +1283,7 @@
     "message": "32px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "Končano"
   },
   "t_63922286": {
     "message": "×"
@@ -732,154 +1292,34 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "Izvozi knjižnico tem"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "Shranite svoje mojstrovine, ustvarjene z umetno inteligenco,\r\n                lokalno."
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "Izvozi celotno knjižnico"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
-  },
-  "t_ccca2ddf": {
-    "message": "EasyView Reader"
-  },
-  "t_8524de96": {
-    "message": "Loading..."
-  },
-  "t_25e8f2fd": {
-    "message": "Please wait..."
-  },
-  "t_ec9d785d": {
-    "message": "1.5x"
-  },
-  "t_dafd5f8f": {
-    "message": "Lexend"
-  },
-  "t_16d90a0b": {
-    "message": "Atkinson Hyperlegible"
-  },
-  "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
-  },
-  "t_f7cee5ea": {
-    "message": "Calibri"
-  },
-  "t_ccc0239e": {
-    "message": "Candara"
-  },
-  "t_2963521b": {
-    "message": "Corbel"
-  },
-  "t_37f1cc58": {
-    "message": "Cambria"
-  },
-  "t_c3d9d4bf": {
-    "message": "Constantia"
-  },
-  "t_5d1a5b35": {
-    "message": "Palatino Linotype"
-  },
-  "t_4dc386b6": {
-    "message": "Book Antiqua"
-  },
-  "t_03c461f6": {
-    "message": "Franklin Gothic"
-  },
-  "t_7b1ee3b6": {
-    "message": "Century Gothic"
-  },
-  "t_a3293302": {
-    "message": "Gill Sans"
-  },
-  "t_eb726908": {
-    "message": "Sitka Text"
-  },
-  "t_b5bdee2c": {
-    "message": "Sylfaen"
-  },
-  "t_1ec05249": {
-    "message": "Microsoft Sans Serif"
-  },
-  "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
-  },
-  "t_16507cdd": {
-    "message": "Consolas"
-  },
-  "t_391c5954": {
-    "message": "Lucida Console"
-  },
-  "t_9879efdf": {
-    "message": "Lucida Sans Typewriter"
-  },
-  "t_21f59b54": {
-    "message": "Impact"
-  },
-  "t_94a7bb97": {
-    "message": "Arial Black"
-  },
-  "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
-  },
-  "t_40885309": {
-    "message": "Berlin Sans FB"
-  },
-  "t_6d5566ba": {
-    "message": "Gabriola"
-  },
-  "t_edb42482": {
-    "message": "Ink Free"
-  },
-  "t_fa233799": {
-    "message": "Segoe Script"
-  },
-  "t_2f7bc407": {
-    "message": "Segoe Print"
-  },
-  "t_0095a9fa": {
-    "message": "Export"
-  },
-  "t_520d0db3": {
-    "message": "Format"
-  },
-  "t_5956a437": {
-    "message": "TXT"
-  },
-  "t_1351017a": {
-    "message": "Filename"
-  },
-  "t_6af8212e": {
-    "message": "EasyView Notes Board"
-  },
-  "t_d16da0f5": {
-    "message": "🌎"
-  },
-  "t_6df173ff": {
-    "message": "📍"
+    "message": ".json (Datoteka JSON)"
   },
   "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
-  },
-  "js_24833610": {
-    "message": "Saved"
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Potrebno ukrepanje</div>\n            <h2 class=\"ev-si-title\">Račun<br><span class=\"ev-si-gradient-text\">Začasno ustavljen</span></h2>\n            <p class=\"ev-si-sub\">Vaš dostop do EasyView je bil omejen zaradi kršitve naših pogojev storitve.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Kontaktirajte podporo\n            </a>\n          </div>\n        </div>\n      "
   },
   "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Najprej opišite svoje preoblikovanje.</span>\n          </div>"
   },
   "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Preoblikovanje...</span>\n      "
   },
   "js_138703dd": {
-    "message": "No Theme on Page"
+    "message": "Brez teme na strani"
   },
   "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>Izvozi trenutno stran"
   },
   "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Pripravljanje..."
   },
   "js_e541190e": {
     "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
@@ -891,30 +1331,1241 @@
     "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
   },
   "js_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Pripravljen na poenostavitev"
   },
   "js_a18366b2": {
-    "message": "Dark"
+    "message": "Temen"
   },
   "js_9914a0ce": {
-    "message": "Light"
+    "message": "Svetel"
   },
   "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+    "message": "<option value=\"auto\">Samodejno (najboljša kakovost)</option>"
   },
   "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Dekodiranje..."
   },
   "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+    "message": "To se zdi <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">veliko lažje</span> za razumevanje."
   },
   "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+    "message": "To se zdi manj razumljivo."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_f05df71b": {
+    "message": "Nadgrajujemo"
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_78db2ae3": {
+    "message": "Naši strežniki AI so v postopku nadgradnje."
+  },
+  "t_bb2129c8": {
+    "message": "Odkleni polno"
+  },
+  "t_aefee7cd": {
+    "message": "Jasnost za vsak um"
+  },
+  "t_c38beca1": {
+    "message": "Windows skriva prikaze v"
+  },
+  "t_f2fe1e79": {
+    "message": "Vrednosti\r\n                                    pod 1.0 lahko stisnejo besedilo in pokvarijo postavitve."
+  },
+  "t_ca677d53": {
+    "message": "Vizualne prilagoditve"
+  },
+  "t_230b4522": {
+    "message": "Tabla z opombami"
+  },
+  "t_596b54bf": {
+    "message": "Agent za preoblikovanje AI"
+  },
+  "t_47e79a17": {
+    "message": "Pridobite brezplačni ključ na"
+  },
+  "t_42372184": {
+    "message": "Teme so izvožene kot"
+  },
+  "t_74fdc8a2": {
+    "message": "Prosimo, najprej opišite svojo preobrazbo."
+  },
+  "t_245fd3b9": {
+    "message": "Preoblikovana postavitev počiščena."
+  },
+  "t_172bd753": {
+    "message": "Tema uspešno izvožena!"
+  },
+  "t_4c34daff": {
+    "message": "Povezava je potekla. Strežnik ni dosegljiv."
+  },
+  "t_0dd56117": {
+    "message": "Na tej strani ni najdene nobene aktivne teme."
+  },
+  "t_cb5c0766": {
+    "message": "Knjižnica uspešno izvožena!"
+  },
+  "t_8adb392e": {
+    "message": "Povezava je potekla. Strežnik ni dosegljiv."
+  },
+  "t_ae94e0e4": {
+    "message": "Vaša knjižnica tem je prazna."
+  },
+  "t_10a0c40b": {
+    "message": "Tema po meri uspešno naložena!"
+  },
+  "t_9b6007a8": {
+    "message": "Napaka pri branju datoteke teme."
+  },
+  "t_d4fa051d": {
+    "message": "Napaka: $1. Prosimo, ponovno naložite zavihek.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "Uporabljeno: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "Obnovljenih $1 tem iz knjižnice!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "Jezikovne nastavitve"
+  },
+  "t_lang_updated_reload": {
+    "message": "Jezik posodobljen. Ponovno nalaganje..."
+  },
+  "t_transformation_failed": {
+    "message": "Preoblikovanje ni uspelo."
+  },
+  "t_c8a59e71": {
+    "message": "Opusti"
+  },
+  "t_7764306b": {
+    "message": "Vzdrževanje storitev v oblaku aktivno"
+  },
+  "t_248228de": {
+    "message": "Preklopi pisavo za disleksijo v pojavnem oknu"
+  },
+  "t_79a59320": {
+    "message": "Začni ogled aplikacije"
+  },
+  "t_533bff5b": {
+    "message": "Pripni lepljivi listek na stran (Alt+S)"
+  },
+  "t_f4f70727": {
+    "message": "Nastavitve"
+  },
+  "t_4fd11104": {
+    "message": "Krožni žaromet"
+  },
+  "t_0d063af1": {
+    "message": "Vodoravno ravnilo 🔒"
+  },
+  "t_60d71580": {
+    "message": "Jasna svetloba"
+  },
+  "t_efe48742": {
+    "message": "Jantarni fokus"
+  },
+  "t_610a09ca": {
+    "message": "Hladna cian"
+  },
+  "t_886f6b9e": {
+    "message": "Zelena za počitek"
+  },
+  "t_65e8194e": {
+    "message": "Popolnoma črna"
+  },
+  "t_7243ed99": {
+    "message": "Polnočna skrilavina"
+  },
+  "t_ec6d8325": {
+    "message": "Globok gozd"
+  },
+  "t_4af435e0": {
+    "message": "Vampirsko rdeča"
+  },
+  "t_2a7dbdf8": {
+    "message": "Profesionalna funkcija"
+  },
+  "t_fc4aec61": {
+    "message": "Odpri v bralniku"
+  },
+  "t_801ab246": {
+    "message": "Prenesi"
+  },
+  "t_aa3880dc": {
+    "message": "Prenesi kot HTML"
+  },
+  "t_e0781e81": {
+    "message": "Prenesi kot EPUB"
+  },
+  "t_442ff212": {
+    "message": "Prenesi kot DOCX"
+  },
+  "t_6244ee7c": {
+    "message": "Ročno dodaj izraz po meri"
+  },
+  "t_6e7d015f": {
+    "message": "Uvozi datoteko CSV"
+  },
+  "t_edbc5415": {
+    "message": "Izvozi za Anki / Quizlet"
+  },
+  "t_46c29f7a": {
+    "message": "Naloži temo"
+  },
+  "t_2bd65c5d": {
+    "message": "Izvozi temo"
+  },
+  "t_c1c433ac": {
+    "message": "Aktivni ponudnik AI"
+  },
+  "t_90c09393": {
+    "message": "Pikčasto"
+  },
+  "t_eb656e41": {
+    "message": "Črtkano"
+  },
+  "t_0c99ddee": {
+    "message": "Barva označevanja"
+  },
+  "t_eaf63759": {
+    "message": "Barva črnila"
+  },
+  "t_a183c9f0": {
+    "message": "Barva zatemnitve"
+  },
+  "t_75e7422f": {
+    "message": "Barva ozadja"
+  },
+  "t_42f9ceea": {
+    "message": "Išči po shranjenem leksikonu..."
+  },
+  "t_0e84a8cf": {
+    "message": "Vnesite besedo ali akronim..."
+  },
+  "t_eea6890c": {
+    "message": "Pomen / prevod..."
+  },
+  "t_4480cf46": {
+    "message": "Spominski trik ali študijska opomba (neobvezno)..."
+  },
+  "t_d8634fbf": {
+    "message": "npr. Spremenite v rožnato temo v slogu anime z zaobljenimi karticami ali preoblikujte v retro temno zeleno terminalsko konzolo..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "Lepljivi listki"
+  },
+  "t_b097d277": {
+    "message": "Dodaj besedo"
+  },
+  "t_1eeb67ee": {
+    "message": "Izvozi trenutno stran"
+  },
+  "t_b62ded9a": {
+    "message": "Storitve v oblaku brez povezave"
+  },
+  "t_263e00eb": {
+    "message": "Prijava / Ustvari račun"
+  },
+  "t_7748eb3b": {
+    "message": "NADGRAJEVANJE"
+  },
+  "t_81a5d20b": {
+    "message": "Zamrzni vse"
+  },
+  "t_e61146d9": {
+    "message": "Pomirjujoče zatemnitve"
+  },
+  "t_57323916": {
+    "message": "Ustavi samodejno predvajanje"
+  },
+  "t_f50319ea": {
+    "message": "Popolna zaščita"
+  },
+  "t_8e13f26d": {
+    "message": "Hitro vprašanje"
+  },
+  "t_134b26da": {
+    "message": "Ali uživate v<br><span class=\"ev-si-gradient-text\">EasyView?</span>"
+  },
+  "t_b75bdd9e": {
+    "message": "Vaše povratne informacije nam pomagajo pri izboljšavah.<br>Ali uživate v izkušnji?"
+  },
+  "t_396d1ff8": {
+    "message": "Da, sem!"
+  },
+  "t_7d0cacf3": {
+    "message": "Potrebuje delo"
+  },
+  "t_815142c9": {
+    "message": "Podprite nas"
+  },
+  "t_abd9fa39": {
+    "message": "Bi bili pripravljeni<br><span class=\"ev-si-gradient-text\">pustiti oceno?</span>"
+  },
+  "t_02991e61": {
+    "message": "Ocene uporabnikov, kot ste vi, so najboljši način za pomoč pri rasti EasyView. Vzame le minuto!"
+  },
+  "t_db49c1f2": {
+    "message": "Oceni zdaj"
+  },
+  "t_7a4f0d12": {
+    "message": "Opomni me kasneje"
+  },
+  "t_fee6c0e9": {
+    "message": "Zasebne povratne informacije"
+  },
+  "t_74393dde": {
+    "message": "Kaj lahko <span class=\"ev-si-gradient-text\">izboljšamo?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "Povejte nam, kaj je šlo narobe..."
+  },
+  "t_6f97affc": {
+    "message": "Pošlji povratne informacije"
+  },
+  "t_b20871b3": {
+    "message": "Prosimo, vnesite svoje povratne informacije"
+  },
+  "t_7b0fee4d": {
+    "message": "Pošiljanje..."
+  },
+  "t_fb631633": {
+    "message": "Hvala za vaše povratne informacije."
+  },
+  "t_08727add": {
+    "message": "Glejte splet po svoje."
+  },
+  "t_15bbb9d0": {
+    "message": "Spletno mesto"
+  },
+  "t_c5f29bb3": {
+    "message": "Zasebnost"
+  },
+  "t_ad5b1a22": {
+    "message": "Ustanovitelj"
+  },
+  "t_db496e03": {
+    "message": "Osebni ključi ustvarijo neposredno, 100% zasebno povezavo z AI. Vaše besedilo nikoli ne doseže strežnikov EasyView."
+  },
+  "t_387c35b3": {
+    "message": "Naš upravljani strežnik (Premium) deluje kot zanesljiva varnostna kopija, če ključ ni prisoten ali če vaš ključ ne deluje."
+  },
+  "t_98bc5a17": {
+    "message": "Za zaščito lastniških algoritmov se vaš ključ na kratko usmeri prek našega varnega strežnika za preverjanje pristnosti pri Googlu. Je"
+  },
+  "t_de47f1be": {
+    "message": "shranjen ali zabeležen."
+  },
+  "t_25e02e7f": {
+    "message": "Aktivno: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ Član Premium"
+  },
+  "t_df56cfae": {
+    "message": "⭐ Doživljenjski član"
+  },
+  "t_41cbc704": {
+    "message": " dni preostalo"
+  },
+  "t_b194bd82": {
+    "message": "Nikoli ne poteče"
+  },
+  "t_9f830444": {
+    "message": "⭐ Profesionalno:"
+  },
+  "t_61b82be6": {
+    "message": " preostalih preoblikovanj"
+  },
+  "t_c20e7ceb": {
+    "message": " preostalih brezplačnih preoblikovanj"
+  },
+  "t_d7087930": {
+    "message": " preostalih brezplačnih uporab"
+  },
+  "t_4bbf11bd": {
+    "message": "Polji Izraz in Pomen ne smeta ostati prazni!"
+  },
+  "t_08f09d38": {
+    "message": "Podrobnosti o besedi uspešno posodobljene!"
+  },
+  "t_32001b52": {
+    "message": "Prosimo, vnesite besedo in njen pomen."
+  },
+  "t_b8115861": {
+    "message": "Vaš študijski zvezek je prazen. Najprej dodajte zaznamke besedam na spletnih straneh!"
+  },
+  "t_7114113b": {
+    "message": "Najprej se prijavite v svoj račun EasyView, da preverite svoje funkcije Pro!"
+  },
+  "t_093f9fa0": {
+    "message": "Vaš žeton seje manjka. Prosimo, prijavite se znova na easyview.in, da obnovite dostop."
+  },
+  "t_0e065596": {
+    "message": "To je preverjena funkcija samo za Premium. Nadgradite na Pro za odklepanje!"
+  },
+  "t_c792a645": {
+    "message": "Povezava z varnim strežnikom za izvoz ni uspela. Poskusite znova kmalu."
+  },
+  "t_8d1a2675": {
+    "message": "V tej datoteki CSV ni bilo mogoče prepoznati nobenih veljavnih besednih elementov."
+  },
+  "t_a613ed90": {
+    "message": "Napaka pri pisanju v shrambo brskalnika! Datoteka je morda prevelika za lokalni predpomnilnik."
+  },
+  "t_8efe87ab": {
+    "message": "Brskalnik ni uspel prebrati vaše lokalne datoteke."
+  },
+  "t_50bf63aa": {
+    "message": "Ali ste prepričani, da želite izbrisati vse shranjene besede iz svojega zvezka?"
+  },
+  "t_ff252710": {
+    "message": "Uvoz končan: Vseh $1 vnosov že obstaja v vašem zvezku.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "Napaka pri razčlenjevanju CSV: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "\"$1\" je že v vašem zvezku. Ali želite dodati še eno definicijo zanj?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "Uspešna odjava"
+  },
+  "t_dbd35100": {
+    "message": "Pogon za preoblikovanje že deluje..."
+  },
+  "t_2de4e55d": {
+    "message": "Preoblikovana postavitev počiščena"
+  },
+  "t_1bb9196d": {
+    "message": "Preoblikovano: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "Preoblikovanje ni uspelo: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "Sproženo: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 elementov organiziranih",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "To bo trajno izbrisalo to opombo na vseh sinhroniziranih napravah. Nadaljujem?"
+  },
+  "t_25abf697": {
+    "message": "Izvoz v EPUB zahteva JSZip."
+  },
+  "t_71609188": {
+    "message": "Izvoz v DOCX zahteva html-docx-js."
+  },
+  "t_e1499766": {
+    "message": "Nobena datoteka ni naložena."
+  },
+  "t_023b3355": {
+    "message": "Ščit zasebnosti aktiviran"
+  },
+  "t_9483a5da": {
+    "message": "Ščit zasebnosti deaktiviran"
+  },
+  "t_a04202db": {
+    "message": "Poudarki začasno skriti"
+  },
+  "t_b3d6b264": {
+    "message": "Označbe obnovljene"
+  },
+  "t_7485c55e": {
+    "message": "Dobrodošli v EasyView! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "Vaš kognitivni most, ki ga poganja AI, za lažje branje spleta. Oglejmo si kratek ogled funkcij."
+  },
+  "t_3a1fe637": {
+    "message": "Dekoder žargona 📖"
+  },
+  "t_89cec86e": {
+    "message": "Poenostavi zapleteno terminologijo na kateri koli spletni strani."
+  },
+  "t_f8aefae7": {
+    "message": "Ščit zasebnosti 🔐"
+  },
+  "t_aa860f86": {
+    "message": "Zamegli občutljive podatke in vključuje bralno ravnilo za branje brez motenj."
+  },
+  "t_0681a3b6": {
+    "message": "Senzorični ščit 🛡️"
+  },
+  "t_6118b864": {
+    "message": "Zamrzne moteče GIF-e in animacije."
+  },
+  "t_12ec6fc6": {
+    "message": "Način branja za disleksijo 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "Optimizirane pisave in razmiki za lažje branje."
+  },
+  "t_18d9ce63": {
+    "message": "Pretvorba besedila v govor 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "Poslušajte katero koli spletno stran s poudarjanjem besed."
+  },
+  "t_0019a700": {
+    "message": "Motor za preoblikovanje ✨"
+  },
+  "t_47c2535a": {
+    "message": "Uporabite umetno inteligenco za preoblikovanje katerega koli spletnega mesta v temo ali postavitev po meri."
+  },
+  "t_2ed2f639": {
+    "message": "Samolepilni listki 📝"
+  },
+  "t_75025b5f": {
+    "message": "Pripnite lebdeče lepljive listke na katero koli spletno stran, da shranite pomembne informacije (Alt+S)."
+  },
+  "t_3ff2d7cc": {
+    "message": "Konfiguracija API ⚙️"
+  },
+  "t_0754e836": {
+    "message": "Prijavite se za sinhronizacijo svoje kvote ali tukaj nastavite svoj brezplačni ključ Gemini API."
+  },
+  "t_7b6a2059": {
+    "message": "Korak $1 od $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "Začnite!"
+  },
+  "t_10ac3d04": {
+    "message": "Naprej"
+  },
+  "t_5c7a52b8": {
+    "message": "Pritisni "
+  },
+  "t_a1b2c3d4": {
+    "message": " kadar koli za ročni vklop ščita samodejne zaščite."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ Ščit zasebnosti aktiviran"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 Ščit zasebnosti deaktiviran"
+  },
+  "js_9b3e1a": {
+    "message": "EasyView analizira postavitev in preoblikuje..."
+  },
+  "js_4c8d2f": {
+    "message": "Definiraj"
+  },
+  "js_7a1e9b": {
+    "message": "Dekodiraj"
+  },
+  "js_2d5f8c": {
+    "message": "Poenostavi"
+  },
+  "js_6e3a4d": {
+    "message": "Zaznamek"
+  },
+  "js_1f9b7c": {
+    "message": "Označi"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "Analiziranje drevesa DOM..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "Nepregledna postavitev..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "Izravnavanje strukture..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[PREOBREMENITEV_HRUPA]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "Odstranjevanje motenj..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "Kompleksna vozlišča"
+  },
+  "js_ldr_m4_cl": {
+    "message": "Uporaba pravil za disleksijo..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "Upodabljanje vmesnika EasyView..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "Skeniranje bloka besedila..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "Preveč besed..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "Izvlečenje bistvenega pomena..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "Kognitivna obremenitev"
+  },
+  "js_ldr_s3_cl": {
+    "message": "Priprava enostavnejše angleščine..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "Besedna umetna inteligenca..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "Uporaba berljivosti..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "Poliranje izhoda..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "Prevajanje žargona..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "Napaka: Zmeda"
+  },
+  "js_ldr_j2_cl": {
+    "message": "Iskanje definicij..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[PREOBREMENITEV_HRUPA]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "Poenostavljanje konteksta..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "Neznani izrazi"
+  },
+  "js_ldr_j4_cl": {
+    "message": "Uporaba jasnosti..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "Oblikovanje rezultatov..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "Poglobljena analiza..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "Zaključevanje logike AI..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "Zaganjam umetno inteligenco..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "Skoraj končano..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "Gost promet..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "Traja malo dlje..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "Še vedno delam..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "Počakajte trenutek..."
+  },
+  "t_b7012ab9": {
+    "message": "Preoblikuj"
+  },
+  "t_c5e8b1d9": {
+    "message": "Profesionalne pisave"
+  },
+  "t_c8f2ba19": {
+    "message": "Zamegljevanje zasebne vsebine omogočeno"
+  },
+  "t_e2dae61a": {
+    "message": "Zamegljevanje zasebne vsebine onemogočeno"
+  },
+  "t_c74de318": {
+    "message": "Samodejna zaščita pri deljenju zaslona omogočena"
+  },
+  "t_a5fd56f4": {
+    "message": "Samodejna zaščita pri deljenju zaslona onemogočena"
+  },
+  "t_ab8d1f2a": {
+    "message": "Način svetilke omogočen"
+  },
+  "t_2bf5cc98": {
+    "message": "Način svetilke onemogočen"
+  },
+  "t_513bb93f": {
+    "message": "Bionično branje"
+  },
+  "t_5a8b2c1d": {
+    "message": "Tukaj je predogled vaših nastavitev branja."
+  },
+  "t_ac1d4e5f": {
+    "message": "Brez"
+  },
+  "t_b2e3f4a1": {
+    "message": "Široko"
+  },
+  "t_c3f4a5b2": {
+    "message": "Zelo široko"
+  },
+  "t_d1a3c901": {
+    "message": "Klik"
+  },
+  "t_b4f2e891": {
+    "message": "Pripni na element"
+  },
+  "t_c9a1b302": {
+    "message": "Presledek"
+  },
+  "t_f6d4e203": {
+    "message": "Globalna opomba"
+  },
+  "t_e2b3f104": {
+    "message": "Izhod"
+  },
+  "t_a7c0d905": {
+    "message": "Prekliči"
+  },
+  "t_e1b2c301": {
+    "message": "Samo ta stran"
+  },
+  "t_f7a3b402": {
+    "message": "To spletno mesto"
+  },
+  "t_a8c4d503": {
+    "message": "Vsa spletna mesta (Globalno)"
+  },
+  "t_b9d5e604": {
+    "message": "Skrij do ponovnega nalaganja"
+  },
+  "t_c0e6f705": {
+    "message": "Pripni opombo na element"
+  },
+  "t_d1f7a806": {
+    "message": "Spremeni barvo zapiska"
+  },
+  "t_e2a8b907": {
+    "message": "Strni/razširi opombo"
+  },
+  "t_f3b9c008": {
+    "message": "Kopiraj vsebino zapiska"
+  },
+  "t_a4c0d109": {
+    "message": "Več dejanj"
+  },
+  "t_b5d1e200": {
+    "message": "Izbriši ta zapisek"
+  },
+  "t_e87033a2": {
+    "message": "Alt + P"
+  },
+  "t_4120201a": {
+    "message": "Brezplačni preizkus je aktiven"
+  },
+  "t_6ed40ffb": {
+    "message": "Sinhroniziraj nastavitve med napravami"
+  },
+  "t_f8b8a5fd": {
+    "message": "Višja kvota brezplačne uporabe"
+  },
+  "t_440b106d": {
+    "message": "Dostop do prihodnjih profesionalnih funkcij"
+  },
+  "t_3a99076c": {
+    "message": "Omejitev Premium"
+  },
+  "t_545f6c2f": {
+    "message": "Neomejeno"
+  },
+  "t_ad23f4a0": {
+    "message": "Prostorski zapiski"
+  },
+  "t_04f2f045": {
+    "message": "Uspešno ste razporedili vseh 15 opomb brezplačnega paketa po spletu. Nadgradite na EasyView Premium, da odklenete neskončen prostorski pomnilnik in barve po meri."
+  },
+  "t_cf874b99": {
+    "message": "Odkleni Premium"
+  },
+  "t_a6d36e2f": {
+    "message": "Vsi lokalni nadzori dostopnosti (aktivni)"
+  },
+  "t_b0b69bc3": {
+    "message": "Pogon za pretvorbo besedila v govor (aktiven)"
+  },
+  "t_cc96c21a": {
+    "message": "Funkcije AI v oblaku (brez povezave)"
+  },
+  "t_7af6f6e5": {
+    "message": "Razumem"
+  },
+  "t_9bc7102e": {
+    "message": "Ustvarite brezplačen račun EasyView za sledenje svoji kvoti in odklepanje dekoderja žargona."
+  },
+  "t_ab7512fd": {
+    "message": "Vaš žeton seje manjka. Prosimo, prijavite se znova na easyview.in, da obnovite dostop."
+  },
+  "t_1cd7820a": {
+    "message": "SAMO PREMIUM DOSTOP"
+  },
+  "t_8eb14032": {
+    "message": "Dekoder žargona<br><span class=\"ev-si-gradient-text\">Kvota dosežena</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "KVOTA PORABLJENA"
+  },
+  "t_5ae983dc": {
+    "message": "Ta mesec ste porabili vseh <strong>5 brezplačnih dekodiranj</strong>. Odklenite neomejen dostop v nekaj sekundah."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> Pojdi na Premium — Neomejena dekodiranja</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> Uporabite svoj ključ API</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 Dodaj ključ API v nastavitvah</button>"
+  },
+  "t_9be4129a": {
+    "message": "Izvoznik študijskega kompleta<br><span class=\"ev-si-gradient-text\">Premium avtomatizacija</span>"
+  },
+  "t_fac34185": {
+    "message": "Takoj izvozite celoten študijski zvezek po meri neposredno v <strong>Anki</strong> in <strong>Quizlet</strong>."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Opustite ročno tipkanje</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Prevajalnik kartic RFC-4180</div>"
+  },
+  "t_da12c30b": {
+    "message": "Premium dostop"
+  },
+  "t_4a9b2c01": {
+    "message": "Ta funkcija"
+  },
+  "t_3be78c01": {
+    "message": "Ta pisava za branje pri disleksiji"
+  },
+  "t_0ad4b971": {
+    "message": "Ta vizualna pisava"
+  },
+  "t_9af42be8": {
+    "message": "Ta premium pisava za izvoz"
+  },
+  "t_cbae8349": {
+    "message": "Nadgradite za odklepanje vseh funkcij dostopnosti in naprednih orodij."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Napredna dostopnost</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Vse prihodnje posodobitve</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ Nadgradi na Premium"
+  },
+  "t_5ef4c1a2": {
+    "message": "Morda kasneje"
+  },
+  "t_3b7a5e82": {
+    "message": ", vendar funkcije AI morda začasno niso na voljo."
+  },
+  "t_c91d8e12": {
+    "message": "Splošno"
+  },
+  "t_b42f3a9d": {
+    "message": "Definicija"
+  },
+  "t_f1d4a8e6": {
+    "message": "Slovar"
+  },
+  "t_e398c71f": {
+    "message": "Po meri"
+  },
+  "t_a72df9e5": {
+    "message": "Medicinsko"
+  },
+  "t_d8f2c61a": {
+    "message": "Pravno"
+  },
+  "t_b3e1f5d2": {
+    "message": "Finančno"
+  },
+  "t_c25d81f9": {
+    "message": "Tehnologija"
+  },
+  "t_e1b3a4f6": {
+    "message": "Akademsko"
+  },
+  "t_d5f9b4c1": {
+    "message": "Izraz"
+  },
+  "t_f7a2e8ea": {
+    "message": "Kategorija"
+  },
+  "t_e3b1c6d9": {
+    "message": "Poenostavljen pomen"
+  },
+  "t_a9d4e5f2": {
+    "message": "Študijske opombe / kontekst"
+  },
+  "t_b4c5d6e7": {
+    "message": "Prekliči"
+  },
+  "t_c8f2a1b4": {
+    "message": "Shrani spremembe"
+  },
+  "t_8c17b5e6": {
+    "message": "Vaš žeton seje manjka. Prosimo, prijavite se znova na easyview.in, da obnovite dostop."
+  },
+  "t_a43dc219": {
+    "message": "Ustvarite brezplačen račun EasyView, da spremljate svojo kvoto uporabe in odklenete motor AI Morph."
+  },
+  "t_54c523fe": {
+    "message": "🎉 Brezhibno! Uspešno uvoženih $1 novih študijskih kartic."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 Brezhibno! Uvoženih $1 novih kartic. ($2 podvojenih kartic preskočenih.)"
+  },
+  "t_14894d12": {
+    "message": "Izvoz teme"
+  },
+  "t_f27a2629": {
+    "message": "Varnostna kopija knjižnice tem"
+  },
+  "t_9ad85e17": {
+    "message": "Način bralnega ravnila"
+  },
+  "t_b9d4e7a5": {
+    "message": "Napredni načini senzoričnega ščita"
+  },
+  "t_94f4f7e4": {
+    "message": "Razčlenjevanje DOCX...",
+    "description": "Stanje pri razčlenjevanju DOCX v bralniku"
+  },
+  "t_120adfc1": {
+    "message": "Razčlenjevanje EPUB...",
+    "description": "Stanje pri razčlenjevanju EPUB v bralniku"
+  },
+  "t_5d2a45b8": {
+    "message": "Način bralnega ravnila je ekskluziven za naročnine Pro.",
+    "description": "Opozorilo, ko uporabnik brez naročnine Pro dostopa do bralnega ravnila"
+  },
+  "t_c1f29623": {
+    "message": "Uredi celotno kartico",
+    "description": "Orodje za urejanje celotne kartice v beležnici"
+  },
+  "t_1063e38c": {
+    "message": "Odstrani",
+    "description": "Orodje za odstranitev kartice iz beležnice"
+  },
+  "t_ccca2ddf": {
+    "message": "Bralnik EasyView"
+  },
+  "t_8524de96": {
+    "message": "Nalaganje..."
+  },
+  "t_25e8f2fd": {
+    "message": "Prosimo, počakajte..."
+  },
+  "t_ec9d785d": {
+    "message": "1.5x"
+  },
+  "t_dafd5f8f": {
+    "message": "Leksend"
+  },
+  "t_16d90a0b": {
+    "message": "Atkinson Hiperledžibl"
+  },
+  "t_5c7db066": {
+    "message": "Segoe UI (privzeto v sistemu Windows)"
+  },
+  "t_f7cee5ea": {
+    "message": "Kalibri"
+  },
+  "t_ccc0239e": {
+    "message": "Kandara"
+  },
+  "t_2963521b": {
+    "message": "Korbel"
+  },
+  "t_37f1cc58": {
+    "message": "Kambrija"
+  },
+  "t_c3d9d4bf": {
+    "message": "Konstantija"
+  },
+  "t_5d1a5b35": {
+    "message": "Palatino Lajnotajp"
+  },
+  "t_4dc386b6": {
+    "message": "Knjiga Antikva"
+  },
+  "t_03c461f6": {
+    "message": "Franklin Gotik"
+  },
+  "t_7b1ee3b6": {
+    "message": "Senčuri Gotik"
+  },
+  "t_a3293302": {
+    "message": "Gil Sans"
+  },
+  "t_eb726908": {
+    "message": "Sitka Besedilo"
+  },
+  "t_b5bdee2c": {
+    "message": "Silfaen"
+  },
+  "t_1ec05249": {
+    "message": "Majkrosoft Sans Serif"
+  },
+  "t_ad4a300c": {
+    "message": "Sego UI Semibold"
+  },
+  "t_16507cdd": {
+    "message": "Konsolas"
+  },
+  "t_391c5954": {
+    "message": "Lusida Konsol"
+  },
+  "t_9879efdf": {
+    "message": "Lusida Sans Tajpraiter"
+  },
+  "t_21f59b54": {
+    "message": "Impakt"
+  },
+  "t_94a7bb97": {
+    "message": "Arijal Črna"
+  },
+  "t_6e87c2cb": {
+    "message": "Koperplejt Gotik"
+  },
+  "t_40885309": {
+    "message": "Berlinska pisava FB"
+  },
+  "t_6d5566ba": {
+    "message": "Gabrijola"
+  },
+  "t_edb42482": {
+    "message": "Črnilo Brezplačno"
+  },
+  "t_fa233799": {
+    "message": "Segoe Pisava"
+  },
+  "t_2f7bc407": {
+    "message": "Segoe Tisk"
+  },
+  "t_0095a9fa": {
+    "message": "Izvozi"
+  },
+  "t_520d0db3": {
+    "message": "Oblika"
+  },
+  "t_5956a437": {
+    "message": "BES"
+  },
+  "t_1351017a": {
+    "message": "Ime datoteke"
+  },
+  "t_d4c3c15b": {
+    "message": "Nobena datoteka ni naložena"
+  },
+  "t_0ca5a078": {
+    "message": "Prosimo, uporabite zavihek Pretvornik za nalaganje datoteke."
+  },
+  "t_c9857e16": {
+    "message": "Nepodprta vrsta datoteke."
+  },
+  "t_6b447b91": {
+    "message": "Napaka pri razčlenjevanju datoteke: "
+  },
+  "t_7f4588be": {
+    "message": "Elektronska knjiga"
+  },
+  "t_12dc65c2": {
+    "message": "Preklopi svetlo/temno"
+  },
+  "t_d3d2e617": {
+    "message": "Zapri"
+  },
+  "t_6e8cfcb7": {
+    "message": "Varen izvoz na strežnik (Premium)"
+  },
+  "t_2f9df658": {
+    "message": "Odlepi in postavi delovni prostor nad vsa okna"
+  },
+  "t_72d6d7a1": {
+    "message": "Uvozi"
+  },
+  "t_de93d5fd": {
+    "message": "Izvozi opombe"
+  },
+  "t_a1aacca9": {
+    "message": "Lebdeči OS"
+  },
+  "t_ac0b844f": {
+    "message": "Globalne opombe"
+  },
+  "t_15866f1d": {
+    "message": "Opombe za spletno mesto"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
+  },
+  "t_6af8212e": {
+    "message": "Plošča z opombami EasyView"
+  },
+  "t_d16da0f5": {
+    "message": "🌎"
+  },
+  "t_6df173ff": {
+    "message": "📍"
+  },
+  "t_22f58a00": {
+    "message": "🌎 Globalna opomba"
+  },
+  "t_5be8bbeb": {
+    "message": "🌐 Opomba za spletno mesto"
+  },
+  "t_59a56663": {
+    "message": "📍 Opomba na strani"
+  },
+  "t_c1843696": {
+    "message": "Preverjanje žetona integritete..."
+  },
+  "t_58038ee4": {
+    "message": "Pravkar"
+  },
+  "t_e254e1a1": {
+    "message": "pred $1m",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_121d4d02": {
+    "message": "pred $1h",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_19d2b280": {
+    "message": "pred $1d",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_d3d4311c": {
+    "message": "Povleci opombo"
+  },
+  "t_7b32ea16": {
+    "message": "Preklopi na $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_11916b28": {
+    "message": "Obseg namestitve"
+  },
+  "t_5463fe67": {
+    "message": "Barvna paleta"
+  },
+  "t_d116d454": {
+    "message": "Strni opombo"
+  },
+  "t_be9ba0e5": {
+    "message": "Kopiraj besedilo"
+  },
+  "t_28471624": {
+    "message": "Več dejanj"
+  },
+  "t_90e467df": {
+    "message": "Zapri opombo"
+  },
+  "t_34494920": {
+    "message": "Tukaj vnesite svojo opombo..."
+  },
+  "t_bdda0b60": {
+    "message": "O čem ste razmišljali..."
+  },
+  "t_8689de27": {
+    "message": "Na voljo povsod"
+  },
+  "t_c0cf9810": {
+    "message": "Teleportiraj nazaj na izvorno stran"
+  },
+  "t_24a23176": {
+    "message": "Izvorni kontekst"
   }
 }

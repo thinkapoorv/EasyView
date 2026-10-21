@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "EasyView — aiškumas kiekvienam protui"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "Lengvas rodinys"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "Akimirksniu pakeiskite bet kurią svetainę naudodami DI raginimus arba vienu paspaudimu. Matykite žiniatinklį savaip."
+  },
+  "t_68ba0232": {
+    "message": "Disleksijos režimas įjungtas"
+  },
+  "t_85f47a25": {
+    "message": "Disleksijos režimas išjungtas"
+  },
+  "t_1cc1b64d": {
+    "message": "Nepakanka turinio analizei"
+  },
+  "t_cebe6412": {
+    "message": "Nerasta sudėtingų terminų"
+  },
+  "t_b964aa0f": {
+    "message": "Klaida analizuojant puslapio turinį"
+  },
+  "t_956c104e": {
+    "message": "Puslapio atmintis išvalyta"
+  },
+  "t_1f4b0f3e": {
+    "message": "Žodynėlis išvalytas"
+  },
+  "t_4bfeec37": {
+    "message": "Pasirinkime nerasta sudėtingų terminų"
+  },
+  "t_1b5e8531": {
+    "message": "Pasirinkime nerasta sudėtingų terminų"
+  },
+  "t_a1f781ec": {
+    "message": "Klaida dekoduojant pasirinktį"
+  },
+  "t_7aae8122": {
+    "message": "Pasirinkimo paryškinimai išvalyti"
+  },
+  "t_58762fd6": {
+    "message": "Prašome pasirinkti vieną žodį arba trumpą frazę apibrėžimui."
+  },
+  "t_6838b119": {
+    "message": "Tinklo klaida ieškant apibrėžimo."
+  },
+  "t_ea3ca1b5": {
+    "message": "Dekoduota $1 terminų (iš talpyklos)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "Dekoduota $1 terminų (talpykloje)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "Šį mėnesį išnaudojote visus nemokamus žargono dekoderio naudojimo kartus. Atnaujinkite į „Pro“, kad gautumėte neribotą prieigą."
+  },
+  "t_cb3c5d3a": {
+    "message": "Dekoduota $1 terminų $2 kategorijose",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "Automatiškai paryškinta $1 jūsų iššifruoto žodyno termino atvejų",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "Atkurta $1 išsaugotų žargono apibrėžimų$2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "Šį mėnesį išnaudojote visus nemokamus žargono dekoderio naudojimo kartus. Atnaujinkite į „Pro“, kad gautumėte neribotą prieigą."
+  },
+  "t_0b841c82": {
+    "message": "Jau užrašų knygelėje!"
+  },
+  "t_8901f3ab": {
+    "message": "Išsaugota užrašinėje!"
+  },
+  "t_eb8f5242": {
+    "message": "Klaida išsaugant užrašų knygelėje"
+  },
+  "t_bd15702b": {
+    "message": "Jutimo skydas įjungtas"
+  },
+  "t_c28f3265": {
+    "message": "Jutimo skydas išjungtas"
+  },
+  "t_3f8910d9": {
+    "message": "LENGVAS RODINYS"
+  },
+  "t_8aafa613": {
+    "message": "Nepavyko supaprastinti šio teksto"
+  },
+  "t_79d2dc85": {
+    "message": "Nepavyko supaprastinti šio teksto"
+  },
+  "t_99684ba5": {
+    "message": "Klaida supaprastinant tekstą"
+  },
+  "t_f4362bde": {
+    "message": "Nukopijuota į iškarpinę!"
+  },
+  "t_af07ef4b": {
+    "message": "Nepavyko nukopijuoti"
+  },
+  "t_94e4d537": {
+    "message": "Tekstas puslapyje pakeistas"
+  },
+  "t_14a04b67": {
+    "message": "Supaprastinimo atmintis ištrinta"
+  },
+  "t_c444ff21": {
+    "message": "Originalus tekstas laikinai atkurtas"
+  },
+  "t_55f1db14": {
+    "message": "Šį mėnesį išnaudojote visus nemokamus naudojimo kartus. Atnaujinkite į „Pro“, kad gautumėte neribotą prieigą."
+  },
+  "t_fde4e3f0": {
+    "message": "Atkurta $1 išsaugotų supaprastinimų šiame puslapyje",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "Automatiškai atkurta dinamiškai įkelta supaprastinimo funkcija!"
+  },
+  "t_dfa22e52": {
+    "message": "Teksto skaitytuvas įjungtas"
+  },
+  "t_ca153ad0": {
+    "message": "Teksto skaitytuvas išjungtas"
+  },
+  "t_dadbff09": {
+    "message": "Pirmiausia įjunkite teksto į kalbą funkciją"
+  },
+  "t_47071c61": {
+    "message": "Tęsiama..."
+  },
+  "t_5516c48d": {
+    "message": "Šiame puslapyje nerasta skaitomo turinio"
+  },
+  "t_c57f25c9": {
+    "message": "Nerasta skaitomo turinio"
+  },
+  "t_2516997e": {
+    "message": "Skaitymas baigtas"
+  },
+  "t_d3069aea": {
+    "message": "Tekstas į kalbą šioje naršyklėje nepalaikomas"
+  },
+  "t_53e6b8c6": {
+    "message": "Pirmiausia pasirinkite tekstą"
+  },
+  "t_e932d0f7": {
+    "message": "Skaitoma pasirinktis..."
+  },
+  "t_1c50528d": {
+    "message": "Skaitymas baigtas"
+  },
+  "t_594778a2": {
+    "message": "Pristabdyta"
+  },
+  "t_4ded5f77": {
+    "message": "Kalba sustabdyta"
+  },
+  "t_0a74758c": {
+    "message": "✨ Veikia su asmeniniu raktu"
+  },
+  "t_2fceddad": {
+    "message": "✨ Neribotas"
+  },
+  "t_97627d80": {
+    "message": "✨ Veikia su asmeniniu raktu"
+  },
+  "t_fd7d5888": {
+    "message": "Tvarkyti prenumeratą"
+  },
+  "t_df4657a5": {
+    "message": "Nemokamas narys"
+  },
+  "t_22dfb2ec": {
+    "message": "Svečias"
+  },
+  "t_bd9f2460": {
+    "message": "Nemokama paskyra"
+  },
+  "t_f5adda31": {
+    "message": "Prisijungti / Registruotis"
+  },
+  "t_d2439201": {
+    "message": "✨ Neribotas"
+  },
+  "t_164442b7": {
+    "message": "Įšildomas konverterio variklis..."
+  },
+  "t_1e7c3002": {
+    "message": "Pasiruošta analizuoti failus."
+  },
+  "t_d30f78df": {
+    "message": "Tamsus režimas"
+  },
+  "t_6c68d8ce": {
+    "message": "Šviesus režimas"
+  },
+  "t_fcb68c2b": {
+    "message": "Nerasta jokių lipnių lapelių. Nėra ką eksportuoti!"
+  },
+  "t_2b75b2d9": {
+    "message": "Jūsų sesijos žetonas dingo. Prašome vėl prisijungti prie easyview.in, kad atkurtumėte prieigą."
+  },
+  "t_291a4e34": {
+    "message": "Saugus serverio maršrutizavimas nepavyko. Patikrinkite ryšį."
+  },
+  "t_2dcf62b3": {
+    "message": "Nėra aptiktų trūkstamų pastabų. Darbo sritis atnaujinta."
+  },
+  "t_951bf3ae": {
+    "message": "Iššifravimo klaida: failas neatitinka EasyView ribų."
+  },
+  "t_817a4ba0": {
+    "message": "PiP API nepalaikoma. Prašome atnaujinti „Chrome“."
+  },
+  "t_e8aa6e9a": {
+    "message": "Nepavyko inicijuoti PiP variklio: "
+  },
+  "t_9feed9d5": {
+    "message": "Sėkmingai iššifruota ir įkelta $1 naujų pastabų.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "Bandomoji versija"
+  },
+  "t_c289adbe": {
+    "message": "Paremti mus"
+  },
+  "t_60d5b12a": {
+    "message": "Įvertinkite mus"
+  },
+  "js_eb82de4c": {
+    "message": "Pasirinktinė spalva"
+  },
+  "js_8caef32b": {
+    "message": "Atstatyti / Išvalyti (pasirinkite tekstą ir spustelėkite arba dukart spustelėkite paryškinimą rankiniu būdu)"
+  },
+  "t_823aeb91": {
+    "message": "„EasyView“ darbo sritis"
+  },
+  "t_fc42ed23": {
+    "message": "Jūsų darbo erdvėje nėra jokių visuotinių pastabų."
+  },
+  "t_12d7c58a": {
+    "message": "Paspauskite tarpą, kai aktyvus lipnių lapelių žymeklis, kad sukurtumėte vieną."
+  },
+  "t_ab983c11": {
+    "message": "Čia nerasta jokių konkrečiai svetainei skirtų pastabų."
+  },
+  "t_e22709e9": {
+    "message": "Spustelėkite bet kurį fizinį svetainės elementą, kad pritvirtintumėte tikslinę pastabą."
+  },
+  "t_34bdba45": {
+    "message": "Žingsnis"
+  },
+  "t_9b2d88a1": {
+    "message": "iš"
+  },
+  "t_8f44d852": {
+    "message": "Pradėti!"
+  },
+  "t_b45c2f91": {
+    "message": "Atrakinti darbo srities eksportavimą"
+  },
+  "t_88f91dc1": {
+    "message": "Saugiam viso visuotinio darbo srities pastabų atvaizdavimui ir eksportavimui reikalinga patvirtinta „Pro“ licencija. Atnaujinkite, kad visam laikui atrakintumėte šią funkciją."
+  },
+  "t_134dff88": {
+    "message": "Galbūt vėliau"
+  },
+  "t_5b8c9d11": {
+    "message": "Atnaujinti į „Pro“"
+  },
+  "t_792bd8c9": {
+    "message": "Darbo sritis plūduriuoja!"
+  },
+  "t_e39f7dc2": {
+    "message": "Jūsų lipnūs lapeliai dabar plūduriuoja virš jūsų operacinės sistemos darbalaukio."
+  },
+  "t_c83d6ec9": {
+    "message": "Iš naujo prijungti darbo sritį"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView DI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtruojamas triukšmas...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Vykdyti fone\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Sumažinti</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stabdyti variklį</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "Generavimas sustabdytas"
+  },
+  "t_removed_from_notebook": {
+    "message": "Pašalinta iš užrašų knygelės"
+  },
+  "t_d1c58470": {
+    "message": "Dukart spustelėkite, kad pašalintumėte paryškinimą"
+  },
+  "t_d4fdfb03": {
+    "message": "Prisijunkite prie EasyView, kad gautumėte $1 nemokamų naudojimo kartų per mėnesį, arba pridėkite savo API raktą nustatymuose.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "Įkeliami išsaugoti rezultatai..."
+  },
+  "t_3a99733d": {
+    "message": "Inicijuojamas žargono dekoderis..."
+  },
+  "t_b6dc9fc9": {
+    "message": "Sukurkite nemokamą EasyView paskyrą, kad gautumėte $1 nemokamų DI dekodavimų per mėnesį ir stebėtumėte savo kvotą.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "Sukurkite nemokamą EasyView paskyrą, kad gautumėte $1 nemokamų DI apibrėžimų per mėnesį ir stebėtumėte savo kvotą.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "Ištraukiamas pagrindinis turinys..."
+  },
+  "t_0eeae2bf": {
+    "message": "Aptinkamas puslapio kontekstas..."
+  },
+  "t_87f125d0": {
+    "message": "Analizuojama terminologija..."
+  },
+  "t_9ef6e70f": {
+    "message": "Naudojami talpyklos rezultatai..."
+  },
+  "t_9afdc5e8": {
+    "message": "Analizuojama su dirbtiniu intelektu..."
+  },
+  "t_7ecc3abe": {
+    "message": "DI dekodavimas nepavyko"
+  },
+  "t_9220c8de": {
+    "message": "Taikomas supaprastinimas..."
+  },
+  "t_57f406b1": {
+    "message": "Dekoduojama pasirinktis..."
+  },
+  "t_c50f2b72": {
+    "message": "Peržiūrėti žodynėlį"
+  },
+  "t_49de9b11": {
+    "message": "Slėpti paryškinimus puslapyje"
+  },
+  "t_3158774e": {
+    "message": "Atkurti paryškinimus puslapyje"
+  },
+  "t_fc3ad42d": {
+    "message": "Išsaugoti į žodyną"
+  },
+  "t_87e933b8": {
+    "message": "Ieškoma apibrėžimo..."
+  },
+  "t_56b79836": {
+    "message": "Žodžio apibrėžimas įkeltas."
+  },
+  "t_969b24ea": {
+    "message": "🔊 Spustelėkite bet kur, kad įjungtumėte temos garsą"
+  },
+  "t_49337275": {
+    "message": "Rankinis paryškinimas"
+  },
+  "t_93324bd5": {
+    "message": "Išsaugota tiesiai iš tinklalapio."
+  },
+  "t_82e413f3": {
+    "message": "Supaprastinamas tekstas..."
+  },
+  "t_86c4f6e5": {
+    "message": "Supaprastinama su dirbtiniu intelektu..."
+  },
+  "t_c3e18edb": {
+    "message": "Supaprastinimas nepavyko"
+  },
+  "t_6398ab2c": {
+    "message": "Skaitymo lygis: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "Spustelėkite, kad laikinai atkurtumėte originalų tekstą"
+  },
+  "t_9beea3e8": {
+    "message": "Visam laikui ištrinti iš atminties"
+  },
+  "t_453bb8f7": {
+    "message": "Sukurkite nemokamą „EasyView“ paskyrą, kad gautumėte $1 nemokamų DI supaprastinimų per mėnesį ir stebėtumėte savo kvotą.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "Klausytis"
+  },
+  "t_24833610": {
+    "message": "Išsaugota"
+  },
+  "t_30a008cb": {
+    "message": "Skaityti daugiau &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "Išsaugota į žodyno užrašinę!"
+  },
+  "t_2728e87f": {
+    "message": "Pašalinta iš žodyno užrašinės"
+  },
+  "t_6b8c66ce": {
+    "message": "Žodynėlis ($1 terminų)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "Pašalinti šio puslapio atmintį"
+  },
+  "t_8a49fe1a": {
+    "message": "Pašalinti terminą"
+  },
+  "t_1534891c": {
+    "message": "Dekoduota $1 terminų",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "Išsaugoti užrašinėje"
+  },
+  "t_150a2843": {
+    "message": "Išvalyti paryškinimus"
+  },
+  "t_21ef939c": {
+    "message": "Išsaugota užrašinėje!"
+  },
+  "t_8054da35": {
+    "message": "Greitas žodynas",
+    "description": "Greitojo žodyno iššokančiojo lango antraštė"
+  },
+  "t_4aeb2167": {
+    "message": "Žodis nerastas",
+    "description": "Žodyno atsarginio pavadinimo vietaženklis"
+  },
+  "t_272d0070": {
+    "message": "Pagrindiniame žodyne neradome „$1“. Tai gali būti šiuolaikinis žargonas, santrumpa arba labai techninis terminas.",
+    "description": "Žodyno atsarginio aprašymo vietaženklis",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "Dekoduoti su „Evie AI“",
+    "description": "Atsarginis mygtukas dekodavimui su DI"
+  },
+  "t_14f1f972": {
+    "message": "per",
+    "description": "Žodyno šaltinio priešdėlis"
+  },
+  "t_f2faf2f1": {
+    "message": "Daiktavardis",
+    "description": "Kalbos dalis: daiktavardis"
+  },
+  "t_b512ddf1": {
+    "message": "Veiksmažodis",
+    "description": "Kalbos dalis: veiksmažodis"
+  },
+  "t_d807ae6a": {
+    "message": "Būdvardis",
+    "description": "Kalbos dalis: būdvardis"
+  },
+  "t_1a607278": {
+    "message": "Prieveiksmis",
+    "description": "Kalbos dalis: prieveiksmis"
+  },
+  "t_02de720d": {
+    "message": "Įvardis",
+    "description": "Kalbos dalis: įvardis"
+  },
+  "t_4b7be2c3": {
+    "message": "Prielinksnis",
+    "description": "Kalbos dalis: prielinksnis"
+  },
+  "t_a3c1d30b": {
+    "message": "Jungtukas",
+    "description": "Kalbos dalis: jungtukas"
+  },
+  "t_e189f001": {
+    "message": "Jaustukas",
+    "description": "Kalbos dalis: jaustukas"
+  },
+  "t_96de90f8": {
+    "message": "Kopijuoti supaprastintą tekstą",
+    "description": "Įrankio patarimas supaprastintam tekstui kopijuoti"
+  },
+  "t_44a6e288": {
+    "message": "Skaityti puslapį",
+    "description": "Įrankio patarimas skaityti visą puslapį per TTS"
+  },
+  "t_7d70d73b": {
+    "message": "Skaityti pasirinkimą",
+    "description": "Įrankio patarimas skaityti pasirinkimą per TTS"
+  },
+  "t_11936123": {
+    "message": "Negrįžtamai ištrinti pastabą",
+    "description": "Įrankio patarimas visam laikui ištrinti lipnų lapelį"
+  },
+  "t_d27532d9": {
+    "message": "Sutraukti"
+  },
+  "t_2bd339d8": {
+    "message": "Atkurti"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "Lengvas rodinys"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "Sistemos įspėjimas"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "Sistemos pranešimas"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "EasyView\r\n                        variklis"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "Vietinės funkcijos lieka\r\n aktyvios"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,571 +599,565 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "EasyView\r\n                        patirtis"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "„EasyView“ naudojate jau 12 valandų. Sukurkite nemokamą paskyrą, kad\r\n                    išsaugotumėte savo\r\n                    nustatymus, išlaikytumėte kvotą ir atrakintumėte daugiau funkcijų."
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "Priminti po 12 valandų"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "Šviesus"
   },
   "t_7fc56270": {
     "message": "A"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "Šriftas"
   },
   "t_5dbc98dc": {
-    "message": "S"
-  },
-  "t_69691c7b": {
     "message": "M"
   },
+  "t_69691c7b": {
+    "message": "V"
+  },
   "t_d20caec3": {
-    "message": "L"
+    "message": "D"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "Funkcijos"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "Vizualizacija"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "Keitiklis"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "Užrašinė"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "Žargono dekoderis"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "Supaprastinti sudėtingus teisinius terminus"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "wikipedia.org/wiki/Neuroįvairovė"
   },
   "t_61e9c06e": {
-    "message": "W"
+    "message": "P"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "Neuroįvairovė"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "daug\r\n                                                lengviau"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "Fokusavimo ir privatumo skydas"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "Sulieti privatų ir jautrų turinį"
   },
   "t_7f766191": {
-    "message": "mail.google.com/mail/u/0/"
+    "message": "paštas.gūglas.lt/paštas/u/0/"
   },
   "t_dfcf28d0": {
     "message": "G"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "„Google“ paskyros"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "Saugumo įspėjimas"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- Prašoma atkurti slaptažodį..."
   },
   "t_8d9c307c": {
     "message": "N"
   },
   "t_170b1d36": {
-    "message": "Netflix"
+    "message": "„Netflix“"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "Naujiena šią savaitę"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- Peržiūrėkite mūsų naujausius\r\n                                                    leidimus..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "Apsaugos metodai"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "Privataus turinio suliejimas"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "Išmaniai sulieja „WhatsApp“, „Gmail“ ir slaptažodžių\r\n                                            įvestis, kad būtų užtikrintas momentinis vizualinis saugumas."
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "Automatinė apsauga bendrinant ekraną"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "Akimirksniu apsaugo jūsų ekraną, kai bendrinate internete arba jungiatės prie\r\n                                            „Extend“ ekrano."
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
+    "message": "Naudojate\r\n                                                    fizinį projektorių?"
   },
   "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "Dubliavimo režimas"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "Skaitymo žibintuvėlis"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "Sekite pelę ryškiu prožektoriumi, kad visiškai pašalintumėte aplinkinį vizualinį triukšmą."
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "1.\r\n                                                            Spindulio forma"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "Prožektorius\r\n                                                            arba liniuotė"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "2.\r\n                                                                Spindulio dydis / aukštis"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "Peržiūros srities\r\n                                                                storis"
   },
   "t_f0cad41b": {
     "message": "35px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "3.\r\n                                                            Fokusavimo spindulio lęšio atspalvis"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "Švelniai nudažo skaitymo sritį"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "4.\r\n                                                            Aplinkos fono šešėlis"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "Tamsumas aplink lęšį"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "Jutimo skydas"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "Sustabdyti blaškančias animacijas"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "naujienųdienraštis.lt/karštos"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "SKUBI NAUJIENA"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "Skaitomas straipsnis apie dienos naujienas..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "LAIMĖJOTE!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "Skydo režimas"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(numatytasis)"
   },
   "t_9e3360ac": {
-    "message": "PRO"
+    "message": "PROFESIONALAS"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "Stabdyti automatinį paleidimą + ramus išnykimas naršant rankiniu būdu"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "Disleksijos skaitymo režimas"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "Optimizuoti šriftai ir tarpai"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "Intensyvumo profilis"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "Žemas"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "Vidutinis"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "Aukštas"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "vikipedija.org/wiki/Skaitymas"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "Skaitymas"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "Štai jūsų skaitymo nustatymų peržiūra."
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "Išplėstinės parinktys"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "Šrifto stilius"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "Numatytasis (be pakeitimų)"
   },
   "t_5d2967ef": {
-    "message": "OpenDyslexic"
+    "message": "Atviras Disleksikas"
   },
   "t_1042daad": {
-    "message": "Lexend (ADHD Pro) 🔒"
+    "message": "Lexend (ADHD profesionalas) 🔒"
   },
   "t_bcec044a": {
-    "message": "Atkinson Hyperlegible 🔒"
+    "message": "Atkinsono hiperįskaitomas 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "Sans-serif"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "Serif"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "Komik Nojė"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "Komik Sansas"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "Tarpai tarp raidžių"
   },
   "t_960b44c5": {
-    "message": "Normal"
+    "message": "Įprastas"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "Eilučių aukštis"
   },
   "t_60086472": {
     "message": "1.5"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "Tarpai tarp žodžių"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "Šrifto dydis"
   },
   "t_30bd7ce7": {
     "message": "100%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "Perdangos spalva"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "Joks"
   },
   "t_2bd8c63b": {
-    "message": "Beige"
+    "message": "Smėlio spalva"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "Šviesiai mėlyna"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "Šviesiai žalia"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "Šviesiai geltona"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "Tekstas į kalbą"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "Skaityti garsiai su paryškinimu"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "Leisti"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "Pristabdyti"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "Stabdyti"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "Balso pasirinkimas"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "Automatinis (geriausia kokybė)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "Skaitymo greitis"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "Labai lėtas"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "Lėtas"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "Greitas"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "Labai greitas"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "Garsumas"
   },
   "t_f1943132": {
     "message": "70%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "Pristabdyti ties skyrybos ženklais"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "Žodžių paryškinimas"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "Įjungti"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "Režimas"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "Tamsus"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "vikipedija.org/wiki/Šviesa"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "Puikus vaizdas akių komfortui. Šviesa gali būti intensyvi."
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "Ryškumas"
   },
   "t_c63ecd19": {
-    "message": "Contrast"
+    "message": "Kontrastas"
   },
   "t_b84a9a38": {
-    "message": "Sepia"
+    "message": "Sepija"
   },
   "t_9f1ef078": {
     "message": "0%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "Pilkumo skalė"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "Numatytasis"
   },
   "t_b1166920": {
-    "message": "Lexend 🔒"
+    "message": "Leksendas 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "Teksto kontūras"
   },
   "t_cfcd2084": {
     "message": "0"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "Išmanusis keitiklis ir skaitytuvas"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "Dabartinis failas"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "Spustelėkite arba nuvilkite failą įkėlimui"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• Parengta"
   },
   "t_4c4ad5fc": {
-    "message": "HTML"
+    "message": "Hiperteksto žymėjimo kalba"
   },
   "t_5c31b30e": {
-    "message": "EPUB"
+    "message": "Elektroninė knyga"
   },
   "t_7cfd9a9f": {
-    "message": "DOCX"
+    "message": "Dokumentas"
   },
   "t_af97e960": {
     "message": "📌"
   },
   "t_4cc6684d": {
-    "message": "Global"
+    "message": "Visuotinis"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "Svetainė/puslapis"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "Mano užrašinė"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "Išvalyti viską"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "Atšaukti"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "Išsaugoti žodį"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "Dar nėra išsaugotų žodžių."
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "Užveskite pelę virš žargono bet kuriame puslapyje ir spustelėkite žymelės vėliavėlę, kad išsaugotumėte juos čia!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "Iš naujo įsivaizduokite bet kurios svetainės sąsają. Aprašykite, ko norite, arba pasirinkite\r\n                            išankstinę nuostatą."
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "Pritaikyta\n morfologija"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "Šioje svetainėje aktyvus pasirinktinis DI išdėstymas."
   },
   "t_e8a57cd1": {
     "message": "0 /\r\n                                500"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "Atstatyti puslapį"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "Morfavimo išdėstymas"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "Numatytieji nustatymai"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "Siaubo karnavalas"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "Šiurpi karnavalo nuotaika ir animuotas siaubo tekstas"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "Matricos konsolė"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "Kiberpanko terminalo tema"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "Neuro fokusas"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "Disleksijai pritaikyti šriftai ir raminančios spalvos"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "Skaitymo režimas"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "Minimalistinis išdėstymas, optimizuotas susikaupimui"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "Naujausios užklausos"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "Svečias"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "Nemokama paskyra"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "Prisijungti / Tvarkyti"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "Atsijungti"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "API nustatymai"
   },
   "t_766cc4dd": {
-    "message": "Gemini"
+    "message": "„Gemini“"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "DI teikėjas"
   },
   "t_222cf5ed": {
-    "message": "Google Gemini"
+    "message": "„Google Gemini“"
   },
   "t_a0607683": {
-    "message": "OpenRouter"
+    "message": "„OpenRouter“"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "„Gemini“ API raktas"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "„Google AI Studio“"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "„OpenRouter“ API raktas"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "Išsaugoti API raktą"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "EasyView\r\n                                    DI prioritetas"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ Mano API raktas"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 „EasyView“ serveriai"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "Pasirinkite\r\n                                kas naudojama pirmiausia visoms DI funkcijoms. Jei jūsų raktas baigiasi, EasyView serveriai\r\n                                visada naudojami kaip atsarginis variantas."
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "Privatumas\r\n & Prioritetas"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "1 prioritetas:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "2 prioritetas:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "„Morph“ variklio pastaba:"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "niekada"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "Pagalba ir atsiliepimai"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "Turite klausimų, radote klaidą ar norite pasiūlyti funkciją? Mums būtų malonu iš jūsų išgirsti!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "Pranešti apie klaidą / pateikti atsiliepimą"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Pasiruošęs supaprastinti"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "Eksportuoti nustatymus"
   },
   "t_9d5ed678": {
-    "message": "B"
+    "message": "P"
   },
   "t_dd753679": {
     "message": "I"
@@ -615,25 +1175,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "Stiprumas"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "Nepermatomumas"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "Svoris"
   },
   "t_18d80423": {
     "message": "400"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "Eilutės\r\n aukštis"
   },
   "t_f522dede": {
     "message": "1.7x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "Praleisti"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,61 +1202,61 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "Paryškinimas"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "RAŠALAS"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "IŠNYKIMAS"
   },
   "t_e8bfe352": {
-    "message": "Lexend 👑"
+    "message": "Leksendas 👑"
   },
   "t_0cd4623c": {
-    "message": "Atkinson Hyperlegible 👑"
+    "message": "Atkinsono hiperįskaitomas 👑"
   },
   "t_6fbda3a3": {
-    "message": "Arial"
+    "message": "Arijalis"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "Helvetika"
   },
   "t_207c3219": {
     "message": "Verdana"
   },
   "t_2bd141ae": {
-    "message": "Tahoma"
+    "message": "Tahomos šriftas"
   },
   "t_720661ec": {
-    "message": "Trebuchet MS"
+    "message": "Trebušė MS"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "Sistemos sans-serif"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "Taims Niu Romanas"
   },
   "t_eada8196": {
-    "message": "Georgia"
+    "message": "Džordžija"
   },
   "t_96a78725": {
-    "message": "Garamond"
+    "message": "Garamondas"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "Sistemos serif"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "Komik Sansas MS"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "Kurjeris Naujas"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "Lygiaplotis"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "Šrifto\r\n dydis"
   },
   "t_f4f9f2f4": {
     "message": "14px"
@@ -723,7 +1283,7 @@
     "message": "32px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "Atlikta"
   },
   "t_63922286": {
     "message": "×"
@@ -732,154 +1292,34 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "Eksportuoti temų biblioteką"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "Išsaugokite savo dirbtinio intelekto sukurtus šedevrus\r\n                vietiniame kompiuteryje."
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "Eksportuoti visą biblioteką"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
-  },
-  "t_ccca2ddf": {
-    "message": "EasyView Reader"
-  },
-  "t_8524de96": {
-    "message": "Loading..."
-  },
-  "t_25e8f2fd": {
-    "message": "Please wait..."
-  },
-  "t_ec9d785d": {
-    "message": "1.5x"
-  },
-  "t_dafd5f8f": {
-    "message": "Lexend"
-  },
-  "t_16d90a0b": {
-    "message": "Atkinson Hyperlegible"
-  },
-  "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
-  },
-  "t_f7cee5ea": {
-    "message": "Calibri"
-  },
-  "t_ccc0239e": {
-    "message": "Candara"
-  },
-  "t_2963521b": {
-    "message": "Corbel"
-  },
-  "t_37f1cc58": {
-    "message": "Cambria"
-  },
-  "t_c3d9d4bf": {
-    "message": "Constantia"
-  },
-  "t_5d1a5b35": {
-    "message": "Palatino Linotype"
-  },
-  "t_4dc386b6": {
-    "message": "Book Antiqua"
-  },
-  "t_03c461f6": {
-    "message": "Franklin Gothic"
-  },
-  "t_7b1ee3b6": {
-    "message": "Century Gothic"
-  },
-  "t_a3293302": {
-    "message": "Gill Sans"
-  },
-  "t_eb726908": {
-    "message": "Sitka Text"
-  },
-  "t_b5bdee2c": {
-    "message": "Sylfaen"
-  },
-  "t_1ec05249": {
-    "message": "Microsoft Sans Serif"
-  },
-  "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
-  },
-  "t_16507cdd": {
-    "message": "Consolas"
-  },
-  "t_391c5954": {
-    "message": "Lucida Console"
-  },
-  "t_9879efdf": {
-    "message": "Lucida Sans Typewriter"
-  },
-  "t_21f59b54": {
-    "message": "Impact"
-  },
-  "t_94a7bb97": {
-    "message": "Arial Black"
-  },
-  "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
-  },
-  "t_40885309": {
-    "message": "Berlin Sans FB"
-  },
-  "t_6d5566ba": {
-    "message": "Gabriola"
-  },
-  "t_edb42482": {
-    "message": "Ink Free"
-  },
-  "t_fa233799": {
-    "message": "Segoe Script"
-  },
-  "t_2f7bc407": {
-    "message": "Segoe Print"
-  },
-  "t_0095a9fa": {
-    "message": "Export"
-  },
-  "t_520d0db3": {
-    "message": "Format"
-  },
-  "t_5956a437": {
-    "message": "TXT"
-  },
-  "t_1351017a": {
-    "message": "Filename"
-  },
-  "t_6af8212e": {
-    "message": "EasyView Notes Board"
-  },
-  "t_d16da0f5": {
-    "message": "🌎"
-  },
-  "t_6df173ff": {
-    "message": "📍"
+    "message": ".json (JSON failas)"
   },
   "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
-  },
-  "js_24833610": {
-    "message": "Saved"
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Reikalingas veiksmas</div>\n            <h2 class=\"ev-si-title\">Paskyra<br><span class=\"ev-si-gradient-text\">sustabdyta</span></h2>\n            <p class=\"ev-si-sub\">Jūsų EasyView prieiga buvo apribota dėl mūsų paslaugų teikimo sąlygų pažeidimo.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Susisiekti su palaikymo komanda\n            </a>\n          </div>\n        </div>\n      "
   },
   "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Pirmiausia aprašykite savo „morph“ transformaciją.</span>\n          </div>"
   },
   "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Transformuojama...</span>\n      "
   },
   "js_138703dd": {
-    "message": "No Theme on Page"
+    "message": "Nėra temos puslapyje"
   },
   "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>Eksportuoti dabartinį puslapį"
   },
   "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Kompiliuojama..."
   },
   "js_e541190e": {
     "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
@@ -891,30 +1331,1241 @@
     "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
   },
   "js_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Pasiruošęs supaprastinti"
   },
   "js_a18366b2": {
-    "message": "Dark"
+    "message": "Tamsus"
   },
   "js_9914a0ce": {
-    "message": "Light"
+    "message": "Šviesus"
   },
   "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+    "message": "<option value=\"auto\">Automatinis (geriausia kokybė)</option>"
   },
   "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Dekoduojama..."
   },
   "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+    "message": "Tai atrodo <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">daug lengviau</span> suprantama."
   },
   "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+    "message": "Tai atrodo mažiau aišku."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_f05df71b": {
+    "message": "Atnaujinama"
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_78db2ae3": {
+    "message": "Mūsų DI serveriai atnaujinami."
+  },
+  "t_bb2129c8": {
+    "message": "Atrakinti visą"
+  },
+  "t_aefee7cd": {
+    "message": "Aiškumas kiekvienam protui"
+  },
+  "t_c38beca1": {
+    "message": "„Windows“ slepia ekranus"
+  },
+  "t_f2fe1e79": {
+    "message": "Reikšmės\r\n                                    mažesnės nei 1.0 gali suspausti tekstą ir sugadinti išdėstymus."
+  },
+  "t_ca677d53": {
+    "message": "Vizualūs koregavimai"
+  },
+  "t_230b4522": {
+    "message": "Pastabų lenta"
+  },
+  "t_596b54bf": {
+    "message": "„Morph“ DI agentas"
+  },
+  "t_47e79a17": {
+    "message": "Gaukite nemokamą raktą adresu"
+  },
+  "t_42372184": {
+    "message": "Temos eksportuojamos kaip"
+  },
+  "t_74fdc8a2": {
+    "message": "Prašome pirmiausia aprašyti savo „morph“ transformaciją."
+  },
+  "t_245fd3b9": {
+    "message": "„Morph“ išdėstymas išvalytas."
+  },
+  "t_172bd753": {
+    "message": "Tema sėkmingai eksportuota!"
+  },
+  "t_4c34daff": {
+    "message": "Ryšio laikas baigėsi. Serveris nepasiekiamas."
+  },
+  "t_0dd56117": {
+    "message": "Šiame puslapyje nerasta aktyvios temos."
+  },
+  "t_cb5c0766": {
+    "message": "Biblioteka sėkmingai eksportuota!"
+  },
+  "t_8adb392e": {
+    "message": "Ryšio laikas baigėsi. Serveris nepasiekiamas."
+  },
+  "t_ae94e0e4": {
+    "message": "Jūsų temų biblioteka tuščia."
+  },
+  "t_10a0c40b": {
+    "message": "Pasirinktinė tema sėkmingai įkelta!"
+  },
+  "t_9b6007a8": {
+    "message": "Nepavyko perskaityti temos failo."
+  },
+  "t_d4fa051d": {
+    "message": "Nepavyko: $1. Prašome iš naujo įkelti skirtuką.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "Pritaikyta: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "Atkurta $1 temų iš bibliotekos!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "Kalbos nuostatos"
+  },
+  "t_lang_updated_reload": {
+    "message": "Kalba atnaujinta. Įkeliama iš naujo..."
+  },
+  "t_transformation_failed": {
+    "message": "Transformacija nepavyko."
+  },
+  "t_c8a59e71": {
+    "message": "Atmesti"
+  },
+  "t_7764306b": {
+    "message": "Debesų paslaugų priežiūra aktyvi"
+  },
+  "t_248228de": {
+    "message": "Perjungti disleksijos šriftą iššokančiajame lange"
+  },
+  "t_79a59320": {
+    "message": "Pradėti programos pristatymą"
+  },
+  "t_533bff5b": {
+    "message": "Prisegti lipnų lapelį prie puslapio (Alt+S)"
+  },
+  "t_f4f70727": {
+    "message": "Nustatymai"
+  },
+  "t_4fd11104": {
+    "message": "Apvalus prožektorius"
+  },
+  "t_0d063af1": {
+    "message": "Horizontalios linijos liniuotė 🔒"
+  },
+  "t_60d71580": {
+    "message": "Skaidri šviesa"
+  },
+  "t_efe48742": {
+    "message": "Gintarinis fokusas"
+  },
+  "t_610a09ca": {
+    "message": "Vėsi žydra"
+  },
+  "t_886f6b9e": {
+    "message": "Rami žalia"
+  },
+  "t_65e8194e": {
+    "message": "Visiškai juoda"
+  },
+  "t_7243ed99": {
+    "message": "Vidurnakčio skalūnas"
+  },
+  "t_ec6d8325": {
+    "message": "Gilus miškas"
+  },
+  "t_4af435e0": {
+    "message": "Vampyro vynas"
+  },
+  "t_2a7dbdf8": {
+    "message": "Profesionali funkcija"
+  },
+  "t_fc4aec61": {
+    "message": "Atidaryti skaitytuve"
+  },
+  "t_801ab246": {
+    "message": "Atsisiųsti"
+  },
+  "t_aa3880dc": {
+    "message": "Atsisiųsti kaip HTML"
+  },
+  "t_e0781e81": {
+    "message": "Atsisiųsti kaip EPUB"
+  },
+  "t_442ff212": {
+    "message": "Atsisiųsti kaip DOCX"
+  },
+  "t_6244ee7c": {
+    "message": "Pridėti pasirinktinį terminą rankiniu būdu"
+  },
+  "t_6e7d015f": {
+    "message": "Importuoti CSV failą"
+  },
+  "t_edbc5415": {
+    "message": "Eksportuoti į „Anki“ / „Quizlet“"
+  },
+  "t_46c29f7a": {
+    "message": "Įkelti temą"
+  },
+  "t_2bd65c5d": {
+    "message": "Eksportuoti temą"
+  },
+  "t_c1c433ac": {
+    "message": "Aktyvus DI teikėjas"
+  },
+  "t_90c09393": {
+    "message": "Taškuota"
+  },
+  "t_eb656e41": {
+    "message": "Brūkšniuota"
+  },
+  "t_0c99ddee": {
+    "message": "Paryškinimo spalva"
+  },
+  "t_eaf63759": {
+    "message": "Rašalo spalva"
+  },
+  "t_a183c9f0": {
+    "message": "Išnykimo spalva"
+  },
+  "t_75e7422f": {
+    "message": "Fono spalva"
+  },
+  "t_42f9ceea": {
+    "message": "Ieškoti išsaugotame žodyne..."
+  },
+  "t_0e84a8cf": {
+    "message": "Įveskite žodį arba akronimą..."
+  },
+  "t_eea6890c": {
+    "message": "Reikšmė / vertimas..."
+  },
+  "t_4480cf46": {
+    "message": "Atminties triukas arba studijų pastaba (neprivaloma)..."
+  },
+  "t_d8634fbf": {
+    "message": "pvz., paverskite rožine anime stiliaus tema su užapvalintomis kortelėmis arba paverskite retro tamsiai žalia terminalo konsole..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "Lipnūs lapeliai"
+  },
+  "t_b097d277": {
+    "message": "Pridėti žodį"
+  },
+  "t_1eeb67ee": {
+    "message": "Eksportuoti dabartinį puslapį"
+  },
+  "t_b62ded9a": {
+    "message": "Debesijos paslaugos nepasiekiamos"
+  },
+  "t_263e00eb": {
+    "message": "Prisijungti / sukurti paskyrą"
+  },
+  "t_7748eb3b": {
+    "message": "ATNAUJINAMA"
+  },
+  "t_81a5d20b": {
+    "message": "Užšaldyti viską"
+  },
+  "t_e61146d9": {
+    "message": "Ramūs išnykimai"
+  },
+  "t_57323916": {
+    "message": "Stabdyti automatinį leidimą"
+  },
+  "t_f50319ea": {
+    "message": "Visiška apsauga"
+  },
+  "t_8e13f26d": {
+    "message": "Greitas klausimas"
+  },
+  "t_134b26da": {
+    "message": "Ar jums patinka<br><span class=\"ev-si-gradient-text\">EasyView?</span>"
+  },
+  "t_b75bdd9e": {
+    "message": "Jūsų atsiliepimai padeda mums tobulėti.<br>Ar jums patinka ši patirtis?"
+  },
+  "t_396d1ff8": {
+    "message": "Taip!"
+  },
+  "t_7d0cacf3": {
+    "message": "Reikia patobulinti"
+  },
+  "t_815142c9": {
+    "message": "Paremti mus"
+  },
+  "t_abd9fa39": {
+    "message": "Ar neprieštarautumėte<br><span class=\"ev-si-gradient-text\">palikti atsiliepimą?</span>"
+  },
+  "t_02991e61": {
+    "message": "Jūsų ir kitų vartotojų įvertinimai yra geriausias būdas padėti EasyView augti. Tai užtrunka tik minutę!"
+  },
+  "t_db49c1f2": {
+    "message": "Įvertinti"
+  },
+  "t_7a4f0d12": {
+    "message": "Priminti vėliau"
+  },
+  "t_fee6c0e9": {
+    "message": "Privatūs atsiliepimai"
+  },
+  "t_74393dde": {
+    "message": "Ką galime <span class=\"ev-si-gradient-text\">padaryti geriau?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "Papasakokite, kas nutiko..."
+  },
+  "t_6f97affc": {
+    "message": "Siųsti atsiliepimą"
+  },
+  "t_b20871b3": {
+    "message": "Prašome pateikti savo atsiliepimą"
+  },
+  "t_7b0fee4d": {
+    "message": "Siunčiama..."
+  },
+  "t_fb631633": {
+    "message": "Dėkojame už jūsų atsiliepimą."
+  },
+  "t_08727add": {
+    "message": "Matykite internetą savaip."
+  },
+  "t_15bbb9d0": {
+    "message": "Svetainė"
+  },
+  "t_c5f29bb3": {
+    "message": "Privatumas"
+  },
+  "t_ad5b1a22": {
+    "message": "Įkūrėjas"
+  },
+  "t_db496e03": {
+    "message": "Asmeniniai raktai sukuria tiesioginį, 100% privatų ryšį su DI. Jūsų tekstas niekada nepasiekia EasyView serverių."
+  },
+  "t_387c35b3": {
+    "message": "Mūsų valdomas serveris („Premium“) veikia kaip patikima atsarginė kopija, jei nėra rakto arba jei jūsų raktas neveikia."
+  },
+  "t_98bc5a17": {
+    "message": "Siekdami apsaugoti patentuotus algoritmus, jūsų raktas trumpam nukreipiamas per mūsų saugų serverį, kad būtų autentifikuotas „Google“. Tai"
+  },
+  "t_de47f1be": {
+    "message": "nėra saugoma ar registruojama."
+  },
+  "t_25e02e7f": {
+    "message": "Aktyvuota: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ „Premium“ narys"
+  },
+  "t_df56cfae": {
+    "message": "⭐ Nuolatinis narys"
+  },
+  "t_41cbc704": {
+    "message": " liko dienų"
+  },
+  "t_b194bd82": {
+    "message": "Niekada nesibaigia"
+  },
+  "t_9f830444": {
+    "message": "⭐ Profesionalas:"
+  },
+  "t_61b82be6": {
+    "message": " liko morfologijų"
+  },
+  "t_c20e7ceb": {
+    "message": " liko nemokamų morfologijų"
+  },
+  "t_d7087930": {
+    "message": " liko nemokamų naudojimų"
+  },
+  "t_4bbf11bd": {
+    "message": "Termino ir reikšmės laukai negali būti palikti tušti!"
+  },
+  "t_08f09d38": {
+    "message": "Žodžio detalės sėkmingai atnaujintos!"
+  },
+  "t_32001b52": {
+    "message": "Prašome įvesti ir žodį, ir jo reikšmę."
+  },
+  "t_b8115861": {
+    "message": "Jūsų studijų užrašinė tuščia. Pirmiausia pažymėkite keletą žodžių tinklalapiuose!"
+  },
+  "t_7114113b": {
+    "message": "Pirmiausia prisijunkite prie savo EasyView paskyros, kad patvirtintumėte savo „Pro“ funkcijas!"
+  },
+  "t_093f9fa0": {
+    "message": "Jūsų sesijos žetonas dingo. Prašome vėl prisijungti prie easyview.in, kad atkurtumėte prieigą."
+  },
+  "t_0e065596": {
+    "message": "Tai patvirtinta tik „Premium“ funkcija. Atnaujinkite į „Pro“, kad atrakintumėte!"
+  },
+  "t_c792a645": {
+    "message": "Nepavyko prisijungti prie saugaus eksportavimo serverio. Bandykite dar kartą netrukus."
+  },
+  "t_8d1a2675": {
+    "message": "Nepavyko identifikuoti jokių tinkamų žodyno elementų šiame CSV faile."
+  },
+  "t_a613ed90": {
+    "message": "Naršyklės saugyklos įrašymo klaida! Failas gali būti per didelis vietinei talpyklai."
+  },
+  "t_8efe87ab": {
+    "message": "Naršyklei nepavyko perskaityti jūsų vietinio failo."
+  },
+  "t_50bf63aa": {
+    "message": "Ar tikrai norite išvalyti visus išsaugotus žodžius iš savo užrašinės?"
+  },
+  "t_ff252710": {
+    "message": "Importavimas baigtas: visi $1 įrašai jau yra jūsų užrašinėje.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "Nepavyko išanalizuoti CSV: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "„$1“ jau yra jūsų užrašinėje. Ar norite pridėti dar vieną jo apibrėžimą?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "Sėkmingai atsijungta"
+  },
+  "t_dbd35100": {
+    "message": "Morfologijos variklis jau veikia..."
+  },
+  "t_2de4e55d": {
+    "message": "Morfologinis išdėstymas išvalytas"
+  },
+  "t_1bb9196d": {
+    "message": "Morfuota: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "Morfavimas nepavyko: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "Suaktyvinta: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 elementų sutvarkyta",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "Tai visam laikui sunaikins šią pastabą visuose sinchronizuotuose įrenginiuose. Tęsti?"
+  },
+  "t_25abf697": {
+    "message": "EPUB eksportavimui reikalingas JSZip."
+  },
+  "t_71609188": {
+    "message": "DOCX eksportavimui reikalingas html-docx-js."
+  },
+  "t_e1499766": {
+    "message": "Failas neįkeltas."
+  },
+  "t_023b3355": {
+    "message": "Privatumo skydas įjungtas"
+  },
+  "t_9483a5da": {
+    "message": "Privatumo skydas išjungtas"
+  },
+  "t_a04202db": {
+    "message": "Paryškinimai laikinai paslėpti"
+  },
+  "t_b3d6b264": {
+    "message": "Paryškinimai atkurti"
+  },
+  "t_7485c55e": {
+    "message": "Sveiki atvykę į „EasyView“! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "Jūsų DI varomas pažinimo tiltas lengvesniam skaitymui internete. Trumpai apžvelkime funkcijas."
+  },
+  "t_3a1fe637": {
+    "message": "Žargono dekoderis 📖"
+  },
+  "t_89cec86e": {
+    "message": "Supaprastina sudėtingą terminologiją bet kuriame tinklalapyje."
+  },
+  "t_f8aefae7": {
+    "message": "Privatumo skydas 🔐"
+  },
+  "t_aa860f86": {
+    "message": "Sulieja neskelbtinus duomenis ir apima fokusavimo liniuotę skaitymui be blaškymosi."
+  },
+  "t_0681a3b6": {
+    "message": "Jutimo skydas 🛡️"
+  },
+  "t_6118b864": {
+    "message": "Sustabdo blaškančius GIF ir animacijas."
+  },
+  "t_12ec6fc6": {
+    "message": "Disleksijos skaitymo režimas 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "Optimizuoti šriftai ir tarpai lengvesniam skaitymui."
+  },
+  "t_18d9ce63": {
+    "message": "Tekstas į kalbą 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "Klausykitės bet kurio tinklalapio su žodžių paryškinimu."
+  },
+  "t_0019a700": {
+    "message": "„Morph“ variklis ✨"
+  },
+  "t_47c2535a": {
+    "message": "Naudokite dirbtinį intelektą bet kurios svetainės pertvarkymui į pasirinktinę temą ar išdėstymą."
+  },
+  "t_2ed2f639": {
+    "message": "Lipnūs užrašai 📝"
+  },
+  "t_75025b5f": {
+    "message": "Prisekite plūduriuojančius lipnius lapelius prie bet kurio tinklalapio, kad išsaugotumėte svarbią informaciją (Alt+S)."
+  },
+  "t_3ff2d7cc": {
+    "message": "API konfigūracija ⚙️"
+  },
+  "t_0754e836": {
+    "message": "Prisijunkite, kad sinchronizuotumėte savo kvotą, arba nustatykite savo nemokamą Gemini API raktą čia."
+  },
+  "t_7b6a2059": {
+    "message": "$1 žingsnis iš $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "Pradėti!"
+  },
+  "t_10ac3d04": {
+    "message": "Kitas"
+  },
+  "t_5c7a52b8": {
+    "message": "Paspauskite "
+  },
+  "t_a1b2c3d4": {
+    "message": " bet kuriuo metu, norėdami rankiniu būdu įjungti automatinės apsaugos skydą."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ Privatumo skydas įjungtas"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 Privatumo skydas išjungtas"
+  },
+  "js_9b3e1a": {
+    "message": "„EasyView“ analizuoja išdėstymą ir atlieka morfavimą..."
+  },
+  "js_4c8d2f": {
+    "message": "Apibrėžti"
+  },
+  "js_7a1e9b": {
+    "message": "Dekoduoti"
+  },
+  "js_2d5f8c": {
+    "message": "Supaprastinti"
+  },
+  "js_6e3a4d": {
+    "message": "Žymelė"
+  },
+  "js_1f9b7c": {
+    "message": "Paryškinimas"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "Analizuojamas DOM medis..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "Netvarkingas išdėstymas..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "Plokštinama struktūra..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[TRIUKŠMO_PERKROVA]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "Šalinami blaškantys elementai..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "Sudėtingi mazgai"
+  },
+  "js_ldr_m4_cl": {
+    "message": "Taikomos disleksijos taisyklės..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "Atvaizduojama „EasyView“ sąsaja..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "Nuskaitomas teksto blokas..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "Per daug žodžių..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "Išskiriamas pagrindinis turinys..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "Kognityvinis krūvis"
+  },
+  "js_ldr_s3_cl": {
+    "message": "Ruošiamas paprastesnis tekstas..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "Išsamus DI..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "Taikomas skaitomumas..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "Šlifuojama išvestis..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "Verčiamas žargonas..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "Klaida: Sumišimas"
+  },
+  "js_ldr_j2_cl": {
+    "message": "Ieškoma apibrėžimų..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[TRIUKŠMO_PERKROVA]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "Supaprastinamas kontekstas..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "Nežinomi terminai"
+  },
+  "js_ldr_j4_cl": {
+    "message": "Taikomas aiškumas..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "Formatuojami rezultatai..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "Gili analizė..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "Užbaigiama dirbtinio intelekto logika..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "Vykdomas DI..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "Beveik baigta..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "Didelis srautas..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "Užtrunka šiek tiek ilgiau..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "Vis dar dirbama..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "Palaukite..."
+  },
+  "t_b7012ab9": {
+    "message": "Morfuoti"
+  },
+  "t_c5e8b1d9": {
+    "message": "Profesionalūs šriftai"
+  },
+  "t_c8f2ba19": {
+    "message": "Privataus turinio suliejimas įjungtas"
+  },
+  "t_e2dae61a": {
+    "message": "Privataus turinio suliejimas išjungtas"
+  },
+  "t_c74de318": {
+    "message": "Automatinė apsauga bendrinant ekraną įjungta"
+  },
+  "t_a5fd56f4": {
+    "message": "Automatinė apsauga bendrinant ekraną išjungta"
+  },
+  "t_ab8d1f2a": {
+    "message": "Žibintuvėlio režimas įjungtas"
+  },
+  "t_2bf5cc98": {
+    "message": "Žibintuvėlio režimas išjungtas"
+  },
+  "t_513bb93f": {
+    "message": "Bioninis skaitymas"
+  },
+  "t_5a8b2c1d": {
+    "message": "Štai jūsų skaitymo nustatymų peržiūra."
+  },
+  "t_ac1d4e5f": {
+    "message": "Joks"
+  },
+  "t_b2e3f4a1": {
+    "message": "Platus"
+  },
+  "t_c3f4a5b2": {
+    "message": "Ypač platus"
+  },
+  "t_d1a3c901": {
+    "message": "Spustelėti"
+  },
+  "t_b4f2e891": {
+    "message": "Prisegti prie elemento"
+  },
+  "t_c9a1b302": {
+    "message": "Tarpas"
+  },
+  "t_f6d4e203": {
+    "message": "Visuotinė pastaba"
+  },
+  "t_e2b3f104": {
+    "message": "Išeiti"
+  },
+  "t_a7c0d905": {
+    "message": "Atšaukti"
+  },
+  "t_e1b2c301": {
+    "message": "Tik šis puslapis"
+  },
+  "t_f7a3b402": {
+    "message": "Ši svetainė"
+  },
+  "t_a8c4d503": {
+    "message": "Visos svetainės (visuotinis)"
+  },
+  "t_b9d5e604": {
+    "message": "Slėpti iki perkrovimo"
+  },
+  "t_c0e6f705": {
+    "message": "Prisegti pastabą prie elemento"
+  },
+  "t_d1f7a806": {
+    "message": "Keisti užrašo spalvą"
+  },
+  "t_e2a8b907": {
+    "message": "Sutraukti / išskleisti pastabą"
+  },
+  "t_f3b9c008": {
+    "message": "Kopijuoti užrašo turinį"
+  },
+  "t_a4c0d109": {
+    "message": "Daugiau veiksmų"
+  },
+  "t_b5d1e200": {
+    "message": "Ištrinti šį užrašą"
+  },
+  "t_e87033a2": {
+    "message": "Alt + P"
+  },
+  "t_4120201a": {
+    "message": "Nemokama bandomoji versija aktyvi"
+  },
+  "t_6ed40ffb": {
+    "message": "Sinchronizuoti nustatymus tarp įrenginių"
+  },
+  "t_f8b8a5fd": {
+    "message": "Didesnė nemokamo naudojimo kvota"
+  },
+  "t_440b106d": {
+    "message": "Prieiga prie būsimų „Pro“ funkcijų"
+  },
+  "t_3a99076c": {
+    "message": "„Premium“ limitas"
+  },
+  "t_545f6c2f": {
+    "message": "Neribotas"
+  },
+  "t_ad23f4a0": {
+    "message": "Erdviniai užrašai"
+  },
+  "t_04f2f045": {
+    "message": "Sėkmingai įdiegėte visas 15 nemokamo lygio pastabų visame žiniatinklyje. Atnaujinkite į „EasyView Premium“, kad atrakintumėte begalinę erdvinę atmintį ir pasirinktines spalvas."
+  },
+  "t_cf874b99": {
+    "message": "Atrakinti „Premium“"
+  },
+  "t_a6d36e2f": {
+    "message": "Visi vietiniai pritaikymo neįgaliesiems valdikliai (aktyvūs)"
+  },
+  "t_b0b69bc3": {
+    "message": "Teksto į kalbą variklis (aktyvus)"
+  },
+  "t_cc96c21a": {
+    "message": "Debesų DI funkcijos (neprisijungus)"
+  },
+  "t_7af6f6e5": {
+    "message": "Suprantu"
+  },
+  "t_9bc7102e": {
+    "message": "Sukurkite nemokamą EasyView paskyrą, kad galėtumėte stebėti savo kvotą ir atrakinti žargono dekoderį."
+  },
+  "t_ab7512fd": {
+    "message": "Jūsų sesijos žetonas dingo. Prašome vėl prisijungti prie easyview.in, kad atkurtumėte prieigą."
+  },
+  "t_1cd7820a": {
+    "message": "TIK „PRO“ PRIEIGA"
+  },
+  "t_8eb14032": {
+    "message": "Žargono dekoderis<br><span class=\"ev-si-gradient-text\">Kvota pasiekta</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "VIRŠYTA KVOTA"
+  },
+  "t_5ae983dc": {
+    "message": "Šį mėnesį išnaudojote visus <strong>5 nemokamus dekodavimus</strong>. Atrakinkite neribotą prieigą per kelias sekundes."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> Tapkite „Pro“ — neriboti dekodavimai</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> Naudokite savo API raktą</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 Pridėti API raktą nustatymuose</button>"
+  },
+  "t_9be4129a": {
+    "message": "Studijų kortelių eksportuotojas<br><span class=\"ev-si-gradient-text\">Pro automatizavimas</span>"
+  },
+  "t_fac34185": {
+    "message": "Akimirksniu eksportuokite visą savo pasirinktinę studijų užrašinę tiesiai į <strong>Anki</strong> ir <strong>Quizlet</strong>."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Atsisakykite rankinio rašymo</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> RFC-4180 kortelių kompiliatorius</div>"
+  },
+  "t_da12c30b": {
+    "message": "Profesionali prieiga"
+  },
+  "t_4a9b2c01": {
+    "message": "Ši funkcija"
+  },
+  "t_3be78c01": {
+    "message": "Šis disleksijos skaitymo šriftas"
+  },
+  "t_0ad4b971": {
+    "message": "Šis vizualus šriftas"
+  },
+  "t_9af42be8": {
+    "message": "Šis aukščiausios kokybės eksporto šriftas"
+  },
+  "t_cbae8349": {
+    "message": "Atnaujinkite, kad atrakintumėte visas pritaikymo neįgaliesiems funkcijas ir galingus įrankius."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Išplėstinis pritaikymas neįgaliesiems</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Visi būsimi atnaujinimai</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ Atnaujinti į „Pro“"
+  },
+  "t_5ef4c1a2": {
+    "message": "Galbūt vėliau"
+  },
+  "t_3b7a5e82": {
+    "message": ", tačiau DI funkcijos gali būti laikinai nepasiekiamos."
+  },
+  "t_c91d8e12": {
+    "message": "Bendrieji"
+  },
+  "t_b42f3a9d": {
+    "message": "Apibrėžimas"
+  },
+  "t_f1d4a8e6": {
+    "message": "Žodynas"
+  },
+  "t_e398c71f": {
+    "message": "Pasirinktinis"
+  },
+  "t_a72df9e5": {
+    "message": "Medicininis"
+  },
+  "t_d8f2c61a": {
+    "message": "Teisinis"
+  },
+  "t_b3e1f5d2": {
+    "message": "Finansinis"
+  },
+  "t_c25d81f9": {
+    "message": "Technologijos"
+  },
+  "t_e1b3a4f6": {
+    "message": "Akademinis"
+  },
+  "t_d5f9b4c1": {
+    "message": "Terminas"
+  },
+  "t_f7a2e8ea": {
+    "message": "Kategorija"
+  },
+  "t_e3b1c6d9": {
+    "message": "Supaprastinta reikšmė"
+  },
+  "t_a9d4e5f2": {
+    "message": "Studijų pastabos / kontekstas"
+  },
+  "t_b4c5d6e7": {
+    "message": "Atšaukti"
+  },
+  "t_c8f2a1b4": {
+    "message": "Išsaugoti pakeitimus"
+  },
+  "t_8c17b5e6": {
+    "message": "Jūsų sesijos žetonas dingo. Prašome vėl prisijungti prie easyview.in, kad atkurtumėte prieigą."
+  },
+  "t_a43dc219": {
+    "message": "Sukurkite nemokamą „EasyView“ paskyrą, kad galėtumėte stebėti savo naudojimo kvotą ir atrakinti DI morfavimo variklį."
+  },
+  "t_54c523fe": {
+    "message": "🎉 Puiku! Sėkmingai importuota $1 naujų studijų kortelių."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 Nepriekaištinga! Importuota $1 naujų kortelių. ($2 dublikatai praleisti.)"
+  },
+  "t_14894d12": {
+    "message": "Temos eksportas"
+  },
+  "t_f27a2629": {
+    "message": "Temų bibliotekos atsarginė kopija"
+  },
+  "t_9ad85e17": {
+    "message": "Skaitymo liniuotės režimas"
+  },
+  "t_b9d4e7a5": {
+    "message": "Išplėstiniai jutiminio skydo režimai"
+  },
+  "t_94f4f7e4": {
+    "message": "Analizuojamas DOCX...",
+    "description": "Būsena analizuojant DOCX skaitytuve"
+  },
+  "t_120adfc1": {
+    "message": "Analizuojamas EPUB...",
+    "description": "Būsena analizuojant EPUB skaitytuve"
+  },
+  "t_5d2a45b8": {
+    "message": "Skaitymo liniuotės režimas skirtas tik „Pro“ prenumeratoriams.",
+    "description": "Įspėjimas, kai ne „Pro“ vartotojas pasiekia skaitymo liniuotę"
+  },
+  "t_c1f29623": {
+    "message": "Redaguoti visą kortelę",
+    "description": "Įrankio patarimas redaguoti visą kortelę užrašinėje"
+  },
+  "t_1063e38c": {
+    "message": "Pašalinti",
+    "description": "Įrankio patarimas pašalinti kortelę iš užrašinės"
+  },
+  "t_ccca2ddf": {
+    "message": "„EasyView“ skaitytuvas"
+  },
+  "t_8524de96": {
+    "message": "Įkeliama..."
+  },
+  "t_25e8f2fd": {
+    "message": "Prašome palaukti..."
+  },
+  "t_ec9d785d": {
+    "message": "1.5x"
+  },
+  "t_dafd5f8f": {
+    "message": "Leksendas"
+  },
+  "t_16d90a0b": {
+    "message": "Atkinsono hiperįskaitomas"
+  },
+  "t_5c7db066": {
+    "message": "Segoe UI (numatytasis „Windows“)"
+  },
+  "t_f7cee5ea": {
+    "message": "Kalibris"
+  },
+  "t_ccc0239e": {
+    "message": "Kandara"
+  },
+  "t_2963521b": {
+    "message": "Korbėlis"
+  },
+  "t_37f1cc58": {
+    "message": "Kambrija"
+  },
+  "t_c3d9d4bf": {
+    "message": "Konstancija"
+  },
+  "t_5d1a5b35": {
+    "message": "Palatino Linotipas"
+  },
+  "t_4dc386b6": {
+    "message": "Knygos Antikva"
+  },
+  "t_03c461f6": {
+    "message": "Franklino Gotika"
+  },
+  "t_7b1ee3b6": {
+    "message": "Senturi Gotika"
+  },
+  "t_a3293302": {
+    "message": "Gilo Sansas"
+  },
+  "t_eb726908": {
+    "message": "Sitka Tekstas"
+  },
+  "t_b5bdee2c": {
+    "message": "Silfaenas"
+  },
+  "t_1ec05249": {
+    "message": "Mikrosofto Sans Serif"
+  },
+  "t_ad4a300c": {
+    "message": "Segoj UI Pusjuodis"
+  },
+  "t_16507cdd": {
+    "message": "Konsolasas"
+  },
+  "t_391c5954": {
+    "message": "Lusida Konsolė"
+  },
+  "t_9879efdf": {
+    "message": "Lusidos Sans rašomoji mašinėlė"
+  },
+  "t_21f59b54": {
+    "message": "Impaktas"
+  },
+  "t_94a7bb97": {
+    "message": "Arijalis Juodas"
+  },
+  "t_6e87c2cb": {
+    "message": "Koperpleito Gotika"
+  },
+  "t_40885309": {
+    "message": "Berlyno Sans FB"
+  },
+  "t_6d5566ba": {
+    "message": "Gabriola"
+  },
+  "t_edb42482": {
+    "message": "Rašalo šriftas"
+  },
+  "t_fa233799": {
+    "message": "Segojė Raštas"
+  },
+  "t_2f7bc407": {
+    "message": "Segojė Spaudinys"
+  },
+  "t_0095a9fa": {
+    "message": "Eksportuoti"
+  },
+  "t_520d0db3": {
+    "message": "Formatas"
+  },
+  "t_5956a437": {
+    "message": "TEKSTAS"
+  },
+  "t_1351017a": {
+    "message": "Failo pavadinimas"
+  },
+  "t_d4c3c15b": {
+    "message": "Failas neįkeltas"
+  },
+  "t_0ca5a078": {
+    "message": "Prašome naudoti konverterio skirtuką failui įkelti."
+  },
+  "t_c9857e16": {
+    "message": "Nepalaikomas failo tipas."
+  },
+  "t_6b447b91": {
+    "message": "Klaida analizuojant failą: "
+  },
+  "t_7f4588be": {
+    "message": "Elektroninė knyga"
+  },
+  "t_12dc65c2": {
+    "message": "Perjungti šviesų / tamsų režimą"
+  },
+  "t_d3d2e617": {
+    "message": "Uždaryti"
+  },
+  "t_6e8cfcb7": {
+    "message": "Saugus eksportas į serverį (Premium)"
+  },
+  "t_2f9df658": {
+    "message": "Atsieti ir iškelti darbo erdvę virš visų langų"
+  },
+  "t_72d6d7a1": {
+    "message": "Importuoti"
+  },
+  "t_de93d5fd": {
+    "message": "Eksportuoti pastabas"
+  },
+  "t_a1aacca9": {
+    "message": "Plūduriuojanti darbo sritis"
+  },
+  "t_ac0b844f": {
+    "message": "Bendrosios pastabos"
+  },
+  "t_15866f1d": {
+    "message": "Pastabos konkrečiai svetainei"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
+  },
+  "t_6af8212e": {
+    "message": "EasyView pastabų lenta"
+  },
+  "t_d16da0f5": {
+    "message": "🌎"
+  },
+  "t_6df173ff": {
+    "message": "📍"
+  },
+  "t_22f58a00": {
+    "message": "🌎 Bendroji pastaba"
+  },
+  "t_5be8bbeb": {
+    "message": "🌐 Svetainės pastaba"
+  },
+  "t_59a56663": {
+    "message": "📍 Puslapio pastaba"
+  },
+  "t_c1843696": {
+    "message": "Tikrinamas vientisumo raktas..."
+  },
+  "t_58038ee4": {
+    "message": "Ką tik"
+  },
+  "t_e254e1a1": {
+    "message": "Prieš $1 min.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_121d4d02": {
+    "message": "Prieš $1 val.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_19d2b280": {
+    "message": "Prieš $1 d.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_d3d4311c": {
+    "message": "Vilkite pastabą"
+  },
+  "t_7b32ea16": {
+    "message": "Perjungti į $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_11916b28": {
+    "message": "Pritaikymo sritis"
+  },
+  "t_5463fe67": {
+    "message": "Spalvų paletė"
+  },
+  "t_d116d454": {
+    "message": "Sutraukti pastabą"
+  },
+  "t_be9ba0e5": {
+    "message": "Kopijuoti tekstą"
+  },
+  "t_28471624": {
+    "message": "Daugiau veiksmų"
+  },
+  "t_90e467df": {
+    "message": "Uždaryti pastabą"
+  },
+  "t_34494920": {
+    "message": "Įveskite savo pastabą čia..."
+  },
+  "t_bdda0b60": {
+    "message": "Apie ką galvojote..."
+  },
+  "t_8689de27": {
+    "message": "Pasiekiama visur"
+  },
+  "t_c0cf9810": {
+    "message": "Teleportuotis atgal į pradinį puslapį"
+  },
+  "t_24a23176": {
+    "message": "Originalus kontekstas"
   }
 }

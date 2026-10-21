@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "ИзиВью — Ясность для каждого ума"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "ИзиВью"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "Мгновенно преобразуйте любой сайт с помощью ИИ-запросов или в один клик. Смотрите веб по-своему."
+  },
+  "t_68ba0232": {
+    "message": "Режим дислексии активирован"
+  },
+  "t_85f47a25": {
+    "message": "Режим дислексии деактивирован"
+  },
+  "t_1cc1b64d": {
+    "message": "Недостаточно контента для анализа"
+  },
+  "t_cebe6412": {
+    "message": "Сложных терминов не найдено"
+  },
+  "t_b964aa0f": {
+    "message": "Ошибка при анализе содержимого страницы"
+  },
+  "t_956c104e": {
+    "message": "Память страницы очищена"
+  },
+  "t_1f4b0f3e": {
+    "message": "Глоссарий очищен"
+  },
+  "t_4bfeec37": {
+    "message": "В выделенном фрагменте не найдено сложных терминов"
+  },
+  "t_1b5e8531": {
+    "message": "В выделенном фрагменте не найдено сложных терминов"
+  },
+  "t_a1f781ec": {
+    "message": "Ошибка расшифровки выделенного фрагмента"
+  },
+  "t_7aae8122": {
+    "message": "Выделения очищены"
+  },
+  "t_58762fd6": {
+    "message": "Пожалуйста, выберите одно слово или короткую фразу для определения."
+  },
+  "t_6838b119": {
+    "message": "Сетевая ошибка при поиске определения."
+  },
+  "t_ea3ca1b5": {
+    "message": "Расшифровано $1 терминов (из кэша)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "Расшифровано $1 терминов (кэш)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "Вы использовали все бесплатные попытки «Декодера жаргона» в этом месяце. Перейдите на тариф Про (Pro) для безлимитного доступа."
+  },
+  "t_cb3c5d3a": {
+    "message": "Расшифровано $1 терминов в $2 категориях",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "Автоматически выделено $1 вхождений вашего расшифрованного термина",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "Восстановлено $1 сохраненных определений жаргона$2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "Вы использовали все бесплатные попытки «Декодера жаргона» в этом месяце. Перейдите на тариф Про (Pro) для безлимитного доступа."
+  },
+  "t_0b841c82": {
+    "message": "Уже в блокноте!"
+  },
+  "t_8901f3ab": {
+    "message": "Сохранено в блокнот!"
+  },
+  "t_eb8f5242": {
+    "message": "Ошибка сохранения в блокнот"
+  },
+  "t_bd15702b": {
+    "message": "Сенсорный щит активирован"
+  },
+  "t_c28f3265": {
+    "message": "Сенсорный щит деактивирован"
+  },
+  "t_3f8910d9": {
+    "message": "ИЗИВЬЮ"
+  },
+  "t_8aafa613": {
+    "message": "Не удалось упростить этот текст"
+  },
+  "t_79d2dc85": {
+    "message": "Не удалось упростить этот текст"
+  },
+  "t_99684ba5": {
+    "message": "Ошибка упрощения текста"
+  },
+  "t_f4362bde": {
+    "message": "Скопировано в буфер обмена!"
+  },
+  "t_af07ef4b": {
+    "message": "Не удалось скопировать"
+  },
+  "t_94e4d537": {
+    "message": "Текст на странице заменен"
+  },
+  "t_14a04b67": {
+    "message": "Память упрощений удалена"
+  },
+  "t_c444ff21": {
+    "message": "Оригинальный текст временно восстановлен"
+  },
+  "t_55f1db14": {
+    "message": "Вы использовали все бесплатные попытки в этом месяце. Перейдите на тариф Про (Pro) для безлимитного доступа."
+  },
+  "t_fde4e3f0": {
+    "message": "Восстановлено $1 сохраненных упрощений на этой странице",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "Автоматически восстановлено динамически загруженное упрощение!"
+  },
+  "t_dfa22e52": {
+    "message": "Преобразование текста в речь активировано"
+  },
+  "t_ca153ad0": {
+    "message": "Преобразование текста в речь отключено"
+  },
+  "t_dadbff09": {
+    "message": "Пожалуйста, сначала включите синтез речи"
+  },
+  "t_47071c61": {
+    "message": "Возобновление..."
+  },
+  "t_5516c48d": {
+    "message": "На этой странице не найдено читаемого контента"
+  },
+  "t_c57f25c9": {
+    "message": "Читаемый контент не найден"
+  },
+  "t_2516997e": {
+    "message": "Чтение завершено"
+  },
+  "t_d3069aea": {
+    "message": "Синтез речи не поддерживается в этом браузере"
+  },
+  "t_53e6b8c6": {
+    "message": "Пожалуйста, сначала выделите текст"
+  },
+  "t_e932d0f7": {
+    "message": "Чтение выделенного фрагмента..."
+  },
+  "t_1c50528d": {
+    "message": "Чтение завершено"
+  },
+  "t_594778a2": {
+    "message": "На паузе"
+  },
+  "t_4ded5f77": {
+    "message": "Воспроизведение остановлено"
+  },
+  "t_0a74758c": {
+    "message": "✨ Работает на личном ключе"
+  },
+  "t_2fceddad": {
+    "message": "✨ Без ограничений"
+  },
+  "t_97627d80": {
+    "message": "✨ Работает на личном ключе"
+  },
+  "t_fd7d5888": {
+    "message": "Управление подпиской"
+  },
+  "t_df4657a5": {
+    "message": "Бесплатный участник"
+  },
+  "t_22dfb2ec": {
+    "message": "Гостевой пользователь"
+  },
+  "t_bd9f2460": {
+    "message": "Бесплатный аккаунт"
+  },
+  "t_f5adda31": {
+    "message": "Войти / Регистрация"
+  },
+  "t_d2439201": {
+    "message": "✨ Без ограничений"
+  },
+  "t_164442b7": {
+    "message": "Разогрев движка конвертера..."
+  },
+  "t_1e7c3002": {
+    "message": "Готово к разбору файлов."
+  },
+  "t_d30f78df": {
+    "message": "Темная тема"
+  },
+  "t_6c68d8ce": {
+    "message": "Светлый режим"
+  },
+  "t_fcb68c2b": {
+    "message": "Заметок не найдено. Нечего экспортировать!"
+  },
+  "t_2b75b2d9": {
+    "message": "Ваш токен сессии отсутствует. Пожалуйста, войдите на easyview.in снова, чтобы восстановить доступ."
+  },
+  "t_291a4e34": {
+    "message": "Ошибка маршрутизации защищенного сервера. Проверьте соединение."
+  },
+  "t_2dcf62b3": {
+    "message": "Пропущенных заметок не обнаружено. Рабочая область актуальна."
+  },
+  "t_951bf3ae": {
+    "message": "Ошибка расшифровки: файл не соответствует границам ИзиВью."
+  },
+  "t_817a4ba0": {
+    "message": "интерфейс API (интерфейс) картинка-в-картинке (картинка-в-картинке (PiP)) не поддерживается. Пожалуйста, обновите Хром (Хром)."
+  },
+  "t_e8aa6e9a": {
+    "message": "Не удалось инициализировать движок картинка-в-картинке (картинка-в-картинке (PiP)): "
+  },
+  "t_9feed9d5": {
+    "message": "Успешно расшифровано и добавлено $1 новых заметок.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "БЕТА"
+  },
+  "t_c289adbe": {
+    "message": "Поддержать нас"
+  },
+  "t_60d5b12a": {
+    "message": "Оцените нас"
+  },
+  "js_eb82de4c": {
+    "message": "Пользовательский цвет"
+  },
+  "js_8caef32b": {
+    "message": "Сброс/Очистка (выделите текст и нажмите, или дважды щелкните по выделению вручную)"
+  },
+  "t_823aeb91": {
+    "message": "Рабочая область ИзиВью"
+  },
+  "t_fc42ed23": {
+    "message": "В вашем рабочем пространстве нет глобальных заметок."
+  },
+  "t_12d7c58a": {
+    "message": "Нажмите Пробел, пока активен курсор стикеров, чтобы создать новый."
+  },
+  "t_ab983c11": {
+    "message": "Заметок для этого сайта не найдено."
+  },
+  "t_e22709e9": {
+    "message": "Нажмите на любой элемент на сайте, чтобы прикрепить к нему заметку."
+  },
+  "t_34bdba45": {
+    "message": "Шаг"
+  },
+  "t_9b2d88a1": {
+    "message": "из"
+  },
+  "t_8f44d852": {
+    "message": "Начать!"
+  },
+  "t_b45c2f91": {
+    "message": "Разблокировать экспорт рабочей области"
+  },
+  "t_88f91dc1": {
+    "message": "Безопасная обработка и экспорт всех заметок глобальной рабочей области требуют подтвержденной лицензии Про. Обновитесь, чтобы разблокировать эту функцию навсегда."
+  },
+  "t_134dff88": {
+    "message": "Может быть позже"
+  },
+  "t_5b8c9d11": {
+    "message": "Перейти на тариф Про (Pro)"
+  },
+  "t_792bd8c9": {
+    "message": "Рабочая область плавает!"
+  },
+  "t_e39f7dc2": {
+    "message": "Ваши стикеры теперь парят поверх рабочего стола вашей ОС."
+  },
+  "t_c83d6ec9": {
+    "message": "Перестыковать рабочую область"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">ИзиВью ИИ</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "Генерация остановлена"
+  },
+  "t_removed_from_notebook": {
+    "message": "Удалено из блокнота"
+  },
+  "t_d1c58470": {
+    "message": "Дважды нажмите, чтобы удалить выделение"
+  },
+  "t_d4fdfb03": {
+    "message": "Войдите в ИзиВью, чтобы получить $1 бесплатных использований в месяц, или добавьте свой интерфейс API (интерфейс)-ключ в Настройках.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "Загрузка сохраненных результатов..."
+  },
+  "t_3a99733d": {
+    "message": "Инициализация декодера жаргона..."
+  },
+  "t_b6dc9fc9": {
+    "message": "Создайте бесплатную учетную запись ИзиВью, чтобы получать $1 бесплатных расшифровок ИИ в месяц и отслеживать квоту.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "Создайте бесплатную учетную запись ИзиВью, чтобы получать $1 бесплатных определений ИИ в месяц и отслеживать квоту.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "Извлечение основного контента..."
+  },
+  "t_0eeae2bf": {
+    "message": "Определение контекста страницы..."
+  },
+  "t_87f125d0": {
+    "message": "Анализ терминологии..."
+  },
+  "t_9ef6e70f": {
+    "message": "Использование кэшированных результатов..."
+  },
+  "t_9afdc5e8": {
+    "message": "Анализ с помощью ИИ..."
+  },
+  "t_7ecc3abe": {
+    "message": "Ошибка декодирования с помощью ИИ"
+  },
+  "t_9220c8de": {
+    "message": "Применение упрощений..."
+  },
+  "t_57f406b1": {
+    "message": "Расшифровка выделенного фрагмента..."
+  },
+  "t_c50f2b72": {
+    "message": "Просмотреть глоссарий"
+  },
+  "t_49de9b11": {
+    "message": "Скрыть выделения на странице"
+  },
+  "t_3158774e": {
+    "message": "Восстановить выделения на странице"
+  },
+  "t_fc3ad42d": {
+    "message": "Сохранить в словарь"
+  },
+  "t_87e933b8": {
+    "message": "Поиск определения..."
+  },
+  "t_56b79836": {
+    "message": "Определение слова загружено."
+  },
+  "t_969b24ea": {
+    "message": "🔊 Нажмите в любом месте, чтобы включить аудио темы"
+  },
+  "t_49337275": {
+    "message": "Ручное выделение"
+  },
+  "t_93324bd5": {
+    "message": "Сохранено прямо с веб-страницы."
+  },
+  "t_82e413f3": {
+    "message": "Упрощение текста..."
+  },
+  "t_86c4f6e5": {
+    "message": "Упрощение с помощью ИИ..."
+  },
+  "t_c3e18edb": {
+    "message": "Ошибка упрощения"
+  },
+  "t_6398ab2c": {
+    "message": "Уровень чтения: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "Нажмите, чтобы временно восстановить оригинальный текст"
+  },
+  "t_9beea3e8": {
+    "message": "Удалить из памяти навсегда"
+  },
+  "t_453bb8f7": {
+    "message": "Создайте бесплатную учетную запись ИзиВью, чтобы получать $1 бесплатных упрощений с помощью ИИ в месяц и отслеживать свою квоту.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "Слушать"
+  },
+  "t_24833610": {
+    "message": "Сохранено"
+  },
+  "t_30a008cb": {
+    "message": "Читать далее &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "Сохранено в словарь!"
+  },
+  "t_2728e87f": {
+    "message": "Удалено из словаря"
+  },
+  "t_6b8c66ce": {
+    "message": "Глоссарий ($1 терминов)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "Удалить память для этой страницы"
+  },
+  "t_8a49fe1a": {
+    "message": "Удалить термин"
+  },
+  "t_1534891c": {
+    "message": "Декодировано терминов: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "Сохранить в блокнот"
+  },
+  "t_150a2843": {
+    "message": "Очистить выделение"
+  },
+  "t_21ef939c": {
+    "message": "Сохранено в блокнот!"
+  },
+  "t_8054da35": {
+    "message": "Быстрый словарь",
+    "description": "Заголовок всплывающего окна «Быстрый словарь»"
+  },
+  "t_4aeb2167": {
+    "message": "Слово не найдено",
+    "description": "Заголовок резервного словаря"
+  },
+  "t_272d0070": {
+    "message": "Мы не смогли найти \"$1\" в базовом словаре. Возможно, это современный сленг, аббревиатура или узкоспециализированный жаргон.",
+    "description": "Описание резервного словаря с заполнителем слова",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "Расшифровать с ИИ Эви",
+    "description": "Резервная кнопка для декодирования с помощью ИИ"
+  },
+  "t_14f1f972": {
+    "message": "через",
+    "description": "Префикс источника словаря"
+  },
+  "t_f2faf2f1": {
+    "message": "Существительное",
+    "description": "Часть речи: существительное"
+  },
+  "t_b512ddf1": {
+    "message": "Глагол",
+    "description": "Часть речи: глагол"
+  },
+  "t_d807ae6a": {
+    "message": "Прилагательное",
+    "description": "Часть речи: прилагательное"
+  },
+  "t_1a607278": {
+    "message": "Наречие",
+    "description": "Часть речи: наречие"
+  },
+  "t_02de720d": {
+    "message": "Местоимение",
+    "description": "Часть речи: местоимение"
+  },
+  "t_4b7be2c3": {
+    "message": "Предлог",
+    "description": "Часть речи: предлог"
+  },
+  "t_a3c1d30b": {
+    "message": "Союз",
+    "description": "Часть речи: союз"
+  },
+  "t_e189f001": {
+    "message": "Междометие",
+    "description": "Часть речи: междометие"
+  },
+  "t_96de90f8": {
+    "message": "Копировать упрощенный текст",
+    "description": "Подсказка для копирования упрощенного текста"
+  },
+  "t_44a6e288": {
+    "message": "Читать страницу",
+    "description": "Подсказка для чтения всей страницы через синтез речи"
+  },
+  "t_7d70d73b": {
+    "message": "Прочитать выделенное",
+    "description": "Подсказка для чтения выделенного текста через синтез речи"
+  },
+  "t_11936123": {
+    "message": "Безвозвратно удалить заметку",
+    "description": "Подсказка для безвозвратного удаления заметки"
+  },
+  "t_d27532d9": {
+    "message": "Свернуть"
+  },
+  "t_2bd339d8": {
+    "message": "Восстановить"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "ИзиВью"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "Системное оповещение"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "Системное уведомление"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "Движок\r\n                        ИзиВью"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "Локальные функции остаются\r\n                        активными"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,580 +599,574 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "Интерфейс\r\n                        ИзиВью"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "Вы пользуетесь ИзиВью уже двенадцать часов. Создайте бесплатную учетную запись, чтобы сохранить свои настройки, квоту и разблокировать дополнительные функции."
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "Напомнить через двенадцать часов"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "Светлый"
   },
   "t_7fc56270": {
-    "message": "A"
+    "message": "А"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "Шрифт"
   },
   "t_5dbc98dc": {
-    "message": "S"
+    "message": "С"
   },
   "t_69691c7b": {
-    "message": "M"
+    "message": "М"
   },
   "t_d20caec3": {
-    "message": "L"
+    "message": "Л"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "Функции"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "Визуализация"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "Конвертер"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "Блокнот"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "Декодер жаргона"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "Упростить сложные юридические термины"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "ru.wikipedia.org/wiki/Нейродивергентность"
   },
   "t_61e9c06e": {
-    "message": "W"
+    "message": "Н"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "Нейроотличность"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "намного\r\n                                                проще"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "Фокус и защита конфиденциальности"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "Размывать личный и конфиденциальный контент"
   },
   "t_7f766191": {
-    "message": "mail.google.com/mail/u/0/"
+    "message": "мейл.гугл.ком/мейл/ю/0/"
   },
   "t_dfcf28d0": {
-    "message": "G"
+    "message": "Г"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "Аккаунты Гугл (Гугл)"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "Предупреждение безопасности"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- Запрошен сброс пароля..."
   },
   "t_8d9c307c": {
-    "message": "N"
+    "message": "Н"
   },
   "t_170b1d36": {
-    "message": "Netflix"
+    "message": "Нетфликс"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "Новинки этой недели"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- Ознакомьтесь с нашими последними\r\n                                                    релизами..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "Методы защиты"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "Размытие личного контента"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "Интеллектуально размывает Ватсап, Джимейл и поля ввода паролей для мгновенной визуальной защиты."
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "Автозащита при демонстрации экрана"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "Мгновенно защищает ваш экран при демонстрации онлайн или подключении к\r\n                                            дополнительному дисплею."
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
+    "message": "Используете\r\n                                                    физический проектор?"
   },
   "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "Режим дублирования"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "Фонарик для чтения"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "Следует за вашей мышью с ярким прожектором, чтобы полностью устранить окружающий\r\n                                            визуальный шум."
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "Первое.\r\n                                                            Форма луча"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "Прожектор\r\n                                                            или линейка"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "Второе.\r\n                                                                Размер / высота луча"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "Толщина\r\n                                                                области просмотра"
   },
   "t_f0cad41b": {
     "message": "35px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "Третье.\r\n                                                            Оттенок линзы луча фокуса"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "Мягко затемняет область чтения"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "Четвертое.\r\n                                                            Тень окружающего фона"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "Затемнение\r\n                                                            вокруг вашей линзы"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "Сенсорный щит"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "Заморозить отвлекающую анимацию"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "ньюсдейли.ком/брекинг"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "СРОЧНЫЕ НОВОСТИ"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "Чтение статьи в ежедневных новостях..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "ПОБЕДА!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "Режим защиты"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(по умолчанию)"
   },
   "t_9e3360ac": {
-    "message": "PRO"
+    "message": "ПРО"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "Остановить автовоспроизведение + плавное\r\n                                                затухание при ручной навигации"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "Режим чтения для дислексиков"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "Оптимизированные шрифты и интервалы"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "Профиль интенсивности"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "Низкий"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "Средний"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "Высокий"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "википедия.орг/вики/Чтение"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "Чтение"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "Вот предварительный просмотр ваших настроек чтения."
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "Дополнительные параметры"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "Стиль шрифта"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "По умолчанию (без изменений)"
   },
   "t_5d2967ef": {
-    "message": "OpenDyslexic"
+    "message": "ОпенДислексик"
   },
   "t_1042daad": {
-    "message": "Lexend (ADHD Pro) 🔒"
+    "message": "Лексенд (СДВГ Про) 🔒"
   },
   "t_bcec044a": {
-    "message": "Atkinson Hyperlegible 🔒"
+    "message": "Аткинсон Гиперледжибл 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "Fast Sans (без засечек)"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "Fast Serif (с засечками)"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "Комик Ной"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "Комик Санс"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "Межбуквенный интервал"
   },
   "t_960b44c5": {
-    "message": "Normal"
+    "message": "Обычный"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "Межстрочный интервал"
   },
   "t_60086472": {
     "message": "1.5"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "Интервал между словами"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "Размер шрифта"
   },
   "t_30bd7ce7": {
     "message": "100%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "Цвет наложения"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "Нет"
   },
   "t_2bd8c63b": {
-    "message": "Beige"
+    "message": "Бежевый"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "Светло-голубой"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "Светло-зеленый"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "Светло-желтый"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "Преобразование текста в речь"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "Чтение вслух с подсветкой"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "Воспроизвести"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "Пауза"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "Стоп"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "Выбор голоса"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "Авто (лучшее качество)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "Скорость чтения"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "Очень медленно"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "Медленно"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "Быстро"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "Очень быстро"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "Громкость"
   },
   "t_f1943132": {
     "message": "70%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "Пауза на знаках препинания"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "Выделение слов"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "Включить"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "Режим"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "Темный"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "википедия.орг/вики/Свет"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "Идеальное визуальное оформление для комфорта глаз. Свет может быть интенсивным."
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "Яркость"
   },
   "t_c63ecd19": {
-    "message": "Contrast"
+    "message": "Контрастность"
   },
   "t_b84a9a38": {
-    "message": "Sepia"
+    "message": "Сепия"
   },
   "t_9f1ef078": {
     "message": "0%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "Оттенки серого"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "По умолчанию"
   },
   "t_b1166920": {
-    "message": "Lexend 🔒"
+    "message": "Лексенд 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "Обводка текста"
   },
   "t_cfcd2084": {
     "message": "0"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "Умный конвертер и читалка"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "Текущий файл"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "Нажмите или перетащите файл для загрузки"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• Готово"
   },
   "t_4c4ad5fc": {
-    "message": "HTML"
+    "message": "ХТМЛ"
   },
   "t_5c31b30e": {
-    "message": "EPUB"
+    "message": "ЕПАБ"
   },
   "t_7cfd9a9f": {
-    "message": "DOCX"
+    "message": "ДОКС"
   },
   "t_af97e960": {
     "message": "📌"
   },
   "t_4cc6684d": {
-    "message": "Global"
+    "message": "Глобальный"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "Сайт/Страница"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "Мой блокнот"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "Очистить все"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "Отмена"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "Сохранить слово"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "Сохраненных слов пока нет."
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "Наведите курсор на жаргон на любой странице и нажмите флажок закладки, чтобы сохранить его здесь!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "Переосмыслите интерфейс любого сайта. Опишите, что вы хотите, или выберите\r\n                            пресет."
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "Морфинг\n                                применен"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "Пользовательский макет ИИ\r\n                                активен на этом сайте."
   },
   "t_e8a57cd1": {
     "message": "0 /\r\n                                500"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "Сбросить страницу"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "Макет морфинга"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "Стандартные пресеты"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "Карнавал ужасов"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "Атмосфера жуткого карнавала и анимированный текст ужасов"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "Матричная консоль"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "Тема киберпанк-терминала"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "Нейрофокус"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "Шрифты для дислексии и успокаивающие цвета"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "Режим чтения"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "Минималистичный макет, оптимизированный для концентрации"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "Недавние запросы"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "Гостевой пользователь"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "Бесплатный аккаунт"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "Войти / Управление"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "Выйти"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "Настройки интерфейс API (интерфейс)"
   },
   "t_766cc4dd": {
-    "message": "Gemini"
+    "message": "Джемини"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "ИИ-провайдер"
   },
   "t_222cf5ed": {
-    "message": "Google Gemini"
+    "message": "Гугл Джемини"
   },
   "t_a0607683": {
-    "message": "OpenRouter"
+    "message": "ОпенРоутер"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "Ключ интерфейс API (интерфейс) Джемини (Gemini)"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "Гугл ИИ Студия"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "Ключ интерфейс API (интерфейс) OpenRouter"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "Сохранить ключ интерфейс API (интерфейс)"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "Приоритет ИИ ИзиВью"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ Мой ключ интерфейс API (интерфейс)"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 Серверы ИзиВью"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "Выберите,\r\n                                что используется в первую очередь для всех функций ИИ. Если ваш ключ закончится, серверы ИзиВью\r\n                                всегда используются как резервные."
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "Конфиденциальность\r\n                                    и приоритет"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "Приоритет один:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "Приоритет два:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "Примечание к движку трансформация (Morph):"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "никогда"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "Помощь и обратная связь"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "У вас есть вопрос, нашли ошибку или хотите предложить функцию? Мы будем рады услышать вас!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "Сообщить об ошибке / Оставить отзыв"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Готов к упрощению"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "Экспорт настроек"
   },
   "t_9d5ed678": {
-    "message": "B"
+    "message": "Ж"
   },
   "t_dd753679": {
-    "message": "I"
+    "message": "И"
   },
   "t_20a1d47c": {
     "message": "✎"
   },
   "t_4c614360": {
-    "message": "U"
+    "message": "Ч"
   },
   "t_2f43b42f": {
     "message": "..."
@@ -615,25 +1175,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "Сила"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "Непрозрачность"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "Начертание"
   },
   "t_18d80423": {
     "message": "400"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "Межстрочный\r\n                                интервал"
   },
   "t_f522dede": {
     "message": "1.7x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "Пропустить"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,61 +1202,61 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "Выделение"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "ЧЕРНИЛА"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "ЗАТЕМНЕНИЕ"
   },
   "t_e8bfe352": {
-    "message": "Lexend 👑"
+    "message": "Лексенд 👑"
   },
   "t_0cd4623c": {
-    "message": "Atkinson Hyperlegible 👑"
+    "message": "Аткинсон Гиперледжибл 👑"
   },
   "t_6fbda3a3": {
-    "message": "Arial"
+    "message": "Ариал"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "Гельветика"
   },
   "t_207c3219": {
-    "message": "Verdana"
+    "message": "Вердана"
   },
   "t_2bd141ae": {
-    "message": "Tahoma"
+    "message": "Тахома"
   },
   "t_720661ec": {
-    "message": "Trebuchet MS"
+    "message": "Требушет МС"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "Системный без засечек"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "Таймс Нью Роман"
   },
   "t_eada8196": {
-    "message": "Georgia"
+    "message": "Джорджия"
   },
   "t_96a78725": {
-    "message": "Garamond"
+    "message": "Гарамон"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "Системный с засечками"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "Комик Санс МС"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "Курьер Нью"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "Моноширинный"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "Размер\r\n                            шрифта"
   },
   "t_f4f9f2f4": {
     "message": "14px"
@@ -723,7 +1283,7 @@
     "message": "32px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "Готово"
   },
   "t_63922286": {
     "message": "×"
@@ -732,154 +1292,34 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "Экспортировать библиотеку тем"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "Сохраняйте свои шедевры, созданные ИИ,\r\n                локально."
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "Экспортировать всю библиотеку"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
-  },
-  "t_ccca2ddf": {
-    "message": "EasyView Reader"
-  },
-  "t_8524de96": {
-    "message": "Loading..."
-  },
-  "t_25e8f2fd": {
-    "message": "Please wait..."
-  },
-  "t_ec9d785d": {
-    "message": "1.5x"
-  },
-  "t_dafd5f8f": {
-    "message": "Lexend"
-  },
-  "t_16d90a0b": {
-    "message": "Atkinson Hyperlegible"
-  },
-  "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
-  },
-  "t_f7cee5ea": {
-    "message": "Calibri"
-  },
-  "t_ccc0239e": {
-    "message": "Candara"
-  },
-  "t_2963521b": {
-    "message": "Corbel"
-  },
-  "t_37f1cc58": {
-    "message": "Cambria"
-  },
-  "t_c3d9d4bf": {
-    "message": "Constantia"
-  },
-  "t_5d1a5b35": {
-    "message": "Palatino Linotype"
-  },
-  "t_4dc386b6": {
-    "message": "Book Antiqua"
-  },
-  "t_03c461f6": {
-    "message": "Franklin Gothic"
-  },
-  "t_7b1ee3b6": {
-    "message": "Century Gothic"
-  },
-  "t_a3293302": {
-    "message": "Gill Sans"
-  },
-  "t_eb726908": {
-    "message": "Sitka Text"
-  },
-  "t_b5bdee2c": {
-    "message": "Sylfaen"
-  },
-  "t_1ec05249": {
-    "message": "Microsoft Sans Serif"
-  },
-  "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
-  },
-  "t_16507cdd": {
-    "message": "Consolas"
-  },
-  "t_391c5954": {
-    "message": "Lucida Console"
-  },
-  "t_9879efdf": {
-    "message": "Lucida Sans Typewriter"
-  },
-  "t_21f59b54": {
-    "message": "Impact"
-  },
-  "t_94a7bb97": {
-    "message": "Arial Black"
-  },
-  "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
-  },
-  "t_40885309": {
-    "message": "Berlin Sans FB"
-  },
-  "t_6d5566ba": {
-    "message": "Gabriola"
-  },
-  "t_edb42482": {
-    "message": "Ink Free"
-  },
-  "t_fa233799": {
-    "message": "Segoe Script"
-  },
-  "t_2f7bc407": {
-    "message": "Segoe Print"
-  },
-  "t_0095a9fa": {
-    "message": "Export"
-  },
-  "t_520d0db3": {
-    "message": "Format"
-  },
-  "t_5956a437": {
-    "message": "TXT"
-  },
-  "t_1351017a": {
-    "message": "Filename"
-  },
-  "t_6af8212e": {
-    "message": "EasyView Notes Board"
-  },
-  "t_d16da0f5": {
-    "message": "🌎"
-  },
-  "t_6df173ff": {
-    "message": "📍"
+    "message": ".джсон (файл файл JSON)"
   },
   "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
-  },
-  "js_24833610": {
-    "message": "Saved"
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Требуется действие</div>\n            <h2 class=\"ev-si-title\">Учетная запись<br><span class=\"ev-si-gradient-text\">Приостановлена</span></h2>\n            <p class=\"ev-si-sub\">Ваш доступ к ИзиВью был ограничен из-за нарушения наших условий обслуживания.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Связаться с поддержкой\n            </a>\n          </div>\n        </div>\n      "
   },
   "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Пожалуйста, сначала опишите, что именно нужно изменить (морф).</span>\n          </div>"
   },
   "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Преобразование...</span>\n      "
   },
   "js_138703dd": {
-    "message": "No Theme on Page"
+    "message": "Нет темы на странице"
   },
   "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>Экспорт текущей страницы"
   },
   "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Компилируется..."
   },
   "js_e541190e": {
     "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
@@ -891,30 +1331,1241 @@
     "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
   },
   "js_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "Готов к упрощению"
   },
   "js_a18366b2": {
-    "message": "Dark"
+    "message": "Темный"
   },
   "js_9914a0ce": {
-    "message": "Light"
+    "message": "Светлый"
   },
   "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+    "message": "<option value=\"auto\">Авто (лучшее качество)</option>"
   },
   "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Расшифровка..."
   },
   "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+    "message": "Это кажется <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">намного проще</span> для понимания."
   },
   "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+    "message": "Это кажется менее понятным."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_f05df71b": {
+    "message": "Обновление"
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_78db2ae3": {
+    "message": "Наши ИИ-серверы проходят обновление."
+  },
+  "t_bb2129c8": {
+    "message": "Разблокировать полный"
+  },
+  "t_aefee7cd": {
+    "message": "Ясность для каждого мозга"
+  },
+  "t_c38beca1": {
+    "message": "Виндовс (Виндовс) скрывает дисплеи в"
+  },
+  "t_f2fe1e79": {
+    "message": "Значения\r\n                                    ниже 1.0 могут сжать текст и нарушить макет."
+  },
+  "t_ca677d53": {
+    "message": "Визуальные настройки"
+  },
+  "t_230b4522": {
+    "message": "Доска заметок"
+  },
+  "t_596b54bf": {
+    "message": "Агент трансформация (Morph) ИИ"
+  },
+  "t_47e79a17": {
+    "message": "Получите бесплатный ключ на"
+  },
+  "t_42372184": {
+    "message": "Темы экспортируются как"
+  },
+  "t_74fdc8a2": {
+    "message": "Пожалуйста, сначала опишите, что именно нужно изменить (морф)."
+  },
+  "t_245fd3b9": {
+    "message": "Макет преобразования очищен."
+  },
+  "t_172bd753": {
+    "message": "Тема успешно экспортирована!"
+  },
+  "t_4c34daff": {
+    "message": "Время ожидания соединения истекло. Сервер недоступен."
+  },
+  "t_0dd56117": {
+    "message": "На этой странице не найдено активных тем."
+  },
+  "t_cb5c0766": {
+    "message": "Библиотека успешно экспортирована!"
+  },
+  "t_8adb392e": {
+    "message": "Время ожидания соединения истекло. Сервер недоступен."
+  },
+  "t_ae94e0e4": {
+    "message": "Ваша библиотека тем пуста."
+  },
+  "t_10a0c40b": {
+    "message": "Пользовательская тема успешно загружена!"
+  },
+  "t_9b6007a8": {
+    "message": "Ошибка чтения файла темы."
+  },
+  "t_d4fa051d": {
+    "message": "Ошибка: $1. Пожалуйста, перезагрузите вкладку.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "Применено: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "Восстановлено $1 тем из библиотеки!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "Предпочтительный язык"
+  },
+  "t_lang_updated_reload": {
+    "message": "Язык обновлен. Перезагрузка..."
+  },
+  "t_transformation_failed": {
+    "message": "Ошибка преобразования."
+  },
+  "t_c8a59e71": {
+    "message": "Отклонить"
+  },
+  "t_7764306b": {
+    "message": "Облачные сервисы на обслуживании"
+  },
+  "t_248228de": {
+    "message": "Переключить шрифт для дислексии во всплывающем окне"
+  },
+  "t_79a59320": {
+    "message": "Начать тур по приложению"
+  },
+  "t_533bff5b": {
+    "message": "Прикрепить заметку к странице (Alt+S)"
+  },
+  "t_f4f70727": {
+    "message": "Настройки"
+  },
+  "t_4fd11104": {
+    "message": "Круговой прожектор"
+  },
+  "t_0d063af1": {
+    "message": "Горизонтальная линейка 🔒"
+  },
+  "t_60d71580": {
+    "message": "Чистый светлый"
+  },
+  "t_efe48742": {
+    "message": "Янтарный фокус"
+  },
+  "t_610a09ca": {
+    "message": "Холодный голубой"
+  },
+  "t_886f6b9e": {
+    "message": "Спокойный зеленый"
+  },
+  "t_65e8194e": {
+    "message": "Угольно-черный"
+  },
+  "t_7243ed99": {
+    "message": "Полуночный сланец"
+  },
+  "t_ec6d8325": {
+    "message": "Глубокий лесной"
+  },
+  "t_4af435e0": {
+    "message": "Вампирское вино"
+  },
+  "t_2a7dbdf8": {
+    "message": "Про функция"
+  },
+  "t_fc4aec61": {
+    "message": "Открыть в читалке"
+  },
+  "t_801ab246": {
+    "message": "Скачать"
+  },
+  "t_aa3880dc": {
+    "message": "Скачать как страница HTML"
+  },
+  "t_e0781e81": {
+    "message": "Скачать как книга EPUB"
+  },
+  "t_442ff212": {
+    "message": "Скачать как документ DOCX"
+  },
+  "t_6244ee7c": {
+    "message": "Добавить свой термин вручную"
+  },
+  "t_6e7d015f": {
+    "message": "Импорт файла CSV"
+  },
+  "t_edbc5415": {
+    "message": "Экспорт для Анки (Anki) / Квизлет (Quizlet)"
+  },
+  "t_46c29f7a": {
+    "message": "Загрузить тему"
+  },
+  "t_2bd65c5d": {
+    "message": "Экспорт темы"
+  },
+  "t_c1c433ac": {
+    "message": "Активный провайдер ИИ"
+  },
+  "t_90c09393": {
+    "message": "Пунктирный"
+  },
+  "t_eb656e41": {
+    "message": "Штриховой"
+  },
+  "t_0c99ddee": {
+    "message": "Цвет выделения"
+  },
+  "t_eaf63759": {
+    "message": "Цвет чернил"
+  },
+  "t_a183c9f0": {
+    "message": "Цвет затемнения"
+  },
+  "t_75e7422f": {
+    "message": "Цвет фона"
+  },
+  "t_42f9ceea": {
+    "message": "Поиск по сохраненному лексикону..."
+  },
+  "t_0e84a8cf": {
+    "message": "Введите слово или аббревиатуру..."
+  },
+  "t_eea6890c": {
+    "message": "Значение / Перевод..."
+  },
+  "t_4480cf46": {
+    "message": "Мнемоническое правило или учебная заметка (необязательно)..."
+  },
+  "t_d8634fbf": {
+    "message": "например, превратить в розовую аниме-тему с закругленными карточками или в ретро-терминал с темно-зеленым цветом..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "Стикеры"
+  },
+  "t_b097d277": {
+    "message": "Добавить слово"
+  },
+  "t_1eeb67ee": {
+    "message": "Экспортировать текущую страницу"
+  },
+  "t_b62ded9a": {
+    "message": "Облачные сервисы отключены"
+  },
+  "t_263e00eb": {
+    "message": "Войти / Создать аккаунт"
+  },
+  "t_7748eb3b": {
+    "message": "ОБНОВЛЕНИЕ"
+  },
+  "t_81a5d20b": {
+    "message": "Заморозить все"
+  },
+  "t_e61146d9": {
+    "message": "Спокойное затемнение"
+  },
+  "t_57323916": {
+    "message": "Остановить автовоспроизведение"
+  },
+  "t_f50319ea": {
+    "message": "Полная защита"
+  },
+  "t_8e13f26d": {
+    "message": "Быстрый вопрос"
+  },
+  "t_134b26da": {
+    "message": "Вам нравится<br><span class=\"ev-si-gradient-text\">ИзиВью?</span>"
+  },
+  "t_b75bdd9e": {
+    "message": "Ваши отзывы помогают нам стать лучше.<br>Вам нравится пользоваться расширением?"
+  },
+  "t_396d1ff8": {
+    "message": "Да, конечно!"
+  },
+  "t_7d0cacf3": {
+    "message": "Требует доработки"
+  },
+  "t_815142c9": {
+    "message": "Поддержать нас"
+  },
+  "t_abd9fa39": {
+    "message": "Не могли бы вы<br><span class=\"ev-si-gradient-text\">оставить отзыв?</span>"
+  },
+  "t_02991e61": {
+    "message": "Оценки от таких пользователей, как вы, — лучший способ помочь ИзиВью расти. Это займет всего минуту!"
+  },
+  "t_db49c1f2": {
+    "message": "Оценить"
+  },
+  "t_7a4f0d12": {
+    "message": "Напомнить позже"
+  },
+  "t_fee6c0e9": {
+    "message": "Личная обратная связь"
+  },
+  "t_74393dde": {
+    "message": "Что мы можем <span class=\"ev-si-gradient-text\">улучшить?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "Расскажите нам, что пошло не так..."
+  },
+  "t_6f97affc": {
+    "message": "Отправить отзыв"
+  },
+  "t_b20871b3": {
+    "message": "Пожалуйста, введите ваш отзыв"
+  },
+  "t_7b0fee4d": {
+    "message": "Отправка..."
+  },
+  "t_fb631633": {
+    "message": "Спасибо за ваш отзыв."
+  },
+  "t_08727add": {
+    "message": "Смотрите веб по-своему."
+  },
+  "t_15bbb9d0": {
+    "message": "Веб-сайт"
+  },
+  "t_c5f29bb3": {
+    "message": "Конфиденциальность"
+  },
+  "t_ad5b1a22": {
+    "message": "Основатель"
+  },
+  "t_db496e03": {
+    "message": "Личные ключи создают прямое, 100% приватное соединение с ИИ. Ваш текст никогда не попадает на серверы ИзиВью."
+  },
+  "t_387c35b3": {
+    "message": "Наш управляемый сервер (Премиум) служит надежным резервным вариантом, если ключ отсутствует или не работает."
+  },
+  "t_98bc5a17": {
+    "message": "Для защиты проприетарных алгоритмов ваш ключ кратковременно проходит через наш защищенный сервер для аутентификации в Гугл (Гугл). Он"
+  },
+  "t_de47f1be": {
+    "message": "не сохраняется и не записывается."
+  },
+  "t_25e02e7f": {
+    "message": "Активно: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ Премиум-участник"
+  },
+  "t_df56cfae": {
+    "message": "⭐ Пожизненный участник"
+  },
+  "t_41cbc704": {
+    "message": " дней осталось"
+  },
+  "t_b194bd82": {
+    "message": "Никогда не истекает"
+  },
+  "t_9f830444": {
+    "message": "⭐ Про:"
+  },
+  "t_61b82be6": {
+    "message": " осталось морфов"
+  },
+  "t_c20e7ceb": {
+    "message": " осталось бесплатных морфов"
+  },
+  "t_d7087930": {
+    "message": " осталось бесплатных использований"
+  },
+  "t_4bbf11bd": {
+    "message": "Поля термина и значения не могут быть пустыми!"
+  },
+  "t_08f09d38": {
+    "message": "Детали слова успешно обновлены!"
+  },
+  "t_32001b52": {
+    "message": "Пожалуйста, введите и слово, и его значение."
+  },
+  "t_b8115861": {
+    "message": "Ваш учебный блокнот пуст. Сначала добавьте слова в закладки на веб-страницах!"
+  },
+  "t_7114113b": {
+    "message": "Пожалуйста, сначала войдите в свою учетную запись ИзиВью, чтобы подтвердить функции Про!"
+  },
+  "t_093f9fa0": {
+    "message": "Ваш токен сессии отсутствует. Пожалуйста, войдите на easyview.in снова, чтобы восстановить доступ."
+  },
+  "t_0e065596": {
+    "message": "Это подтвержденная функция только для Премиум-версии. Обновитесь до Про, чтобы разблокировать!"
+  },
+  "t_c792a645": {
+    "message": "Не удалось подключиться к защищенному серверу экспорта. Попробуйте позже."
+  },
+  "t_8d1a2675": {
+    "message": "Не удалось найти подходящие элементы словаря в этом файл CSV-файле."
+  },
+  "t_a613ed90": {
+    "message": "Ошибка записи в хранилище браузера! Файл может быть слишком большим для локального кэша."
+  },
+  "t_8efe87ab": {
+    "message": "Браузер не смог прочитать ваш локальный файл."
+  },
+  "t_50bf63aa": {
+    "message": "Вы уверены, что хотите удалить все сохраненные слова из блокнота?"
+  },
+  "t_ff252710": {
+    "message": "Импорт завершен: все $1 записей уже есть в вашем блокноте.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "Ошибка разбора файл CSV: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "\"$1\" уже есть в вашем блокноте. Хотите добавить еще одно определение для него?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "Выход выполнен успешно"
+  },
+  "t_dbd35100": {
+    "message": "Движок преобразования уже работает..."
+  },
+  "t_2de4e55d": {
+    "message": "Макет преобразования очищен"
+  },
+  "t_1bb9196d": {
+    "message": "Морфинг выполнен: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "Ошибка морфинга: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "Сработало: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 элементов упорядочено",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "Это действие навсегда удалит данную заметку на всех синхронизированных устройствах. Продолжить?"
+  },
+  "t_25abf697": {
+    "message": "Для экспорта в книга EPUB требуется библиотека JSZip."
+  },
+  "t_71609188": {
+    "message": "Для экспорта в документ DOCX требуется библиотека html-docx-js."
+  },
+  "t_e1499766": {
+    "message": "Файл не загружен."
+  },
+  "t_023b3355": {
+    "message": "Щит конфиденциальности активирован"
+  },
+  "t_9483a5da": {
+    "message": "Защита конфиденциальности деактивирована"
+  },
+  "t_a04202db": {
+    "message": "Подсветка временно скрыта"
+  },
+  "t_b3d6b264": {
+    "message": "Выделения восстановлены"
+  },
+  "t_7485c55e": {
+    "message": "Добро пожаловать в ИзиВью! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "Ваш когнитивный мост на базе ИИ для более легкого чтения в сети. Давайте совершим краткий тур по функциям."
+  },
+  "t_3a1fe637": {
+    "message": "Декодер жаргона 📖"
+  },
+  "t_89cec86e": {
+    "message": "Упрощает сложную терминологию на любой веб-странице."
+  },
+  "t_f8aefae7": {
+    "message": "Щит конфиденциальности 🔐"
+  },
+  "t_aa860f86": {
+    "message": "Размывает конфиденциальные данные и включает линейку фокуса для чтения без отвлекающих факторов."
+  },
+  "t_0681a3b6": {
+    "message": "Сенсорный щит 🛡️"
+  },
+  "t_6118b864": {
+    "message": "Замораживает отвлекающие ГИФы и анимации."
+  },
+  "t_12ec6fc6": {
+    "message": "Режим чтения для дислексиков 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "Оптимизированные шрифты и интервалы для более легкого чтения."
+  },
+  "t_18d9ce63": {
+    "message": "Преобразование текста в речь 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "Слушайте любую веб-страницу с подсветкой слов."
+  },
+  "t_0019a700": {
+    "message": "Движок трансформация (Morph) ✨"
+  },
+  "t_47c2535a": {
+    "message": "Используйте ИИ для изменения дизайна любого сайта под свою тему или макет."
+  },
+  "t_2ed2f639": {
+    "message": "Стикеры 📝"
+  },
+  "t_75025b5f": {
+    "message": "Прикрепляйте плавающие стикеры к любой веб-странице, чтобы сохранить важную информацию (Alt+S)."
+  },
+  "t_3ff2d7cc": {
+    "message": "Настройка интерфейс API (интерфейс) ⚙️"
+  },
+  "t_0754e836": {
+    "message": "Войдите, чтобы синхронизировать квоту, или укажите свой бесплатный ключ Джемини (Gemini) интерфейс API (интерфейс) здесь."
+  },
+  "t_7b6a2059": {
+    "message": "Шаг $1 из $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "Начать!"
+  },
+  "t_10ac3d04": {
+    "message": "Далее"
+  },
+  "t_5c7a52b8": {
+    "message": "Нажмите "
+  },
+  "t_a1b2c3d4": {
+    "message": " в любое время, чтобы вручную активировать щит автозащиты."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ Защита конфиденциальности активирована"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 Защита конфиденциальности деактивирована"
+  },
+  "js_9b3e1a": {
+    "message": "ИзиВью анализирует макет и выполняет морфинг..."
+  },
+  "js_4c8d2f": {
+    "message": "Определить"
+  },
+  "js_7a1e9b": {
+    "message": "Расшифровать"
+  },
+  "js_2d5f8c": {
+    "message": "Упростить"
+  },
+  "js_6e3a4d": {
+    "message": "Закладка"
+  },
+  "js_1f9b7c": {
+    "message": "Выделение"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "Анализ дерева ДОМ..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "Беспорядочный макет..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "Упрощение структуры..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[ШУМОВАЯ_ПЕРЕГРУЗКА]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "Удаление отвлекающих факторов..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "Сложные узлы"
+  },
+  "js_ldr_m4_cl": {
+    "message": "Применение правил для дислексии..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "Отрисовка интерфейса ИзиВью..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "Сканирование блока текста..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "Слишком много слов..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "Извлечение основного смысла..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "Когнитивная нагрузка"
+  },
+  "js_ldr_s3_cl": {
+    "message": "Составление более простого текста..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "Подробный ИИ..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "Применение читаемости..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "Полировка вывода..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "Перевод жаргона..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "Ошибка: Путаница"
+  },
+  "js_ldr_j2_cl": {
+    "message": "Поиск определений..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[ШУМОВАЯ_ПЕРЕГРУЗКА]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "Упрощение контекста..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "Неизвестные термины"
+  },
+  "js_ldr_j4_cl": {
+    "message": "Применение ясности..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "Форматирование результатов..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "Глубокий анализ..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "Завершение логики ИИ..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "Запуск ИИ..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "Почти готово..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "Интенсивный трафик..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "Это занимает немного больше времени..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "Все еще работаем..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "Подождите..."
+  },
+  "t_b7012ab9": {
+    "message": "Морфинг"
+  },
+  "t_c5e8b1d9": {
+    "message": "Про шрифты"
+  },
+  "t_c8f2ba19": {
+    "message": "Размытие конфиденциального контента включено"
+  },
+  "t_e2dae61a": {
+    "message": "Размытие конфиденциального контента выключено"
+  },
+  "t_c74de318": {
+    "message": "Автозащита при демонстрации экрана включена"
+  },
+  "t_a5fd56f4": {
+    "message": "Автозащита при демонстрации экрана выключена"
+  },
+  "t_ab8d1f2a": {
+    "message": "Режим фонарика включен"
+  },
+  "t_2bf5cc98": {
+    "message": "Режим фонарика выключен"
+  },
+  "t_513bb93f": {
+    "message": "Бионическое чтение"
+  },
+  "t_5a8b2c1d": {
+    "message": "Вот предварительный просмотр ваших настроек чтения."
+  },
+  "t_ac1d4e5f": {
+    "message": "Нет"
+  },
+  "t_b2e3f4a1": {
+    "message": "Широкий"
+  },
+  "t_c3f4a5b2": {
+    "message": "Очень широкий"
+  },
+  "t_d1a3c901": {
+    "message": "Нажать"
+  },
+  "t_b4f2e891": {
+    "message": "Прикрепить к элементу"
+  },
+  "t_c9a1b302": {
+    "message": "Пробел"
+  },
+  "t_f6d4e203": {
+    "message": "Глобальная заметка"
+  },
+  "t_e2b3f104": {
+    "message": "Выход"
+  },
+  "t_a7c0d905": {
+    "message": "Отмена"
+  },
+  "t_e1b2c301": {
+    "message": "Только на этой странице"
+  },
+  "t_f7a3b402": {
+    "message": "Этот сайт"
+  },
+  "t_a8c4d503": {
+    "message": "Все сайты (Глобально)"
+  },
+  "t_b9d5e604": {
+    "message": "Скрыть до перезагрузки"
+  },
+  "t_c0e6f705": {
+    "message": "Прикрепить заметку к элементу"
+  },
+  "t_d1f7a806": {
+    "message": "Изменить цвет заметки"
+  },
+  "t_e2a8b907": {
+    "message": "Свернуть/развернуть заметку"
+  },
+  "t_f3b9c008": {
+    "message": "Копировать содержимое заметки"
+  },
+  "t_a4c0d109": {
+    "message": "Больше действий"
+  },
+  "t_b5d1e200": {
+    "message": "Удалить эту заметку"
+  },
+  "t_e87033a2": {
+    "message": "Alt+P"
+  },
+  "t_4120201a": {
+    "message": "Бесплатная пробная версия активна"
+  },
+  "t_6ed40ffb": {
+    "message": "Синхронизация настроек между устройствами"
+  },
+  "t_f8b8a5fd": {
+    "message": "Более высокая бесплатная квота"
+  },
+  "t_440b106d": {
+    "message": "Доступ к будущим функциям ПРО"
+  },
+  "t_3a99076c": {
+    "message": "Лимит премиум-версии"
+  },
+  "t_545f6c2f": {
+    "message": "Без ограничений"
+  },
+  "t_ad23f4a0": {
+    "message": "Пространственные заметки"
+  },
+  "t_04f2f045": {
+    "message": "Вы успешно развернули все пятнадцать заметок бесплатного уровня по всей сети. Обновитесь до ИзиВью Премиум, чтобы разблокировать бесконечную пространственную память и пользовательские цвета."
+  },
+  "t_cf874b99": {
+    "message": "Разблокировать премиум"
+  },
+  "t_a6d36e2f": {
+    "message": "Все локальные элементы управления доступностью (активны)"
+  },
+  "t_b0b69bc3": {
+    "message": "Движок преобразования текста в речь (активен)"
+  },
+  "t_cc96c21a": {
+    "message": "Облачные функции ИИ (офлайн)"
+  },
+  "t_7af6f6e5": {
+    "message": "Я понимаю"
+  },
+  "t_9bc7102e": {
+    "message": "Создайте бесплатную учетную запись ИзиВью, чтобы отслеживать квоту и разблокировать Декодер жаргона."
+  },
+  "t_ab7512fd": {
+    "message": "Ваш токен сессии отсутствует. Пожалуйста, войдите на easyview.in снова, чтобы восстановить доступ."
+  },
+  "t_1cd7820a": {
+    "message": "ТОЛЬКО ПРО ДОСТУП"
+  },
+  "t_8eb14032": {
+    "message": "Декодер жаргона<br><span class=\"ev-si-gradient-text\">Квота исчерпана</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "ЛИМИТ ИСЧЕРПАН"
+  },
+  "t_5ae983dc": {
+    "message": "Вы использовали все <strong>пять бесплатных расшифровок</strong> в этом месяце. Разблокируйте безлимитный доступ за секунды."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> Перейти на Про — Безлимитные расшифровки</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> Использовать свой интерфейс API (интерфейс)-ключ</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 Добавить интерфейс API (интерфейс)-ключ в Настройках</button>"
+  },
+  "t_9be4129a": {
+    "message": "Экспортер учебных колод<br><span class=\"ev-si-gradient-text\">Про-автоматизация</span>"
+  },
+  "t_fac34185": {
+    "message": "Мгновенно экспортируйте весь свой пользовательский учебный блокнот прямо в <strong>Анки (Anki)</strong> и <strong>Квизлет (Quizlet)</strong>."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Больше никакого ручного ввода</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Компилятор карточек RFC-4180</div>"
+  },
+  "t_da12c30b": {
+    "message": "Про доступ"
+  },
+  "t_4a9b2c01": {
+    "message": "Эта функция"
+  },
+  "t_3be78c01": {
+    "message": "Этот шрифт для чтения при дислексии"
+  },
+  "t_0ad4b971": {
+    "message": "Этот визуальный шрифт"
+  },
+  "t_9af42be8": {
+    "message": "Этот премиум-шрифт для экспорта"
+  },
+  "t_cbae8349": {
+    "message": "Обновитесь, чтобы разблокировать все функции доступности и мощные инструменты."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Расширенная доступность</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> Все будущие обновления</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ Перейти на Про"
+  },
+  "t_5ef4c1a2": {
+    "message": "Может быть позже"
+  },
+  "t_3b7a5e82": {
+    "message": ", но функции ИИ могут быть временно недоступны."
+  },
+  "t_c91d8e12": {
+    "message": "Общие"
+  },
+  "t_b42f3a9d": {
+    "message": "Определение"
+  },
+  "t_f1d4a8e6": {
+    "message": "Словарь"
+  },
+  "t_e398c71f": {
+    "message": "Пользовательский"
+  },
+  "t_a72df9e5": {
+    "message": "Медицинский"
+  },
+  "t_d8f2c61a": {
+    "message": "Юридическая информация"
+  },
+  "t_b3e1f5d2": {
+    "message": "Финансовый"
+  },
+  "t_c25d81f9": {
+    "message": "Технологии"
+  },
+  "t_e1b3a4f6": {
+    "message": "Академический"
+  },
+  "t_d5f9b4c1": {
+    "message": "Термин"
+  },
+  "t_f7a2e8ea": {
+    "message": "Категория"
+  },
+  "t_e3b1c6d9": {
+    "message": "Упрощенное значение"
+  },
+  "t_a9d4e5f2": {
+    "message": "Учебные заметки / Контекст"
+  },
+  "t_b4c5d6e7": {
+    "message": "Отмена"
+  },
+  "t_c8f2a1b4": {
+    "message": "Сохранить изменения"
+  },
+  "t_8c17b5e6": {
+    "message": "Ваш токен сессии отсутствует. Пожалуйста, войдите на easyview.in снова, чтобы восстановить доступ."
+  },
+  "t_a43dc219": {
+    "message": "Создайте бесплатную учетную запись ИзиВью, чтобы отслеживать квоту использования и разблокировать движок ИИ трансформация (Morph)."
+  },
+  "t_54c523fe": {
+    "message": "🎉 Безупречно! Успешно импортировано $1 новых учебных карточек."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 Безупречно! Импортировано $1 новых карточек. (Пропущено дубликатов: $2.)"
+  },
+  "t_14894d12": {
+    "message": "Экспорт темы"
+  },
+  "t_f27a2629": {
+    "message": "Резервная копия библиотеки тем"
+  },
+  "t_9ad85e17": {
+    "message": "Режим линейки для чтения"
+  },
+  "t_b9d4e7a5": {
+    "message": "Расширенные режимы сенсорной защиты"
+  },
+  "t_94f4f7e4": {
+    "message": "Обработка документ DOCX...",
+    "description": "Статус при разборе DOCX в читалке"
+  },
+  "t_120adfc1": {
+    "message": "Обработка книга EPUB...",
+    "description": "Статус при разборе EPUB в читалке"
+  },
+  "t_5d2a45b8": {
+    "message": "Режим линейки для чтения доступен только по подписке ПРО.",
+    "description": "Предупреждение, когда пользователь без ПРО доступа открывает линейку для чтения"
+  },
+  "t_c1f29623": {
+    "message": "Редактировать всю карточку",
+    "description": "Подсказка для редактирования всей карточки в блокноте"
+  },
+  "t_1063e38c": {
+    "message": "Удалить",
+    "description": "Подсказка для удаления карточки из блокнота"
+  },
+  "t_ccca2ddf": {
+    "message": "Читалку ИзиВью"
+  },
+  "t_8524de96": {
+    "message": "Загрузка..."
+  },
+  "t_25e8f2fd": {
+    "message": "Пожалуйста, подождите..."
+  },
+  "t_ec9d785d": {
+    "message": "1.5x"
+  },
+  "t_dafd5f8f": {
+    "message": "Лексенд"
+  },
+  "t_16d90a0b": {
+    "message": "Аткинсон Гиперледжибл"
+  },
+  "t_5c7db066": {
+    "message": "Segoe интерфейс (по умолчанию в Виндовс (Виндовс))"
+  },
+  "t_f7cee5ea": {
+    "message": "Калибри"
+  },
+  "t_ccc0239e": {
+    "message": "Кандара"
+  },
+  "t_2963521b": {
+    "message": "Корбел"
+  },
+  "t_37f1cc58": {
+    "message": "Камбрия"
+  },
+  "t_c3d9d4bf": {
+    "message": "Констанция"
+  },
+  "t_5d1a5b35": {
+    "message": "Палатино Линотайп"
+  },
+  "t_4dc386b6": {
+    "message": "Бук Антиква"
+  },
+  "t_03c461f6": {
+    "message": "Франклин Готик"
+  },
+  "t_7b1ee3b6": {
+    "message": "Сенчури Готик"
+  },
+  "t_a3293302": {
+    "message": "Гилл Санс"
+  },
+  "t_eb726908": {
+    "message": "Ситка Текст"
+  },
+  "t_b5bdee2c": {
+    "message": "Силфаен"
+  },
+  "t_1ec05249": {
+    "message": "Майкрософт Санс Сериф"
+  },
+  "t_ad4a300c": {
+    "message": "Сегои ЮИ Полужирный"
+  },
+  "t_16507cdd": {
+    "message": "Консолас"
+  },
+  "t_391c5954": {
+    "message": "Люсида Консоль"
+  },
+  "t_9879efdf": {
+    "message": "Люсида Санс Тайпрайтер"
+  },
+  "t_21f59b54": {
+    "message": "Импакт"
+  },
+  "t_94a7bb97": {
+    "message": "Ариал Блэк"
+  },
+  "t_6e87c2cb": {
+    "message": "Копперплейт Готик"
+  },
+  "t_40885309": {
+    "message": "Берлин Санс ФБ"
+  },
+  "t_6d5566ba": {
+    "message": "Габриэла"
+  },
+  "t_edb42482": {
+    "message": "Инк Фри"
+  },
+  "t_fa233799": {
+    "message": "Сегое Скрипт"
+  },
+  "t_2f7bc407": {
+    "message": "Сегое Принт"
+  },
+  "t_0095a9fa": {
+    "message": "Экспорт"
+  },
+  "t_520d0db3": {
+    "message": "Формат"
+  },
+  "t_5956a437": {
+    "message": "ТЕКСТ"
+  },
+  "t_1351017a": {
+    "message": "Имя файла"
+  },
+  "t_d4c3c15b": {
+    "message": "Файл не загружен"
+  },
+  "t_0ca5a078": {
+    "message": "Пожалуйста, используйте вкладку Конвертер для загрузки файла."
+  },
+  "t_c9857e16": {
+    "message": "Неподдерживаемый тип файла."
+  },
+  "t_6b447b91": {
+    "message": "Ошибка разбора файла: "
+  },
+  "t_7f4588be": {
+    "message": "ЕПАБ"
+  },
+  "t_12dc65c2": {
+    "message": "Переключить светлую/темную тему"
+  },
+  "t_d3d2e617": {
+    "message": "Закрыть"
+  },
+  "t_6e8cfcb7": {
+    "message": "Безопасный экспорт на сервер (Премиум)"
+  },
+  "t_2f9df658": {
+    "message": "Открепить и разместить рабочее пространство поверх всех окон"
+  },
+  "t_72d6d7a1": {
+    "message": "Импорт"
+  },
+  "t_de93d5fd": {
+    "message": "Экспорт заметок"
+  },
+  "t_a1aacca9": {
+    "message": "Плавающее окно"
+  },
+  "t_ac0b844f": {
+    "message": "Глобальные заметки"
+  },
+  "t_15866f1d": {
+    "message": "Заметки для сайта"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
+  },
+  "t_6af8212e": {
+    "message": "Доска заметок ИзиВью"
+  },
+  "t_d16da0f5": {
+    "message": "🌎"
+  },
+  "t_6df173ff": {
+    "message": "📍"
+  },
+  "t_22f58a00": {
+    "message": "🌎 Глобальная заметка"
+  },
+  "t_5be8bbeb": {
+    "message": "Заметка для сайта"
+  },
+  "t_59a56663": {
+    "message": "📍 Заметка на странице"
+  },
+  "t_c1843696": {
+    "message": "Проверка токена целостности..."
+  },
+  "t_58038ee4": {
+    "message": "Только что"
+  },
+  "t_e254e1a1": {
+    "message": "$1 мин. назад",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_121d4d02": {
+    "message": "$1 ч. назад",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_19d2b280": {
+    "message": "$1 д. назад",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_d3d4311c": {
+    "message": "Перетащить заметку"
+  },
+  "t_7b32ea16": {
+    "message": "Переключить на $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_11916b28": {
+    "message": "Область размещения"
+  },
+  "t_5463fe67": {
+    "message": "Цветовая палитра"
+  },
+  "t_d116d454": {
+    "message": "Свернуть заметку"
+  },
+  "t_be9ba0e5": {
+    "message": "Копировать текст"
+  },
+  "t_28471624": {
+    "message": "Больше действий"
+  },
+  "t_90e467df": {
+    "message": "Закрыть заметку"
+  },
+  "t_34494920": {
+    "message": "Введите заметку здесь..."
+  },
+  "t_bdda0b60": {
+    "message": "О чем вы думали..."
+  },
+  "t_8689de27": {
+    "message": "Доступно везде"
+  },
+  "t_c0cf9810": {
+    "message": "Вернуться на исходную страницу"
+  },
+  "t_24a23176": {
+    "message": "Исходный контекст"
   }
 }

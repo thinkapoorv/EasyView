@@ -1,30 +1,596 @@
 {
   "appName": {
-    "message": "EasyView — Clarity for Every Brain"
+    "message": "ઈઝીવ્યુ — દરેક મગજ માટે સ્પષ્ટતા"
   },
   "appShortName": {
-    "message": "EasyView"
+    "message": "ઈઝીવ્યુ"
   },
   "appDesc": {
-    "message": "Transform any website instantly with AI prompts or single clicks. See the web your way."
+    "message": "એઆઈ પ્રોમ્પ્ટ્સ અથવા સિંગલ ક્લિક્સ સાથે કોઈપણ વેબસાઈટને તરત જ બદલો. વેબને તમારી રીતે જુઓ."
+  },
+  "t_68ba0232": {
+    "message": "ડિસ્લેક્સિયા મોડ સક્રિય"
+  },
+  "t_85f47a25": {
+    "message": "ડિસ્લેક્સિયા મોડ નિષ્ક્રિય"
+  },
+  "t_1cc1b64d": {
+    "message": "વિશ્લેષણ કરવા માટે પૂરતી સામગ્રી નથી"
+  },
+  "t_cebe6412": {
+    "message": "કોઈ જટિલ શબ્દો મળ્યા નથી"
+  },
+  "t_b964aa0f": {
+    "message": "પેજ કન્ટેન્ટનું વિશ્લેષણ કરવામાં ભૂલ"
+  },
+  "t_956c104e": {
+    "message": "પેજ મેમરી સાફ થઈ ગઈ"
+  },
+  "t_1f4b0f3e": {
+    "message": "ગ્લોસરી સાફ થઈ ગઈ"
+  },
+  "t_4bfeec37": {
+    "message": "પસંદગીમાં કોઈ જટિલ શબ્દો મળ્યા નથી"
+  },
+  "t_1b5e8531": {
+    "message": "પસંદગીમાં કોઈ જટિલ શબ્દો મળ્યા નથી"
+  },
+  "t_a1f781ec": {
+    "message": "પસંદગી ડિકોડ કરવામાં ભૂલ"
+  },
+  "t_7aae8122": {
+    "message": "પસંદગીના હાઇલાઇટ્સ સાફ કર્યા"
+  },
+  "t_58762fd6": {
+    "message": "કૃપા કરીને વ્યાખ્યા આપવા માટે એક શબ્દ અથવા ટૂંકો શબ્દસમૂહ પસંદ કરો."
+  },
+  "t_6838b119": {
+    "message": "વ્યાખ્યા શોધતી વખતે નેટવર્ક ભૂલ."
+  },
+  "t_ea3ca1b5": {
+    "message": "$1 શબ્દો ડિકોડ કર્યા (કેશમાંથી)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_3ddf20cb": {
+    "message": "$1 શબ્દો ડિકોડ કર્યા (કેશ્ડ)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_524cf343": {
+    "message": "તમે આ મહિને તમામ મફત શબ્દભંડોળ ડિકોડર ઉપયોગો પૂર્ણ કર્યા છે. અમર્યાદિત એક્સેસ માટે પ્રો પર અપગ્રેડ કરો."
+  },
+  "t_cb3c5d3a": {
+    "message": "$2 કેટેગરીઝમાં $1 શબ્દો ડિકોડ કર્યા",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_125d5d35": {
+    "message": "તમારા ડિકોડ કરેલા શબ્દભંડોળના $1 ઉદાહરણો ઓટો-હાઈલાઈટ કર્યા",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f30a2f69": {
+    "message": "$1 સાચવેલ જારગન વ્યાખ્યા$2 પુનઃસ્થાપિત કરી",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_05a33e4d": {
+    "message": "તમે આ મહિને તમામ મફત શબ્દભંડોળ ડિકોડર ઉપયોગો પૂર્ણ કર્યા છે. અમર્યાદિત એક્સેસ માટે પ્રો પર અપગ્રેડ કરો."
+  },
+  "t_0b841c82": {
+    "message": "પહેલેથી જ નોટબુકમાં છે!"
+  },
+  "t_8901f3ab": {
+    "message": "નોટબુકમાં સાચવેલ!"
+  },
+  "t_eb8f5242": {
+    "message": "નોટબુકમાં સાચવવામાં ભૂલ"
+  },
+  "t_bd15702b": {
+    "message": "સેન્સરી શીલ્ડ સક્રિય"
+  },
+  "t_c28f3265": {
+    "message": "સેન્સરી શીલ્ડ નિષ્ક્રિય"
+  },
+  "t_3f8910d9": {
+    "message": "ઈઝીવ્યુ"
+  },
+  "t_8aafa613": {
+    "message": "આ ટેક્સ્ટને સરળ બનાવી શકાયું નથી"
+  },
+  "t_79d2dc85": {
+    "message": "આ ટેક્સ્ટને સરળ બનાવી શકાયું નથી"
+  },
+  "t_99684ba5": {
+    "message": "ટેક્સ્ટ સરળ બનાવવામાં ભૂલ"
+  },
+  "t_f4362bde": {
+    "message": "ક્લિપબોર્ડ પર કોપી કર્યું!"
+  },
+  "t_af07ef4b": {
+    "message": "કોપી કરવામાં નિષ્ફળ"
+  },
+  "t_94e4d537": {
+    "message": "પૃષ્ઠ પર ટેક્સ્ટ બદલવામાં આવ્યું"
+  },
+  "t_14a04b67": {
+    "message": "સરળીકરણ મેમરી કાઢી નાખી"
+  },
+  "t_c444ff21": {
+    "message": "મૂળ ટેક્સ્ટ કામચલાઉ રીતે પુનઃસ્થાપિત"
+  },
+  "t_55f1db14": {
+    "message": "તમે આ મહિને તમામ મફત ઉપયોગો પૂર્ણ કર્યા છે. અમર્યાદિત એક્સેસ માટે પ્રો પર અપગ્રેડ કરો."
+  },
+  "t_fde4e3f0": {
+    "message": "આ પેજ પર $1 સાચવેલ સરળીકરણો પુનઃસ્થાપિત કર્યા",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_cb8fb6cf": {
+    "message": "ડાયનેમિકલી લોડ થયેલ સરળીકરણ ઓટો-પુનઃસ્થાપિત કર્યું!"
+  },
+  "t_dfa22e52": {
+    "message": "ટેક્સ્ટ-ટુ-સ્પીચ સક્રિય"
+  },
+  "t_ca153ad0": {
+    "message": "ટેક્સ્ટ-ટુ-સ્પીચ અક્ષમ"
+  },
+  "t_dadbff09": {
+    "message": "કૃપા કરીને પહેલા ટેક્સ્ટ-ટુ-સ્પીચ સક્ષમ કરો"
+  },
+  "t_47071c61": {
+    "message": "ફરી શરૂ કરી રહ્યા છીએ..."
+  },
+  "t_5516c48d": {
+    "message": "આ પેજ પર કોઈ વાંચી શકાય તેવું કન્ટેન્ટ મળ્યું નથી"
+  },
+  "t_c57f25c9": {
+    "message": "કોઈ વાંચી શકાય તેવી સામગ્રી મળી નથી"
+  },
+  "t_2516997e": {
+    "message": "વાંચન પૂર્ણ"
+  },
+  "t_d3069aea": {
+    "message": "આ બ્રાઉઝરમાં ટેક્સ્ટ-ટુ-સ્પીચ સપોર્ટેડ નથી"
+  },
+  "t_53e6b8c6": {
+    "message": "કૃપા કરીને પહેલા થોડો ટેક્સ્ટ પસંદ કરો"
+  },
+  "t_e932d0f7": {
+    "message": "પસંદગી વાંચી રહ્યા છીએ..."
+  },
+  "t_1c50528d": {
+    "message": "વાંચન પૂર્ણ"
+  },
+  "t_594778a2": {
+    "message": "થોભેલ"
+  },
+  "t_4ded5f77": {
+    "message": "સ્પીચ બંધ થઈ ગઈ"
+  },
+  "t_0a74758c": {
+    "message": "✨ પર્સનલ કી દ્વારા સંચાલિત"
+  },
+  "t_2fceddad": {
+    "message": "✨ અમર્યાદિત"
+  },
+  "t_97627d80": {
+    "message": "✨ પર્સનલ કી દ્વારા સંચાલિત"
+  },
+  "t_fd7d5888": {
+    "message": "સબ્સ્ક્રિપ્શન મેનેજ કરો"
+  },
+  "t_df4657a5": {
+    "message": "ફ્રી મેમ્બર"
+  },
+  "t_22dfb2ec": {
+    "message": "ગેસ્ટ યુઝર"
+  },
+  "t_bd9f2460": {
+    "message": "ફ્રી એકાઉન્ટ"
+  },
+  "t_f5adda31": {
+    "message": "લોગિન / સાઇન અપ"
+  },
+  "t_d2439201": {
+    "message": "✨ અમર્યાદિત"
+  },
+  "t_164442b7": {
+    "message": "કન્વર્ટર એન્જિન તૈયાર કરી રહ્યા છીએ..."
+  },
+  "t_1e7c3002": {
+    "message": "ફાઇલો પાર્સ કરવા માટે તૈયાર."
+  },
+  "t_d30f78df": {
+    "message": "ડાર્ક મોડ"
+  },
+  "t_6c68d8ce": {
+    "message": "લાઇટ મોડ"
+  },
+  "t_fcb68c2b": {
+    "message": "કોઈ સ્ટીકી નોટ્સ મળી નથી. એક્સપોર્ટ કરવા માટે કંઈ નથી!"
+  },
+  "t_2b75b2d9": {
+    "message": "તમારું સેશન ટોકન ખૂટે છે. એક્સેસ પુનઃસ્થાપિત કરવા માટે કૃપા કરીને easyview.in પર ફરીથી સાઇન ઇન કરો."
+  },
+  "t_291a4e34": {
+    "message": "સુરક્ષિત સર્વર રાઉટિંગ નિષ્ફળ. તમારું કનેક્શન તપાસો."
+  },
+  "t_2dcf62b3": {
+    "message": "કોઈ ખૂટતી નોંધો મળી નથી. વર્કસ્પેસ અપ-ટુ-ડેટ છે."
+  },
+  "t_951bf3ae": {
+    "message": "ડિક્રિપ્શન નિષ્ફળતા: ફાઇલ ઈઝીવ્યુ સીમાઓનું પાલન કરતી નથી."
+  },
+  "t_817a4ba0": {
+    "message": "પીઆઈપી એપીઆઈ સપોર્ટેડ નથી. કૃપા કરીને ક્રોમ અપડેટ કરો."
+  },
+  "t_e8aa6e9a": {
+    "message": "પીઆઈપી એન્જિન શરૂ કરવામાં નિષ્ફળ: "
+  },
+  "t_9feed9d5": {
+    "message": "સફળતાપૂર્વક ડિક્રિપ્ટ કર્યું અને $1 નવી નોંધો ઇન્જેક્ટ કરી.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_36b84f8e": {
+    "message": "બીટા"
+  },
+  "t_c289adbe": {
+    "message": "અમને સપોર્ટ કરો"
+  },
+  "t_60d5b12a": {
+    "message": "અમને રિવ્યુ આપો"
+  },
+  "js_eb82de4c": {
+    "message": "કસ્ટમ કલર"
+  },
+  "js_8caef32b": {
+    "message": "રીસેટ/સાફ કરો (ટેક્સ્ટ પસંદ કરો અને ક્લિક કરો, અથવા મેન્યુઅલી હાઈલાઈટ પર ડબલ-ક્લિક કરો)"
+  },
+  "t_823aeb91": {
+    "message": "ઈઝીવ્યુ વર્કસ્પેસ"
+  },
+  "t_fc42ed23": {
+    "message": "તમારા વર્કસ્પેસમાં કોઈ વૈશ્વિક નોંધો તરતી નથી."
+  },
+  "t_12d7c58a": {
+    "message": "સ્ટીકી નોટ્સ કર્સર સક્રિય હોય ત્યારે એક જનરેટ કરવા માટે સ્પેસ દબાવો."
+  },
+  "t_ab983c11": {
+    "message": "અહીં કોઈ સાઇટ-વિશિષ્ટ નોંધો મળી નથી."
+  },
+  "t_e22709e9": {
+    "message": "લક્ષિત નોંધને એન્કર કરવા માટે કોઈપણ વેબસાઈટ પરના ભૌતિક તત્વ પર ક્લિક કરો."
+  },
+  "t_34bdba45": {
+    "message": "પગલું"
+  },
+  "t_9b2d88a1": {
+    "message": "નું"
+  },
+  "t_8f44d852": {
+    "message": "શરૂ કરો!"
+  },
+  "t_b45c2f91": {
+    "message": "વર્કસ્પેસ નિકાસ અનલોક કરો"
+  },
+  "t_88f91dc1": {
+    "message": "તમારી સંપૂર્ણ વૈશ્વિક વર્કસ્પેસ નોંધોને સુરક્ષિત રીતે રેન્ડર અને નિકાસ કરવા માટે ચકાસાયેલ પ્રો લાયસન્સની જરૂર છે. આ સુવિધાને કાયમી ધોરણે અનલોક કરવા માટે અપગ્રેડ કરો."
+  },
+  "t_134dff88": {
+    "message": "કદાચ પછી"
+  },
+  "t_5b8c9d11": {
+    "message": "પ્રો માં અપગ્રેડ કરો"
+  },
+  "t_792bd8c9": {
+    "message": "વર્કસ્પેસ ફ્લોટિંગ!"
+  },
+  "t_e39f7dc2": {
+    "message": "તમારી સ્ટીકી નોટ્સ હવે તમારા ઓએસ ડેસ્કટોપની ઉપર તરી રહી છે."
+  },
+  "t_c83d6ec9": {
+    "message": "વર્કસ્પેસ ફરીથી ડોક કરો"
+  },
+  "js_dde2e010": {
+    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">ઈઝીવ્યુ એઆઈ</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">નોઈઝ ફિલ્ટર કરી રહ્યા છીએ...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"બેકગ્રાઉન્ડમાં ચલાવો\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>મિનિમાઇઝ કરો</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>એન્જિન થોભો</span>\n            </button>\n        </div>\n    "
+  },
+  "js_e4cb6770": {
+    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  },
+  "t_656c7876": {
+    "message": "જનરેશન બંધ થઈ ગઈ"
+  },
+  "t_removed_from_notebook": {
+    "message": "નોટબુકમાંથી દૂર કર્યું"
+  },
+  "t_d1c58470": {
+    "message": "હાઇલાઇટ દૂર કરવા માટે ડબલ-ક્લિક કરો"
+  },
+  "t_d4fdfb03": {
+    "message": "$1 મફત ઉપયોગો/મહિનો મેળવવા માટે ઈઝીવ્યુમાં સાઇન ઇન કરો, અથવા સેટિંગ્સમાં તમારી પોતાની એપીઆઈ કી ઉમેરો.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_54b5d744": {
+    "message": "સાચવેલા પરિણામો લોડ કરી રહ્યા છીએ..."
+  },
+  "t_3a99733d": {
+    "message": "જારગન ડિકોડર શરૂ કરી રહ્યા છીએ..."
+  },
+  "t_b6dc9fc9": {
+    "message": "$1 મફત એઆઈ ડિકોડ્સ પ્રતિ મહિને મેળવવા અને તમારા ક્વોટાને ટ્રૅક કરવા માટે એક મફત ઈઝીવ્યુ એકાઉન્ટ બનાવો.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c2337a96": {
+    "message": "$1 મફત એઆઈ વ્યાખ્યાઓ પ્રતિ મહિને મેળવવા અને તમારા ક્વોટાને ટ્રૅક કરવા માટે એક મફત ઈઝીવ્યુ એકાઉન્ટ બનાવો.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1dce6feb": {
+    "message": "મુખ્ય સામગ્રી કાઢી રહ્યા છીએ..."
+  },
+  "t_0eeae2bf": {
+    "message": "પૃષ્ઠ સંદર્ભ શોધી રહ્યા છીએ..."
+  },
+  "t_87f125d0": {
+    "message": "શબ્દાવલીનું વિશ્લેષણ કરી રહ્યા છીએ..."
+  },
+  "t_9ef6e70f": {
+    "message": "કેશ્ડ પરિણામોનો ઉપયોગ કરી રહ્યા છીએ..."
+  },
+  "t_9afdc5e8": {
+    "message": "એઆઈ સાથે વિશ્લેષણ કરી રહ્યા છીએ..."
+  },
+  "t_7ecc3abe": {
+    "message": "એઆઈ ડિકોડિંગ નિષ્ફળ"
+  },
+  "t_9220c8de": {
+    "message": "સરળીકરણ લાગુ કરી રહ્યા છીએ..."
+  },
+  "t_57f406b1": {
+    "message": "પસંદગી ડિકોડ કરી રહ્યા છીએ..."
+  },
+  "t_c50f2b72": {
+    "message": "ગ્લોસરી જુઓ"
+  },
+  "t_49de9b11": {
+    "message": "પૃષ્ઠ પર હાઈલાઈટ્સ છુપાવો"
+  },
+  "t_3158774e": {
+    "message": "પૃષ્ઠ પર હાઈલાઈટ્સ પુનઃસ્થાપિત કરો"
+  },
+  "t_fc3ad42d": {
+    "message": "શબ્દભંડોળમાં સાચવો"
+  },
+  "t_87e933b8": {
+    "message": "વ્યાખ્યા શોધી રહ્યા છીએ..."
+  },
+  "t_56b79836": {
+    "message": "શબ્દની વ્યાખ્યા લોડ થઈ."
+  },
+  "t_969b24ea": {
+    "message": "🔊 થીમ ઓડિયો સક્રિય કરવા માટે ગમે ત્યાં ક્લિક કરો"
+  },
+  "t_49337275": {
+    "message": "મેન્યુઅલ હાઇલાઇટ"
+  },
+  "t_93324bd5": {
+    "message": "વેબ પેજ પરથી સીધું સાચવેલ."
+  },
+  "t_82e413f3": {
+    "message": "ટેક્સ્ટ સરળ બનાવી રહ્યા છીએ..."
+  },
+  "t_86c4f6e5": {
+    "message": "એઆઈ સાથે સરળ બનાવી રહ્યા છીએ..."
+  },
+  "t_c3e18edb": {
+    "message": "સરળીકરણ નિષ્ફળ"
+  },
+  "t_6398ab2c": {
+    "message": "વાંચન સ્તર: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_6db4190f": {
+    "message": "મૂળ ટેક્સ્ટ કામચલાઉ રીતે પુનઃસ્થાપિત કરવા માટે ક્લિક કરો"
+  },
+  "t_9beea3e8": {
+    "message": "મેમરીમાંથી કાયમી ધોરણે કાઢી નાખો"
+  },
+  "t_453bb8f7": {
+    "message": "$1 મફત એઆઈ સરળીકરણો પ્રતિ મહિને મેળવવા અને તમારા ક્વોટાને ટ્રૅક કરવા માટે એક મફત ઈઝીવ્યુ એકાઉન્ટ બનાવો.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_ce6802b4": {
+    "message": "સાંભળો"
+  },
+  "t_24833610": {
+    "message": "સાચવેલ"
+  },
+  "t_30a008cb": {
+    "message": "વધુ વાંચો &rarr;"
+  },
+  "t_84a68ae4": {
+    "message": "વોકેબ્યુલરી નોટબુકમાં સાચવેલ!"
+  },
+  "t_2728e87f": {
+    "message": "વોકેબ્યુલરી નોટબુકમાંથી દૂર કર્યું"
+  },
+  "t_6b8c66ce": {
+    "message": "શબ્દકોશ ($1 શબ્દો)",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4ec0a68a": {
+    "message": "આ પેજ માટે મેમરી દૂર કરો"
+  },
+  "t_8a49fe1a": {
+    "message": "શબ્દ દૂર કરો"
+  },
+  "t_1534891c": {
+    "message": "$1 શબ્દો ડિકોડ કર્યા",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_4a773a0b": {
+    "message": "નોટબુકમાં સાચવો"
+  },
+  "t_150a2843": {
+    "message": "હાઇલાઇટ્સ સાફ કરો"
+  },
+  "t_21ef939c": {
+    "message": "નોટબુકમાં સાચવેલ!"
+  },
+  "t_8054da35": {
+    "message": "ઝડપી શબ્દકોશ",
+    "description": "ક્વિક ડિક્શનરી પોપઅપ હેડર"
+  },
+  "t_4aeb2167": {
+    "message": "શબ્દ મળ્યો નથી",
+    "description": "શબ્દકોશ ફોલબેક શીર્ષક"
+  },
+  "t_272d0070": {
+    "message": "અમને મૂળભૂત શબ્દકોશમાં \"$1\" મળ્યું નથી. તે આધુનિક સ્લેંગ, સંક્ષેપ અથવા અત્યંત તકનીકી શબ્દભંડોળ હોઈ શકે છે.",
+    "description": "શબ્દ પ્લેસહોલ્ડર સાથે ડિક્શનરી ફોલબેક વર્ણન",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bca86d28": {
+    "message": "ઈવી એઆઈ સાથે ડિકોડ કરો",
+    "description": "એઆઈ સાથે ડિકોડ કરવા માટે ફોલબેક બટન"
+  },
+  "t_14f1f972": {
+    "message": "દ્વારા",
+    "description": "શબ્દકોશ સ્ત્રોત ઉપસર્ગ"
+  },
+  "t_f2faf2f1": {
+    "message": "નામ",
+    "description": "નામ (શબ્દનો પ્રકાર)"
+  },
+  "t_b512ddf1": {
+    "message": "ક્રિયાપદ",
+    "description": "ક્રિયાપદ (શબ્દનો પ્રકાર)"
+  },
+  "t_d807ae6a": {
+    "message": "વિશેષણ",
+    "description": "વિશેષણ (શબ્દનો પ્રકાર)"
+  },
+  "t_1a607278": {
+    "message": "ક્રિયા વિશેષણ",
+    "description": "ક્રિયા વિશેષણ (શબ્દનો પ્રકાર)"
+  },
+  "t_02de720d": {
+    "message": "સર્વનામ",
+    "description": "સર્વનામ (ભાષણનો ભાગ)"
+  },
+  "t_4b7be2c3": {
+    "message": "નામયોગી અવ્યય",
+    "description": "નામયોગી અવ્યય (ભાષણનો ભાગ)"
+  },
+  "t_a3c1d30b": {
+    "message": "ઉભયાન્વયી અવ્યય",
+    "description": "સંયોજક (ભાષણનો ભાગ)"
+  },
+  "t_e189f001": {
+    "message": "કેવળપ્રયોગી અવ્યય",
+    "description": "કેવળપ્રયોગી અવ્યય (ભાષણનો ભાગ)"
+  },
+  "t_96de90f8": {
+    "message": "સરળ ટેક્સ્ટ કોપી કરો",
+    "description": "સરળ ટેક્સ્ટ કોપી કરવા માટે ટૂલટિપ"
+  },
+  "t_44a6e288": {
+    "message": "પેજ વાંચો",
+    "description": "ટીટીએસ (TTS) દ્વારા આખું પેજ વાંચવા માટેનું ટૂલટિપ"
+  },
+  "t_7d70d73b": {
+    "message": "પસંદગી વાંચો",
+    "description": "ટીટીએસ (TTS) દ્વારા પસંદગી વાંચવા માટેનું ટૂલટિપ"
+  },
+  "t_11936123": {
+    "message": "નોંધ કાયમી ધોરણે કાઢી નાખો",
+    "description": "સ્ટીકી નોટ કાયમી ધોરણે કાઢી નાખવા માટેનું ટૂલટિપ"
+  },
+  "t_d27532d9": {
+    "message": "નાનું કરો"
+  },
+  "t_2bd339d8": {
+    "message": "પુનઃસ્થાપિત"
   },
   "t_df13eb31": {
-    "message": "EasyView"
+    "message": "ઈઝીવ્યુ"
   },
   "t_a6eebfd5": {
-    "message": "System Alert"
+    "message": "સિસ્ટમ એલર્ટ"
   },
   "t_63346187": {
-    "message": "System notification"
+    "message": "સિસ્ટમ સૂચના"
   },
   "t_9899bf33": {
     "message": "✕"
   },
   "t_95c002de": {
-    "message": "EasyView\r\n                        Engine"
+    "message": "ઈઝીવ્યુ (ઈઝીવ્યુ)\n એન્જિન"
   },
   "t_ed017578": {
-    "message": "Local features remain\r\n                        active"
+    "message": "લોકલ ફીચર્સ સક્રિય\r\n રહે છે"
   },
   "t_900eba0c": {
     "message": "✓"
@@ -33,580 +599,574 @@
     "message": "!"
   },
   "t_308ec022": {
-    "message": "EasyView\r\n                        experience"
+    "message": "ઈઝીવ્યુ (ઈઝીવ્યુ)\n અનુભવ"
   },
   "t_05120c13": {
-    "message": "You've been using EasyView for 12 hours. Create a free account to\r\n                    save your\r\n                    settings, keep your quota, and unlock more features."
+    "message": "તમે ૧૨ કલાકથી ઈઝીવ્યુ (ઈઝીવ્યુ) નો ઉપયોગ કરી રહ્યા છો. તમારી\n                    સેટિંગ્સ સાચવવા, તમારો ક્વોટા જાળવી રાખવા અને વધુ સુવિધાઓ અનલોક કરવા માટે\n                    એક મફત એકાઉન્ટ બનાવો."
   },
   "t_cc9a80ff": {
-    "message": "Remind me in 12 hours"
+    "message": "મને ૧૨ કલાકમાં યાદ અપાવો"
   },
   "t_9914a0ce": {
-    "message": "Light"
+    "message": "લાઇટ"
   },
   "t_7fc56270": {
-    "message": "A"
+    "message": "એ"
   },
   "t_194f5394": {
-    "message": "Font"
+    "message": "ફોન્ટ"
   },
   "t_5dbc98dc": {
-    "message": "S"
+    "message": "એસ"
   },
   "t_69691c7b": {
-    "message": "M"
+    "message": "એમ"
   },
   "t_d20caec3": {
-    "message": "L"
+    "message": "એલ"
   },
   "t_98f770b0": {
-    "message": "Features"
+    "message": "સુવિધાઓ"
   },
   "t_ee24c7ad": {
-    "message": "Visuals"
+    "message": "દ્રશ્યો"
   },
   "t_60ad5b1d": {
-    "message": "Converter"
+    "message": "કન્વર્ટર"
   },
   "t_3a4f8d88": {
-    "message": "Notebook"
-  },
-  "t_36b84f8e": {
-    "message": "BETA"
+    "message": "નોટબુક"
   },
   "t_2f200cdc": {
-    "message": "Jargon Decoder"
+    "message": "શબ્દભંડોળ ડિકોડર"
   },
   "t_df1f4852": {
-    "message": "Simplify complex legal terms"
+    "message": "જટિલ કાનૂની શબ્દોને સરળ બનાવો"
   },
   "t_ed196831": {
-    "message": "wikipedia.org/wiki/Neurodivergence"
+    "message": "વિકિપીડિયા.ઓઆરજી/વિકિ/ન્યુરોડાયવર્જન્સ"
   },
   "t_61e9c06e": {
-    "message": "W"
+    "message": "ડબલ્યુ"
   },
   "t_e653da7d": {
-    "message": "Neurodivergence"
+    "message": "ન્યુરોડાયવર્જન્સ"
   },
   "t_d621fb54": {
-    "message": "a\r\n                                                lot easier"
+    "message": "ઘણું\r\n                                                વધારે સરળ"
   },
   "t_1f5b14d4": {
-    "message": "Focus & Privacy Shield"
+    "message": "ફોકસ અને પ્રાઇવસી શીલ્ડ"
   },
   "t_e86f8066": {
-    "message": "Blur private and sensitive content"
+    "message": "ખાનગી અને સંવેદનશીલ કન્ટેન્ટને બ્લર કરો"
   },
   "t_7f766191": {
-    "message": "mail.google.com/mail/u/0/"
+    "message": "મેઈલ.ગૂગલ.કોમ/મેઈલ/યુ/૦/"
   },
   "t_dfcf28d0": {
-    "message": "G"
+    "message": "જી"
   },
   "t_54b6024d": {
-    "message": "Google Accounts"
+    "message": "ગૂગલ એકાઉન્ટ્સ"
   },
   "t_9ef62aa4": {
-    "message": "Security alert"
+    "message": "સુરક્ષા ચેતવણી"
   },
   "t_cf4a1269": {
-    "message": "- Password reset requested..."
+    "message": "- પાસવર્ડ રીસેટની વિનંતી કરી..."
   },
   "t_8d9c307c": {
-    "message": "N"
+    "message": "એન"
   },
   "t_170b1d36": {
-    "message": "Netflix"
+    "message": "નેટફ્લિક્સ"
   },
   "t_89ba7acb": {
-    "message": "New this week"
+    "message": "આ અઠવાડિયે નવું"
   },
   "t_146e57ff": {
-    "message": "- Check out our latest\r\n                                                    releases..."
+    "message": "- અમારી નવીનતમ\r\n                                                    રિલીઝ તપાસો..."
   },
   "t_2086b5c9": {
-    "message": "Protection Techniques"
+    "message": "સુરક્ષા તકનીકો"
   },
   "t_6033ea98": {
-    "message": "Private Content Blurring"
+    "message": "ખાનગી સામગ્રી બ્લરિંગ"
   },
   "t_51a3f9b4": {
-    "message": "Intelligently blurs WhatsApp, Gmail, and password\r\n                                            inputs for instant visual security."
+    "message": "ત્વરિત દ્રશ્ય સુરક્ષા માટે વોટ્સએપ, જીમેલ અને પાસવર્ડ\n                                            ઇનપુટ્સને બ્લર કરે છે."
   },
   "t_f99d1c8a": {
-    "message": "Auto-Protect on Screen Share"
+    "message": "સ્ક્રીન શેરિંગ પર ઓટો-પ્રોટેક્ટ"
   },
   "t_582d75ec": {
-    "message": "Instantly shields your screen when sharing online or connecting to an\r\n                                            \"Extend\" display."
+    "message": "ઓનલાઇન શેર કરતી વખતે અથવા \"એક્સટેન્ડ\" ડિસ્પ્લે સાથે કનેક્ટ કરતી વખતે તમારી સ્ક્રીનને તરત જ સુરક્ષિત કરે છે."
   },
   "t_d844c502": {
-    "message": "Using\r\n                                                    a Physical Projector?"
+    "message": "ભૌતિક પ્રોજેક્ટરનો\r\n                                                    ઉપયોગ કરી રહ્યા છો?"
   },
   "t_4e17ea37": {
-    "message": "Duplicate Mode"
+    "message": "ડુપ્લિકેટ મોડ"
   },
   "t_ad359770": {
-    "message": "Reading Flashlight"
+    "message": "રીડિંગ ફ્લેશલાઇટ"
   },
   "t_5280b1bd": {
-    "message": "Follows your mouse with a bright spotlight to fully eliminate surrounding\r\n                                            visual clutter."
+    "message": "આસપાસના દ્રશ્ય ક્લટરને સંપૂર્ણપણે દૂર કરવા માટે તેજસ્વી સ્પોટલાઇટ સાથે તમારા માઉસને અનુસરે છે."
   },
   "t_c7d3f7ca": {
-    "message": "1.\r\n                                                            Beam Shape"
+    "message": "૧.\r\n                                                            બીમ આકાર"
   },
   "t_929ef908": {
-    "message": "Spotlight\r\n                                                            or Ruler"
+    "message": "સ્પોટલાઇટ\r\n                                                            અથવા રૂલર"
   },
   "t_c3a91d7c": {
-    "message": "2.\r\n                                                                Beam Size / Height"
+    "message": "૨.\r\n                                                                બીમ કદ / ઊંચાઈ"
   },
   "t_d708cdc5": {
-    "message": "Thickness\r\n                                                                of view area"
+    "message": "વ્યુ એરિયાની\r\n                                                                જાડાઈ"
   },
   "t_f0cad41b": {
-    "message": "35px"
+    "message": "૩૫px"
   },
   "t_f9e97460": {
-    "message": "3.\r\n                                                            Focus Beam Lens Tint"
+    "message": "૩.\r\n                                                            ફોકસ બીમ લેન્સ ટિન્ટ"
   },
   "t_04819a28": {
-    "message": "Gently\r\n                                                            stains the reading gap"
+    "message": "વાંચન ગેપને હળવેથી સ્ટેન કરે છે"
   },
   "t_efe8653a": {
-    "message": "4.\r\n                                                            Ambient Background Shadow"
+    "message": "૪.\r\n                                                            એમ્બિયન્ટ બેકગ્રાઉન્ડ શેડો"
   },
   "t_509328bf": {
-    "message": "Dimness\r\n                                                            surrounding your lens"
+    "message": "તમારા લેન્સની આસપાસની ઝાંખપ"
   },
   "t_c43c6db7": {
-    "message": "Sensory Shield"
+    "message": "સેન્સરી શીલ્ડ"
   },
   "t_0377e28b": {
-    "message": "Freeze distracting animations"
+    "message": "ધ્યાન ભટકાવતા એનિમેશનને ફ્રીઝ કરો"
   },
   "t_5412a44f": {
-    "message": "newsdaily.com/breaking"
+    "message": "ન્યૂઝડેઈલી.કોમ/બ્રેકિંગ"
   },
   "t_2b7ce080": {
-    "message": "BREAKING NEWS"
+    "message": "બ્રેકિંગ ન્યૂઝ"
   },
   "t_c7f62848": {
-    "message": "Reading an article on the daily news..."
+    "message": "દૈનિક સમાચાર પર એક લેખ વાંચી રહ્યા છીએ..."
   },
   "t_4a9c84b7": {
-    "message": "WIN!"
+    "message": "જીત!"
   },
   "t_eb5918a5": {
-    "message": "Shield Mode"
+    "message": "શીલ્ડ મોડ"
   },
   "t_6f8d1b93": {
-    "message": "(default)"
+    "message": "(ડિફોલ્ટ)"
   },
   "t_9e3360ac": {
-    "message": "PRO"
+    "message": "પ્રો"
   },
   "t_3a861248": {
-    "message": "Stop auto-play + calm\r\n                                                fades on manual nav"
+    "message": "ઓટો-પ્લે બંધ કરો + મેન્યુઅલ નેવિગેશન પર શાંત ફેડ્સ"
   },
   "t_a434fd22": {
-    "message": "Dyslexia Reading Mode"
+    "message": "ડિસ્લેક્સિયા રીડિંગ મોડ"
   },
   "t_d89c73b9": {
-    "message": "Optimized fonts & spacing"
+    "message": "ઓપ્ટિમાઇઝ કરેલ ફોન્ટ્સ અને સ્પેસિંગ"
   },
   "t_8ba9894e": {
-    "message": "Intensity Profile"
+    "message": "તીવ્રતા પ્રોફાઇલ"
   },
   "t_28d0edd0": {
-    "message": "Low"
+    "message": "ઓછું"
   },
   "t_87f8a6ab": {
-    "message": "Medium"
+    "message": "મધ્યમ"
   },
   "t_655d20c1": {
-    "message": "High"
+    "message": "વધારે"
   },
   "t_e648e266": {
-    "message": "wikipedia.org/wiki/Reading"
+    "message": "વિકિપીડિયા.ઓઆરજી/વિકિ/રીડિંગ"
   },
   "t_26fccddf": {
-    "message": "Reading"
+    "message": "વાંચન"
   },
   "t_8715d5a2": {
-    "message": "Here is a preview of your reading settings."
+    "message": "તમારા રીડિંગ સેટિંગ્સનું પૂર્વાવલોકન અહીં છે."
   },
   "t_9dfc5d57": {
-    "message": "Advanced Options"
+    "message": "અદ્યતન વિકલ્પો"
   },
   "t_3f428d1e": {
-    "message": "Font Style"
+    "message": "ફોન્ટ સ્ટાઇલ"
   },
   "t_b55d53a8": {
-    "message": "Default (No Change)"
+    "message": "ડિફોલ્ટ (કોઈ ફેરફાર નહીં)"
   },
   "t_5d2967ef": {
-    "message": "OpenDyslexic"
+    "message": "ઓપનડિસ્લેક્સિક"
   },
   "t_1042daad": {
-    "message": "Lexend (ADHD Pro) 🔒"
+    "message": "લેક્સેન્ડ (એડીએચડી પ્રો) 🔒"
   },
   "t_bcec044a": {
-    "message": "Atkinson Hyperlegible 🔒"
+    "message": "એટ્કિન્સન હાયપરલેજિબલ 🔒"
   },
   "t_7758a1c0": {
-    "message": "Fast Sans"
+    "message": "ફાસ્ટ સેન્સ"
   },
   "t_c920a645": {
-    "message": "Fast Serif"
+    "message": "ફાસ્ટ સેરીફ"
   },
   "t_93075043": {
-    "message": "Comic Neue"
+    "message": "કોમિક ન્યુ"
   },
   "t_c5461fe9": {
-    "message": "Comic Sans"
+    "message": "કોમિક સેન્સ"
   },
   "t_81cb1a74": {
-    "message": "Letter Spacing"
+    "message": "અક્ષરો વચ્ચેનું અંતર"
   },
   "t_960b44c5": {
-    "message": "Normal"
+    "message": "સામાન્ય"
   },
   "t_1ef0054f": {
-    "message": "Line Height"
+    "message": "લાઇન હાઇટ"
   },
   "t_60086472": {
-    "message": "1.5"
+    "message": "૧.૫"
   },
   "t_a11b6ae4": {
-    "message": "Word Spacing"
+    "message": "શબ્દ વચ્ચેની જગ્યા"
   },
   "t_45f0d4fa": {
-    "message": "Font Size"
+    "message": "ફોન્ટ સાઈઝ"
   },
   "t_30bd7ce7": {
-    "message": "100%"
+    "message": "૧૦૦%"
   },
   "t_3711e805": {
-    "message": "Overlay Color"
+    "message": "ઓવરલે કલર"
   },
   "t_6adf97f8": {
-    "message": "None"
+    "message": "કંઈ નહીં"
   },
   "t_2bd8c63b": {
-    "message": "Beige"
+    "message": "બીજ"
   },
   "t_01eb0ca4": {
-    "message": "Light Blue"
+    "message": "આછો વાદળી"
   },
   "t_1381943e": {
-    "message": "Light Green"
+    "message": "આછો લીલો"
   },
   "t_3b6a0a37": {
-    "message": "Light Yellow"
-  },
-  "t_376c1f17": {
-    "message": "Bionic Reading"
+    "message": "આછો પીળો"
   },
   "t_7dd3aef2": {
-    "message": "Text-to-Speech"
+    "message": "ટેક્સ્ટ-ટુ-સ્પીચ"
   },
   "t_83e101fc": {
-    "message": "Read aloud with highlighting"
+    "message": "હાઇલાઇટિંગ સાથે મોટેથી વાંચો"
   },
   "t_de3c731b": {
-    "message": "Play"
+    "message": "ચલાવો"
   },
   "t_105b296a": {
-    "message": "Pause"
+    "message": "વિરામ"
   },
   "t_11a755d5": {
-    "message": "Stop"
+    "message": "થોભો"
   },
   "t_7f7991b3": {
-    "message": "Voice Selection"
+    "message": "વોઈસ સિલેક્શન"
   },
   "t_c622cd42": {
-    "message": "Auto (Best Quality)"
+    "message": "ઓટો (શ્રેષ્ઠ ગુણવત્તા)"
   },
   "t_65f4fd8d": {
-    "message": "Reading Speed"
+    "message": "વાંચવાની ઝડપ"
   },
   "t_43fe8bf4": {
-    "message": "Very Slow"
+    "message": "ખૂબ ધીમું"
   },
   "t_efa53979": {
-    "message": "Slow"
+    "message": "ધીમું"
   },
   "t_e16b5b7f": {
-    "message": "Fast"
+    "message": "ઝડપી"
   },
   "t_f02401d8": {
-    "message": "Very Fast"
+    "message": "ખૂબ ઝડપી"
   },
   "t_bd7a9717": {
-    "message": "Volume"
+    "message": "વોલ્યુમ"
   },
   "t_f1943132": {
-    "message": "70%"
+    "message": "૭૦%"
   },
   "t_ec03a296": {
-    "message": "Pause on Punctuation"
+    "message": "વિરામચિહ્નો પર થોભો"
   },
   "t_beb83d5b": {
-    "message": "Word Highlighting"
+    "message": "શબ્દ હાઇલાઇટિંગ"
   },
   "t_2faec1f9": {
-    "message": "Enable"
+    "message": "સક્ષમ"
   },
   "t_650be618": {
-    "message": "Mode"
+    "message": "મોડ"
   },
   "t_a18366b2": {
-    "message": "Dark"
+    "message": "ડાર્ક"
   },
   "t_c0d285d9": {
-    "message": "wikipedia.org/wiki/Light"
+    "message": "વિકિપીડિયા.ઓઆરજી/વિકિ/લાઇટ"
   },
   "t_0bea2c29": {
-    "message": "Perfect visuals for eye comfort. Light can be intense."
+    "message": "આંખના આરામ માટે પરફેક્ટ વિઝ્યુઅલ્સ. પ્રકાશ તીવ્ર હોઈ શકે છે."
   },
   "t_b25323f9": {
-    "message": "Brightness"
+    "message": "બ્રાઇટનેસ"
   },
   "t_c63ecd19": {
-    "message": "Contrast"
+    "message": "કોન્ટ્રાસ્ટ"
   },
   "t_b84a9a38": {
-    "message": "Sepia"
+    "message": "સેપિયા"
   },
   "t_9f1ef078": {
-    "message": "0%"
+    "message": "૦%"
   },
   "t_d3f69752": {
-    "message": "Grayscale"
+    "message": "ગ્રેસ્કેલ"
   },
   "t_7a1920d6": {
-    "message": "Default"
+    "message": "ડિફોલ્ટ"
   },
   "t_b1166920": {
-    "message": "Lexend 🔒"
+    "message": "લેક્સેન્ડ 🔒"
   },
   "t_e72cd05d": {
-    "message": "Text Stroke"
+    "message": "ટેક્સ્ટ સ્ટ્રોક"
   },
   "t_cfcd2084": {
-    "message": "0"
+    "message": "૦"
   },
   "t_b5107247": {
-    "message": "Smart Converter & Reader"
+    "message": "સ્માર્ટ કન્વર્ટર અને રીડર"
   },
   "t_9308d95a": {
-    "message": "Current File"
+    "message": "વર્તમાન ફાઇલ"
   },
   "t_a94a5da0": {
-    "message": "Click or drag file to upload"
+    "message": "અપલોડ કરવા માટે ફાઇલ પર ક્લિક કરો અથવા ખેંચો"
   },
   "t_7e9dfd1e": {
-    "message": "• Ready"
+    "message": "• તૈયાર"
   },
   "t_4c4ad5fc": {
-    "message": "HTML"
+    "message": "એચટીએમએલ"
   },
   "t_5c31b30e": {
-    "message": "EPUB"
+    "message": "ઈપબ"
   },
   "t_7cfd9a9f": {
-    "message": "DOCX"
+    "message": "ડોક્સ"
   },
   "t_af97e960": {
     "message": "📌"
   },
   "t_4cc6684d": {
-    "message": "Global"
+    "message": "વૈશ્વિક"
   },
   "t_f95e488f": {
-    "message": "Site/Page"
+    "message": "સાઇટ/પેજ"
   },
   "t_76ea793e": {
-    "message": "My Notebook"
+    "message": "મારી નોટબુક"
   },
   "t_c510248f": {
     "message": "🔒"
   },
   "t_e77fef01": {
-    "message": "Clear All"
+    "message": "બધું સાફ કરો"
   },
   "t_ea478870": {
-    "message": "Cancel"
+    "message": "રદ કરો"
   },
   "t_622883dd": {
-    "message": "Save Word"
+    "message": "શબ્દ સાચવો"
   },
   "t_42b5a1f7": {
-    "message": "No saved words yet."
+    "message": "હજુ સુધી કોઈ સાચવેલા શબ્દો નથી."
   },
   "t_eb17e766": {
-    "message": "Hover over jargon on any page and click the bookmark flag to save them here!"
+    "message": "કોઈપણ પૃષ્ઠ પરના શબ્દભંડોળ પર હોવર કરો અને તેમને અહીં સાચવવા માટે બુકમાર્ક ફ્લેગ પર ક્લિક કરો!"
   },
   "t_4137f19c": {
-    "message": "Reimagine any website's interface. Describe what you want or choose a\r\n                            preset."
+    "message": "કોઈપણ વેબસાઈટના ઇન્ટરફેસની ફરીથી કલ્પના કરો. તમે શું ઈચ્છો છો તેનું વર્ણન કરો અથવા\r\n                            પ્રીસેટ પસંદ કરો."
   },
   "t_39ca297e": {
-    "message": "Morph\r\n                                Applied"
+    "message": "મોર્ફ\r\n લાગુ"
   },
   "t_53eb74cf": {
-    "message": "Custom AI layout\r\n                                is active on this site."
+    "message": "કસ્ટમ એઆઈ લેઆઉટ\r\n                                આ સાઇટ પર સક્રિય છે."
   },
   "t_e8a57cd1": {
-    "message": "0 /\r\n                                500"
+    "message": "૦ /\r\n                                ૫૦૦"
   },
   "t_133f32f7": {
-    "message": "Reset Page"
+    "message": "પેજ રીસેટ કરો"
   },
   "t_bdc8021f": {
-    "message": "Morph Layout"
+    "message": "મોર્ફ લેઆઉટ"
   },
   "t_dc806c8d": {
-    "message": "Default Presets"
+    "message": "ડિફોલ્ટ પ્રીસેટ્સ"
   },
   "t_573828f5": {
     "message": "🎪"
   },
   "t_0655b141": {
-    "message": "Horror Carnival"
+    "message": "હોરર કાર્નિવલ"
   },
   "t_5a09d456": {
-    "message": "Creepy carnival vibes & animated horror text"
+    "message": "ડરામણી કાર્નિવલ વાઇબ્સ અને એનિમેટેડ હોરર ટેક્સ્ટ"
   },
   "t_d0c6e45c": {
     "message": "💻"
   },
   "t_62c775a0": {
-    "message": "Matrix Console"
+    "message": "મેટ્રિક્સ કન્સોલ"
   },
   "t_fbc3a18e": {
-    "message": "Cyberpunk terminal theme"
+    "message": "સાયબરપંક ટર્મિનલ થીમ"
   },
   "t_a7e78fbe": {
     "message": "🧠"
   },
   "t_824f6040": {
-    "message": "Neuro Focus"
+    "message": "ન્યુરો ફોકસ"
   },
   "t_0b7fa569": {
-    "message": "Dyslexia-friendly fonts & calming colors"
+    "message": "ડિસ્લેક્સિયા-ફ્રેન્ડલી ફોન્ટ્સ અને શાંત રંગો"
   },
   "t_1a393cc2": {
     "message": "📖"
   },
   "t_b701f757": {
-    "message": "Reader Mode"
+    "message": "રીડર મોડ"
   },
   "t_42e1cc9d": {
-    "message": "Minimalist layout optimized for focus"
+    "message": "ફોકસ માટે ઓપ્ટિમાઇઝ કરેલ મિનિમલિસ્ટ લેઆઉટ"
   },
   "t_575728e8": {
-    "message": "Recent Prompts"
+    "message": "તાજેતરના પ્રોમ્પ્ટ્સ"
   },
   "t_d1457b72": {
     "message": "?"
   },
   "t_56afe21d": {
-    "message": "Guest User"
+    "message": "ગેસ્ટ યુઝર"
   },
   "t_931aeaed": {
-    "message": "Free Account"
+    "message": "ફ્રી એકાઉન્ટ"
   },
   "t_0d79352b": {
-    "message": "Login / Manage"
+    "message": "લોગિન / મેનેજ કરો"
   },
   "t_0323de4f": {
-    "message": "Logout"
+    "message": "લોગ આઉટ"
   },
   "t_cec2ab5f": {
-    "message": "API Settings"
+    "message": "એપીઆઈ સેટિંગ્સ"
   },
   "t_766cc4dd": {
-    "message": "Gemini"
+    "message": "જેમિની"
   },
   "t_c410594b": {
-    "message": "AI Provider"
+    "message": "એઆઈ પ્રોવાઈડર"
   },
   "t_222cf5ed": {
-    "message": "Google Gemini"
+    "message": "ગૂગલ જેમિની"
   },
   "t_a0607683": {
-    "message": "OpenRouter"
+    "message": "ઓપનરાઉટર"
   },
   "t_2ada11af": {
-    "message": "Gemini API Key"
+    "message": "જેમિની એપીઆઈ (એપીઆઈ (API)) કી"
   },
   "t_cd34891c": {
-    "message": "Google AI Studio"
+    "message": "ગૂગલ એઆઈ સ્ટુડિયો"
   },
   "t_5112b8f2": {
-    "message": "OpenRouter API Key"
+    "message": "ઓપનરાઉટર એપીઆઈ (એપીઆઈ (API)) કી"
   },
   "t_e85c3883": {
-    "message": "Save API Key"
+    "message": "એપીઆઈ કી સાચવો"
   },
   "t_45fe862a": {
-    "message": "EasyView\r\n                                    AI Priority"
+    "message": "ઈઝીવ્યુ (ઈઝીવ્યુ)\n                                    એઆઈ પ્રાધાન્ય"
   },
   "t_1661f9c4": {
-    "message": "⚡ My API Key"
+    "message": "⚡ મારી એપીઆઈ કી"
   },
   "t_dae6d18d": {
-    "message": "🌐 EasyView Servers"
+    "message": "🌐 ઈઝીવ્યુ (ઈઝીવ્યુ) સર્વર્સ"
   },
   "t_846c4b78": {
-    "message": "Choose\r\n                                which is used first for all AI features. If your key runs out, EasyView servers are\r\n                                always used as fallback."
+    "message": "તમામ એઆઈ સુવિધાઓ માટે પહેલા કયાનો ઉપયોગ કરવો તે પસંદ કરો. જો તમારી કી સમાપ્ત થઈ જાય, તો ઈઝીવ્યુ (ઈઝીવ્યુ) સર્વર્સનો હંમેશા ફોલબેક તરીકે ઉપયોગ થાય છે."
   },
   "t_4d2da252": {
-    "message": "Privacy\r\n                                    & Priority"
+    "message": "પ્રાઇવસી\r\n અને પ્રાધાન્યતા"
   },
   "t_2f3b4c89": {
-    "message": "Priority 1:"
+    "message": "પ્રાથમિકતા ૧:"
   },
   "t_f2369239": {
-    "message": "Priority 2:"
+    "message": "પ્રાથમિકતા ૨:"
   },
   "t_c3c9e24c": {
-    "message": "Morph\r\n                                            Engine Note:"
+    "message": "મોર્ફ\r\n                                            એન્જિન નોંધ:"
   },
   "t_c7561db7": {
-    "message": "never"
+    "message": "ક્યારેય નહીં"
   },
   "t_f68f76a0": {
-    "message": "Help & Feedback"
+    "message": "મદદ અને પ્રતિસાદ"
   },
   "t_5a5166fa": {
-    "message": "Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!"
+    "message": "કોઈ પ્રશ્ન છે, કોઈ બગ મળ્યો છે, અથવા કોઈ સુવિધા સૂચવવા માંગો છો? અમને તમારી પાસેથી સાંભળવું ગમશે!"
   },
   "t_7687f6e4": {
-    "message": "Report a Bug / Give Feedback"
+    "message": "બગ રિપોર્ટ કરો / પ્રતિસાદ આપો"
   },
   "t_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "સરળ બનાવવા માટે તૈયાર"
   },
   "t_789e4f06": {
     "message": "&times;"
   },
   "t_240a0b2e": {
-    "message": "Export Settings"
+    "message": "સેટિંગ્સ નિકાસ કરો"
   },
   "t_9d5ed678": {
-    "message": "B"
+    "message": "બી"
   },
   "t_dd753679": {
-    "message": "I"
+    "message": "આઈ"
   },
   "t_20a1d47c": {
     "message": "✎"
   },
   "t_4c614360": {
-    "message": "U"
+    "message": "યુ"
   },
   "t_2f43b42f": {
     "message": "..."
@@ -615,25 +1175,25 @@
     "message": "_ _ _"
   },
   "t_5a455a61": {
-    "message": "Strength"
+    "message": "શક્તિ"
   },
   "t_bad6a5dd": {
-    "message": "Opacity"
+    "message": "અસ્પષ્ટતા"
   },
   "t_8c489d09": {
-    "message": "Weight"
+    "message": "વજન"
   },
   "t_18d80423": {
-    "message": "400"
+    "message": "૪૦૦"
   },
   "t_2c3a34f5": {
-    "message": "Line\r\n                                Height"
+    "message": "લાઇન\r\n ઊંચાઈ"
   },
   "t_f522dede": {
-    "message": "1.7x"
+    "message": "૧.૭x"
   },
   "t_72ef2b9b": {
-    "message": "Skip"
+    "message": "છોડો"
   },
   "t_336d5ebc": {
     "message": "-"
@@ -642,88 +1202,88 @@
     "message": "+"
   },
   "t_0b90582f": {
-    "message": "Highlight"
+    "message": "હાઇલાઇટ"
   },
   "t_25f26d63": {
-    "message": "INK"
+    "message": "શાહી"
   },
   "t_2445ee3d": {
-    "message": "FADE"
+    "message": "ફેડ"
   },
   "t_e8bfe352": {
-    "message": "Lexend 👑"
+    "message": "લેક્સેન્ડ 👑"
   },
   "t_0cd4623c": {
-    "message": "Atkinson Hyperlegible 👑"
+    "message": "એટ્કિન્સન હાયપરલેજિબલ 👑"
   },
   "t_6fbda3a3": {
-    "message": "Arial"
+    "message": "એરિયલ"
   },
   "t_9b846c60": {
-    "message": "Helvetica"
+    "message": "હેલ્વેટિકા"
   },
   "t_207c3219": {
-    "message": "Verdana"
+    "message": "વરદાના"
   },
   "t_2bd141ae": {
-    "message": "Tahoma"
+    "message": "તાહોમા"
   },
   "t_720661ec": {
-    "message": "Trebuchet MS"
+    "message": "ટ્રેબુશેટ એમએસ"
   },
   "t_c7a490e7": {
-    "message": "System Sans"
+    "message": "સિસ્ટમ સેન્સ"
   },
   "t_8900726a": {
-    "message": "Times New Roman"
+    "message": "ટાઇમ્સ ન્યૂ રોમન"
   },
   "t_eada8196": {
-    "message": "Georgia"
+    "message": "જ્યોર્જિયા"
   },
   "t_96a78725": {
-    "message": "Garamond"
+    "message": "ગેરમોન્ડ"
   },
   "t_1fda0880": {
-    "message": "System Serif"
+    "message": "સિસ્ટમ સેરીફ"
   },
   "t_9495d215": {
-    "message": "Comic Sans MS"
+    "message": "કોમિક સેન્સ એમએસ"
   },
   "t_f800def4": {
-    "message": "Courier New"
+    "message": "કુરિયર ન્યુ"
   },
   "t_a3fd27e2": {
-    "message": "Monospace"
+    "message": "મોનોસ્પેસ"
   },
   "t_2637b671": {
-    "message": "Font\r\n                            Size"
+    "message": "ફોન્ટનું કદ"
   },
   "t_f4f9f2f4": {
-    "message": "14px"
+    "message": "૧૪px"
   },
   "t_cf3c032c": {
-    "message": "16px"
+    "message": "૧૬px"
   },
   "t_d69f92af": {
-    "message": "18px"
+    "message": "૧૮px"
   },
   "t_865b4c0b": {
-    "message": "20px"
+    "message": "૨૦px"
   },
   "t_14cdf596": {
-    "message": "22px"
+    "message": "૨૨px"
   },
   "t_33f60d47": {
-    "message": "24px"
+    "message": "૨૪px"
   },
   "t_c7c6a7b0": {
-    "message": "28px"
+    "message": "૨૮px"
   },
   "t_4d3604fc": {
-    "message": "32px"
+    "message": "૩૨px"
   },
   "t_f92965e2": {
-    "message": "Done"
+    "message": "પૂર્ણ"
   },
   "t_63922286": {
     "message": "×"
@@ -732,154 +1292,34 @@
     "message": "📦"
   },
   "t_5bea9af4": {
-    "message": "Export Theme Library"
+    "message": "થીમ લાઇબ્રેરી નિકાસ કરો"
   },
   "t_9127fdfe": {
-    "message": "Save your AI-generated masterpieces\r\n                locally."
+    "message": "તમારી એઆઈ-જનરેટેડ માસ્ટરપીસને\r\n                સ્થાનિક રીતે સાચવો."
   },
   "t_567311d7": {
-    "message": "Export Entire Library"
+    "message": "આખી લાઇબ્રેરી નિકાસ કરો"
   },
   "t_cc8f0c0e": {
-    "message": ".json"
-  },
-  "t_ccca2ddf": {
-    "message": "EasyView Reader"
-  },
-  "t_8524de96": {
-    "message": "Loading..."
-  },
-  "t_25e8f2fd": {
-    "message": "Please wait..."
-  },
-  "t_ec9d785d": {
-    "message": "1.5x"
-  },
-  "t_dafd5f8f": {
-    "message": "Lexend"
-  },
-  "t_16d90a0b": {
-    "message": "Atkinson Hyperlegible"
-  },
-  "t_5c7db066": {
-    "message": "Segoe UI (Windows Default)"
-  },
-  "t_f7cee5ea": {
-    "message": "Calibri"
-  },
-  "t_ccc0239e": {
-    "message": "Candara"
-  },
-  "t_2963521b": {
-    "message": "Corbel"
-  },
-  "t_37f1cc58": {
-    "message": "Cambria"
-  },
-  "t_c3d9d4bf": {
-    "message": "Constantia"
-  },
-  "t_5d1a5b35": {
-    "message": "Palatino Linotype"
-  },
-  "t_4dc386b6": {
-    "message": "Book Antiqua"
-  },
-  "t_03c461f6": {
-    "message": "Franklin Gothic"
-  },
-  "t_7b1ee3b6": {
-    "message": "Century Gothic"
-  },
-  "t_a3293302": {
-    "message": "Gill Sans"
-  },
-  "t_eb726908": {
-    "message": "Sitka Text"
-  },
-  "t_b5bdee2c": {
-    "message": "Sylfaen"
-  },
-  "t_1ec05249": {
-    "message": "Microsoft Sans Serif"
-  },
-  "t_ad4a300c": {
-    "message": "Segoe UI Semibold"
-  },
-  "t_16507cdd": {
-    "message": "Consolas"
-  },
-  "t_391c5954": {
-    "message": "Lucida Console"
-  },
-  "t_9879efdf": {
-    "message": "Lucida Sans Typewriter"
-  },
-  "t_21f59b54": {
-    "message": "Impact"
-  },
-  "t_94a7bb97": {
-    "message": "Arial Black"
-  },
-  "t_6e87c2cb": {
-    "message": "Copperplate Gothic"
-  },
-  "t_40885309": {
-    "message": "Berlin Sans FB"
-  },
-  "t_6d5566ba": {
-    "message": "Gabriola"
-  },
-  "t_edb42482": {
-    "message": "Ink Free"
-  },
-  "t_fa233799": {
-    "message": "Segoe Script"
-  },
-  "t_2f7bc407": {
-    "message": "Segoe Print"
-  },
-  "t_0095a9fa": {
-    "message": "Export"
-  },
-  "t_520d0db3": {
-    "message": "Format"
-  },
-  "t_5956a437": {
-    "message": "TXT"
-  },
-  "t_1351017a": {
-    "message": "Filename"
-  },
-  "t_6af8212e": {
-    "message": "EasyView Notes Board"
-  },
-  "t_d16da0f5": {
-    "message": "🌎"
-  },
-  "t_6df173ff": {
-    "message": "📍"
+    "message": ".જેસન (જેસન (JSON) ફાઇલ)"
   },
   "js_99537132": {
-    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> Action Required</div>\n            <h2 class=\"ev-si-title\">Account<br><span class=\"ev-si-gradient-text\">Suspended</span></h2>\n            <p class=\"ev-si-sub\">Your EasyView access has been restricted due to a violation of our terms of service.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                Contact Support\n            </a>\n          </div>\n        </div>\n      "
-  },
-  "js_24833610": {
-    "message": "Saved"
+    "message": "\n        <div class=\"ev-si-overlay ev-si-theme-red\" style=\"display: block;\">\n          <div class=\"ev-si-card ev-si-visible\">\n            <div class=\"ev-si-particles\">\n                <span class=\"ev-si-p ev-si-p1\"></span>\n                <span class=\"ev-si-p ev-si-p2\"></span>\n                <span class=\"ev-si-p ev-si-p3\"></span>\n                <span class=\"ev-si-p ev-si-p4\"></span>\n            </div>\n            <div class=\"ev-si-icon-wrap\">\n                <div class=\"ev-si-ring\"></div>\n                <div class=\"ev-si-icon-inner\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"url(#redGrad)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <defs>\n                            <linearGradient id=\"redGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n                                <stop offset=\"0%\" stop-color=\"#ef4444\" />\n                                <stop offset=\"100%\" stop-color=\"#b91c1c\" />\n                            </linearGradient>\n                        </defs>\n                        <path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path>\n                        <line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line>\n                    </svg>\n                </div>\n            </div>\n            <div class=\"ev-si-eyebrow\"><span class=\"ev-si-dot\"></span> કાર્યવાહી જરૂરી</div>\n            <h2 class=\"ev-si-title\">એકાઉન્ટ<br><span class=\"ev-si-gradient-text\">સસ્પેન્ડ</span></h2>\n            <p class=\"ev-si-sub\">સેવાની અમારી શરતોના ઉલ્લંઘનને કારણે તમારું ઈઝીવ્યુ એક્સેસ પ્રતિબંધિત કરવામાં આવ્યું છે.</p>\n            <a href=\"mailto:support@easyview.in\" class=\"ev-si-btn-primary\" style=\"text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 10px;\">\n                <span class=\"ev-si-btn-shimmer\"></span>\n                સપોર્ટનો સંપર્ક કરો\n            </a>\n          </div>\n        </div>\n      "
   },
   "js_57b20c49": {
-    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>Please describe your morph first.</span>\n          </div>"
+    "message": "<div style=\"display: flex; align-items: center; gap: 8px;\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>\n            <span>કૃપા કરીને પહેલા તમારા મોર્ફનું વર્ણન કરો.</span>\n          </div>"
   },
   "js_7f34dbea": {
-    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>Morphing...</span>\n      "
+    "message": "\n        <svg class=\"animate-spin\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"animation: spin 1s linear infinite;\">\n          <path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/>\n        </svg>\n        <span>મોર્ફ કરી રહ્યા છીએ...</span>\n      "
   },
   "js_138703dd": {
-    "message": "No Theme on Page"
+    "message": "પેજ પર કોઈ થીમ નથી"
   },
   "js_cf3190a0": {
-    "message": "<span class=\"ev-si-btn-shimmer\"></span>Export Current Page"
+    "message": "<span class=\"ev-si-btn-shimmer\"></span>વર્તમાન પૃષ્ઠ નિકાસ કરો"
   },
   "js_ac5b17d0": {
-    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> Compiling..."
+    "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" style=\"margin-right:8px\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg> કમ્પાઈલ કરી રહ્યા છીએ..."
   },
   "js_e541190e": {
     "message": "<svg class=\"animate-spin\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
@@ -891,30 +1331,1241 @@
     "message": "<path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
   },
   "js_8b86136c": {
-    "message": "Ready to simplify"
+    "message": "સરળ બનાવવા માટે તૈયાર"
   },
   "js_a18366b2": {
-    "message": "Dark"
+    "message": "ડાર્ક"
   },
   "js_9914a0ce": {
-    "message": "Light"
+    "message": "લાઇટ"
   },
   "js_872cc3ae": {
-    "message": "<option value=\"auto\">Auto (Best Quality)</option>"
+    "message": "<option value=\"auto\">ઓટો (શ્રેષ્ઠ ગુણવત્તા)</option>"
   },
   "js_94fe16a8": {
-    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> Decoding..."
+    "message": "<span style=\"display:inline-block; width: 14px; height: 14px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;\"></span> ડિકોડ કરી રહ્યા છીએ..."
   },
   "js_be7141cc": {
-    "message": "This feels <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">a lot easier</span> to understand."
+    "message": "આ સમજવા માટે <span style=\"background: rgba(74,222,128,0.2); color: #4ade80; border-radius: 4px; padding: 0 4px; font-weight: 600;\">ઘણું વધારે સરળ</span> લાગે છે."
   },
   "js_5d0ff3d0": {
-    "message": "This feels less unambiguous to comprehend."
+    "message": "આ સમજવામાં ઓછું અસ્પષ્ટ લાગે છે."
   },
-  "js_dde2e010": {
-    "message": "\n        <div class=\"ev-kinetic-loader\">\n            <div class=\"ev-loader-brand\">EasyView AI</div>\n            <div class=\"ev-highlighter-stage\">\n                <!-- Chaotic unreadable background text -->\n                <div class=\"ev-chaos-text\" id=\"ev-chaos-track\">@#$&%*![?]</div>\n                \n                <!-- The perfect, clear text revealed by the highlighter -->\n                <div class=\"ev-clarity-reveal\" id=\"ev-reveal-track\">\n                    <span class=\"ev-clean-text\" id=\"ev-clean-track\">Filtering Noise...</span>\n                    <!-- The bright neon leading edge of the marker -->\n                    <div class=\"ev-marker-tip\"></div>\n                </div>\n            </div>\n            <div class=\"ev-speed-trails\">\n               <div class=\"ev-trail loop-1\"></div>\n               <div class=\"ev-trail loop-2\"></div>\n               <div class=\"ev-trail loop-3\"></div>\n            </div>\n        </div>\n        \n        <div class=\"ev-loader-actions\">\n            <button class=\"ev-action-btn ev-minimize-btn\" id=\"ev-minimize-loader\" title=\"Run in background\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n                </svg>\n                <span>Minimize</span>\n            </button>\n            <button class=\"ev-action-btn ev-stop-button\" id=\"ev-stop-generation\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n                    <rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/>\n                </svg>\n                <span>Stop Engine</span>\n            </button>\n        </div>\n    "
+  "t_f05df71b": {
+    "message": "અપગ્રેડ કરી રહ્યા છીએ"
   },
-  "js_e4cb6770": {
-    "message": "\n            #ev-live-toast {\n                position: fixed;\n                bottom: 30px;\n                right: 30px;\n                background: rgba(15, 23, 42, 0.9);\n                backdrop-filter: blur(8px);\n                color: #fff;\n                padding: 12px 20px;\n                border-radius: 12px;\n                border: 1px solid rgba(255, 255, 255, 0.1);\n                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);\n                display: flex;\n                align-items: center;\n                gap: 12px;\n                z-index: 2147483647;\n                font-family: system-ui, -apple-system, sans-serif;\n                font-size: 14px;\n                animation: ev-toast-slide-in 0.3s ease-out;\n            }\n            .ev-toast-icon {\n                font-size: 18px;\n            }\n            @keyframes ev-toast-slide-in {\n                from { transform: translateX(100%); opacity: 0; }\n                to { transform: translateX(0); opacity: 1; }\n            }\n        "
+  "t_78db2ae3": {
+    "message": "અમારા એઆઈ સર્વર્સ અપગ્રેડ થઈ રહ્યા છે."
+  },
+  "t_bb2129c8": {
+    "message": "સંપૂર્ણ અનલોક કરો"
+  },
+  "t_aefee7cd": {
+    "message": "દરેક મગજ માટે સ્પષ્ટતા"
+  },
+  "t_c38beca1": {
+    "message": "વિન્ડોઝ ડિસ્પ્લે છુપાવે છે"
+  },
+  "t_f2fe1e79": {
+    "message": "૧.૦ થી નીચેના મૂલ્યો\r\n                                    ટેક્સ્ટને સંકુચિત કરી શકે છે અને લેઆઉટ તોડી શકે છે."
+  },
+  "t_ca677d53": {
+    "message": "વિઝ્યુઅલ એડજસ્ટમેન્ટ્સ"
+  },
+  "t_230b4522": {
+    "message": "નોટ્સ બોર્ડ"
+  },
+  "t_596b54bf": {
+    "message": "મોર્ફ એઆઈ એજન્ટ"
+  },
+  "t_47e79a17": {
+    "message": "તમારી મફત કી અહીં મેળવો"
+  },
+  "t_42372184": {
+    "message": "થીમ્સ આ રીતે નિકાસ કરવામાં આવે છે"
+  },
+  "t_74fdc8a2": {
+    "message": "કૃપા કરીને પહેલા તમારા મોર્ફ ટ્રાન્સફોર્મેશનનું વર્ણન કરો."
+  },
+  "t_245fd3b9": {
+    "message": "મોર્ફ કરેલ લેઆઉટ સાફ કર્યું."
+  },
+  "t_172bd753": {
+    "message": "થીમ સફળતાપૂર્વક એક્સપોર્ટ થઈ!"
+  },
+  "t_4c34daff": {
+    "message": "કનેક્શન સમય સમાપ્ત થયો. સર્વર પહોંચની બહાર છે."
+  },
+  "t_0dd56117": {
+    "message": "આ પેજ પર કોઈ સક્રિય થીમ મળી નથી."
+  },
+  "t_cb5c0766": {
+    "message": "લાઇબ્રેરી સફળતાપૂર્વક એક્સપોર્ટ થઈ!"
+  },
+  "t_8adb392e": {
+    "message": "કનેક્શન સમય સમાપ્ત થયો. સર્વર પહોંચની બહાર છે."
+  },
+  "t_ae94e0e4": {
+    "message": "તમારી થીમ લાઇબ્રેરી ખાલી છે."
+  },
+  "t_10a0c40b": {
+    "message": "કસ્ટમ થીમ સફળતાપૂર્વક લોડ થઈ ગઈ!"
+  },
+  "t_9b6007a8": {
+    "message": "થીમ ફાઇલ વાંચવામાં નિષ્ફળ."
+  },
+  "t_d4fa051d": {
+    "message": "નિષ્ફળ: $1. કૃપા કરીને ટેબ ફરી લોડ કરો.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_dee9af2e": {
+    "message": "લાગુ કરેલ: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_8f65a46a": {
+    "message": "લાઇબ્રેરીમાંથી $1 થીમ્સ પુનઃસ્થાપિત કરી!",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_language_preference": {
+    "message": "ભાષા પસંદગી"
+  },
+  "t_lang_updated_reload": {
+    "message": "ભાષા અપડેટ થઈ. ફરી લોડ કરી રહ્યા છીએ..."
+  },
+  "t_transformation_failed": {
+    "message": "પરિવર્તન નિષ્ફળ."
+  },
+  "t_c8a59e71": {
+    "message": "બંધ કરો"
+  },
+  "t_7764306b": {
+    "message": "ક્લાઉડ સર્વિસ મેન્ટેનન્સ સક્રિય"
+  },
+  "t_248228de": {
+    "message": "પોપઅપમાં ડિસ્લેક્સિયા ફોન્ટ ટૉગલ કરો"
+  },
+  "t_79a59320": {
+    "message": "એપ ટૂર શરૂ કરો"
+  },
+  "t_533bff5b": {
+    "message": "પેજ પર સ્ટીકી નોટ પિન કરો (Alt+S)"
+  },
+  "t_f4f70727": {
+    "message": "સેટિંગ્સ"
+  },
+  "t_4fd11104": {
+    "message": "ગોળાકાર સ્પોટલાઇટ"
+  },
+  "t_0d063af1": {
+    "message": "આડી લાઇન રૂલર 🔒"
+  },
+  "t_60d71580": {
+    "message": "ક્લિયર લાઇટ"
+  },
+  "t_efe48742": {
+    "message": "એમ્બર ફોકસ"
+  },
+  "t_610a09ca": {
+    "message": "કૂલ સિયાન"
+  },
+  "t_886f6b9e": {
+    "message": "રેસ્ટફુલ ગ્રીન"
+  },
+  "t_65e8194e": {
+    "message": "પિચ બ્લેક"
+  },
+  "t_7243ed99": {
+    "message": "મિડનાઈટ સ્લેટ"
+  },
+  "t_ec6d8325": {
+    "message": "ડીપ ફોરેસ્ટ"
+  },
+  "t_4af435e0": {
+    "message": "વેમ્પાયર વાઇન"
+  },
+  "t_2a7dbdf8": {
+    "message": "પ્રો ફીચર"
+  },
+  "t_fc4aec61": {
+    "message": "રીડરમાં ખોલો"
+  },
+  "t_801ab246": {
+    "message": "ડાઉનલોડ"
+  },
+  "t_aa3880dc": {
+    "message": "એચટીએમએલ (HTML) તરીકે ડાઉનલોડ કરો"
+  },
+  "t_e0781e81": {
+    "message": "ઈપબ (EPUB) તરીકે ડાઉનલોડ કરો"
+  },
+  "t_442ff212": {
+    "message": "ડૉક્સ (DOCX) તરીકે ડાઉનલોડ કરો"
+  },
+  "t_6244ee7c": {
+    "message": "કસ્ટમ શબ્દ જાતે ઉમેરો"
+  },
+  "t_6e7d015f": {
+    "message": "સીએસવી (CSV) ફાઇલ આયાત કરો"
+  },
+  "t_edbc5415": {
+    "message": "એન્કી / ક્વિઝલેટ માટે નિકાસ કરો"
+  },
+  "t_46c29f7a": {
+    "message": "થીમ લોડ કરો"
+  },
+  "t_2bd65c5d": {
+    "message": "થીમ એક્સપોર્ટ કરો"
+  },
+  "t_c1c433ac": {
+    "message": "સક્રિય એઆઈ પ્રોવાઈડર"
+  },
+  "t_90c09393": {
+    "message": "ટપકાંવાળું"
+  },
+  "t_eb656e41": {
+    "message": "તૂટક"
+  },
+  "t_0c99ddee": {
+    "message": "હાઇલાઇટ રંગ"
+  },
+  "t_eaf63759": {
+    "message": "શાહીનો રંગ"
+  },
+  "t_a183c9f0": {
+    "message": "ફેડ કલર"
+  },
+  "t_75e7422f": {
+    "message": "બેકગ્રાઉન્ડ રંગ"
+  },
+  "t_42f9ceea": {
+    "message": "સાચવેલ શબ્દકોશ શોધો..."
+  },
+  "t_0e84a8cf": {
+    "message": "શબ્દ અથવા ટૂંકાક્ષર દાખલ કરો..."
+  },
+  "t_eea6890c": {
+    "message": "અર્થ / ભાષાંતર..."
+  },
+  "t_4480cf46": {
+    "message": "મેમરી ટ્રિક અથવા સ્ટડી નોટ (વૈકલ્પિક)..."
+  },
+  "t_d8634fbf": {
+    "message": "દા.ત., ગોળાકાર કાર્ડ્સ સાથે ગુલાબી એનાઇમ સ્ટાઇલ થીમમાં ફેરવો, અથવા રેટ્રો ડાર્ક ગ્રીન ટર્મિનલ કન્સોલમાં રૂપાંતરિત કરો..."
+  },
+  "t_cc72b0f6": {
+    "message": "AIza..."
+  },
+  "t_18c6fec7": {
+    "message": "sk-or-..."
+  },
+  "t_0482621f": {
+    "message": "સ્ટીકી નોટ્સ"
+  },
+  "t_b097d277": {
+    "message": "શબ્દ ઉમેરો"
+  },
+  "t_1eeb67ee": {
+    "message": "વર્તમાન પૃષ્ઠની નિકાસ કરો"
+  },
+  "t_b62ded9a": {
+    "message": "ક્લાઉડ સેવાઓ ઓફલાઇન"
+  },
+  "t_263e00eb": {
+    "message": "સાઇન ઇન / એકાઉન્ટ બનાવો"
+  },
+  "t_7748eb3b": {
+    "message": "અપગ્રેડ થઈ રહ્યું છે"
+  },
+  "t_81a5d20b": {
+    "message": "બધું ફ્રીઝ કરો"
+  },
+  "t_e61146d9": {
+    "message": "શાંત ફેડ્સ (Calm Fades)"
+  },
+  "t_57323916": {
+    "message": "ઓટો-પ્લે બંધ કરો"
+  },
+  "t_f50319ea": {
+    "message": "સંપૂર્ણ સુરક્ષા"
+  },
+  "t_8e13f26d": {
+    "message": "ઝડપી પ્રશ્ન"
+  },
+  "t_134b26da": {
+    "message": "શું તમે <br><span class=\"ev-si-gradient-text\">ઈઝીવ્યુનો</span> આનંદ માણી રહ્યા છો?"
+  },
+  "t_b75bdd9e": {
+    "message": "તમારો પ્રતિસાદ અમને સુધારવામાં મદદ કરે છે.<br>શું તમે અનુભવનો આનંદ માણી રહ્યા છો?"
+  },
+  "t_396d1ff8": {
+    "message": "હા, હું છું!"
+  },
+  "t_7d0cacf3": {
+    "message": "સુધારાની જરૂર છે"
+  },
+  "t_815142c9": {
+    "message": "અમને સપોર્ટ કરો"
+  },
+  "t_abd9fa39": {
+    "message": "શું તમે <br><span class=\"ev-si-gradient-text\">રિવ્યુ આપવાનું</span> પસંદ કરશો?"
+  },
+  "t_02991e61": {
+    "message": "તમારા જેવા વપરાશકર્તાઓના રેટિંગ્સ ઈઝીવ્યુને વધવામાં મદદ કરવાની શ્રેષ્ઠ રીત છે. તે માત્ર એક મિનિટ લે છે!"
+  },
+  "t_db49c1f2": {
+    "message": "રેટ કરો"
+  },
+  "t_7a4f0d12": {
+    "message": "મને પછી યાદ અપાવો"
+  },
+  "t_fee6c0e9": {
+    "message": "ખાનગી પ્રતિસાદ"
+  },
+  "t_74393dde": {
+    "message": "આપણે શું <span class=\"ev-si-gradient-text\">વધુ સારું કરી શકીએ?</span>"
+  },
+  "t_7096a3ae": {
+    "message": "અમને જણાવો કે શું ખોટું થયું..."
+  },
+  "t_6f97affc": {
+    "message": "ફીડબેક મોકલો"
+  },
+  "t_b20871b3": {
+    "message": "કૃપા કરીને તમારો પ્રતિસાદ દાખલ કરો"
+  },
+  "t_7b0fee4d": {
+    "message": "મોકલી રહ્યા છીએ..."
+  },
+  "t_fb631633": {
+    "message": "તમારા પ્રતિસાદ બદલ આભાર."
+  },
+  "t_08727add": {
+    "message": "વેબને તમારી રીતે જુઓ."
+  },
+  "t_15bbb9d0": {
+    "message": "વેબસાઇટ"
+  },
+  "t_c5f29bb3": {
+    "message": "ગોપનીયતા"
+  },
+  "t_ad5b1a22": {
+    "message": "સ્થાપક"
+  },
+  "t_db496e03": {
+    "message": "વ્યક્તિગત કી એઆઈ સાથે સીધું, ૧૦૦% ખાનગી કનેક્શન બનાવે છે. તમારો ટેક્સ્ટ ક્યારેય ઈઝીવ્યુ સર્વર્સને સ્પર્શતો નથી."
+  },
+  "t_387c35b3": {
+    "message": "જો કોઈ કી હાજર ન હોય અથવા તમારી કી નિષ્ફળ જાય તો અમારું મેનેજ્ડ સર્વર (પ્રીમિયમ) વિશ્વસનીય બેકઅપ તરીકે કાર્ય કરે છે."
+  },
+  "t_98bc5a17": {
+    "message": "પ્રોપ્રાયટરી અલ્ગોરિધમ્સને સુરક્ષિત કરવા માટે, તમારી કી ગૂગલ સાથે પ્રમાણિત કરવા માટે અમારા સુરક્ષિત સર્વર દ્વારા ટૂંકમાં રૂટ કરવામાં આવે છે. તે"
+  },
+  "t_de47f1be": {
+    "message": "સાચવવામાં કે લોગ કરવામાં આવતી નથી."
+  },
+  "t_25e02e7f": {
+    "message": "સક્રિય: "
+  },
+  "t_406a3cab": {
+    "message": "⭐ પ્રીમિયમ સભ્ય"
+  },
+  "t_df56cfae": {
+    "message": "⭐ આજીવન સભ્ય"
+  },
+  "t_41cbc704": {
+    "message": " દિવસો બાકી"
+  },
+  "t_b194bd82": {
+    "message": "ક્યારેય સમાપ્ત થતું નથી"
+  },
+  "t_9f830444": {
+    "message": "⭐ પ્રો:"
+  },
+  "t_61b82be6": {
+    "message": " મોર્ફ બાકી છે"
+  },
+  "t_c20e7ceb": {
+    "message": " મફત મોર્ફ બાકી"
+  },
+  "t_d7087930": {
+    "message": " મફત ઉપયોગ બાકી"
+  },
+  "t_4bbf11bd": {
+    "message": "શબ્દ અને અર્થના ફીલ્ડ્સ ખાલી રાખી શકાતા નથી!"
+  },
+  "t_08f09d38": {
+    "message": "શબ્દની વિગતો સફળતાપૂર્વક અપડેટ થઈ!"
+  },
+  "t_32001b52": {
+    "message": "કૃપા કરીને શબ્દ અને તેનો અર્થ બંને દાખલ કરો."
+  },
+  "t_b8115861": {
+    "message": "તમારી સ્ટડી નોટબુક ખાલી છે. પહેલા વેબપેજ પર કેટલાક શબ્દો બુકમાર્ક કરો!"
+  },
+  "t_7114113b": {
+    "message": "તમારી પ્રો સુવિધાઓ ચકાસવા માટે પહેલા તમારા ઈઝીવ્યુ એકાઉન્ટમાં સાઇન ઇન કરો!"
+  },
+  "t_093f9fa0": {
+    "message": "તમારું સેશન ટોકન ખૂટે છે. એક્સેસ પુનઃસ્થાપિત કરવા માટે કૃપા કરીને easyview.in પર ફરીથી સાઇન ઇન કરો."
+  },
+  "t_0e065596": {
+    "message": "આ એક ચકાસાયેલ પ્રીમિયમ-માત્ર સુવિધા છે. અનલોક કરવા માટે પ્રો પર અપગ્રેડ કરો!"
+  },
+  "t_c792a645": {
+    "message": "સુરક્ષિત નિકાસ સર્વર સાથે કનેક્ટ કરવામાં નિષ્ફળ. થોડીવારમાં ફરી પ્રયાસ કરો."
+  },
+  "t_8d1a2675": {
+    "message": "તે સીએસવીમાં કોઈ માન્ય શબ્દભંડોળ વસ્તુઓ ઓળખી શકાઈ નથી."
+  },
+  "t_a613ed90": {
+    "message": "બ્રાઉઝર સ્ટોરેજ રાઈટ નિષ્ફળતા! ફાઇલ સ્થાનિક કેશ માટે ખૂબ મોટી હોઈ શકે છે."
+  },
+  "t_8efe87ab": {
+    "message": "બ્રાઉઝર તમારી લોકલ ફાઇલ વાંચવામાં નિષ્ફળ ગયું."
+  },
+  "t_50bf63aa": {
+    "message": "શું તમે ખરેખર તમારી નોટબુકમાંથી તમામ સાચવેલા શબ્દો સાફ કરવા માંગો છો?"
+  },
+  "t_ff252710": {
+    "message": "આયાત પૂર્ણ: તમામ $1 એન્ટ્રીઓ તમારી નોટબુકમાં પહેલેથી જ અસ્તિત્વમાં છે.",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_bc51d56f": {
+    "message": "સીએસવી પાર્સ કરવામાં નિષ્ફળ: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c243eb89": {
+    "message": "\"$1\" પહેલેથી જ તમારી નોટબુકમાં છે. શું તમે તેના માટે બીજી વ્યાખ્યા ઉમેરવા માંગો છો?",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_f7806d20": {
+    "message": "સફળતાપૂર્વક લોગ આઉટ કર્યું"
+  },
+  "t_dbd35100": {
+    "message": "મોર્ફ એન્જિન પહેલેથી જ કામ કરી રહ્યું છે..."
+  },
+  "t_2de4e55d": {
+    "message": "મોર્ફ કરેલ લેઆઉટ સાફ કર્યું"
+  },
+  "t_1bb9196d": {
+    "message": "મોર્ફ કરેલ: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_1d6ecf9b": {
+    "message": "મોર્ફિંગ નિષ્ફળ: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_535a70e5": {
+    "message": "ટ્રિગર થયેલ: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_b57d9d15": {
+    "message": "📊 $1 આઇટમ્સ વ્યવસ્થિત",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_c3657a95": {
+    "message": "આ નોંધને તમામ સિંક્રનાઇઝ્ડ ઉપકરણો પરથી કાયમી ધોરણે દૂર કરવામાં આવશે. આગળ વધવું?"
+  },
+  "t_25abf697": {
+    "message": "ઈપબ એક્સપોર્ટ માટે જેએસઝિપની જરૂર છે."
+  },
+  "t_71609188": {
+    "message": "ડોક્સ એક્સપોર્ટ માટે એચટીએમએલ-ડૉક્સ લાઇબ્રેરી ની જરૂર છે."
+  },
+  "t_e1499766": {
+    "message": "કોઈ ફાઇલ લોડ થઈ નથી."
+  },
+  "t_023b3355": {
+    "message": "પ્રાઇવસી શીલ્ડ સક્રિય"
+  },
+  "t_9483a5da": {
+    "message": "પ્રાઇવસી શીલ્ડ નિષ્ક્રિય"
+  },
+  "t_a04202db": {
+    "message": "હાઇલાઇટ્સ કામચલાઉ રીતે છુપાવેલ"
+  },
+  "t_b3d6b264": {
+    "message": "હાઈલાઈટ્સ પુનઃસ્થાપિત"
+  },
+  "t_7485c55e": {
+    "message": "ઈઝીવ્યુમાં તમારું સ્વાગત છે! 👋"
+  },
+  "t_06fa81ac": {
+    "message": "સરળ વેબ વાંચન માટે તમારો એઆઈ-સંચાલિત જ્ઞાનાત્મક સેતુ. ચાલો સુવિધાઓની ઝડપી ટૂર કરીએ."
+  },
+  "t_3a1fe637": {
+    "message": "જાર્ગન ડિકોડર 📖"
+  },
+  "t_89cec86e": {
+    "message": "કોઈપણ વેબપેજ પર જટિલ પરિભાષાને સરળ બનાવે છે."
+  },
+  "t_f8aefae7": {
+    "message": "પ્રાઇવસી શીલ્ડ 🔐"
+  },
+  "t_aa860f86": {
+    "message": "સંવેદનશીલ ડેટાને બ્લર કરે છે અને વિક્ષેપ-મુક્ત વાંચન માટે ફોકસ રૂલરનો સમાવેશ કરે છે."
+  },
+  "t_0681a3b6": {
+    "message": "સેન્સરી શીલ્ડ 🛡️"
+  },
+  "t_6118b864": {
+    "message": "ધ્યાન ભટકાવતા જીઆઈએફ અને એનિમેશનને ફ્રીઝ કરે છે."
+  },
+  "t_12ec6fc6": {
+    "message": "ડિસ્લેક્સિયા રીડિંગ મોડ 📚"
+  },
+  "t_bc5bcf2e": {
+    "message": "સરળ વાંચન માટે ઓપ્ટિમાઇઝ કરેલ ફોન્ટ્સ અને સ્પેસિંગ."
+  },
+  "t_18d9ce63": {
+    "message": "ટેક્સ્ટ-ટુ-સ્પીચ 🔊"
+  },
+  "t_d27f79c6": {
+    "message": "શબ્દ હાઇલાઇટિંગ સાથે કોઈપણ વેબપેજ સાંભળો."
+  },
+  "t_0019a700": {
+    "message": "મોર્ફ એન્જિન ✨"
+  },
+  "t_47c2535a": {
+    "message": "કોઈપણ વેબસાઈટને કસ્ટમ થીમ અથવા લેઆઉટમાં ફરીથી ડિઝાઇન કરવા માટે એઆઈનો ઉપયોગ કરો."
+  },
+  "t_2ed2f639": {
+    "message": "સ્ટીકી નોટ્સ 📝"
+  },
+  "t_75025b5f": {
+    "message": "મહત્વપૂર્ણ માહિતી સાચવવા માટે કોઈપણ વેબપેજ પર ફ્લોટિંગ સ્ટીકી નોટ્સ પિન કરો (Alt+S)."
+  },
+  "t_3ff2d7cc": {
+    "message": "એપીઆઈ કન્ફિગરેશન ⚙️"
+  },
+  "t_0754e836": {
+    "message": "તમારો ક્વોટા સિંક કરવા માટે સાઇન ઇન કરો, અથવા અહીં તમારી પોતાની મફત જેમિની એપીઆઈ કી સેટ કરો."
+  },
+  "t_7b6a2059": {
+    "message": "પગલું $1, કુલ $2",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
+  },
+  "t_c2d96b46": {
+    "message": "શરૂ કરો!"
+  },
+  "t_10ac3d04": {
+    "message": "આગળ"
+  },
+  "t_5c7a52b8": {
+    "message": "દબાવો "
+  },
+  "t_a1b2c3d4": {
+    "message": " ઓટો-પ્રોટેક્ટ શીલ્ડને મેન્યુઅલી સક્રિય કરવા માટે કોઈપણ સમયે દબાવો."
+  },
+  "js_3e4f5a6b": {
+    "message": "🛡️ પ્રાઇવસી શીલ્ડ સક્રિય"
+  },
+  "js_7c8d9e0f": {
+    "message": "🔓 પ્રાઇવસી શીલ્ડ નિષ્ક્રિય"
+  },
+  "js_9b3e1a": {
+    "message": "ઈઝીવ્યુ લેઆઉટ અને મોર્ફિંગનું વિશ્લેષણ કરી રહ્યું છે..."
+  },
+  "js_4c8d2f": {
+    "message": "વ્યાખ્યાયિત કરો"
+  },
+  "js_7a1e9b": {
+    "message": "ડીકોડ"
+  },
+  "js_2d5f8c": {
+    "message": "સરળ બનાવો"
+  },
+  "js_6e3a4d": {
+    "message": "બુકમાર્ક"
+  },
+  "js_1f9b7c": {
+    "message": "હાઇલાઇટ"
+  },
+  "js_ldr_m1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_m1_cl": {
+    "message": "ડોમ ટ્રીનું વિશ્લેષણ કરી રહ્યા છીએ..."
+  },
+  "js_ldr_m2_ch": {
+    "message": "અસ્તવ્યસ્ત લેઆઉટ..."
+  },
+  "js_ldr_m2_cl": {
+    "message": "સ્ટ્રક્ચર ફ્લેટન કરી રહ્યા છીએ..."
+  },
+  "js_ldr_m3_ch": {
+    "message": "[નોઈઝ_ઓવરલોડ]"
+  },
+  "js_ldr_m3_cl": {
+    "message": "વિક્ષેપો દૂર કરી રહ્યા છીએ..."
+  },
+  "js_ldr_m4_ch": {
+    "message": "જટિલ નોડ્સ"
+  },
+  "js_ldr_m4_cl": {
+    "message": "ડિસ્લેક્સિયાના નિયમો લાગુ કરી રહ્યા છીએ..."
+  },
+  "js_ldr_m5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_m5_cl": {
+    "message": "ઈઝીવ્યુ યુઆઈ રેન્ડર કરી રહ્યા છીએ..."
+  },
+  "js_ldr_s1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_s1_cl": {
+    "message": "ટેક્સ્ટ બ્લોક સ્કેન કરી રહ્યા છીએ..."
+  },
+  "js_ldr_s2_ch": {
+    "message": "ખૂબ વધારે શબ્દો..."
+  },
+  "js_ldr_s2_cl": {
+    "message": "મુખ્ય અર્થ કાઢી રહ્યા છીએ..."
+  },
+  "js_ldr_s3_ch": {
+    "message": "કોગ્નિટિવ લોડ"
+  },
+  "js_ldr_s3_cl": {
+    "message": "સરળ અંગ્રેજી તૈયાર કરી રહ્યા છીએ..."
+  },
+  "js_ldr_s4_ch": {
+    "message": "વર્બોઝ એઆઈ..."
+  },
+  "js_ldr_s4_cl": {
+    "message": "વાંચનક્ષમતા લાગુ કરી રહ્યા છીએ..."
+  },
+  "js_ldr_s5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_s5_cl": {
+    "message": "આઉટપુટ પોલિશ કરી રહ્યા છીએ..."
+  },
+  "js_ldr_j1_ch": {
+    "message": "}!@#%*&^"
+  },
+  "js_ldr_j1_cl": {
+    "message": "શબ્દભંડોળનું ભાષાંતર કરી રહ્યા છીએ..."
+  },
+  "js_ldr_j2_ch": {
+    "message": "ભૂલ: મૂંઝવણ"
+  },
+  "js_ldr_j2_cl": {
+    "message": "વ્યાખ્યાઓ શોધી રહ્યા છીએ..."
+  },
+  "js_ldr_j3_ch": {
+    "message": "[નોઈઝ_ઓવરલોડ]"
+  },
+  "js_ldr_j3_cl": {
+    "message": "સંદર્ભ સરળ બનાવી રહ્યા છીએ..."
+  },
+  "js_ldr_j4_ch": {
+    "message": "અજ્ઞાત શબ્દો"
+  },
+  "js_ldr_j4_cl": {
+    "message": "સ્પષ્ટતા લાગુ કરી રહ્યા છીએ..."
+  },
+  "js_ldr_j5_ch": {
+    "message": "[][}{}||~"
+  },
+  "js_ldr_j5_cl": {
+    "message": "પરિણામો ફોર્મેટ કરી રહ્યા છીએ..."
+  },
+  "js_ldr_f1_ch": {
+    "message": "ઊંડાણપૂર્વક વિશ્લેષણ..."
+  },
+  "js_ldr_f1_cl": {
+    "message": "એઆઈ લોજિક ફાઇનલાઇઝ કરી રહ્યા છીએ..."
+  },
+  "js_ldr_f2_ch": {
+    "message": "એઆઈ ચાલી રહ્યું છે..."
+  },
+  "js_ldr_f2_cl": {
+    "message": "લગભગ પૂર્ણ..."
+  },
+  "js_ldr_f3_ch": {
+    "message": "ભારે ટ્રાફિક..."
+  },
+  "js_ldr_f3_cl": {
+    "message": "થોડો વધુ સમય લાગી રહ્યો છે..."
+  },
+  "js_ldr_f4_ch": {
+    "message": "હજુ કામ ચાલુ છે..."
+  },
+  "js_ldr_f4_cl": {
+    "message": "થોડી રાહ જુઓ..."
+  },
+  "t_b7012ab9": {
+    "message": "મોર્ફ"
+  },
+  "t_c5e8b1d9": {
+    "message": "પ્રો ફોન્ટ્સ"
+  },
+  "t_c8f2ba19": {
+    "message": "ખાનગી કન્ટેન્ટ બ્લરિંગ સક્ષમ"
+  },
+  "t_e2dae61a": {
+    "message": "ખાનગી કન્ટેન્ટ બ્લરિંગ અક્ષમ"
+  },
+  "t_c74de318": {
+    "message": "સ્ક્રીન શેરિંગ પર ઓટો-પ્રોટેક્ટ સક્ષમ"
+  },
+  "t_a5fd56f4": {
+    "message": "સ્ક્રીન શેરિંગ પર ઓટો-પ્રોટેક્ટ અક્ષમ"
+  },
+  "t_ab8d1f2a": {
+    "message": "ફ્લેશલાઇટ મોડ સક્રિય"
+  },
+  "t_2bf5cc98": {
+    "message": "ફ્લેશલાઇટ મોડ અક્ષમ"
+  },
+  "t_513bb93f": {
+    "message": "બાયોનિક રીડિંગ"
+  },
+  "t_5a8b2c1d": {
+    "message": "તમારા રીડિંગ સેટિંગ્સનું પૂર્વાવલોકન અહીં છે."
+  },
+  "t_ac1d4e5f": {
+    "message": "કંઈ નહીં"
+  },
+  "t_b2e3f4a1": {
+    "message": "પહોળું"
+  },
+  "t_c3f4a5b2": {
+    "message": "વધારે પહોળું"
+  },
+  "t_d1a3c901": {
+    "message": "ક્લિક"
+  },
+  "t_b4f2e891": {
+    "message": "એલિમેન્ટ પર પિન કરો"
+  },
+  "t_c9a1b302": {
+    "message": "સ્પેસ"
+  },
+  "t_f6d4e203": {
+    "message": "વૈશ્વિક નોટ"
+  },
+  "t_e2b3f104": {
+    "message": "એસ્કેપ"
+  },
+  "t_a7c0d905": {
+    "message": "રદ કરો"
+  },
+  "t_e1b2c301": {
+    "message": "માત્ર આ પેજ"
+  },
+  "t_f7a3b402": {
+    "message": "આ સાઇટ"
+  },
+  "t_a8c4d503": {
+    "message": "બધી સાઇટ્સ (વૈશ્વિક)"
+  },
+  "t_b9d5e604": {
+    "message": "રીલોડ સુધી છુપાવો"
+  },
+  "t_c0e6f705": {
+    "message": "એલિમેન્ટ પર નોંધ પિન કરો"
+  },
+  "t_d1f7a806": {
+    "message": "નોંધનો રંગ બદલો"
+  },
+  "t_e2a8b907": {
+    "message": "નોંધ સંકોચો/વિસ્તૃત કરો"
+  },
+  "t_f3b9c008": {
+    "message": "નોંધની સામગ્રી કોપી કરો"
+  },
+  "t_a4c0d109": {
+    "message": "વધુ ક્રિયાઓ"
+  },
+  "t_b5d1e200": {
+    "message": "આ નોંધ કાઢી નાખો"
+  },
+  "t_e87033a2": {
+    "message": "Alt+P"
+  },
+  "t_4120201a": {
+    "message": "ફ્રી ટ્રાયલ સક્રિય"
+  },
+  "t_6ed40ffb": {
+    "message": "ઉપકરણો વચ્ચે સેટિંગ્સ સિંક કરો"
+  },
+  "t_f8b8a5fd": {
+    "message": "વધારે મફત વપરાશ ક્વોટા"
+  },
+  "t_440b106d": {
+    "message": "ભવિષ્યના પ્રો ફીચર્સની ઍક્સેસ"
+  },
+  "t_3a99076c": {
+    "message": "પ્રીમિયમ મર્યાદા"
+  },
+  "t_545f6c2f": {
+    "message": "અમર્યાદિત"
+  },
+  "t_ad23f4a0": {
+    "message": "સ્પેશિયલ નોટ્સ"
+  },
+  "t_04f2f045": {
+    "message": "તમે વેબ પર તમામ ૧૫ ફ્રી ટાયર નોટ્સ સફળતાપૂર્વક ડિપ્લોય કરી છે. અનંત અવકાશી મેમરી અને કસ્ટમ રંગોને અનલોક કરવા માટે ઈઝીવ્યુ પ્રીમિયમ પર અપગ્રેડ કરો."
+  },
+  "t_cf874b99": {
+    "message": "પ્રીમિયમ અનલોક કરો"
+  },
+  "t_a6d36e2f": {
+    "message": "તમામ લોકલ એક્સેસિબિલિટી કંટ્રોલ્સ (સક્રિય)"
+  },
+  "t_b0b69bc3": {
+    "message": "ટેક્સ્ટ-ટુ-સ્પીચ એન્જિન (સક્રિય)"
+  },
+  "t_cc96c21a": {
+    "message": "ક્લાઉડ એઆઈ ફીચર્સ (ઓફલાઇન)"
+  },
+  "t_7af6f6e5": {
+    "message": "હું સમજું છું"
+  },
+  "t_9bc7102e": {
+    "message": "તમારા ક્વોટાને ટ્રૅક કરવા અને જાર્ગન ડિકોડરને અનલોક કરવા માટે એક મફત ઈઝીવ્યુ એકાઉન્ટ બનાવો."
+  },
+  "t_ab7512fd": {
+    "message": "તમારું સેશન ટોકન ખૂટે છે. એક્સેસ પુનઃસ્થાપિત કરવા માટે કૃપા કરીને easyview.in પર ફરીથી સાઇન ઇન કરો."
+  },
+  "t_1cd7820a": {
+    "message": "માત્ર પ્રો એક્સેસ"
+  },
+  "t_8eb14032": {
+    "message": "જાર્ગન ડિકોડર<br><span class=\"ev-si-gradient-text\">ક્વોટા પૂર્ણ</span>"
+  },
+  "t_0a12cf9b": {
+    "message": "ક્વોટા પૂર્ણ"
+  },
+  "t_5ae983dc": {
+    "message": "તમે આ મહિને <strong>૫ મફત ડિકોડ્સ</strong> પૂર્ણ કર્યા છે. સેકન્ડોમાં અમર્યાદિત એક્સેસ અનલોક કરો."
+  },
+  "t_3d4b611e": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">⭐</span> પ્રો પર જાઓ — અમર્યાદિત ડિકોડ્સ</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">🔑</span> તમારી પોતાની એપીઆઈ કીનો ઉપયોગ કરો</div>"
+  },
+  "t_6c9f28d7": {
+    "message": "<button class=\"ev-si-btn-later\" id=\"apiKeyBtn\" style=\"margin-bottom:8px; border: 1px solid rgba(255,255,255,0.2);\">🔑 સેટિંગ્સમાં એપીઆઈ કી ઉમેરો</button>"
+  },
+  "t_9be4129a": {
+    "message": "સ્ટડી ડેક એક્સપોર્ટર<br><span class=\"ev-si-gradient-text\">પ્રો ઓટોમેશન</span>"
+  },
+  "t_fac34185": {
+    "message": "તમારી સંપૂર્ણ કસ્ટમ સ્ટડી નોટબુકને સીધી <strong>અંકી (અંકી (Anki))</strong> અને <strong>ક્વિઝલેટ (ક્વિઝલેટ (Quizlet))</strong> માં તરત જ નિકાસ કરો."
+  },
+  "t_7ca5b021": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> મેન્યુઅલ ટાઇપિંગ છોડો</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> આરએફસી-૪૧૮૦ ફ્લેશકાર્ડ કમ્પાઈલર</div>"
+  },
+  "t_da12c30b": {
+    "message": "પ્રો એક્સેસ"
+  },
+  "t_4a9b2c01": {
+    "message": "આ ફીચર"
+  },
+  "t_3be78c01": {
+    "message": "આ ડિસ્લેક્સિયા રીડિંગ ફોન્ટ"
+  },
+  "t_0ad4b971": {
+    "message": "આ વિઝ્યુઅલ ફોન્ટ"
+  },
+  "t_9af42be8": {
+    "message": "આ પ્રીમિયમ નિકાસ ફોન્ટ"
+  },
+  "t_cbae8349": {
+    "message": "તમામ એક્સેસિબિલિટી સુવિધાઓ અને પાવર ટૂલ્સને અનલોક કરવા માટે અપગ્રેડ કરો."
+  },
+  "t_ca0c8f1a": {
+    "message": "<div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> અદ્યતન એક્સેસિબિલિટી</div><div class=\"ev-si-benefit\"><span class=\"ev-si-tick\">✓</span> તમામ ભવિષ્યના અપડેટ્સ</div>"
+  },
+  "t_4ebc76c1": {
+    "message": "⭐ પ્રો માં અપગ્રેડ કરો"
+  },
+  "t_5ef4c1a2": {
+    "message": "કદાચ પછી"
+  },
+  "t_3b7a5e82": {
+    "message": ", પરંતુ એઆઈ ફીચર્સ કામચલાઉ રીતે અનુપલબ્ધ હોઈ શકે છે."
+  },
+  "t_c91d8e12": {
+    "message": "સામાન્ય"
+  },
+  "t_b42f3a9d": {
+    "message": "વ્યાખ્યા"
+  },
+  "t_f1d4a8e6": {
+    "message": "શબ્દકોશ"
+  },
+  "t_e398c71f": {
+    "message": "કસ્ટમ"
+  },
+  "t_a72df9e5": {
+    "message": "તબીબી"
+  },
+  "t_d8f2c61a": {
+    "message": "કાનૂની"
+  },
+  "t_b3e1f5d2": {
+    "message": "નાણાકીય"
+  },
+  "t_c25d81f9": {
+    "message": "ટેક"
+  },
+  "t_e1b3a4f6": {
+    "message": "શૈક્ષણિક"
+  },
+  "t_d5f9b4c1": {
+    "message": "શબ્દ"
+  },
+  "t_f7a2e8ea": {
+    "message": "શ્રેણી"
+  },
+  "t_e3b1c6d9": {
+    "message": "સરળ અર્થ"
+  },
+  "t_a9d4e5f2": {
+    "message": "અભ્યાસ નોંધો / સંદર્ભ"
+  },
+  "t_b4c5d6e7": {
+    "message": "રદ કરો"
+  },
+  "t_c8f2a1b4": {
+    "message": "ફેરફારો સાચવો"
+  },
+  "t_8c17b5e6": {
+    "message": "તમારું સેશન ટોકન ખૂટે છે. એક્સેસ પુનઃસ્થાપિત કરવા માટે કૃપા કરીને easyview.in પર ફરીથી સાઇન ઇન કરો."
+  },
+  "t_a43dc219": {
+    "message": "તમારા વપરાશ ક્વોટાને ટ્રૅક કરવા અને એઆઈ મોર્ફ એન્જિનને અનલોક કરવા માટે એક મફત ઈઝીવ્યુ એકાઉન્ટ બનાવો."
+  },
+  "t_54c523fe": {
+    "message": "🎉 ઉત્તમ! સફળતાપૂર્વક $1 નવા સ્ટડી કાર્ડ્સ આયાત કર્યા."
+  },
+  "t_a7d8be72": {
+    "message": "🎉 ઉત્તમ! $1 નવા કાર્ડ્સ આયાત કર્યા. ($2 ડુપ્લિકેટ્સ છોડી દીધા.)"
+  },
+  "t_14894d12": {
+    "message": "થીમ એક્સપોર્ટ"
+  },
+  "t_f27a2629": {
+    "message": "થીમ લાઇબ્રેરી બેકઅપ"
+  },
+  "t_9ad85e17": {
+    "message": "રીડિંગ રૂલર મોડ"
+  },
+  "t_b9d4e7a5": {
+    "message": "અદ્યતન સેન્સરી શીલ્ડ મોડ્સ"
+  },
+  "t_94f4f7e4": {
+    "message": "ડૉક્સ (DOCX) પાર્સ કરી રહ્યું છે...",
+    "description": "રીડરમાં DOCX પાર્સ કરતી વખતે સ્થિતિ"
+  },
+  "t_120adfc1": {
+    "message": "ઈપબ (EPUB) પાર્સ કરી રહ્યું છે...",
+    "description": "રીડરમાં EPUB પાર્સ કરતી વખતે સ્થિતિ"
+  },
+  "t_5d2a45b8": {
+    "message": "રીડિંગ રૂલર મોડ ફક્ત પ્રો સબ્સ્ક્રિપ્શન્સ માટે છે.",
+    "description": "જ્યારે નોન-પ્રો યુઝર રીડિંગ રૂલરને એક્સેસ કરે ત્યારે ચેતવણી"
+  },
+  "t_c1f29623": {
+    "message": "આખું કાર્ડ સંપાદિત કરો",
+    "description": "નોટબુકમાં આખું કાર્ડ એડિટ કરવા માટે ટૂલટિપ"
+  },
+  "t_1063e38c": {
+    "message": "દૂર કરો",
+    "description": "નોટબુકમાંથી કાર્ડ દૂર કરવા માટે ટૂલટિપ"
+  },
+  "t_ccca2ddf": {
+    "message": "ઈઝીવ્યુ રીડર"
+  },
+  "t_8524de96": {
+    "message": "લોડ થઈ રહ્યું છે..."
+  },
+  "t_25e8f2fd": {
+    "message": "કૃપા કરીને રાહ જુઓ..."
+  },
+  "t_ec9d785d": {
+    "message": "૧.૫x"
+  },
+  "t_dafd5f8f": {
+    "message": "લેક્સેન્ડ"
+  },
+  "t_16d90a0b": {
+    "message": "એટ્કિન્સન હાયપરલેજિબલ"
+  },
+  "t_5c7db066": {
+    "message": "Segoe યુઆઈ (વિન્ડોઝ ડિફોલ્ટ)"
+  },
+  "t_f7cee5ea": {
+    "message": "કેલિબ્રી"
+  },
+  "t_ccc0239e": {
+    "message": "કેન્ડારા"
+  },
+  "t_2963521b": {
+    "message": "કોર્બેલ"
+  },
+  "t_37f1cc58": {
+    "message": "કેમ્બ્રિયા"
+  },
+  "t_c3d9d4bf": {
+    "message": "કોન્સ્ટેન્ટિયા"
+  },
+  "t_5d1a5b35": {
+    "message": "પેલેટિનો લિનોટાઇપ"
+  },
+  "t_4dc386b6": {
+    "message": "બુક એન્ટિક્વા"
+  },
+  "t_03c461f6": {
+    "message": "ફ્રેન્કલિન ગોથિક"
+  },
+  "t_7b1ee3b6": {
+    "message": "સેન્ચ્યુરી ગોથિક"
+  },
+  "t_a3293302": {
+    "message": "ગિલ સેન્સ"
+  },
+  "t_eb726908": {
+    "message": "સિટકા ટેક્સ્ટ"
+  },
+  "t_b5bdee2c": {
+    "message": "સિલ્ફેન"
+  },
+  "t_1ec05249": {
+    "message": "માઈક્રોસોફ્ટ સેન્સ સેરીફ"
+  },
+  "t_ad4a300c": {
+    "message": "સેગો યુઆઈ સેમિબોલ્ડ"
+  },
+  "t_16507cdd": {
+    "message": "કોન્સોલાસ"
+  },
+  "t_391c5954": {
+    "message": "લ્યુસિડા કન્સોલ"
+  },
+  "t_9879efdf": {
+    "message": "લ્યુસિડા સેન્સ ટાઇપરાઇટર"
+  },
+  "t_21f59b54": {
+    "message": "ઈમ્પેક્ટ"
+  },
+  "t_94a7bb97": {
+    "message": "એરિયલ બ્લેક"
+  },
+  "t_6e87c2cb": {
+    "message": "કોપરપ્લેટ ગોથિક"
+  },
+  "t_40885309": {
+    "message": "બર્લિન સેન્સ FB"
+  },
+  "t_6d5566ba": {
+    "message": "ગેબ્રિઓલા"
+  },
+  "t_edb42482": {
+    "message": "ઈંક ફ્રી"
+  },
+  "t_fa233799": {
+    "message": "સેગો સ્ક્રિપ્ટ"
+  },
+  "t_2f7bc407": {
+    "message": "સેગો પ્રિન્ટ"
+  },
+  "t_0095a9fa": {
+    "message": "નિકાસ"
+  },
+  "t_520d0db3": {
+    "message": "ફોર્મેટ"
+  },
+  "t_5956a437": {
+    "message": "ટેક્સ્ટ"
+  },
+  "t_1351017a": {
+    "message": "ફાઇલનું નામ"
+  },
+  "t_d4c3c15b": {
+    "message": "કોઈ ફાઇલ લોડ થઈ નથી"
+  },
+  "t_0ca5a078": {
+    "message": "કૃપા કરીને ફાઇલ અપલોડ કરવા માટે કન્વર્ટર ટેબનો ઉપયોગ કરો."
+  },
+  "t_c9857e16": {
+    "message": "અસમર્થિત ફાઇલ પ્રકાર."
+  },
+  "t_6b447b91": {
+    "message": "ફાઇલ પાર્સ કરવામાં ભૂલ: "
+  },
+  "t_7f4588be": {
+    "message": "ઈપબ"
+  },
+  "t_12dc65c2": {
+    "message": "લાઇટ/ડાર્ક મોડ ટૉગલ કરો"
+  },
+  "t_d3d2e617": {
+    "message": "બંધ"
+  },
+  "t_6e8cfcb7": {
+    "message": "સર્વર પર સુરક્ષિત નિકાસ (પ્રીમિયમ)"
+  },
+  "t_2f9df658": {
+    "message": "વર્કસ્પેસને અલગ કરો અને તમામ વિન્ડોઝની ઉપર ફ્લોટ કરો"
+  },
+  "t_72d6d7a1": {
+    "message": "આયાત"
+  },
+  "t_de93d5fd": {
+    "message": "નોંધોની નિકાસ કરો"
+  },
+  "t_a1aacca9": {
+    "message": "ફ્લોટ OS"
+  },
+  "t_ac0b844f": {
+    "message": "વૈશ્વિક નોટ્સ"
+  },
+  "t_15866f1d": {
+    "message": "સાઇટ-વિશિષ્ટ નોંધો"
+  },
+  "t_fe6b0f08": {
+    "message": "t_import_notes_backup"
+  },
+  "t_6af8212e": {
+    "message": "ઈઝીવ્યુ નોટ્સ બોર્ડ"
+  },
+  "t_d16da0f5": {
+    "message": "🌎"
+  },
+  "t_6df173ff": {
+    "message": "📍"
+  },
+  "t_22f58a00": {
+    "message": "🌎 વૈશ્વિક નોંધ"
+  },
+  "t_5be8bbeb": {
+    "message": "🌐 સાઇટ નોંધ"
+  },
+  "t_59a56663": {
+    "message": "📍 પેજ નોંધ"
+  },
+  "t_c1843696": {
+    "message": "ઇન્ટિગ્રિટી ટોકન ચકાસી રહ્યા છીએ..."
+  },
+  "t_58038ee4": {
+    "message": "હમણાં જ"
+  },
+  "t_e254e1a1": {
+    "message": "$1 મિનિટ પહેલા",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_121d4d02": {
+    "message": "$1 કલાક પહેલા",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_19d2b280": {
+    "message": "$1 દિવસ પહેલા",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_d3d4311c": {
+    "message": "નોંધ ડ્રેગ કરો"
+  },
+  "t_7b32ea16": {
+    "message": "$1 પર સ્વિચ કરો",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "t_11916b28": {
+    "message": "પ્લેસમેન્ટ સ્કોપ"
+  },
+  "t_5463fe67": {
+    "message": "કલર પેલેટ"
+  },
+  "t_d116d454": {
+    "message": "નોંધ સંકોચો"
+  },
+  "t_be9ba0e5": {
+    "message": "ટેક્સ્ટ કોપી કરો"
+  },
+  "t_28471624": {
+    "message": "વધુ ક્રિયાઓ"
+  },
+  "t_90e467df": {
+    "message": "નોંધ બંધ કરો"
+  },
+  "t_34494920": {
+    "message": "તમારી નોંધ અહીં લખો..."
+  },
+  "t_bdda0b60": {
+    "message": "તમે શું વિચારી રહ્યા હતા..."
+  },
+  "t_8689de27": {
+    "message": "દરેક જગ્યાએ ઉપલબ્ધ"
+  },
+  "t_c0cf9810": {
+    "message": "મૂળ પેજ પર પાછા જાઓ"
+  },
+  "t_24a23176": {
+    "message": "મૂળ સંદર્ભ"
   }
 }

@@ -2567,5 +2567,20 @@
   },
   "t_24a23176": {
     "message": "Eredeti környezet"
+  },
+  "tip_define": {
+    "message": "Gyors tisztázás: A kijelölt szó definíciójának megkeresése"
+  },
+  "tip_decode": {
+    "message": "Szakzsargon-dekóder: Technikai kifejezések magyarázata a kijelölésben"
+  },
+  "tip_simplify": {
+    "message": "Szöveg egyszerűsítése: Bonyolult szöveg átírása egyszerű nyelvre"
+  },
+  "tip_bookmark": {
+    "message": "Mentés a jegyzetfüzetbe: Kijelölt szöveg könyvjelzőzése"
+  },
+  "tip_highlight": {
+    "message": "Szöveg kiemelése (Alt+H)"
   }
 }

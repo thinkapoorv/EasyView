@@ -2567,5 +2567,20 @@
   },
   "t_24a23176": {
     "message": "Orijinal Bağlam"
+  },
+  "tip_define": {
+    "message": "Hızlı Açıklama: Seçilen kelimenin tanımını bulun"
+  },
+  "tip_decode": {
+    "message": "Jargon Çözücü: Seçimdeki teknik terimleri açıklayın"
+  },
+  "tip_simplify": {
+    "message": "Metni Basitleştir: Karmaşık seçimi anlaşılır bir dille yeniden yazın"
+  },
+  "tip_bookmark": {
+    "message": "Not Defterine Kaydet: Seçilen metni yer işaretlerine ekleyin"
+  },
+  "tip_highlight": {
+    "message": "Metni vurgula (Alt+H)"
   }
 }

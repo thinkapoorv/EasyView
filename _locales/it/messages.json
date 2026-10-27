@@ -2567,5 +2567,20 @@
   },
   "t_24a23176": {
     "message": "Contesto originale"
+  },
+  "tip_define": {
+    "message": "Chiarimento rapido: Cerca la definizione della parola selezionata"
+  },
+  "tip_decode": {
+    "message": "Decodificatore gergo: Spiega i termini tecnici nella selezione"
+  },
+  "tip_simplify": {
+    "message": "Semplifica testo: Riscrivi la selezione complessa in linguaggio semplice"
+  },
+  "tip_bookmark": {
+    "message": "Salva nel taccuino: Aggiungi ai segnalibri il testo selezionato"
+  },
+  "tip_highlight": {
+    "message": "Evidenzia testo (Alt+H)"
   }
 }

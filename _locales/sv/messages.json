@@ -2567,5 +2567,20 @@
   },
   "t_24a23176": {
     "message": "Ursprungligt sammanhang"
+  },
+  "tip_define": {
+    "message": "Snabbförklaring: Slå upp definitionen av det markerade ordet"
+  },
+  "tip_decode": {
+    "message": "Jargong-avkodare: Förklara tekniska termer i markeringen"
+  },
+  "tip_simplify": {
+    "message": "Förenkla text: Skriv om komplex text till ett enkelt språk"
+  },
+  "tip_bookmark": {
+    "message": "Spara i anteckningsblock: Bokmärk markerad text"
+  },
+  "tip_highlight": {
+    "message": "Markera text (Alt+H)"
   }
 }

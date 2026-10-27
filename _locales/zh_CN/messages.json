@@ -2567,5 +2567,20 @@
   },
   "t_24a23176": {
     "message": "原始上下文"
+  },
+  "tip_define": {
+    "message": "快速释义：查找选中单词的定义"
+  },
+  "tip_decode": {
+    "message": "术语解码：解释选中文本中的专业技术术语"
+  },
+  "tip_simplify": {
+    "message": "简化文本：用通俗易懂的语言重写复杂选区"
+  },
+  "tip_bookmark": {
+    "message": "保存到笔记本：收藏选中的文本"
+  },
+  "tip_highlight": {
+    "message": "高亮标记文本 (Alt+H)"
   }
 }

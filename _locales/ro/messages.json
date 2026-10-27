@@ -2567,5 +2567,20 @@
   },
   "t_24a23176": {
     "message": "Context original"
+  },
+  "tip_define": {
+    "message": "Clarificare rapidă: Căutați definiția cuvântului selectat"
+  },
+  "tip_decode": {
+    "message": "Decodificator de jargon: Explicați termenii tehnici din selecție"
+  },
+  "tip_simplify": {
+    "message": "Simplificați textul: Rescrieți textul complex într-un limbaj simplu"
+  },
+  "tip_bookmark": {
+    "message": "Salvați în carnet: Adăugați textul selectat la semne de carte"
+  },
+  "tip_highlight": {
+    "message": "Evidențiați textul (Alt+H)"
   }
 }

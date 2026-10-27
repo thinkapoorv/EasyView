@@ -2567,5 +2567,20 @@
   },
   "t_24a23176": {
     "message": "Izvorni kontekst"
+  },
+  "tip_define": {
+    "message": "Brzo pojašnjenje: Potražite definiciju odabrane riječi"
+  },
+  "tip_decode": {
+    "message": "Dekoder žargona: Objasnite tehničke izraze u odabiru"
+  },
+  "tip_simplify": {
+    "message": "Pojednostavite tekst: Prepišite složeni odabir jednostavnim jezikom"
+  },
+  "tip_bookmark": {
+    "message": "Spremi u bilježnicu: Označi odabrani tekst knjižnom oznakom"
+  },
+  "tip_highlight": {
+    "message": "Istakni tekst (Alt+H)"
   }
 }

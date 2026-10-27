@@ -2567,5 +2567,20 @@
   },
   "t_24a23176": {
     "message": "Originalus kontekstas"
+  },
+  "tip_define": {
+    "message": "Greitas paaiškinimas: Ieškoti pasirinkto žodžio apibrėžimo"
+  },
+  "tip_decode": {
+    "message": "Žargono dekoderis: Paaiškinti techninius terminus pasirinkime"
+  },
+  "tip_simplify": {
+    "message": "Supaprastinti tekstą: Perrašyti sudėtingą tekstą paprasta kalba"
+  },
+  "tip_bookmark": {
+    "message": "Išsaugoti užrašinėje: Pažymėti pasirinktą tekstą"
+  },
+  "tip_highlight": {
+    "message": "Paryškinti tekstą (Alt+H)"
   }
 }

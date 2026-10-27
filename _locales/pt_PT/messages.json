@@ -2567,5 +2567,20 @@
   },
   "t_24a23176": {
     "message": "Contexto original"
+  },
+  "tip_define": {
+    "message": "Esclarecimento rápido: Consultar a definição da palavra selecionada"
+  },
+  "tip_decode": {
+    "message": "Descodificador de jargão: Explicar termos técnicos na seleção"
+  },
+  "tip_simplify": {
+    "message": "Simplificar texto: Reescrever a seleção complexa em linguagem simples"
+  },
+  "tip_bookmark": {
+    "message": "Guardar no caderno: Guardar o texto selecionado nos marcadores"
+  },
+  "tip_highlight": {
+    "message": "Destacar texto (Alt+H)"
   }
 }

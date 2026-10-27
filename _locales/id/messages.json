@@ -2567,5 +2567,20 @@
   },
   "t_24a23176": {
     "message": "Konteks Asli"
+  },
+  "tip_define": {
+    "message": "Klarifikasi Cepat: Cari definisi kata yang dipilih"
+  },
+  "tip_decode": {
+    "message": "Dekoder Jargon: Jelaskan istilah teknis dalam pilihan"
+  },
+  "tip_simplify": {
+    "message": "Sederhanakan Teks: Tulis ulang teks rumit dengan bahasa sederhana"
+  },
+  "tip_bookmark": {
+    "message": "Simpan ke Buku Catatan: Buat bookmark teks yang dipilih"
+  },
+  "tip_highlight": {
+    "message": "Sorot teks (Alt+H)"
   }
 }

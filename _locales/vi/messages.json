@@ -2567,5 +2567,20 @@
   },
   "t_24a23176": {
     "message": "Ngữ cảnh gốc"
+  },
+  "tip_define": {
+    "message": "Giải thích nhanh: Tra cứu định nghĩa của từ được chọn"
+  },
+  "tip_decode": {
+    "message": "Giải mã thuật ngữ: Giải thích các thuật ngữ kỹ thuật trong phần chọn"
+  },
+  "tip_simplify": {
+    "message": "Đơn giản hóa văn bản: Viết lại đoạn văn phức tạp bằng ngôn ngữ dễ hiểu"
+  },
+  "tip_bookmark": {
+    "message": "Lưu vào sổ tay: Đánh dấu văn bản đã chọn"
+  },
+  "tip_highlight": {
+    "message": "Làm nổi bật văn bản (Alt+H)"
   }
 }

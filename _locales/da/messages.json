@@ -2567,5 +2567,20 @@
   },
   "t_24a23176": {
     "message": "Oprindelig kontekst"
+  },
+  "tip_define": {
+    "message": "Hurtig forklaring: Slå definitionen af det valgte ord op"
+  },
+  "tip_decode": {
+    "message": "Jargon-dekoder: Forklar tekniske termer i markeringen"
+  },
+  "tip_simplify": {
+    "message": "Forenkl tekst: Omskriv kompleks markering til et letforståeligt sprog"
+  },
+  "tip_bookmark": {
+    "message": "Gem i notesbog: Bogmærk den valgte tekst"
+  },
+  "tip_highlight": {
+    "message": "Fremhæv tekst (Alt+H)"
   }
 }

@@ -2567,5 +2567,20 @@
   },
   "t_24a23176": {
     "message": "Algne kontekst"
+  },
+  "tip_define": {
+    "message": "Kiirselgitus: Otsi valitud sõna definitsiooni"
+  },
+  "tip_decode": {
+    "message": "Žargooni dekodeerija: Selgita valikus olevaid tehnilisi termineid"
+  },
+  "tip_simplify": {
+    "message": "Lihtsusta teksti: Kirjuta keeruline valik ümber lihtsas keeles"
+  },
+  "tip_bookmark": {
+    "message": "Salvesta märkmikku: Lisa valitud tekst järjehoidjatesse"
+  },
+  "tip_highlight": {
+    "message": "Tõsta tekst esile (Alt+H)"
   }
 }

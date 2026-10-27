@@ -2565,6 +2565,21 @@
   "t_24a23176": {
     "message": "Sākotnējais konteksts"
   },
+  "tip_define": {
+    "message": "Ātrs skaidrojums: Meklēt izvēlētā vārda definīciju"
+  },
+  "tip_decode": {
+    "message": "Žargona atkodētājs: Paskaidrot tehniskos terminus atlasē"
+  },
+  "tip_simplify": {
+    "message": "Vienkāršot tekstu: Pārrakstīt sarežģītu atlasi vienkāršā valodā"
+  },
+  "tip_bookmark": {
+    "message": "Saglabāt piezīmju grāmatiņā: Pievienot izvēlēto tekstu grāmatzīmēm"
+  },
+  "tip_highlight": {
+    "message": "Iezīmēt tekstu (Alt+L)"
+  },
   "t_4c1c1e76": {
     "message": "Piezīmju grāmatiņas importēšana"
   },

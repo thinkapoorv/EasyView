@@ -2562,6 +2562,21 @@
   "t_24a23176": {
     "message": "Original Context"
   },
+  "tip_define": {
+    "message": "Quick Clarify: Look up definition of selected word"
+  },
+  "tip_decode": {
+    "message": "Jargon Decoder: Explain technical terms in selection"
+  },
+  "tip_simplify": {
+    "message": "Simplify Text: Rewrite complex selection in plain language"
+  },
+  "tip_bookmark": {
+    "message": "Save to Notebook: Bookmark selected text"
+  },
+  "tip_highlight": {
+    "message": "Highlight text (Alt+L)"
+  },
   "t_4c1c1e76": {
     "message": "Notebook Import"
   },

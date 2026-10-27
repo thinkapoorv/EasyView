@@ -1925,6 +1925,21 @@
   "js_1f9b7c": {
     "message": "Highlight"
   },
+  "tip_define": {
+    "message": "Quick Clarify: Look up definition of selected word"
+  },
+  "tip_decode": {
+    "message": "Jargon Decoder: Explain technical terms in selection"
+  },
+  "tip_simplify": {
+    "message": "Simplify Text: Rewrite complex selection in plain language"
+  },
+  "tip_bookmark": {
+    "message": "Save to Notebook: Bookmark selected text"
+  },
+  "tip_highlight": {
+    "message": "Highlight text (Alt+L)"
+  },
   "js_ldr_m1_ch": {
     "message": "}!@#%*&^"
   },

@@ -2565,6 +2565,21 @@
   "t_24a23176": {
     "message": "Izvorni kontekst"
   },
+  "tip_define": {
+    "message": "Hitra pojasnitev: Poiščite definicijo izbrane besede"
+  },
+  "tip_decode": {
+    "message": "Dekodirnik žargona: Pojasnite tehnične izraze v izbiri"
+  },
+  "tip_simplify": {
+    "message": "Poenostavi besedilo: Prepišite zapleteno besedilo v preprost jezik"
+  },
+  "tip_bookmark": {
+    "message": "Shrani v beležnico: Zaznamujte izbrano besedilo"
+  },
+  "tip_highlight": {
+    "message": "Označi besedilo (Alt+L)"
+  },
   "t_4c1c1e76": {
     "message": "Uvoz beležnice"
   },

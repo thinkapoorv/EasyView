@@ -2565,6 +2565,21 @@
   "t_24a23176": {
     "message": "Muktadha Asilia"
   },
+  "tip_define": {
+    "message": "Ufafanuzi wa Haraka: Tafuta maana ya neno lililochaguliwa"
+  },
+  "tip_decode": {
+    "message": "Kisimbuaji Misimu: Eleza istilahi za kiufundi katika sehemu iliyochaguliwa"
+  },
+  "tip_simplify": {
+    "message": "Rahisisha Maandishi: Andika upya maandishi magumu kwa lugha rahisi"
+  },
+  "tip_bookmark": {
+    "message": "Hifadhi kwenye Daftari: Weka alama kwenye maandishi uliyochagua"
+  },
+  "tip_highlight": {
+    "message": "Angazia maandishi (Alt+L)"
+  },
   "t_4c1c1e76": {
     "message": "Uingizaji wa Daftari"
   },

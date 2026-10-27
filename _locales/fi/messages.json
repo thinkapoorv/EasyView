@@ -2565,6 +2565,21 @@
   "t_24a23176": {
     "message": "Alkuperäinen asiayhteys"
   },
+  "tip_define": {
+    "message": "Pikaselitys: Etsi valitun sanan määritelmä"
+  },
+  "tip_decode": {
+    "message": "Ammattikielen purkaja: Selitä valinnan tekniset termit"
+  },
+  "tip_simplify": {
+    "message": "Yksinkertaista tekstiä: Kirjoita monimutkainen teksti selkokielellä"
+  },
+  "tip_bookmark": {
+    "message": "Tallenna muistikirjaan: Lisää valittu teksti kirjanmerkkeihin"
+  },
+  "tip_highlight": {
+    "message": "Korosta teksti (Alt+L)"
+  },
   "t_4c1c1e76": {
     "message": "Muistikirjan tuonti"
   },

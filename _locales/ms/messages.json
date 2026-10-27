@@ -2565,6 +2565,21 @@
   "t_24a23176": {
     "message": "Konteks Asal"
   },
+  "tip_define": {
+    "message": "Penjelasan Pantas: Cari definisi perkataan yang dipilih"
+  },
+  "tip_decode": {
+    "message": "Penyahkod Jargon: Terangkan istilah teknikal dalam pilihan"
+  },
+  "tip_simplify": {
+    "message": "Permudahkan Teks: Tulis semula teks rumit dalam bahasa mudah"
+  },
+  "tip_bookmark": {
+    "message": "Simpan ke Buku Nota: Tanda buku teks yang dipilih"
+  },
+  "tip_highlight": {
+    "message": "Sorot teks (Alt+L)"
+  },
   "t_4c1c1e76": {
     "message": "Import Buku Nota"
   },

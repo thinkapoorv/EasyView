@@ -2565,6 +2565,21 @@
   "t_24a23176": {
     "message": "Původní kontext"
   },
+  "tip_define": {
+    "message": "Rychlé vyjasnění: Vyhledat definici vybraného slova"
+  },
+  "tip_decode": {
+    "message": "Dekodér žargonu: Vysvětlit technické výrazy ve výběru"
+  },
+  "tip_simplify": {
+    "message": "Zjednodušit text: Přepsat složitý výběr do srozumitelného jazyka"
+  },
+  "tip_bookmark": {
+    "message": "Uložit do zápisníku: Uložit vybraný text do záložek"
+  },
+  "tip_highlight": {
+    "message": "Zvýraznit text (Alt+L)"
+  },
   "t_4c1c1e76": {
     "message": "Import poznámkového bloku"
   },

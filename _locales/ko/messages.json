@@ -2565,6 +2565,21 @@
   "t_24a23176": {
     "message": "원본 문맥"
   },
+  "tip_define": {
+    "message": "빠른 정의: 선택한 단어의 뜻 찾기"
+  },
+  "tip_decode": {
+    "message": "전문 용어 해설: 선택 영역의 전문 용어를 쉽게 설명"
+  },
+  "tip_simplify": {
+    "message": "텍스트 단순화: 복잡한 문장을 쉬운 말로 다시 작성"
+  },
+  "tip_bookmark": {
+    "message": "노트에 저장: 선택한 텍스트 북마크"
+  },
+  "tip_highlight": {
+    "message": "텍스트 강조 (알트+L)"
+  },
   "t_4c1c1e76": {
     "message": "노트북 가져오기"
   },

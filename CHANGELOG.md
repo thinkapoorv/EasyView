@@ -4,6 +4,23 @@ All notable changes to EasyView will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [1.1.1.8] - 2026-10-24
+
+### Added
+- **Selection Toolbar Action Hints & Tooltips**: Added descriptive hover tooltips across all selection toolbar buttons (Define, Decode, Simplify, Bookmark, and Highlight) explaining exactly what each action does.
+- **Localized Highlighter Shortcut Key**: The Highlight tooltip includes the keyboard shortcut directly in the localized sentence across all 55 languages, using native script representations (e.g., `(ऑल्ट+एच)` in Hindi, `(Альт+H)` in Russian/Serbian, `(ألت+H)` in Arabic).
+- **Color Swatch Tooltips**: Added color label hints on hover for the highlight color swatches (Yellow, Green, Blue, Pink).
+- **Dynamic Full-Text Hover Tooltips for Truncated UI Elements**: Added real-time hover hints (`title`) on auth buttons, settings actions, and tabs. If any button or label is truncated with an ellipsis (`...`) in any language, hovering instantly reveals the complete, unabbreviated text in the active language.
+
+### Fixed
+- **Jargon Decoder & Toolbar Actions Scope Resolution**: Resolved block-scoping in `jargon-decoder.js` that caused Define and Decode toolbar buttons and popup toggles to fail silently. Key functions are now explicitly exported to `window` for reliable cross-script discovery.
+- **Simplification Page Persistence Auto-Restore**: Added a cache check at content script boot to auto-load text simplification when cached simplifications exist for the visited page, restoring modified text seamlessly on revisit.
+- **Dynamic Language Selector Click & Active State**: Fixed a closure bug where the previously selected language (such as English) became unresponsive to clicks due to a frozen load-time comparison. The selector now dynamically tracks active language, correctly toggling `.active` indicators and allowing instant language re-selection.
+- **Admin Broadcast Banner Content Preservation**: Resolved an issue where live admin broadcast messages were overwritten with the generic placeholder (`"System notification"` / `"सिस्टम सूचना"`) during real-time language switches. Dynamic broadcast text is now safeguarded against DOM translation overwrites.
+- **Tab Bar Internationalization Layout & Text Bleed**: Resolved a critical bug where long translated tab labels (e.g., Latvian, German, Russian) were compressed into narrow ~65px columns by rigid flex constraints (`flex: 1 1 0; min-width: 0`), causing text across adjacent tabs to bleed and overlap. Rebuilt the tab navigation bar with fluid `min-width: max-content`, smooth horizontal scrolling with hidden scrollbars, active tab auto-centering (`scrollIntoView`), elevated `BETA` superscript badge positioning, and mouse-wheel horizontal scrolling.
+- **Controls Header Bar Horizontal Overflow**: Made the upper controls bar (Theme toggle, Dyslexia Font, S/M/L size picker, Tour, Sticky Note, and Settings icon) horizontally scrollable with hidden scrollbars and trackpad/mouse-wheel support, preventing the Settings button and action icons from being pushed offscreen when localized labels expand.
+- **Settings Panel & Profile Card Layout Constraints**: Resolved horizontal container clipping on localized profile cards (such as Malayalam). Constrained `.profile-actions` with matching widths for `Manage Subscription` and `Logout`, protected the 2-column settings grid with `minmax(0, 1fr)`, and anchored accordion chevron arrows so all elements stay aligned, legible, and visible.
+
 ## [1.1.1.7] - 2026-10-20
 
 ### Added

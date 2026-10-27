@@ -2565,6 +2565,21 @@
   "t_24a23176": {
     "message": "Ursprünglicher Kontext"
   },
+  "tip_define": {
+    "message": "Schnelle Klärung: Definition des ausgewählten Wortes nachschlagen"
+  },
+  "tip_decode": {
+    "message": "Jargon-Dekodierer: Technische Begriffe in der Auswahl erklären"
+  },
+  "tip_simplify": {
+    "message": "Text vereinfachen: Komplexe Auswahl in einfache Sprache umschreiben"
+  },
+  "tip_bookmark": {
+    "message": "Im Notizbuch speichern: Ausgewählten Text als Lesezeichen speichern"
+  },
+  "tip_highlight": {
+    "message": "Text hervorheben (Alt+L)"
+  },
   "t_4c1c1e76": {
     "message": "Notizbuch-Import"
   },

@@ -2565,6 +2565,21 @@
   "t_24a23176": {
     "message": "Contexte original"
   },
+  "tip_define": {
+    "message": "Éclaircissement rapide : Rechercher la définition du mot sélectionné"
+  },
+  "tip_decode": {
+    "message": "Décodeur de jargon : Expliquer les termes techniques dans la sélection"
+  },
+  "tip_simplify": {
+    "message": "Simplifier le texte : Réécrire la sélection complexe en langage clair"
+  },
+  "tip_bookmark": {
+    "message": "Enregistrer dans le bloc-notes : Mettre le texte sélectionné en signet"
+  },
+  "tip_highlight": {
+    "message": "Surligner le texte (Alt+L)"
+  },
   "t_4c1c1e76": {
     "message": "Importation de carnet"
   },

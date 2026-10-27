@@ -2565,6 +2565,21 @@
   "t_24a23176": {
     "message": "Oryginalny kontekst"
   },
+  "tip_define": {
+    "message": "Szybkie wyjaśnienie: Sprawdź definicję zaznaczonego słowa"
+  },
+  "tip_decode": {
+    "message": "Dekoder żargonu: Wyjaśnij terminy techniczne w zaznaczeniu"
+  },
+  "tip_simplify": {
+    "message": "Uprość tekst: Przepisz złożony tekst na prosty język"
+  },
+  "tip_bookmark": {
+    "message": "Zapisz w notatniku: Dodaj zaznaczony tekst do zakładek"
+  },
+  "tip_highlight": {
+    "message": "Wyróżnij tekst (Alt+L)"
+  },
   "t_4c1c1e76": {
     "message": "Import notatnika"
   },

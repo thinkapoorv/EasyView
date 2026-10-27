@@ -2565,6 +2565,21 @@
   "t_24a23176": {
     "message": "Opprinnelig kontekst"
   },
+  "tip_define": {
+    "message": "Rask forklaring: Slå opp definisjonen av det valgte ordet"
+  },
+  "tip_decode": {
+    "message": "Sjargong-dekoder: Forklar tekniske termer i markeringen"
+  },
+  "tip_simplify": {
+    "message": "Forenkle tekst: Omskriv kompleks tekst til enkelt språk"
+  },
+  "tip_bookmark": {
+    "message": "Lagre i notatblokk: Bokmerk den valgte teksten"
+  },
+  "tip_highlight": {
+    "message": "Uthev tekst (Alt+L)"
+  },
   "t_4c1c1e76": {
     "message": "Import av notatbok"
   },

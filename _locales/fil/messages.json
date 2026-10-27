@@ -2565,6 +2565,21 @@
   "t_24a23176": {
     "message": "Orihinal na Konteksto"
   },
+  "tip_define": {
+    "message": "Mabilisang Paglilinaw: Hanapin ang kahulugan ng napiling salita"
+  },
+  "tip_decode": {
+    "message": "Decoder ng Jargon: Ipaliwanag ang mga teknikal na termino sa pinili"
+  },
+  "tip_simplify": {
+    "message": "Pasimplehin ang Teksto: Isulat muli ang mahirap na teksto sa simpleng salita"
+  },
+  "tip_bookmark": {
+    "message": "I-save sa Notebook: I-bookmark ang napiling teksto"
+  },
+  "tip_highlight": {
+    "message": "I-highlight ang teksto (Alt+L)"
+  },
   "t_4c1c1e76": {
     "message": "Pag-import ng Notebook"
   },

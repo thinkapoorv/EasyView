@@ -2565,6 +2565,21 @@
   "t_24a23176": {
     "message": "原始上下文"
   },
+  "tip_define": {
+    "message": "快速釋義：查詢選取單詞的定義"
+  },
+  "tip_decode": {
+    "message": "術語解碼：解釋選取文字中的專業技術術語"
+  },
+  "tip_simplify": {
+    "message": "簡化文字：以通俗易懂的語言重寫複雜選區"
+  },
+  "tip_bookmark": {
+    "message": "儲存到筆記本：收藏選取的文字"
+  },
+  "tip_highlight": {
+    "message": "醒目標示文字 (Alt+L)"
+  },
   "t_4c1c1e76": {
     "message": "筆記匯入"
   },

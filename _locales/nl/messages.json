@@ -2565,6 +2565,21 @@
   "t_24a23176": {
     "message": "Originele context"
   },
+  "tip_define": {
+    "message": "Snelle verduidelijking: Zoek de definitie van het geselecteerde woord op"
+  },
+  "tip_decode": {
+    "message": "Jargon-decoder: Technische termen in de selectie uitleggen"
+  },
+  "tip_simplify": {
+    "message": "Tekst vereenvoudigen: Herschrijf complexe selectie in duidelijke taal"
+  },
+  "tip_bookmark": {
+    "message": "Opslaan in notitieblok: Geselecteerde tekst markeren/opslaan"
+  },
+  "tip_highlight": {
+    "message": "Tekst markeren (Alt+L)"
+  },
   "t_4c1c1e76": {
     "message": "Notitieblok importeren"
   },

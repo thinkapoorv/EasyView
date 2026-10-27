@@ -2565,6 +2565,21 @@
   "t_24a23176": {
     "message": "Context original"
   },
+  "tip_define": {
+    "message": "Aclariment ràpid: cerca la definició de la paraula seleccionada"
+  },
+  "tip_decode": {
+    "message": "Descodificador de jerga: explica els termes tècnics de la selecció"
+  },
+  "tip_simplify": {
+    "message": "Simplifica el text: reescriu la selecció complexa en un llenguatge senzill"
+  },
+  "tip_bookmark": {
+    "message": "Desa al quadern: afegeix a les adreces d'interès el text seleccionat"
+  },
+  "tip_highlight": {
+    "message": "Ressalta el text (Alt+L)"
+  },
   "t_4c1c1e76": {
     "message": "Importació de quadern"
   },

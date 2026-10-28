@@ -4,6 +4,21 @@ All notable changes to EasyView will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.1.1.9] - 2026-10-27
+
+### Added
+- **Real-Time Cross-Tab Sticky Notes Synchronization**: Sticky notes now synchronize instantly across all open browser tabs, the extension popup, and the full-screen Notes Board (`sticky-board.html`) without requiring manual page reloads.
+- **Typing Focus Protection during Live Sync**: When working on the Notes Board, incoming storage updates from other tabs automatically refresh counts and new cards in the background without disturbing active textarea focus or disrupting your in-progress writing.
+
+### Fixed
+- **Notes Board Initial Load Gate Bug (`sticky-board.html`)**: Resolved a race condition where opening the Notes Board rendered completely blank (no notes and no empty states). The workspace initialization was previously gated on an internationalization event that had already fired during document parse; `loadWorkspace()` now runs immediately on DOM ready while preserving real-time language updates.
+- **Sticky Notes Counter Clobbering Bug in Popup & Notes Board**: Resolved a race condition where the Sticky Notes widget in the popup (`GLOBAL: 0`, `SITE/PAGE: 0`) and on the Notes Board showed `0` notes despite notes existing. Dynamic count elements (`#statGlobalCount`, `#statLocalCount`, `#global-count`, `#local-count`) are now safeguarded from being overwritten by translation routines across all 55 supported languages.
+- **Pin Menu "Site-Wide" Placement Bug**: Fixed a placement mapping bug in the sticky note pin menu where selecting "Site" (🌐 Website-Wide) mistakenly set the note to route-specific spatial mode. Selecting "Site" now correctly marks the note as `site` and propagates it across all pages of the current domain.
+- **Global & Cross-Tab Data Overwrite Protection**: Overhauled `saveStickies()` with an additive merge architecture and explicit deletion tracking. Notes created in other tabs or domains are now seamlessly preserved during background saves instead of being overwritten by a single tab's memory state.
+- **Permanent Deletion Immunity**: Notes deleted in any tab or from the Notes Board are now tracked with a session deletion ledger, ensuring deleted notes are removed cleanly across all open tabs and preventing them from reappearing during multi-tab background merges.
+- **Instant In-Page Sticky Notes Localization & Tooltip Hot-Swap**: Switching languages in the popup now instantly hot-swaps all sticky notes and interactive hints on active browser tabs without requiring a page refresh. All relative timestamps (e.g., "Just now" ➔ "Upravo sada"), action button tooltips/hints (Pin, Palette, Drag Handle, Collapse, Copy, Delete), color swatches, custom color picker labels, scope dropdown items, and the spatial Placement HUD update in real time.
+
 ## [1.1.1.8] - 2026-10-24
 
 ### Added

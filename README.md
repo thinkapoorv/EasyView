@@ -6,7 +6,7 @@
   <h3><i>See the web your way.</i></h3>
   <br>
 
-  [![Version: 1.1.1.6](https://img.shields.io/badge/Version-1.1.1.6-000000?style=for-the-badge&logo=vercel)](#)
+  [![Version: 1.1.1.9](https://img.shields.io/badge/Version-1.1.1.9-000000?style=for-the-badge&logo=vercel)](#)
   [![Platform](https://img.shields.io/badge/Platform-15%2B%20Browsers-0055FF?style=for-the-badge)](https://easyview.in/)
   [![Website](https://img.shields.io/badge/Website-EasyView.in-0055FF?style=for-the-badge)](https://easyview.in/)
 

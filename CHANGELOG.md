@@ -5,6 +5,15 @@ All notable changes to EasyView will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.2] - 2026-11-11
+
+### Added
+- **Instant Cross-Tab Privacy Shield Synchronization**: Integrated `chrome.storage.onChanged` listener in `content-privacy-shield.js` to ensure toggling Privacy Shield (via popup, keyboard shortcut, or screen share detection) synchronizes immediately across all open tabs without requiring tab refresh.
+- **Enhanced Chat Media Privacy**: Increased blur intensity (up to 16px) on chat images, media canvases, stickers, and video previews to prevent media contents from being decipherable until explicitly hovered.
+
+### Fixed
+- **WhatsApp Web Modern Avatar & Profile Picture Blur**: Resolved an issue where modern chat row avatars (using dynamic CSS variable wrappers) were bypassed by privacy blur rules. Added precise target selectors covering modern list items, chat row avatars, and sender profile pictures in group chat messages (`[data-testid="group-chat-profile-picture"]`) with seamless hover reveal.
+
 ## [1.1.1.9] - 2026-10-27
 
 ### Added
